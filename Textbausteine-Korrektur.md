@@ -1,7 +1,7 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "2019-06-07"
+date: "2019-06-24"
 
 
 
@@ -219,7 +219,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 - \- Die Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben) ist teilweise unpassend (zu groß oder zu klein). 
 - \- Die Seitenränder sind zu klein gewählt; d. h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender. 
 - \- Es wurde an einer oder mehreren Stellen ein typografisch falsches Apostroph-Zeichen verwendet. Das korrekterweise zu setzende Apostroph-Zeichen "'" wird häufig mit einem der Betonungszeichen Akut (´) oder Gravis (`) verwechselt -– beide eingebbar über die Taste "´". Wenn sich die Zeichen auch optisch ähneln mögen, sind sie doch nicht gleich in ihrer Bedeutung. 
-- \- Der Hinweis "Seite" vor der Angabe der Seitenzahl birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.
+
 
 
 - \- Zwischen Abkürzungen wie "d. h." oder "z. B." ist ein Leerzeichen zu setzen; das gleiche gilt für Prozentzahlen: z. B. 95 %. Diese Formatierung entspricht der Rechtschreibung laut Duden und DIN 5008. Idealerweise ist es ein sog. \*geschütztes Leerzeichen\* zu verwenden (so dass Trennung zwischen den Bestandteilen vermieden wird). Besser noch sollte es sich um ein "kurzes" (geschütztes) Leerzeichen handeln (in der Typografie spricht man in dem Fall von einem Achtel-Geviert). Dieser Punkt wurde in der vorliegenden Arbeit nicht komplett berücksichtigt.
@@ -236,6 +236,15 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 - \- Hinter der  hintersten Ziffer in der Nummerierung einer Überschrift sollte kein Punkt gesetzt werden (falsch: "2.2.2. Theorie X"; richtig: "2.2.2 Theorie X").
 
 
+### Paginierung
+
+- \- Der Hinweis "Seite" vor der Angabe der Seitenzahl birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.
+
+- \- Auf der Titelseite soll keine Seitenzahl ausgewiesen werden.
+
+- \- Der Hauptteil einer Arbeit soll mit arabischen, nicht römischen, Zahlen ausgewiesen werden.
+
+
 
 ### Kursivsatz vs. Anführungszeichen
 
@@ -243,11 +252,13 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 - \- Für die Einführung neuer Begriffe ist der Begriff kursiv zu setzen (beim ersten Auftreten des Begriffes im Text). Dieser Punkt wurde in der vorliegenden Arbeit nicht (durchgängig) berücksichtigt.
 
-- Fachbegriffe, die neu im Text eingeführt werden, sind beim ersten Anführen kursiv zu setzen. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
+- \-Fachbegriffe, die neu im Text eingeführt werden, sind beim ersten Anführen kursiv zu setzen. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
-- Erwahnt man den Namen eines Messinstruments, etwa *Mindfulness Attention and Awareness Scale*, so sollte der Name beim ersten Anführen kursiv gesetzt sein.
+- \- Erwähnt man den Namen eines Messinstruments, etwa *Mindfulness Attention and Awareness Scale*, so sollte der Name beim ersten Anführen kursiv gesetzt sein.
 
-- Antwortoptionen einer psychometrischen Skala sollen kursiv gesetzt sein, etwa: "Die Items waren mittels einer vierstufigen Likertskala zu beantworten mit den Stufen von 1 (*stimme überhaupt nicht zu*) bis 4 (*stimme voll und ganz zu*).
+- \-Antwortoptionen einer psychometrischen Skala sollen kursiv gesetzt sein, etwa: "Die Items waren mittels einer vierstufigen Likertskala zu beantworten mit den Stufen von 1 (*stimme überhaupt nicht zu*) bis 4 (*stimme voll und ganz zu*).
+
+- \- Statistische Symbole wie $n = 200$ oder $SD = 1.23$ sollten kursiv gesetzt sein; für griechische Buchstaben gilt dies nicht. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
 
 
@@ -301,12 +312,22 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
-### Lesbarkeit -- Kommentare {#lesbarkeit}
+### Lesbarkeit  {#lesbarkeit}
 
 - \+ Die Arbeit verwendet vergleichsweise kurze Zeilen im Sinne von wenig Buchstaben/Zeichen pro Zeile. Das erhöht die Lesbarkeit des Textes in sinnvoller Weise.
 
 
 - \- Seitenzahlen fehlen; das erschwert die Orientierung bzw. den Überblick zu behalten.
+
+
+
+### Klammersetzung und Auslassungszeichen
+
+- \- Zu Beginn oder zum Ende eines Zitats sind keine *Auslassungzeichen* zu setzen (und auch nicht in Klammern).
+- \- Möchte man *innerhalb eines Zitats* eine Auslassung markieren, so verwendet man Auslassungszeichen (...). Diese sind laut APA/DGPs *ohne eckige oder runde Klammern* zu setzen.
+- \- Runde Klammern sind laut APA primär für Einschübe im Text zu verwenden.
+- \- Eckige Klammern sind laut APA primär für Konfidenzintervalle zu verwenden. Außerdem können Sie für Erklärungen innerhalb eines Zitats verwendet werden. Schließlich können eckige Klammern verwendet werdne, um schon mit Runden Klammern eingefasste Stellen zu kennzeichnen (Ausnahme: Statistiken, die Klammern enthalten, werden nicht durch weitere Klammern eingefasst).
+
 
 
 
@@ -387,14 +408,16 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 - \- Der Genitiv wird im Deutschen ohne Apostroph gebildet (nicht Cohen's d", sondern Cohens d).
 - \- Fremdsprachige Wörter oder Neologismen sollten nicht in Anführungsstriche gesetzt werden, sondern kursiv gedruckt werden (nicht: "predictive modeling", sondern \*predictive modeling\*).
 - \- Ganze Sätze sollten immer mit einem Punkt beendet werden; das gilt auch für Aufzählungen.
-- \- Die unterschiedliche Verwendung von Bindestrich (- kurz) und Gedankenstrich(-- lang) wurde nicht (immer) korrekt erkannt.
+- \- Die unterschiedliche Verwendung von **Bindestrich** (- kurz) und **Gedankenstrich**(-- lang) wurde nicht (immer) korrekt erkannt.
 - \- Kein Komma vor "sowie" kommt, wenn "sowie" anstelle von "und" verwendet wird. 
 - \- Verwendet man den Schrägstrich um (zusammengehörige) Wörter zu gruppieren (z.B. CSU/CDU, Männer und/oder Frauen,  Wintersemester 2016/2017), so sollte zwischen den Wörter kein Leerzeichen gelassen werden (Duden D 156). Auf keinen Fall sollte nur an einer Seite des Schrägstrichs ein Leerzeichen gelassen werden (falsch ist also: "CSU/CDU" oder "CSU /CDU").
+- \- Formuliert man eine Frage, so muss diese mit einem Fragezeichen abschließen.
 
 
 ### Hinweise zu Komposita
 
 - \- Komposita  (zusammengesetzte Nomen) werden im Deutschen zusammen- oder mit Bindestrich geschrieben -- aber nicht in einzeln Wörter aufgetrennt, was in der vorliegenden Arbeit nicht durchgehend beachtet wurde (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
+- \- Koppelt man Komposita  (zusammengesetzte Nomen) mit Bindstrich, so ist vor oder nach dem Bindstrich kein Leerzeichen zu setzen (richtig: "R-Syntax", falsch: "R - Syntax").
 
 
 
@@ -846,6 +869,7 @@ Gleiches gilt für das Literaturverzeichnis.
 - \- Die Hypothesen sind unpräzise (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (signifikant) unterscheiden, so sollte die zugehörige H0 etwa lauten: "Mittelwert von Gruppe A gleich Mittelwert von Gruppe B"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
 ### Stringenz
+
 - \+ Ein Pfaddiagramm zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
 - \+ Die Hypothesen waren konkret, spezifisch; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die Stärke dieses Zusammenhangs in der Alternativhypothese vermerkt.
 - \+ Die Hypothesen leiten sich stringent aus dem Theorieteil ab.
@@ -1104,6 +1128,8 @@ Gleiches gilt für das Literaturverzeichnis.
 
 - \- Simulationsbasierte Verfahren wäre eine sinnvolle Ergänzung in der vorliegenden Analyse gewesen, fehlen aber.
 
+- \- Gerade im Hinblick zu den (möglicherweise) verletzten Annahmen, die "klassische" Verfahren (wie der t-Test) benötigen, wären simulationsbasierte Verfahren eine sinnvolle Ergänzung oder Alternative gewesen.
+
 - \- Es wurden nicht angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt; stattdessen wurden falsche bzw. nicht angebrachte oder nicht optimale statistische Verfahren ausgewählt.
 
 - \- Multivariate Auswertungsverfahren wären eine sinnvolle Ergänzung gewesen, fehlen aber (ganz oder teilweise) bzw. sind nicht im Hauptteil dokumentiert (Beispiel: Die Korrelationsanalysen oder einfache Regressionsanalysen wären durch eine multiple Regression gut ergänzt worden. So wäre es z. B. möglich gewesen, den Einfluss einzelner Variablen vom Einfluss anderer Variablen zu "befreien"). Der Vorteil multivariater Verfahren wie etwa der multiplen Regressionsanalyse liegt in ihrer Fähigkeit, den "wahren" Einfluss eines Prädiktors besser zu bestimmen, als dies etwa mehrere einfache Regressionsanalysen (mit nur jeweils einem Prädiktor) leisten. Die multiple Regression hilft, etwaige "Überschneidungen" von Variablen bzw. "Nettoeffekte" einzelner Variablen zu bestimmen.
@@ -1269,7 +1295,7 @@ Gleiches gilt für das Literaturverzeichnis.
 
 - \- Die Arbeit ist in einigen Aspekten von falsch verstandenen Sicherheit bzw. Übergewissheit geprägt. Das heißt, dass aus den Analysen eine Sicherheit abgeleitet wird, die die Daten bzw. die verwendeten Modelle nicht hergeben. Insgesamt sollten Sie vorsichtiger formulieren.
 
-- \- Die Ergebnisse einer Analyse sollten nicht (automatisch) für bare Münze genommen werden, im Sinne von "das Modell hat die Wirklichkeit fotografiert", sondern eher als ein "das Modell unterstützt die Hypothese  XXX ", "laut Modell gibt es einen Zusammenhang zwischen XXX" bzw. "es konnte kein Zusammenhang gefunden werden", "die Analyse lieferte keinen Beleg für einen Zusammenhang blablabla".
+- \- Die Ergebnisse einer Analyse sollten nicht (automatisch) für bare Münze genommen werden, im Sinne von "das Modell hat die Wirklichkeit fotografiert", sondern eher als ein "das Modell unterstützt die Hypothese  XXX ", "laut Modell gibt es einen Zusammenhang zwischen XXX" bzw. "es konnte kein Zusammenhang gefunden werden", "die Analyse lieferte keinen Beleg für einen Zusammenhang XXX".
 
 - \- Anstelle von Formulierungen "es besteht folglich (k)ein Einfluss von X auf Y" hätten besser Formulierungen wie "die Daten unterstützen XXX" oder "es konnte kein Hinweis auf YYY gefunden werden".
 
@@ -1648,7 +1674,7 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 - \- Titel, Forschungsfrage/Hypothesen und Theorieteil passen teilweise zueinander.
 - \- Titel, Forschungsfrage/Hypothesen und Theorieteil passen nicht zueinander.
 
-- \ Titel, Forschungsfrage/Hypothesen und Datenanalyse passen nur bedingt zusammen.
+- \- Titel, Forschungsfrage/Hypothesen und Datenanalyse passen nur bedingt zusammen.
 
 - \- Im Theorieteil wird versäumt, auf alle Aspekte, die in der Forschungsfrage/den Forschungsfragen vorkommen, einzugehen.
 
@@ -1698,6 +1724,7 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 
 - \- Im Theorieteil sind prototypisch drei Aspekte zu erörtern: 1) Die UV, 2) die AV und 3) der (kausale) Zusammenhang von UV und AV. In der vorliegenden Arbeit wurde es versäumt, einen dieser drei Aspekte zu erörtern (nämlich 3., den (kausalen) Zusammenhang von UV und AV). 
+
 - \- Ergebnisse und Diskussion sind strikt zu trennen - die Arbeit hält dies nicht durchgängig durch. Der Ergebnisteil berichtet Fakten; die Diskussion tut das nicht. In der Diskussion wird über Fakten gesprochen. Damit ist die Diskussion deutlich subjektiver als der Ergebnisteil. In der Wissenschaft versucht man, Fakten von Meinungen deutlich zu trennen, da es sich um grundverschieden Dinge handelt.
 - \- Grundlegende methodische Verfahren sollten hier nicht erläutert werden.
 
@@ -1705,7 +1732,7 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 - \- Anstatt von "technischen" Variablennamen wie "xkcd_42_trmp" sollten besser sprechende Variablennamen verwendet werden wie "Experimentalgruppe" oder "Anzahl richtiger Wörter".
 
-- \- Hinweise wie "durch umfangreiche Recherchen und Analysen erreichte die Arbeit blablabla" sind nicht angebracht; in einer Arbeit sollte aus wissenschaftlich-nüchterne Weise berichtet werden. Es widerspricht dem Duktus wissenschaftlichen Schreibens a) global-unspezifisches Vorgehen anstelle von genauer Beschreibung anzuführen, b) die eigene Arbeit (frühzeitig) zu loben und c) durch Adjektive Emphasis herauszukehren anstelle von sachlicher Erörterung.
+- \- Hinweise wie "durch umfangreiche Recherchen und Analysen erreichte die Arbeit XXX" sind nicht angebracht; in einer Arbeit sollte aus wissenschaftlich-nüchterne Weise berichtet werden. Es widerspricht dem Duktus wissenschaftlichen Schreibens a) global-unspezifisches Vorgehen anstelle von genauer Beschreibung anzuführen, b) die eigene Arbeit (frühzeitig) zu loben und c) durch Adjektive Emphasis herauszukehren anstelle von sachlicher Erörterung.
 
 - \- Die Argumentationsweise der vorliegenden Arbeit ist stellenweise von kausalen Aussagen zur Forschungsfrage geprägt: "Die Ergebnisse bestätigen, dass X sich auf Y auswirkt". Allerdings lässt theoretischer und/oder empirischer Aufbau der Arbeit keine solchen starken Aussagen zu. Wissen über die Grenzen der eigenen (empirischen) Analyse - im positiven wie im negativen Sinne - sind essenzielle Kompetenz im wissenschaftlichen Arbeiten. Entsprechendes wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
 
@@ -1946,6 +1973,8 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 - \- Es findet sich mind. ein Pleonasmus im Text ("weißer Schimmel"; z. B. "geistige Reflexion").
 
+- \- Ein sachlicher Bericht, und das ist eine wissenschaftliche Seminararbeit, sollte auf Adjektive verzichten, da Adjektive mitunter einen nüchternen Beschreibung im Wege stehen. So sollte man vermeiden, von der "ausführlichen Recherche" oder der "genauen Beschreibung", die man durchgeführt habe, zu sprechen.
+
 
 ## Reflexion/Diskussion {#diskussion}
 
@@ -2016,6 +2045,8 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 - \- Der Diskussion der Schwächen der Arbeit ist ein eigener Absatz zu widmen, da diesem Teil eine große Bedeutung zukommt. Dieser Punkt wurde in der vorliegenden Arbeit nicht berücksichtigt.
 
 - \- Im Gegensatz zum Großteil des Textes einer wissenschaftlichen Arbeit, bespricht der Abschnitt zu den Limitationen der Arbeit keine Fachinhalte, noch wird über das Vorgehen des Forschers infromiert. Stattdessen wird über das Vorgehen des Forschers, über die "Handwerksarbeit" des vorliegenden Forschungsbericht geschrieben. Insofern ist es ein besonderer Abschnitt, der aber von großer Wichtigkeit für die Qualität eines Forschungsberichtes ist.
+
+- \- Ein substanzielles, alldieweil oft vernachlässigtes Problem von Forschung mittels Fragebogen ist es, dass die Konstrukte oft semantisch stark überlappen: "Ich nehme unangenehme Erfahrung an" (Achtsamkeit), "Schwierigkeiten sehe ich gelassen entgegen ..." (Optimismus) und "Ich bin mit meinem Leben zufrieden" (Lebenszufriedenheit). So könnte ein Zusammenhang in den Antwortmustern der Respondenten alleine schon auf diese semantischen Überlappungen zurückzuführen sein, unabhängig von der Validität der Konstrukte. Diese Möglichkeit bzw. sollte einem Autor bewusst sein bzw. er oder sie sollte explizieren, dass das Problem bekannt ist.
 
 ### Sonstiges
 
@@ -2120,6 +2151,11 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 - \- Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die Definition der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
 
 
+## Praxistransfer
+
+- \+ Die Arbeit weist einen wohl ausgeearbeiteten und umfangreichen Transfer in die (berufliche) Praxis auf.
+
+- \- Der Arbeit fehlt der formal geforderte Transfer in die berufliche Praixs.
 
 
 
