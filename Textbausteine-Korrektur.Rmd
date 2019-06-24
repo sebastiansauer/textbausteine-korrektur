@@ -441,8 +441,13 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 - \+ Die Zitationsweise im Text ist insgesamt konsistent und fehlerfrei.
 - \+ Die Zitationsweise im Text ist ist fast immer konsistent und fehlerfrei. Gleiches gilt für das Literaturverzeichnis.
 - \+ Die Zitationsweise im Text ist ist insgesamt konsistent und fehlerfrei.
+- \+ Die Zitationsweise im Text ist insgesamt gut.
 Gleiches gilt für das Literaturverzeichnis.
 - \+ Abbildungen und/oder Tabellen wurden korrekt referenziert (nach APA oder Hochschul-Richtlinien).
+
+
+- \+- Die Zitationsweise im Text ist befriedigend bis gut.
+
 
 - \- Die Zitationsweise im Text weist einige Fehler auf.
 - \- Es findet sich eine substanzielle Zahl an Fehlern in den Zitationen.
@@ -1600,7 +1605,7 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 - \- Der Titel der Arbeit ist sehr lang und damit nicht sehr eingängig.
 - \- Der Titel der Arbeit ist zu vage/unpräzise oder nicht griffig genug.
-- \- Der Titel der ARbiet ist sehr kurz und damit nicht präzise genug.
+- \- Der Titel der Arbeit ist sehr kurz und damit nicht präzise genug.
 - \- Es fehlt ein Titel.
 
 - \- Besser wäre der Titel noch, wenn die Art der Studie berichtet werden würde ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine Beobachtungsstudie").
