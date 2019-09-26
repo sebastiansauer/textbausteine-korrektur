@@ -346,9 +346,8 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 - \- Der erste Absatz nach einer Überschrift ist nicht einzurücken (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). 
 
 
-- \- Absätze sollten länger als ein Satz sein; vermeiden Sie Absätze mit nur einem Satz.
 
-- \- Absätze sollten länger als ein Satz sein; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist.
+- \- Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch kurze Absätze.
 
 
 - \- Jedes (Haupt-)kapitel beginnt auf einer neuen Seite. Das Gleiche gilt für Abstract, Anhang und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
@@ -423,7 +422,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 - \- Der Abstract *enthält nicht alle nötigen Informationen* (z. B. Methode oder Ergebnisse der Studie sind bruchstückhaft dargestellt).
 - \- Der Abstract enthält *unnötige* Informationen; er ist nicht (durchgängig) prägnant formuliert.
-- \- Der Abstract ist* zu lang* gemessen an der Zahl der Wörter.
+- \- Der Abstract ist *zu lang* gemessen an der Zahl der Wörter.
 
 - \- Der Abstract *sollte direkt nach der Titelseite*, noch vor den Verzeichnissen, eingeordnet sein. Dies ist in der vorliegenden Arbeit nicht der Fall.
 - \- Der Abstract sollte sich in *Abfolge und Inhalt am Haupttext* orientieren; die Aufgabe des Abstracts ist es, das Verständnis des Textes im Überblick zu erleichtern. Dieser Aufgabe wird der Abstract im vorliegenden Fall nicht oder nicht in gutem Maße gerecht.
@@ -440,6 +439,8 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 - \- Der Abstract versäumt es, auf die *zugrundeliegende Theorie *(d.h. die Erklärung im Sinne von Ursachen und/oder Randbedingungen) der Forschungsfrage einzugehen. Forschungsfragen und/oder Hypothesen sollten aber nicht im "*luftleeren*" Raum stehen, sondern durch eine Theorie erklärt werden. Lautet zum Beispiel die Forschungsfrage "A führt zu B", so sollte eine Theorie herangezogen werden, um zu erklären a) warum A zu B führt, b) unter welchen Umständen (Randbedingungen) A zu B führt oder vermittelt über welche Prozesse A zu B führt. Die Theorie zu detaillieren (und mit empirischen Belegen glaubhaft zu machen) ist dann Aufgabe des Theorieteils. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausführlich genug) berücksichtigt.
 
+- \- Hinweise in der Diskussion oder im Abstract der Art *"weitere Forschung ist sinnvoll"*, "das Thema sollte weiter untersucht werden" etc. sind gering informativ; es gibt kaum eine Studie, bei der sich dieser Passus nicht anböte. Daher sollte dieser Hinweis unterbleiben bzw. (besser) durch eine *Präzisierung* der nun angeratenen Forschung ersetzt werden.
+
 
 
 ## Ethik (xxethik) {#ethik}
@@ -452,6 +453,12 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 - \- Ethische Aspekte in Bezug auf die Datenerhebung (wie Anonymität und Rechte der Versuchsperson) wurden *nicht (ausreichend)* oder nicht an der richtigen Stelle im Text diskutiert und/oder nicht angemessen umgesetzt.
 - \- So wurde zwar in sinnvoller Weise auf Anonymität der Untersuchung eingegangen, allerdings fehlen weitere Hinweise wie Aufklärung der Versuchspersonen über Ziele und über etwaige Risiken und Nebenwirkungen der Teilnahme. Außerdem wären weitere Hinweise zum Datenschutz sinnvoll gewesen, fehlen aber.
+
+
+
+
+
+
 
 
 ## Rechtschreibung/Grammatik (xxrecht) {#rechtschreibung}
@@ -623,10 +630,10 @@ Gleiches gilt für das Literaturverzeichnis.
 - \- *Internetquellen* sollten - wie jede Quelle - mit Namen des Autors und dem Erscheinungsjahr zitiert werden.
 - \- *Online-Fachzeitschriften* sind *nicht* als *Internetquelle*, sondern als Fachzeitschrift zu führen, da sie alle Vorgaben einer Fachzeitschrift erfüllen und letztere die stärkere Quellenart darstellt.
 - \- Im *Literaturverzeichnis* finden sich *nicht zitierte Quellen*, was als deutlicher formaler Fehler zu werten ist.  
-- \- Akademische Grade sind nicht anzuführen (z. B. im Literaturverzeichnis).
+- \- *Akademische Grade sind nicht anzuführen* (dies gilt auch für das Literaturverzeichnis).
 - \- Es ist nach APA nur ein Literaturverzeichnis für alle Arten von Quellen zu erstellen, nicht mehrere Verzeichnisse. Dies wurde in der vorliegenden Arbeit nicht beachtet.
 - \- *Typische Fehler in Literaturverzeichnissen* beinhalten das Auslassen des Verlagortes, der Seitenzahl, falsche Groß- und Kleinschreibung, falsche Darstellung von Kapiteln in Herausgeberwerken. 
-- \- Im Literaturverzeichnis sind genau die zitierten Literaturstellen anzuführen. Es sollen keine nicht-zitierten Werke im Literaturverzeichnis erscheinen; es sollen keine zitierten Werke nicht im Literaturverzeichnis erscheinen. Die vorliegende Arbeit hält dies nicht ein.
+- \- Im Literaturverzeichnis sind *genau die zitierten Literaturstellen anzuführen (nicht mehr, nicht weniger)*. Es sollen keine nicht-zitierten Werke im Literaturverzeichnis erscheinen; es sollen keine zitierten Werke nicht im Literaturverzeichnis erscheinen. Die vorliegende Arbeit hält dies nicht ein.
 - \- Laut den Richtlinien zur Manuskriptgestaltung der DGPs (2016) wird die *"Heftnummer nur dann,* wenn die Paginierung jedes Heftes mit der Seitenzahl Eins beginnt, unmittelbar nach der Bandangabe in Klammern (im Literaturverzeichnis() hinzugefügt" (S. 116).
 - \- Bei der Zitation von Kapiteln aus Herausgeberwerken im Literaturverzeichnis sind die Editoren zu benennen; das wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
 
@@ -636,13 +643,15 @@ Gleiches gilt für das Literaturverzeichnis.
 
 - \- Laut APA/DPGs ist ab der zweiten Zeile einer Zitation im Literurverzeichnis einzurücken (5-7 Leerzeichen; *"hängender Einzug"*). Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
 
-- \- Laut APA/DGPs sind *Seitenzahlen* im Literaturverzeichnis bei Monografien nicht anzugeben; bei Buchkapiteln aus Herausgeberwerken, bei Zeitschriftenartikeln oder Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
+- \- Laut APA/DGPs sind *Seitenzahlen* im Literaturverzeichnis bei Monografien nicht anzugeben; bei *Buchkapiteln* aus Herausgeberwerken, bei Zeitschriftenartikeln oder Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
 
-- \- Laut APA/DGPs ist im Literaturverzeichnis die Abkürzung "S." für Seite (bzw. "p") nicht bei Fachartikeln anzugeben; bei Buchkapiteln aus Herausgeberwerken oder bei Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
+- \- Laut APA/DGPs ist im Literaturverzeichnis die *Abkürzung "S." für Seite* (bzw. "p") nicht bei Fachartikeln anzugeben; bei Buchkapiteln aus Herausgeberwerken oder bei Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
 
 - \- Laut APA (6. Auflage) ist das *Abrufdatum einer Online-Quelle* nicht zu nennen. Gerade bei einem nachprüfbaren Publikation wie einem Fachartikel spielt das Abrufdatum keine Rolle (genauso wenig wie das Ausleihdatum eines gedruckten Buches aus einer Bücherei von Relevanz ist).
 
-- \- Laut APA (6. Auflage) sind in der Zitation im Literatverzeichnis beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
+- \- Laut APA (6. Auflage) sind in der Zitation im *Literatverzeichnis* beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
+
+- \- Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Titel) zu überschreiben, aber *nicht zu nummerieren*.
 
 
 #### Literaturverzeichnis - Beispiele/Blaupausen von Zitaten nach Typen
@@ -650,7 +659,7 @@ Gleiches gilt für das Literaturverzeichnis.
 `---`
 
 
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für Monografien sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
+- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Monografien* sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
 
   - American Psychological Association. (2010). *\Publication manual of the American Psychological Association\* (6th ed.). Washington, DC: Author.
   
@@ -659,20 +668,20 @@ Gleiches gilt für das Literaturverzeichnis.
   - Cohen, J. (1988). *\Statistical power analysis for the behaviaral sciences\* (2nd ed.). Hillsdale, NJ: Erlbaum.
   
 
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für Zeitschriftenartikel sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
+- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Zeitschriftenartikel* sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
 
   - Gschwendner, T., Hofmann, W. & Schmitt, M. (2006). Moderatoren der Konsistenz implizit und explizit erfasster Einstellungen und Persönlichkeitsmerkmale. \*Psychologische Rundschau\*, 57, 13–33. http://dx.doi.org/10.1026/0033-3042.57.1
   
   - Keselman, H. J., Huberty, C. J., Lix, L. L., Olejnik, S., Cribbie, R. A., Donohue, B. et al. (1998). Statistical practices of educational researchers: An analysis of their ANOVA, MANOVA, and ANCOVA analyses. \*Review of Educational Research, 68\*, 350–386.
   
   
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für Buchkapitel (d.h. Beiträge aus Herausgeberwerken) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
+- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Buchkapitel* (d.h. Beiträge aus Herausgeberwerken) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
 
   - Döbert, F. & Nunner-Winkler, G. (1984). Abwehr- und Bewältigungsprozesse in normalen und kritischen Lebenssituationen. In E. Olbrich & E. Todt (Hrsg.), \*Probleme des Jugendalters. Neuere Sichtweisen \*(S. 259–295). Berlin: Springer.
   - Bem, D. J. (2004). Writing the empirical journal article. In J. M. Darley, M  P. Zanna & H. L. Roediger III (Eds.), \*The compleat academic: A career guide. 2nd ed.\*(pp. 185–219). Washington, DC: American Psychological Association. http://dx.doi.org/10.1017/cbo9780511807862.002
   
   
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) von elektronischen Dokumenten (inkl. Webseiten) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
+- \- Beispiele für korrekte Zitationen (laut APA/DGPs) von *elektronischen Dokumenten* (inkl. Webseiten) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
   
   - Autor, A. A. & Autor B. B. (Jahr). Titel [ggf. Art des Formats, z.B. PDF-Datei]. Retrieved from https://www.someaddress.com/full/url/
   
@@ -903,6 +912,26 @@ Gleiches gilt für das Literaturverzeichnis.
 
 ## Design der Studie (xxdesign) {#studiendesign}
 
+
+
+
+### Interne Validität des Designs (xxintval)
+
+- \+ Das Design zeichnet sich durch hohe interne Validität aus.
+
+
+`---`
+
+
+- \+- Das Design zeichnet sich weder durch eine besonders hohe, noch durch eine in besonderem Maße eingeschränkte interne Validität aus (z. B. querschnittliche Korrelationsstudie).
+
+- \- Das Design zeichnet sich durch *geringe* interne Validität aus.
+
+
+
+
+
+
 ### Anspruch des Designs
 
 
@@ -914,7 +943,7 @@ Gleiches gilt für das Literaturverzeichnis.
 - \+ Der Versuchsaufbau ist *"handwerklich" gut* gestaltet.
 - \+ Es wurde eine *Pilotstudie* durchgeführt, was zur Güte des Designs (potenziell) beiträgt.
 
-- \+- Das Design der Studie ist von* mittlerer (befriedigender) Komplexität oder Güte*.
+- \+- Das Design der Studie ist von *mittlerer (befriedigender) Komplexität oder Güte*.
 
 - \- Die *methodische Raffinesse* des Versuchsplan ist eher *einfach/gering*.
 - \- Das *Versuchsdesign* zeichnet sich durch einen eher geringen Umfang oder eine *eher geringe Komplexität* aus (z. B. nur zwei Variablen in einer Zusammenhangshypothese).
@@ -958,19 +987,6 @@ Gleiches gilt für das Literaturverzeichnis.
 NUR QUALI:
 
 - \- Die Durchführung bzw. das Setting der Studie sowie mögliche *Interaktionen* von Forschendem/r und Forschungssubjekten hätte stärker thematisiert werden können. Könnten existierende Sym- oder Antipathien die Interaktion in eine bestimmte Richtung beeinflusst haben? Welches Vorwissen und Thesen (Meinungen) vertrat der oder die Forschende, welche implizit eingingen? Was waren die Erwartungen aller Beteiligten und wie wirkten sich diese auf den Verlauf der Untersuchung aus? Etc.
-
-
-### Interne Validität des Designs
-- \+ Das Design zeichnet sich durch hohe interne Validität aus.
-
-
-`---`
-
-
-- \+- Das Design zeichnet sich weder durch eine besonders hohe, noch durch eine in besonderem Maße eingeschränkte interne Validität aus (z. B. querschnittliche Korrelationsstudie).
-
-- \- Das Design zeichnet sich durch *geringe* interne Validität aus.
-
 
 
 ### Maßnahmen zur Sicherstellung der internen Validität
@@ -1029,10 +1045,16 @@ NUR QUALI:
 
 - \- Werden psychologische Konstrukte gemessen, so *bedarf es i.d.R. validierter Messinstrumente* zur Operationalisierung. Diesem Sachverhalt wurde in der vorliegenden Arbeit nicht ausreichen Rechnung getragen.
 
-- \- Die Messinstrumente sollten in einem *eigenen Abschnitt namens "Messinstrumente"* o.Ä. berichtet werden. 
+- \- Die Messinstrumente sollten in einem *eigenen Abschnitt namens "Messinstrumente"* o.Ä. berichtet werden. Diese Regel gilt auch, wenn keine psychometrischen Maße verwendet wurden, sondern z.B Verhaltensbeobachtungen durchgeführt wurden.
 
 - \- Aufgrund der zentralen Bedeutung der Messinstrumente *sind diese genau zu schildern*. Bei psychometrisch fundierten Fragebogen und ähnlichen Instrumenten sind z.B. die Items im Anhang aufzuführen (oder als zweitbeste Alternative auf eine offene URL zu verweisen) und im Haupttext einige Items beispielhaft zu zitieren. Wird eine Variable nur mit einem Item (per Selbstauskunft) erhoben (z.B. "Wie glücklich sind Sie heute?" oder "Wie viele Zigaretten haben Sie gestern geraucht?") so sind diese Items im Haupttext zu zitieren.
 
+
+
+## Stimuli (xxstimuli)
+
+
+- Für den Stimulus wurde eine sehr kleine Stichprobe erhoben, aber es wurden Aussagen für die Grundgesamtheit der betreffenden Stimuli gemacht. Der Grundsatz, dass von einer Personen-Stichprobe nicht ohne Weiteres auf die Grundgesamtheit geschlossen werden kann, sondern dass Größe und Zufälligkeit (Repräsentativität) eine entscheidende Rolle spielen, gilt auch für Stimuli-Stichproben. Beispiel: Eine Studie untersucht, ob Professoren als "freundlich" gesehen werden. Als Beispiel für Professoren wird nur ein Stimulus gewählt, nämlich ein Foto von Professor Süß. Die große Personenstichprobe bewertet das Foto (die Person darauf, Prof. Süß) als wenig freundlich. Kann jetzt geschlossen werden, dass Professoren allgemein als wenig freundlich beurteilt werden? Dieser Schlüsse würde vorschnell übergeneralisieren. Eine größere Stichprobe an Stimuli (mehrere vergleichbare, kontrollierte Professorenfotos) wären für eine solche Generlaisierung nötig. Vgl. Wells, G. L., & Windschitl, P. D. (1999). Stimulus sampling and social psychological experimentation. *Personality and Social Psychology Bulletin, 25*(9), 1115-1125.
 
   
 
@@ -1067,10 +1089,14 @@ NUR QUALI:
 `---`
 
 
-- \- Die Hypothesen wurden formal nicht immer korrekt spezifiziert oder fehlen (teilweise).
+- \- Die Hypothesen wurden *formal nicht immer korrekt spezifiziert oder fehlen* (teilweise).
+
+- \- Die *Nullhypothese* und/oder die Alternativhypothese wurde nicht korrekt spezifiziert.
+
 
 - \- H0 und H1 wurden nicht immer korrekt spezifiziert.
-- \- Eine Hypothese sollte i.d.R. die Form "Wenn A, dann B" aufweisen (oder "Je mehr A, desto mehr B"). Hat aber eine Hypothese die Form "Wenn A, dann B und C" und findet man bei Vorliegen von A nur B, aber nicht C, so ist unklar, ob die Hypothese bestätigt ist oder nicht (streng genommen ist sie es nicht). Zur Klarheit empfielt es sich, letztere Hypothese in zwei Hypothesen aufzutrennen ("A -> B" und "A -> C"). Dieser Punkt wurde in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
+
+- \- Eine Hypothese sollte i.d.R. die Form "Wenn A, dann B" aufweisen (oder "Je mehr A, desto mehr B"). Hat aber eine Hypothese die Form *"Wenn A, dann B und C"* und findet man bei Vorliegen von A nur B, aber nicht C, so ist unklar, ob die Hypothese bestätigt ist oder nicht (streng genommen ist sie es nicht). Zur Klarheit empfielt es sich, letztere Hypothese in zwei Hypothesen aufzutrennen ("A -> B" und "A -> C"). Dieser Punkt wurde in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
 
 ### Ableitung aus Theorie
@@ -1099,30 +1125,34 @@ NUR QUALI:
 
 ### Präzision
 
-- \+ Ein Pfaddiagramm zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
-- \+ Die Hypothesen waren konkret, spezifisch; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die Stärke dieses Zusammenhangs in der Alternativhypothese vermerkt.
-- \+ Die Hypothesen wurden klar (eindeutig, operational) formuliert.
+- \+ Ein *Pfaddiagramm* zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
+- \+ Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die* Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
+- \+ Die Hypothesen wurden *klar (eindeutig, operational)* formuliert.
 
 `---`
 
 
-- \- Ein Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen durch den Leser erleichtert, fehlt aber.
-- \- Einige oder alle Hypothesen sollten operationaler definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
-- \- Die Hypothesen werden als ungerichtet berichtet; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
-- \- Die Hypothesen sollten konkreter sein.
+- \- Ein *Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen für den Leser erleichtert*, fehlt aber.
+- \- Einige oder alle Hypothesen *sollten operationaler* definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
+- \- Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
+- \- Die Hypothesen *sollten konkrete*r sein.
 - \- Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
-- \- Die Hypothesen sind unpräzise (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (signifikant) unterscheiden, so sollte die zugehörige H0 etwa lauten: "Mittelwert von Gruppe A gleich Mittelwert von Gruppe B"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
+- \- Die Hypothesen sind unpräzise (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (signifikant) unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
+
+
+
 
 ### Sonstige Fehler
-- \- Es fehlen multivariate Modelle (z. B. mit mehreren Prädiktoren); stattdessen wurden die Prädiktoren auf einzelne Analysen (z. B. einfache Regression, d. h. mit einem Prädiktor) aufgeteilt. Warum ist es besser, mit multivariaten Hypothesen zu arbeiten?
+
 - \- Für jede einzelne Hypothese soll eine eigene, eigenständige H0 angenommen werden. Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
+
 - \- Die Hypothesen werden nicht an richtiger Stelle aufgeführt.
 
 
-- \- H0 und H1 wurden verwechselt.
+- \- *H0 und H1 wurden verwechselt*.
 - \- Die H0 braucht bei der Auflistung der Hypothesen nicht eigens formuliert zu werden (sofern sie sich komplementär zur H1 ergibt).
 
-- \- Die Hypothesen waren (ganz oder teilweise) ungerichtet formuliert, obwohl eine gerichtete Hypothese sinnvoll gewesen wäre.
+- \- Die Hypothesen waren (ganz oder teilweise) ungerichtet formuliert, *obwohl eine gerichtete Hypothese sinnvoll gewesen* wäre.
 
 
 
@@ -1236,7 +1266,9 @@ NUR QUALI:
 `+++`
 
 - \+ Es wurden durchgängig *angemessene Verfahren* der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
-- \+ Es wurden *meistens* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
+- \+ Es wurden *im Großen und Ganzen* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
++ Es wurden *meistens* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
+
 
 - \+ Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet,z. B. *simulationsbasierte Inferenz, SBI* o. Ä..
 - \+ Es wurden (*in Teilen*) moderne bzw. sinnvolle Methoden der Datenanalyse verwendet (z. B. *simulationsbasierte Inferenz, SBI*).
@@ -1393,17 +1425,19 @@ NUR QUALI:
 
 - \- Leider war die gewählte Farbpalette nicht gut für S/W-Druck geeignet. Der Sättigungswert der Farben hätte besser variiert werden müssen. Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>).
 
-#### Achsen und Legenden von Abbildungen
-- \+ Die Achsen der Diagramme wurden sinnvoll beschriftet.
-- \+ Die Achsen der Diagramme wurden (zumeist) sinnvoll beschriftet.
+#### Achsen, Labels und Legenden von Abbildungen
+- \+ Die Achsen der Diagramme wurden *sinnvoll beschriftet*.
+- \+ Die Achsen der Diagramme wurden *(zumeist) sinnvoll beschrifte*t.
 
-- \+- Die Achsen der Diagramme wurden nur teilweise oder nicht klar verständlich (z. B. in einer Abkürzung) beschriftet. Verständliche Achsenbeschriftungen (z. B. verständlicher, deutscher und nicht abgekürzter Variablenname). Ansonsten sind die Diagramme (für sich alleine stehend) schwer(er) zu verstehen.
+- \+- Die Achsen der Diagramme wurden *nur teilweise oder nicht (immer) klar verständlich* (z. B. in einer Abkürzung) beschriftet. Verständliche Achsenbeschriftungen (z. B. verständlicher, deutscher und nicht abgekürzter Variablenname). Ansonsten sind die Diagramme (für sich alleine stehend) schwer(er) zu verstehen.
 
 `---`
 
 
 - \- Die Legende von Diagrammen sollten das Diagramm erläutern (vgl. auch APA-/DGPs-Richtlinien).
 - \- Die Achsen von Diagrammen sollten mit *aussagekräftigen* bzw. *verständlichen*  Bezeichnungen versehen werden.
+
+- \- Die Beschriftungen der Ausprägungen der Achsen (Labels) ware *nicht durchgängig gut zu lesen* (z. B. überdeckten sich die Achsenlabels).
 
 
 
@@ -1515,17 +1549,17 @@ NUR QUALI:
 
 
 ### Voraussetzungen/Annahmen 
-- \+ Einige oder alle statistischen Voraussetzungen (Annahmen) der eingesetzten inferenzstatistischen Verfahren wurden geprüft (z. B. Test auf Normalverteilung).
+- \+ Einige oder alle statistischen *Voraussetzungen* (*Annahmen*) der eingesetzten inferenzstatistischen Verfahren wurden geprüft (z. B. Test auf Normalverteilung).
 
-- \- Wenn die Voraussetzungen für parametrische Verfahren nicht erfüllt sind, so können oft non-parametrische Verfahren eingesetzt werden.
+- \- Wenn die *Voraussetzungen* für parametrische Verfahren *nicht erfüllt* sind, so können oft *non-parametrische Verfahren* eingesetzt werden.
 
-- \- Der Shapiro-Wilk-Test ist ein sehr (zu) strenger Test für Normalverteilung und sollte zumindest durch andere, v.a. grafisch-explorative Methoden, ergänzt werden.
+- \- Der *Shapiro-Wilk-Test* ist ein sehr *(zu) strenger Test* für Normalverteilung und sollte zumindest durch andere, v.a. grafisch-explorative Methoden, ergänzt werden.
 
-- \- Es ist ein Irrglaube, dass große Stichproben alleine schon eine Normalverteilung implizieren. Auch eine große Stichprobe an z. B. Filmen wird keine Normalverteilung der Einnahmen aufzeigen.
+- \- Es ist ein *Irrglaube*, dass *große Stichproben* alleine schon eine *Normalverteilung* implizieren. Auch eine große Stichprobe an z. B. Filmen wird keine Normalverteilung der Einnahmen aufzeigen.
 
-- \- Laut Gelman und Hill (2014) ist die wichtigste Annahme der Regressionsanalyse, dass es keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
+- \- Laut Gelman und Hill (2014) ist die* wichtigste Annahme der Regressionsanalyse*, dass es *keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen*. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
 
-- \ Laut Box (1953) ist die Varianzanalyse robust gegenüber der Verletzung der Annahme gleicher Varianzen, wenn die Stichproben ähnlich groß sind (bis zu einen Faktor von 1.5): 
+- \ Laut Box (1953) ist die *Varianzanalyse robust gegenüber der Verletzung der Annahme gleicher Varianzen*, wenn die Stichproben ähnlich groß sind (bis zu einen Faktor von 1.5): 
 
     > "It has frequently been suggested that a test of homogeneity of variances should be applied
  before making an analysis of variance test ior homogeneity of means in which homogeneity
@@ -1543,17 +1577,19 @@ NUR QUALI:
  Demnach kann in diesen Fällen eine Varianzanalyse verwendet werden.
  
  
+- \- Der *t-Test ist robust gegenüber Verletzungen seiner Annahmen* (insbesondere der Normalverteilung), wenn die Stichprobe groß genug ist (> 30): "By the time the sample sizes reach 25 or 30, the approach should be close enough that one can, in effect, ignore the effects of violations of assump- tions except for extremes." (S. 63), Boneau, C. A. (1960). The effects of violations of assumptions underlying the t test. *Psychological bulletin*, 57(1), 49-64.
+
 
 
 ### p-Wert (xxpvalue) {#pvalue}
 
 `+++`
 
-- \+ Der p-Wert wird exakt erläutert bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass "Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt".
+- \+ Der p-Wert wird *exakt erläutert* bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass "Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt".
 
-- \+ Der p-Wert wird einigermaßen korrekt erläutert bzw. verwendet. Vollständig korrekt wäre etwa "Die Daten (und noch extremere) sind unwahrscheinlich, unter der Annahme, dass die H0 gilt".
+- \+ Der p-Wert wird *einigermaßen korrekt* erläutert bzw. verwendet. Vollständig korrekt wäre etwa "Die Daten (und noch extremere) sind unwahrscheinlich, unter der Annahme, dass die H0 gilt".
 
-- \+ Der p-Wert wird  korrekt erläutert bzw. verwendet.
+- \+ Der p-Wert wird  *korrekt erläutert* bzw. verwendet.
 
 
 
@@ -1563,19 +1599,20 @@ NUR QUALI:
 
 
 
-- \- Der p-Wert wird falsch berichtet bzw. verwendet.
+- \- Der p-Wert wird *falsch berichtet* bzw. verwendet.
 
 
-- \- Der p-Wert wird falsch erläutert bzw. verwendet.
+- \- Der p-Wert *wird falsch erläutert* bzw. verwendet.
 - \- Der p-Wert wurde für einige oder alle Inferenztest nicht berichtet.
 
-- \- Der p-Wert bzw. seine Bedeutung wurde nicht diskutiert (z. B. "da der p-Wert größer als alpha ist, wird die H0 beibehalten").
-- \- Da der p-Wert und - damit zusammenhängend - das Konzept des Nullhypothesen-Testen zu den zentralen Lernzielen gehört, ist ein Fehler bzw. Verständnislücken in diesem Bereich als gravierender Mangel einzuordnen.
+- \- Der *p-Wert bzw. seine Bedeutung wurde nicht interpretiert* (z. B. "da der p-Wert größer als alpha ist, wird die H0 beibehalten").
+
+- \- Da der p-Wert und - damit zusammenhängend - das Konzept des Nullhypothesen-Testen zu den zentralen Lernzielen gehört, ist ein Fehler bzw. Verständnislücken in diesem Bereich als *gravierender Mangel* einzuordnen.
 
 
-- \- Was heißt ein "signifikanter Einfluss" bzw. ein "signifikanter Zusammenhang", wie es in der vorliegenden Arbeit geschrieben wird? Dass der Einfluss (Zusammenhang) groß ist? Dass es wahrscheinlich ist, dass es einen gibt? Beides? Etwas anderes? Ist ein Einfluss kausal? Diese Fragen würden einer besseren Erklärung verdienen. Es sollte z. B. festgehalten werden, dass "statistische Signifikanz" eine Aussage der Inferenzstatistik ist und gewisse Evidenz gegen die H0 liefert und damit für die H1. Aus diesem Grund wird die H0 verworfen. Es ist aber nicht gesagt, dass der Effekt groß ist (also von praktischer Bedeutung); es ist nicht mal gesagt, dass die H0 wahrscheinlich falsch ist. Nur, dass die vorliegende Methode sich gegen die H0 ausspricht.
+- \- *Was heißt ein "signifikanter Einfluss" bzw. ein "signifikanter Zusammenhang"*, wie es in der vorliegenden Arbeit geschrieben wird? Dass der Einfluss (Zusammenhang) groß ist? Dass es wahrscheinlich ist, dass es einen gibt? Beides? Etwas anderes? Ist ein Einfluss kausal? Diese Fragen würden einer besseren Erklärung verdienen. Es sollte z. B. festgehalten werden, dass "statistische Signifikanz" eine Aussage der Inferenzstatistik ist und gewisse Evidenz gegen die H0 liefert und damit für die H1. Aus diesem Grund wird die H0 verworfen. Es ist aber nicht gesagt, dass der Effekt groß ist (also von praktischer Bedeutung); es ist nicht mal gesagt, dass die H0 wahrscheinlich falsch ist. Nur, dass die vorliegende Methode sich gegen die H0 ausspricht.
 
-- \- Findet sich in einer Analyse ein statistisch signifikanter Zusammenhang (Einfluss bzw. allgemeiner ein "Effekt"), so kann nicht (zwangsläufig) daraus geschlossen werden, dass es einen "echten" Effekt gibt. Die vorliegende Arbeit suggeriert aber diesen (falschen) Schluss. Findet man z. B. dass Babies und Störche "statistisch extrem signifikant" korreliert sind, so heißt das nicht, dass es in Wirklichkeit einen echten Zusammenhang zwischen beiden Größen geben muss.
+- \- p-Werte sollten *nicht im "technischen Format"* des Taschenrechners berichtet werd, also etwa nicht *"p = 2.2e-16"*, sondern "p < .001".
 
 
 ### Signifikanzniveau (Alpha)
@@ -1615,23 +1652,54 @@ NUR QUALI:
 
 - \- Es *wurden nicht für alle Hypothesen (ausreichend bzw. korrekt) hypothesenprüfende Verfahren* (wie die Berechnung eines p-Werts) eingesetzt. Dies wirft die Frage auf, ob das Konzept von (und der Grund für) inferenzstatistischen Verfahren verstanden wurde. Die Antwort auf die Frage kann zumindest nicht positiv beantwortet werden auf Basis der gezeigten Leistung (weil die Leistung nicht gezeigt wurde).
 
-- \- Die *Nullhypothese* und/oder die Alternativhypothese wurde nicht korrekt spezifiziert.
+
+- \- Hypothesen beziehen sich auf Grundgesamtheiten, von denen Stichproben (Datensätze) nur einen Ausschnitt zeigen. Daher kann über eine Hypothese nicht auf Grund der deskriptiven Statistik, d. h. der Beschaffenheit des Datensatzes allein, entschieden werden. Stattdessen ist ein Schluss auf die Grundgesamtheit vonnöten, was mittels Inferenzstatistik vorgenommen werden kann. Dies wurde in der vorliegenden Arbeit nicht verstanden. Dieses Manko ist als schwerwiegend einzustufen, da es fraglich ist, ob der Autor die zentrale Idee der Inferenzstatistik verstanden hat. Es sei dem Autor angeraten, über das Wozu der Inferenzstatistik noch einmal nachzudenken.
+
+- \- Testet man auf einen Mittelwertsunterschied (z. B. Einparkgeschwindigkeit von Männer vs. Frauen anhand eines t-Tests) und findet man ein signifikantes Ergebnis, so ist es nicht geboten, auf allgemeine Unterschiede zwischen den Gruppen zu schließen (z. B. "Männer parken schneller ein als Frauen"). Man kann höchstens resümieren, das das Ergebnis impliziert, dass sich die *Durchschnitte der Populationen unterschieden* (z. B. "Männer parken IM DURCHSCHNITT schneller ein als Frauen").
+
+
+- \- Leider zielt eine Hypothese in dieser Arbeit auf *Bestätigung einer Nullhypothese* ab, was in der Fisherschen Inferenzstatistik nicht möglich ist. 
+
+- \- *Alternativhypothesen werden nicht "beibehalten"*, das macht nur für Nullhypothesen sind, da diese getestet werden (im Gegensatz zu den Alternativhypothesen). Zwei Fälle können auftreten. Fall A): Verwirft man eine Nullhypothese, dann hat man Grund, sich zugunsten der HA zu *entscheiden*. Diese Entscheidung impliziert noch nicht, dass die HA bewiesen ist, also sicher wahr ist. Die Entscheidung impliziert noch nicht mal, dass man an HA glaubt. Aber, egal was man glaubt, entscheiden für eine Aktion muss man sich, und in dem Fall handelt man so, als ob die HA wahr ist (vielleicht ist sie das ja). Fall B): Kann man die H0 nicht verwerfen, so behält man sie bei. Sie ist "noch nicht verworfen", wie man sagt. Das heißt NICHT, dass die H0 (als wahr) bewiesen wurde. Nein. So könnte die Stichprobe zu klein gewesen sein, um die tatsächliche Wahrheit von HA festzustellen. Aber die Evidenzlage ist im Fall B nunmal so, dass wir nicht (mit genug Sicherheit) ausschließen können, dass H0 der Fall ist. Noch etwas präziser formuliert: Gilt die H0 wirklich (ist sie also warh), dann sind die vorliegenden Daten nicht unwahrscheinlich. Auf dieser Basis entscheidet man sich, so die "Spielregel" dieser Technik, weiterhin an die H0 zu glauben oder sich zumindest so zu verhalten, als ob sie wahr wäre. Kurz: Man entscheidet sich für die H0, man behält sie bei.
+
+
+
+**NICHT signifikantes** Ergebnis, Fehlinterpretationen:
+
 
 
 - \- "No evidence of effect" ist *nicht* "evidence of no effect".  Wird ein Signifikanztest nicht signifikant, so heißt das nicht (zwangsläufig), dass kein Effekt vorliegt! Vielleicht war die Stichprobe einfach zu klein. Dieser Sachverhalt wurde in der vorliegenden Arbeit nicht klar genug erkannt.
-- \- Es ist *nicht korrekt, bei nicht-signifikanten Ergebnissen die Alternativhypothese abzulehnen*. Besser ist es zu sagen, dass die Nullhypothese nicht verworfen werden konnte. Allerdings sind diese Feinheiten nicht umdiskutiert in Fachkreisen, so dass dieser Punkt nicht in die Bewertung einfließt.
+- \- Es ist *nicht korrekt, bei nicht-signifikanten Ergebnissen die Alternativhypothese abzulehnen*. Besser ist es zu sagen, dass die Nullhypothese *nicht verworfen werden konnte*.
+
+
 - \- Es wurden nicht für alle Hypothesen die Ergebnisse berichtet.
 
 - \- Die *Nullhypothese wird nicht angenommen*, da Datenlagen, die nicht statistisch signifikant sind, nicht nur mit der Nullhypothese, sondern auch mit vielen anderen Hypothesen kompatibel sind. Eine bessere Bezeichnung ist daher, die Nullhypothese würde "nicht verworfen" oder würde "beibehalten".
 - \- Da ein "nicht-signifikantes" Ergebnis nicht beweist, dass die H0 richtig ist, *sieht man besser von Aussagen wie "die H0 wurden akzeptiert/angenommen" ab*. Besser ist der Ausdruck "die H0 wurde nicht verworfen" oder "die H0 wurde beibehalten".
-- \- Ein signifikanter p-Wert beim Vergleich von Gruppen kann so interpretiert werden, dass sich die *Mittelwerte* (sic) der Gruppen unterscheiden. Zu sagen, dass "Gruppe 1 höhere Werte aufweist als Gruppe 2" hingegen ist unpräzise. Weil: Was meinen Sie mit "höheren Werte in Gruppe 1"? Jeder einzelne? Einige? Sicher meinen Sie den Mittelwert und nicht alle. Also lieber präzise sein!
-- \- Hypothesen beziehen sich auf Grundgesamtheiten, von denen Stichproben (Datensätze) nur einen Ausschnitt zeigen. Daher kann über eine Hypothese nicht auf Grund der deskriptiven Statistik, d. h. der Beschaffenheit des Datensatzes allein, entschieden werden. Stattdessen ist ein Schluss auf die Grundgesamtheit vonnöten, was mittels Inferenzstatistik vorgenommen werden kann. Dies wurde in der vorliegenden Arbeit nicht verstanden. Dieses Manko ist als schwerwiegend einzustufen, da es fraglich ist, ob der Autor die zentrale Idee der Inferenzstatistik verstanden hat. Es sei dem Autor angeraten, über das Wozu der Inferenzstatistik noch einmal nachzudenken.
-- \- Testet man auf einen Mittelwertsunterschied (z. B. Einparkgeschwindigkeit von Männer vs. Frauen anhand eines t-Tests) und findet man ein signifikantes Ergebnis, so ist es nicht geboten, auf allgemeine Unterschiede zwischen den Gruppen zu schließen (z. B. "Männer parken schneller ein als Frauen"). Man kann höchstens resümieren, das das Ergebnis impliziert, dass sich die *Durchschnitte der Populationen unterschieden* (z. B. "Männer parken IM DURCHSCHNITT schneller ein als Frauen").
-- \- Leider zielt eine Hypothese in dieser Arbeit auf *Bestätigung einer Nullhypothese* ab, was in der Fisherschen Inferenzstatistik nicht möglich ist. 
 
 
 - \- *Da die H0 getestet wurde, kann auch nur die H0 verworfen werden* -- nicht die H1. Dieser Sachverhalt wurde in der vorliegenden Arbeit nicht korrekt dargestellt. Analog wird die H0 bei statistisch nicht signifikanten Daten nicht angenommen, sondern nur nicht verworfen, oder beibehalten.
--
+
+
+
+**Signifikantes** Ergebnis, Fehlinterpretationen:
+
+
+
+- \- Ein *signifikanter p-Wert* beim Vergleich von Gruppen kann so interpretiert werden, dass sich die *Mittelwerte* (sic) der *Gruppen unterscheiden*. Zu sagen, dass "Gruppe 1 höhere Werte aufweist als Gruppe 2" hingegen ist unpräzise. Weil: Was meinen Sie mit "höheren Werte in Gruppe 1"? Jeder einzelne? Einige? Sicher meinen Sie den Mittelwert und nicht alle. Also lieber präzise sein!
+
+
+
+
+
+- \- Testet man, ob Gruppe "A" im Mittel höhere Werte in X aufweist als Gruppe "B" und findet man ein signifikantes Ergebnis, so *ENTSCHEIDET* man sich, sich so zu verhalten, als ob die Hypothese richtig ist. Wir können aber nicht sicher, sein, dass A wirklich höhere Wert hat als B -- in einigen Fällen werden wir z. B. einen Alpha-Fehler begangen haben. 
+
+
+- \- Findet sich in einer Analyse ein *statistisch signifikanter Zusammenhang* (Einfluss bzw. allgemeiner ein "Effekt"), so kann *nicht (zwangsläufig)* daraus geschlossen werden, dass es einen *"echten" Effekt* gibt. Die vorliegende Arbeit suggeriert aber diesen (falschen) Schluss. Findet man z. B. dass Babies und Störche "statistisch extrem signifikant" korreliert sind, so heißt das nicht, dass es in Wirklichkeit einen echten (also kausalen) Zusammenhang zwischen beiden Größen geben muss.
+
+
+
+
 
 ###  Ungewissheit/Übergewissheit -- Statistisches Denken (xxovercertain) {#overcertainty}
 
@@ -1643,7 +1711,13 @@ NUR QUALI:
 
 - \- Anstelle von Formulierungen "es besteht folglich (k)ein Einfluss von X auf Y" hätten *besser vorsichtigere Schlussfolgerungen zur Aussagekraft der Ergebnisse* wie "die Daten unterstützen XXX" oder "es konnte kein Hinweis auf YYY gefunden werden".
 
-- \- Testet man, ob Gruppe "A" im Mittel höhere Werte in X aufweist als Gruppe "B" und findet man ein signifikantes Ergebnis, so *ENTSCHEIDET* man sich, sich so zu verhalten, als ob die Hypothese richtig ist. Wir können aber nicht sicher, sein, dass A wirklich höhere Wert hat als B -- in einigen Fällen werden wir z. B. einen Alpha-Fehler begangen haben. 
+
+
+
+### Unterscheidung zw. Stichprobe und Population (xxestimate)
+
+
+- \- Schreibt eine Autorin z. B., dass die Ergebnisse ihrer Analyse aufzeigen, dass der Mittelwert in Gruppe X um 42 Punkte höher sei als in Gruppe Y, so stellt sich die Frage, ob die Aussage für die Stichrobe oder die Population gemeint ist. Die Analyse deutet im Allgemeinen darauf hin, dass die Stichprobe gemeint ist (dass also eine Statistik berichtet wurde), denn die Analyse der Stichprobendaten liefern genau den berichteten Wert (42). Allerdings ist die Aussage allgemein formuliert, so dass sie in diesem Sinne auf die Population anwendbar ist. Außerdem bezieht sich die Hypothese auf die Population, so dass man erwarten darf, dass berichtete Ergebnisse als Antworten zur Hypothese gemeint sind (und daher auf die Population abzielen, also Parameter berichten). Die *Unterscheidung von Statistiken und Parametern* ist wesentlich; das genaue Auseinanderhalten von Statistiken und Parametern ist auch ein wichtiges Indiz, ob und inwieweit eine Autorin die Grundlagen der (Inferenz-)Statistik durchdrungen hat. Gibt man Parameter an, so ist es sinnvoll, die Genauigkeit dieser Schätzung anzugeben, denn Angaben von *Parametern sind stets mit Unsicherheit behaftet*. Eine Studie untersucht stets nur einen Ausschnitt der Population und verallgemeinert dann zumeist auf die Population. Die Unsicherheit dieses Generalisierens sollte angegben sein. Denn: wie wertvoll ist eine Aussage, die eine Schätzung ist, wenn man die Genauigkeit der Schätzung verschwiegen wird? Auf eine Aussage ohne Angabe der Schätzgenauigkeit wird man sich nicht verlassen wollen, man wird die Aussage in vielen Fällen als wenig nützlich zurückweisen wollen. Auf diesen Aspekt ist in der vorliegenden Arbeit *suboptimal dargestellt* bzw. nicht (durchgängig bzw. in ausreichendem Maße) Rücksicht genommen worden.
 
 
 
@@ -1689,7 +1763,7 @@ NUR QUALI:
 
 
 
-### Skalenniveau {#skalenniveau}
+### Skalenniveau (xxskalen) {#skalenniveau}
 
 - \+ Die *Skalenniveaus* der untersuchten Variablen wurden *korrekt* benannt.
 
@@ -1947,9 +2021,11 @@ NUR QUALI:
 
 
 
-- \- Ein Abschnitt "Stand der Forschung", "Forschungsstand" o. Ä. ist nicht sinnvoll, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln?
+- \- Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln?
 
-- \- Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. nicht komplett treffend wieder.
+- \- Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. *nicht komplett treffend wider*.
+
+- \- Das *Inhaltsverzeichnis* sollte *alle Teile der Forschungsfrage* aufgreifen bzw. widerspiegeln. Lautet die Forschungsfrage etwa *"A führt zu B"*, so sind im Inhaltsverzeichnis für den Theorieteil (zumindest) *drei Unterkapitel* aufzuführen: A, B und der (möglicherweise kausale) Zusammenhang von A und B. Die vorliegende Arbeit berücksichtigt diesen Aspekt nicht ausreichend. 
 
 
 ### Gliederung -- Formatierung {#gliederungformat}
@@ -1965,28 +2041,31 @@ NUR QUALI:
 
 
 
-- \- Die Gliederung/das Inhaltsverzeichnis könnte optisch besser strukturiert sein. Dies kann u. a. durch Einrücken (horizontale Nähe und Distanz) und durch und Abstände zwischen Kapiteln (vertikalem Raum) erreicht werden (innerhalb der Unterkapitel eines Kapitels ist mehr vertikaler Raum zu lassen als zwischen zwei Kapiteln; die Kapitelgrenze ist durch zusätzlichem vertikalem Raum hervorzuheben). Das Ziel ist optisch zu verdeutlichen, welche Gedanken zur gleichen bzw. zu anderen Gruppen gehören (also einander näher oder weiter entfernt gedacht stehen). In der vorliegenden Arbeit wurden diese Aspekte nicht (komplett) berücksichtigt.
+- \- Die Gliederung/das Inhaltsverzeichnis könnte *optisch besser strukturiert* sein. Dies kann u. a. durch Einrücken (horizontale Nähe und Distanz) und durch und Abstände zwischen Kapiteln (vertikalem Raum) erreicht werden (innerhalb der Unterkapitel eines Kapitels ist mehr vertikaler Raum zu lassen als zwischen zwei Kapiteln; die Kapitelgrenze ist durch zusätzlichem vertikalem Raum hervorzuheben). Das Ziel ist optisch zu verdeutlichen, welche Gedanken zur gleichen bzw. zu anderen Gruppen gehören (also einander näher oder weiter entfernt gedacht stehen). In der vorliegenden Arbeit wurden diese Aspekte nicht (komplett) berücksichtigt.
 
-- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten linksbündig formatiert sein (ohne Einzug in der ersten Zeile).
-- \- Das Inhaltsverzeichnis sollte (bei so einer kurzen Arbeit) geschickterweise nur eine Seite lang sein.
-Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch bei "kleineren" Arbeiten erleichtert.
-- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten linksbündig formatiert sein.
-- \- Das Inhaltsverzeichnis sollte (bei so einer kurzen Arbeit) geschickterweise nur eine Seite lang sein.
+- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile).
+- \- Das Inhaltsverzeichnis sollte (bei so einer kurzen Arbeit) geschickterweise *nur eine Seite lang* sein.
 
-
-- \- Gliederungspunkte sollten stets mehr als einen Unterpunkt haben, ansonsten verzichtet man besser auf die untergeordnete Gliederungsebene.
+- \- Eine *Gliederung fehlt*; sie sollte stets vorhanden sein, da sie die Orientierung auch bei "kleineren" Arbeiten erleichtert.
+- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein.
 
 
+- \- Gliederungspunkte sollten stets *mehr als einen Unterpunkt haben*, ansonsten verzichtet man besser auf die untergeordnete Gliederungsebene.
 
 
-- \- Wären die Einträge des Inhaltsverzeichnis verlinkt gewesen (zu den entsprechenden Kapiteln im Hauptteil), so wäre ein flüssigeres, flotteres Lesen bzw. Rezipieren des Berichtes möglich gewesen; die "Leserfreundlichkeit" des Berichts wäre damit höher gewesen als es im vorliegenden Bericht der Fall ist.  Gleiches gilt für Zitationen und Referenzen auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
 
 
-- \- Vertikale Abstände im Text sollten so gesetzt sein, dass sie Sinnzusammenhänge wie Kapitel verdeutlichen. Daher sollte z. B. nach der Überschrift zum Text des Absatzes weniger Abstand sein als zwischen Absatzende und neuer Überschrift. In der vorliegenden Arbeit wurden die Abstände zwischen Sinnabschnitten nicht durchgehend sinnvoll gewählt.
+- \- Wären die Einträge des Inhaltsverzeichnis *verlinkt* gewesen (zu den entsprechenden Kapiteln im Hauptteil), so wäre ein flüssigeres, flotteres Lesen bzw. Rezipieren des Berichtes möglich gewesen; die "*Leserfreundlichkeit*" des Berichts wäre damit höher gewesen als es im vorliegenden Bericht der Fall ist.  Gleiches gilt für *Zitationen* und *Referenzen* auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
 
-- \- Der Abstract soll nicht in der Gliederung erscheinen.
 
-- \- Teile wie Literaturverzeichnis oder Anhang werden in der Gliederung nicht nummeriert. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
+- \- *Vertikale Abstände* im Text sollten so gesetzt sein, dass sie Sinnzusammenhänge wie Kapitel verdeutlichen. Daher sollte z. B. nach der Überschrift zum Text des Absatzes weniger Abstand sein als zwischen Absatzende und neuer Überschrift. In der vorliegenden Arbeit wurden die Abstände zwischen Sinnabschnitten nicht durchgehend sinnvoll gewählt.
+
+- \- Der *Abstract* soll nicht in der Gliederung erscheinen.
+
+- \- Teile wie *Literaturverzeichnis* oder Anhang werden in der Gliederung *nicht nummeriert*. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
+
+- Das *Literaturverzeichnis* ist im Inhaltsverzeichnis aufzuführen.
+
 
 
 
@@ -2002,9 +2081,7 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 + \+ Der Titel der Arbeit ist *pointiert*, konzise und gut passend.
 + \+ Der Titel der Arbeit ist *passend.*
-+ \+ Die *Gliederung* spiegelt den *Titel* adäquat wider.
-
-
++
 
 
 `---`
@@ -2021,9 +2098,12 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 
 
-### Titel -- Inhalt Kommentare {#titelinhalt}
+### Titel -- Inhalt Kommentare {#titelinhaltkommentar}
 
 `+++`
+
+- \+ Die *Gliederung* spiegelt den *Titel* adäquat wider.
+
 
 
 - \+ Der Titel spiegelt die *Forschungsfrage* adäquat wider. Das ist sinnvoll, denn die Forschungsfrage kann als zentrale Informationseinheit zu einer Studie verstanden werden und verdient daher eine prominente Platzierung.
@@ -2484,29 +2564,32 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 `+++`
 
-- \+ Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die Prägnanz: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.
+- \+ Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". *Schwafeln* ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.
 
-- \+ Ein Zitat oder mehrere Zitate wurden in gewinnbringender, schmückender Form verwendet.
+- \+ Ein *Zitat* oder mehrere Zitate wurden in gewinnbringender, *schmückender* Form verwendet.
 
-- \+ Rhetorische Fragen wurden in sinnvoller (eleganter) Art und Weise verwendet.
-
-
-- \+ Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm geringen Teil von Füllwörtern ("nämlich", "nun", "gerade deshalb", "letztlich") und überflüssigen Adjektiven ("sehr stringent", "besonders aufwändig", "schwere Verwüstung") aus.
-- \+ Der Satzbau ist elegant, insofern er durch Konjunktionen (und/oder andere Junktoren) wie "obwohl", "während" oder "gleichzeitig" interessante Gedankengefüge erstellt.
+- \+ *Rhetorische* Fragen wurden in *sinnvoller* (eleganter) Art und Weise verwendet.
 
 
+- \+ Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm *geringen Teil an Füllwörtern* ("nämlich", "nun", "gerade deshalb", "letztlich") und überflüssigen Adjektiven ("sehr stringent", "besonders aufwändig", "schwere Verwüstung") aus.
+- \+ Der *Satzbau* ist *elegant*, insofern er durch Konjunktionen (und/oder andere Junktoren) wie "obwohl", "während" oder "gleichzeitig" interessante Gedankengefüge erstellt.
 
-- \- Die Ergebnisse der statistischen Tests bzw. Statistiken allgemein sollten im Text angeführt und erläutert und besprochen werden.
 
-- \- Die erste Person Singular (Ich-Form) und Plural sollte in wissenschaftlichen Berichten spärlich eingesetzt werden; zumindest in der deutschen Sprache. Die vorliegende Arbeit macht relativ regen Gebrauch von dieser Form.
 
-- \- Zwar kann man es mit politisch korrekter Sprache auch übertreiben, aber nur von Männern zu reden, wenn es um Frauen und Männer geht, führt eine unnötige Verzerrung und Verengung des Blickwinkels an (z. B. "Hier muss man einen alleinstehenden Mann von einem Familienvater unterscheiden" - wenn man auch eine alleinstehende Frau von einer Mutter unterscheiden müsste).
+`---` 
 
-- \- Abkürzungen wurden verwendet, ohne dass sie vorab definiert wurden; Abkürzungen sollten zuerst definiert werden, bevor sie verwendet werden.
 
-- \- In einem Forschungsbericht sollten Handlungen, die in der Vergangenheit liegen, mit einer Vergangenheitsform (Präteritum oder Perfekt) beschrieben werden ("Die Versuchspersonen wurden aufgeklärt über ..."). Aussagen hingegen, die zeitübergreifend oder aktuell gültig sind, sollten im Präsens formuliert werden ("Die Ergebnisse zeigen/implizieren/verdeutlichen ..."). Die Wahl der Zeitform wurde in der vorliegenden Arbeit nicht immer korrekt gewählt.
+- \- Die *Ergebnisse* der statistischen Tests bzw. Statistiken allgemein *sollten im Text angeführt* und erläutert und besprochen werden.
 
-- \+ Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die Prägnanz: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent um.
+- \- Die *erste Person Singular* (Ich-Form) und Plural sollte in wissenschaftlichen Berichten *spärlich* eingesetzt werden; zumindest in der deutschen Sprache. Die vorliegende Arbeit macht relativ regen Gebrauch von dieser Form.
+
+- \- Zwar kann man es mit *politisch korrekter Sprache* auch übertreiben, aber nur von Männern zu reden, wenn es um Frauen und Männer geht, führt eine unnötige Verzerrung und Verengung des Blickwinkels an (z. B. "Hier muss man einen alleinstehenden Mann von einem Familienvater unterscheiden" - wenn man auch eine alleinstehende Frau von einer Mutter unterscheiden müsste).
+
+- \- *Abkürzungen* wurden verwendet,* ohne dass sie vorab definiert* wurden; Abkürzungen sollten zuerst definiert werden, bevor sie verwendet werden.
+
+- \- In einem Forschungsbericht sollten Handlungen, die in der Vergangenheit liegen, mit einer *Vergangenheitsform* (Präteritum oder Perfekt) beschrieben werden ("Die Versuchspersonen wurden aufgeklärt über ..."). Aussagen hingegen, die zeitübergreifend oder aktuell gültig sind, sollten im Präsens formuliert werden ("Die Ergebnisse zeigen/implizieren/verdeutlichen ..."). Die Wahl der Zeitform wurde in der vorliegenden Arbeit nicht immer korrekt gewählt.
+
+- \+ Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent um.
 
 
 `---`
@@ -2515,20 +2598,23 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 
 
-- \- Füllwörter sollten vermieden werden ("also", "nun", "etwas", "genau", "gerade", "gewiss", "im Prinzip", "ja", "letztlich" "sogar", "streng", "zudem", usw.). In der vorliegenden Arbeit finden sich davon einige.
+- \- *Füllwörter sollten vermieden* werden ("also", "nun", "etwas", "genau", "gerade", "gewiss", "im Prinzip", "ja", "letztlich" "sogar", "streng", "zudem", usw.). In der vorliegenden Arbeit finden sich davon einige.
 
-- \- Die Sprache klingt in Teilen nach "Amtsdeutsch": "Durch die Begehungsvorschriftinkraftretung wird ein Fortschritt erzielt". Besser: "Die Maßnahme brachte Fortschritte in XXX". 
+- \- Die Sprache klingt in Teilen nach "*Amtsdeutsch*": "Durch die Begehungsvorschriftinkraftretung wird ein Fortschritt erzielt". Besser: "Die Maßnahme brachte Fortschritte in XXX". 
 
-- \- Anglizismen sollten in deutschsprachigen Texten vermieden werden bzw. nur verwendet werden, wenn sie im Deutschen üblich sind (ok: Internet, vermeidbar: Das Slidedeck, der Go-Live, der Consultant).
-- \- Der Text ist in hohem (zu hohem) Umfang im Passiv formuliert. So könnten Textstellen wie "es wird gezeigt, dass blablabla" umformuliert werden in "Die Ergebnisse deuten darauf hin, dass blablabla" oder "Kapitel 2 geht auf blablabla ein".
-- \- Adjektive sollte man vorsichtig(er) verwenden, da sie oft unnötig aufblähen ("eine besonders extrem ambitiöse quantitativ-statistische Untersuchung"), doppelt-gemoppelt sind ("Interviewpartner bewusst gewählt" - wie oft wählt man die Interviewpartner unbewusst) oder falsch sind ("die einzigste Untersuchung").
-- \- Adjektive sollten in technischen Berichten bzw. wissenschaftlichen Texten sparsam (nicht ohne Not) verwendet werden.
+- \- *Anglizismen* sollten in deutschsprachigen Texten *vermieden* werden bzw. nur verwendet werden, wenn sie im Deutschen üblich sind (ok: Internet, vermeidbar: Das Slidedeck, der Go-Live, der Consultant).
+- \- Der Text ist in hohem *(zu hohem) Umfang im Passiv* formuliert. So könnten Textstellen wie "es wird gezeigt, dass blablabla" umformuliert werden in "Die Ergebnisse deuten darauf hin, dass blablabla" oder "Kapitel 2 geht auf blablabla ein".
+- \- Adjektive sollte man vorsichtig(er) verwenden, da sie oft unnötig aufblähen ("eine besonders extrem ambitiöse quantitativ-statistische Untersuchung"), doppelt-gemoppelt sind ("Interviewpartner bewusst gewählt" - wie oft wählt man die Interviewpartner unbewusst) oder falsch sind ("die einzigste Untersuchung"). Im vorliegenden Text wird in *zu hohem oder nicht adäquatem Maß von Adjektiven Gebrauch* gemacht.
 
-- \- Es findet sich mind. ein Pleonasmus im Text ("weißer Schimmel"; z. B. "geistige Reflexion").
+- \- *Adjektive* sollten in technischen Berichten bzw. wissenschaftlichen Texten sparsam (nicht ohne Not) verwendet werden.
 
-- \- Ein sachlicher Bericht, und das ist eine wissenschaftliche Seminararbeit, sollte auf Adjektive verzichten, da Adjektive mitunter einen nüchternen Beschreibung im Wege stehen. So sollte man vermeiden, von der "ausführlichen Recherche" oder der "genauen Beschreibung", die man durchgeführt habe, zu sprechen.
+- \- Es findet sich mind. ein *Pleonasmus* im Text ("weißer Schimmel"; z. B. "geistige Reflexion").
 
-- \- Wissenschaftliche (und andere) Berichte zeichnen sich durch Präzision aus. Aussagen wie "nach intensiver Lektüre wurden folgende Thesen abgleitet" oder "durch Anwendung fortgeschrittener Analysemethoden" stehen daher der wissenschaftlichen Sprache diametral entgegen und sollten sorgfältig vermieden werden. Insbesondere gilt dies für Abschnitte des Berichts, die das Aushängeschild für präzise, knappe bzw. prägnante Sprache herhalten sollen wie der Abstract. (In Teilen) mangelnde Präzision ist ein substanzieller Fehler im Hinblick auf den Bewertungsaspekt des wissenschaftlichen Formulierens zu verstehen. 
+- \- Ein sachlicher Bericht, und das ist eine wissenschaftliche Seminararbeit, *sollte auf Adjektive verzichten*, da Adjektive mitunter einen nüchternen Beschreibung im Wege stehen. So sollte man vermeiden, von der "ausführlichen Recherche" oder der "genauen Beschreibung", die man durchgeführt habe, zu sprechen.
+
+- \- Wissenschaftliche (und andere) Berichte zeichnen sich durch Präzision aus. *Phrasen* wie "nach intensiver Lektüre wurden folgende Thesen abgleitet" oder "durch Anwendung fortgeschrittener Analysemethoden" stehen daher der wissenschaftlichen Sprache diametral entgegen, da *inhaltsarm*, und sollten sorgfältig vermieden werden. Insbesondere gilt dies für Abschnitte des Berichts, die das Aushängeschild für präzise, knappe bzw. prägnante Sprache herhalten sollen wie der Abstract. (In Teilen) *mangelnde Präzision* ist ein substanzieller Fehler im Hinblick auf den Bewertungsaspekt des wissenschaftlichen Formulierens zu verstehen. 
+
+- \- Es finden sich *Schachtelsätze* bzw. "Klemmkeil-Satzkonstruktionen", die von einem zu hohem Maße an eingeschobenen *Nebensätzen* gekennzeichnet sind. Überspitztes Beispiel: "Derjenige, der denjenigen, der den Pfahl, der an der Brücke, die an der Straße, die nach Mainz führt, liegt, stand, umgeworfen hat, anzeigt, erhält eine Belohnung." Besser ist es, kurze Hauptsätze (*Hypotaxen*) mit etwas längeren Sätzen (etwa: Hauptsatz plus ein Nebensatz) abzuwechseln.
 
 
 
@@ -2590,8 +2676,12 @@ Gliederung fehlt; sie sollte stets vorhanden sein, da sie die Orientierung auch 
 
 - \+ Der eigene Forschungsprozess wurde in sinnvollerweise Weise *kritisch diskutiert*.
 - \+ Die Studie in Aufbau, Durchführung und Ergebnissen wurden u*mfangreich diskutiert*.
-- \+ Das methodische Vorgehens wurde *kritisch reflektiert*.
-- \+ Das methodische Vorgehens wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
+- \+ Das methodische Vorgehen wurde *kritisch reflektiert*.
+
+
+- \+ Das methodische Vorgehen wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
+
+
 - \+ *Die (geringe) Stichprobengröße* bzw. die Konsequenzen auf den Signifikanzwert wurde *gut diskutiert* (bei größerer Stichprobe wären vielleicht andere/deutlichere Effekte aufgetreten).
 - \+ *Grenzen der internen Validität* der Studie (also des Ursache-Wirkungs-Zusammenhangs) wurden erkannt und *stimmig diskutiert*.
 
