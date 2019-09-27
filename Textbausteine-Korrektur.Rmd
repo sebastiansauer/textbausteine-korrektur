@@ -209,18 +209,18 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 `+++`
 
-- \+ Typografische Elemente wie Kerning, Ligaturen und intelligentes Trennen wurden in hoher Qualität umgesetzt.
+- \+ *Typografische Elemente* wie Kerning, Ligaturen und intelligentes Trennen wurden in hoher Qualität umgesetzt.
 
 - \+- Hier finden sich Hinweise, wie der Schriftsatz (Kerning, Ligaturen, schöne Schriften, Trennung, etc.) schöner gestaltet werden kann: <http://nitens.org/taraborelli/latex>.
 - \+- Es wurde linksbündig formatierter Text ("Flattersatz") verwendet, was typographisch nicht unumstritten ist, aber aus Sicht dieses Gutachters typographisch nicht schlechter ist als der Schriftsatz, der durch die Silbentrennung von MS Word erzeugt wird.
   
   
-- \+ Ein Zitat oder mehrere Zitate wurden in gewinnbringender, schmückender Form verwendet.
+- \+ Ein *Zitat* oder mehrere Zitate wurden in gewinnbringender, schmückender Form verwendet.
 
 `---`
 
 
-- \- Das Schriftbild wirkt teilweise "verwaschen" oder "verlaufen" (evtl. nur im Ausdruck).
+- \- Das Schriftbild wirkt teilweise "*verwaschen*" oder "verlaufen" (evtl. nur im Ausdruck).
 
 
 
@@ -232,32 +232,36 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 - \- Es finden sich einige Fehler im Textsatz (z. B. fehlerhafte Einrückungen, fehlerhafte Trennungen, Schusterjungen, etc.).
 
 - \- In einem wissenschaftlichen Bericht dieser Art sollte keine R-Syntax bzw. kein unformartierter R-Output aufgeführt sein.
-- \- Es wurden Ziffern als Zahlzeichen geschrieben ("2"), die besser ausgeschrieben worden wären ("zwei").
+- \- Es wurden* Ziffern als Zahlzeichen* geschrieben ("2"), die besser ausgeschrieben worden wären ("zwei").
 
-- \- Fettdruck gilt zur Hervorhebung bzw. Betonung einzelner Passagen in Fließtexten als wenig geeignet, da zu dominant im Textfluss.
-- \- Neue Kapitel beginnen auf einer neuen Seite und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt.
-- \- Es finden sich einige Inkonsistenzen im Textsatz (z. B. einige Male wurde vor Gleichheitszeichen Leerzeichen gesetzt; in anderen Fällen nicht).
+- \- *Fettdruck* gilt zur Hervorhebung bzw. Betonung einzelner Passagen in Fließtexten als wenig geeignet, da zu dominant im Textfluss.
+- \- *Neue Kapitel beginnen auf einer neuen Seite* und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt.
+- \- Es finden sich einige *Inkonsistenzen im Textsatz* (z. B. einige Male wurde vor Gleichheitszeichen Leerzeichen gesetzt; in anderen Fällen nicht).
 - \- Innerhalb feststehender Ausdrücke wie "p = .04" oder "42 %"  sollten Zeilenumbrüche vermieden werden; die Leerzeichen in solchen Ausdrücken sollten als "geschützte Leerzeichen" formatiert sein. Dieser Punkt wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
-- \- Die optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge deutlich darüber. 
-- \- Die Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben) ist teilweise unpassend (zu groß oder zu klein). 
-- \- Die Seitenränder sind zu klein gewählt; d. h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen sind nicht gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
-- \- Es wurde an einer oder mehreren Stellen ein typografisch falsches Apostroph-Zeichen verwendet. Das korrekterweise zu setzende Apostroph-Zeichen "'" wird häufig mit einem der Betonungszeichen Akut (´) oder Gravis (`) verwechselt -– beide eingebbar über die Taste "´". Wenn sich die Zeichen auch optisch ähneln mögen, sind sie doch nicht gleich in ihrer Bedeutung. 
+- \- Die *optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile* oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge deutlich darüber. 
+- \- Die *Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben)* ist teilweise unpassend (zu groß oder zu klein). 
+- \- Die *Seitenränder sind zu klein gewähl*t; d. h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen sind nicht gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
+- \- Es wurde an einer oder mehreren Stellen ein* typografisch falsches Apostroph-Zeichen* verwendet. Das korrekterweise zu setzende Apostroph-Zeichen "'" wird häufig mit einem der Betonungszeichen Akut (´) oder Gravis (`) verwechselt -– beide eingebbar über die Taste "´". Wenn sich die Zeichen auch optisch ähneln mögen, sind sie doch nicht gleich in ihrer Bedeutung. 
 
 
 
-- \- Zwischen Abkürzungen wie "d. h." oder "z. B." ist ein Leerzeichen zu setzen; das gleiche gilt für Prozentzahlen: z. B. 95 %. Diese Formatierung entspricht der Rechtschreibung laut Duden und DIN 5008. Idealerweise ist es ein sog. \*geschütztes Leerzeichen\* zu verwenden (so dass Trennung zwischen den Bestandteilen vermieden wird). Besser noch sollte es sich um ein "kurzes" bzw. schmales (geschütztes) Leerzeichen handeln (in der Typografie spricht man in dem Fall von einem Achtel-Geviert). Dieser Punkt wurde in der vorliegenden Arbeit nicht komplett berücksichtigt; allerdings handelt es sich um ein Detail.
+- \- Zwischen *Abkürzungen* wie *"d. h."* oder "z. B." ist ein *Leerzeichen* zu setzen; das gleiche gilt für *Prozentzahlen*: z. B. 95 %. Diese Formatierung entspricht der Rechtschreibung laut Duden und DIN 5008. Idealerweise ist es ein sog. \*geschütztes Leerzeichen\* zu verwenden (so dass Trennung zwischen den Bestandteilen vermieden wird). Besser noch sollte es sich um ein "kurzes" bzw. schmales (geschütztes) Leerzeichen handeln (in der Typografie spricht man in dem Fall von einem Achtel-Geviert). Dieser Punkt wurde in der vorliegenden Arbeit nicht komplett berücksichtigt; allerdings handelt es sich um ein Detail.
 
 
 
 
 
-- \- Im Allgemeinen sollten Zahlen kleiner als zehn in Ziffern ausgedrückt werden laut APA/DGPs (z. B. 7, 8, 9); Zahlen größer als 10 in Ziffern. Es gibt einige Ausnahmen von dieser Regel (s. Richtlinien der APA/DGPs); eine davon lautet, dass Sätze nicht mit Ziffern zu beginnen sind. Diese Regel wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+- \- Im Allgemeinen sollten *Zahlen kleiner als zehn in Ziffern* ausgedrückt werden laut APA/DGPs (z. B. 7, 8, 9); Zahlen größer als 10 in Ziffern. Es gibt einige Ausnahmen von dieser Regel (s. Richtlinien der APA/DGPs); eine davon lautet, dass Sätze nicht mit Ziffern zu beginnen sind. Diese Regel wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
 - \- Fußnoten sind ohne Leerzeichen an das letzte Wort zu setzen; sie sind vor dem Punkt, der das Satzende markiert, zu setzen. Dieser Punkt wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
 
-- \- Es finden sich überflüssige Leerseiten im Dokument (u. U. nur im Ausdruck).
+- \- Es finden sich überflüssige *Leerseiten* im Dokument (u. U. nur im Ausdruck).
 
-- \- Hinter der  hintersten Ziffer in der Nummerierung einer Überschrift sollte kein Punkt gesetzt werden (falsch: "2.2.2. Theorie X"; richtig: "2.2.2 Theorie X").
+- \- Nach der  h*intersten Ziffer in der Nummerierung einer Überschrift* sollte kein Punkt gesetzt werden (falsch: "2.2.2. Theorie X"; richtig: "2.2.2 Theorie X").
+
+- \- Es finden sich "komische" Zeichen (Glyphen) im Schriftsatz (Z. B. "QualitÃ¤"t), die vermutlich auf Enkodierungsfehler zurückzuführen sind. Textdokumente müssen mit der richtigen Enkodierung (z. B. UTF8 oder Latin1) geladen werden und sollten mit der Enkodierung UTF8 gespeichert werden.
+
+
 
 
 ### Paginierung
@@ -1229,23 +1233,25 @@ NUR QUALI:
 
 `+++`
 
-- \+ Einige oder alle Tabellen sind optisch ansprechend formatiert und übersichtlich gestaltet.
+- \+ Einige oder alle Tabellen sind *optisch ansprechend formatiert *und übersichtlich gestaltet.
 - \+ Die Gestaltung und/oder Referenzierung der Tabellen ist tadellos und/oder orientiert sich an den Gestaltungsrichtlinien der APA.
 
 
 `---`
 
 
-- \- Tabellen sollten (in wissenschaftlichen Arbeiten) besser auf "Schnörkel" verzichten: Intensiv wirkende Aspekte (wie eingefärbte Hintergründe), die wenig Information bergen und/oder nur begrenzt (wenn überhaupt) zur Übersichtlichkeit/Strukturierung beitragen, sollten vermieden werden. Trotzdem sollte (natürlich) eine Tabelle ansprechend und elegant gesetzt sein, wie es in vielen Fachartikeln sinnvoll gelöst ist.
+- \- Tabellen sollten (in wissenschaftlichen Arbeiten) besser *auf "Schnörkel" verzichten*: Intensiv wirkende Aspekte (wie eingefärbte Hintergründe), die wenig Information bergen und/oder nur begrenzt (wenn überhaupt) zur Übersichtlichkeit/Strukturierung beitragen, sollten vermieden werden. Trotzdem sollte (natürlich) eine Tabelle ansprechend und elegant gesetzt sein, wie es in vielen Fachartikeln sinnvoll gelöst ist.
 
-- \- Die Formatierung der Tabellen ist häufig nicht ansprechend; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA oder Leitfaden Wirtschaftspsychologie dazu.
-- \- Die Formatierung der Tabellen ist nicht immer ansprechend; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA oder Leitfaden Wirtschaftspsychologie dazu.
-- \- Bitte machen Sie sich mit der Formatierung von Tabellen laut APA/DGPs vertraut, vgl. Leitfaden Wirtschaftspsychologie.
+- \- Die Formatierung der Tabellen ist *häufig nicht ansprechend;* vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA oder Leitfaden Wirtschaftspsychologie dazu.
+- \- Die Formatierung der Tabellen ist *nicht immer ansprechend*; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA oder Leitfaden Wirtschaftspsychologie dazu.
+- \- Bitte *machen Sie sich* mit der Formatierung von Tabellen laut APA/DGPs *vertraut*, vgl. Leitfaden Wirtschaftspsychologie.
 
 - \- Tabellen sollten grundsätzlich ohne vertikale Linien gesetzt sein.
 
-- \- Tabellen sollten nicht als Screenshot (z. B. aus Excel) abgebildet werden. Mit einem Aufwand im einstelligen Minutenbereich kann ein deutlich schöneres Ergebnis erzielt werden. Kurz gesagt: Screenshots sehen grässlich aus; verwenden Sie sie nicht.
-- \- Die Spaltenüberschriften sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.
+- \- *Tabellen* sollten nicht als *Screenshot* (z. B. aus Excel) abgebildet werden. Mit geringem Aufwand kann ein deutlich schöneres Ergebnis erzielt werden. 
+
+
+- \- Die *Spaltenüberschriften* sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.
 
 
 
@@ -1380,50 +1386,50 @@ NUR QUALI:
 
 
 #### Gestalterische Qualität - Bewertung
-- \+ Die gestalterische Qualität der Abbildungen ist sehr hoch.
-- \+ Die gestalterische Qualität der Abbildungen ist hoch.
-- \+ Die gestalterische Qualität einiger Abbildungen (nicht aller) ist hoch.
-- \+ Die gestalterische Qualität der Abbildungen ist insgesamt gut.
-- \+ Die gestalterische Qualität der Abbildungen ist befriedigend bis gut.
+- \+ Die gestalterische Qualität der Abbildungen ist *sehr hoch*.
+- \+ Die gestalterische Qualität der Abbildungen ist *hoch.*
+- \+ Die gestalterische Qualität einiger Abbildungen (nicht aller) ist *hoch.*
+- \+ Die gestalterische Qualität der Abbildungen ist *insgesamt gut*.
+- \+ Die gestalterische Qualität der Abbildungen ist *befriedigend bis gu*t.
 
 
 
-- \+- Die gestalterische Qualität der Abbildungen ist von befriedigender Güte.
+- \+- Die gestalterische Qualität der Abbildungen ist von *befriedigender Güte*.
 
 `---`
 
 
-- \- Die gestalterische Qualität der Abbildungen überzeugt nicht immer (z. B. pixelig).
+- \- Die gestalterische Qualität der Abbildungen *überzeugt nicht immer* (z. B. pixelig oder verzerrt).
 
-- \- Die gestalterische Qualität der Abbildungen ist nicht immer ausreichend (z. B. pixelig).
-- \- Die gestalterische Qualität der Abbildungen ist zumeist unzureichend (z. B. pixelig).
+- \- Die gestalterische Qualität der Abbildungen ist *nicht immer ausreichend* (z. B. pixelig oder verzerrt).
+- \- Die gestalterische Qualität der Abbildungen ist *zumeist unzureichend* (z. B. pixelig oder verzerrt).
 
 
 #### Gestalterische Qualität - Kommentare
 
 `+++`
 
-- \+ Im Hinblick auf die Abbildungen sticht positiv ins Auge, dass die  Abbildungen (zumeist oder immer) gestochen dargestellt sind, also mit hoher Auflösung in den Druck eingegangen sind. Dies kann durch den Einsatz von Vektorgrafiken realisiert worden sein, was ein Indikator für technisches Geschick ist unabhängig oder zusätzlich zur optischen Anmutung der Abbildungen.
+- \+ Im Hinblick auf die Abbildungen sticht positiv ins Auge, dass die  Abbildungen (zumeist oder immer) gestochen dargestellt sind, also mit *hoher Auflösung* in den Druck eingegangen sind. Dies kann durch den Einsatz von Vektorgrafiken realisiert worden sein, was ein Indikator für technisches Geschick ist unabhängig oder zusätzlich zur optischen Anmutung der Abbildungen.
 
 
 `---`
 
 
-- \- Es wäre von Vorteil gewesen, einige Diagramme nicht (per "Screenshot") einzufügen, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
-- \- Einige Abbildungen sind "pixelig".
-- \- Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (z. B. in den Formaten png oder jpg) eingefügt worden wären, sondern als Vektordiagramm. Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
-- \- Balkendiagramme sollten nicht in der Umrandung (ggplot: Parameter `color`), sondern wenn dann in der Füllung (ggplot: Parameter `fill`) eingefärbt werden.
-- \- Die Diagramme sind nicht einheitlich gestaltet; die Format-Vorlage wechselt.
-- \- Kreisdiagramme ("Torten") sollten gemieden werden, da (vor allem bei vielen kleinen Kategorien mit ähnlicher Häufigkeit) die visuelle Diskriminierbarkeit eingeschränkt ist. Einfach gesagt: Man sieht nicht unbedingt, was Sache ist, in einem Kreisdiagramm. In der vorliegenden Arbeit finden aber solche Diagramme Verwendung.
-- \- 3D-Diagramme verzerren zumeist den Blickwinkel, so dass Winkeltreue nicht mehr gegeben ist. Der optische Eindruck von Winkeln (z. B. in einem Kreisdiagramm) korrespondiert dann nicht mehr unbedingt korrekt mit dem Winkel laut Daten.
-- \- Bei Balkendiagrammen ist es zumeist hilfreich, nach der Höhe der Balken zu sortieren -- zumindest, wenn die Frage im Vordergrund steht, was die häufigste (oder seltenste) Kategorie ist. Eine alphabetische Sortierung oder eine willkürliche Sortierung ist fast immer nicht sinnvoll. Dies wurde in der vorliegenden Arbeit nicht (ausreichend) beachtet.
-- \- Die Hypothesen untersuchen den Mittelwert, aber die Diagramme zeigen nicht den Mittelwert, sondern den Median.
-- \- Einige Diagramme leiden unter "Overplotting", d. h. viele Details (z. B. Punkte) sind übereinander gezeichnet, so dass die (relative) Anzahl von Punkten im Diagramm schwer bzw. eingeschränkt erkennbar ist.
+- \- Es wäre von Vorteil gewesen, einige *Diagramme nicht (per "Screenshot") einzufügen*, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
+- \- Einige Abbildungen sind "*pixelig*".
+- \- Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
+- \- *Balkendiagramme* sollten nicht in der Umrandung (ggplot: Parameter `color`), sondern wenn dann in der *Füllung* (ggplot: Parameter `fill`) eingefärbt werden.
+- \- Die Diagramme sind *nicht einheitlich gestaltet*; die Format-Vorlage wechselt.
+- \- *Kreisdiagramme* ("*Torten*") sollten gemieden werden, da (vor allem bei vielen kleinen Kategorien mit ähnlicher Häufigkeit) die visuelle Diskriminierbarkeit eingeschränkt ist. Einfach gesagt: Man sieht nicht unbedingt, was Sache ist, in einem Kreisdiagramm. In der vorliegenden Arbeit finden aber solche Diagramme Verwendung.
+- \- *3D-Diagramme* verzerren zumeist den Blickwinkel, so dass Winkeltreue nicht mehr gegeben ist. Der optische Eindruck von Winkeln (z. B. in einem Kreisdiagramm) korrespondiert dann nicht mehr unbedingt korrekt mit dem Winkel laut Daten.
+- \- Bei Balkendiagrammen ist es zumeist hilfreich, *nach der Höhe der Balken zu sortieren* -- zumindest, wenn die Frage im Vordergrund steht, was die häufigste (oder seltenste) Kategorie ist. Eine alphabetische Sortierung oder eine willkürliche Sortierung ist fast immer nicht sinnvoll. Dies wurde in der vorliegenden Arbeit nicht (ausreichend) beachtet.
+- \- Die Hypothesen untersuchen den *Mittelwert*, aber alle oder einige Diagramme zeigen nicht den Mittelwert, sondern den *Median* (z. B. mittels eines Boxplots).
+- \- Einige Diagramme leiden unter "*Overplotting*", d. h. viele Details (z. B. Punkte) sind übereinander gezeichnet, so dass die (relative) Anzahl von Punkten im Diagramm schwer bzw. eingeschränkt erkennbar ist.
 
 
 #### Farbwahl
 
-- \- Leider war die gewählte Farbpalette nicht gut für S/W-Druck geeignet. Der Sättigungswert der Farben hätte besser variiert werden müssen. Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>).
+- \- Die gewählte *Farbpalette* war *nicht gut für S/W-Druck geeignet*. Der Sättigungswert der Farben hätte besser variiert werden können Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>).
 
 #### Achsen, Labels und Legenden von Abbildungen
 - \+ Die Achsen der Diagramme wurden *sinnvoll beschriftet*.
@@ -1435,7 +1441,7 @@ NUR QUALI:
 
 
 - \- Die Legende von Diagrammen sollten das Diagramm erläutern (vgl. auch APA-/DGPs-Richtlinien).
-- \- Die Achsen von Diagrammen sollten mit *aussagekräftigen* bzw. *verständlichen*  Bezeichnungen versehen werden.
+- \- Die Achsen von Diagrammen sollten mit *aussagekräftigen* bzw. *verständlichen*  Bezeichnungen versehen werden (z. B. ganze Wörter in deutscher Sprache).
 
 - \- Die Beschriftungen der Ausprägungen der Achsen (Labels) ware *nicht durchgängig gut zu lesen* (z. B. überdeckten sich die Achsenlabels).
 
@@ -1450,58 +1456,54 @@ NUR QUALI:
 
 
 
-### Breite der Analyse {#analyse-allgemein}
+### Breite der Analyse (xxstatbreite) {#analyse-allgemein}
 
 `+++`
 
-- \+ Insgesamt ist der Umfang der Datenanalyse als von hoher Güte einzuschätzen. 
-- \+ Insgesamt ist der Umfang der Datenanalyse als gut einzuschätzen. 
+- \+ Insgesamt ist der Umfang der Datenanalyse als *von hoher Güte* einzuschätzen. 
+- \+ Insgesamt ist der Umfang der Datenanalyse als *gut* einzuschätzen. 
 
 
-- \+ Die Datenanalyse ist insgesamt sehr umfangreich.
-- \+ Die Datenanalyse ist insgesamt umfangreich.
-- \+ Die Datenanalyse ist insgesamt als qualitativ gut einzustufen.
+- \+ Die Datenanalyse ist insgesamt *sehr umfangreich*.
+- \+ Die Datenanalyse ist insgesamt *umfangreich.*
 
 
 `---`
 
 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von mittlerer (befriedigender) bis hoher Güte einzuschätzen. 
-- \+- Insgesamt ist der Umfang er Datenanalyse als von mittlerer  (befriedigender) bis hoher Güte einzuschätzen. 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von mittlerer (befriedigender) Güte einzuschätzen. 
+- \+- Insgesamt ist der Umfang der Datenanalyse als von *mittlerer (befriedigender) bis hoher Güte* einzuschätzen. 
+- \+- Insgesamt ist der Umfang der Datenanalyse als von *mittlerer* (befriedigender) Güte einzuschätzen. 
 
 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von unterdurchschnittlicher Güte einzuschätzen. 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von geringer Güte einzuschätzen. 
+- \+- Insgesamt ist der Umfang der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
+- \+- Insgesamt ist der Umfang der Datenanalyse als von *geringer* Güte einzuschätzen. 
 
 
 
-### Güte der Analyse -- Beurteilung {#analyse-guete}
+### Güte der Analyse -- Beurteilung (xxstatqualitaet) {#analyse-guete}
 
 `+++`
 
-- \+ Insgesamt ist das Niveau  er Datenanalyse als von hoher Güte einzuschätzen. 
-- \+ Insgesamt ist das Niveau der Datenanalyse als gut einzuschätzen. 
+- \+ Insgesamt ist das Niveau  er Datenanalyse als von *hoher* Güte einzuschätzen. 
+- \+ Insgesamt ist das Niveau der Datenanalyse als *gut* einzuschätzen. 
 
-- \+ Die Datenanalyse ist insgesamt als qualitativ gut einzustufen.
+- \+ Die Datenanalyse ist insgesamt als q*ualitativ gut* einzustufen.
 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von mittlerer  (befriedigender) bis hoher Güte einzuschätzen. 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von mittlerer (befriedigender) bis hoher Güte einzuschätzen. 
-
-
-- \+- Insgesamt ist das Niveau der Datenanalyse als von mittlerer (befriedigender) Güte einzuschätzen. 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von mittlerer (befriedigender) Güte einzuschätzen. 
+- \+- Insgesamt ist das Niveau der Datenanalyse als von *mittlerer*  (befriedigender) bis hoher Güte einzuschätzen. 
 
 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von unterdurchschnittlicher Güte einzuschätzen. 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von geringer Güte einzuschätzen. 
+- \+- Insgesamt ist das Niveau der Datenanalyse als von *mittlerer* (befriedigender) Güte einzuschätzen. 
+
+
+- \+- Insgesamt ist das Niveau der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
+- \+- Insgesamt ist das Niveau der Datenanalyse als von *geringer* Güte einzuschätzen. 
 
 - \- Zentrale Konzepte oder Methoden oder Prinzipien der Datenanalyse sind fehlerbehaftet.
 
 ### Deskriptive Statistik {#deskriptivstatistik}
 
-- \+ Es wurde eine sinnvolle Auswahl an deskriptiven Statistik berichtet.
-- \+ Die berichteten deskriptiven Statistiken wurden korrekt interpretiert.
+- \+ Es wurde eine *sinnvolle Auswahl* an deskriptiven Statistik berichtet.
+- \+ Die berichteten deskriptiven Statistiken wurden *korrekt interpretiert*.
 
 
 ### Häufigkeitsanalysen
@@ -1653,14 +1655,16 @@ NUR QUALI:
 - \- Es *wurden nicht für alle Hypothesen (ausreichend bzw. korrekt) hypothesenprüfende Verfahren* (wie die Berechnung eines p-Werts) eingesetzt. Dies wirft die Frage auf, ob das Konzept von (und der Grund für) inferenzstatistischen Verfahren verstanden wurde. Die Antwort auf die Frage kann zumindest nicht positiv beantwortet werden auf Basis der gezeigten Leistung (weil die Leistung nicht gezeigt wurde).
 
 
-- \- Hypothesen beziehen sich auf Grundgesamtheiten, von denen Stichproben (Datensätze) nur einen Ausschnitt zeigen. Daher kann über eine Hypothese nicht auf Grund der deskriptiven Statistik, d. h. der Beschaffenheit des Datensatzes allein, entschieden werden. Stattdessen ist ein Schluss auf die Grundgesamtheit vonnöten, was mittels Inferenzstatistik vorgenommen werden kann. Dies wurde in der vorliegenden Arbeit nicht verstanden. Dieses Manko ist als schwerwiegend einzustufen, da es fraglich ist, ob der Autor die zentrale Idee der Inferenzstatistik verstanden hat. Es sei dem Autor angeraten, über das Wozu der Inferenzstatistik noch einmal nachzudenken.
+- \- *Hypothesen* beziehen sich auf *Grundgesamtheiten*, von denen *Stichproben (Datensätze) nur einen Ausschnitt zeigen*. Daher kann über eine Hypothese nicht auf Grund der deskriptiven Statistik, d. h. der Beschaffenheit des Datensatzes allein, entschieden werden. Stattdessen ist ein Schluss auf die Grundgesamtheit vonnöten, was mittels Inferenzstatistik vorgenommen werden kann. Dies wurde in der vorliegenden Arbeit nicht verstanden; es wurde *keine Inferenzstatistik in diesem Sinne* eingesetzt. Dieses Manko ist als schwerwiegend einzustufen, da es fraglich ist, ob der Autor die zentrale Idee der Inferenzstatistik verstanden hat. Es sei dem Autor angeraten, über das Wozu der Inferenzstatistik noch einmal nachzudenken.
 
-- \- Testet man auf einen Mittelwertsunterschied (z. B. Einparkgeschwindigkeit von Männer vs. Frauen anhand eines t-Tests) und findet man ein signifikantes Ergebnis, so ist es nicht geboten, auf allgemeine Unterschiede zwischen den Gruppen zu schließen (z. B. "Männer parken schneller ein als Frauen"). Man kann höchstens resümieren, das das Ergebnis impliziert, dass sich die *Durchschnitte der Populationen unterschieden* (z. B. "Männer parken IM DURCHSCHNITT schneller ein als Frauen").
+
 
 
 - \- Leider zielt eine Hypothese in dieser Arbeit auf *Bestätigung einer Nullhypothese* ab, was in der Fisherschen Inferenzstatistik nicht möglich ist. 
 
-- \- *Alternativhypothesen werden nicht "beibehalten"*, das macht nur für Nullhypothesen sind, da diese getestet werden (im Gegensatz zu den Alternativhypothesen). Zwei Fälle können auftreten. Fall A): Verwirft man eine Nullhypothese, dann hat man Grund, sich zugunsten der HA zu *entscheiden*. Diese Entscheidung impliziert noch nicht, dass die HA bewiesen ist, also sicher wahr ist. Die Entscheidung impliziert noch nicht mal, dass man an HA glaubt. Aber, egal was man glaubt, entscheiden für eine Aktion muss man sich, und in dem Fall handelt man so, als ob die HA wahr ist (vielleicht ist sie das ja). Fall B): Kann man die H0 nicht verwerfen, so behält man sie bei. Sie ist "noch nicht verworfen", wie man sagt. Das heißt NICHT, dass die H0 (als wahr) bewiesen wurde. Nein. So könnte die Stichprobe zu klein gewesen sein, um die tatsächliche Wahrheit von HA festzustellen. Aber die Evidenzlage ist im Fall B nunmal so, dass wir nicht (mit genug Sicherheit) ausschließen können, dass H0 der Fall ist. Noch etwas präziser formuliert: Gilt die H0 wirklich (ist sie also warh), dann sind die vorliegenden Daten nicht unwahrscheinlich. Auf dieser Basis entscheidet man sich, so die "Spielregel" dieser Technik, weiterhin an die H0 zu glauben oder sich zumindest so zu verhalten, als ob sie wahr wäre. Kurz: Man entscheidet sich für die H0, man behält sie bei.
+
+
+- \- *Alternativhypothesen werden nicht beibehalten oder verworfen*, das macht nur für Nullhypothesen sind, da diese getestet werden (im Gegensatz zu den Alternativhypothesen). Zwei Fälle können auftreten. Fall A): Verwirft man eine Nullhypothese, dann hat man Grund, sich zugunsten der HA zu *entscheiden*. Diese Entscheidung impliziert noch nicht, dass die HA bewiesen ist, also sicher wahr ist. Die Entscheidung impliziert noch nicht mal, dass man an HA glaubt. Aber, egal was man glaubt, entscheiden für eine Aktion muss man sich, und in dem Fall handelt man so, als ob die HA wahr ist (vielleicht ist sie das ja). Fall B): Kann man die H0 nicht verwerfen, so behält man sie bei. Sie ist "noch nicht verworfen", wie man sagt. Das heißt NICHT, dass die H0 (als wahr) bewiesen wurde. Nein. So könnte die Stichprobe zu klein gewesen sein, um die tatsächliche Wahrheit von HA festzustellen. Aber die Evidenzlage ist im Fall B nunmal so, dass wir nicht (mit genug Sicherheit) ausschließen können, dass H0 der Fall ist. Noch etwas präziser formuliert: Gilt die H0 wirklich (ist sie also warh), dann sind die vorliegenden Daten nicht unwahrscheinlich. Auf dieser Basis entscheidet man sich, so die "Spielregel" dieser Technik, weiterhin an die H0 zu glauben oder sich zumindest so zu verhalten, als ob sie wahr wäre. Kurz: Man entscheidet sich für die H0, man behält sie bei.
 
 
 
@@ -1686,16 +1690,18 @@ NUR QUALI:
 
 
 
-- \- Ein *signifikanter p-Wert* beim Vergleich von Gruppen kann so interpretiert werden, dass sich die *Mittelwerte* (sic) der *Gruppen unterscheiden*. Zu sagen, dass "Gruppe 1 höhere Werte aufweist als Gruppe 2" hingegen ist unpräzise. Weil: Was meinen Sie mit "höheren Werte in Gruppe 1"? Jeder einzelne? Einige? Sicher meinen Sie den Mittelwert und nicht alle. Also lieber präzise sein!
+- \- Ein *signifikanter p-Wert* beim Vergleich von Gruppen kann so interpretiert werden, dass sich die *Mittelwerte* (sic) der *Gruppen unterscheiden* (unter der Annahme, dass man den Mittelwertsunterschied getestet hat). Zu sagen, dass "Gruppe 1 höhere Werte aufweist als Gruppe 2" hingegen ist unpräzise. Weil: Was meinen Sie mit "höheren Werte in Gruppe 1"? Jeder einzelne? Einige? Sicher meinen Sie den Mittelwert und nicht alle. Also lieber präzise sein!
 
 
-
+- \- Testet man auf einen Mittelwertsunterschied (z. B. Einparkgeschwindigkeit von Männer vs. Frauen anhand eines t-Tests) und findet man ein signifikantes Ergebnis, so ist es nicht geboten, auf allgemeine Unterschiede zwischen den Gruppen zu schließen (z. B. "Männer parken schneller ein als Frauen"). Man kann höchstens resümieren, das das Ergebnis impliziert, dass sich die *Durchschnitte der Populationen unterschieden* (z. B. "Männer parken IM DURCHSCHNITT schneller ein als Frauen").
 
 
 - \- Testet man, ob Gruppe "A" im Mittel höhere Werte in X aufweist als Gruppe "B" und findet man ein signifikantes Ergebnis, so *ENTSCHEIDET* man sich, sich so zu verhalten, als ob die Hypothese richtig ist. Wir können aber nicht sicher, sein, dass A wirklich höhere Wert hat als B -- in einigen Fällen werden wir z. B. einen Alpha-Fehler begangen haben. 
 
 
 - \- Findet sich in einer Analyse ein *statistisch signifikanter Zusammenhang* (Einfluss bzw. allgemeiner ein "Effekt"), so kann *nicht (zwangsläufig)* daraus geschlossen werden, dass es einen *"echten" Effekt* gibt. Die vorliegende Arbeit suggeriert aber diesen (falschen) Schluss. Findet man z. B. dass Babies und Störche "statistisch extrem signifikant" korreliert sind, so heißt das nicht, dass es in Wirklichkeit einen echten (also kausalen) Zusammenhang zwischen beiden Größen geben muss.
+
+- \- Liegt z. B. für einen Zusammenhang ein *statistisch signifikantes Ergebnis* vor, heißt das nicht, dass die Analyse für die Population auf einen "starken", "deutlichen" oder "signifikanten" Zusammenhang hindeutet, sondern nur, dass es einen Zusammenhang gäbe. Entsprechend sollte man bei statistischer Signifikanz nicht von einem *"signifikanten Zusammenhang"* sprechen. Bei einem "signifikanten Zusammenhang" ist man geneigt, an einen starken Zusammenhang, also einen inhaltlich-fahlich bedeutsamen, zu schließen. Diese Aussage ist aber von einem p-Wert als solchem nicht ableitbar.
 
 
 
@@ -1883,20 +1889,33 @@ NUR QUALI:
 
 - \- Da RStudio keinerlei Einfluss auf die Syntax, d.h. den Analysealgorithmus hat, ist es irrelevant für diesen Bericht, ob RStudio Verwendung fand. Demgegenüber ist es von hoher Relevanz, ob R (in welcher Version) und welche R-Pakete und -Funktionen (in welcher Version) Verwendung fanden, sprich: ob die Syntax reproduzierbar berichtet wurde.
 
-### Allgemeine Beurteilung der Kompetenz
+
+
+
+### Allgemeine Beurteilung der R-Kompetenz (xxrkomp xxrcomp)
 
 `+++`
 
-- \+ Es wurde ein sehr hohes Maß an Kompetenz im Umgang mit R demonstriert.
-- \+ Es wurde ein hohes Maß an Kompetenz im Umgang mit R demonstriert.
-- \+ Die Arbeit lässt auf eine insgesamt gute Kompetenz im Umgang mit R schließen.
-- \+ Es wurden Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
+- \+ Es wurde ein *sehr hohes Maß* an Kompetenz im Umgang mit R demonstriert.
+- \+ Es wurde ein *hohes Maß* an Kompetenz im Umgang mit R demonstriert.
+- \+ Die Arbeit lässt auf eine *insgesamt gute Kompetenz* im Umgang mit R schließen.
+- \+ Es wurden *Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen* wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
 
-- \+- Es wurde ein durchschnittliches bis gutes Maß an Kompetenz im Umgang mit R demonstriert.
-- \+- Es wurde ein durchschnittliches Maß an Kompetenz im Umgang mit R demonstriert.
 
-- \+ Es wurde ein geringes Maß an Kompetenz im Umgang mit R demonstriert.
-- \+ Es wurde ein sehr geringes Maß an Kompetenz im Umgang mit R demonstriert.
+
+
+
+- \+- Es wurde ein *durchschnittliches bis gutes Maß* an Kompetenz im Umgang mit R demonstriert.
+- \+- Es wurde ein *durchschnittliches* Maß an Kompetenz im Umgang mit R demonstriert.
+
+
+`---`
+
+
+- \- Es wurde ein *geringes* Maß an Kompetenz im Umgang mit R demonstriert.
+- \- Es wurde ein *sehr geringes Maß* an Kompetenz im Umgang mit R demonstriert.
+
+- \- Das Maß an Kompetenz mit R konnte nicht überprüft werden, da (fast) keine Syntax in der Arbeit vorhanden war.
 
 
 ### Data Wrangling (xxwrangle)
@@ -1904,8 +1923,8 @@ NUR QUALI:
 - \- Anstatt Variablen mit `<- NULL` zu löschen, ist es einfacher, mit `dplyr::select` zu wählen.
 - \- Anstatt Fälle mit dem Operator `[` zu wählen, ist es einfacher, `dplyr::filter` zu verwenden.
 - \- Anstatt Variablennamen mit `names` und `[` zu ändern, ist es einfacher, `dplyr::rename` zu verwenden.
-- \- Möchte man *Subgruppen vergleichen*, ist es eine suboptimale Lösung, den Datensatz in mehrere Teildatensätze aufzuteilen. Dadurch nimmt man sich die Möglichkeit, die Gruppen einfach bzw. direkt nebeneinander zu vergleichen oder macht sich das Leben komplizierter als nötig. Eine Möglichkeit zur gruppierten Analyse bietet mosaic: `verfahren(AV ~ gruppierungsvariable, ...)`. Alternativ kann man mit `group_by()` aus `dplyr` einen gruppierten Datensatz erzeugen und mittels weiterer Befehle (aus dplyr-komptabiblen Paketen) verrechnen (z.B. `summarise()`).
-- \- Es sollten keine technischen Bezeichnungen für Variablen wie `F9r` verwendet werden im Hauptteil der Arbeit, sondern stets *sprechende Namen* (oder ggf. definierte Abkürzungen).
+- \- Möchte man *Subgruppen vergleichen*, ist es eine suboptimale Lösung, den Datensatz in mehrere Teildatensätze aufzuteilen (z.B. mit `filter()`). Dadurch nimmt man sich die Möglichkeit, die Gruppen einfach bzw. direkt nebeneinander zu vergleichen oder macht sich das Leben komplizierter als nötig. Eine Möglichkeit zur gruppierten Analyse bietet mosaic: `verfahren(AV ~ gruppierungsvariable, ...)`. Alternativ kann man mit `group_by()` aus `dplyr` einen gruppierten Datensatz erzeugen und mittels weiterer Befehle (aus dplyr-komptabiblen Paketen) verrechnen (z.B. `summarise()`).
+- \- Es sollten *keine technischen Bezeichnungen für Variablen* wie `F9r` verwendet werden im Hauptteil der Arbeit, sondern stets *sprechende Namen* (oder ggf. definierte Abkürzungen).
 
 
 
@@ -2677,15 +2696,13 @@ NUR QUALI:
 - \+ Der eigene Forschungsprozess wurde in sinnvollerweise Weise *kritisch diskutiert*.
 - \+ Die Studie in Aufbau, Durchführung und Ergebnissen wurden u*mfangreich diskutiert*.
 - \+ Das methodische Vorgehen wurde *kritisch reflektiert*.
-
-
-- \+ Das methodische Vorgehen wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
-
-
 - \+ *Die (geringe) Stichprobengröße* bzw. die Konsequenzen auf den Signifikanzwert wurde *gut diskutiert* (bei größerer Stichprobe wären vielleicht andere/deutlichere Effekte aufgetreten).
 - \+ *Grenzen der internen Validität* der Studie (also des Ursache-Wirkungs-Zusammenhangs) wurden erkannt und *stimmig diskutiert*.
 
 - \+- Die *Stichprobengröße* ist zwar ein meist treffender Kritikpunkt an einer Studie; kaum eine Studie weist eine "zu große" Stichprobe auf. Gleichzeitig ist dieser Punkt nicht ausreichend für die Diskussion der Grenzen der Untersuchung und insofern noch *kein Zeugnis einer tiefen Durchdringung* der Stärken und Schwächen eines Forschungsdesigns.
+- \+- Das methodische Vorgehen wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
+
+- \+- Es wurden einige Aspekte im Hinblick auf die Grenzen (Limitationen) der vorliegenden Arbeit diskutiert.
 
 
 `---`
@@ -2693,7 +2710,9 @@ NUR QUALI:
 
 - \- Die Diskussion hätte von einer *intensiveren Erörterung der Limitationen der vorliegenden Arbeit profitiert*.
 
-- \- Der Diskussion *fehlt es an einer Diskussion der Grenzen der Arbeit* und der Grenzen der Aussagekraft der Ergebnisse. Das ist als substanzieller Schwachpunkt der Arbeit zu bewerten.
+- \- Der Diskussion *fehlt es an einer Diskussion der Grenzen der Arbeit* und der Grenzen der Aussagekraft der Ergebnisse. 
+
+- \- Der Diskussion fehlt es an einer Diskussion der Grenzen der Arbeit und der Grenzen der Aussagekraft der Ergebnisse. Das ist als *substanzieller Schwachpunkt* der Arbeit zu bewerten.
 
 - \- Der Diskussion fehlt es an einer Diskussion der Grenzen der Arbeit und der Grenzen der *Aussagekraft* der Ergebnisse.
 
@@ -2766,7 +2785,10 @@ NUR QUALI:
 #### "Beweisen"
 
 - \- *Vorsicht vor Kausalaussagen* zu den Ergebnissen ("es wurde bewiesen, dass ", "X führt zu Y", etc.), da solche sehr ambitionierten Aussagen häufig nicht durch die zitierten Befunde ausreichend gestützt werden. Vorsichtigere Formulierungen ("Die publizierten Ergebnisse lassen darauf schließen, dass", "die Ergebnisse unterstützen die These, dass", etc.) sind häufig sinnvoller.
-- \- "*Beweisen*" ("belegen") ist ein großes Wort; häufig hält das Forschungsdesign der vorliegenden Studie diesem starken, kausalanalytischen Begriff nicht stand. Sie sollten solche Ausdrücke mit mehr Vorsicht verwenden, da der Stand der Forschung der Stärke dieser Behauptung häufig nicht standhält. Weiterhin sollte man, wenn man diesen Ausdruck doch verwendet, ausreichend Belege für so eine weitgehende Behauptung präsentieren und etwaige Gegenargumente entkräften.
+
+- \- "*Beweisen*" ("belegen") ist ein großes Wort; *statistische Untersuchungen treffen (auf die allermeisten Fragen) nur bedingte Wahrscheinlichkeitsaussagen*. Solche Aussagen lassen keine sicheren Aussagen zu, und damit auch keine Beweise. Nur "fast sicher" ist als höchstes Gefühl möglich. Sie sollten daher Ausdrücke wie "bewiesen" mit mehr Vorsicht verwenden.
+
+- \- "*Beweisen*" ("belegen") ist ein großes Wort; da der *Stand der Forschung der Stärke dieser Behauptung häufig nicht standhält*. Weiterhin sollte man, wenn man diesen Ausdruck doch verwendet, ausreichend Belege für so eine weitgehende Behauptung präsentieren und etwaige Gegenargumente entkräften.
 
 
 
