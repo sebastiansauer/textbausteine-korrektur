@@ -1,7 +1,7 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "Letzte Aktualisierung: `r Sys.Date()`"
+date: "Letzte Aktualisierung: `r Sys.Date()`" 
 numbersections: TRUE 
 lang: de-De
 output:
@@ -82,6 +82,9 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 # CHECKLISTE -- DATENANALYSE **!!DATANAL-Check** (xxcheckdat) {#checkdat}
 
 
+# Referate {#referate}
+
+
 ## Formalia (Checkliste Datenanalyse)
 
 
@@ -89,7 +92,13 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 2. Wurden Syntax, Schriftsatz und R-Ausgabe übersichtlich gestaltet? [Syntax-Formatierung](#syntaxformatierung), [R-Ausgaben](#routput), [RMarkdown](#rmarkdown), [Typografie](#typo), [Rrring](#rrring), [Lesbarkeit](#lesbarkeit), [Verzeichnisse verlinkt](#gliederungformat)
 
-3. Sind die Abbildung korrekt/optisch ansprechend gestaltet (z. B. Achsen beschriftet, nicht pixelig)? [Daten-Abbildungen](#datadiagrams)
+3. Sind die Abbildung [korrekt/optisch ansprechend gestaltet](#datadiagrams) (z. B. [Achsen beschriftet](#achsenetc), nicht [pixelig](#pixelig))? 
+
+
+
+
+
+
 
 ## Methodik (Checkliste Datenanalyse)
 
@@ -97,7 +106,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 5. Wurden passende Verfahren der Deskriptivstatistik ausgewählt und angewendet? [Deskriptivstatistik](#deskriptivstatistik), [Effektstärke](#effsize), [Konfidenzintervalle](#ki)
 
-6. Sonstiges? (z. B. [Nachkommastellen](#Nachkommstellen))
+6. Sonstiges?, z. B. [Nachkommastellen](#nachkommastellen), etc.
 
 
 
@@ -135,7 +144,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
-# CHECKLISTE -- POSTER
+# CHECKLISTE -- POSTER (xxcheckposter)
 
 
 ## Formalia (Checkliste Poster)
@@ -480,7 +489,7 @@ ausführlich genug vorgestellt?
 
 
 
-### Kursivsatz vs. Anführungszeichen
+### Kursivsatz vs. Anführungszeichen {#kursivsatzanfuehr}
 `+++`
 
 - \+ Kursivdruck wurde korrekt (im Sinne der Vorgaben der APA) eingesetzt.
@@ -842,7 +851,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-`000``
+`000`
 
 
 - \+- Im Moment ist die *7. Auflage der APA aktuell*. Der Gutachter lässt aktuell sowohl die 6. und 7. Auflage des APA-Handbuchs als gleichwertige Richtlinien zu. Allerdings sollte sich für eine der beiden Varianten entschieden werden bzw. nicht die beiden Varianten gemischt werden.
@@ -925,7 +934,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
   
 - \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Buchkapitel* (d.h. Beiträge aus Herausgeberwerken) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
 
-  - Döbert, F. & Nunner-Winkler, G. (1984). Abwehr- und Bewältigungsprozesse in normalen und kritischen Lebenssituationen. In E. Olbrich & E. Todt (Hrsg.), \*Probleme des Jugendalters. Neuere Sichtweisen \*(S. 259–295). Berlin: Springer.
+  - Döbert, F. & Nunner-Winkler, G. (1984). Abwehr- und Bewältigungsprozesse in normalen und kritischen Lebenssituationen. In E. Olbrich & E. Todt (Hrsg.), \*Probleme des Jugendalters. Neuere Sichtweisen\* (S. 259–295). Berlin: Springer.
   - Bem, D. J. (2004). Writing the empirical journal article. In J. M. Darley, M  P. Zanna & H. L. Roediger III (Eds.), \*The compleat academic: A career guide. 2nd ed.\*(pp. 185–219). Washington, DC: American Psychological Association. http://dx.doi.org/10.1017/cbo9780511807862.002
   
   
@@ -1283,7 +1292,7 @@ NUR QUALI:
 ### Maßnahmen zur Sicherstellung der internen Validität
 - \+ Der Erfolg der experimentellen Intervention wurde geprüft (*"Manipulation Check"*).
 - \+ *Störvariablen* wurden reflektiert, identifiziert und (in Teilen) kontrolliert.
-- \+ Es wurde auf K*ontrolle von Störvarianz* geachtet, um die interne Validität nicht (unnötig) einzuschränken.
+- \+ Es wurde auf *Kontrolle von Störvarianz* geachtet, um die interne Validität nicht (unnötig) einzuschränken.
 - \+ Der reibungslose Ablauf der Datenerhebung wurde vor der eigentlichen Erhebung getestet (*"Prätest", "Pilot"*) - eine sinnvolle Maßnahme, um die interne Validität der Studie zu sichern.
 
 
@@ -1841,17 +1850,16 @@ NUR QUALI:
 
 #### Gestalterische Qualität - Kommentare
 
-`+++`
 
-- \+ Im Hinblick auf die Abbildungen sticht positiv ins Auge, dass die  Abbildungen (zumeist oder immer) gestochen dargestellt sind, also mit *hoher Auflösung* in den Druck eingegangen sind. Dies kann durch den Einsatz von Vektorgrafiken realisiert worden sein, was ein Indikator für technisches Geschick ist unabhängig oder zusätzlich zur optischen Anmutung der Abbildungen.
 
 
 `---`
 
 
-- \- Es wäre von Vorteil gewesen, einige *Diagramme nicht (per "Screenshot") einzufügen*, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
-- \- Einige Abbildungen sind "*pixelig*".
-- \- Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) -- zumal mit geringer Auflösung -- eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
+
+
+
+
 - \- *Balkendiagramme* sollten nicht in der Umrandung (ggplot: Parameter `color`), sondern wenn dann in der *Füllung* (ggplot: Parameter `fill`) eingefärbt werden.
 - \- Die Diagramme sind *nicht einheitlich gestaltet*; die Format-Vorlage wechselt.
 - \- *Kreisdiagramme* ("*Torten*") sollten gemieden werden, da (vor allem bei vielen kleinen Kategorien mit ähnlicher Häufigkeit) die visuelle Diskriminierbarkeit eingeschränkt ist. Einfach gesagt: Man sieht nicht unbedingt, was Sache ist, in einem Kreisdiagramm. In der vorliegenden Arbeit finden aber solche Diagramme Verwendung.
@@ -1864,13 +1872,34 @@ NUR QUALI:
 
 
 
+### Pixelig {#pixelig}
+
+
+`+++`
+
+- \+ Im Hinblick auf die Abbildungen sticht positiv ins Auge, dass die  Abbildungen (zumeist oder immer) gestochen dargestellt sind, also mit *hoher Auflösung* in den Druck eingegangen sind. Dies kann durch den Einsatz von Vektorgrafiken realisiert worden sein, was ein Indikator für technisches Geschick ist unabhängig oder zusätzlich zur optischen Anmutung der Abbildungen.
+
+
+`---`
+
+- \- Es wäre von Vorteil gewesen, einige *Diagramme nicht (per "Screenshot") einzufügen*, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
+
+- \- Einige Abbildungen sind "*pixelig*".
+
+- \- Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) -- zumal mit geringer Auflösung -- eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
+
+
+
 #### Farbwahl
 
 - \- Die gewählte *Farbpalette* war *nicht (durchgehend) gut für S/W-Druck geeignet*. Der Sättigungswert der Farben hätte besser variiert werden können Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>). Es sei hinzugefügt, dass es sich hierbei nur um ein Detail handelt, dass kaum ins Gewicht fällt. Vielmehr ist dieser Hinweis als Angebot für ambitionierte Lernende zu verstehen, um sich tiefer in (für die Praxis) wichtige Themen einzuarbeiten. 
 
 - \- Idealerweise ist die gewählte Farbpalette auch für *Farb-Sehschwächen* geeignet. Dies wurde in der vorliegenden Arbeit zwar nicht (durchgängig) berücksichtigt, ist aber auch nur ein Detail, das kaum ins Gewicht fällt.
 
-#### Achsen, Labels und Legenden von Abbildungen
+
+
+
+#### Achsen, Labels und Legenden von Abbildungen {#achsenetc}
 - \+ Die Achsen der Diagramme wurden *sinnvoll beschriftet*.
 - \+ Die Achsen der Diagramme wurden *(zumeist) sinnvoll beschrifte*t.
 
@@ -2216,21 +2245,21 @@ Fehlinterpretationen:
 - \- Die Daten bzw. der Datensatz wurden nicht ausführlich genug oder nicht korrekt beschrieben.
 - \- Es reicht, die zu analysierenden Variablen zu beschreiben; es müssen nicht alle Variablen des Datensatzes vorgestellt werden.
 
-### Nachkommastellen (xxdezimal)
+### Nachkommastellen (xxdezimal) {#nachkommastellen}
 
-- \+ Die Anzahl der *Nachkommastellen* ist immer oder zumeist *passend* bzw. konsistent.
+- \+ Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist immer oder zumeist *passend* bzw. konsistent.
 
 
 `---`
 
 
-- \- Die Anzahl der *Nachkommastellen* ist *nicht immer konsistent* oder zu lang (zwei Nachkommastellen reichen i.d.R.).
-- \- Die Anzahl der Nachkommastellen ist *teilweise unpassend *(z. B. zu lang) oder *inkonsistent* (mal mehr, mal weniger).
+- \- Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist *nicht immer konsistent* oder zu lang (zwei Nachkommastellen reichen i.d.R.).
+- \- Die Anzahl der Nachkommastellen (Dezimalstellen) ist *teilweise unpassend *(z. B. zu lang) oder *inkonsistent* (mal mehr, mal weniger).
 
-- \- Bei *Prozentzahlen* sollte man in der Regel* auf Nachkommastellen verzichten*, was hier nicht getan wurde.
+- \- Bei *Prozentzahlen* sollte man in der Regel *auf Nachkommastellen verzichten*, was hier nicht getan wurde.
 
 
-- \- Die* Anzahl der Nachkommastellen* sollte *nicht zu hoch sein*, um *Scheingenauigkeit* zu vermeiden (Beispiel: "Das mittlere Körpergewicht in Deutschland beträgt 78,314159267 kg, wie eine Studie mit *n=30* herausfand.".) In der Arbeit wurden (teilweise) zu viele Nachkommastellen angegeben.
+- \- Die *Anzahl der Nachkommastellen* (Dezimalstellen) sollte *nicht zu hoch sein*, um *Scheingenauigkeit* zu vermeiden (Beispiel: "Das mittlere Körpergewicht in Deutschland beträgt 78,314159267 kg, wie eine Studie mit *n=30* herausfand".) In der Arbeit wurden (teilweise) zu viele Nachkommastellen angegeben.
 
 
 
@@ -2526,7 +2555,12 @@ Fehlinterpretationen:
 - \- Es *fehlt ein Hinweis zur Quelle des Datensatzes* (zumindest eine URL wäre wünschenswert). Nur mit der Quelle kann die Analyse in allen Schritten überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit wäre damit gewährleistet gewesen, fehlt aber in der vorliegenden Analyse.
 
 
-## Unnötige Erläuterungen im Methodenteil {#unnoetigeerlaueterung}
+## Konzise Beschreibung vs. unnötige Erläuterungen im Methodenteil {#unnoetigeerlaueterung}
+
+
+`+++` 
+
+- \+ Der Methodenteil besticht durch eine konzise Beschreibung. Es wurden -- so wie es wünschenswert ist -- im Methodenteil nur das Vorgehen der Studie beschrieben. Auf "Lehrbuchausführungen", etwa der Beschreibung von Standardmethoden wie Mittelwertsberechnung oder dem t-Test wurde korrekterweise verzichtet. 
 
 `---`
 
@@ -2816,7 +2850,7 @@ Fehlinterpretationen:
 
 
 
-## Wissenschaftlichkeit vs. Praxisnähe (xxwiss)
+## Wissenschaftlichkeit vs. Praxisnähe (xxwiss)  {#wissvsprax}
 
 
 
@@ -2876,7 +2910,7 @@ Fehlinterpretationen:
 - \- Der Theorieteil hätte *schärfer auf die Forschungsfrage* hin ausgerichtet sein sollen. *Verwandte Phänomene*, die aber für die Forschungsfrage insofern *randständig* sind, als dass sie in der vorliegenden Arbeit nicht untersucht werden, sollten im Theorietiel entsprechend nicht, oder nur randständig erwähnt werden.
 
 
-## (Güte der) Problemlösung
+## (Güte der) Problemlösung {#gueteproblemloesung}
 
 
 `+++`
@@ -2961,7 +2995,7 @@ Fehlinterpretationen:
 
 
 
-## Einführung/Einleitung (xxeinl)
+## Einführung/Einleitung (xxeinl) {#einleitung}
 
 - \+ Die Arbeit beginnt mit einer *sinnvollen Einführung*.
 - \+ Die *Relevanz* das Themas wird *anhand verschiedener Statistiken* (wie Umsatz, Anzahl Personen oder dergleichen) belegt. Das ist eine sinnvolle Art, die Relevanz eines Themas einzuleiten.
@@ -3049,7 +3083,7 @@ Fehlinterpretationen:
 - \- Der theoretischer Teil könnte *tiefer und breiter ausgebaut* sein.
 
 
-### Qualität des Theorieteiles
+### Qualität des Theorieteiles {#qualtheorie}
 
 `+++`
 
@@ -3115,6 +3149,9 @@ Fehlinterpretationen:
 `---`
 
 - \- Die Forschungsfrage legt ein *Kausalmodell* der Form "X wirkt auf Y" nahe, aber der Theorieteil *geht nicht (ausführlich genug) auf ursächliche Erläuterungen* ein. Es wird daher nicht klar genug herausgearbeitet, wie - vermöge welcher Mechanismen bzw. auf welche Art und Weise - X auf Y wirken könnte.
+
+- \- Es *fehlen Erläuterung* zu den *Ursache-Wirkungs-Zusammenhängen* im Hinblick auf die Forschungsfrage. Lautet die Forschungsfrage etwa "Welchen Einfluss hat die Nutzung von Onlinedating-Plattformen auf das Selbstwertgefühl?" so sollte der Theorieteil explizit auf die Frage eingehen, wie und warum die Nutzung solcher Plattformen auf das Selbstwertgefühl eingeht. Der zentrale Grund wissenschaftliche Theorie aufzustellen, ist, die Welt zu verstehen. Die Welt zu verstehen, heißt (zu gutem Teil) die Ursachen der Phänomene zu verstehen. Daher ist es eine zentrale Aufgabe für Theorien und damit für Forschung , auf Kausalstrukturen (d.h. Ursache-Wirkungs-Zusammenhänge) einzugehen. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
 
 - \- Zur Erläuterung eines Kausalmodells (oder seiner Grundzüge) ist es hilfreich, *auf eine bestehende Theorie zurückzugreifen*, da diese zumeist auf Wirkbeziehungen fokussieren. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausreichend) berücksichtigt.
 
@@ -3632,6 +3669,85 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 - \+ Die Arbeit weist einen wohl ausgearbeiteten und umfangreichen *Transfer* in die (berufliche) Praxis auf.
 
 - \- Der Arbeit *fehlt* der formal geforderte Transfer in die berufliche Praxis.
+
+
+
+
+
+
+# VORTRAGEN/PRÄSENTIEREN (xxpräs)---------------------------------------- {#präs}
+
+
+## Korrektheit
+
+
+
+
+
+
+
+
+
+## Umfang
+
+
+
+
+
+
+
+## Darstellung (Rhetorik, Körpersprache)
+
+`+++`
+- \+ Es wurde gut verständlich gesprochen.
+
+
+`---`
+
+- \- Es wurden einige Füllwörter verwendet (wie "ähm", "auch" oder "genau").
+- \- Es wurde am Bildschirm ("Teleprompter") abgelesen.
+- \- Es wurde immer wieder dem Publikum der Rücken zugedreht, um an der Visualisierungshilfe abzulesen.
+- \- Die Betonung bzw. Prosodie hätte von mehr Abwechslung profitiert.
+- \- Die Argumentation hätte punktuierter, akzentuierter sein können. Nicht: "wir wollen auch gar nicht groß um den heißen Brei herumreden, sondern lieber gleich, ohne uns aufzuhalten, denn das wäre nicht zielführend, mit dem Thema des Vortrags starten. Ich will Sie auch lieber gar nicht auf die Folter spannen ...". Sondern: "Unser Thema heute lautet XXX."
+
+
+
+### Besonderheite der Video-Präsentation
+
+`+++`
+
+
+
+`---`
+- \- Bei einer Video-Präsentation sollte möglichst immer in die Kamera geschaut werden. Dies wurde in der vorliegenden Präsentation nicht berücksichtigt.
+- \- Bei einer Video-Präsentation sollte die Kamera etwa auf Augenhöhe der sprechenden Person gehalten sein.
+
+
+
+
+
+
+## Organisation
+
+`---`
+- Die vorgegebene Dauer des Vortrags wurde nicht eingehalten.
+- Es wurde kein Ausweis gezeigt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
