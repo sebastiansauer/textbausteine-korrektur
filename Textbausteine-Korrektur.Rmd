@@ -19,21 +19,26 @@ output:
 
 # CHECKLISTE -- SEMINARARBEIT (xxcheckseminar) {#checkseminar}
 
-## Formalia (Checkliste Seminararbeit **!!FORMALIA-CHECK**)
+
+
+## FORMALIA (Checkliste Seminararbeit **!!FORMALIA-CHECK**)
+
+
+
 
 1. WICHTIG Titel  [optisch prägnant?](#titelformatierung) und [präzise?](#titelinhalt)
 2. WICHTIG [Abstract: vorhanden und korrekt?](#abstract)
-2. Gliederung [optisch prägnant?](#gliederungformat) und [passend zum Titel/Forschungsfrage?](#gliederunginhalt)
+2. Gliederung [optisch prägnant?](#gliederungformat), [verlinkt](#verlinkt) und [passend zum Titel/Forschungsfrage?](#gliederunginhalt)
 4. Textsatz [allgemein ok?](#typo)
 5. [Silbentrennung ok?](#silbentrennung)
 6. [Absatzformatierung ok?](#absatz)
 7. [Rechtschreibung ok?](#rechtschreibung), z. B. [Fremdwörter](#fremd) und [Kopplung](#rechtkommentare)?
 8. [Zitieren im Text ok?](#zitieren)
-9. WICHTIG [Literaturverzeichnis ok?](#litverzzitieren)
+9. WICHTIG [Literaturverzeichnis im Aufbau ok?](#litverzaufbau)  [Im Zitieren ok](#litverzzit) [Insgesamt ok?](#litverzzitieren)
 10. [Referenzieren ok?](#referenzieren)
 
 
-## Methoden (Checkliste Seminararbeit **!!METHODEN-CHECK**)
+## METHODEN (Checkliste Seminararbeit **!!METHODEN-CHECK**)
 
 
 ### Methoden -- QUANTITATIV
@@ -65,11 +70,17 @@ Summarisch: [Sehr gute qualitative Methoden](#sehrgutequalimeth)
 
 Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
-## Inhalt (Checklist Seminararbeit **!!INHALT-CHECK**)
+
+
+
+
+
+## INHALT (Checklist Seminararbeit **!!INHALT-CHECK**)
 
 1. [Forschungsfrage expliziert?](#fofrage)
 2. WICHTIG [Roter Faden erkennbar?](#roterfaden)
 3. WICHTIG [Literaturmenge ok?](#literaturmenge)
+4. [Theorieteil ok?](#fachkenntnis)
 4. [Güte der Quellen ok?](#fachartikelverwendet)
 5. [Sprachlicher Ausdruck ok?](#sprache)
 6. [Limitationen diskutiert?](#limitationen)
@@ -90,7 +101,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 1. Werden alle angeforderten Arbeitsschritte abgeleistet (z. B. genug Hypothesen geprüft, Datensatz beschrieben, Skalenniveaus benannt)? [Vollständigkeit](#vollstaendig), [Skalenniveau](#skalenniveau), [Datensatz-Beschreibung](#datasetdescription)
 
-2. Wurden Syntax, Schriftsatz und R-Ausgabe übersichtlich gestaltet? [Syntax-Formatierung](#syntaxformatierung), [R-Ausgaben](#routput), [RMarkdown](#rmarkdown), [Typografie](#typo), [Rrring](#rrring), [Lesbarkeit](#lesbarkeit), [Verzeichnisse verlinkt](#gliederungformat)
+2. Wurden Syntax, Schriftsatz und R-Ausgabe übersichtlich gestaltet? [Syntax-Formatierung](#syntaxformatierung), [R-Ausgaben](#routput), [RMarkdown](#rmarkdown), [Typografie](#typo), [Rrring](#rrring), [Lesbarkeit](#lesbarkeit), [Verzeichnisse verlinkt](#verlinkt)
 
 3. Sind die Abbildung [korrekt/optisch ansprechend gestaltet](#datadiagrams) (z. B. [Achsen beschriftet](#achsenetc), nicht [pixelig](#pixelig))? 
 
@@ -578,7 +589,7 @@ ausführlich genug vorgestellt?
 - \- Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch kurze Absätze.
 
 
-- \- *Jedes (Haupt-)kapitel beginnt auf einer neuen Seite*; ein Kapitelwechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+- \- *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
 
 
@@ -748,6 +759,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \+ Die Zitationsweise im Text ist in hohem Maße *konsistent* und fehlerfrei.
 - \+ Die Zitationsweise im Text ist *insgesamt* konsistent und fehlerfrei.
+- \+ Die Zitationsweise im Text ist *konsistent und fehlerfrei*.
+
 - \+ Die Zitationsweise im Text ist ist *fast immer konsistent und fehlerfrei*. *Gleiches* gilt für das Literaturverzeichnis.
 - \+ Die Zitationsweise im Text ist insgesamt *gut.* *Gleiches* gilt für das Literaturverzeichnis.
 
@@ -824,6 +837,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \+ Das Literaturverzeichnis enthält *kaum/keine Fehler*.
 - \+ Das Literaturverzeichnis ist formal als *gut bis sehr gut* zu bewerten.
 - \+ Das Literaturverzeichnis enthält *wenig* Fehler.
+- \+ Das Literaturverzeichnis enthält *wenig* Zitationsfehler.
+
 - \+ Das Literaturverzeichnis ist formal als *gut* zu bewerten.
 - \+ Das Literaturverzeichnis ist formal als *befriedigend bis gut* zu bewerten.
 
@@ -839,22 +854,53 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-
-
-#### Literaturverzeichnis - Kommentare/Hinweise zu Fehlern
-
-`+++`
-
-- \+ *DOIs* wurden berichtet, was nicht nur den Vorgaben der APA entspricht, sondern eine hilfreiche Ergänzung zur Identifikation von Literatur darstellt.
-- \+ Schön ist, dass *URLs* im Literaturverzeichnis am Zeilenende *getrennt/umgebrochen* wurden, um hässliche Lücken im Textsatz zu vermeiden. Häufig wird das vernachlässigt.
-- \+ Es ist positiv anzumerken, dass *Verlagsnamen* in der von der APA (6. Auflage) vorgeschlagenen Form berichtet wurden (nämlich "Heidelberg: Springer." anstelle von z.B. "Berlin, Heidelberg: Springer Medien Verlag."). Allerdings ist die 6. Auflage mittlerweile veraltet.
-
-
+#### Literaturverzeichnis -- Kommentare zu Aufbaufehlern {#litverzaufbau}
 
 `000`
 
 
 - \+- Im Moment ist die *7. Auflage der APA aktuell*. Der Gutachter lässt aktuell sowohl die 6. und 7. Auflage des APA-Handbuchs als gleichwertige Richtlinien zu. Allerdings sollte sich für eine der beiden Varianten entschieden werden bzw. nicht die beiden Varianten gemischt werden.
+
+
+
+`---`
+
+- \- Im Literaturverzeichnis sind *genau die zitierten Literaturstellen anzuführen (nicht mehr, nicht weniger)*. Es sollen keine nicht-zitierten Werke im Literaturverzeichnis erscheinen; es sollen keine zitierten Werke nicht im Literaturverzeichnis erscheinen. Die vorliegende Arbeit hält dies nicht ein.
+
+- \- Laut APA/DPGs ist ab der zweiten Zeile einer Zitation im Literaturverzeichnis einzurücken (5-7 Leerzeichen; *"hängender Einzug"*). Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
+
+
+- \- Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Titel) zu überschreiben, aber *nicht zu nummerieren*.
+
+
+- \- In der vorliegenden Arbeit werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt). Das ist als schwerer formaler Fehler zu werten.
+
+- \- Es ist nur *ein einziges* Literaturverzeichnis anzugeben, *nicht mehrere*, etwa für Print- und elektronische Medien getrennt.
+
+- \- Die *Formatierung* des Literaturverzeichnisses entspricht nicht in allen Punkten der Vorgaben oder ist *nicht in allen Punkten sinnvoll* gewählt (z.B. Einzug oder ersten Zeile, Blocksatz, Abstände etc.).
+
+- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile)
+
+- \- Laut APA/DGPs sind Einträge im Literaturverzeichnis nicht zu nummerieren oder mit Aufzählungszeichen zu versehen.
+
+
+
+
+
+
+#### Literaturverzeichnis -- Kommentare zu Zitationsfehlern {#litverzzit}
+
+`+++`
+
+- \+ *DOIs* wurden berichtet, was nicht nur den Vorgaben der APA entspricht, sondern eine hilfreiche Ergänzung zur Identifikation von Literatur darstellt.
+
+- \+ Schön ist, dass *URLs* im Literaturverzeichnis am Zeilenende *getrennt/umgebrochen* wurden, um hässliche Lücken im Textsatz zu vermeiden. Häufig wird das vernachlässigt.
+
+- \+ Es ist positiv anzumerken, dass *Verlagsnamen* in der von der APA (6. Auflage) vorgeschlagenen Form berichtet wurden (nämlich "Heidelberg: Springer." anstelle von z.B. "Berlin, Heidelberg: Springer Medien Verlag."). Allerdings ist die 6. Auflage mittlerweile veraltet.
+
+
+
+
 
 
 
@@ -876,15 +922,17 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \- *Typische Fehler in Literaturverzeichnissen* beinhalten das Auslassen der Seitenzahl, falsche Groß- und Kleinschreibung, falsche Darstellung von Kapiteln in Herausgeberwerken oder falsche Formatierung des Verlagnamens.
 
 
-- \- Im Literaturverzeichnis sind *genau die zitierten Literaturstellen anzuführen (nicht mehr, nicht weniger)*. Es sollen keine nicht-zitierten Werke im Literaturverzeichnis erscheinen; es sollen keine zitierten Werke nicht im Literaturverzeichnis erscheinen. Die vorliegende Arbeit hält dies nicht ein.
+
+
 - \- Laut den Richtlinien zur Manuskriptgestaltung der DGPs (2016) wird die *"Heftnummer nur dann,* wenn die Paginierung jedes Heftes mit der Seitenzahl Eins beginnt, unmittelbar nach der Bandangabe in Klammern (im Literaturverzeichnis() hinzugefügt" (S. 116).
-- \- Bei der Zitation von Kapiteln aus Herausgeberwerken im Literaturverzeichnis sind die Editoren zu benennen; das wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
+
+- \- Bei der Zitation von Kapiteln aus Herausgeberwerken im Literaturverzeichnis sind die *Editoren* zu benennen; das wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
 
 - \- Laut APA/DGPs ist  ein *Verlag* im Literaturverzeichnis nur kurz als z. B. "Thieme" oder "Hogrefe" aufzuführen, nicht aber als z. B. "Karl F. Haug Verlag" etc.
 
 - \-  Laut APA/DGPs (6. Auflage) ist im Literaturverzeichnis bei der Zitation eines Buches nur *ein Ort* (der zuerst genannte im Quellmaterial) anzugeben, nicht mehrere, also z. B. "Heidelberg: Springer". In der. 7. Auflage des APA-Handbuchs ist der Verlagsort wegzulassen.
 
-- \- Laut APA/DPGs ist ab der zweiten Zeile einer Zitation im Literaturverzeichnis einzurücken (5-7 Leerzeichen; *"hängender Einzug"*). Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
+
 
 - \- Laut APA/DGPs sind *Seitenzahlen* im Literaturverzeichnis bei Monografien nicht anzugeben; bei *Buchkapiteln* aus Herausgeberwerken, bei Zeitschriftenartikeln oder Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
 
@@ -894,24 +942,20 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \- Laut APA (6./7. Auflage) sind in der Zitation im *Literatverzeichnis* beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
 
-- \- Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Titel) zu überschreiben, aber *nicht zu nummerieren*.
+
 
 - \- Beim Zitieren von Fachartikeln ist zwar der *Jahrgang*, aber *nicht* die Nummer der *Ausgabe* *kursiv* zu setzen laut APA.
 
 - \- Laut APA V7 ist der *Ort des Verlags* bei der Zitation eines (gedruckten) Buches *nicht* anzugeben.
 
 
-- \- Es werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt).
-
-- \- Es ist nur *ein einziges* Literaturverzeichnis anzugeben, *nicht mehrere*, etwa für Print- und elektronische Medien getrennt.
 
 
 
 
 
 
-
-#### Literaturverzeichnis - Beispiele/Blaupausen von Zitaten nach Typen
+#### Literaturverzeichnis -- Beispiele/Blaupausen von Zitaten nach Typen
 
 `---`
 
@@ -1342,9 +1386,9 @@ NUR QUALI:
 - \- Es ist nicht klar (genug) ersichtlich aus dem Text, *ob und inwieweit geeignete Messinstrumente ausgewählt* wurden.
 
 - \- Die *verwendeten Messinstrumente wurden nicht (in ausreichendem Maße) erläutert*. Messung ist jedoch für jede empirische Forschung ein Grundstein; daher sollte diesem Punkt immer Aufmerksamkeit zuerteilt werden.
-- \- Es *fehlen Hinweise zu den Gütekriterien* der Messinstrumente.
+- \- Es *fehlen Hinweise zu den Gütekriterien* der Messinstrumente oder diese Informationen stehen am falschen Ort.
 
-- \- Es fehlen Hinweisen zur *internen Konsistenz* (z. B. Cronbachs Alpha) der verwendeten Messinstrumente.
+- \- Es fehlen Hinweisen zur *internen Konsistenz* (z. B. Cronbachs Alpha) der verwendeten Messinstrumente oder diese Informationen stehen am falschen Ort.
 
 - \- Es *wurden Messinstrumente mit unklarer oder zweifelhafter Güte* verwendet. Ohne sichere Messinstrumente ist es unsicher, Effekte zu finden, selbst wenn die Theorie richtig ist. Überlegen Sie: Angenommen Ihre Waage ist kaputt und zeigt wirre Zahlen an. Könnten Sie erwarten, die Hypothese "Männer sind im Schnitt schwerer als Frauen" zu bestätigen. Wie aussichtsreich und wie sinnvoll wäre eine Studie mit einem solchen unsicheren Messinstrument? 
 - \- Die Verwendung von Messinstrumenten von zweifelhaftem Wert *zeugt nicht von Verständnis der Grundfesten* der empirischen Forschung.
@@ -1487,7 +1531,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 
 
-### Präzision
+### Präzision/operational formuliert
 
 - \+ Ein *Pfaddiagramm* zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
 - \+ Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die *Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
@@ -1501,11 +1545,11 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - \- Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
 - \- Die Hypothesen *sollten konkreter* sein.
 - \- Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
-- \- Die Hypothesen sind unpräzise (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
+- \- Die Hypothesen sind nicht präzise genug (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
 - \- Möchte man Hypothesen sehr präzise gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
 
-
+- \- Hypothesen sollen operational formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
 
 
 
@@ -1750,6 +1794,12 @@ NUR QUALI:
 
 - \- Es wird *nicht (genau genug) berichtet*, mit welchen *statistischen Methoden* die Daten der *geplanten* Studie ausgewertet werden sollen.
 
+- \- Es wurden (in Teilen) unpassende Methoden der Datenanalyse ausgewählt.
+
+- \- Die ausgewählten Methoden der Datenanalyse passen nicht zu den Hypothesen.
+
+- \- Die ausgewählten Methoden der Datenanalyse passen nicht zu den Skalenniveaus der Variablen in den Hypothesen.
+
 
 
 
@@ -1799,9 +1849,10 @@ NUR QUALI:
 ### Daten-Diagramme (xxdataviz) {#datadiagrams}
 
 #### Verwendung/Anzahl
+
 - \+ *Diagramme* wurden sinnvoll eingesetzt, um zentrale Ergebnisse zu vermitteln (z. B. Boxplots, Histogramme, Streudiagramme).
 
-- \- (Mehr) Diagramme hätten geholfen, die empirischen Ergebnisse anschaulicher und greifbarer zu machen.
+- \- *(Mehr) Diagramme hätten geholfen*, die empirischen Ergebnisse anschaulicher und greifbarer zu machen.
 
 
 
@@ -2582,7 +2633,11 @@ Fehlinterpretationen:
 
 
 
-## Beurteilung des Methoden-/Ergebnisteils insgesamt
+## Beurteilung des Methoden-/Ergebnisteils insgesamt (xxmethgesamt)
+
+`+++`
+
+- \- Die Studie ist insgesamt *methodisch ambitioniert* geplant.
 
 - \+ Insgesamt wurde weitgehend relevante empirisch-methodische Verfahren sinnvoll und methodisch gewandt verwendet.
 - \+ Die Anwendung — sowohl in Qualität als auch in Quantität — zeugt in fast allen Punkten von sehr gutem methodischem Verständnis.
@@ -2592,7 +2647,16 @@ Fehlinterpretationen:
 - \+ Sehr gutes Verständnis der empirisch-wissenschaftlichen Methodik ist festzustellen.
 - \+ Das methodische Vorgehen anschaulich und gut verständlich erläutert.
 
+
+`000`
+
+
 - \+- Insgesamt ist das Niveau und der Umfang des methodisch-empirischen Teils als von mittlerer Güte einzuschätzen. 
+
+
+`---``
+
+
 
 - \- Zentrale empirisch-methodische Konzepte wurden falsch eingesetzt.
 - \- Es sind einige kleinere methodische Mängel aufzufinden.
@@ -2646,12 +2710,15 @@ Fehlinterpretationen:
 
 ### Gliederung -- Formatierung/Formales {#gliederungformat}
 
+
+[Verlinkung der Verzeichnisse: hier klicken](#verlinkt)
+
 `+++`
 
 - \+ Die Gliederung/das Inhaltsverzeichnis ist *optisch gelungen* und hilft dem schnellen Erfassen.
 - \+ Die Gliederung ist *optisch gut strukturiert*, was das Erfassen der Gedanken des Textes unterstützt.
 
-- \+ Die Einträge des Inhaltsverzeichnis sind *verlinkt* (zu den entsprechenden Kapiteln im Hauptteil), so dass ein flüssiges, flottes Lesen bzw. Rezipieren des Berichtes möglich ist; dies trägt zur "Leserfreundlichkeit" des Berichts bei. Gleiches gilt für Zitationen und Referenzen auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
+
 
 `---`
 
@@ -2671,7 +2738,7 @@ Fehlinterpretationen:
 - \- Teile wie *Literaturverzeichnis* oder *Anhang* werden in der *Gliederung nicht nummeriert*. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
 
 
-- \- Wären die Einträge des Inhaltsverzeichnis *verlinkt* gewesen (zu den entsprechenden Kapiteln im Hauptteil), so wäre ein flüssigeres, flotteres Lesen bzw. Rezipieren des Berichtes möglich gewesen; die "*Leserfreundlichkeit*" des Berichts wäre damit höher gewesen als es im vorliegenden Bericht der Fall ist.  Gleiches gilt für *Zitationen* und *Referenzen* auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
+
 
 
 - \- *Vertikale Abstände* im Text sollten so gesetzt sein, dass sie Sinnzusammenhänge wie Kapitel verdeutlichen. Daher sollte z. B. nach der Überschrift zum Text des Absatzes weniger Abstand sein als zwischen Absatzende und neuer Überschrift. In der vorliegenden Arbeit wurden die Abstände zwischen Sinnabschnitten nicht durchgehend sinnvoll gewählt.
@@ -2687,6 +2754,28 @@ Fehlinterpretationen:
 
 
 - \- Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
+
+
+
+
+### Verzeichnisse verlinkt (xxverlinkt) {#verlinkt}
+
+`+++`
+
+
+- \+ Die Einträge des Inhaltsverzeichnis sind *verlinkt* (zu den entsprechenden Kapiteln im Hauptteil), so dass ein flüssiges, flottes Lesen bzw. Rezipieren des Berichtes möglich ist; dies trägt zur "Leserfreundlichkeit" des Berichts bei. Gleiches gilt für Zitationen und Referenzen auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
+
+
+`---`
+
+
+- \- Wären die Einträge des Inhaltsverzeichnis *verlinkt* gewesen (zu den entsprechenden Kapiteln im Hauptteil), so wäre ein flüssigeres, flotteres Lesen bzw. Rezipieren des Berichtes möglich gewesen; die "*Leserfreundlichkeit*" des Berichts wäre damit höher gewesen als es im vorliegenden Bericht der Fall ist.  Gleiches gilt für *Zitationen* und *Referenzen* auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
+
+
+`000`
+
+- TIPP: Ein Dokument im PDF-Format sollte eine Gliederung "eingebaut" haben. In einem PDF-Dokument gibt es eine Funktion, eine Gliederung anzuzeigen (oft in einer eigenen Ansicht links des Hauptdokuments). Leser, die das Dokument elektronisch lesen, profitieren von dieser Funktion, da es so möglich wird, einfach im Dokument zu manövrieren.
+
 
 
 ## Titel und Titelseite (xxtitel)
@@ -2739,8 +2828,8 @@ Fehlinterpretationen:
 - \- Das *Inhaltsverzeichnis* der Arbeit findet sich in seinen Schwerpunkten *nur in Teilen im Titel* wieder.
 
 
-- \- Der Titel *hätte präziser formuliert werden könne*n, z.B. um die Richtung der *Hypothesen* oder Art des *Studiendesigns* zu erwähnen.
-- \- Besser wäre der Titel noch, wenn die Art des *Studiendesigns* berichtet werden würde* ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine *querschnittliche Beobachtungsstudie*").
+- \- Der Titel *hätte präziser formuliert werden können*, z.B. um die Richtung der *Hypothesen* oder Art des *Studiendesigns* zu erwähnen.
+- \- Besser wäre der Titel noch, wenn die Art des *Studiendesigns* berichtet werden würde ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine *querschnittliche Beobachtungsstudie*").
 
 - \- Die *Forschungsfrage* geht aus dem Titel *nicht (klar)* genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
 
@@ -2751,7 +2840,6 @@ Fehlinterpretationen:
 - \- Der Titel benutzt *kausal konnotierte Begriffe* wie "der Effekt/Einfluss von X auf Y". Allerdings lassen die theoretischen und/oder versuchsplanerischen Grundlagen der vorliegenden keine Kausalaussagen zu.
 
 - \- Der Titel sollte in einer wissenschaftlichen Arbeit besser *als Forschungsfrage formuliert* sein, nicht als gesicherte Lösung. Das Ziel einer wissenschaftlichen Arbeit besteht gerade darin, Fragen zu stellen und an deren Beantwortung zu arbeiten. Wäre die Frage schon geklärt, wäre sie nicht Thema einer Forschungsarbeit. Man muss außerdem bescheiden sein im Hinblick auf die Klärungskraft einer einzelnen Studie: Viele wissenschaftlichen Phänomene sind so komplex, dass es aussichtslos ist, sie mit einer einzelnen Studie zu beantworten zu wollen. Sozialwissenschaftliche Phänomen stellen ob ihrer Multideterminiertheit darin keine Ausnahmen, ganz im Gegenteil. Wissenschaftliches Denken und Argumentieren erkennt von vor diesem Hintergrund also in einer bescheidenen, vorsichtigen, kritischen Formulierung -- bei gleichzeitiger Anwendung der besten Methodik, um Wissen zu generieren bzw. um Zweifel auszuräumen. Daher sind *(Unter-)Titel der Art "wie man von X zu Y kommt" etc. nicht gut geeignet* als Titel von Forschungsarbeiten.
-
 
 
 
@@ -2787,6 +2875,8 @@ Fehlinterpretationen:
 
 
 - \- Der Titel ist relativ *lang*; ein kürzer (aber gleichzeitig prägnanter) Titel wäre besser gewesen.
+
+- \- Der Titel soll nicht im Blocksatz (zumal ohne Silbentrennung) gesetzt werden, da unschöne Löcher im Textsatz entstehen.
 
 
 
@@ -2827,7 +2917,7 @@ Fehlinterpretationen:
 - \- Die *Forschungsfrage nicht klar genug herausgestellt* oder findet sich nicht an dem einschlägigen Platz (Einleitung oder zu Beginn des Theorieteils).
 - \- Das Ziel der Arbeit sollte in *einem oder zwei Sätzen prägnant* expliziert sein.
 - \- Ein deutliches Manko der Arbeit ist das *Fehlen einer expliziten Forschungsfrage*.
-- \- Es wird nicht deutlich genug klar, welches Problem (welche Frage) die Arbeit versucht zu lösen. Dadurch wird viel Potenzial verschenkt. 
+- \- Es wird nicht deutlich genug klar, welches Problem (welche Frage) die Arbeit versucht zu lösen; die *Forschungsfrage ist unklar*. Dadurch wird viel Potenzial verschenkt. 
 
 - \- Es sollten *nicht mehrere Forschungsfrage formuliert werden*, sondern besser nur eine einzige. Oder zumindest muss es eine übergreifende Forschungsfrage geben. Stehen mehrere Forschungsfragen nebeneinander, ist der wesentliche Beitrag der Arbeit weniger klar erkenntlich. Außerdem ist es zweifelhaft, ob eine vergleichsweise kurze Arbeit mehrere Fragen in nützlicher Tiefe bearbeiten kann. Ich empfehle daher, die Arbeit auf die Beantwortung einer Frage hin zuzuspitzen. Man braucht i. d. R. keine Sorge haben, dass es nicht genug Stoff (Literatur und Gedanken) gibt, um eine Arbeit zu füllen; diese Sorge ist fast immer unbegründet. 
 
@@ -2838,6 +2928,8 @@ Fehlinterpretationen:
 
 
 - \- Die Forschungsfrage ist *nicht präzise genug formuliert*.
+
+- \- Die Forschungsfrage sollte früher in der Arbeit vorgestellt werden, da sie das forschungsleitende Interesse -- den Begründungszusammenhang des Forschungsvorhabens insgesamt -- charakterisiert. Salopp formuliert gibt die Forschungsfrage eine Antwort auf die Frage: "Worum geht es hier überhaupt?". Da diese Information die Richtung für die ganze Arbeit gibt, ist ihr Platz zu Beginn der Arbeit.
 
 
 
@@ -2951,9 +3043,14 @@ Fehlinterpretationen:
 - \- Das *empirisch-methodisch Vorgehen wurde zu knapp* oder gar nicht beschrieben.
 
 - \- Der *Theorieteil* fußt (in Teilen) auf alten, falsifizierten oder wissenschaftlich *überholten oder fragwürdigen Theorien* bzw. Modellen (z. B. AIDA-Modell, Maslows Bedürfnispyramide oder das Johari-Fenster).
--
 
-### Argumentation - Hinweise
+
+
+
+
+
+
+### Argumentation -- Hinweise (xxargumentation) {#argumente}
 
 `+++`
 
@@ -3085,12 +3182,17 @@ Fehlinterpretationen:
 
 ### Qualität des Theorieteiles {#qualtheorie}
 
+[s. auch Abschnitt "Arugumenation"](#argumente)
+
 `+++`
 
 - \+ Der Theorieteil baut auf gut *etablierten und aktuellen Theorien auf*; damit ist das theoretische Fundament der Arbeit als solide zu betrachten.
 - \+ Der Theorieteil bezieht sich in *hohem Maße auf wissenschaftliches Material*.
 - \+ Der Theorieteil bezieht sich auf *einiges wissenschaftliches Material*.
 - \+ Die Arbeit *bezieht aktuelle Überblicksarbeiten mit ein*; das ist begrüßenswert, da diese Arbeiten die in der Regel beste Stufe an Evidenzqualität aufweisen.
+
+
+- \+ Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit adäquat berücksichtigt worden.
 
 
 `+-`
@@ -3129,6 +3231,17 @@ Fehlinterpretationen:
 - \- Der Theorieteil sollte *nicht als kleines Lehrbuch missverstanden* werden. Leitidee sollte sein, alle Phänomene der Forschungsfrage zu erläutern - aber nicht mehr. So ist es falsch, die Grundlagen der Persönlichkeit oder gar einen Überblick über Persönlichkeitstheorien aufzuführen, wenn z.B. "Extraversion" ein Bestandteil der Forschungsfrage ist. Der Theorieteil sollte also möglichst nah an der Forschungsfrage dran sein, je "weiter weg" ein Inhaltsteil des Theorieteils von der Forschungsfrage ist, desto weniger Berechtigung gibt es, diesen Inhaltsteil auszuführen. Dieser Punkt wird im Theorieteil der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
 - \- Der Theorieteil hätte an einigen Stellen *von aktuellerem Material* profitiert. 
+
+- \- - Der Theorieteil sollte nicht als *“kleines Lehrbuch”* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.
+
+
+#### Drei Teile des Theorieteils (xxdreiteile)
+
+- \- Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit *nicht* adäquat berücksichtigt worden.
+
+- \- - Der Theorieteil versäumt es (zu einem großen Teil), auf den *Zusammenhang oder den Einfluss der untersuchen Konstrukte (“X”, “Y”)* untereinander einzugehen. Es ist aber eine wesentliche Aufgabe, im Theorieteil zu erläutern, wie X auf Y wirkt oder warum X und Y (statistisch) zusammenhängen könnten.
+
+
 
 
 **NUR QUALI:**
@@ -3334,6 +3447,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 - \- Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass substanzielle Lücken im Literaturüberblick vorliegen.
 - \- Das Literaturverzeichnis v*ernachlässigt angelsächsische Quellen*, die aber einen dominierenden Anteil der Literatur stellen. Daher ist davon auszugehen, dass das theoretische Fundament der Arbeit lückenhaft oder/und verzerrt ist.
+- \- Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.
 
 
 
