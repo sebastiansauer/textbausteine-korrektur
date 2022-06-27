@@ -5,14 +5,22 @@ date: "Letzte Aktualisierung: `r Sys.Date()`"
 numbersections: TRUE 
 lang: de-De
 output:
-  html_document:
-    highlight: pygments
-    keep_md: yes
-    number_sections: yes
-    toc: yes
   md_document:
     toc: true
     variant: gfm
+  html_document:
+    
+    #   "+smart"
+    # ]
+    # 
+    
+    highlight: pygments
+    #toc_float:
+    #  collapsed: true
+    keep_md: yes
+    number_sections: yes
+    toc: yes
+    # pandoc_args: [
 ---
 
 
@@ -34,7 +42,7 @@ output:
 6. [Absatzformatierung ok?](#absatz)
 7. [Rechtschreibung ok?](#rechtschreibung), z. B. [Fremdwörter](#fremd) und [Kopplung](#rechtkommentare)?
 8. [Zitieren im Text ok?](#zitieren)
-9. WICHTIG [Literaturverzeichnis im Aufbau ok?](#litverzaufbau)  [Im Zitieren ok](#litverzzit) [Insgesamt ok?](#litverzzitieren)
+9. WICHTIG [Literaturverzeichnis im Aufbau ok?](#litverzaufbau),  [Im Zitieren ok](#litverzzit) und insgesamt [Insgesamt ok?](#litverzzitieren)
 10. [Referenzieren ok?](#referenzieren)
 
 
@@ -57,6 +65,8 @@ output:
 
 1. [Zusammenstellung der Stichprobe begründet?](#stiprozusammenstellung)
 2. [Keine unnötigen Erläuterungen im Methodenteil? Prägnant geschrieben?](#unnoetigeerlaueterung)
+3. [Beim Design sich Gedanken gemacht oder gedankenlos Mayring?](#qualidesigns)
+4. [Kausale Aussagen gemacht, die das Forschungsdesign nicht unterstützt?](#intvaldesign)
 2. [Ethik expliziert und korrekt durchgeführt?](#ethik)
 2. [Kodierregeln expliziert?](#kodierregeln)
 5. [Leitfaden vorgestellt?](#interviewleitfaden)
@@ -93,10 +103,14 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 # CHECKLISTE -- DATENANALYSE **!!DATANAL-Check** (xxcheckdat) {#checkdat}
 
 
-# Referate {#referate}
 
 
 ## Formalia (Checkliste Datenanalyse)
+
+
+-- [Summarische Bewertung der Formalia der Datenanalyse](#beurtformaliadatenanalyse)
+
+
 
 
 1. Werden alle angeforderten Arbeitsschritte abgeleistet (z. B. genug Hypothesen geprüft, Datensatz beschrieben, Skalenniveaus benannt)? [Vollständigkeit](#vollstaendig), [Skalenniveau](#skalenniveau), [Datensatz-Beschreibung](#datasetdescription)
@@ -112,6 +126,11 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 ## Methodik (Checkliste Datenanalyse)
+
+
+-- [Summarische Bewertung der Methodik der Datenanalyse](#beurtmethdatenanalyse)
+
+
 
 4. Wurden passende Verfahren der Inferenzstatistik ausgewählt und angewendet? [Verfahrensauswahl](#auswahlverfahren), [Verfahren anwenden/bewerten](#ergbewertung)
 
@@ -137,6 +156,12 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 ## Theorie und Diskussion (Checkliste Datenanalyse)
 
+
+-- [Summarische Bewertung des Inhalts der Datenanalyse](#beurtinhaltdatenanalyse)
+
+
+
+
 7. Wurden die Ergebnisse der Inferenzstatistik korrekt interpretiert? [p-Wert](#pvalue), [Hypothesentesten](#hyptests)
 
 
@@ -146,7 +171,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 10. Ist die Analyse breit angelegt? Ist der Anspruch hoch? [Breite](#analyse-allgemein), [Anzahl der Hypothesen](#anzhyps)
 
-11. Wurde das Vorgehen kritisch reflektiert? [Diskussion](#diskussion), [Overcertainty](#overcertainty)
+11. Wurde das Vorgehen kritisch reflektiert? [Diskussion](#diskussion), [Overcertainty](#overcertainty), [Kausalaussagen](#kausalmeth)
 
 
 <br>
@@ -155,7 +180,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
-# CHECKLISTE -- POSTER (xxcheckposter)
+# CHECKLISTE -- POSTER (xxcheckposter, xxposter)
 
 
 ## Formalia (Checkliste Poster)
@@ -219,37 +244,9 @@ ausführlich genug vorgestellt?
 
 
 
-# LINKS ZU ZENTRALEN ABSCHNITTEN
+# FORMALES (**xxform**)  {#formales}
 
-1. [..FORMALES..](#formales)
-
-    1. [Zitieren und Referenzieren](#zitieren)
-    1. [Rechtschreibung](#rechtschreibung)
-    
-    
-3. [..METHODEN..](#methoden)
-
-    1. [Datenanalyse](#datenanalyse)
-
-    2. [Qualitative Inhaltsanalyse](#quali)
-
-6. [..INHALT..](#inhalt)
-
-    1. [Literaturnutzung und Sachkenntnis](#fachkenntnis)
-
-    2. [Reflexion, Diskussion](#diskussion)
-
-9. [..PLAGIATE..](#plagiate)
-
-10. [..KOMMENTARE..](#kommentare)
-
-<br>
-<br>
-<br>
-
-# FORMALES (*xxform**) -------------------------------------------- {#formales}
-
-## Formalia (xxformal) {#formalia}
+## Formalia (**xxformal**) {#formalia}
 
 
 ### Formalia - Beurteilung
@@ -260,6 +257,8 @@ ausführlich genug vorgestellt?
 
 - \- Es finden sich *gravierende* formale Mängel.
 - \- Aufgrund von formalen Mängeln ist die Arbeit als mangelhaft beurteilt.
+- \- *Zentrale formale Vorgaben wurden nicht beachtet* (etwa zu Zitierregeln, theoretischer Fundierung oder methodisches Vorgehen).
+
 
 - \- Es finden sich *formale Mängel*.
 - \- Es finden sich kleinere formale Mängel.
@@ -281,7 +280,12 @@ ausführlich genug vorgestellt?
 - \- Es finden sich *formale Fehler auf der Titelseite* (z.B. falsches Datum).
 - \- Das Tabellen- und Abbildungsverzeichnis sollte sich vor der Gliederung befinden.
 
-- \- Entgegen den formalen Vorgaben wurde die Arbeit* nicht beidseitig (doppelseitig) bedruckt* (d.h. Vor- und Rückseiten des Papiers), so dass beim Lesen linke und rechte Seiten (unterschiedlich) gestaltet sind. So sind bei linken Seiten die Seitenzahlen am linken Rand zu drucken, bei rechten Seiten rechts.
+- \- Entgegen den formalen Vorgaben wurde die Arbeit *nicht beidseitig (doppelseitig) bedruckt* (d.h. Vor- und Rückseiten des Papiers), so dass beim Lesen linke und rechte Seiten (unterschiedlich) gestaltet sind. So sind bei linken Seiten die Seitenzahlen am linken Rand zu drucken, bei rechten Seiten rechts.
+
+- \- Es wurden Aspekte in die Arbeit aufgenommen, die nicht vorgesehen sind (etwa ein *Zeitplan*); dies läuft den formalen Vorgaben entgegen. Damit fehlt Platz für die inhaltlichen Aspekte. Damit soll nicht gesagt sein, dass das Projektmanagement einer (Forschungs-)arbeit nicht wichtig sei; es ist bloß nicht Gegenstand der wissenschaftlichen Qualifizierung. Analog verlangt der Prüfer auch keinen Beweis, dass Sie Microsoft Office beherrschen -- nicht weil es nicht wichtig wäre; es ist bloß nicht Gegenstand (sondern evtl. Voraussetzung) der wissenschaftlichen Qualifizierung. Gegenstand einer wissenschaftlichen Qualifizierung ist Fachwissen und Wohlüberlegtheit, also Stringenz und Qualität in der Überlegung. Häufig sind Zeitpläne auch trivial (das muss nicht in Ihrem Fall zutreffen, das ist eine allgemeine Beobachtung). Zeigen Sie in einer wissenschaftlichen Qualifizierungsarbeit, dass Sie wissen, was in der Wissenschaft wichtig ist und dass Sie diese Kriterien gut beherrschen. (Analoges gilt für andere Kontexte genauso.)
+
+
+
 
 
 ## Vollständigkeit {#vollstaendig}
@@ -290,6 +294,67 @@ ausführlich genug vorgestellt?
 - \+ Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden. Diese Schritte beinhalten z. B. die Beschreibung relevanter Aspekte des Datensatzes wie die Skalenniveaus, Visualisierung der Datenlage, Durchführen von deskriptiver und schließender statistischer Verfahren sowie eine Diskussion der Befunde.
 
 - \- Die Arbeit ist *unvollständig* insofern, als dass nicht alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden. Es fehlen wesentliche Aspekte, die Teil der Aufgabenstellung waren, aber nicht (vollständig) umgesetzt wurden.
+
+
+
+
+
+
+
+
+## Titel und Titelseite (xxtitel)
+
+
+
+
+
+
+###  Titel -- Formatierung {#titelformatierung}
+
+`+++`
+
++ \+ Der Titel ist auf der Titelseite *gut platziert*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch prominent platziert ist.
+
++ \+ Die *Zäsur* in der Mitte des Titels (in Form eines Bindestrichs, Doppelpunkt oder Fragezeichens) gliedert den Titel in sinnvoller Weise; dadurch steigt die Lesbarkeit des Titels.
+
++ \+ Durch die *Gliederung* des *Titels* in *Haupt- und Untertitel* steigt die Lesbarkeit des Titels.
+
+
+
+`---`
+
+
+- \- Der Titel könnte auf der Titelseite *noch besser "in Szene gesetzt" werden*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch deutlicher zutage tritt (z. B. ist der Titel zu klein gesetzt oder hat nicht genug Abstand zum Rest des Textes).
+
+- \- Zwar zeigen aktuelle Studien, dass die Lesbarkeit von SCHRIFT IN *GROSSBUCHSTABEN* NICHT geringer sein muss, als Schrift in Groß- und Kleinschreibung (Arditi, A., & Cho, J. (2007). Letter case and text legibility in normal and low vision. Vision research, 47(19), 2499–2505. doi:10.1016/j.visres.2007.06.010). Allerdings sollte die Textmenge von sog. "All Caps Text" (Großschreibung) sehr sparsam eingesetzt werden, und für besonders wichtige Wörter (zur Aufmerksamkeitssteuerung etwa auf einer Webseite) verwendet werden. (Lange) Titel oder Überschriften sollten daher besser nicht in Großbuchstaben gesetzt werden.
+
+- \- Die Größe des *Logos* auf der Titelseite entspricht nicht der Relevanz des Logos; besser wäre es, das Logo kleiner zu halten, da dem Logo keine große (inhaltliche) Bedeutung zukommt.
+
+
+- \- Eine *Zäsur* in Form z.B. eines Doppelpunkts oder Gedankenstrichs wäre sinnvoll gewesen, *fehlt* aber. 
+
+
+
+- \- Der Titel ist relativ *lang*; ein kürzer (aber gleichzeitig prägnanter) Titel wäre besser gewesen.
+
+- \- Der *Titel* soll nicht im Blocksatz (zumal ohne Silbentrennung) gesetzt werden, da unschöne *Löcher* im *Textsatz* entstehen.
+
+- \- Bei einer *qualitativen* Arbeit sollte man, gerade wenn man Kausalaussagen im Blick hat, einen Hinweis auf die Subjektivität ergänzen. Lautet der Titel etwa "Die Auswirkungen moderner Arbeitsmodelle auf die Rolle der Führungskraft", so macht es Sinn zu ergänzen, dass die *subjektive* Sicht der befragten Personen her geltend gemacht wird; es handelt sich nicht um eine Absicherung eines kausalen Bestandes im strengen Sinne des Wortes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -343,7 +408,9 @@ ausführlich genug vorgestellt?
 
 - \- Der Abstract soll *keine Gliederungsnummer* erhalten.
 
+- \- Der Abstract soll nicht in Absätze untergliedert, sondern als Fließtext innerhalb eines Absatzes gestaltet sein.
 
+- \- Die *Forschungsfrage* soll *im Abstract auftauchen*; das ist bei der vorliegenden Arbeit nicht (deutlich genug) der Fall.
 
 
 
@@ -482,11 +549,11 @@ ausführlich genug vorgestellt?
 
 - \- Der Hinweis *"Seite" vor der Angabe der Seitenzahl* birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.
 
-- \- Auf der Titelseite soll keine Seitenzahl ausgewiesen werden.
+- \- Auf der *Titelseite* soll *keine Seitenzahl* ausgewiesen werden.
 
-- \- Der Hauptteil einer Arbeit soll mit arabischen, nicht römischen, Zahlen ausgewiesen werden.
+- \- Der *Hauptteil* einer Arbeit soll mit *arabischen*, nicht römischen, *Ziffern* ausgewiesen werden.
 
-- \- Die Seiten sind *nicht zweiseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen.
+- \- Die Seiten sind *nicht zwei- bzw. doppelseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen und sollten daher bevorzugt weren.
 
 
 
@@ -568,6 +635,10 @@ ausführlich genug vorgestellt?
 `---`
 
 
+- \- *Absatzwechsel* wurden *nicht (durchgängig) typographisch sinnvoll kenntlich* gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
+
+- \- *Absatzwechsel* wurden *nicht immer kenntlich* gemacht.
+
 - \- Nach einer *Überschrift* sollte *weniger vertikaler Abstand* gelassen werden als vor einer Überschrift. Der Grund dafür ist, dass vor der Überschrift ein Sinnabschnitt endet und daher vergleichsweise viel Platz angezeigt ist. Nach der Überschrift wird der in der Überschrift angekündigte Inhalte aufgeführt; die inhaltliche Nähe von Überschrift zu Ausführung sollte durch vergleichsweise wenig vertikalem Abstand kenntlich gemacht werden. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
 - \- Der *erste Absatz eines Kapitels* sollte nicht eingerückt sein, da es nicht nötig bzw. nicht sinnvoll ist, einen Absatzwechsel anzuzeigen. Dies wurde in der vorliegenden Arbeit nicht berücksichtigt. Allerdings handelt es sich hierbei eher um eine typografische Feinheit, der keine große Bewertungsrelevanz zukommt. 
@@ -586,7 +657,7 @@ ausführlich genug vorgestellt?
 
 
 
-- \- Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch kurze Absätze.
+- \- Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch *Absatzlängen*.
 
 
 - \- *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
@@ -621,7 +692,7 @@ ausführlich genug vorgestellt?
 
 ## Umfang
 
-Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinblick auf die Seiten- bzw. Wortzahl einer *Abschlussarbeit* wie folgt (vgl. Hinweise für Abschlussarbeiten auf der OC-Seite des Gutachters): 1. Bachelor: ca. *12000 Wörter* (40-60 Seiten); 2. Master: ca. *18000 Wörter* (ca. 60-80 Seiten).
+Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinblick auf die Seiten- bzw. Wortzahl einer *Abschlussarbeit* wie folgt: 1. Bachelor: ca. *12000 Wörter* (40-60 Seiten); 2. Master: ca. *18000 Wörter* (ca. 60-80 Seiten).
 
 `+++`
 
@@ -706,10 +777,14 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \- Der Satzbau (Grammatik) ist teilweise *elliptisch*; es finden sich Sätze ohne Verben.
 - \- Der *Plural* im Deutschen (und im Englischen) wird ohne *Apostroph* am S gebildet.
-- \- Der *Genitiv* wird im Deutschen ohne *Apostroph* gebildet (nicht Cohen's d", sondern Cohens d, nicht Spearman's Korrelationstest, sondern Spearmans Test).
+- \- Der *Genitiv* wird im Deutschen ohne *Apostroph* gebildet (nicht "Cohen's d", sondern "Cohens d", nicht "Spearman's Korrelationstest", sondern "Spearmans Test").
 - \- *Fremdsprachige Wörter* oder Neologismen sollten nicht in Anführungsstriche gesetzt werden, sondern *kursiv* gedruckt werden (nicht: "predictive modeling", sondern \*predictive modeling\*).
 - \- Ganze Sätze sollten immer mit einem Punkt beendet werden; das gilt auch für Aufzählungen.
-- \- Die unterschiedliche Verwendung von **Bindestrich** (- kurz) und **Gedankenstrich**(-- lang) wurde nicht (immer) korrekt erkannt.
+- \- Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde nicht (immer) korrekt erkannt.
+
+- \- Im *Titel der Arbeit* fällt auf, dass die unterschiedliche Bedeutung von *Bindestrich* (- kurz) und  *Gedankenstrich*(-- lang)  nicht (immer) korrekt erkannt wurde.
+
+
 - \- Kein *Komma* vor "sowie" kommt, wenn "sowie" anstelle von "und" verwendet wird. 
 - \- Verwendet man den *Schrägstrich* um (zusammengehörige) Wörter zu gruppieren (z.B. CSU/CDU, Männer und/oder Frauen,  Wintersemester 2016/2017), so sollte zwischen den Wörter kein Leerzeichen gelassen werden (Duden D 156). Auf keinen Fall sollte nur an einer Seite des Schrägstrichs ein Leerzeichen gelassen werden (falsch ist also: "CSU/CDU" oder "CSU /CDU").
 - \- Formuliert man eine Frage, so muss diese mit einem Fragezeichen abschließen.
@@ -724,9 +799,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `---`
 
 
-- \- *Komposita*  (zusammengesetzte Nomen) werden im Deutschen zusammen- oder mit Bindestrich geschrieben -- aber nicht in einzeln Wörter aufgetrennt, was in der vorliegenden Arbeit nicht durchgehend beachtet wurde (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
+- \- *Komposita*  (zusammengesetzte Nomen) werden im Deutschen zusammen- oder mit Bindestrich geschrieben (gekoppelt) -- aber nicht in einzeln Wörter aufgetrennt, was in der vorliegenden Arbeit nicht durchgehend beachtet wurde (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
 
-- \- *Koppelt* man Komposita  (zusammengesetzte Nomen) mit *Bindestrich*, so ist vor oder nach dem Bindestrich kein Leerzeichen zu setzen (richtig: "R-Syntax", falsch: "R - Syntax").
+- \- *Koppelt* man Komposita  (zusammengesetzte Nomen) mit *Bindestrich*, so ist vor oder nach dem Bindestrich *kein Leerzeichen* zu setzen (richtig: "R-Syntax", falsch: "R - Syntax").
 
 
 
@@ -780,7 +855,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-#### Zitierweise im Text - Hinweise (zu Fehlern)
+#### Zitierweise im Text -- Hinweise (zu Fehlern)
 
 
 `+++`
@@ -820,6 +895,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \- Die APA sieht vor, den *Zusatz "vgl."* bei Zitationen nicht oder nur sehr sparsam zu verwenden. Die vorliegende Arbeit verwendet diesen Zusatz über die Gebühr.
 
+- \- *Blockzitate* sind erst *ab einer Länge von 40 Wörtern* vorgesehen. In der vorliegenden Arbeit finden sich Blockzitate schon bei kürzeren Passagen.
+
 
 
 
@@ -830,7 +907,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Literaturverzeichnis (xxlitverz) {#litverzzitieren}
 
-#### Literaturverzeichnis - Beurteilung
+#### Literaturverzeichnis - Beurteilung {#litverzbeurteilung}
 
 `+++`
 
@@ -909,6 +986,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `---`
 
+- \- Laut APA/DGPs ist  ein *Verlag* im Literaturverzeichnis nur kurz als z. B. "Thieme" oder "Hogrefe" aufzuführen, nicht aber als z. B. "Karl F. Haug Verlag" etc.
+
+
 
 - \- *DOIs* wurden nicht (durchgehend) berichtet, sind aber eine sinnvolle Ergänzung in Zitationen.
 
@@ -919,7 +999,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \- Im *Literaturverzeichnis* finden sich *nicht zitierte Quellen*, was als deutlicher formaler Fehler zu werten ist.  
 - \- *Akademische Grade sind nicht anzuführen* (dies gilt auch für das Literaturverzeichnis).
 - \- Es ist nach APA nur ein Literaturverzeichnis für alle Arten von Quellen zu erstellen, nicht mehrere Verzeichnisse. Dies wurde in der vorliegenden Arbeit nicht beachtet.
-- \- *Typische Fehler in Literaturverzeichnissen* beinhalten das Auslassen der Seitenzahl, falsche Groß- und Kleinschreibung, falsche Darstellung von Kapiteln in Herausgeberwerken oder falsche Formatierung des Verlagnamens.
+- \- *Typische Fehler in Literaturverzeichnissen* beinhalten das Auslassen der Seitenzahl, falsche Groß- und Kleinschreibung, falsche Darstellung von Kapiteln in Herausgeberwerken oder falsche Formatierung des Verlagnamens; ein Teil dieser Fehler findet sich in der vorliegenden Arbeit wieder.
 
 
 
@@ -928,9 +1008,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \- Bei der Zitation von Kapiteln aus Herausgeberwerken im Literaturverzeichnis sind die *Editoren* zu benennen; das wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
 
-- \- Laut APA/DGPs ist  ein *Verlag* im Literaturverzeichnis nur kurz als z. B. "Thieme" oder "Hogrefe" aufzuführen, nicht aber als z. B. "Karl F. Haug Verlag" etc.
 
-- \-  Laut APA/DGPs (6. Auflage) ist im Literaturverzeichnis bei der Zitation eines Buches nur *ein Ort* (der zuerst genannte im Quellmaterial) anzugeben, nicht mehrere, also z. B. "Heidelberg: Springer". In der. 7. Auflage des APA-Handbuchs ist der Verlagsort wegzulassen.
+
+- \-  Laut APA/DGPs (6. Auflage) ist im Literaturverzeichnis bei der Zitation eines Buches nur *ein Ort* (der zuerst genannte im Quellmaterial) anzugeben, nicht mehrere, also z. B. "Heidelberg: Springer". Laut der. 7. Auflage des APA-Handbuchs ist der Verlagsort wegzulassen.
 
 
 
@@ -949,7 +1029,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \- Laut APA V7 ist der *Ort des Verlags* bei der Zitation eines (gedruckten) Buches *nicht* anzugeben.
 
 
-
+- \- *Zitiert man aus einem Kapitel einer Monografie*, so ist die ganze Monografie zu zitieren. Falsch ist die Zitation des Buchkapitels als wäre es Teil eines Herausgeberwerks. 
 
 
 
@@ -1062,7 +1142,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \- Laut Formatvorgaben der APA ist die Beschriftung einer Abbildung in dieser Form anzubringen: "*Abbildung X*. Titel der Abbildung.", wobei "Abbildung X" kursiv zu setzen ist. In der vorliegenden Arbeit wurde dies nicht (durchgehend) korrekt umgesetzt.
 - \- Es fehlen die Quellenangaben für einige Abbildungen; wie für jedes geistiges Material gilt, dass der Autor zu zitieren ist. Übernimmt man fremde Gedanken, ohne dies zu zitieren, so ist dies heikel (aber im diesem Fall klar nicht als Plagiat zu bewerten, sondern nur als Formfehler).
 
-- \- Abbildungen sollten sich stets durch hohe Informationsdichte auszeichnen. Als Faustregel kann gelten, dass, wenn man eine Abbildung genauso gut in ein paar wenigen Worten oder Sätzen sagen, die Abbildung überflüssig oder nicht richtig genutzt ist; zumindest gilt dies für alle Dokumente mit ernsthaftem Anspruch wie wissenschaftliche Berichte. Inhaltsarme Abbildungen sind wenig nützlich; Abbildungen sollten im Gegensatz dazu den Text (die Wörter) bereichern und insofern zu vertieften Einsichten führen. "Flache" Abbildungen stiften insofern wenig Nutzen.
+- \- Abbildungen sollten sich stets durch hohe Informationsdichte auszeichnen (zumindest in Texten mit Niveau). Als Faustregel kann gelten, dass, wenn man eine Abbildung genauso gut in ein paar wenigen Worten oder Sätzen sagen, die Abbildung überflüssig oder nicht richtig genutzt ist; zumindest gilt dies für alle Dokumente mit ernsthaftem Anspruch wie wissenschaftliche Berichte. Gerade wissenschaftliche Texte sollten nicht durch *Inhaltsarmut* oder flache Argumentation hervorstechen, im Gegenteil. *Inhaltsarme Abbildungen* sind daher wenig nützlich; *Abbildungen* sollten im Gegensatz dazu den Text (die Wörter) bereichern und insofern zu vertieften Einsichten führen. "Flache" Abbildungen stiften wenig Nutzen; sie schaden einem wissenschaftlichen Bericht. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend umgesetzt worden.
 
 
 
@@ -1136,7 +1216,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-# METHODEN (**xxmeth**) --------------------------------------- {#methoden}
+# METHODEN (**xxmeth**) {#methoden}
 
 
 ## Reproduzierbarkeit (xxrepro) {#repro} 
@@ -1245,7 +1325,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-### Interne Validität des Designs (xxintval)
+### Interne Validität des Designs (xxintval) {#intvaldesign}
 
 - \+ Das Design zeichnet sich durch hohe interne Validität aus.
 
@@ -1255,7 +1335,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \- Das Design der Studie lässt *keine Kausalschlüsse* zu.
 
-- \- Obwohl die Forschungsfrage Kausalschlüsse impliziert, lässt das Design keine Kausalschlüsse zu bzw. wird die *Angemessenheit des Designs* (die interne Validität) *nicht ausführlich (genug) diskutiert*.
+- \- Obwohl die *Forschungsfrage Kausalschlüsse* impliziert, lässt das Design keine Kausalschlüsse zu bzw. wird die *Angemessenheit des Designs* (die interne Validität) *nicht ausführlich (genug) diskutiert*.
 
 - \- Das Design der Studie zeichnet sich durch *geringe* interne Validität aus.
 
@@ -1292,6 +1372,26 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \- Die *methodische Raffinesse* des Versuchsplan ist eher *einfach/gering*.
 - \- Das *Versuchsdesign* zeichnet sich durch einen eher geringen Umfang oder eine *eher geringe Komplexität* aus (z. B. nur zwei Variablen in einer Zusammenhangshypothese).
 - \- Die Versuchsplanung zeugt nicht von einer hohen Einarbeitung mit dem Gegenstand.
+
+
+
+### Besonderheiten qualitativer Designs {#qualidesigns}
+
+`+++`
+
+
+- \+ Der Rückgriff auf die Methode der *Grounded Theory* zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.
+
+
+
+`---`
+
+- \- Auch in *qualitativen Untersuchungen* ist es nützlich, sich über das Studiendesign (vertiefte) Gedanken zu machen. Ein *Standardvorgehen sensu Mayring* ist zwar oft möglich (und wird von einer großen Zahl an Arbeiten eingesetzt), allerdings kann im Einzelfall mit einem überlegten, *genau auf den Einzelfall der vorliegenden Forschungsfrage abgestimmten Vorgehen* ein besseres Ergebnis erwartet werden. Solch eine Auseinandersetzung mit dem Gegenstand und der dazu abzuleitenden empirischen Methode steht der qualitativen Forschung besonders gut zu Gesichte; genau das ist der Geist und der Leitgedanke qualitativer Forschung. Ein "Vorgehen von der Stange" sticht zumindest nicht positiv hervor und lässt Potenziale der qualitativen Forschung ungenutzt.
+
+- \- Die qualitative Methode ist für einige Forschungsfragen bzw. Hypothesen gut für andere wiederum weniger gut geeignet. Eine Forschungsfrage bzw. Hypothese, die für qualitative Forschungsfragen weniger gut geeignet ist, lautet: "Arbeitnehmer haben eine höhere Anzahl von Krankheitstagen aufgrund von psychosomatischen Belastungsstörungen als Arbeitnehmer ohne eine psychosomatische Belastungsstörung". Eine Aussage dieser Art zielt auf eine allgemein gültige, populationsbezogene Erkenntnis ab, die mit qualitativer Methode -- zumal in Form einer kleinen Zahl von Interviews -- kaum zu erreichen ist. Im Gegensatz dazu sollten sich sich qualitative Forschungsfragen auf *"Es-gibt-Aussagen"* konzentrieren. So könnte eine qualitative Studie untersuchen, ob "Konflikt am Arbeitsplatz eine Auslöser (aus Sicht der Betroffenen) für Mobbing ist". Denn findet man z.B. im Interview entsprechende Hinweise, so kann man schlussfolgern, dass dies offenbar einer der möglichen Gründe ist. Zwar ist anzunehmen, dass es auch anderen Menschen -- also über die untersuchte Stichprobe hinaus -- so geht, aber eine generelle, quantifizierende Aussage, etwa dass es sich um den wichtigsten Punkt handele oder dass diese Ursache häufiger sei als eine andere, ist nicht abzuleiten. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend umgesetzt.
+
+
+- \- Untersucht man mittels einer qualitativen Methode etwa "*Einflussfaktoren*" oder sonstige kausal konnotierte Fragen, so sollte sich der Autor bzw. die Autorin darüber bewusst sein, dass eine solche Studie nicht direkt Tatsachen zu Tage fördert sondern *Ansichten* über Tatsachen, das die Methode per se *subjektiv*, nicht objektiv ist. Dass man sich beim Schreiben über diese Tatsache bewusst ist, und Leser darüber bewusst hält, ist zu dokumentieren, also an geeigneter Stelle im Text zu diskutieren. Auch eine entsprechende Formulierung im Titel, etwa "Subjektive Beweggründe von Personalentscheidungen" hilft, diesem Sachverhalt Rechnung zu tragen. Eine Argumentation, dass dieser Sachverhalt evident sei und daher keiner Erwähnung bedürfe, greift zu kurz, denn die Verwechslungsgefahr ist faktisch groß. Im Übrigen ist es das Wesen einer Qualifizierungsarbeit, auf wesentliche Dinge hinzuweisen, um das eigene Wissen zu demonstrieren.
 
 
 
@@ -1379,6 +1479,9 @@ NUR QUALI:
 
 - \+ Mit *SoSci-Survey* wurde eine bewährte Software-Lösung zur Online-Erhebung der Daten eingesetzt.
 
+- \+ Positiv hervorzuheben ist die *Methodenvielfalt* der Messinstrumente. So wurde nicht nur eine Art von Messinstrumenten verwendet -- in studentischen Arbeiten häufig Fragebogen aufgrund des geringeren Erhebungsaufwands -- sondern auch *behaviorale* Messinstrumente.
+
+- \+ Es wurden nicht nur Messinstrumente, die explizite psychologische Konstrukte erheben, sondern auch "implizite" Methoden verwendet, die auf nicht-bewusste bzw. nicht rational steuerbare Testwerte abzielen.
 
 `---`
 
@@ -1496,9 +1599,12 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 - \- Bei der Formulierung von Hypothesen sollte *auf den Zusatz "signifikant" verzichtet* werden, denn Hypothesen beziehen sich stets auf Populationen und "signifikant" heißt nichts anderes, als dass wir schließen, dass der beobachtete Effekt (d.h. in der Stichprobe) auch in der Population vorliegt (auf Basis der vorliegenden Analyse).
 
+- \- Auf den *Term "signifikant"* sollte *beim Formulieren von Hypothesen verzichtet* werden. Man soll also NICHT sagen "X hat einen signifikanten Einfluss auf Y" o. Ä., sondern "X hat einen Einfluss auf Y". Der Grund ist, dass sich Hypothesen stets auf Grundgesamtheiten (Populationen) beziehen und das ist genau das, was das Wort "signifikant" sagt. Signifikant bedeutet, dass man von einem Effekt in der Population ausgeht.
+
+
 - \- Es *sollten keine zusammengesetzten Hypothesen formuliert werden*; stattdessen sollte für *jede Ursache/jeden Prädiktor eine eigene Hypothese* formuliert werden. Also nicht: "A, B und C führen zu D", sondern "H1: A führt zu D, H2: B führt zu D" etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?
 
-- \- Auf den *Term "signifikant"* sollte *beim Formulieren von Hypothesen verzichtet* werden. Man soll also NICHT sagen "X hat einen signifikanten Einfluss auf Y" o. Ä., sondern "X hat einen Einfluss auf Y". Der Grund ist, dass sich Hypothesen stets auf Grundgesamtheiten (Populationen) beziehen und das ist genau das, was das Wort "signifikant" sagt. Signifikant bedeutet, dass man von einem Effekt in der Population ausgeht.
+
 
 
 
@@ -1754,7 +1860,7 @@ NUR QUALI:
 + \+ Es wurden *ingesamt* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
 
 
-- \+ Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet,z. B. *simulationsbasierte Inferenz, SBI* o. Ä..
+- \+ Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet, z. B. *simulationsbasierte Inferenz, SBI* o. Ä..
 - \+ Es wurden (*in Teilen*) moderne bzw. sinnvolle Methoden der Datenanalyse verwendet (z. B. *simulationsbasierte Inferenz, SBI*).
 
 - \+ Es wurden *fortgeschrittene Methoden der Datenanalyse* eingesetzt, die nicht (oder nur eingeschränkt) im Unterricht behandelt wurden und insofern eine selbständige Einarbeitung verlangt haben (z. B. Moderator-, Interaktions- oder Mediatoranalysen). Dies zeigt eine gute Durchdringung der Materie.
@@ -1964,6 +2070,8 @@ NUR QUALI:
 
 - \- Die Beschriftungen der Ausprägungen der Achsen (Labels) war *nicht durchgängig gut zu lesen* (z. B. überdeckten sich die Achsenlabels).
 
+- \- Teilweise fehlen die *Beschriftungen* der *Achsen* in den *Diagrammen*.
+
 
 
 
@@ -2084,7 +2192,7 @@ NUR QUALI:
 
 - \- Es ist ein *Irrglaube*, dass *große Stichproben* alleine schon eine *Normalverteilung* implizieren. Auch eine große Stichprobe an z. B. Filmen wird keine Normalverteilung der Einnahmen aufzeigen.
 
-- \- Laut Gelman und Hill (2014) ist die* wichtigste Annahme der Regressionsanalyse*, dass es *keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen*. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
+- \- Laut Gelman und Hill (2014) ist die *wichtigste Annahme der Regressionsanalyse*, dass es *keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen*. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
 
 - \ Laut Box (1953) ist die *Varianzanalyse robust gegenüber der Verletzung der Annahme gleicher Varianzen*, wenn die Stichproben ähnlich groß sind (bis zu einen Faktor von 1.5): 
 
@@ -2110,7 +2218,7 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 
 
-### p-Wert (xxpvalue) {#pvalue}
+### p-Wert (xxpvalue, xxpwert) {#pvalue}
 
 `+++`
 
@@ -2141,7 +2249,9 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 - \- *Was heißt ein "signifikanter Einfluss" bzw. ein "signifikanter Zusammenhang"*, wie es in der vorliegenden Arbeit geschrieben wird? Dass der Einfluss (Zusammenhang) groß ist? Dass es wahrscheinlich ist, dass es einen gibt? Beides? Etwas anderes? Ist ein Einfluss kausal? Diese Fragen würden einer besseren Erklärung verdienen. Es sollte z. B. festgehalten werden, dass "statistische Signifikanz" eine Aussage der Inferenzstatistik ist und gewisse Evidenz gegen die H0 liefert und damit für die H1. Aus diesem Grund wird die H0 verworfen. Es ist aber nicht gesagt, dass der Effekt groß ist (also von praktischer Bedeutung); es ist nicht mal gesagt, dass die H0 wahrscheinlich falsch ist. Nur, dass die vorliegende Methode sich gegen die H0 ausspricht.
 
-- \- p-Werte sollten *nicht im "technischen Format"* des Taschenrechners berichtet werd, also etwa nicht *"p = 2.2e-16"*, sondern "p < .001".
+- \- p-Werte sollten *nicht im "technischen Format"* des Taschenrechners berichtet werden, also etwa nicht *"p = 2.2e-16"*, sondern in diesem Format: "p < .001".
+
+- \- Ein p-Wert kleiner als das Signifikanzniveau (5%), bedeutet, dass man die getestete Nullhypothese ablehnt. Das Ergebnis nennt man dann *"statistisch signifikant"*. Ein statistisch signifikantes Ergebnis bedeutet *nicht*, dass man einen *"signifikanten Zusammenhang"* gefunden hat. Der Term "statistisch signifikant" darf nicht mit dem Alltagsbegriff "signifikant" (etwa: wichtig, bedeutsam, stark) missverstanden werden. Statistische Signifikanz bezeichnet  den oben skizzierten technischen Sachverhalt. Vom p-Wert kann man nicht (eindeutig) die Stärke eines Effekts ableiten.
 
 
 ### Signifikanzniveau (Alpha)
@@ -2262,6 +2372,8 @@ Fehlinterpretationen:
 
 - \- Anstelle von Formulierungen "es besteht folglich (k)ein Einfluss von X auf Y" hätten *besser vorsichtigere Schlussfolgerungen zur Aussagekraft der Ergebnisse* wie "die Daten unterstützen XXX" oder "es konnte kein Hinweis auf YYY gefunden werden".
 
+- \- Die Arbeit zwar theoretisch begründbare Erklärungen auf, die für die Daten verantwortlich sein können; das ist begrüßenswert. Es fehlt allerdings eine Aufarbeitung möglicher *(methodischer) Artefakte*, die zu den Ergebnissen haben führen können. Wenn etwa X mit Y korreliert, so könnte eine Erklärung sein, dass X die Ursache von Y ist. Allerdings könnte es sich bei der Korrelation von X mit Y auch um eine *Scheinkorrelation* handeln; demnach wären Erklärungen der Art "X ist die Ursache von Y" (egal, wie die semantischen Inhalte einer solchen Theorie aussehen), fehl am Platz. Die vorliegende Arbeit geht nicht ausreichend auf solche methodischen Artefakte bzw. alternativen Kausalmodelle (wie *Konfundierung*) ein.
+
 
 
 
@@ -2354,10 +2466,20 @@ Fehlinterpretationen:
 
 
 
-## Qualitative Inhaltsanalyse {#quali} (xxqualinh)
+## Qualitative Datenanalyse (xxqualinh)  {#quali}
 
 
-### Transkriptionsregeln
+
+### Auswahl der qualitativen Inhaltsanalyse
+
+
+`---`
+
+- \- Gerade bei qualitativ angelegten Forschungsdesigns sollte sich die Datenanalyse nicht in einem Schema-F-Vorgehen erschöpfen. Die Stärke der qualitativen Methode liegt in ihrer Flexibilität, ihrer Methodenangemessenheit und ihrer Kraft zu konzeptioneller Tiefe. Diesen Stärken wird ein (zusammenfassende) Inhaltsanalyse nach Mayring nicht gänzlich gerecht. So ist es etwa möglich (und nicht selten der Fall), dass die entdeckten Kategorien in bestimmten Verhältnissen zueinander stehen, etwa in einem Ursache-Wirkungs-Verhältnis. Ein anderes Beispiel ist, dass eine Kategorie einen Kontext (oder Moderator) aufspannt und andere Kategorien miteinander kovariieren. Diese Reichhaltigkeit von Datenmustern spiegelt ein einfaches "es gibt Kategorie A, B und C" nicht wider. Vorteilhafter ist es daher, auf reichhaltigere Datenanalysemethoden wie etwa die *Grounded Theorie* zurückzugreifen; von solchen Methoden hätten Anspruch, Breite und Tiefe der Datenanalyse in der vorliegenden Arbeit profitiert.
+
+
+
+### Transkriptionsregeln der Inhaltsanalyse
 
 
 `+++`
@@ -2484,7 +2606,17 @@ Fehlinterpretationen:
 - \- Angenommen die Forschungsfrage lautete "Die Auswirkungen von Betriebssport auf subjektive Wahrnehmung der Resilienz". Dann wären Ergebniskategorien wie *"Vorteile" und "Nachteile"* ungeeignete also *nicht empfehlenswerte Kategorien*. Diese Kategorien sind informationsarm: Dass der Betriebssport Vor- und Nachteile haben könnte, ist wenig informationsreich. Kategorien sollten vielmehr inhaltsreich formuliert sein und danach streben, zu einem tiefen Verständnis des Gegenstands vorzudringen. Der Name bzw. die Definition einer Kategorie hat daran einen entscheidenden Anteil.
 
 
+- \- Wesentlich bei einer qualitativen Inhaltsanalyse ist die Dokumentation des Vorgehens, auf welchem Wege also zu den Kategorien gekommen ist. Es ist also der *Prozess der Kategorienentwicklung* aufzuzeigen; im Falle der Mayring'schen Analyse gilt es etwa, *Paraphrasieren und Generalisieren darzustellen*, die entsprechenden Arbeitsschritte also zu dokumentieren. Ohne die *Offenlegung* dieses Vorgehens ist die Qualität des empirischen Arbeiten in einem wesentlichen Punkt nicht als ausreichend zu beurteilen. Dieser Punkt findet in der vorliegenden Arbeit nicht ausreichend Beachtung.
 
+
+
+
+### Vorgehen bei zusammenfassenden Inhaltsanalyse (Materialreduktion)
+
+
+`+++`
+
+- \+ Das Vorgehen in der Inhaltsanalyse ist *lege artis* gestaltet.
 
 
 
@@ -2522,6 +2654,7 @@ Fehlinterpretationen:
 - \+ Es wurden *Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen* wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
 
 
+`000`
 
 
 
@@ -2546,6 +2679,8 @@ Fehlinterpretationen:
 - \- Möchte man *Subgruppen vergleichen*, ist es eine suboptimale Lösung, den Datensatz in mehrere Teildatensätze aufzuteilen (z.B. mit `filter()`). Dadurch nimmt man sich die Möglichkeit, die Gruppen einfach bzw. direkt nebeneinander zu vergleichen oder macht sich das Leben komplizierter als nötig. Eine Möglichkeit zur gruppierten Analyse bietet mosaic: `verfahren(AV ~ gruppierungsvariable, ...)`. Alternativ kann man mit `group_by()` aus `dplyr` einen gruppierten Datensatz erzeugen und mittels weiterer Befehle (aus dplyr-komptabiblen Paketen) verrechnen (z.B. `summarise()`).
 - \- Es sollten *keine technischen Bezeichnungen für Variablen* wie `F9r` verwendet werden im Hauptteil der Arbeit, sondern stets *sprechende Namen* (oder ggf. definierte Abkürzungen).
 
+- \- Es wurden weniger gut lesbare Verfahren der Datenaufbereitung verwendet. So ist dieses Methode weniger gut lesbar: `difwt.frauen <- (Report$repwt[Report$sex == "F"])-(Report$weight[Report$sex == "F"])`. Besser lesbar wäre: ` Report %>% mutate(difference_weight = repwt - weight)`.
+
 
 
 ### Syntax-Formatierung (xxhighlightcode) {#syntaxformatierung}
@@ -2555,6 +2690,11 @@ Fehlinterpretationen:
 - \+ Die *Syntax* und/oder die R-Ausgaben wurden *optisch sehr ansprechend* und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
 - \+ Die Syntax und/oder die R-Ausgaben wurden *weitgehend* optisch ansprechend und übersichtlich gestaltet.
 
+
+
+`000`
+
+- \+- Die *Syntaxformatierung* hätte *professioneller*, etwa anhand eines *Farbschemas*, gestaltet werden können.
 
 - \+- Die Syntax und/oder die R-Ausgaben *nicht immer optisch ansprechend* und übersichtlich gestaltet.
 
@@ -2618,12 +2758,17 @@ Fehlinterpretationen:
 - \- Die eingesetzten Methoden sollten \*nicht\* in der Arbeit erläutert werden, sofern es sich gängige Methoden handelt (die im Unterricht erläutert werden; Beispiele: "Der t-Test wird verwendet um XXX", "Qualitative Methoden zeichnen sich aus durch YYYY"). Das Wissen um gängige Methoden wird beim Leser vorausgesetzt. Erörtern Sie nicht, wie eine Methode funktioniert, sondern nutzen Sie den knappen Platz, um zu erklären, was Sie machen. Man soll also in so einer Arbeit kein "Lehrbuch" schreiben.
 
 
-## Kausal- vs. Vorhersageaussgen
+## Kausal- vs. Vorhersageaussgen {#kausalmeth}
 
+
+
+`000`
+
+- \+- Ich empfehle Ihnen, sich mit dem aktuellen Stand der Kausalanalyse von (nicht-experimentellen) Forschungsdesigns vertraut zu machen. Diese Quelle bietet einen guten Einstieg: https://journals.sagepub.com/doi/abs/10.1177/2515245917745629?journalCode=ampa. 
 
 `---`
 
-- \- Die vorliegende Arbeit verwendet den Term *"beeinflussen"* an einer (oder mehreren) Stellen (z. B. in den Hypothesen oder im Ergebnisteil). Der Begriff suggeriert einen* kausalen Anspruch *in der Hypothese; ein Anspruch, der das *Design* (bzw. die interne Validität des Designs) der vorliegenden Studie nicht gerecht wird.
+- \- Die vorliegende Arbeit verwendet den Term *"beeinflussen"* an einer (oder mehreren) Stellen (z. B. in den Hypothesen oder im Ergebnisteil). Der Begriff suggeriert einen* kausalen Anspruch in der Hypothese; ein Anspruch, der das *Design* (bzw. die interne Validität des Designs) der vorliegenden Studie *nicht gerecht* wird.
 
 
 
@@ -2654,9 +2799,11 @@ Fehlinterpretationen:
 - \+- Insgesamt ist das Niveau und der Umfang des methodisch-empirischen Teils als von mittlerer Güte einzuschätzen. 
 
 
-`---``
+`---`
 
+- \- Die zentralen Vorgaben zur *Methode der Arbeit* wurden *nicht* oder *bruchstückhaft* umgesetzt.
 
+- \- Es *fehlt eine empirische Methode*, die aber für diese Arbeut vorgegeben war.
 
 - \- Zentrale empirisch-methodische Konzepte wurden falsch eingesetzt.
 - \- Es sind einige kleinere methodische Mängel aufzufinden.
@@ -2666,11 +2813,164 @@ Fehlinterpretationen:
 
 
 
+### Beurteilung der FORMALIA der Datenanalyse {#beurtformaliadatenanalyse}
+
+
+`+++`
+
+
+- \+ Insgesamt sind die Formalia der Datenanalyse gut bis sehr gut abgearbeitet.
+
+- \+ Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden.
+
+- \+ Die Skalenniveaus der untersuchten Variablen wurden korrekt benannt.
+
+- \+ Relevante Aspekte des Datensatzes wurden beschrieben.
+
+- \+ Die Quelle des Datensatzes wurde benannt. Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
+
+- \+ Die Syntax und/oder die R-Ausgaben wurden optisch  ansprechend und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
+
+- \+ Es wurde ein hohes Maß an Kompetenz im Umgang mit R demonstriert.
+
+- \+ Die gestalterische Qualität der Abbildungen ist hoch.
 
 
 
 
-# INHALT (xxinh)---------------------------------------- {#inhalt}
+
+
+
+### Beurteilung der METHODIK der Datenanalyse {#beurtmethdatenanalyse}
+
+`+++`
+
+
+- \+ Es wurden angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
+
+- \+ Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet, z. B. simulationsbasierte Inferenz, SBI o. Ä..
+
+- \+ Es wurden multivariate Methoden (z. B. multiple Regression) sinnvoll ausgewählt, um etwaige “Überschneidungen” von Variablen bzw. um “Nettoeffekte” einzelner Variablen zu bestimmen.
+
+- \+ Die statistischen Verfahren wurden (weitgehend) richtig (im Sinne von fehlerfrei) angewendet.
+
+- \+ Das Effektstärkemaß (wie z. B. Cohens d oder R-Quadrat) ist eine sinnvolle, sogar notwendige Ergänzung zu den anderen deskriptiv-statistischen Werten und wurde sinnvoll eingesetzt; Angaben zur Schätzgenauigkeit eines Effekts sind dabei von hohem Nutzen.
+
+
+- \+ Konfidenzintervalle wurden in sinnvoller Weise berichtet.
+
+- \+ Die Anzahl der Nachkommastellen (Dezimalstellen) ist immer oder zumeist passend bzw. konsistent.
+
+
+
+
+
+### Beurteilung des INHALTS der Datenanalyse {#beurtinhaltdatenanalyse}
+
+
+`+++`
+
+
+- \+ Der p-Wert wird exakt erläutert bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass “Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt”.
+
+- \+ Die Entscheidung zum Verwerfen/Beibehalten der H0 wurde korrekt von der Datenlage bzw. dem p-Wert abgeleitet.
+
+
+- \+ Die Hypothesen wurden formal korrekt spezifiziert.
+
+- \+ Titel, Forschungsfrage/Hypothesen und Datenanalyse passen zusammen.
+
+- \+ Der Ansatz der Problemlösung ist breit angelegt.
+
+- \+ Insgesamt ist die Diskussion als gut zu beurteilen.
+
+- \+ Das Ergebnis der Arbeit wurde kritisch reflektiert.
+
+- \+ Das methodische Vorgehen wurde kritisch reflektiert.
+
+
+
+
+
+
+
+
+# INHALT (**xxinh**) {#inhalt}
+
+## Titel (xxtitelinhalt)  
+
+### Titel -- Inhalt Beurteilung {#titelinhalt}
+
+`+++`
+
++ \+ Der Titel der Arbeit ist *pointiert*, konzise und gut passend.
++ \+ Der Titel der Arbeit ist *passend.*
++
+
+
+`---`
+
+
+- \- Der Titel der Arbeit ist *sehr (zu) lang* und damit nicht sehr eingängig.
+- \- Der Titel der Arbeit ist *zu vage/unpräzise* oder nicht griffig genug.
+- \- Der Titel der Arbeit ist *sehr kurz *und damit nicht präzise genug.
+- \- Der Titel ist *zu kurz *und damit nicht präzise genug; besser wäre ein präziserer Titel.
+- \- Der Titel ist *nicht präzise (genug)*. Wesentlich Aspekte der Forschungsfrage(n) bzw. der Studie bleiben außen vor. Ein guter Titel sollte bereits das Wesentliche der Arbeit vermitteln.
+
+
+- \- Es *fehlt* ein Titel.
+
+
+
+### Titel -- Inhalt Kommentare {#titelinhaltkommentar}
+
+`+++`
+
+
+
+
+
+- \+ Der Titel spiegelt die *Forschungsfrage* adäquat wider. Das ist sinnvoll, denn die Forschungsfrage kann als zentrale Informationseinheit zu einer Studie verstanden werden und verdient daher eine prominente Platzierung.
+
+
+
+- \+- Der Titel gibt einige zentrale Aspekte der Forschungsfrage und/oder des Studiendesigns wieder, aber hätte noch *von weiterer Präzisierung profitiert*.
+
+
+
+
+`---`
+
+
+- \- Der Titel spiegelt den *zentralen Inhalt* der Arbeit *nicht präzise* genug wider. 
+
+- \- Das *Inhaltsverzeichnis* der Arbeit findet sich in seinen Schwerpunkten *nur in Teilen im Titel* wieder.
+
+
+- \- Der Titel *hätte präziser formuliert werden können*, z.B. um die Richtung der *Hypothesen* oder Art des *Studiendesigns* zu erwähnen.
+- \- Besser wäre der Titel noch, wenn die Art des *Studiendesigns* berichtet werden würde ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine *querschnittliche Beobachtungsstudie*").
+
+
+- \- Der Titel *hätte präziser formuliert werden können*, um die Art des empirischen Vorgehens genauer zu beleuchten (z.B. "eine randomisierte Querschnittstudie", "ein Experteninterview auf Basis der qualitativen Inhaltsanalyse").
+
+- \- Die *Forschungsfrage* geht aus dem Titel *nicht (klar)* genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
+
+- \- Der Titel läuft Gefahr aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Titel für eine Abschlussarbeit angenommen zu werden. Damit würde auch das Thema abgelehnt werden bzw. die Abschlussarbeit mit diesem *Thema nicht angemeldet werden können*. Insofern ist der Titel und auch die Ausrichtung der Arbeit als problematisch zu bezeichnen. Für jede wissenschaftliche Arbeit gilt, dass ein Thema auf wissenschaftliche Art und Weise untersucht werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung sieht i.d.R. über den Einzelfall hinweg und versucht, allgemeingültige Muster zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
+
+- \- Ich rate Ihnen, den *Titel für Ihre Abschlussarbeit zu überdenken* bzw. zu ändern.
+
+- \- Der Titel benutzt *kausal konnotierte Begriffe* wie "der Effekt/Einfluss von X auf Y". Allerdings lassen die theoretischen und/oder versuchsplanerischen Grundlagen der vorliegenden keine Kausalaussagen zu.
+
+- \- Der Titel sollte in einer wissenschaftlichen Arbeit besser *als Forschungsfrage formuliert* sein, nicht als gesicherte Lösung. Das Ziel einer wissenschaftlichen Arbeit besteht gerade darin, Fragen zu stellen und an deren Beantwortung zu arbeiten. Wäre die Frage schon geklärt, wäre sie nicht Thema einer Forschungsarbeit. Man muss außerdem bescheiden sein im Hinblick auf die Klärungskraft einer einzelnen Studie: Viele wissenschaftlichen Phänomene sind so komplex, dass es aussichtslos ist, sie mit einer einzelnen Studie zu beantworten zu wollen. Sozialwissenschaftliche Phänomen stellen ob ihrer Multideterminiertheit darin keine Ausnahmen, ganz im Gegenteil. Wissenschaftliches Denken und Argumentieren erkennt von vor diesem Hintergrund also in einer bescheidenen, vorsichtigen, kritischen Formulierung -- bei gleichzeitiger Anwendung der besten Methodik, um Wissen zu generieren bzw. um Zweifel auszuräumen. Daher sind *(Unter-)Titel der Art "wie man von X zu Y kommt" etc. nicht gut geeignet* als Titel von Forschungsarbeiten.
+
+
+
+
+
+
+
+
+
 
 ## Gliederung (xxtoc) (xxglied)
 
@@ -2693,7 +2993,7 @@ Fehlinterpretationen:
 
 
 
-- \- Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln?
+- \- Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln? Außerdem ist die Beschreibung "Stand der Forschung" *zu wenig aussagekräftig*. Der Leser erfährt kaum etwas darüber, was in dem Abschnitt versteht. Vergleichen Sie, welche Überschrift aussagekräftiger ist: "Neuigkeiten aus der Politik" im Gegensatz zu "Frau Merkel bekommt den Nobelpreis für Physik!".
 
 - \- Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. *nicht komplett treffend wider*.
 
@@ -2777,113 +3077,11 @@ Fehlinterpretationen:
 - TIPP: Ein Dokument im PDF-Format sollte eine Gliederung "eingebaut" haben. In einem PDF-Dokument gibt es eine Funktion, eine Gliederung anzuzeigen (oft in einer eigenen Ansicht links des Hauptdokuments). Leser, die das Dokument elektronisch lesen, profitieren von dieser Funktion, da es so möglich wird, einfach im Dokument zu manövrieren.
 
 
-
-## Titel und Titelseite (xxtitel)
-
-### Titel -- Inhalt Beurteilung {#titelinhalt}
-
-`+++`
-
-+ \+ Der Titel der Arbeit ist *pointiert*, konzise und gut passend.
-+ \+ Der Titel der Arbeit ist *passend.*
-+
-
+## Aufbau der einzelnen Teile
 
 `---`
 
-
-- \- Der Titel der Arbeit ist *sehr (zu) lang* und damit nicht sehr eingängig.
-- \- Der Titel der Arbeit ist *zu vage/unpräzise* oder nicht griffig genug.
-- \- Der Titel der Arbeit ist *sehr kurz *und damit nicht präzise genug.
-- \- Der Titel ist *zu kurz *und damit nicht präzise genug; besser wäre ein präziserer Titel.
-- \- Der Titel ist *nicht präzise (genug)*. Wesentlich Aspekte der Forschungsfrage(n) bzw. der Studie bleiben außen vor. Ein guter Titel sollte bereits das Wesentliche der Arbeit vermitteln.
-
-
-- \- Es *fehlt* ein Titel.
-
-
-
-### Titel -- Inhalt Kommentare {#titelinhaltkommentar}
-
-`+++`
-
-
-
-
-
-- \+ Der Titel spiegelt die *Forschungsfrage* adäquat wider. Das ist sinnvoll, denn die Forschungsfrage kann als zentrale Informationseinheit zu einer Studie verstanden werden und verdient daher eine prominente Platzierung.
-
-
-
-- \+- Der Titel gibt einige zentrale Aspekte der Forschungsfrage und/oder des Studiendesigns wieder, aber hätte noch *von weiterer Präzisierung profitiert*.
-
-
-
-
-`---`
-
-
-- \- Der Titel spiegelt den *zentralen Inhalt* der Arbeit *nicht präzise* genug wider. 
-
-- \- Das *Inhaltsverzeichnis* der Arbeit findet sich in seinen Schwerpunkten *nur in Teilen im Titel* wieder.
-
-
-- \- Der Titel *hätte präziser formuliert werden können*, z.B. um die Richtung der *Hypothesen* oder Art des *Studiendesigns* zu erwähnen.
-- \- Besser wäre der Titel noch, wenn die Art des *Studiendesigns* berichtet werden würde ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine *querschnittliche Beobachtungsstudie*").
-
-- \- Die *Forschungsfrage* geht aus dem Titel *nicht (klar)* genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
-
-- \- Der Titel läuft Gefahr aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Titel für eine Abschlussarbeit angenommen zu werden. Damit würde auch das Thema abgelehnt werden bzw. die Abschlussarbeit mit diesem *Thema nicht angemeldet werden können*. Insofern ist der Titel und auch die Ausrichtung der Arbeit als problematisch zu bezeichnen. Für jede wissenschaftliche Arbeit gilt, dass ein Thema auf wissenschaftliche Art und Weise untersucht werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung sieht i.d.R. über den Einzelfall hinweg und versucht, allgemeingültige Muster zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
-
-- \- Ich rate Ihnen, den *Titel für Ihre Abschlussarbeit zu überdenken* bzw. zu ändern.
-
-- \- Der Titel benutzt *kausal konnotierte Begriffe* wie "der Effekt/Einfluss von X auf Y". Allerdings lassen die theoretischen und/oder versuchsplanerischen Grundlagen der vorliegenden keine Kausalaussagen zu.
-
-- \- Der Titel sollte in einer wissenschaftlichen Arbeit besser *als Forschungsfrage formuliert* sein, nicht als gesicherte Lösung. Das Ziel einer wissenschaftlichen Arbeit besteht gerade darin, Fragen zu stellen und an deren Beantwortung zu arbeiten. Wäre die Frage schon geklärt, wäre sie nicht Thema einer Forschungsarbeit. Man muss außerdem bescheiden sein im Hinblick auf die Klärungskraft einer einzelnen Studie: Viele wissenschaftlichen Phänomene sind so komplex, dass es aussichtslos ist, sie mit einer einzelnen Studie zu beantworten zu wollen. Sozialwissenschaftliche Phänomen stellen ob ihrer Multideterminiertheit darin keine Ausnahmen, ganz im Gegenteil. Wissenschaftliches Denken und Argumentieren erkennt von vor diesem Hintergrund also in einer bescheidenen, vorsichtigen, kritischen Formulierung -- bei gleichzeitiger Anwendung der besten Methodik, um Wissen zu generieren bzw. um Zweifel auszuräumen. Daher sind *(Unter-)Titel der Art "wie man von X zu Y kommt" etc. nicht gut geeignet* als Titel von Forschungsarbeiten.
-
-
-
-
-
-
-
-
-###  Titel -- Formatierung {#titelformatierung}
-
-`+++`
-
-+ \+ Der Titel ist auf der Titelseite *gut platziert*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch prominent platziert ist.
-
-+ \+ Die *Zäsur* in der Mitte des Titels (in Form eines Bindestrichs, Doppelpunkt oder Fragezeichens) gliedert den Titel in sinnvoller Weise; dadurch steigt die Lesbarkeit des Titels.
-
-+ \+ Durch die *Gliederung* des *Titels* in *Haupt- und Untertitel* steigt die Lesbarkeit des Titels.
-
-
-
-`---`
-
-
-- \- Der Titel könnte auf der Titelseite *noch besser "in Szene gesetzt" werden*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch deutlicher zutage tritt (z. B. ist der Titel zu klein gesetzt oder hat nicht genug Abstand zum Rest des Textes).
-
-- \- Zwar zeigen aktuelle Studien, dass die Lesbarkeit von SCHRIFT IN *GROSSBUCHSTABEN* NICHT geringer sein muss, als Schrift in Groß- und Kleinschreibung (Arditi, A., & Cho, J. (2007). Letter case and text legibility in normal and low vision. Vision research, 47(19), 2499–2505. doi:10.1016/j.visres.2007.06.010). Allerdings sollte die Textmenge von sog. "All Caps Text" (Großschreibung) sehr sparsam eingesetzt werden, und für besonders wichtige Wörter (zur Aufmerksamkeitssteuerung etwa auf einer Webseite) verwendet werden. (Lange) Titel oder Überschriften sollten daher besser nicht in Großbuchstaben gesetzt werden.
-
-- \- Das *Logo* auf der Titel entspricht nicht der Relevanz des Logos; besser wäre es, das Logo kleiner zu halten, da dem Logo keine große (inhaltliche) Bedeutung zukommt.
-
-
-- \- Eine *Zäsur* in Form z.B. eines Doppelpunkts oder Gedankenstrichs wäre sinnvoll gewesen, *fehlt* aber. 
-
-
-
-- \- Der Titel ist relativ *lang*; ein kürzer (aber gleichzeitig prägnanter) Titel wäre besser gewesen.
-
-- \- Der Titel soll nicht im Blocksatz (zumal ohne Silbentrennung) gesetzt werden, da unschöne Löcher im Textsatz entstehen.
-
-
-
-
-
-
-
+- Ein *Advance Organizer* kann sinnvoll sein, birgt aber zwei Gefahren: Zum einen wird knapper, daher wertvoller Platz, vergeben; zum anderen ist die Information häufig redundant zum Inhaltsverzeichnis. 
 
 
 
@@ -2929,15 +3127,18 @@ Fehlinterpretationen:
 
 - \- Die Forschungsfrage ist *nicht präzise genug formuliert*.
 
-- \- Die Forschungsfrage sollte früher in der Arbeit vorgestellt werden, da sie das forschungsleitende Interesse -- den Begründungszusammenhang des Forschungsvorhabens insgesamt -- charakterisiert. Salopp formuliert gibt die Forschungsfrage eine Antwort auf die Frage: "Worum geht es hier überhaupt?". Da diese Information die Richtung für die ganze Arbeit gibt, ist ihr Platz zu Beginn der Arbeit.
+- \- Die Forschungsfrage *sollte früher in der Arbeit vorgestellt* werden, da sie das forschungsleitende Interesse -- den *Begründungszusammenhang* des Forschungsvorhabens insgesamt -- charakterisiert. Salopp formuliert gibt die Forschungsfrage eine Antwort auf die Frage: "Worum geht es hier überhaupt?". Da diese Information die Richtung für die ganze Arbeit gibt, ist ihr Platz zu Beginn der Arbeit.
 
 
+- \- Die *Forschungsfrage* ist *zu breit* bzw. zu weit formuliert. Die Arbeit würde von einer "*Zuspitzung*" bzw. Präzisierung des Themas/der Forschungsfrage profitieren.
 
+
+- \- Die *Forschungsfrage* in der vorliegenden Arbeit ist *nicht-kausal* formuliert, zielt also nur auf das Vorhandensein von Mustern (Zusammenhängen etc.) ab. Solche methodologische Bescheidenheit ist in Forschungsarbeiten nicht unüblich und oft ein Zeichen von methodischer Strenge, was positiv zu sehen ist. Auf der anderen Seite hätte inhaltlich eine kausale Forschungsfrage mehr Sinn gemacht, eine Forschungsfrage der Art "Führt X zu Y" also. Vermutlich ist die Zurückhaltung darin zu suchen, dass die eingesetzte Forschungsmethode nicht (direkt) Zugang zu kausalen Schlussfolgerungen erlaubt. Glücklicherweise jedoch erlauben Fortschritte in der *Kausalanalyse* auch, bei Beobachtungsdaten, also ohne das Vorhandensein von randomiserten Experimenten, Kausalfragen zu untersuchen. Es sei hinzugefügt, dass die Kausalanalyse auf Annahmen beruht, natürlich; diese Annahmen sind vor allem im Vorhandensein einer entsprechenden Theorie zu suchen. Es gibt einige zugängliche Einstiegsliteratur in die Kausalanalyse, die an  dieser Stelle empfohlen sei \[vgl. @rohrer_thinking_2018\].
 
 
 **NUR QUALI:**
 
-- \- Die Forschungsfrage in einer qualitativen Forschungsarbeit sollte *das genuin qualitative der Arbeit aufzeigen*. Eine Forschungsfrage wie "Einführung moderner Führungswerkzeuge" etwa streicht nicht klar genug die subjektive bzw. das sozialkonstruktive Gefüge heraus.
+- \- Die Forschungsfrage in einer qualitativen Forschungsarbeit sollte *das genuin Qualitative der Arbeit aufzeigen*. Eine Forschungsfrage wie "Einführung moderner Führungswerkzeuge" etwa streicht nicht klar genug die subjektive bzw. das sozialkonstruktive Gefüge heraus.
 
 
 
@@ -3068,7 +3269,7 @@ Fehlinterpretationen:
 
 - \- Im Theorieteil sind *prototypisch drei Aspekte zu erörtern*: 1. Die UV, 2. die AV und 3. der (kausale) Zusammenhang von UV und AV. In der vorliegenden Arbeit wurde es versäumt, einen dieser drei Aspekte  in ausreichendem Maße zu erörtern (nämlich 3., den (kausalen) Zusammenhang von UV und AV). 
 
-- \- B*ehauptungen (Aussagen) sind grundsätzlich mit einer Quelle* zu belegen. Die vorliegende Arbeit hält dies nicht durchgängig ein.
+- \- *Behauptungen (Aussagen) sind grundsätzlich mit einer Quelle* zu belegen. Die vorliegende Arbeit hält dies nicht durchgängig ein.
 
 - \- *Ergebnisse und Diskussion sind strikt zu trennen* - die Arbeit hält dies nicht durchgängig durch. Der Ergebnisteil berichtet Fakten; die Diskussion tut das nicht. In der Diskussion wird über Fakten gesprochen. Damit ist die Diskussion deutlich subjektiver als der Ergebnisteil. In der Wissenschaft versucht man, Fakten von Meinungen deutlich zu trennen, da es sich um grundverschieden Dinge handelt.
 - \- Grundlegende methodische Verfahren sollten hier nicht erläutert werden.
@@ -3090,12 +3291,25 @@ Fehlinterpretationen:
 - \- Anstelle von Sätzen wie "*Es gibt drei Arten* von Problemen ...", sollte man besser schreiben in der Art von "Sauer und Lustig (2017) unterscheiden drei Arten von Problemen nämlich blabla" oder "*Nach Sauer und Lustig* (2017) gibt es drei Arten von Problemen, wobei man laut Süß (2018) noch ein viertes Problem blablabla". Diese Art der Formulierung entspricht eher der intellektuellen Redlichkeit, denn es ist schwer abzusichern, dass es genau drei Arten von Problemen gibt (eine "*Ontologisierung*", die behauptet, es gäbe nicht mehr und nicht weniger) und dass es genau die gerade dargestellten sind (und keine anderen).
 
 
+- \- *Jedes Kapitel*, jeder Abschnitt, jeder Absatz und jeder Satz sollte *genau einen Gedanken* ausdrücken; nicht mehr und nicht weniger. Die vorliegende Arbeit erfüllt diesen Anspruch nicht (vollständig). So finden sich etwa Absätze, die sich nicht sinnvoll mit einer Kernaussage widergeben lassen.
+
 
 
 ## Einführung/Einleitung (xxeinl) {#einleitung}
 
+`+++`
+
 - \+ Die Arbeit beginnt mit einer *sinnvollen Einführung*.
 - \+ Die *Relevanz* das Themas wird *anhand verschiedener Statistiken* (wie Umsatz, Anzahl Personen oder dergleichen) belegt. Das ist eine sinnvolle Art, die Relevanz eines Themas einzuleiten.
+
+
+
+`---`
+
+- Aufgabe des Kapitels *Einleitung* ist es, die Forschungsfrage anzuführen, zu detaillieren und zu motivieren (in dieser Prioritätenreihenfolge); ggf. darf sich ein Überblick über die Arbeit anschließen. Sonstige Inhalte sollten sich nicht in der Einleitung finden. Die vorliegende Arbeit erfüllt diese Anforderung nicht vollständig.
+
+
+
 
 
 ## Theorieteil (xxtheo) {#fachkenntnis}
@@ -3167,7 +3381,8 @@ Fehlinterpretationen:
 - \- Umfang und/oder Tiefe des Theorieteils ist/sind von *eingeschränkter Güte*.
 - \- Umfang und/oder Tiefe des Theorieteils ist/sind *gering.*
 - \- Umfang und/oder Tiefe des Theorieteils ist/sind *nicht ausreichend*.
-
+- \- Die *wissenschaftliche Güte* des Theorieteils ist *eingeschränkt.*
+- \- Der Theorieteil hätte profitiert von der Aufnahme von mehr (und stichhaltiger) Evidenz.
 
 
 - \- Der Theorieteil ist insgesamt *kurz* geraten.
@@ -3182,7 +3397,7 @@ Fehlinterpretationen:
 
 ### Qualität des Theorieteiles {#qualtheorie}
 
-[s. auch Abschnitt "Arugumenation"](#argumente)
+[s. auch Abschnitt "Argumenation"](#argumente)
 
 `+++`
 
@@ -3258,6 +3473,12 @@ Fehlinterpretationen:
 
 
 ### Theorieteil - Theorien und Kausalmodell (xxkausal, xxcausal)
+
+`+++`
+
+- \+ Die *Grenzen der internen Validitä*t -- also die Grenzen beim Formulieren von Kausalaussagen -- wurden in *nützlicher* Art und Weise diskutiert.
+
+
 
 `---`
 
@@ -3541,6 +3762,9 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 - \- Zentrales Merkmal wissenschaftlichen Schreibens ist *Präzision.* Ein Beispiel für eine nicht präzise Aussage bzw. Forschungsfrage ist "*Sind harte Führungskräfte erfolgreich*?". Diese Frage lässt beispielsweise offen, was unter einer "harten" oder einer "erfolgreichen" Führungskraft zu verstehen ist. Präziser wäre die Forschungsfrage so formuliert: "Wie stark ist der Einfluss der Eigenschaften aus der sog. 'Dunklen Triade der Persönlichkeit' auf die Zufriedenheit der Mitarbeiter, gemessen mit dem XYZ-Inventar?". Die vorliegende Arbeit weist sich nicht an allen Stellen durch hohe Präzision in den Formulierungen aus. 
 
 
+- \- Es werden *wissenschaftlich-methodische Sachverhalte* (in Teilen) *fehlerhaft formuliert*.
+
+
 
 ## Reflexion/Diskussion (xxreflex, xxdisk) {#diskussion}
 
@@ -3580,6 +3804,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 - \+ Die Ergebnisse der Studie wurden *recht umfangreich interpretiert*.
 
+- \+ Die Befunde der vorliegenden Studie wurden *in den Kontext früherer Studien gestellt* und somit in nützlicher Weise eingeordnet.
 
 `---`
 
@@ -3610,7 +3835,11 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 - \+- Die *Stichprobengröße* ist zwar ein meist treffender Kritikpunkt an einer Studie; kaum eine Studie weist eine "zu große" Stichprobe auf. Gleichzeitig ist dieser Punkt nicht ausreichend für die Diskussion der Grenzen der Untersuchung und insofern noch *kein Zeugnis einer tiefen Durchdringung* der Stärken und Schwächen eines Forschungsdesigns.
 - \+- Das methodische Vorgehen wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
 
-- \+- Es wurden einige Aspekte im Hinblick auf die Grenzen (Limitationen) der vorliegenden Arbeit diskutiert.
+
+
+`+++` 
+
+- \+- Es wurden *einige Aspekte* im Hinblick auf die Grenzen (Limitationen) der vorliegenden Arbeit *diskutiert.*
 
 
 `---`
@@ -3702,7 +3931,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 
 
-# Plagiate ---------------------------------------------------------------------------------------- {#plagiate}
+# Plagiate  {#plagiate}
 
 - \- Es fanden sich mögliche *Plagiate* in der vorliegenden Arbeit aus dieser Quelle:
 
@@ -3727,7 +3956,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 - \- Hinweise auf mögliche Plagiate sind nicht in die Beurteilung eingeflossen.
 
 
-# Summarisch ---------------------------------------------------------------------------------------
+# Summarisch 
 
 
 
@@ -3789,7 +4018,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 
 
-# VORTRAGEN/PRÄSENTIEREN (xxpräs)---------------------------------------- {#präs}
+# VORTRAGEN (**xxpräs**) {#präs}
 
 
 ## Korrektheit
@@ -3865,7 +4094,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 
 
-# Kommentare -------------------------------------------------------------------------------------- {#kommentare}
+# Kommentare {#kommentare}
 
 ## Negativ
 - \- Bitte vertiefen Sie Ihre *methodischen Kenntnisse* vor der Abschlussarbeit.
