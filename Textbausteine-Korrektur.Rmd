@@ -5,9 +5,6 @@ date: "Letzte Aktualisierung: `r Sys.Date()`"
 numbersections: TRUE 
 lang: de-De
 output:
-  md_document:
-    toc: true
-    variant: gfm
   html_document:
     
     #   "+smart"
@@ -21,6 +18,9 @@ output:
     number_sections: yes
     toc: yes
     # pandoc_args: [
+  md_document:
+    toc: true
+    variant: gfm
 ---
 
 
@@ -319,7 +319,7 @@ ausführlich genug vorgestellt?
 
 + \+ Durch die *Gliederung* des *Titels* in *Haupt- und Untertitel* steigt die Lesbarkeit des Titels.
 
-
+- \+ Der Titel beinhaltet eine *Kausalkonnotation*; verweist mithin also auf eine kausale Forschungsfrage. Das ist *präziser und insofern begrüßenswert* als (lediglich) auf einen Zusammenhang zu verweisen, jedenfalls unter der Annahme, dass es sich um eine kausale Forschungsfrage handelt, was in vielen empirischen Studien der Fall ist.
 
 `---`
 
@@ -372,7 +372,7 @@ ausführlich genug vorgestellt?
 `000`
 
 - \+- Ein Abstract ist *vorhanden*, der auf einiges relevantes Material eingeht, jedoch *von Präzisierung profitiert* hätte.
-
+- \- Abstract schreibt sich mit "c", nicht mit "k".
 
 `---`
 
@@ -583,7 +583,7 @@ ausführlich genug vorgestellt?
 
 - \- *Fachbegriffe* oder Eigennamen, die neu im Text eingeführt werden, sind beim *ersten* Anführen *kursiv* zu setzen, aber nicht in Anführungsstriche zu setzen. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
-- \- Erwähnt man den Namen eines Messinstruments, etwa *Mindfulness Attention and Awareness Scale*, so sollte der Name beim ersten Anführen kursiv gesetzt sein.
+- \- Erwähnt man den Namen eines Messinstruments, etwa *Mindfulness Attention and Awareness Scale*, so sollte der Name beim ersten Anführen kursiv gesetzt sein, aber nicht "angeführt" werden.
 
 - \- *Antwortoptionen* einer *psychometrischen Skala sollen kursiv gesetzt* sein, etwa: "Die Items waren mittels einer vierstufigen Likertskala zu beantworten mit den Stufen von 1 (*stimme überhaupt nicht zu*) bis 4 (*stimme voll und ganz zu*).
 
@@ -772,6 +772,12 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Rechtschreibung/Grammatik -- Kommentare {#rechtkommentare}
 
+
+`+++`
+
+- \+ Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde zumeist (oder immer) korrekt erkannt.
+
+
 `---`
 
 
@@ -928,6 +934,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \- Das Literaturverzeichnis enthält eine *große Zahl* oder einen *großen Anteil* an Fehlern.
 - \- *Jede oder fast jede Quelle* im Literaturverzeichnis ist falsch zitiert. Das ist als gravierender Mangel der vorliegenden Arbeit zu sehen.
+
+- \- Das Literaturverzeichnis ist *nicht konsistent* aufgebaut; verschiedenen Stile oder Varianten wurden gemischt. Solches - unzulässiges - Mischen könnte etwa bedeuten, dass Namen von Zeitschriften teilweise abgekürzt und teilweise ausgeschrieben wurden oder das insgesamt in einigen Zitationen die Vorgaben der APA V7 befolgt, aber in anderen Zitationen nach einem anderen Zitationsstil formatiert wurde.
 
 
 
@@ -1127,6 +1135,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - \+ Diagramme, Bilder oder Schemata wurden sinnvoll zur Auflockerung und Verdeutlichung des Textes bzw. der theoretischen Grundlagen verwendet.
 
+- \+ Es wurde ein Flussdiagramm bzw. ein Ablaufdiagramm verwendet, um den Ablauf der Datenerhebung (pro Proband) zu erläutern.
 
 
 - \+- Einige (wenige) Diagramme wurden zur sinnvollen Auflockerung und besserer Veranschaulichung des Textes eingesetzt. Mehr Diagramme hätten die Ausarbeitung bereichern können.
@@ -1372,7 +1381,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - \- Die *methodische Raffinesse* des Versuchsplan ist eher *einfach/gering*.
 - \- Das *Versuchsdesign* zeichnet sich durch einen eher geringen Umfang oder eine *eher geringe Komplexität* aus (z. B. nur zwei Variablen in einer Zusammenhangshypothese).
 - \- Die Versuchsplanung zeugt nicht von einer hohen Einarbeitung mit dem Gegenstand.
-
+- \- Um Effekte einer Intervention zu messen, gerade bei kleinen Stichproben, ist es zwar möglich, auf eine Messung der AV vor  der Intervention zu verzichten, aber besser ist es, vor ($t_0$) und nach ($t_1$) der Intervention die AV zu messen. Im nächsten Schritt kann man dann das Delta ($d= t_1 - t_0$) zwischen beiden Gruppen vergleicht, in der Regel mit der Hypothese, dass man einen (substanziellen) Unterschied findet. In der vorliegenden Arbeit wurde allerdings auf einen Test zu $t_0$ verzichtet.
 
 
 ### Besonderheiten qualitativer Designs {#qualidesigns}
@@ -1604,6 +1613,12 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 - \- Es *sollten keine zusammengesetzten Hypothesen formuliert werden*; stattdessen sollte für *jede Ursache/jeden Prädiktor eine eigene Hypothese* formuliert werden. Also nicht: "A, B und C führen zu D", sondern "H1: A führt zu D, H2: B führt zu D" etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?
 
+- \- *Hypothesen* sollten möglichst *präzise* formuliert werden; die Präzision der Begriffe (und damit auch einer Hypothese) ist die obere Schranke der Nützlichkeit einer empirischen Untersuchung. So wäre bspw. einer Hypothese der Art "Achtsamkeitstraining führt zu einer kurzfristigen Konzentrationssteigerung bei SchülerInnen" wenig präzise. Präziser wäre: $\mu_E > \mu_K$, wobei die Begriffe (Mittelwerte der Populationen in Experimental- und Kontrollbedingung in der AV, welche auch in ihrer Operationalisierung genau ausgewiesen ist).
+
+- \- Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesis eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
+
+- \- *Statistische Symbole* in *Hypothesen* bergen den Vorteil, dass die Verbindung zur Datenanalyse, dem eigentlichen Auswerten und analytischen Beantworten der Forschungsfrage also, evident im Sinne von "nah" wird. Andernfalls stellt sich die Frage, wie z.B. "Achtsamkeit" gemessen wurde: mit welchem Instrument? Mit welcher Statistik (Mittelwert? Summe? Median? Über welche Items?).
+
 
 
 
@@ -1823,9 +1838,9 @@ NUR QUALI:
 
 - \- Tabellen sollten (in wissenschaftlichen Arbeiten) besser *auf "Schnörkel" verzichten*: Intensiv wirkende Aspekte (wie eingefärbte Hintergründe), die wenig Information bergen und/oder nur begrenzt (wenn überhaupt) zur Übersichtlichkeit/Strukturierung beitragen, sollten vermieden werden. Trotzdem sollte (natürlich) eine Tabelle ansprechend und elegant gesetzt sein, wie es in vielen Fachartikeln sinnvoll gelöst ist.
 
-- \- Die Formatierung der Tabellen ist *häufig nicht ansprechend;* vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA oder Leitfaden Wirtschaftspsychologie dazu.
-- \- Die Formatierung der Tabellen ist *nicht immer ansprechend*; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA oder Leitfaden Wirtschaftspsychologie dazu.
-- \- Bitte *machen Sie sich* mit der Formatierung von Tabellen laut APA/DGPs *vertraut*, vgl. Leitfaden Wirtschaftspsychologie.
+- \- Die Formatierung der Tabellen ist *häufig nicht ansprechend;* vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA dazu.
+- \- Die Formatierung der Tabellen ist *nicht immer ansprechend*; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA dazu.
+- \- Bitte machen Sie sich mit der *Formatierung* von Tabellen laut APA/DGPs *vertraut*.
 
 - \- Tabellen sollten grundsätzlich ohne vertikale Linien gesetzt sein.
 
@@ -2384,6 +2399,24 @@ Fehlinterpretationen:
 
 
 
+
+### Bayes
+
+`---`
+
+- Verwendet man den Begriff "Signifikanz" im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von "signifikant" ist "das 95%-PI der Posterioriverteilung liegt komplett außerhalb des ROPE". Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist.
+
+
+
+
+
+### Kausalanalyse
+
+- \+ Es wurden Kausalmodelle empirisch-statistisch überprüft. Das ist laudabel, denn übliche statistische Untersuchung zu Effekten (wie Nullhyphothesentesten oder Effektschätzungen) beruhen auf der - häufig ungeprüften - Annahme, dass das Kausalmodell der Studie korrekt ist. Ohne ein Wissen über die Korrektheit eines Kausalmodells ist eine herkömmliche statistische Untersuchung zu einem Effekt streng genommen sinnlos. Angemerkt sei, dass ein experimentellen Untersuchungen, sofern diese gut durchgeführt sind und die Stichprobe groß genug ist, auf die Überprüfung eines Kausalmodells verzichtet werden kann, da das Design die Validität des Kausalmodells garantiert.
+
+
+
+
 ### Regression (xxregress)
 
 - \+ Die Regression bzw. der Einfluss des Prädiktors wurde korrekt interpretiert.
@@ -2394,8 +2427,10 @@ Fehlinterpretationen:
 `---`
 
 
-- \- Die Regression bzw. der Einfluss des Prädiktors wurde falsch interpretiert.
-- \- Es wäre noch nützlich gewesen, zusätzlich die standardisierten Regressionsgewichte anzugeben, da die unstandardisierten Regressionsgewichte von der Streuung bzw. Skalierung der Variablen abhängig sind. Da dieser Punkt aber über den Unterrichtsstoff hinausgeht, wird ihm keine große Bedeutung zugemessen.
+- \- Die Regression bzw. der Einfluss des Prädiktors wurde *falsch* interpretiert.
+- \- Es wäre noch nützlich gewesen, zusätzlich die *standardisierten* Regressionsgewichte anzugeben, da die unstandardisierten Regressionsgewichte von der Streuung bzw. Skalierung der Variablen abhängig sind. Da dieser Punkt aber über den Unterrichtsstoff hinausgeht, wird ihm keine große Bedeutung zugemessen.
+
+- \- Es wurden *nicht alle nötigen* bzw. sinnvollen Statistiken zur Regressionsanalyse *berichtet.* Zu den nötigen Statistiken (einer Regressionsanalyse) zählen das Regressionsgewicht (Punktschätzer) sowie eine Angabe zur Genauigkeit des Punktschätzers (z.B. Standardfehler).
 
 
 ### Datensatz
@@ -2771,6 +2806,14 @@ Fehlinterpretationen:
 - \- Die vorliegende Arbeit verwendet den Term *"beeinflussen"* an einer (oder mehreren) Stellen (z. B. in den Hypothesen oder im Ergebnisteil). Der Begriff suggeriert einen* kausalen Anspruch in der Hypothese; ein Anspruch, der das *Design* (bzw. die interne Validität des Designs) der vorliegenden Studie *nicht gerecht* wird.
 
 
+## Datensatz
+
+`---`
+
+- \- Zur sinnvollen Auswertung der Daten ist es von Vorteil (oder sogar nötig), dass alle Daten in einer Tabelle (bzw. Datei) vorliegen. In der vorliegenden Arbeit wurde dieser Punkt nicht ausreichend berücksichtigt.
+
+
+
 
 ## Sonstige Kommentare zum Methodenteil
 
@@ -2989,6 +3032,8 @@ Fehlinterpretationen:
 - \+ Die Gliederung *spiegelt die Forschungsfrage adäquat* wider.
 
 
+
+
 `---`
 
 
@@ -3179,7 +3224,7 @@ Fehlinterpretationen:
 - \+ Titel, Forschungsfrage/Hypothesen und Datenanalyse passen *großteils* zusammen.
 
 
-- \+ Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der *Theorieteil eine Lücke* aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst *A -> B (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen *Zusammenhang* beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde dieser Fehler nicht begangen, sondern korrekterweise alle drei Aspekte im Theorie adressiert.
+- \+ Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der *Theorieteil eine Lücke* aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst *A -> B (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen *Zusammenhang* beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde dieser Fehler nicht begangen, sondern korrekterweise alle drei Aspekte im Theorieteil adressiert.
 
 
 
@@ -3194,7 +3239,7 @@ Fehlinterpretationen:
 
 - \- Im Theorieteil wird *versäumt, auf alle Aspekte, die in der Forschungsfrage/den Forschungsfragen vorkommen*, einzugehen.
 
-- \- Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde nicht ausreichend auf den Zusammenhang von "A" und "B" eingegangen.
+- \- Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde entweder nicht ausreichend auf den Zusammenhang von "A" und "B" eingegangen oder nicht in der Gliederung diese drei Aspekte separat ausgewiesen.
 
 - \- Damit ein "roter Faden" in der Arbeit erkennbar ist, ist es notwendig, dass im Theorieteil *alle Aspekte der der Forschungsfrage des Typs "A -> B"* diskutiert werden, nämlich A, B und der Zusammenhang von A und B (möglicherweise kausaler Natur). Häufig sind das zwei Phänomen und (das wird häufig vergessen) eine Erklärung zum Einfluss oder zum  Zusammenhang der Phänomene. Gleiches gilt für die Hypothese; es sollten nur Hypothesen (in einer quantitativen bzw. nicht-explorativen Arbeit) formuliert werden, die zuvor im Theorieteil erläutert wurden. Dieser Aspekt wird in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
@@ -3421,7 +3466,7 @@ Fehlinterpretationen:
 - \- Der Theorieteil geht *nicht tief genug* auf die relevanten Punkte ein.
 - \- Der Theorieteil ist *zu wenig differenziert*.
 
-
+- \- Der Theorieteil greift nicht alle Aspekte der Forschunsfrage(n) bzw. Hypothesen auf. Er ist insofern unvollständig.
 
 
 - \- Der Theorieteil lässt wesentliche Aspekte des Themas außen vor; die Ausarbeitung weist *deutliche Lücken* auf.
@@ -3450,7 +3495,7 @@ Fehlinterpretationen:
 - \- - Der Theorieteil sollte nicht als *“kleines Lehrbuch”* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.
 
 
-#### Drei Teile des Theorieteils (xxdreiteile)
+### Drei Teile des Theorieteils (xxdreiteile)
 
 - \- Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit *nicht* adäquat berücksichtigt worden.
 
@@ -3472,12 +3517,13 @@ Fehlinterpretationen:
 
 
 
-### Theorieteil - Theorien und Kausalmodell (xxkausal, xxcausal)
+### Theorieteil - Kausalmodell (xxkausal, xxcausal)
 
 `+++`
 
-- \+ Die *Grenzen der internen Validitä*t -- also die Grenzen beim Formulieren von Kausalaussagen -- wurden in *nützlicher* Art und Weise diskutiert.
+- \+ Die *Grenzen der internen Validität* -- also die Grenzen beim Formulieren von Kausalaussagen -- wurden in *nützlicher* Art und Weise diskutiert.
 
+- \+ Es wurde ein Kausalmodell in Form eines DAG (Directed Acyclic Graph) formuliert.
 
 
 `---`
@@ -3736,7 +3782,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 - \- Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.
 
 
-
+- \- Das Wort *"signifikant"* sollte nur in wohl abgewogenen Zusammenhängen angeführt werden. Die vorliegende Arbeit verwendet den Begriff nicht immer präzise genug.
 
 
 
