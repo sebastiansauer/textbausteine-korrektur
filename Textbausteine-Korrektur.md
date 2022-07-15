@@ -1,7 +1,7 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "Letzte Aktualisierung: 2022-07-15" 
+date: "Letzte Aktualisierung: 2022-07-15 10:38:32" 
 numbersections: TRUE 
 lang: de-De
 output:
@@ -17,10 +17,9 @@ output:
     keep_md: yes
     number_sections: yes
     toc: yes
-    # pandoc_args: [
-  # md_document:
-  #   toc: true
-  #   variant: gfm
+  md_document:
+    toc: true
+    variant: gfm
 ---
 
 
