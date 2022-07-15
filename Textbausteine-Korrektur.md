@@ -1,7 +1,7 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "Letzte Aktualisierung: 2022-07-14" 
+date: "Letzte Aktualisierung: 2022-07-15" 
 numbersections: TRUE 
 lang: de-De
 output:
@@ -18,9 +18,9 @@ output:
     number_sections: yes
     toc: yes
     # pandoc_args: [
-  md_document:
-    toc: true
-    variant: gfm
+  # md_document:
+  #   toc: true
+  #   variant: gfm
 ---
 
 
@@ -251,38 +251,41 @@ ausführlich genug vorgestellt?
 
 ### Formalia - Beurteilung
 
-- \+ *Formalia* (wie *Titelblatt* entsprechend der Richtlinien gestaltet; Verzeichnisse vorhanden etc.) wurden angemessen umgesetzt.
+- POS *Formalia* (wie *Titelblatt* entsprechend der Richtlinien gestaltet; Verzeichnisse vorhanden etc.) wurden angemessen umgesetzt.
 
-- \- Formalia (wie Titelblatt entsprechend der Richtlinien gestaltet; Verzeichnisse vorhanden etc.) wurden nicht vollständig oder nicht angemessen umgesetzt.
+- NEG Formalia (wie Titelblatt entsprechend der Richtlinien gestaltet; Verzeichnisse vorhanden etc.) wurden nicht vollständig oder nicht angemessen umgesetzt.
 
-- \- Es finden sich *gravierende* formale Mängel.
-- \- Aufgrund von formalen Mängeln ist die Arbeit als mangelhaft beurteilt.
-- \- *Zentrale formale Vorgaben wurden nicht beachtet* (etwa zu Zitierregeln, theoretischer Fundierung oder methodisches Vorgehen).
+- NEG Es finden sich *gravierende* formale Mängel.
+- NEG Aufgrund von formalen Mängeln ist die Arbeit als mangelhaft beurteilt.
+- NEG *Zentrale formale Vorgaben wurden nicht beachtet* (etwa zu Zitierregeln, theoretischer Fundierung oder methodisches Vorgehen).
 
 
-- \- Es finden sich *formale Mängel*.
-- \- Es finden sich kleinere formale Mängel.
+- NEG Es finden sich *formale Mängel*.
+- NEG Es finden sich kleinere formale Mängel.
 
-- \- Der Arbeitsauftrag bzw. der Gegenstand der Prüfung wurde nicht (richtig) umgesetzt.
+- NEG Der Arbeitsauftrag bzw. der Gegenstand der Prüfung wurde nicht (richtig) umgesetzt.
 
 
 
 ### Formalia - Kommentare
 
-- \- Entgegen den formalen Vorgaben wurde *kein ausgedrucktes Exemplar* dem Gutachter vorgelegt.
-- \- Entgegen den formalen Vorgaben wurde die Arbeit nicht mit LaTeX oder `RMarkdown` erstellt. 
-- \- Die *Wortzahl* wurde nicht angegeben: Entgegen den formalen Vorgaben wurde die *Wortanzahl* (des Hauptteiles) nicht oder nicht an richtiger (und direkt einsehbarer) Stelle angegeben.
+- NEG Entgegen den formalen Vorgaben wurde *kein ausgedrucktes Exemplar* dem Gutachter vorgelegt.
+- NEG Entgegen den formalen Vorgaben wurde die Arbeit nicht mit LaTeX oder `RMarkdown` erstellt. 
+- NEG Die *Wortzahl* wurde nicht angegeben: Entgegen den formalen Vorgaben wurde die *Wortanzahl* (des Hauptteiles) nicht oder nicht an richtiger (und direkt einsehbarer) Stelle angegeben.
 
-- \- Es wurde *kein Thema* angegeben im Online Campus.
+- NEG Es wurde *kein Thema* angegeben im Online Campus.
 
-- \- Bitte nutzen Sie keine *Klebebindung* für Ihre Arbeit, da das Umblättern auf diese Art erschwert ist.
+- NEG Bitte nutzen Sie keine *Klebebindung* für Ihre Arbeit, da das Umblättern auf diese Art erschwert ist.
 
-- \- Es finden sich *formale Fehler auf der Titelseite* (z.B. falsches Datum).
-- \- Das Tabellen- und Abbildungsverzeichnis sollte sich vor der Gliederung befinden.
+- NEG Es finden sich *formale Fehler auf der Titelseite* (z.B. falsches Datum).
+- NEG Das Tabellen- und Abbildungsverzeichnis sollte sich vor der Gliederung befinden.
 
-- \- Entgegen den formalen Vorgaben wurde die Arbeit *nicht beidseitig (doppelseitig) bedruckt* (d.h. Vor- und Rückseiten des Papiers), so dass beim Lesen linke und rechte Seiten (unterschiedlich) gestaltet sind. So sind bei linken Seiten die Seitenzahlen am linken Rand zu drucken, bei rechten Seiten rechts.
+- NEG Entgegen den formalen Vorgaben wurde die Arbeit *nicht beidseitig (doppelseitig) bedruckt* (d.h. Vor- und Rückseiten des Papiers), so dass beim Lesen linke und rechte Seiten (unterschiedlich) gestaltet sind. So sind bei linken Seiten die Seitenzahlen am linken Rand zu drucken, bei rechten Seiten rechts.
 
-- \- Es wurden Aspekte in die Arbeit aufgenommen, die nicht vorgesehen sind (etwa ein *Zeitplan*); dies läuft den formalen Vorgaben entgegen. Damit fehlt Platz für die inhaltlichen Aspekte. Damit soll nicht gesagt sein, dass das Projektmanagement einer (Forschungs-)arbeit nicht wichtig sei; es ist bloß nicht Gegenstand der wissenschaftlichen Qualifizierung. Analog verlangt der Prüfer auch keinen Beweis, dass Sie Microsoft Office beherrschen -- nicht weil es nicht wichtig wäre; es ist bloß nicht Gegenstand (sondern evtl. Voraussetzung) der wissenschaftlichen Qualifizierung. Gegenstand einer wissenschaftlichen Qualifizierung ist Fachwissen und Wohlüberlegtheit, also Stringenz und Qualität in der Überlegung. Häufig sind Zeitpläne auch trivial (das muss nicht in Ihrem Fall zutreffen, das ist eine allgemeine Beobachtung). Zeigen Sie in einer wissenschaftlichen Qualifizierungsarbeit, dass Sie wissen, was in der Wissenschaft wichtig ist und dass Sie diese Kriterien gut beherrschen. (Analoges gilt für andere Kontexte genauso.)
+- NEG Es wurden Aspekte in die Arbeit aufgenommen, die nicht vorgesehen sind (etwa ein *Zeitplan*); dies läuft den formalen Vorgaben entgegen. Damit fehlt Platz für die inhaltlichen Aspekte. Damit soll nicht gesagt sein, dass das Projektmanagement einer (Forschungs-)arbeit nicht wichtig sei; es ist bloß nicht Gegenstand der wissenschaftlichen Qualifizierung. Analog verlangt der Prüfer auch keinen Beweis, dass Sie Microsoft Office beherrschen -- nicht weil es nicht wichtig wäre; es ist bloß nicht Gegenstand (sondern evtl. Voraussetzung) der wissenschaftlichen Qualifizierung. Gegenstand einer wissenschaftlichen Qualifizierung ist Fachwissen und Wohlüberlegtheit, also Stringenz und Qualität in der Überlegung. Häufig sind Zeitpläne auch trivial (das muss nicht in Ihrem Fall zutreffen, das ist eine allgemeine Beobachtung). Zeigen Sie in einer wissenschaftlichen Qualifizierungsarbeit, dass Sie wissen, was in der Wissenschaft wichtig ist und dass Sie diese Kriterien gut beherrschen. (Analoges gilt für andere Kontexte genauso.)
+
+
+- NEG *Seitenzahlen fehlen* - zumindest in Teilen des Dokuments - , sind aber auf paginierten Dokumenten eine sinnvolle Ergänzung.
 
 
 
@@ -290,10 +293,10 @@ ausführlich genug vorgestellt?
 
 ## Vollständigkeit {#vollstaendig}
 
-- \+ Die Arbeit ist *vollständig* insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden.
-- \+ Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden. Diese Schritte beinhalten z. B. die Beschreibung relevanter Aspekte des Datensatzes wie die Skalenniveaus, Visualisierung der Datenlage, Durchführen von deskriptiver und schließender statistischer Verfahren sowie eine Diskussion der Befunde.
+- POS Die Arbeit ist *vollständig* insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden.
+- POS Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden. Diese Schritte beinhalten z. B. die Beschreibung relevanter Aspekte des Datensatzes wie die Skalenniveaus, Visualisierung der Datenlage, Durchführen von deskriptiver und schließender statistischer Verfahren sowie eine Diskussion der Befunde.
 
-- \- Die Arbeit ist *unvollständig* insofern, als dass nicht alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden. Es fehlen wesentliche Aspekte, die Teil der Aufgabenstellung waren, aber nicht (vollständig) umgesetzt wurden.
+- NEG Die Arbeit ist *unvollständig* insofern, als dass nicht alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden. Es fehlen wesentliche Aspekte, die Teil der Aufgabenstellung waren, aber nicht (vollständig) umgesetzt wurden.
 
 
 
@@ -313,35 +316,35 @@ ausführlich genug vorgestellt?
 
 `+++`
 
-+ \+ Der Titel ist auf der Titelseite *gut platziert*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch prominent platziert ist.
++ POS Der Titel ist auf der Titelseite *gut platziert*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch prominent platziert ist.
 
-+ \+ Die *Zäsur* in der Mitte des Titels (in Form eines Bindestrichs, Doppelpunkt oder Fragezeichens) gliedert den Titel in sinnvoller Weise; dadurch steigt die Lesbarkeit des Titels.
++ POS Die *Zäsur* in der Mitte des Titels (in Form eines Bindestrichs, Doppelpunkt oder Fragezeichens) gliedert den Titel in sinnvoller Weise; dadurch steigt die Lesbarkeit des Titels.
 
-+ \+ Durch die *Gliederung* des *Titels* in *Haupt- und Untertitel* steigt die Lesbarkeit des Titels.
++ POS Durch die *Gliederung* des *Titels* in *Haupt- und Untertitel* steigt die Lesbarkeit des Titels.
 
-
+- POS Der Titel beinhaltet eine *Kausalkonnotation*; verweist mithin also auf eine kausale Forschungsfrage. Das ist *präziser und insofern begrüßenswert* als (lediglich) auf einen Zusammenhang zu verweisen, jedenfalls unter der Annahme, dass es sich um eine kausale Forschungsfrage handelt, was in vielen empirischen Studien der Fall ist.
 
 `---`
 
 
-- \- Der Titel könnte auf der Titelseite *noch besser "in Szene gesetzt" werden*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch deutlicher zutage tritt (z. B. ist der Titel zu klein gesetzt oder hat nicht genug Abstand zum Rest des Textes).
+- NEG Der Titel könnte auf der Titelseite *noch besser "in Szene gesetzt" werden*, so dass die zentrale Bedeutung des Titels optisch-gestalterisch deutlicher zutage tritt (z. B. ist der Titel zu klein gesetzt oder hat nicht genug Abstand zum Rest des Textes).
 
-- \- Zwar zeigen aktuelle Studien, dass die Lesbarkeit von SCHRIFT IN *GROSSBUCHSTABEN* NICHT geringer sein muss, als Schrift in Groß- und Kleinschreibung (Arditi, A., & Cho, J. (2007). Letter case and text legibility in normal and low vision. Vision research, 47(19), 2499–2505. doi:10.1016/j.visres.2007.06.010). Allerdings sollte die Textmenge von sog. "All Caps Text" (Großschreibung) sehr sparsam eingesetzt werden, und für besonders wichtige Wörter (zur Aufmerksamkeitssteuerung etwa auf einer Webseite) verwendet werden. (Lange) Titel oder Überschriften sollten daher besser nicht in Großbuchstaben gesetzt werden.
+- NEG Zwar zeigen aktuelle Studien, dass die Lesbarkeit von SCHRIFT IN *GROSSBUCHSTABEN* NICHT geringer sein muss, als Schrift in Groß- und Kleinschreibung (Arditi, A., & Cho, J. (2007). Letter case and text legibility in normal and low vision. Vision research, 47(19), 2499–2505. doi:10.1016/j.visres.2007.06.010). Allerdings sollte die Textmenge von sog. "All Caps Text" (Großschreibung) sehr sparsam eingesetzt werden, und für besonders wichtige Wörter (zur Aufmerksamkeitssteuerung etwa auf einer Webseite) verwendet werden. (Lange) Titel oder Überschriften sollten daher besser nicht in Großbuchstaben gesetzt werden.
 
-- \- Die Größe des *Logos* auf der Titelseite entspricht nicht der Relevanz des Logos; besser wäre es, das Logo kleiner zu halten, da dem Logo keine große (inhaltliche) Bedeutung zukommt.
-
-
-- \- Eine *Zäsur* in Form z.B. eines Doppelpunkts oder Gedankenstrichs wäre sinnvoll gewesen, *fehlt* aber. 
+- NEG Die Größe des *Logos* auf der Titelseite entspricht nicht der Relevanz des Logos; besser wäre es, das Logo kleiner zu halten, da dem Logo keine große (inhaltliche) Bedeutung zukommt.
 
 
-
-- \- Der Titel ist relativ *lang*; ein kürzer (aber gleichzeitig prägnanter) Titel wäre besser gewesen.
-
-- \- Der *Titel* soll nicht im Blocksatz (zumal ohne Silbentrennung) gesetzt werden, da unschöne *Löcher* im *Textsatz* entstehen.
-
-- \- Bei einer *qualitativen* Arbeit sollte man, gerade wenn man Kausalaussagen im Blick hat, einen Hinweis auf die Subjektivität ergänzen. Lautet der Titel etwa "Die Auswirkungen moderner Arbeitsmodelle auf die Rolle der Führungskraft", so macht es Sinn zu ergänzen, dass die *subjektive* Sicht der befragten Personen her geltend gemacht wird; es handelt sich nicht um eine Absicherung eines kausalen Bestandes im strengen Sinne des Wortes.
+- NEG Eine *Zäsur* in Form z.B. eines Doppelpunkts oder Gedankenstrichs wäre sinnvoll gewesen, *fehlt* aber. 
 
 
+
+- NEG Der Titel ist relativ *lang*; ein kürzer (aber gleichzeitig prägnanter) Titel wäre besser gewesen.
+
+- NEG Der *Titel* soll nicht im Blocksatz (zumal ohne Silbentrennung) gesetzt werden, da unschöne *Löcher* im *Textsatz* entstehen.
+
+- NEG Bei einer *qualitativen* Arbeit sollte man, gerade wenn man Kausalaussagen im Blick hat, einen Hinweis auf die Subjektivität ergänzen. Lautet der Titel etwa "Die Auswirkungen moderner Arbeitsmodelle auf die Rolle der Führungskraft", so macht es Sinn zu ergänzen, dass die *subjektive* Sicht der befragten Personen her geltend gemacht wird; es handelt sich nicht um eine Absicherung eines kausalen Bestandes im strengen Sinne des Wortes.
+
+- NEG Die *Titelseite* ist optisch  *suboptimal* gesetzt. Beispiele für nicht optimale Formatierungen sind zu viel "Schnörkel" wie Kästen um die Überschrift oder (zu) viele verschiedene Schriftarten oder schlecht lesbare Schriftarten oder inhaltsfreie Ornamente.
 
 
 
@@ -364,53 +367,53 @@ ausführlich genug vorgestellt?
 
 `+++`
 
-- \+ Ein Abstract, der das Überblicken der Arbeit unterstützt, ist *vorhanden.*
-+ \+ Der Abstract enthält die nötigen Informationen; er ist *präzise* und stringent formuliert.
-+ \+ Der Abstract ist *insgesamt sinnvoll aufgebaut* und geht auf einige wesentliche Aspekte der Studie ein.
+- POS Ein Abstract, der das Überblicken der Arbeit unterstützt, ist *vorhanden.*
++ POS Der Abstract enthält die nötigen Informationen; er ist *präzise* und stringent formuliert.
++ POS Der Abstract ist *insgesamt sinnvoll aufgebaut* und geht auf einige wesentliche Aspekte der Studie ein.
 
 
 `000`
 
-- \+- Ein Abstract ist *vorhanden*, der auf einiges relevantes Material eingeht, jedoch *von Präzisierung profitiert* hätte.
-
+- POS-NEG Ein Abstract ist *vorhanden*, der auf einiges relevantes Material eingeht, jedoch *von Präzisierung profitiert* hätte.
+- Ein Abstract sollte die wesentlichen Punkte der Arbeit genau benennen; bei einer empirischen Studie sind das Forschungsfrage, Stichprobe, Messinstrumente, Design, Ergebnis, Limitationen.
 
 `---`
 
+- NEG Abstract schreibt sich mit "c", nicht mit "k".
+
+- NEG Ein Abstract, der das Überblicken der Arbeit unterstützt, *fehlt*, wäre aber sinnvoll gewesen.
 
 
-- \- Ein Abstract, der das Überblicken der Arbeit unterstützt, *fehlt*, wäre aber sinnvoll gewesen.
+
+- NEG Der Abstract ist *nicht (durchgängig) präzise* genug formuliert.
+
+- NEG Der Abstract *enthält nicht alle nötigen Informationen* (z. B. Methode oder Ergebnisse der Studie sind bruchstückhaft dargestellt).
+- NEG Der Abstract enthält *unnötige* Informationen; er ist nicht (durchgängig) prägnant formuliert.
+- NEG Der Abstract ist *zu lang* gemessen an der Zahl der Wörter.
+
+- NEG Der Abstract *sollte direkt nach der Titelseite*, noch vor den Verzeichnissen, eingeordnet sein. Dies ist in der vorliegenden Arbeit nicht der Fall.
+- NEG Der Abstract sollte sich in *Abfolge und Inhalt am Haupttext* orientieren; die Aufgabe des Abstracts ist es, das Verständnis des Textes im Überblick zu erleichtern. Dieser Aufgabe wird der Abstract im vorliegenden Fall nicht oder nicht in gutem Maße gerecht.
+- NEG Der Abstract sollte eine *"eigene" Seite* in Anspruch nehmen; das nächste Kapitel beginnt auf einer neuen Seite; das gilt für alle Hauptabschnitte wie Kapitel und Verzeichnisse der Arbeit.
+- NEG Der Abstract ist recht *knapp* gehalten und hätte von ausführlicherer Darstellung profitiert.
+
+- NEG Die erste Zeile des Abstracts ist *nicht einzurücken*; dies entspricht der Regel, dass der erste Absatz eines Abschnittes/Kapitels grundsätzlich nicht einzurücken ist.
+
+- NEG Der Abstract soll *nicht in der Gliederung* erscheinen.
+
+- NEG *"Meta-Aussagen"* folgender Art sind (im Abstract und auch andernorts) zu vermeiden: "Es wird das Design begründet", "Es werden die Hypothesen vorgestellt" etc. Viel besser ist es, die Inhalte dieser Aussagen anzugeben, etwa "Die zentrale Hypothese lautet, dass X zu Y führt" oder "Es handelt sich um ein kontrolliertes, randomisiertes Experiment", "Im Anschluss wurden die Daten analysiert", "Die Literatur wurde anfangs gesichtet". Zugespitzt formuliert: Aussagen der Art "Diese Studie hat eine Hypothese" sind *inhaltsarm* und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa "Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC", "Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer", "Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht".
+
+- NEG Die *Forschungsfrage* geht aus dem Abstract nicht (klar) genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
+
+- NEG Der Abstract versäumt es, auf die *zugrundeliegende Theorie *(d.h. die Erklärung im Sinne von Ursachen und/oder Randbedingungen) der Forschungsfrage einzugehen. Forschungsfragen und/oder Hypothesen sollten aber nicht im "*luftleeren*" Raum stehen, sondern durch eine Theorie erklärt werden. Lautet zum Beispiel die Forschungsfrage "A führt zu B", so sollte eine Theorie herangezogen werden, um zu erklären, warum A zu B führt, unter welchen Umständen (Randbedingungen) A zu B führt oder vermittelt über welche Prozesse A zu B führt. Die Theorie zu detaillieren (und mit empirischen Belegen glaubhaft zu machen) ist dann Aufgabe des Theorieteils. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausführlich genug) berücksichtigt.
+
+- NEG Hinweise in der Diskussion oder im Abstract der Art *"weitere Forschung ist sinnvoll"*, "das Thema sollte weiter untersucht werden" etc. sind gering informativ; es gibt kaum eine Studie, bei der sich dieser Passus nicht anböte. Daher sollte dieser Hinweis unterbleiben bzw. (besser) durch eine *Präzisierung* der nun angeratenen Forschung ersetzt werden.
 
 
+- NEG Der Abstract soll *keine Gliederungsnummer* erhalten.
 
-- \- Der Abstract ist *nicht (durchgängig) präzise* genug formuliert.
+- NEG Der Abstract soll nicht in Absätze untergliedert, sondern als Fließtext innerhalb eines Absatzes gestaltet sein.
 
-- \- Der Abstract *enthält nicht alle nötigen Informationen* (z. B. Methode oder Ergebnisse der Studie sind bruchstückhaft dargestellt).
-- \- Der Abstract enthält *unnötige* Informationen; er ist nicht (durchgängig) prägnant formuliert.
-- \- Der Abstract ist *zu lang* gemessen an der Zahl der Wörter.
-
-- \- Der Abstract *sollte direkt nach der Titelseite*, noch vor den Verzeichnissen, eingeordnet sein. Dies ist in der vorliegenden Arbeit nicht der Fall.
-- \- Der Abstract sollte sich in *Abfolge und Inhalt am Haupttext* orientieren; die Aufgabe des Abstracts ist es, das Verständnis des Textes im Überblick zu erleichtern. Dieser Aufgabe wird der Abstract im vorliegenden Fall nicht oder nicht in gutem Maße gerecht.
-- \- Der Abstract sollte eine *"eigene" Seite* in Anspruch nehmen; das nächste Kapitel beginnt auf einer neuen Seite; das gilt für alle Hauptabschnitte wie Kapitel und Verzeichnisse der Arbeit.
-- \- Der Abstract ist recht *knapp* gehalten und hätte von ausführlicherer Darstellung profitiert.
-
-- \- Die erste Zeile des Abstracts ist *nicht einzurücken*; dies entspricht der Regel, dass der erste Absatz eines Abschnittes/Kapitels grundsätzlich nicht einzurücken ist.
-
-- \- Der Abstract soll *nicht in der Gliederung* erscheinen.
-
-- \- *"Meta-Aussagen"* folgender Art sind (im Abstract und auch andernorts) zu vermeiden: "Es wird das Design begründet", "Es werden die Hypothesen vorgestellt" etc. Viel besser ist es, die Inhalte dieser Aussagen anzugeben, etwa "Die zentrale Hypothese lautet, dass X zu Y führt" oder "Es handelt sich um ein kontrolliertes, randomisiertes Experiment", "Im Anschluss wurden die Daten analysiert", "Die Literatur wurde anfangs gesichtet". Zugespitzt formuliert: Aussagen der Art "Diese Studie hat eine Hypothese" sind *inhaltsarm* und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa "Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC", "Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer", "Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht".
-
-- \- Die *Forschungsfrage* geht aus dem Abstract nicht (klar) genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
-
-- \- Der Abstract versäumt es, auf die *zugrundeliegende Theorie *(d.h. die Erklärung im Sinne von Ursachen und/oder Randbedingungen) der Forschungsfrage einzugehen. Forschungsfragen und/oder Hypothesen sollten aber nicht im "*luftleeren*" Raum stehen, sondern durch eine Theorie erklärt werden. Lautet zum Beispiel die Forschungsfrage "A führt zu B", so sollte eine Theorie herangezogen werden, um zu erklären, warum A zu B führt, unter welchen Umständen (Randbedingungen) A zu B führt oder vermittelt über welche Prozesse A zu B führt. Die Theorie zu detaillieren (und mit empirischen Belegen glaubhaft zu machen) ist dann Aufgabe des Theorieteils. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausführlich genug) berücksichtigt.
-
-- \- Hinweise in der Diskussion oder im Abstract der Art *"weitere Forschung ist sinnvoll"*, "das Thema sollte weiter untersucht werden" etc. sind gering informativ; es gibt kaum eine Studie, bei der sich dieser Passus nicht anböte. Daher sollte dieser Hinweis unterbleiben bzw. (besser) durch eine *Präzisierung* der nun angeratenen Forschung ersetzt werden.
-
-
-- \- Der Abstract soll *keine Gliederungsnummer* erhalten.
-
-- \- Der Abstract soll nicht in Absätze untergliedert, sondern als Fließtext innerhalb eines Absatzes gestaltet sein.
-
-- \- Die *Forschungsfrage* soll *im Abstract auftauchen*; das ist bei der vorliegenden Arbeit nicht (deutlich genug) der Fall.
+- NEG Die *Forschungsfrage* soll *im Abstract auftauchen*; das ist bei der vorliegenden Arbeit nicht (deutlich genug) der Fall.
 
 
 
@@ -423,21 +426,21 @@ ausführlich genug vorgestellt?
 `+++`
 
 
-- \+ Die Arbeit macht einen *sehr guten äußeren Eindruck*; Schriftsatz und -bild sind sehr ansprechend gestaltet.
-- \+ Die Arbeit macht insgesamt einen *guten äußeren Eindruck*; Schriftsatz und -bild sind insgesamt ansprechend gestaltet.
-- \+ Die Arbeit macht insgesamt einen *guten (aber nicht sehr guten) äußeren Eindruck*; Schriftsatz und -bild sind insgesamt ansprechend gestaltet.
-- \+ Die Gestaltung der Arbeit ist insgesamt *optisch ansprechend*.
+- POS Die Arbeit macht einen *sehr guten äußeren Eindruck*; Schriftsatz und -bild sind sehr ansprechend gestaltet.
+- POS Die Arbeit macht insgesamt einen *guten äußeren Eindruck*; Schriftsatz und -bild sind insgesamt ansprechend gestaltet.
+- POS Die Arbeit macht insgesamt einen *guten (aber nicht sehr guten) äußeren Eindruck*; Schriftsatz und -bild sind insgesamt ansprechend gestaltet.
+- POS Die Gestaltung der Arbeit ist insgesamt *optisch ansprechend*.
 
-- \+ Das mit \TeX gestaltete Schriftbild hebt sich positiv vom Standard-MS-Word-Schriftsatz ab.
+- POS Das mit \TeX gestaltete Schriftbild hebt sich positiv vom Standard-MS-Word-Schriftsatz ab.
 
 `++--`
 
 
-- \+- Die Gestaltung der Arbeit ist *weitgehend optisch ansprechend*.
-- \+- Der äußere Eindruck der Arbeit ist von *mittlerer Güte*.
-- \+- Weite Teile der Arbeit sind äußerlich ansprechend, allerdings gibt es ein paar *gestalterische Schwächen*.
+- POS-NEG Die Gestaltung der Arbeit ist *weitgehend optisch ansprechend*.
+- POS-NEG Der äußere Eindruck der Arbeit ist von *mittlerer Güte*.
+- POS-NEG Weite Teile der Arbeit sind äußerlich ansprechend, allerdings gibt es ein paar *gestalterische Schwächen*.
 
-- \- Die Arbeit macht insgesamt *keinen* ansprechenden äußeren Eindruck; z. B. sind Schriftsatz und -bild nicht ansprechend (genug) gestaltet.
+- NEG Die Arbeit macht insgesamt *keinen* ansprechenden äußeren Eindruck; z. B. sind Schriftsatz und -bild nicht ansprechend (genug) gestaltet.
 
 
 
@@ -452,67 +455,67 @@ ausführlich genug vorgestellt?
 
 `+++`
 
-- \+ *Typografische Elemente* wie Kerning, Ligaturen und intelligentes Trennen wurden in hoher Qualität umgesetzt.
+- POS *Typografische Elemente* wie Kerning, Ligaturen und intelligentes Trennen wurden in hoher Qualität umgesetzt.
 
 
   
   
-- \+ Ein *Zitat* oder mehrere Zitate wurden in gewinnbringender, schmückender Form verwendet.
+- POS Ein *Zitat* oder mehrere Zitate wurden in gewinnbringender, schmückender Form verwendet.
 
 
 
 `++--`
 
 
-- \+- Hier finden sich *Hinweise*, wie der Schriftsatz (Kerning, Ligaturen, schöne Schriften, Trennung, etc.) schöner gestaltet werden kann: <http://nitens.org/taraborelli/latex>.
+- POS-NEG Hier finden sich *Hinweise*, wie der Schriftsatz (Kerning, Ligaturen, schöne Schriften, Trennung, etc.) schöner gestaltet werden kann: <http://nitens.org/taraborelli/latex>.
 
 
-- \+- Es wurde linksbündig formatierter Text ("*Flattersatz*") verwendet, was typographisch nicht unumstritten ist, aber aus Sicht dieses Gutachters typographisch nicht schlechter ist als der Schriftsatz, der durch die Silbentrennung von MS Word erzeugt wird.
+- POS-NEG Es wurde linksbündig formatierter Text ("*Flattersatz*") verwendet, was typographisch nicht unumstritten ist, aber aus Sicht dieses Gutachters typographisch nicht schlechter ist als der Schriftsatz, der durch die Silbentrennung von MS Word erzeugt wird.
 
 
 
 `---`
 
 
-- \- Das Schriftbild wirkt teilweise "*verwaschen*" oder "verlaufen" (evtl. nur im Ausdruck).
+- NEG Das Schriftbild wirkt teilweise "*verwaschen*" oder "verlaufen" (evtl. nur im Ausdruck).
 
 
 
 
 
-- \- *Unterstreichungen* als Emphasis sollten vermieden werden, da gestalterisch und ästhetisch suboptimal; Unterstreichungen sind ein Überbleibsel auf der Schreibmaschinen-Ära.
+- NEG *Unterstreichungen* als Emphasis sollten vermieden werden, da gestalterisch und ästhetisch suboptimal; Unterstreichungen sind ein Überbleibsel auf der Schreibmaschinen-Ära.
 
-- \- Gedruckter, längerer Text sollte besser in einer *Serifen*-Schriftart (z. B. Times) gesetzt sein (nicht in einer serifenlosen Schriftart wie Arial). Das wurde in der vorliegenden Arbeit nicht berücksichtigt (vgl. einschlägige Leitfäden und Literatur).
-- \- Es finden sich einige *Fehler im Textsatz* (z. B. fehlerhafte Einrückungen, fehlerhafte Trennungen, Schusterjungen, etc.).
+- NEG Gedruckter, längerer Text sollte besser in einer *Serifen*-Schriftart (z. B. Times) gesetzt sein (nicht in einer serifenlosen Schriftart wie Arial). Das wurde in der vorliegenden Arbeit nicht berücksichtigt (vgl. einschlägige Leitfäden und Literatur).
+- NEG Es finden sich einige *Fehler im Textsatz* (z. B. fehlerhafte Einrückungen, fehlerhafte Trennungen, Schusterjungen, etc.).
 
-- \- In einem wissenschaftlichen Bericht dieser Art sollte *keine R-Syntax* bzw. kein unformartierter *R-Output* aufgeführt sein.
+- NEG In einem wissenschaftlichen Bericht dieser Art sollte *keine R-Syntax* bzw. kein unformartierter *R-Output* aufgeführt sein.
 
-- \- Es wurden *Ziffern als Zahlzeichen* geschrieben ("2"), die besser (in Worten) ausgeschrieben worden wären ("zwei").
+- NEG Es wurden *Ziffern als Zahlzeichen* geschrieben ("2"), die besser (in Worten) ausgeschrieben worden wären ("zwei").
 
-- \- *Fettdruck* gilt zur Hervorhebung bzw. Betonung einzelner Passagen in Fließtexten als wenig geeignet, da zu dominant im Textfluss.
+- NEG *Fettdruck* gilt zur Hervorhebung bzw. Betonung einzelner Passagen in Fließtexten als wenig geeignet, da zu dominant im Textfluss.
 
-- \- Es finden sich einige *Inkonsistenzen im Textsatz* (z. B. einige Male wurde vor Gleichheitszeichen Leerzeichen gesetzt; in anderen Fällen nicht).
-- \- Innerhalb *feststehender Ausdrücke* wie "p = .04" oder "42 %"  *sollten Zeilenumbrüche vermieden* werden; die Leerzeichen in solchen Ausdrücken sollten als "geschützte Leerzeichen" formatiert sein. Dieser Punkt wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
+- NEG Es finden sich einige *Inkonsistenzen im Textsatz* (z. B. einige Male wurde vor Gleichheitszeichen Leerzeichen gesetzt; in anderen Fällen nicht).
+- NEG Innerhalb *feststehender Ausdrücke* wie "p = .04" oder "42 %"  *sollten Zeilenumbrüche vermieden* werden; die Leerzeichen in solchen Ausdrücken sollten als "geschützte Leerzeichen" formatiert sein. Dieser Punkt wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
 
-- \- Es wurde an einer oder mehreren Stellen ein *typografisch falsches Apostroph-Zeichen* verwendet. Das korrekterweise zu setzende Apostroph-Zeichen "'" wird häufig mit einem der Betonungszeichen Akut (´) oder Gravis (`) verwechselt -– beide eingebbar über die Taste "´". Wenn sich die Zeichen auch optisch ähneln mögen, sind sie doch nicht gleich in ihrer Bedeutung. 
-
-
-
-- \- Zwischen *Abkürzungen* wie *"d. h."*, "S. 42" oder "z. B." ist ein *Leerzeichen* zu setzen; das gleiche gilt für *Prozentzahlen*: z. B. 95 %. Diese Formatierung entspricht der Rechtschreibung laut Duden und DIN 5008. Idealerweise ist es ein sog. \*geschütztes Leerzeichen\* zu verwenden (so dass Trennung zwischen den Bestandteilen vermieden wird). Besser noch sollte es sich um ein "kurzes" bzw. schmales (geschütztes) Leerzeichen handeln (in der Typografie spricht man in dem Fall von einem Achtel-Geviert). Dieser Punkt wurde in der vorliegenden Arbeit nicht komplett berücksichtigt; allerdings handelt es sich um ein Detail.
+- NEG Es wurde an einer oder mehreren Stellen ein *typografisch falsches Apostroph-Zeichen* verwendet. Das korrekterweise zu setzende Apostroph-Zeichen "'" wird häufig mit einem der Betonungszeichen Akut (´) oder Gravis (`) verwechselt -– beide eingebbar über die Taste "´". Wenn sich die Zeichen auch optisch ähneln mögen, sind sie doch nicht gleich in ihrer Bedeutung. 
 
 
 
+- NEG Zwischen *Abkürzungen* wie *"d. h."*, "S. 42" oder "z. B." ist ein *Leerzeichen* zu setzen; das gleiche gilt für *Prozentzahlen*: z. B. 95 %. Diese Formatierung entspricht der Rechtschreibung laut Duden und DIN 5008. Idealerweise ist es ein sog. \*geschütztes Leerzeichen\* zu verwenden (so dass Trennung zwischen den Bestandteilen vermieden wird). Besser noch sollte es sich um ein "kurzes" bzw. schmales (geschütztes) Leerzeichen handeln (in der Typografie spricht man in dem Fall von einem Achtel-Geviert). Dieser Punkt wurde in der vorliegenden Arbeit nicht komplett berücksichtigt; allerdings handelt es sich um ein Detail.
 
 
-- \- Im Allgemeinen sollten *Zahlen kleiner als zehn in Ziffern* ausgedrückt werden laut APA/DGPs (z. B. 7, 8, 9); Zahlen größer als 10 in Ziffern. Es gibt einige Ausnahmen von dieser Regel (s. Richtlinien der APA/DGPs); eine davon lautet, dass Sätze nicht mit Ziffern zu beginnen sind. Diese Regel wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
-- \- *Fußnoten* sind ohne Leerzeichen an das letzte Wort zu setzen; sie sind vor dem Punkt, der das Satzende markiert, zu setzen. Dieser Punkt wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
 
-- \- Es finden sich überflüssige *Leerseiten* im Dokument (u. U. nur im Ausdruck).
 
-- \- Nach der  *hintersten* Ziffer in der Nummerierung einer Überschrift* sollte kein Punkt gesetzt werden (falsch: "2.2.2. Theorie X"; richtig: "2.2.2 Theorie X").
+- NEG Im Allgemeinen sollten *Zahlen kleiner als zehn in Ziffern* ausgedrückt werden laut APA/DGPs (z. B. 7, 8, 9); Zahlen größer als 10 in Ziffern. Es gibt einige Ausnahmen von dieser Regel (s. Richtlinien der APA/DGPs); eine davon lautet, dass Sätze nicht mit Ziffern zu beginnen sind. Diese Regel wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
-- \- Es finden sich "*komische*" Zeichen (Glyphen) im Schriftsatz (Z. B. "QualitÃ¤"t), die vermutlich auf *Enkodierungsfehler* zurückzuführen sind. Textdokumente müssen mit der richtigen Enkodierung (z. B. UTF8 oder Latin1) geladen werden und sollten mit der Enkodierung UTF8 gespeichert werden.
+- NEG *Fußnoten* sind ohne Leerzeichen an das letzte Wort zu setzen; sie sind vor dem Punkt, der das Satzende markiert, zu setzen. Dieser Punkt wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
+
+- NEG Es finden sich überflüssige *Leerseiten* im Dokument (u. U. nur im Ausdruck).
+
+- NEG Nach der  *hintersten* Ziffer in der Nummerierung einer Überschrift* sollte kein Punkt gesetzt werden (falsch: "2.2.2. Theorie X"; richtig: "2.2.2 Theorie X").
+
+- NEG Es finden sich "*komische*" Zeichen (Glyphen) im Schriftsatz (Z. B. "QualitÃ¤"t), die vermutlich auf *Enkodierungsfehler* zurückzuführen sind. Textdokumente müssen mit der richtigen Enkodierung (z. B. UTF8 oder Latin1) geladen werden und sollten mit der Enkodierung UTF8 gespeichert werden.
 
 
 
@@ -526,13 +529,13 @@ ausführlich genug vorgestellt?
 `+++`
 
 
-- \+ Die Seiten sind *zweiseitig* gestaltet, was dem Lesefluss zuträglich ist.
+- POS Die Seiten sind *zweiseitig* gestaltet, was dem Lesefluss zuträglich ist.
 
-- \+ Die *optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile* oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge etwa bei diesem Wert, ist also gut gewählt.
+- POS Die *optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile* oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge etwa bei diesem Wert, ist also gut gewählt.
 
-- \+ Die *Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben)* ist meist passend (zu groß oder zu klein). 
+- POS Die *Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben)* ist meist passend (zu groß oder zu klein). 
 
-- \- Die *Seitenränder sind nicht zu klein (also passend) gewählt*. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen hingegen sind weniger gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
+- NEG Die *Seitenränder sind nicht zu klein (also passend) gewählt*. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen hingegen sind weniger gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
 
 
 
@@ -541,19 +544,19 @@ ausführlich genug vorgestellt?
 
 `---`
 
-- \- Die *optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile* oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge deutlich darüber. 
-- \- Die *Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben)* ist teilweise unpassend (zu groß oder zu klein). 
-- \- Die *Seitenränder sind zu klein gewählt*; d. h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen sind nicht gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
+- NEG Die *optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile* oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge deutlich darüber. 
+- NEG Die *Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben)* ist teilweise unpassend (zu groß oder zu klein). 
+- NEG Die *Seitenränder sind zu klein gewählt*; d. h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen sind nicht gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
 
-- \- *Neue Kapitel beginnen auf einer neuen Seite* und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt.
+- NEG *Neue Kapitel beginnen auf einer neuen Seite* und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt.
 
-- \- Der Hinweis *"Seite" vor der Angabe der Seitenzahl* birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.
+- NEG Der Hinweis *"Seite" vor der Angabe der Seitenzahl* birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.
 
-- \- Auf der *Titelseite* soll *keine Seitenzahl* ausgewiesen werden.
+- NEG Auf der *Titelseite* soll *keine Seitenzahl* ausgewiesen werden.
 
-- \- Der *Hauptteil* einer Arbeit soll mit *arabischen*, nicht römischen, *Ziffern* ausgewiesen werden.
+- NEG Der *Hauptteil* einer Arbeit soll mit *arabischen*, nicht römischen, *Ziffern* ausgewiesen werden.
 
-- \- Die Seiten sind *nicht zwei- bzw. doppelseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen und sollten daher bevorzugt weren.
+- NEG Die Seiten sind *nicht zwei- bzw. doppelseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen und sollten daher bevorzugt weren.
 
 
 
@@ -570,24 +573,24 @@ ausführlich genug vorgestellt?
 ### Kursivsatz vs. Anführungszeichen {#kursivsatzanfuehr}
 `+++`
 
-- \+ Kursivdruck wurde korrekt (im Sinne der Vorgaben der APA) eingesetzt.
+- POS Kursivdruck wurde korrekt (im Sinne der Vorgaben der APA) eingesetzt.
 
 
 `---`
 
 
 
-- \- *Kursivdruck* ist für die *erstmalige Verwendung neuer Fach- bzw. Schlüsselbegriffe* zu verwenden, nicht aber (doppelte) Anführungszeichen (vgl. APA, 2009, S. 104). Beispiel: "Die Bedingung *negative Verstärkung* wird operationalisiert, indem XXX".
+- NEG *Kursivdruck* ist für die *erstmalige Verwendung neuer Fach- bzw. Schlüsselbegriffe* zu verwenden, nicht aber (doppelte) Anführungszeichen (vgl. APA, 2009, S. 104). Beispiel: "Die Bedingung *negative Verstärkung* wird operationalisiert, indem XXX".
 
-- \- Für die Einführung neuer Begriffe ist der Begriff kursiv zu setzen (beim ersten Auftreten des Begriffes im Text), aber nicht in Anführungsstriche zu setzen. Dieser Punkt wurde in der vorliegenden Arbeit nicht (durchgängig) berücksichtigt.
+- NEG Für die Einführung neuer Begriffe ist der Begriff kursiv zu setzen (beim ersten Auftreten des Begriffes im Text), aber nicht in Anführungsstriche zu setzen. Dieser Punkt wurde in der vorliegenden Arbeit nicht (durchgängig) berücksichtigt.
 
-- \- *Fachbegriffe* oder Eigennamen, die neu im Text eingeführt werden, sind beim *ersten* Anführen *kursiv* zu setzen, aber nicht in Anführungsstriche zu setzen. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
+- NEG *Fachbegriffe* oder Eigennamen, die neu im Text eingeführt werden, sind beim *ersten* Anführen *kursiv* zu setzen, aber nicht in Anführungsstriche zu setzen. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
-- \- Erwähnt man den Namen eines Messinstruments, etwa *Mindfulness Attention and Awareness Scale*, so sollte der Name beim ersten Anführen kursiv gesetzt sein.
+- NEG Erwähnt man den Namen eines Messinstruments, etwa *Mindfulness Attention and Awareness Scale*, so sollte der Name beim ersten Anführen kursiv gesetzt sein, aber nicht "angeführt" werden.
 
-- \- *Antwortoptionen* einer *psychometrischen Skala sollen kursiv gesetzt* sein, etwa: "Die Items waren mittels einer vierstufigen Likertskala zu beantworten mit den Stufen von 1 (*stimme überhaupt nicht zu*) bis 4 (*stimme voll und ganz zu*).
+- NEG *Antwortoptionen* einer *psychometrischen Skala sollen kursiv gesetzt* sein, etwa: "Die Items waren mittels einer vierstufigen Likertskala zu beantworten mit den Stufen von 1 (*stimme überhaupt nicht zu*) bis 4 (*stimme voll und ganz zu*).
 
-- \- *Statistische Symbole* wie $n = 200$ oder $SD = 1.23$ sollten *kursiv* gesetzt sein; für griechische Buchstaben gilt dies nicht. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
+- NEG *Statistische Symbole* wie $n = 200$ oder $SD = 1.23$ sollten *kursiv* gesetzt sein; für griechische Buchstaben gilt dies nicht. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
 
 
@@ -602,18 +605,18 @@ ausführlich genug vorgestellt?
 
 `+++`
 
-- \+ Die *Silbentrennung* wurde in *sinnvoller Weise* verwendet, um "Löcher" im Textsatz zu reduzieren.
+- POS Die *Silbentrennung* wurde in *sinnvoller Weise* verwendet, um "Löcher" im Textsatz zu reduzieren.
 
 
 `---`
 
 
 
-- \- Um ein schöneres Schriftbild mit besserem Abstand zwischen den Wörtern zu erreichen, empfiehlt es sich, stets eine Silbentrennung zu verwenden. Dieser Punkt wurde in der vorliegenden Arbeit *nicht berücksichtigt*.
+- NEG Um ein schöneres Schriftbild mit besserem Abstand zwischen den Wörtern zu erreichen, empfiehlt es sich, stets eine Silbentrennung zu verwenden. Dieser Punkt wurde in der vorliegenden Arbeit *nicht berücksichtigt*.
 
-- \- Der Blocksatz weist *unschöne "Löcher"* auf (evtl. wg. fehlender Silbentrennung).
+- NEG Der Blocksatz weist *unschöne "Löcher"* auf (evtl. wg. fehlender Silbentrennung).
 
-- \- Auch beim linksbündigem Text ("*Flattersatz*") sollte die *Silbentrennung* eingeschaltet sein, um die Zeilenenden nicht zu unruhig werden zu lassen, was in der vorliegenden Arbeit versäumt wurde.  In der vorliegenden Arbeit wirkt der linksbündige formatierte Text daher "flattrig" (aufgrund fehlender Silbentrennung).
+- NEG Auch beim linksbündigem Text ("*Flattersatz*") sollte die *Silbentrennung* eingeschaltet sein, um die Zeilenenden nicht zu unruhig werden zu lassen, was in der vorliegenden Arbeit versäumt wurde.  In der vorliegenden Arbeit wirkt der linksbündige formatierte Text daher "flattrig" (aufgrund fehlender Silbentrennung).
 
 
 
@@ -623,44 +626,44 @@ ausführlich genug vorgestellt?
 
 `+++`
 
-- \+ Ein *Absatzwechsel* wurde typographisch sinnvoll kenntlich gemacht.
+- POS Ein *Absatzwechsel* wurde typographisch sinnvoll kenntlich gemacht.
 
 
 `000` 
 
 
-- \+- Nicht alle Absatzwechsel wurden typographisch sinnvoll kenntlich gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
+- POS-NEG Nicht alle Absatzwechsel wurden typographisch sinnvoll kenntlich gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
 
 
 `---`
 
 
-- \- *Absatzwechsel* wurden *nicht (durchgängig) typographisch sinnvoll kenntlich* gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
+- NEG *Absatzwechsel* wurden *nicht (durchgängig) typographisch sinnvoll kenntlich* gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
 
-- \- *Absatzwechsel* wurden *nicht immer kenntlich* gemacht.
+- NEG *Absatzwechsel* wurden *nicht immer kenntlich* gemacht.
 
-- \- Nach einer *Überschrift* sollte *weniger vertikaler Abstand* gelassen werden als vor einer Überschrift. Der Grund dafür ist, dass vor der Überschrift ein Sinnabschnitt endet und daher vergleichsweise viel Platz angezeigt ist. Nach der Überschrift wird der in der Überschrift angekündigte Inhalte aufgeführt; die inhaltliche Nähe von Überschrift zu Ausführung sollte durch vergleichsweise wenig vertikalem Abstand kenntlich gemacht werden. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+- NEG Nach einer *Überschrift* sollte *weniger vertikaler Abstand* gelassen werden als vor einer Überschrift. Der Grund dafür ist, dass vor der Überschrift ein Sinnabschnitt endet und daher vergleichsweise viel Platz angezeigt ist. Nach der Überschrift wird der in der Überschrift angekündigte Inhalte aufgeführt; die inhaltliche Nähe von Überschrift zu Ausführung sollte durch vergleichsweise wenig vertikalem Abstand kenntlich gemacht werden. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
-- \- Der *erste Absatz eines Kapitels* sollte nicht eingerückt sein, da es nicht nötig bzw. nicht sinnvoll ist, einen Absatzwechsel anzuzeigen. Dies wurde in der vorliegenden Arbeit nicht berücksichtigt. Allerdings handelt es sich hierbei eher um eine typografische Feinheit, der keine große Bewertungsrelevanz zukommt. 
-
-
-
-- \- Ein *Abschnitt* (z. B. "2.1") sollte nicht kürzer sein als eine *halbe Seite*.
-
-- \- Es bieten sich *zwei Formate* um, um Absätze optisch im Textfluss voneinander zu trennen: Durch vertikalen Abstand oder durch Einrücken der ersten Zeile des Folgeabsatzes. Beide Methoden sind gleich legitim. Hat man sich aber für eine Methode entschieden, so ist sie konsequent einzuhalten. Nicht sinnvoll ist, Absätze ohne einer der beiden gerade genannten Methoden zu trennen. Ebenso sollten nicht beide Methoden gleichzeitig verwendet werden (Leerraum plus Einrücken). Diese Aspekte finden in der vorliegenden Arbeit *nicht ausreichend Berücksichtigung*.
+- NEG Der *erste Absatz eines Kapitels* sollte nicht eingerückt sein, da es nicht nötig bzw. nicht sinnvoll ist, einen Absatzwechsel anzuzeigen. Dies wurde in der vorliegenden Arbeit nicht berücksichtigt. Allerdings handelt es sich hierbei eher um eine typografische Feinheit, der keine große Bewertungsrelevanz zukommt. 
 
 
 
-- \- Verwendet man *vertikalen* Leerraum zur Trennung von Absätzen, so sollte man den Abstand *nicht zu groß* (und nicht zu klein) setzen; eine halbe (zusätzliche) Leerzeile ist ein vertretbares Maß. Das Ziel sollte sein, einen Absatz kenntlich zu machen mit so wenig Zusatzabstand wie möglich. Allerdings muss der Abstand größer sein als eine normale Leerzeile (sonst würde kein Absatzwechsel kenntlich sein). In der vorliegenden Arbeit ist der vertikale Abstand nicht durchgehend passend (d. h. zu groß oder zu klein).
+- NEG Ein *Abschnitt* (z. B. "2.1") sollte nicht kürzer sein als eine *halbe Seite*.
 
-- \- Der *erste Absatz nach einer Überschrift* ist *nicht einzurücken* (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). 
-
-
-
-- \- Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch *Absatzlängen*.
+- NEG Es bieten sich *zwei Formate* um, um Absätze optisch im Textfluss voneinander zu trennen: Durch vertikalen Abstand oder durch Einrücken der ersten Zeile des Folgeabsatzes. Beide Methoden sind gleich legitim. Hat man sich aber für eine Methode entschieden, so ist sie konsequent einzuhalten. Nicht sinnvoll ist, Absätze ohne einer der beiden gerade genannten Methoden zu trennen. Ebenso sollten nicht beide Methoden gleichzeitig verwendet werden (Leerraum plus Einrücken). Diese Aspekte finden in der vorliegenden Arbeit *nicht ausreichend Berücksichtigung*.
 
 
-- \- *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+- NEG Verwendet man *vertikalen* Leerraum zur Trennung von Absätzen, so sollte man den Abstand *nicht zu groß* (und nicht zu klein) setzen; eine halbe (zusätzliche) Leerzeile ist ein vertretbares Maß. Das Ziel sollte sein, einen Absatz kenntlich zu machen mit so wenig Zusatzabstand wie möglich. Allerdings muss der Abstand größer sein als eine normale Leerzeile (sonst würde kein Absatzwechsel kenntlich sein). In der vorliegenden Arbeit ist der vertikale Abstand nicht durchgehend passend (d. h. zu groß oder zu klein).
+
+- NEG Der *erste Absatz nach einer Überschrift* ist *nicht einzurücken* (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). 
+
+
+
+- NEG Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch *Absatzlängen*.
+
+
+- NEG *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
 
 
@@ -668,22 +671,22 @@ ausführlich genug vorgestellt?
 
 `+++`
 
-- \+ Die Arbeit verwendet vergleichsweise *kurze Zeilen* im Sinne von wenig Buchstaben/Zeichen pro Zeile. Das erhöht die Lesbarkeit des Textes in sinnvoller Weise.
+- POS Die Arbeit verwendet vergleichsweise *kurze Zeilen* im Sinne von wenig Buchstaben/Zeichen pro Zeile. Das erhöht die Lesbarkeit des Textes in sinnvoller Weise.
 
 `---`
 
 
 
-- \- *Seitenzahlen fehlen*; das erschwert die Orientierung bzw. den Überblick zu behalten.
+- NEG *Seitenzahlen fehlen*; das erschwert die Orientierung bzw. den Überblick zu behalten.
 
 
 
 ### Klammersetzung und Auslassungszeichen
 
-- \- Zu Beginn oder zum Ende eines Zitats sind keine *Auslassungszeichen* zu setzen (und auch nicht in Klammern).
-- \- Möchte man *innerhalb eines Zitats* eine Auslassung markieren, so verwendet man Auslassungszeichen (...). Diese sind laut APA/DGPs *ohne eckige oder runde Klammern* zu setzen.
-- \- *Runde Klammern* sind laut APA primär für Einschübe im Text zu verwenden.
-- \- *Eckige Klammern* sind laut APA primär für Konfidenzintervalle zu verwenden. Außerdem können Sie für Erklärungen innerhalb eines Zitats verwendet werden. Schließlich können eckige Klammern verwendet werden, um schon mit Runden Klammern eingefasste Stellen zu kennzeichnen (Ausnahme: Statistiken, die Klammern enthalten, werden nicht durch weitere Klammern eingefasst).
+- NEG Zu Beginn oder zum Ende eines Zitats sind keine *Auslassungszeichen* zu setzen (und auch nicht in Klammern).
+- NEG Möchte man *innerhalb eines Zitats* eine Auslassung markieren, so verwendet man Auslassungszeichen (...). Diese sind laut APA/DGPs *ohne eckige oder runde Klammern* zu setzen.
+- NEG *Runde Klammern* sind laut APA primär für Einschübe im Text zu verwenden.
+- NEG *Eckige Klammern* sind laut APA primär für Konfidenzintervalle zu verwenden. Außerdem können Sie für Erklärungen innerhalb eines Zitats verwendet werden. Schließlich können eckige Klammern verwendet werden, um schon mit Runden Klammern eingefasste Stellen zu kennzeichnen (Ausnahme: Statistiken, die Klammern enthalten, werden nicht durch weitere Klammern eingefasst).
 
 
 
@@ -696,42 +699,42 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- \+ Der *Umfang* der Arbeit (an Text) ist *genau passend*.
-- \+ Der Umfang der Arbeit (an Text) ist *hoch.*
-- \+ Der Umfang (an Text) der Arbeit ist *vergleichsweise hoch*.
+- POS Der *Umfang* der Arbeit (an Text) ist *genau passend*.
+- POS Der Umfang der Arbeit (an Text) ist *hoch.*
+- POS Der Umfang (an Text) der Arbeit ist *vergleichsweise hoch*.
 
-- \+ Der Umfang der Arbeit (z. B. Seitenanzahl) ist *angemessen.*
+- POS Der Umfang der Arbeit (z. B. Seitenanzahl) ist *angemessen.*
 
-- \+- Der Umfang der Arbeit (z. B. Seitenanzahl) ist (gerade noch) angemessen.
+- POS-NEG Der Umfang der Arbeit (z. B. Seitenanzahl) ist (gerade noch) angemessen.
 
 
 `---`
 
 
-- \- Der Umfang der Arbeit ist insgesamt (zu) *kurz.*
-- \- Der Umfang der Arbeit ist insgesamt (zu) *lang.*
-- \- Der Gutachter (Professor Sauer) hat einen Seitenumfang von ca. 12000 Wörtern gefordert. Weiter unten gibt er an, dass Arbeiten, die kürzer als 20% des geforderten Umfangs betragen, *als "nicht bestanden"* bewertet werden (können). 
-- \- Die vorliegende Arbeit umfasst ca. 10000 Wörter; 10/12 entspricht ca. 83%. Damit liegt die Arbeit *knapp über der Länge*, die zum Bestehen in den formalen Vorgaben angegeben wird. Details finden sich auf der Hinweis-Seite des Gutachters: https://campus.bildungscentrum.de/nfcampus/Course.do?action=read&n=5220&m=854502.
-- \- Die *Wortzahl* der Arbeit ist *nicht oder nicht an geeigneter Stelle* dokumentiert.
+- NEG Der Umfang der Arbeit ist insgesamt (zu) *kurz.*
+- NEG Der Umfang der Arbeit ist insgesamt (zu) *lang.*
+- NEG Der Gutachter (Professor Sauer) hat einen Seitenumfang von ca. 12000 Wörtern gefordert. Weiter unten gibt er an, dass Arbeiten, die kürzer als 20% des geforderten Umfangs betragen, *als "nicht bestanden"* bewertet werden (können). 
+- NEG Die vorliegende Arbeit umfasst ca. 10000 Wörter; 10/12 entspricht ca. 83%. Damit liegt die Arbeit *knapp über der Länge*, die zum Bestehen in den formalen Vorgaben angegeben wird. Details finden sich auf der Hinweis-Seite des Gutachters: https://campus.bildungscentrum.de/nfcampus/Course.do?action=read&n=5220&m=854502.
+- NEG Die *Wortzahl* der Arbeit ist *nicht oder nicht an geeigneter Stelle* dokumentiert.
 
 
 ## Ethik (xxethik) {#ethik}
 
 `+++`
 
-- \+ Ethische Aspekte in Bezug auf die Datenerhebung wurden *diskutiert und angemessen umgesetzt*.
+- POS Ethische Aspekte in Bezug auf die Datenerhebung wurden *diskutiert und angemessen umgesetzt*.
 
 
 `++--`
 
-- \+- Einige *ethische Aspekte* in Bezug auf die Datenerhebung wurden angesprochen, aber dieser Abschnitt *hätte von einer genaueren Erörterung profitiert* (Beispiel: Anstelle von "Auf Anonymität wird hingewiesen" sollte angesprochen auf welche Art und Weise die Anonymität -- zumal bei einem persönlichen Interview -- sichergestellt wird; es könnte auf die Rechte der Teilnehmer wie Rücktrittsrecht hingewiesen werden.)
+- POS-NEG Einige *ethische Aspekte* in Bezug auf die Datenerhebung wurden angesprochen, aber dieser Abschnitt *hätte von einer genaueren Erörterung profitiert* (Beispiel: Anstelle von "Auf Anonymität wird hingewiesen" sollte angesprochen auf welche Art und Weise die Anonymität -- zumal bei einem persönlichen Interview -- sichergestellt wird; es könnte auf die Rechte der Teilnehmer wie Rücktrittsrecht hingewiesen werden.)
 
 
 `---`
 
 
-- \- Ethische Aspekte in Bezug auf die Datenerhebung (wie Anonymität und Rechte der Versuchsperson) wurden *nicht (ausreichend)* oder nicht an der richtigen Stelle im Text diskutiert und/oder nicht angemessen umgesetzt.
-- \- So wurde zwar in sinnvoller Weise auf Anonymität der Untersuchung eingegangen, allerdings fehlen weitere Hinweise wie Aufklärung der Versuchspersonen über Ziele und über etwaige Risiken und Nebenwirkungen der Teilnahme. Außerdem wären weitere Hinweise zum Datenschutz sinnvoll gewesen, fehlen aber.
+- NEG Ethische Aspekte in Bezug auf die Datenerhebung (wie Anonymität und Rechte der Versuchsperson) wurden *nicht (ausreichend)* oder nicht an der richtigen Stelle im Text diskutiert und/oder nicht angemessen umgesetzt.
+- NEG So wurde zwar in sinnvoller Weise auf Anonymität der Untersuchung eingegangen, allerdings fehlen weitere Hinweise wie Aufklärung der Versuchspersonen über Ziele und über etwaige Risiken und Nebenwirkungen der Teilnahme. Außerdem wären weitere Hinweise zum Datenschutz sinnvoll gewesen, fehlen aber.
 
 
 
@@ -747,27 +750,27 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `+++`
 
 
-- \+ Die Rechtschreibung, die Interpunktion und der Satzbau sind tadellos.
-- \+ Die Rechtschreibung, die Interpunktion und der Satzbau weisen wenig Fehler auf.
-- \+ Die Rechtschreibung, die Interpunktion und der Satzbau sind fast fehlerfrei.
-- \+ Die Orthografie ist weitgehend fehlerfrei.
+- POS Die Rechtschreibung, die Interpunktion und der Satzbau sind tadellos.
+- POS Die Rechtschreibung, die Interpunktion und der Satzbau weisen wenig Fehler auf.
+- POS Die Rechtschreibung, die Interpunktion und der Satzbau sind fast fehlerfrei.
+- POS Die Orthografie ist weitgehend fehlerfrei.
 
 
-- \+ Es finden sich nur wenig Rechtschreibfehler.
+- POS Es finden sich nur wenig Rechtschreibfehler.
 
-- \+ Orthografie und Interpunktion sind weitgehend fehlerfrei.
-- \+ Orthografie und Interpunktion sind insgesamt in Ordnung.
+- POS Orthografie und Interpunktion sind weitgehend fehlerfrei.
+- POS Orthografie und Interpunktion sind insgesamt in Ordnung.
 
 `---`
 
 
-- \- Einige Fehler in Orthografie und/oder Interpunktion sind vorhanden.
-- \- Eine substanzielle Zahl an Fehlern in Orthografie und/oder Interpunktion ist vorhanden.
-- \- Einige Fehler in der Rechtschreibung, vor allem in der Interpunktion, sind vorhanden.
-- \- Einige Fehler in der Interpunktion sind vorhanden.
-- \- Deutliche Fehler in der Interpunktion sind vorhanden.
+- NEG Einige Fehler in Orthografie und/oder Interpunktion sind vorhanden.
+- NEG Eine substanzielle Zahl an Fehlern in Orthografie und/oder Interpunktion ist vorhanden.
+- NEG Einige Fehler in der Rechtschreibung, vor allem in der Interpunktion, sind vorhanden.
+- NEG Einige Fehler in der Interpunktion sind vorhanden.
+- NEG Deutliche Fehler in der Interpunktion sind vorhanden.
 
-- \- Die Grammatik bzw. der Satzbau weist deutliche Fehler auf.
+- NEG Die Grammatik bzw. der Satzbau weist deutliche Fehler auf.
 
 
 ### Rechtschreibung/Grammatik -- Kommentare {#rechtkommentare}
@@ -775,39 +778,39 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- \+ Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde zumeist (oder immer) korrekt erkannt.
+- POS Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde zumeist (oder immer) korrekt erkannt.
 
 
 `---`
 
 
-- \- Der Satzbau (Grammatik) ist teilweise *elliptisch*; es finden sich Sätze ohne Verben.
-- \- Der *Plural* im Deutschen (und im Englischen) wird ohne *Apostroph* am S gebildet.
-- \- Der *Genitiv* wird im Deutschen ohne *Apostroph* gebildet (nicht "Cohen's d", sondern "Cohens d", nicht "Spearman's Korrelationstest", sondern "Spearmans Test").
-- \- *Fremdsprachige Wörter* oder Neologismen sollten nicht in Anführungsstriche gesetzt werden, sondern *kursiv* gedruckt werden (nicht: "predictive modeling", sondern \*predictive modeling\*).
-- \- Ganze Sätze sollten immer mit einem Punkt beendet werden; das gilt auch für Aufzählungen.
-- \- Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde nicht (immer) korrekt erkannt.
+- NEG Der Satzbau (Grammatik) ist teilweise *elliptisch*; es finden sich Sätze ohne Verben.
+- NEG Der *Plural* im Deutschen (und im Englischen) wird ohne *Apostroph* am S gebildet.
+- NEG Der *Genitiv* wird im Deutschen ohne *Apostroph* gebildet (nicht "Cohen's d", sondern "Cohens d", nicht "Spearman's Korrelationstest", sondern "Spearmans Test").
+- NEG *Fremdsprachige Wörter* oder Neologismen sollten nicht in Anführungsstriche gesetzt werden, sondern *kursiv* gedruckt werden (nicht: "predictive modeling", sondern \*predictive modeling\*).
+- NEG Ganze Sätze sollten immer mit einem Punkt beendet werden; das gilt auch für Aufzählungen.
+- NEG Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde nicht (immer) korrekt erkannt.
 
-- \- Im *Titel der Arbeit* fällt auf, dass die unterschiedliche Bedeutung von *Bindestrich* (- kurz) und  *Gedankenstrich*(-- lang)  nicht (immer) korrekt erkannt wurde.
+- NEG Im *Titel der Arbeit* fällt auf, dass die unterschiedliche Bedeutung von *Bindestrich* (- kurz) und  *Gedankenstrich*(-- lang)  nicht (immer) korrekt erkannt wurde.
 
 
-- \- Kein *Komma* vor "sowie" kommt, wenn "sowie" anstelle von "und" verwendet wird. 
-- \- Verwendet man den *Schrägstrich* um (zusammengehörige) Wörter zu gruppieren (z.B. CSU/CDU, Männer und/oder Frauen,  Wintersemester 2016/2017), so sollte zwischen den Wörter kein Leerzeichen gelassen werden (Duden D 156). Auf keinen Fall sollte nur an einer Seite des Schrägstrichs ein Leerzeichen gelassen werden (falsch ist also: "CSU/CDU" oder "CSU /CDU").
-- \- Formuliert man eine Frage, so muss diese mit einem Fragezeichen abschließen.
+- NEG Kein *Komma* vor "sowie" kommt, wenn "sowie" anstelle von "und" verwendet wird. 
+- NEG Verwendet man den *Schrägstrich* um (zusammengehörige) Wörter zu gruppieren (z.B. CSU/CDU, Männer und/oder Frauen,  Wintersemester 2016/2017), so sollte zwischen den Wörter kein Leerzeichen gelassen werden (Duden D 156). Auf keinen Fall sollte nur an einer Seite des Schrägstrichs ein Leerzeichen gelassen werden (falsch ist also: "CSU/CDU" oder "CSU /CDU").
+- NEG Formuliert man eine Frage, so muss diese mit einem Fragezeichen abschließen.
 
 
 ### Hinweise zu Komposita
 
-+ \+  *Komposita*  (zusammengesetzte Nomen) wurden korrekt geschrieben, nämlich gekoppelt d.h. entweder mit Bindestrich oder in einem Wort (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
++ POS  *Komposita*  (zusammengesetzte Nomen) wurden korrekt geschrieben, nämlich gekoppelt d.h. entweder mit Bindestrich oder in einem Wort (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
 
 
 
 `---`
 
 
-- \- *Komposita*  (zusammengesetzte Nomen) werden im Deutschen zusammen- oder mit Bindestrich geschrieben (gekoppelt) -- aber nicht in einzeln Wörter aufgetrennt, was in der vorliegenden Arbeit nicht durchgehend beachtet wurde (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
+- NEG *Komposita*  (zusammengesetzte Nomen) werden im Deutschen zusammen- oder mit Bindestrich geschrieben (gekoppelt) -- aber nicht in einzeln Wörter aufgetrennt, was in der vorliegenden Arbeit nicht durchgehend beachtet wurde (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
 
-- \- *Koppelt* man Komposita  (zusammengesetzte Nomen) mit *Bindestrich*, so ist vor oder nach dem Bindestrich *kein Leerzeichen* zu setzen (richtig: "R-Syntax", falsch: "R - Syntax").
+- NEG *Koppelt* man Komposita  (zusammengesetzte Nomen) mit *Bindestrich*, so ist vor oder nach dem Bindestrich *kein Leerzeichen* zu setzen (richtig: "R-Syntax", falsch: "R - Syntax").
 
 
 
@@ -816,8 +819,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `---`
 
 
-- \- Wörter aus dem *Englischen* werden den *Rechtschreiberegeln des Deutschen* unterworfen. Besteht der Ausdruck aus zwei Substantiven, so wird zusammengeschrieben oder gekoppelt (d. h. mit Bindestrich geschrieben) also z. B. "Shoppingcenter" oder "Shopping-Center" ist korrekt, aber nicht "shopping center". Ist das erste Wort ein Adjektiv, so kann auch auseinander geschrieben werden, aber die Großschreibung ist auf jeden Fall zu verwenden: "Hot Spot", "Top Ten", "High Fidelity". Bei Verbindungen von Verb und Partikeln sind Zusammen- oder Bindestrichschreibweise möglich: "Hang-over" (nicht: "Hang over") oder "Blackout". Wird ein englisches Wort oder eine Wortgruppe mit deutschen Wörtern gekoppelt, so ist der Bindestrich zu verwenden: "Multiple-Choice-Aufgabe", "Add-on-Indikator".
-- \- Die Rechtschreiberegeln von aus dem Englischen entlehnten Wörtern können z. B. hier nachgelesen werden: <https://www.duden.de/sprachwissen/sprachratgeber/Schreibung-von-Fremdwortern-aus-dem-Englischen>.
+- NEG Wörter aus dem *Englischen* werden den *Rechtschreiberegeln des Deutschen* unterworfen. Besteht der Ausdruck aus zwei Substantiven, so wird zusammengeschrieben oder gekoppelt (d. h. mit Bindestrich geschrieben) also z. B. "Shoppingcenter" oder "Shopping-Center" ist korrekt, aber nicht "shopping center". Ist das erste Wort ein Adjektiv, so kann auch auseinander geschrieben werden, aber die Großschreibung ist auf jeden Fall zu verwenden: "Hot Spot", "Top Ten", "High Fidelity". Bei Verbindungen von Verb und Partikeln sind Zusammen- oder Bindestrichschreibweise möglich: "Hang-over" (nicht: "Hang over") oder "Blackout". Wird ein englisches Wort oder eine Wortgruppe mit deutschen Wörtern gekoppelt, so ist der Bindestrich zu verwenden: "Multiple-Choice-Aufgabe", "Add-on-Indikator".
+- NEG Die Rechtschreiberegeln von aus dem Englischen entlehnten Wörtern können z. B. hier nachgelesen werden: <https://www.duden.de/sprachwissen/sprachratgeber/Schreibung-von-Fremdwortern-aus-dem-Englischen>.
 
 
 ### Rechtschreibung -- Empfehlungen
@@ -838,23 +841,23 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 #### Zitierweise im Text - Beurteilung
 
-- \+ Die Zitationsweise im Text ist in hohem Maße *konsistent* und fehlerfrei.
-- \+ Die Zitationsweise im Text ist *insgesamt* konsistent und fehlerfrei.
-- \+ Die Zitationsweise im Text ist *konsistent und fehlerfrei*.
+- POS Die Zitationsweise im Text ist in hohem Maße *konsistent* und fehlerfrei.
+- POS Die Zitationsweise im Text ist *insgesamt* konsistent und fehlerfrei.
+- POS Die Zitationsweise im Text ist *konsistent und fehlerfrei*.
 
-- \+ Die Zitationsweise im Text ist ist *fast immer konsistent und fehlerfrei*. *Gleiches* gilt für das Literaturverzeichnis.
-- \+ Die Zitationsweise im Text ist insgesamt *gut.* *Gleiches* gilt für das Literaturverzeichnis.
+- POS Die Zitationsweise im Text ist ist *fast immer konsistent und fehlerfrei*. *Gleiches* gilt für das Literaturverzeichnis.
+- POS Die Zitationsweise im Text ist insgesamt *gut.* *Gleiches* gilt für das Literaturverzeichnis.
 
 
-- \+- Die Zitationsweise im Text ist *befriedigend* bis gut.
+- POS-NEG Die Zitationsweise im Text ist *befriedigend* bis gut.
 
 `---`
 
 
-- \- Die Zitationsweise im Text weist *einige Fehler* auf.
-- \- Es findet sich eine *substanzielle Zahl an Fehlern* in den Zitationen im Text.
-- \- An einigen Textstellen *fehlen* die Zitationen.
-- \- Die Zitationsweise im Text weist eine *große Zahl an Fehlern* auf bzw. ist insgesamt von großen Mängeln gekennzeichnet.
+- NEG Die Zitationsweise im Text weist *einige Fehler* auf.
+- NEG Es findet sich eine *substanzielle Zahl an Fehlern* in den Zitationen im Text.
+- NEG An einigen Textstellen *fehlen* die Zitationen.
+- NEG Die Zitationsweise im Text weist eine *große Zahl an Fehlern* auf bzw. ist insgesamt von großen Mängeln gekennzeichnet.
 
 
 
@@ -868,40 +871,40 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-- \+ Die APA empfiehlt, bei Zitaten von Büchern eine *Seitenzahl* anzugeben; das ist eine sinnvolle Praxis, auch wenn sie von vielen Autoren nicht berücksichtigt wird. Dies wurde in der vorliegenden Arbeit umgesetzt.
-- \+ Laut APA sind Quellen mit *3-5 Autoren ab dem zweiten Zitieren* in der Form "Erstautor et al. (Jahr)" zu zitieren. Diese Regel wurde in der vorliegenden Arbeit beachtet, was auf eine hohe Durchdringung der formalen Regeln des Zitierens hindeutet.
+- POS Die APA empfiehlt, bei Zitaten von Büchern eine *Seitenzahl* anzugeben; das ist eine sinnvolle Praxis, auch wenn sie von vielen Autoren nicht berücksichtigt wird. Dies wurde in der vorliegenden Arbeit umgesetzt.
+- POS Laut APA sind Quellen mit *3-5 Autoren ab dem zweiten Zitieren* in der Form "Erstautor et al. (Jahr)" zu zitieren. Diese Regel wurde in der vorliegenden Arbeit beachtet, was auf eine hohe Durchdringung der formalen Regeln des Zitierens hindeutet.
 
 `---`
 
 
-- \- Der Zitationsstil der APA sieht vor, dass *Zitationen im Text vor dem Punkt*, der das Satzende markiert, eingefügt werden: "Eile mit Weile (Weiss-Ois, 2017)". Falsch ist: "Eile mit Weile. Weiss-Ois (2017)" oder "Eile mit Weile. (Weiss-Ois, 2017)".
+- NEG Der Zitationsstil der APA sieht vor, dass *Zitationen im Text vor dem Punkt*, der das Satzende markiert, eingefügt werden: "Eile mit Weile (Weiss-Ois, 2017)". Falsch ist: "Eile mit Weile. Weiss-Ois (2017)" oder "Eile mit Weile. (Weiss-Ois, 2017)".
 
-- \- *Direkte* Zitate müssen (laut APA) mit *Seitenzahlen* versehen sein; dass wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
-- \- *Auslassungen zu Beginn* eines direkten Zitats brauchen (sollen) nicht durch explizite Auslassungszeichen markiert werden.
-- \- Es finden sich einige oder mehrere Zitationsfehler der Art "(Bond, J., 2007)". Nach den anzuwendenden Zitierregeln sind keine Vornamen bzw. deren Anfangsbuchstaben bzw. Initialen anzuführen. Gewöhnlich liegt dieser Fehler darin begründet, dass in der *Literaturdatenbank mehrere Varianten des Autorennamens* vorhanden sind (z. B. "Bond, J.", "Bond, James" und "Bond, James J."). In diesem Fall versucht die Literatursoftware diese verschiedenen Namen im Text kenntlich zu machen (zu disambiguieren). Das wäre korrekt, wenn es sich tatsächlich um verschiedene Autoren handelte; dies ist aber vermutlich nicht der Fall in der vorliegenden Arbeit. Es handelt sich stattdessen um inkorrektes Einpflegen der Autorennamen in die Literaturdatenbank.
-- \- *Akademische Titel sind nicht in Zitationen* (oder überhaupt) im Text anzuführen. Diese Regel wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt. Man schreibe besser nicht : "Prof. Dr. Feistersack bewies mit seiner Interview-Studie blablabla"; auch nicht "Bla bla bla (Prof. Dr. Feistersack, 2018)". Diese Regel gilt auch für das Literaturverzeichnis.
-- \- Das Zitieren elektronischer Quellen kann z. B. hier überblickt werden: <https://owl.english.purdue.edu/owl/resource/560/10/>.
-- \- Diese Zitationsweise ist falsch: "Schon Bandura (Bandura, 2012) blablabla"; richtig wäre: "Schon Bandura (2012) blablabla". Dieser Fehler findet sich in der vorliegenden Arbeit.
-- \- Zitiert man zwei Arbeiten, so ist diese Zitationsweise (laut APA) falsch: "Eile mit Weile (Weiss, 2017) (Ois, 2015)"; richtig ist: "Eile mit Weile (Weis, 2017; Ois, 2015)". Diese Regel wurde in der vorliegenden Arbeit nicht durchgehend berücksichtigt.
-- \- Es finden sich *schwere Zitationsfehler*: In mehrfacher Weise wurden Textstelle direkt zitiert, aber nur als indirektes Zitat - und damit als eigener Wortlaut - ausgegeben. Die Unschuldsvermutung wird hier angewandt; ein Plagiatsvorwurf wird in diesem Fall nicht erhoben.
-- \- Die Arbeit macht übermäßigen Gebrauch von *direkten Zitaten*, so dass die Eigenständigkeit der Leistung dadurch gemindert erscheint bzw. in Zweifel zu ziehen ist.
-- \- Angelehnt an die Vorgaben der APA sind Abbildungen in folgendem Format zu zitieren: *Eigene Darstellung angelehnt an "Titel des Artikels", von A. Autor und B.C. Autor, Jahr, Name der Zeitschrift, Ausgabe, Seite. Copyright Jahr American Psychologisch Association.*
-- \- Laut APA ist diese Art des Zitierens falsch "Sauer & Lustig (2018) schreiben blablabla"; richtig wäre "Sauer und Lustig (2018) schreiben blablabla". Hingegen wäre es korrekt zu schreiben "Die Antwort lautet 42 (Sauer & Lustig, 2018)". Im Text ist bei einer Zitation also nicht das "*Ampersand*" (&-Zeichen) zu verwenden, sondern das ausgeschriebene Wort "und". In der Klammer einer Zitation verhält es sich umgekehrt. In der vorliegenden Arbeit wird dies nicht (durchgängig) korrekt umgesetzt.
+- NEG *Direkte* Zitate müssen (laut APA) mit *Seitenzahlen* versehen sein; dass wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
+- NEG *Auslassungen zu Beginn* eines direkten Zitats brauchen (sollen) nicht durch explizite Auslassungszeichen markiert werden.
+- NEG Es finden sich einige oder mehrere Zitationsfehler der Art "(Bond, J., 2007)". Nach den anzuwendenden Zitierregeln sind keine Vornamen bzw. deren Anfangsbuchstaben bzw. Initialen anzuführen. Gewöhnlich liegt dieser Fehler darin begründet, dass in der *Literaturdatenbank mehrere Varianten des Autorennamens* vorhanden sind (z. B. "Bond, J.", "Bond, James" und "Bond, James J."). In diesem Fall versucht die Literatursoftware diese verschiedenen Namen im Text kenntlich zu machen (zu disambiguieren). Das wäre korrekt, wenn es sich tatsächlich um verschiedene Autoren handelte; dies ist aber vermutlich nicht der Fall in der vorliegenden Arbeit. Es handelt sich stattdessen um inkorrektes Einpflegen der Autorennamen in die Literaturdatenbank.
+- NEG *Akademische Titel sind nicht in Zitationen* (oder überhaupt) im Text anzuführen. Diese Regel wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt. Man schreibe besser nicht : "Prof. Dr. Feistersack bewies mit seiner Interview-Studie blablabla"; auch nicht "Bla bla bla (Prof. Dr. Feistersack, 2018)". Diese Regel gilt auch für das Literaturverzeichnis.
+- NEG Das Zitieren elektronischer Quellen kann z. B. hier überblickt werden: <https://owl.english.purdue.edu/owl/resource/560/10/>.
+- NEG Diese Zitationsweise ist falsch: "Schon Bandura (Bandura, 2012) blablabla"; richtig wäre: "Schon Bandura (2012) blablabla". Dieser Fehler findet sich in der vorliegenden Arbeit.
+- NEG Zitiert man zwei Arbeiten, so ist diese Zitationsweise (laut APA) falsch: "Eile mit Weile (Weiss, 2017) (Ois, 2015)"; richtig ist: "Eile mit Weile (Weis, 2017; Ois, 2015)". Diese Regel wurde in der vorliegenden Arbeit nicht durchgehend berücksichtigt.
+- NEG Es finden sich *schwere Zitationsfehler*: In mehrfacher Weise wurden Textstelle direkt zitiert, aber nur als indirektes Zitat - und damit als eigener Wortlaut - ausgegeben. Die Unschuldsvermutung wird hier angewandt; ein Plagiatsvorwurf wird in diesem Fall nicht erhoben.
+- NEG Die Arbeit macht übermäßigen Gebrauch von *direkten Zitaten*, so dass die Eigenständigkeit der Leistung dadurch gemindert erscheint bzw. in Zweifel zu ziehen ist.
+- NEG Angelehnt an die Vorgaben der APA sind Abbildungen in folgendem Format zu zitieren: *Eigene Darstellung angelehnt an "Titel des Artikels", von A. Autor und B.C. Autor, Jahr, Name der Zeitschrift, Ausgabe, Seite. Copyright Jahr American Psychologisch Association.*
+- NEG Laut APA ist diese Art des Zitierens falsch "Sauer & Lustig (2018) schreiben blablabla"; richtig wäre "Sauer und Lustig (2018) schreiben blablabla". Hingegen wäre es korrekt zu schreiben "Die Antwort lautet 42 (Sauer & Lustig, 2018)". Im Text ist bei einer Zitation also nicht das "*Ampersand*" (&-Zeichen) zu verwenden, sondern das ausgeschriebene Wort "und". In der Klammer einer Zitation verhält es sich umgekehrt. In der vorliegenden Arbeit wird dies nicht (durchgängig) korrekt umgesetzt.
 
-- \- Initialen oder Vornamen sind i. A. nicht zu zitieren laut APA/DGPs; falsch: "Wie H. Durven (2009) schreibt...", richtig: "Wie Durven (2009) schreibt...". Eine Ausnahme von dieser Regel ist, wenn ohne das Initial mehrere Autoren für die Zitation in Frage kämen (z. B. Heiner Durven und Heidi Durven).
+- NEG Initialen oder Vornamen sind i. A. nicht zu zitieren laut APA/DGPs; falsch: "Wie H. Durven (2009) schreibt...", richtig: "Wie Durven (2009) schreibt...". Eine Ausnahme von dieser Regel ist, wenn ohne das Initial mehrere Autoren für die Zitation in Frage kämen (z. B. Heiner Durven und Heidi Durven).
 
 
-- \- Es werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt); Zitationen im Text und im Literaturverzeichnis sind *nicht 1:1 zugeordnet*.
+- NEG Es werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt); Zitationen im Text und im Literaturverzeichnis sind *nicht 1:1 zugeordnet*.
 
-- \- *Auslassungszeichen* ("...") zu *Beginn* eines Zitates sind laut APA nur dann nötig, wenn das Weglassen den Sinn des Zitats entstellen würde. Im Allgemeinen kann hier auf Auslassungszeichen verzichtet werden. 
+- NEG *Auslassungszeichen* ("...") zu *Beginn* eines Zitates sind laut APA nur dann nötig, wenn das Weglassen den Sinn des Zitats entstellen würde. Im Allgemeinen kann hier auf Auslassungszeichen verzichtet werden. 
 
-- \- Am *Ende* eines Zitates kann laut APA auf *Auslassungszeichen* ("...") verzichtet werden; man muss nicht kenntlich machen, dass der Satz im Original noch weitergehen, sofern keine Sinnentstellung zu befürchten ist.
+- NEG Am *Ende* eines Zitates kann laut APA auf *Auslassungszeichen* ("...") verzichtet werden; man muss nicht kenntlich machen, dass der Satz im Original noch weitergehen, sofern keine Sinnentstellung zu befürchten ist.
 
-- \- Ein einmal gewähltes Zitationsschema wird *nicht konsistent* eingehalten, was aber sinnvoll gewesen wäre.
+- NEG Ein einmal gewähltes Zitationsschema wird *nicht konsistent* eingehalten, was aber sinnvoll gewesen wäre.
 
-- \- Die APA sieht vor, den *Zusatz "vgl."* bei Zitationen nicht oder nur sehr sparsam zu verwenden. Die vorliegende Arbeit verwendet diesen Zusatz über die Gebühr.
+- NEG Die APA sieht vor, den *Zusatz "vgl."* bei Zitationen nicht oder nur sehr sparsam zu verwenden. Die vorliegende Arbeit verwendet diesen Zusatz über die Gebühr.
 
-- \- *Blockzitate* sind erst *ab einer Länge von 40 Wörtern* vorgesehen. In der vorliegenden Arbeit finden sich Blockzitate schon bei kürzeren Passagen.
+- NEG *Blockzitate* sind erst *ab einer Länge von 40 Wörtern* vorgesehen. In der vorliegenden Arbeit finden sich Blockzitate schon bei kürzeren Passagen.
 
 
 
@@ -917,23 +920,25 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- \+ Das Literaturverzeichnis enthält *kaum/keine Fehler*.
-- \+ Das Literaturverzeichnis ist formal als *gut bis sehr gut* zu bewerten.
-- \+ Das Literaturverzeichnis enthält *wenig* Fehler.
-- \+ Das Literaturverzeichnis enthält *wenig* Zitationsfehler.
+- POS Das Literaturverzeichnis enthält *kaum/keine Fehler*.
+- POS Das Literaturverzeichnis ist formal als *gut bis sehr gut* zu bewerten.
+- POS Das Literaturverzeichnis enthält *wenig* Fehler.
+- POS Das Literaturverzeichnis enthält *wenig* Zitationsfehler.
 
-- \+ Das Literaturverzeichnis ist formal als *gut* zu bewerten.
-- \+ Das Literaturverzeichnis ist formal als *befriedigend bis gut* zu bewerten.
+- POS Das Literaturverzeichnis ist formal als *gut* zu bewerten.
+- POS Das Literaturverzeichnis ist formal als *befriedigend bis gut* zu bewerten.
 
 `---`
 
 
-- \- Es finden sich *einige Fehler* im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Namen des Verlags).
-- \- Es finden sich eine *substanzielle* Zahl an Fehlern im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Ort des Verlags).
+- NEG Es finden sich *einige Fehler* im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Namen des Verlags).
+- NEG Es finden sich eine *substanzielle* Zahl an Fehlern im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Ort des Verlags).
 
 
-- \- Das Literaturverzeichnis enthält eine *große Zahl* oder einen *großen Anteil* an Fehlern.
-- \- *Jede oder fast jede Quelle* im Literaturverzeichnis ist falsch zitiert. Das ist als gravierender Mangel der vorliegenden Arbeit zu sehen.
+- NEG Das Literaturverzeichnis enthält eine *große Zahl* oder einen *großen Anteil* an Fehlern.
+- NEG *Jede oder fast jede Quelle* im Literaturverzeichnis ist falsch zitiert. Das ist als gravierender Mangel der vorliegenden Arbeit zu sehen.
+
+- NEG Das Literaturverzeichnis ist *nicht konsistent* aufgebaut; verschiedenen Stile oder Varianten wurden gemischt. Solches - unzulässiges - Mischen könnte etwa bedeuten, dass Namen von Zeitschriften teilweise abgekürzt und teilweise ausgeschrieben wurden oder das insgesamt in einigen Zitationen die Vorgaben der APA V7 befolgt, aber in anderen Zitationen nach einem anderen Zitationsstil formatiert wurde.
 
 
 
@@ -942,29 +947,29 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `000`
 
 
-- \+- Im Moment ist die *7. Auflage der APA aktuell*. Der Gutachter lässt aktuell sowohl die 6. und 7. Auflage des APA-Handbuchs als gleichwertige Richtlinien zu. Allerdings sollte sich für eine der beiden Varianten entschieden werden bzw. nicht die beiden Varianten gemischt werden.
+- POS-NEG Im Moment ist die *7. Auflage der APA aktuell*. Der Gutachter lässt aktuell sowohl die 6. und 7. Auflage des APA-Handbuchs als gleichwertige Richtlinien zu. Allerdings sollte sich für eine der beiden Varianten entschieden werden bzw. nicht die beiden Varianten gemischt werden.
 
 
 
 `---`
 
-- \- Im Literaturverzeichnis sind *genau die zitierten Literaturstellen anzuführen (nicht mehr, nicht weniger)*. Es sollen keine nicht-zitierten Werke im Literaturverzeichnis erscheinen; es sollen keine zitierten Werke nicht im Literaturverzeichnis erscheinen. Die vorliegende Arbeit hält dies nicht ein.
+- NEG Im Literaturverzeichnis sind *genau die zitierten Literaturstellen anzuführen (nicht mehr, nicht weniger)*. Es sollen keine nicht-zitierten Werke im Literaturverzeichnis erscheinen; es sollen keine zitierten Werke nicht im Literaturverzeichnis erscheinen. Die vorliegende Arbeit hält dies nicht ein.
 
-- \- Laut APA/DPGs ist ab der zweiten Zeile einer Zitation im Literaturverzeichnis einzurücken (5-7 Leerzeichen; *"hängender Einzug"*). Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
-
-
-- \- Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Titel) zu überschreiben, aber *nicht zu nummerieren*.
+- NEG Laut APA/DPGs ist ab der zweiten Zeile einer Zitation im Literaturverzeichnis einzurücken (5-7 Leerzeichen; *"hängender Einzug"*). Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
 
 
-- \- In der vorliegenden Arbeit werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt). Das ist als schwerer formaler Fehler zu werten.
+- NEG Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Titel) zu überschreiben, aber *nicht zu nummerieren*.
 
-- \- Es ist nur *ein einziges* Literaturverzeichnis anzugeben, *nicht mehrere*, etwa für Print- und elektronische Medien getrennt.
 
-- \- Die *Formatierung* des Literaturverzeichnisses entspricht nicht in allen Punkten der Vorgaben oder ist *nicht in allen Punkten sinnvoll* gewählt (z.B. Einzug oder ersten Zeile, Blocksatz, Abstände etc.).
+- NEG In der vorliegenden Arbeit werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt). Das ist als schwerer formaler Fehler zu werten.
 
-- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile)
+- NEG Es ist nur *ein einziges* Literaturverzeichnis anzugeben, *nicht mehrere*, etwa für Print- und elektronische Medien getrennt.
 
-- \- Laut APA/DGPs sind Einträge im Literaturverzeichnis nicht zu nummerieren oder mit Aufzählungszeichen zu versehen.
+- NEG Die *Formatierung* des Literaturverzeichnisses entspricht nicht in allen Punkten der Vorgaben oder ist *nicht in allen Punkten sinnvoll* gewählt (z.B. Einzug oder ersten Zeile, Blocksatz, Abstände etc.).
+
+- NEG Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile)
+
+- NEG Laut APA/DGPs sind Einträge im Literaturverzeichnis nicht zu nummerieren oder mit Aufzählungszeichen zu versehen.
 
 
 
@@ -975,11 +980,11 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- \+ *DOIs* wurden berichtet, was nicht nur den Vorgaben der APA entspricht, sondern eine hilfreiche Ergänzung zur Identifikation von Literatur darstellt.
+- POS *DOIs* wurden berichtet, was nicht nur den Vorgaben der APA entspricht, sondern eine hilfreiche Ergänzung zur Identifikation von Literatur darstellt.
 
-- \+ Schön ist, dass *URLs* im Literaturverzeichnis am Zeilenende *getrennt/umgebrochen* wurden, um hässliche Lücken im Textsatz zu vermeiden. Häufig wird das vernachlässigt.
+- POS Schön ist, dass *URLs* im Literaturverzeichnis am Zeilenende *getrennt/umgebrochen* wurden, um hässliche Lücken im Textsatz zu vermeiden. Häufig wird das vernachlässigt.
 
-- \+ Es ist positiv anzumerken, dass *Verlagsnamen* in der von der APA (6. Auflage) vorgeschlagenen Form berichtet wurden (nämlich "Heidelberg: Springer." anstelle von z.B. "Berlin, Heidelberg: Springer Medien Verlag."). Allerdings ist die 6. Auflage mittlerweile veraltet.
+- POS Es ist positiv anzumerken, dass *Verlagsnamen* in der von der APA (6. Auflage) vorgeschlagenen Form berichtet wurden (nämlich "Heidelberg: Springer." anstelle von z.B. "Berlin, Heidelberg: Springer Medien Verlag."). Allerdings ist die 6. Auflage mittlerweile veraltet.
 
 
 
@@ -992,50 +997,50 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `---`
 
-- \- Laut APA/DGPs ist  ein *Verlag* im Literaturverzeichnis nur kurz als z. B. "Thieme" oder "Hogrefe" aufzuführen, nicht aber als z. B. "Karl F. Haug Verlag" etc.
+- NEG Laut APA/DGPs ist  ein *Verlag* im Literaturverzeichnis nur kurz als z. B. "Thieme" oder "Hogrefe" aufzuführen, nicht aber als z. B. "Karl F. Haug Verlag" etc.
 
 
 
-- \- *DOIs* wurden nicht (durchgehend) berichtet, sind aber eine sinnvolle Ergänzung in Zitationen.
+- NEG *DOIs* wurden nicht (durchgehend) berichtet, sind aber eine sinnvolle Ergänzung in Zitationen.
 
-- \- Auch bei Werken von Google Books ist Autor, Verlag etc. im Literaturverzeichnis aufzuführen.
-- \- *NN-Zitierungen* (ohne Angabe des Autors) sollten vermieden werden.
-- \- *Internetquellen* sollten - wie jede Quelle - mit Namen des Autors und dem Erscheinungsjahr zitiert werden.
-- \- *Online-Fachzeitschriften* sind *nicht* als *Internetquelle*, sondern als Fachzeitschrift zu führen, da sie alle Vorgaben einer Fachzeitschrift erfüllen und letztere die stärkere Quellenart darstellt.
-- \- Im *Literaturverzeichnis* finden sich *nicht zitierte Quellen*, was als deutlicher formaler Fehler zu werten ist.  
-- \- *Akademische Grade sind nicht anzuführen* (dies gilt auch für das Literaturverzeichnis).
-- \- Es ist nach APA nur ein Literaturverzeichnis für alle Arten von Quellen zu erstellen, nicht mehrere Verzeichnisse. Dies wurde in der vorliegenden Arbeit nicht beachtet.
-- \- *Typische Fehler in Literaturverzeichnissen* beinhalten das Auslassen der Seitenzahl, falsche Groß- und Kleinschreibung, falsche Darstellung von Kapiteln in Herausgeberwerken oder falsche Formatierung des Verlagnamens; ein Teil dieser Fehler findet sich in der vorliegenden Arbeit wieder.
-
-
-
-
-- \- Laut den Richtlinien zur Manuskriptgestaltung der DGPs (2016) wird die *"Heftnummer nur dann,* wenn die Paginierung jedes Heftes mit der Seitenzahl Eins beginnt, unmittelbar nach der Bandangabe in Klammern (im Literaturverzeichnis() hinzugefügt" (S. 116).
-
-- \- Bei der Zitation von Kapiteln aus Herausgeberwerken im Literaturverzeichnis sind die *Editoren* zu benennen; das wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
+- NEG Auch bei Werken von Google Books ist Autor, Verlag etc. im Literaturverzeichnis aufzuführen.
+- NEG *NN-Zitierungen* (ohne Angabe des Autors) sollten vermieden werden.
+- NEG *Internetquellen* sollten - wie jede Quelle - mit Namen des Autors und dem Erscheinungsjahr zitiert werden.
+- NEG *Online-Fachzeitschriften* sind *nicht* als *Internetquelle*, sondern als Fachzeitschrift zu führen, da sie alle Vorgaben einer Fachzeitschrift erfüllen und letztere die stärkere Quellenart darstellt.
+- NEG Im *Literaturverzeichnis* finden sich *nicht zitierte Quellen*, was als deutlicher formaler Fehler zu werten ist.  
+- NEG *Akademische Grade sind nicht anzuführen* (dies gilt auch für das Literaturverzeichnis).
+- NEG Es ist nach APA nur ein Literaturverzeichnis für alle Arten von Quellen zu erstellen, nicht mehrere Verzeichnisse. Dies wurde in der vorliegenden Arbeit nicht beachtet.
+- NEG *Typische Fehler in Literaturverzeichnissen* beinhalten das Auslassen der Seitenzahl, falsche Groß- und Kleinschreibung, falsche Darstellung von Kapiteln in Herausgeberwerken oder falsche Formatierung des Verlagnamens; ein Teil dieser Fehler findet sich in der vorliegenden Arbeit wieder.
 
 
 
-- \-  Laut APA/DGPs (6. Auflage) ist im Literaturverzeichnis bei der Zitation eines Buches nur *ein Ort* (der zuerst genannte im Quellmaterial) anzugeben, nicht mehrere, also z. B. "Heidelberg: Springer". Laut der. 7. Auflage des APA-Handbuchs ist der Verlagsort wegzulassen.
+
+- NEG Laut den Richtlinien zur Manuskriptgestaltung der DGPs (2016) wird die *"Heftnummer nur dann,* wenn die Paginierung jedes Heftes mit der Seitenzahl Eins beginnt, unmittelbar nach der Bandangabe in Klammern (im Literaturverzeichnis() hinzugefügt" (S. 116).
+
+- NEG Bei der Zitation von Kapiteln aus Herausgeberwerken im Literaturverzeichnis sind die *Editoren* zu benennen; das wurde in der vorliegenden Arbeit nicht (durchgehend) berücksichtigt.
 
 
 
-- \- Laut APA/DGPs sind *Seitenzahlen* im Literaturverzeichnis bei Monografien nicht anzugeben; bei *Buchkapiteln* aus Herausgeberwerken, bei Zeitschriftenartikeln oder Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
-
-- \- Laut APA/DGPs ist im Literaturverzeichnis die *Abkürzung "S." für Seite* (bzw. "p") nicht bei Fachartikeln anzugeben; bei Buchkapiteln aus Herausgeberwerken oder bei Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
-
-- \- Laut APA (6./7. Auflage) ist das *Abrufdatum einer Online-Quelle* nicht zu nennen. Gerade bei einem nachprüfbaren Publikation wie einem Fachartikel spielt das Abrufdatum keine Rolle (genauso wenig wie das Ausleihdatum eines gedruckten Buches aus einer Bücherei von Relevanz ist).
-
-- \- Laut APA (6./7. Auflage) sind in der Zitation im *Literatverzeichnis* beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
+- NEG  Laut APA/DGPs (6. Auflage) ist im Literaturverzeichnis bei der Zitation eines Buches nur *ein Ort* (der zuerst genannte im Quellmaterial) anzugeben, nicht mehrere, also z. B. "Heidelberg: Springer". Laut der. 7. Auflage des APA-Handbuchs ist der Verlagsort wegzulassen.
 
 
 
-- \- Beim Zitieren von Fachartikeln ist zwar der *Jahrgang*, aber *nicht* die Nummer der *Ausgabe* *kursiv* zu setzen laut APA.
+- NEG Laut APA/DGPs sind *Seitenzahlen* im Literaturverzeichnis bei Monografien nicht anzugeben; bei *Buchkapiteln* aus Herausgeberwerken, bei Zeitschriftenartikeln oder Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
 
-- \- Laut APA V7 ist der *Ort des Verlags* bei der Zitation eines (gedruckten) Buches *nicht* anzugeben.
+- NEG Laut APA/DGPs ist im Literaturverzeichnis die *Abkürzung "S." für Seite* (bzw. "p") nicht bei Fachartikeln anzugeben; bei Buchkapiteln aus Herausgeberwerken oder bei Zeitungsartikeln hingegen schon. Dieser Unterscheidung wird in der vorliegenden Arbeit nicht durchgehen korrekt getroffen.
+
+- NEG Laut APA (6./7. Auflage) ist das *Abrufdatum einer Online-Quelle* nicht zu nennen. Gerade bei einem nachprüfbaren Publikation wie einem Fachartikel spielt das Abrufdatum keine Rolle (genauso wenig wie das Ausleihdatum eines gedruckten Buches aus einer Bücherei von Relevanz ist).
+
+- NEG Laut APA (6./7. Auflage) sind in der Zitation im *Literatverzeichnis* beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
 
 
-- \- *Zitiert man aus einem Kapitel einer Monografie*, so ist die ganze Monografie zu zitieren. Falsch ist die Zitation des Buchkapitels als wäre es Teil eines Herausgeberwerks. 
+
+- NEG Beim Zitieren von Fachartikeln ist zwar der *Jahrgang*, aber *nicht* die Nummer der *Ausgabe* *kursiv* zu setzen laut APA.
+
+- NEG Laut APA V7 ist der *Ort des Verlags* bei der Zitation eines (gedruckten) Buches *nicht* anzugeben.
+
+
+- NEG *Zitiert man aus einem Kapitel einer Monografie*, so ist die ganze Monografie zu zitieren. Falsch ist die Zitation des Buchkapitels als wäre es Teil eines Herausgeberwerks. 
 
 
 
@@ -1046,7 +1051,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `---`
 
 
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Monografien* sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
+- NEG Beispiele für korrekte Zitationen (laut APA/DGPs) für *Monografien* sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
 
   - American Psychological Association. (2010). *\Publication manual of the American Psychological Association\* (6th ed.). Washington, DC: Author.
   
@@ -1055,20 +1060,20 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
   - Cohen, J. (1988). *\Statistical power analysis for the behaviaral sciences\* (2nd ed.). Hillsdale, NJ: Erlbaum.
   
 
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Zeitschriftenartikel* sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
+- NEG Beispiele für korrekte Zitationen (laut APA/DGPs) für *Zeitschriftenartikel* sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet): 
 
   - Gschwendner, T., Hofmann, W. & Schmitt, M. (2006). Moderatoren der Konsistenz implizit und explizit erfasster Einstellungen und Persönlichkeitsmerkmale. \*Psychologische Rundschau\*, 57, 13–33. http://dx.doi.org/10.1026/0033-3042.57.1
   
   - Keselman, H. J., Huberty, C. J., Lix, L. L., Olejnik, S., Cribbie, R. A., Donohue, B. et al. (1998). Statistical practices of educational researchers: An analysis of their ANOVA, MANOVA, and ANCOVA analyses. \*Review of Educational Research, 68\*, 350–386.
   
   
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) für *Buchkapitel* (d.h. Beiträge aus Herausgeberwerken) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
+- NEG Beispiele für korrekte Zitationen (laut APA/DGPs) für *Buchkapitel* (d.h. Beiträge aus Herausgeberwerken) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
 
   - Döbert, F. & Nunner-Winkler, G. (1984). Abwehr- und Bewältigungsprozesse in normalen und kritischen Lebenssituationen. In E. Olbrich & E. Todt (Hrsg.), \*Probleme des Jugendalters. Neuere Sichtweisen\* (S. 259–295). Berlin: Springer.
   - Bem, D. J. (2004). Writing the empirical journal article. In J. M. Darley, M  P. Zanna & H. L. Roediger III (Eds.), \*The compleat academic: A career guide. 2nd ed.\*(pp. 185–219). Washington, DC: American Psychological Association. http://dx.doi.org/10.1017/cbo9780511807862.002
   
   
-- \- Beispiele für korrekte Zitationen (laut APA/DGPs) von *elektronischen Dokumenten* (inkl. Webseiten) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
+- NEG Beispiele für korrekte Zitationen (laut APA/DGPs) von *elektronischen Dokumenten* (inkl. Webseiten) sind die Folgenden (Kursivdruck ist durch Sternchen gekennzeichnet):
   
   - Autor, A. A. & Autor B. B. (Jahr). Titel [ggf. Art des Formats, z.B. PDF-Datei]. Retrieved from https://www.someaddress.com/full/url/
   
@@ -1086,39 +1091,39 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Vorgaben zum Zitationsstil
 
-- \+ Die Zitationsvorgaben (APA/DGPs) wurden  umgesetzt, entsprechend den formalen Vorgaben.
+- POS Die Zitationsvorgaben (APA/DGPs) wurden  umgesetzt, entsprechend den formalen Vorgaben.
 
-- \- Die Zitationsvorgaben (APA/DGPs) wurden nicht vollständig umgesetzt, entgegen formaler Vorgaben.
-- \- Die Zitationsvorgaben (APA/DGPs) wurden kaum oder gar nicht umgesetzt, entgegen formaler Vorgaben.
+- NEG Die Zitationsvorgaben (APA/DGPs) wurden nicht vollständig umgesetzt, entgegen formaler Vorgaben.
+- NEG Die Zitationsvorgaben (APA/DGPs) wurden kaum oder gar nicht umgesetzt, entgegen formaler Vorgaben.
 
-- \- Seitenzahlen werden im APA-Format nur in wörtlichen Zitaten verwendet, nicht in indirekten.
-- \- Direkte Zitate sind stets mit Seitenangaben zu versehen (z. B. "S. 5"").
+- NEG Seitenzahlen werden im APA-Format nur in wörtlichen Zitaten verwendet, nicht in indirekten.
+- NEG Direkte Zitate sind stets mit Seitenangaben zu versehen (z. B. "S. 5"").
 
-- \- Das Literaturverzeichnis wurde nicht (durchgängig) nach APA formatiert, entgegen formaler Vorgaben.
+- NEG Das Literaturverzeichnis wurde nicht (durchgängig) nach APA formatiert, entgegen formaler Vorgaben.
 
 
 ### Referenzieren (xxref) {#referenzieren}
 
 `+++`
 
-- \+ Tabellen und/oder Abbildungen wurden korrekt im Text *referenziert.*
-- \+ Tabellen und/oder Abbildungen wurden korrekt *beschriftet* (z. B. die Beschriftungen einer Abbildung unterhalb der Abbildung aber die Beschriftung einer Tabelle oberhalb der Tabelle).
+- POS Tabellen und/oder Abbildungen wurden korrekt im Text *referenziert.*
+- POS Tabellen und/oder Abbildungen wurden korrekt *beschriftet* (z. B. die Beschriftungen einer Abbildung unterhalb der Abbildung aber die Beschriftung einer Tabelle oberhalb der Tabelle).
 
 
 `---`
 
 
 
-- \- Tabellen und Abbildungen müssen im Text referenziert werden ("wie in Tabelle 1 dargestellt"); dies ist in der vorliegenden Arbeit nicht (durchgehend) der Fall.
+- NEG Tabellen und Abbildungen müssen im Text referenziert werden ("wie in Tabelle 1 dargestellt"); dies ist in der vorliegenden Arbeit nicht (durchgehend) der Fall.
 
 
 
 
-- \- Abbildungen und/oder Tabellen wurden nicht oder nicht (durchgehend) korrekt *referenziert* (nach APA oder Hochschul-Richtlinien). Bitte konsultieren Sie die entsprechenden Hinweise (z. B. wie beschriftet man Tabellen, wie ist die Legende von Abbildungen zu gestalten).
+- NEG Abbildungen und/oder Tabellen wurden nicht oder nicht (durchgehend) korrekt *referenziert* (nach APA oder Hochschul-Richtlinien). Bitte konsultieren Sie die entsprechenden Hinweise (z. B. wie beschriftet man Tabellen, wie ist die Legende von Abbildungen zu gestalten).
 
-- \- Laut APA/DGPs sind Referenzen \*unter\* Abbildungen anzubringen; bei Tabellen gilt hingegen Umgekehrtes. Dort ist die Beschriftung \*oberhalb* der Tabelle anzubringen. Die vorliegende Arbeit berücksichtigt dies nicht (durchgehend).
+- NEG Laut APA/DGPs sind Referenzen \*unter\* Abbildungen anzubringen; bei Tabellen gilt hingegen Umgekehrtes. Dort ist die Beschriftung \*oberhalb* der Tabelle anzubringen. Die vorliegende Arbeit berücksichtigt dies nicht (durchgehend).
 
-- \- Laut Richtlinien der APA/DGPs ist der Titel einer Abbildung direkt nach der Nummerierung ohne Zeilenumbruch anzugeben.
+- NEG Laut Richtlinien der APA/DGPs ist der Titel einer Abbildung direkt nach der Nummerierung ohne Zeilenumbruch anzugeben.
 
 
 
@@ -1131,25 +1136,25 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Schemata/Ablauf-Diagramme
 
-- \+ Diagramme, Bilder oder Schemata wurden sinnvoll zur Auflockerung und Verdeutlichung des Textes bzw. der theoretischen Grundlagen verwendet.
+- POS Diagramme, Bilder oder Schemata wurden sinnvoll zur Auflockerung und Verdeutlichung des Textes bzw. der theoretischen Grundlagen verwendet.
 
-- \+ Es wurde ein Flussdiagramm bzw. ein Ablaufdiagramm verwendet, um den Ablauf der Datenerhebung (pro Proband) zu erläutern.
+- POS Es wurde ein Flussdiagramm bzw. ein Ablaufdiagramm verwendet, um den Ablauf der Datenerhebung (pro Proband) zu erläutern.
 
 
-- \+- Einige (wenige) Diagramme wurden zur sinnvollen Auflockerung und besserer Veranschaulichung des Textes eingesetzt. Mehr Diagramme hätten die Ausarbeitung bereichern können.
+- POS-NEG Einige (wenige) Diagramme wurden zur sinnvollen Auflockerung und besserer Veranschaulichung des Textes eingesetzt. Mehr Diagramme hätten die Ausarbeitung bereichern können.
 
 
 
 `---`
 
 
-- \- Es wurden keine oder fast keine Diagramme bzw. Schemata zur Auflockerung und Verdeutlichung des theoretischen Teils verwendet, obwohl dies zweckdienlich gewesen wäre.
+- NEG Es wurden keine oder fast keine Diagramme bzw. Schemata zur Auflockerung und Verdeutlichung des theoretischen Teils verwendet, obwohl dies zweckdienlich gewesen wäre.
 
-- \- Laut Formatvorgaben der APA ist die Beschriftung einer Abbildung unter der Abbildung anzubringen. In der vorliegenden Arbeit wurde dies nicht (durchgehend) korrekt umgesetzt.
-- \- Laut Formatvorgaben der APA ist die Beschriftung einer Abbildung in dieser Form anzubringen: "*Abbildung X*. Titel der Abbildung.", wobei "Abbildung X" kursiv zu setzen ist. In der vorliegenden Arbeit wurde dies nicht (durchgehend) korrekt umgesetzt.
-- \- Es fehlen die Quellenangaben für einige Abbildungen; wie für jedes geistiges Material gilt, dass der Autor zu zitieren ist. Übernimmt man fremde Gedanken, ohne dies zu zitieren, so ist dies heikel (aber im diesem Fall klar nicht als Plagiat zu bewerten, sondern nur als Formfehler).
+- NEG Laut Formatvorgaben der APA ist die Beschriftung einer Abbildung unter der Abbildung anzubringen. In der vorliegenden Arbeit wurde dies nicht (durchgehend) korrekt umgesetzt.
+- NEG Laut Formatvorgaben der APA ist die Beschriftung einer Abbildung in dieser Form anzubringen: "*Abbildung X*. Titel der Abbildung.", wobei "Abbildung X" kursiv zu setzen ist. In der vorliegenden Arbeit wurde dies nicht (durchgehend) korrekt umgesetzt.
+- NEG Es fehlen die Quellenangaben für einige Abbildungen; wie für jedes geistiges Material gilt, dass der Autor zu zitieren ist. Übernimmt man fremde Gedanken, ohne dies zu zitieren, so ist dies heikel (aber im diesem Fall klar nicht als Plagiat zu bewerten, sondern nur als Formfehler).
 
-- \- Abbildungen sollten sich stets durch hohe Informationsdichte auszeichnen (zumindest in Texten mit Niveau). Als Faustregel kann gelten, dass, wenn man eine Abbildung genauso gut in ein paar wenigen Worten oder Sätzen sagen, die Abbildung überflüssig oder nicht richtig genutzt ist; zumindest gilt dies für alle Dokumente mit ernsthaftem Anspruch wie wissenschaftliche Berichte. Gerade wissenschaftliche Texte sollten nicht durch *Inhaltsarmut* oder flache Argumentation hervorstechen, im Gegenteil. *Inhaltsarme Abbildungen* sind daher wenig nützlich; *Abbildungen* sollten im Gegensatz dazu den Text (die Wörter) bereichern und insofern zu vertieften Einsichten führen. "Flache" Abbildungen stiften wenig Nutzen; sie schaden einem wissenschaftlichen Bericht. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend umgesetzt worden.
+- NEG Abbildungen sollten sich stets durch hohe Informationsdichte auszeichnen (zumindest in Texten mit Niveau). Als Faustregel kann gelten, dass, wenn man eine Abbildung genauso gut in ein paar wenigen Worten oder Sätzen sagen, die Abbildung überflüssig oder nicht richtig genutzt ist; zumindest gilt dies für alle Dokumente mit ernsthaftem Anspruch wie wissenschaftliche Berichte. Gerade wissenschaftliche Texte sollten nicht durch *Inhaltsarmut* oder flache Argumentation hervorstechen, im Gegenteil. *Inhaltsarme Abbildungen* sind daher wenig nützlich; *Abbildungen* sollten im Gegensatz dazu den Text (die Wörter) bereichern und insofern zu vertieften Einsichten führen. "Flache" Abbildungen stiften wenig Nutzen; sie schaden einem wissenschaftlichen Bericht. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend umgesetzt worden.
 
 
 
@@ -1158,65 +1163,65 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Übersichtlichkeit {#postuebersichtlich}
 
-- \+ Das Poster ist übersichtlich gestaltet.
+- POS Das Poster ist übersichtlich gestaltet.
 
-- \+- Das Poster ist nicht immer übersichtlich gestaltet.
+- POS-NEG Das Poster ist nicht immer übersichtlich gestaltet.
 
-- \- Das Poster ist nicht übersichtlich gestaltet.
+- NEG Das Poster ist nicht übersichtlich gestaltet.
 
 
-- \- Bei einem Poster sollten die einzelnen Teile -- wie Einleitung oder Methoden -- optisch gut voneinander getrennt werden. Häufig erreicht man das durch Farbgebung (z. B. jeder Abschnitt wird in einer Box mit grauem Hintergrund dargestellt; zwischen den Boxen liegt Weißraum). Diese optische Abtrennung der einzelnen Teile ist in der vorliegenden Arbeit nicht gut gelungen.
-- \- Die Reihenfolge der Positionierung der Abschnitte auf dem Poster entspricht nicht dem Lesefluss. So ist z. B. die Diskussion unten rechts zu positionieren, da dies das Ende des natürlichen Leseflusses darstellt.
+- NEG Bei einem Poster sollten die einzelnen Teile -- wie Einleitung oder Methoden -- optisch gut voneinander getrennt werden. Häufig erreicht man das durch Farbgebung (z. B. jeder Abschnitt wird in einer Box mit grauem Hintergrund dargestellt; zwischen den Boxen liegt Weißraum). Diese optische Abtrennung der einzelnen Teile ist in der vorliegenden Arbeit nicht gut gelungen.
+- NEG Die Reihenfolge der Positionierung der Abschnitte auf dem Poster entspricht nicht dem Lesefluss. So ist z. B. die Diskussion unten rechts zu positionieren, da dies das Ende des natürlichen Leseflusses darstellt.
 
 ### Vollständigkeit {#postvollstaendig}
 
-- \+ Das Poster ist vollständig insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) aufgeführt sind.
-- \- Das Poster ist unvollständig insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) nicht im erforderlichen Umfang aufgeführt sind.
+- POS Das Poster ist vollständig insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) aufgeführt sind.
+- NEG Das Poster ist unvollständig insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) nicht im erforderlichen Umfang aufgeführt sind.
 
 
 ### Platznutzung
 
-- \+ Der (knappe) Platz auf dem Poster wurde sinnvoll genutzt.
-- \- Der (knappe) Platz auf dem Poster wurde nicht immer sinnvoll genutzt; z. B. wurde Platz verschenkt.
+- POS Der (knappe) Platz auf dem Poster wurde sinnvoll genutzt.
+- NEG Der (knappe) Platz auf dem Poster wurde nicht immer sinnvoll genutzt; z. B. wurde Platz verschenkt.
 
 
 <!-- ## Podcast -->
 
 <!-- ### Allgemein -->
-<!-- - \+ Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich sehr gut erstellt. -->
-<!-- - \+ Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich gut erstellt. -->
+<!-- - POS Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich sehr gut erstellt. -->
+<!-- - POS Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich gut erstellt. -->
 
-<!-- - \+- Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich befriedigend erstellt. -->
+<!-- - POS-NEG Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich befriedigend erstellt. -->
 
-<!-- - \- Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich als ausreichend zu bewerten. -->
-<!-- - \- Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich als mangelhaft zu bewerten. -->
+<!-- - NEG Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich als ausreichend zu bewerten. -->
+<!-- - NEG Insgesamt ist der Podcast formal (inkl. stilistisch), methodisch und inhaltlich als mangelhaft zu bewerten. -->
 
 
 <!-- ### Sprechweise - Bewertung -->
 
-<!-- - \+ Insgesamt ist die Sprechweise sehr klar, deutlich und wohl artikuliert. -->
-<!-- - \+ Insgesamt ist die Sprechweise insgesamt klar, deutlich und wohl artikuliert. -->
+<!-- - POS Insgesamt ist die Sprechweise sehr klar, deutlich und wohl artikuliert. -->
+<!-- - POS Insgesamt ist die Sprechweise insgesamt klar, deutlich und wohl artikuliert. -->
 
-<!-- - \+- Insgesamt ist die Sprechweise nicht immer klar, deutlich und wohl artikuliert. -->
+<!-- - POS-NEG Insgesamt ist die Sprechweise nicht immer klar, deutlich und wohl artikuliert. -->
 
-<!-- - \- Insgesamt ist die Sprechweise nicht immer klar, deutlich und wohl artikuliert. -->
+<!-- - NEG Insgesamt ist die Sprechweise nicht immer klar, deutlich und wohl artikuliert. -->
 
 
 <!-- ### Sprechweise - Kommentare -->
 
-<!-- - \- Intonation und Prosodie würden von mehr Variabilität profitieren. -->
-<!-- - \- Die Geschwindigkeit der Sprechweise hätte von mehr Variabilität profitiert. -->
-<!-- - \- Fragen sollten als Fragen intoniert werden (Stimme geht hoch zum Satzabschluss). -->
-<!-- - \- Eine Reihe von Versprechern liegt vor. -->
-<!-- - \- Einige Wörter wurden zu oft und/oder in zu kurzem Abstand wiederholt (z. B. "hierbei"). -->
+<!-- - NEG Intonation und Prosodie würden von mehr Variabilität profitieren. -->
+<!-- - NEG Die Geschwindigkeit der Sprechweise hätte von mehr Variabilität profitiert. -->
+<!-- - NEG Fragen sollten als Fragen intoniert werden (Stimme geht hoch zum Satzabschluss). -->
+<!-- - NEG Eine Reihe von Versprechern liegt vor. -->
+<!-- - NEG Einige Wörter wurden zu oft und/oder in zu kurzem Abstand wiederholt (z. B. "hierbei"). -->
 
 
 <!-- ### Tonaufnahme -->
-<!-- - \+ Insgesamt ist die akustische Qualität des Podcasts als sehr gut einzuschätzen. -->
-<!-- - \+ Insgesamt ist die akustische Qualität des Podcasts als gut einzuschätzen. -->
+<!-- - POS Insgesamt ist die akustische Qualität des Podcasts als sehr gut einzuschätzen. -->
+<!-- - POS Insgesamt ist die akustische Qualität des Podcasts als gut einzuschätzen. -->
 
-<!-- - \+- Insgesamt ist die akustische Qualität des Podcasts als befriedigend einzuschätzen. -->
-<!-- - \- Insgesamt ist die akustische Qualität des Podcasts als ausreichend einzuschätzen. -->
+<!-- - POS-NEG Insgesamt ist die akustische Qualität des Podcasts als befriedigend einzuschätzen. -->
+<!-- - NEG Insgesamt ist die akustische Qualität des Podcasts als ausreichend einzuschätzen. -->
 
 
 
@@ -1232,7 +1237,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Fazit  (xxrepfazit)
 
-- \+ Die *Reproduzierbarkeit* ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax).
+- POS Die *Reproduzierbarkeit* ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax).
 
 
 
@@ -1240,13 +1245,13 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-- \- Die Reproduzierbarkeit ist insofern *nicht sichergestellt*, als dass einer oder mehrere der folgenden Teile nicht eingereicht wurden: Daten, Syntax, Stimuli, sonstiges Material. Reproduzierbarkeit ist die Grundlage oder Bedingung von Transparenz. Transparenz ist ein oder der Grundwert der Wissenschaft.
+- NEG Die Reproduzierbarkeit ist insofern *nicht sichergestellt*, als dass einer oder mehrere der folgenden Teile nicht eingereicht wurden: Daten, Syntax, Stimuli, sonstiges Material. Reproduzierbarkeit ist die Grundlage oder Bedingung von Transparenz. Transparenz ist ein oder der Grundwert der Wissenschaft.
 
 
-- \- Die Datei mit den Materialien zur Reproduzierbarkeit *ließ sich nicht öffnen*. Damit/Insofern ist die Reproduzierbarkeit nicht gegeben. Es obliegt dem Autor, die technische Funktionstüchtigkeit sicherzustellen.
-- \- *Daten* brauchen *nicht abgedruckt* werden, da die Daten nur genutzt werden könnten, wenn man Zeit und Muse hat, diese herauszukopieren oder gar abzutippen (bei Screenshots).
+- NEG Die Datei mit den Materialien zur Reproduzierbarkeit *ließ sich nicht öffnen*. Damit/Insofern ist die Reproduzierbarkeit nicht gegeben. Es obliegt dem Autor, die technische Funktionstüchtigkeit sicherzustellen.
+- NEG *Daten* brauchen *nicht abgedruckt* werden, da die Daten nur genutzt werden könnten, wenn man Zeit und Muse hat, diese herauszukopieren oder gar abzutippen (bei Screenshots).
 
-- \- Im Exposé wurde der für Forschung zentrale *Aspekt der Reproduzierbarkeit nicht (ausführlich genug) erwähnt*. 
+- NEG Im Exposé wurde der für Forschung zentrale *Aspekt der Reproduzierbarkeit nicht (ausführlich genug) erwähnt*. 
 
 
 
@@ -1266,26 +1271,26 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `+++`
 
 
-- \+ Das Vorgehen bei der Literaturrecherche wurde gut geschildert; das unterstützt die Nachvollziehbarkeit der Ergebnisse in sinnvoller Weise.
+- POS Das Vorgehen bei der Literaturrecherche wurde gut geschildert; das unterstützt die Nachvollziehbarkeit der Ergebnisse in sinnvoller Weise.
 
 
 `---`
 
-- \- Eine *Explikation der Recherchestrategie/der Literaturrecherche* wäre sinnvoll gewesen, da so die Belastbarkeit der Quellen (und damit der Aussagen der Arbeit) besser eingeschätzt werden kann. Dies würde z. B. Suchbegriffe und Suchzeitraum umfassen sowie die Anzahl der Treffer.
+- NEG Eine *Explikation der Recherchestrategie/der Literaturrecherche* wäre sinnvoll gewesen, da so die Belastbarkeit der Quellen (und damit der Aussagen der Arbeit) besser eingeschätzt werden kann. Dies würde z. B. Suchbegriffe und Suchzeitraum umfassen sowie die Anzahl der Treffer.
 
-- \- Gerade bei theoretischen Arbeiten, wie der vorliegenden, ist es von hoher Bedeutung die *Strategie zur Recherche von Literatur* offenzulegen. Da bei einer theoretischen Arbeit die Güte der Ergebnisse primär von der Güte der Literaturrecherche abhängen, ist es für Leser essenziell die Güte bzw. die Details der Literaturrecherche zu kennen.
+- NEG Gerade bei theoretischen Arbeiten, wie der vorliegenden, ist es von hoher Bedeutung die *Strategie zur Recherche von Literatur* offenzulegen. Da bei einer theoretischen Arbeit die Güte der Ergebnisse primär von der Güte der Literaturrecherche abhängen, ist es für Leser essenziell die Güte bzw. die Details der Literaturrecherche zu kennen.
 
 
 
 ### Daten
-- \+ Die Daten der Studie wurden eingereicht, was Transparenz/Reproduzierbarkeit der Studie sinnvoll unterstützt.
+- POS Die Daten der Studie wurden eingereicht, was Transparenz/Reproduzierbarkeit der Studie sinnvoll unterstützt.
 
 
 `---`
 
 
-- \- Rohdaten wurden *nicht* eingereicht; das reduziert die Nachvollziehbarkeit und Transparenz ("Reproduzierbarkeit") der Ergebnisse, was nachteilig ist.
-- \- Die Daten wurden nicht in maschinenlesbarer Form eingereicht.
+- NEG Rohdaten wurden *nicht* eingereicht; das reduziert die Nachvollziehbarkeit und Transparenz ("Reproduzierbarkeit") der Ergebnisse, was nachteilig ist.
+- NEG Die Daten wurden nicht in maschinenlesbarer Form eingereicht.
 
 
 
@@ -1295,33 +1300,33 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- \+ Die (R-)Syntax wurde eingereicht, das unterstützt die Reproduzierbarkeit der Arbeit und stärkt insofern einen zentralen wissenschaftsethischen Anspruch an Studien.
+- POS Die (R-)Syntax wurde eingereicht, das unterstützt die Reproduzierbarkeit der Arbeit und stärkt insofern einen zentralen wissenschaftsethischen Anspruch an Studien.
 
-- \+ Die Syntax ist wohlstrukturiert (z. B. übersichtlich und kommentiert), was die Reproduzierbarkeit unterstützt. 
+- POS Die Syntax ist wohlstrukturiert (z. B. übersichtlich und kommentiert), was die Reproduzierbarkeit unterstützt. 
 
 
 `---`
 
 
-- \- Die *Syntax* zur Datenanalyse der Studie wurde *nicht* eingereicht, was Transparenz/Reproduzierbarkeit der Studie leider verringert.
-- \- Die Syntax *sollte nicht im Hauptteil* der Studie berichtet werden, sondern im Anhang (oder im Rahmen einer separaten Datei).
-- \- Die Syntax ist *wenig strukturiert *(z. B. nicht übersichtlich und/oder nicht kommentiert), was die Reproduzierbarkeit verringert. 
+- NEG Die *Syntax* zur Datenanalyse der Studie wurde *nicht* eingereicht, was Transparenz/Reproduzierbarkeit der Studie leider verringert.
+- NEG Die Syntax *sollte nicht im Hauptteil* der Studie berichtet werden, sondern im Anhang (oder im Rahmen einer separaten Datei).
+- NEG Die Syntax ist *wenig strukturiert *(z. B. nicht übersichtlich und/oder nicht kommentiert), was die Reproduzierbarkeit verringert. 
 
 
 ### Stimuli
 
 `+++`
 
-- \+ Die Stimuli bzw. Messinstrumente (z. B. Fragebogen oder Interviewleitfaden) *wurden eingereicht*, das unterstützt die Reproduzierbarkeit der Arbeit und stärkt insofern einen zentralen wissenschaftsethischen Anspruch an Studien.
-- \+ Die Syntax ist in hohem Maße *übersichtlich* und stringent aufgebaut.
+- POS Die Stimuli bzw. Messinstrumente (z. B. Fragebogen oder Interviewleitfaden) *wurden eingereicht*, das unterstützt die Reproduzierbarkeit der Arbeit und stärkt insofern einen zentralen wissenschaftsethischen Anspruch an Studien.
+- POS Die Syntax ist in hohem Maße *übersichtlich* und stringent aufgebaut.
 
 
 
 `---`
 
 
-- \- Die Stimuli (z. B. Fragebogen) der Studie wurden *nicht* eingereicht, was die Transparenz/Reproduzierbarkeit der Studie leider schmälert.
-- \+ Die *Syntax* ist in *wenig übersichtlich* und stringent aufgebaut.
+- NEG Die Stimuli (z. B. Fragebogen) der Studie wurden *nicht* eingereicht, was die Transparenz/Reproduzierbarkeit der Studie leider schmälert.
+- POS Die *Syntax* ist in *wenig übersichtlich* und stringent aufgebaut.
 
 
 
@@ -1334,19 +1339,19 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Interne Validität des Designs (xxintval) {#intvaldesign}
 
-- \+ Das Design zeichnet sich durch hohe interne Validität aus.
+- POS Das Design zeichnet sich durch hohe interne Validität aus.
 
 
 `---`
 
 
-- \- Das Design der Studie lässt *keine Kausalschlüsse* zu.
+- NEG Das Design der Studie lässt *keine Kausalschlüsse* zu.
 
-- \- Obwohl die *Forschungsfrage Kausalschlüsse* impliziert, lässt das Design keine Kausalschlüsse zu bzw. wird die *Angemessenheit des Designs* (die interne Validität) *nicht ausführlich (genug) diskutiert*.
+- NEG Obwohl die *Forschungsfrage Kausalschlüsse* impliziert, lässt das Design keine Kausalschlüsse zu bzw. wird die *Angemessenheit des Designs* (die interne Validität) *nicht ausführlich (genug) diskutiert*.
 
-- \- Das Design der Studie zeichnet sich durch *geringe* interne Validität aus.
+- NEG Das Design der Studie zeichnet sich durch *geringe* interne Validität aus.
 
-
+- (NEG) Online-Studien zeichnen sich häufig durch geringe interne Validität aus als Labor-Studien, da Störvariablen weniger gut kontrolliert werden können.
 
 
 
@@ -1358,9 +1363,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `+++`
 
 
-- \+ Der Versuchsaufbau ist geschickt und *handwerklich* *hervorragend* umgesetzt.
-- \+ Der Versuchsaufbau ist *"handwerklich" gut* gestaltet.
-- \+ Es wurde eine *Pilotstudie* durchgeführt, was zur Güte des Designs (potenziell) beiträgt.
+- POS Der Versuchsaufbau ist geschickt und *handwerklich* *hervorragend* umgesetzt.
+- POS Der Versuchsaufbau ist *"handwerklich" gut* gestaltet.
+- POS Es wurde eine *Pilotstudie* durchgeführt, was zur Güte des Designs (potenziell) beiträgt.
 
 
 
@@ -1370,16 +1375,16 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-- \+- Das Design der Studie ist von *mittlerer (befriedigender) Komplexität oder Güte*.
+- POS-NEG Das Design der Studie ist von *mittlerer (befriedigender) Komplexität oder Güte*.
 
 
 
 `---`
 
-- \- Die *methodische Raffinesse* des Versuchsplan ist eher *einfach/gering*.
-- \- Das *Versuchsdesign* zeichnet sich durch einen eher geringen Umfang oder eine *eher geringe Komplexität* aus (z. B. nur zwei Variablen in einer Zusammenhangshypothese).
-- \- Die Versuchsplanung zeugt nicht von einer hohen Einarbeitung mit dem Gegenstand.
-
+- NEG Die *methodische Raffinesse* des Versuchsplan ist eher *einfach/gering*.
+- NEG Das *Versuchsdesign* zeichnet sich durch einen eher geringen Umfang oder eine *eher geringe Komplexität* aus (z. B. nur zwei Variablen in einer Zusammenhangshypothese).
+- NEG Die Versuchsplanung zeugt nicht von einer hohen Einarbeitung mit dem Gegenstand.
+- NEG Um Effekte einer Intervention zu messen, gerade bei kleinen Stichproben, ist es zwar möglich, auf eine Messung der AV vor  der Intervention zu verzichten, aber besser ist es, vor ($t_0$) und nach ($t_1$) der Intervention die AV zu messen. Im nächsten Schritt kann man dann das Delta ($d= t_1 - t_0$) zwischen beiden Gruppen vergleicht, in der Regel mit der Hypothese, dass man einen (substanziellen) Unterschied findet. In der vorliegenden Arbeit wurde allerdings auf einen Test zu $t_0$ verzichtet.
 
 
 ### Besonderheiten qualitativer Designs {#qualidesigns}
@@ -1387,18 +1392,18 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `+++`
 
 
-- \+ Der Rückgriff auf die Methode der *Grounded Theory* zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.
+- POS Der Rückgriff auf die Methode der *Grounded Theory* zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.
 
 
 
 `---`
 
-- \- Auch in *qualitativen Untersuchungen* ist es nützlich, sich über das Studiendesign (vertiefte) Gedanken zu machen. Ein *Standardvorgehen sensu Mayring* ist zwar oft möglich (und wird von einer großen Zahl an Arbeiten eingesetzt), allerdings kann im Einzelfall mit einem überlegten, *genau auf den Einzelfall der vorliegenden Forschungsfrage abgestimmten Vorgehen* ein besseres Ergebnis erwartet werden. Solch eine Auseinandersetzung mit dem Gegenstand und der dazu abzuleitenden empirischen Methode steht der qualitativen Forschung besonders gut zu Gesichte; genau das ist der Geist und der Leitgedanke qualitativer Forschung. Ein "Vorgehen von der Stange" sticht zumindest nicht positiv hervor und lässt Potenziale der qualitativen Forschung ungenutzt.
+- NEG Auch in *qualitativen Untersuchungen* ist es nützlich, sich über das Studiendesign (vertiefte) Gedanken zu machen. Ein *Standardvorgehen sensu Mayring* ist zwar oft möglich (und wird von einer großen Zahl an Arbeiten eingesetzt), allerdings kann im Einzelfall mit einem überlegten, *genau auf den Einzelfall der vorliegenden Forschungsfrage abgestimmten Vorgehen* ein besseres Ergebnis erwartet werden. Solch eine Auseinandersetzung mit dem Gegenstand und der dazu abzuleitenden empirischen Methode steht der qualitativen Forschung besonders gut zu Gesichte; genau das ist der Geist und der Leitgedanke qualitativer Forschung. Ein "Vorgehen von der Stange" sticht zumindest nicht positiv hervor und lässt Potenziale der qualitativen Forschung ungenutzt.
 
-- \- Die qualitative Methode ist für einige Forschungsfragen bzw. Hypothesen gut für andere wiederum weniger gut geeignet. Eine Forschungsfrage bzw. Hypothese, die für qualitative Forschungsfragen weniger gut geeignet ist, lautet: "Arbeitnehmer haben eine höhere Anzahl von Krankheitstagen aufgrund von psychosomatischen Belastungsstörungen als Arbeitnehmer ohne eine psychosomatische Belastungsstörung". Eine Aussage dieser Art zielt auf eine allgemein gültige, populationsbezogene Erkenntnis ab, die mit qualitativer Methode -- zumal in Form einer kleinen Zahl von Interviews -- kaum zu erreichen ist. Im Gegensatz dazu sollten sich sich qualitative Forschungsfragen auf *"Es-gibt-Aussagen"* konzentrieren. So könnte eine qualitative Studie untersuchen, ob "Konflikt am Arbeitsplatz eine Auslöser (aus Sicht der Betroffenen) für Mobbing ist". Denn findet man z.B. im Interview entsprechende Hinweise, so kann man schlussfolgern, dass dies offenbar einer der möglichen Gründe ist. Zwar ist anzunehmen, dass es auch anderen Menschen -- also über die untersuchte Stichprobe hinaus -- so geht, aber eine generelle, quantifizierende Aussage, etwa dass es sich um den wichtigsten Punkt handele oder dass diese Ursache häufiger sei als eine andere, ist nicht abzuleiten. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend umgesetzt.
+- NEG Die qualitative Methode ist für einige Forschungsfragen bzw. Hypothesen gut für andere wiederum weniger gut geeignet. Eine Forschungsfrage bzw. Hypothese, die für qualitative Forschungsfragen weniger gut geeignet ist, lautet: "Arbeitnehmer haben eine höhere Anzahl von Krankheitstagen aufgrund von psychosomatischen Belastungsstörungen als Arbeitnehmer ohne eine psychosomatische Belastungsstörung". Eine Aussage dieser Art zielt auf eine allgemein gültige, populationsbezogene Erkenntnis ab, die mit qualitativer Methode -- zumal in Form einer kleinen Zahl von Interviews -- kaum zu erreichen ist. Im Gegensatz dazu sollten sich sich qualitative Forschungsfragen auf *"Es-gibt-Aussagen"* konzentrieren. So könnte eine qualitative Studie untersuchen, ob "Konflikt am Arbeitsplatz eine Auslöser (aus Sicht der Betroffenen) für Mobbing ist". Denn findet man z.B. im Interview entsprechende Hinweise, so kann man schlussfolgern, dass dies offenbar einer der möglichen Gründe ist. Zwar ist anzunehmen, dass es auch anderen Menschen -- also über die untersuchte Stichprobe hinaus -- so geht, aber eine generelle, quantifizierende Aussage, etwa dass es sich um den wichtigsten Punkt handele oder dass diese Ursache häufiger sei als eine andere, ist nicht abzuleiten. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend umgesetzt.
 
 
-- \- Untersucht man mittels einer qualitativen Methode etwa "*Einflussfaktoren*" oder sonstige kausal konnotierte Fragen, so sollte sich der Autor bzw. die Autorin darüber bewusst sein, dass eine solche Studie nicht direkt Tatsachen zu Tage fördert sondern *Ansichten* über Tatsachen, das die Methode per se *subjektiv*, nicht objektiv ist. Dass man sich beim Schreiben über diese Tatsache bewusst ist, und Leser darüber bewusst hält, ist zu dokumentieren, also an geeigneter Stelle im Text zu diskutieren. Auch eine entsprechende Formulierung im Titel, etwa "Subjektive Beweggründe von Personalentscheidungen" hilft, diesem Sachverhalt Rechnung zu tragen. Eine Argumentation, dass dieser Sachverhalt evident sei und daher keiner Erwähnung bedürfe, greift zu kurz, denn die Verwechslungsgefahr ist faktisch groß. Im Übrigen ist es das Wesen einer Qualifizierungsarbeit, auf wesentliche Dinge hinzuweisen, um das eigene Wissen zu demonstrieren.
+- NEG Untersucht man mittels einer qualitativen Methode etwa "*Einflussfaktoren*" oder sonstige kausal konnotierte Fragen, so sollte sich der Autor bzw. die Autorin darüber bewusst sein, dass eine solche Studie nicht direkt Tatsachen zu Tage fördert sondern *Ansichten* über Tatsachen, das die Methode per se *subjektiv*, nicht objektiv ist. Dass man sich beim Schreiben über diese Tatsache bewusst ist, und Leser darüber bewusst hält, ist zu dokumentieren, also an geeigneter Stelle im Text zu diskutieren. Auch eine entsprechende Formulierung im Titel, etwa "Subjektive Beweggründe von Personalentscheidungen" hilft, diesem Sachverhalt Rechnung zu tragen. Eine Argumentation, dass dieser Sachverhalt evident sei und daher keiner Erwähnung bedürfe, greift zu kurz, denn die Verwechslungsgefahr ist faktisch groß. Im Übrigen ist es das Wesen einer Qualifizierungsarbeit, auf wesentliche Dinge hinzuweisen, um das eigene Wissen zu demonstrieren.
 
 
 
@@ -1406,110 +1411,110 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- \+ Das *Studiendesign* bzw. der -ablauf wurde in guter Weise stringent und konzise berichtet.
-- \+ Das Studiendesign bzw. der -ablauf wurde nachvollziehbar berichtet. 
-- \+ *UV und AV* (bzw. Prädiktoren und Kriterium) wurden expliziert.
-- \+ Es wurde eine *Visualisierung*  (z. B. als "Flowchart") des Versuchsablauf dargeboten, was die Verständlichkeit erhöht.
-- \+ Der *Ablauf* des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) *geschildert.*
+- POS Das *Studiendesign* bzw. der -ablauf wurde in guter Weise stringent und konzise berichtet.
+- POS Das Studiendesign bzw. der -ablauf wurde nachvollziehbar berichtet. 
+- POS *UV und AV* (bzw. Prädiktoren und Kriterium) wurden expliziert.
+- POS Es wurde eine *Visualisierung*  (z. B. als "Flowchart" bzw. Flussdiagramm oder Ablaufdiagramm) des Versuchsablauf dargeboten, was die Verständlichkeit erhöht.
+- POS Der *Ablauf* des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) *geschildert.*
 
 `---`
 
 
-- \+- Der *Ablauf bzw. das Design* der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.
-- \+- Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.
+- POS-NEG Der *Ablauf bzw. das Design* der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.
+- POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.
 
 
 
-- \- Das Design der Studie wurde nicht oder nicht ausführlich oder nicht korrekt berichtet (z. B. ob es um ein querschnittliches Experiment handelt mit einer UV oder um eine Beobachtungsstudie).
-- \- UVs und AVs wurden nicht expliziert, bzw. Prädiktoren und Kriterium wurden nicht expliziert.
+- NEG Das Design der Studie wurde nicht oder nicht ausführlich oder nicht korrekt berichtet (z. B. ob es um ein querschnittliches Experiment handelt mit einer UV oder um eine Beobachtungsstudie).
+- NEG UVs und AVs wurden nicht expliziert, bzw. Prädiktoren und Kriterium wurden nicht expliziert.
 
 
-- \- Die Darstellung des empirischen Vorgehens (Studiendesign) weist große Lücken auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.
-- \- Der Ablauf der Studie (z. B. Intervention, Messung, Instruktionen) wurde unzureichend genau beschrieben.
-- \- Das empirisch-methodisch Vorgehen wurde zu knapp oder gar nicht beschrieben (z. B. Mit welcher R-Funktion wurde die Power durchgeführt)?
+- NEG Die Darstellung des empirischen Vorgehens (Studiendesign) weist große Lücken auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.
+- NEG Der Ablauf der Studie (z. B. Intervention, Messung, Instruktionen) wurde unzureichend genau beschrieben.
+- NEG Das empirisch-methodisch Vorgehen wurde zu knapp oder gar nicht beschrieben (z. B. Mit welcher R-Funktion wurde die Power durchgeführt)?
 
 
-- \- Eine prägnante Beschreibung des Studienablaufs (z.B. in Form eines Ablaufdiagramms) wäre von Nutzen gewesen (z.B.: 1. Informierte Einwilligung; 2. Demografische Daten; 3. Fragebogen 1; 4. Fragebogen 2 etc.).
-- \- Eine Visualisierung oder konzise Zusammenfassung (z. B. als "Flowchart") des Versuchsablauf wäre hilfreich gewesen, fehlt aber.
+- NEG Eine prägnante Beschreibung des Studienablaufs (z.B. in Form eines Ablaufdiagramms) wäre von Nutzen gewesen (z.B.: 1. Informierte Einwilligung; 2. Demografische Daten; 3. Fragebogen 1; 4. Fragebogen 2 etc.).
+- NEG Eine Visualisierung oder konzise Zusammenfassung (z. B. als "Flowchart") des Versuchsablauf wäre hilfreich gewesen, fehlt aber.
 
 
 
 
 NUR QUALI:
 
-- \- Die Durchführung bzw. das Setting der Studie sowie mögliche *Interaktionen* von Forschendem/r und Forschungssubjekten hätte stärker thematisiert werden können. Könnten existierende Sym- oder Antipathien die Interaktion in eine bestimmte Richtung beeinflusst haben? Welches Vorwissen und Thesen (Meinungen) vertrat der oder die Forschende, welche implizit eingingen? Was waren die Erwartungen aller Beteiligten und wie wirkten sich diese auf den Verlauf der Untersuchung aus? Etc.
+- NEG Die Durchführung bzw. das Setting der Studie sowie mögliche *Interaktionen* von Forschendem/r und Forschungssubjekten hätte stärker thematisiert werden können. Könnten existierende Sym- oder Antipathien die Interaktion in eine bestimmte Richtung beeinflusst haben? Welches Vorwissen und Thesen (Meinungen) vertrat der oder die Forschende, welche implizit eingingen? Was waren die Erwartungen aller Beteiligten und wie wirkten sich diese auf den Verlauf der Untersuchung aus? Etc.
 
 
 ### Maßnahmen zur Sicherstellung der internen Validität
-- \+ Der Erfolg der experimentellen Intervention wurde geprüft (*"Manipulation Check"*).
-- \+ *Störvariablen* wurden reflektiert, identifiziert und (in Teilen) kontrolliert.
-- \+ Es wurde auf *Kontrolle von Störvarianz* geachtet, um die interne Validität nicht (unnötig) einzuschränken.
-- \+ Der reibungslose Ablauf der Datenerhebung wurde vor der eigentlichen Erhebung getestet (*"Prätest", "Pilot"*) - eine sinnvolle Maßnahme, um die interne Validität der Studie zu sichern.
+- POS Der Erfolg der experimentellen Intervention wurde geprüft (*"Manipulation Check"*).
+- POS *Störvariablen* wurden reflektiert, identifiziert und (in Teilen) kontrolliert.
+- POS Es wurde auf *Kontrolle von Störvarianz* geachtet, um die interne Validität nicht (unnötig) einzuschränken.
+- POS Der reibungslose Ablauf der Datenerhebung wurde vor der eigentlichen Erhebung getestet (*"Prätest", "Pilot"*) - eine sinnvolle Maßnahme, um die interne Validität der Studie zu sichern.
 
 
 `++--`
 
-- \+- Die Studie hätte von einer stärkeren Kontrolle von Störvariablen profitiert.
+- POS-NEG Die Studie hätte von einer stärkeren Kontrolle von Störvariablen profitiert.
 
 
 `---`
 
 
-- \- Es wurde nicht (ausreichend) auf Kontrolle von Störvarianz geachtet, die die interne Validität gefährden könnte.
+- NEG Es wurde nicht (ausreichend) auf Kontrolle von Störvarianz geachtet, die die interne Validität gefährden könnte.
 
 
-- \- Die Studie hätte von mehr Maßnahmen zur Sicherung der Datenqualität (und der internen Validität) profitiert. Einige hilfreiche Maßnahmen sind: (a) Kontrolle, dass die Versuchspersonen in Ruhe und ohne Ablenkung an der Studie teilnehmen; (b) Kontrolle, dass die Versuchspersonen alle in ähnlicher Stimmung/Verfassung sind; (c) Kontrolle der Dauer des Versuchs pro Versuchsperson, (d) Kontrolle störender Umwelteinflüsse (z. B. Lärm), (e) Kontrolle personengebundener Störeinflüsse (z. B. Vorwissen).
+- NEG Die Studie hätte von mehr Maßnahmen zur Sicherung der Datenqualität (und der internen Validität) profitiert. Einige hilfreiche Maßnahmen sind: (a) Kontrolle, dass die Versuchspersonen in Ruhe und ohne Ablenkung an der Studie teilnehmen; (b) Kontrolle, dass die Versuchspersonen alle in ähnlicher Stimmung/Verfassung sind; (c) Kontrolle der Dauer des Versuchs pro Versuchsperson, (d) Kontrolle störender Umwelteinflüsse (z. B. Lärm), (e) Kontrolle personengebundener Störeinflüsse (z. B. Vorwissen).
 
 
 
 NUR QUALI:
 
   
-- \- Es wäre für die Validität der Studie nützlich gewesen, dass Vorwissen, Beziehung und/oder das Setting der Untersuchung genauer zu erläutern. Gerade qualitative Forschung ist sich einer Wechselwirkung von Forschungssubjekt und -objekt ausgesetzt - und gerade qualitative Forschung ist sich (und sollte sich) dieser Wechselwirkung besonders bewusst sein.
+- NEG Es wäre für die Validität der Studie nützlich gewesen, dass Vorwissen, Beziehung und/oder das Setting der Untersuchung genauer zu erläutern. Gerade qualitative Forschung ist sich einer Wechselwirkung von Forschungssubjekt und -objekt ausgesetzt - und gerade qualitative Forschung ist sich (und sollte sich) dieser Wechselwirkung besonders bewusst sein.
 
 
 ## Messinstrumente (xxmess) {#measurement}
 
 `+++`
 
-- \+ Es wurden *geeignete Messinstrumente* ausgewählt.
+- POS Es wurden *geeignete Messinstrumente* ausgewählt.
 
-- \+ Die Messinstrumente wurden präzise benannt und beschrieben.
+- POS Die Messinstrumente wurden präzise benannt und beschrieben.
 
 
-- \+ Die *Qualität* der Messinstrumente *wurde methodisch geschickt untersucht*.
-- \+ Zentrale *Gütekriterien* der Messinstrumente (wie interne Konsistenz gemessen an *Cronbachs Alpha*) wurden *berichtet.*
-- \+ Es wurden *Messinstrumente mit gut belegter Qualität* verwendet.
-- \+ *Einige zentrale Informationen zur Güte* der verwendeten Messinstrumente wurden berichtet.
-- \+ Die Qualität der Messinstrumente erscheint gut bzw. die empirische Absicherung der Messinstrumente ist hoch.
-- \+ Die Verwendung der Kategorie *"weiß nicht"* bzw. *"keine Angabe"* in Fragebögen ist sinnvoll gewählt und gut gewählt.
+- POS Die *Qualität* der Messinstrumente *wurde methodisch geschickt untersucht*.
+- POS Zentrale *Gütekriterien* der Messinstrumente (wie interne Konsistenz gemessen an *Cronbachs Alpha*) wurden *berichtet.*
+- POS Es wurden *Messinstrumente mit gut belegter Qualität* verwendet.
+- POS *Einige zentrale Informationen zur Güte* der verwendeten Messinstrumente wurden berichtet.
+- POS Die Qualität der Messinstrumente erscheint gut bzw. die empirische Absicherung der Messinstrumente ist hoch.
+- POS Die Verwendung der Kategorie *"weiß nicht"* bzw. *"keine Angabe"* in Fragebögen ist sinnvoll gewählt und gut gewählt.
 
-- \+ Mit *SoSci-Survey* wurde eine bewährte Software-Lösung zur Online-Erhebung der Daten eingesetzt.
+- POS Mit *SoSci-Survey* wurde eine bewährte Software-Lösung zur Online-Erhebung der Daten eingesetzt.
 
-- \+ Positiv hervorzuheben ist die *Methodenvielfalt* der Messinstrumente. So wurde nicht nur eine Art von Messinstrumenten verwendet -- in studentischen Arbeiten häufig Fragebogen aufgrund des geringeren Erhebungsaufwands -- sondern auch *behaviorale* Messinstrumente.
+- POS Positiv hervorzuheben ist die *Methodenvielfalt* der Messinstrumente. So wurde nicht nur eine Art von Messinstrumenten verwendet -- in studentischen Arbeiten häufig Fragebogen aufgrund des geringeren Erhebungsaufwands -- sondern auch *behaviorale* Messinstrumente.
 
-- \+ Es wurden nicht nur Messinstrumente, die explizite psychologische Konstrukte erheben, sondern auch "implizite" Methoden verwendet, die auf nicht-bewusste bzw. nicht rational steuerbare Testwerte abzielen.
+- POS Es wurden nicht nur Messinstrumente, die explizite psychologische Konstrukte erheben, sondern auch "implizite" Methoden verwendet, die auf nicht-bewusste bzw. nicht rational steuerbare Testwerte abzielen.
 
 `---`
 
 
-- \- Es ist nicht klar (genug) ersichtlich aus dem Text, *ob und inwieweit geeignete Messinstrumente ausgewählt* wurden.
+- NEG Es ist nicht klar (genug) ersichtlich aus dem Text, *ob und inwieweit geeignete Messinstrumente ausgewählt* wurden.
 
-- \- Die *verwendeten Messinstrumente wurden nicht (in ausreichendem Maße) erläutert*. Messung ist jedoch für jede empirische Forschung ein Grundstein; daher sollte diesem Punkt immer Aufmerksamkeit zuerteilt werden.
-- \- Es *fehlen Hinweise zu den Gütekriterien* der Messinstrumente oder diese Informationen stehen am falschen Ort.
+- NEG Die *verwendeten Messinstrumente wurden nicht (in ausreichendem Maße) erläutert*. Messung ist jedoch für jede empirische Forschung ein Grundstein; daher sollte diesem Punkt immer Aufmerksamkeit zuerteilt werden.
+- NEG Es *fehlen Hinweise zu den Gütekriterien* der Messinstrumente oder diese Informationen stehen am falschen Ort.
 
-- \- Es fehlen Hinweisen zur *internen Konsistenz* (z. B. Cronbachs Alpha) der verwendeten Messinstrumente oder diese Informationen stehen am falschen Ort.
+- NEG Es fehlen Hinweisen zur *internen Konsistenz* (z. B. Cronbachs Alpha) der verwendeten Messinstrumente oder diese Informationen stehen am falschen Ort.
 
-- \- Es *wurden Messinstrumente mit unklarer oder zweifelhafter Güte* verwendet. Ohne sichere Messinstrumente ist es unsicher, Effekte zu finden, selbst wenn die Theorie richtig ist. Überlegen Sie: Angenommen Ihre Waage ist kaputt und zeigt wirre Zahlen an. Könnten Sie erwarten, die Hypothese "Männer sind im Schnitt schwerer als Frauen" zu bestätigen. Wie aussichtsreich und wie sinnvoll wäre eine Studie mit einem solchen unsicheren Messinstrument? 
-- \- Die Verwendung von Messinstrumenten von zweifelhaftem Wert *zeugt nicht von Verständnis der Grundfesten* der empirischen Forschung.
+- NEG Es *wurden Messinstrumente mit unklarer oder zweifelhafter Güte* verwendet. Ohne sichere Messinstrumente ist es unsicher, Effekte zu finden, selbst wenn die Theorie richtig ist. Überlegen Sie: Angenommen Ihre Waage ist kaputt und zeigt wirre Zahlen an. Könnten Sie erwarten, die Hypothese "Männer sind im Schnitt schwerer als Frauen" zu bestätigen. Wie aussichtsreich und wie sinnvoll wäre eine Studie mit einem solchen unsicheren Messinstrument? 
+- NEG Die Verwendung von Messinstrumenten von zweifelhaftem Wert *zeugt nicht von Verständnis der Grundfesten* der empirischen Forschung.
 
-- \- Die *Darstellung der Messinstrumente ist nicht präzise und detailliert genug*; die Ausführung bleibt zu vage.
+- NEG Die *Darstellung der Messinstrumente ist nicht präzise und detailliert genug*; die Ausführung bleibt zu vage.
 
-- \- Werden psychologische Konstrukte gemessen, so *bedarf es i.d.R. validierter Messinstrumente* zur Operationalisierung. Diesem Sachverhalt wurde in der vorliegenden Arbeit nicht ausreichen Rechnung getragen.
+- NEG Werden psychologische Konstrukte gemessen, so *bedarf es i.d.R. validierter Messinstrumente* zur Operationalisierung. Diesem Sachverhalt wurde in der vorliegenden Arbeit nicht ausreichen Rechnung getragen.
 
-- \- Die Messinstrumente sollten in einem *eigenen Abschnitt namens "Messinstrumente"* o.Ä. berichtet werden. Diese Regel gilt auch, wenn keine psychometrischen Maße verwendet wurden, sondern z.B Verhaltensbeobachtungen durchgeführt wurden.
+- NEG Die Messinstrumente sollten in einem *eigenen Abschnitt namens "Messinstrumente"* o.Ä. berichtet werden. Diese Regel gilt auch, wenn keine psychometrischen Maße verwendet wurden, sondern z.B Verhaltensbeobachtungen durchgeführt wurden.
 
-- \- Aufgrund der zentralen Bedeutung der Messinstrumente *sind diese genau zu schildern*. Bei psychometrisch fundierten Fragebogen und ähnlichen Instrumenten sind z.B. die Items im Anhang aufzuführen (oder als zweitbeste Alternative auf eine offene URL zu verweisen) und im Haupttext einige Items beispielhaft zu zitieren. Wird eine Variable nur mit einem Item (per Selbstauskunft) erhoben (z.B. "Wie glücklich sind Sie heute?" oder "Wie viele Zigaretten haben Sie gestern geraucht?") so sind diese Items im Haupttext zu zitieren.
+- NEG Aufgrund der zentralen Bedeutung der Messinstrumente *sind diese genau zu schildern*. Bei psychometrisch fundierten Fragebogen und ähnlichen Instrumenten sind z.B. die Items im Anhang aufzuführen (oder als zweitbeste Alternative auf eine offene URL zu verweisen) und im Haupttext einige Items beispielhaft zu zitieren. Wird eine Variable nur mit einem Item (per Selbstauskunft) erhoben (z.B. "Wie glücklich sind Sie heute?" oder "Wie viele Zigaretten haben Sie gestern geraucht?") so sind diese Items im Haupttext zu zitieren.
 
 
 
@@ -1518,9 +1523,9 @@ NUR QUALI:
 
 `+++`
 
-- \+ Es wurden *gut fundierte Stimuli* ausgewählt.
+- POS Es wurden *gut fundierte Stimuli* ausgewählt.
 
-- \+ - Es wurde eine (insgesamt) *angemessen große Stichprobe an Stimuli* erhoben, so dass Aussagen für die Grundgesamtheit der betreffenden Stimuli möglich sind bzw. sein können. Der Grundsatz, dass von einer Personen-Stichprobe nicht ohne Weiteres auf die Grundgesamtheit geschlossen werden kann, sondern dass Größe und Zufälligkeit (Repräsentativität) eine entscheidende Rolle spielen, gilt nämlich auch für Stimuli-Stichproben. Beispiel: Eine Studie untersucht, ob Professoren als "freundlich" gesehen werden. Als Beispiel für Professoren wird nur ein Stimulus gewählt, nämlich ein Foto von Professor Süß. Die große Personenstichprobe bewertet das Foto (die Person darauf, Prof. Süß) als wenig freundlich. Kann jetzt geschlossen werden, dass Professoren allgemein als wenig freundlich beurteilt werden? Dieser Schlüsse würde vorschnell übergeneralisieren. Eine größere Stichprobe an Stimuli (mehrere vergleichbare, kontrollierte Professorenfotos) wären für eine solche Generalisierung nötig. Vgl. Wells, G. L., & Windschitl, P. D. (1999). Stimulus sampling and social psychological experimentation. *Personality and Social Psychology Bulletin, 25*(9), 1115-1125.
+- POS - Es wurde eine (insgesamt) *angemessen große Stichprobe an Stimuli* erhoben, so dass Aussagen für die Grundgesamtheit der betreffenden Stimuli möglich sind bzw. sein können. Der Grundsatz, dass von einer Personen-Stichprobe nicht ohne Weiteres auf die Grundgesamtheit geschlossen werden kann, sondern dass Größe und Zufälligkeit (Repräsentativität) eine entscheidende Rolle spielen, gilt nämlich auch für Stimuli-Stichproben. Beispiel: Eine Studie untersucht, ob Professoren als "freundlich" gesehen werden. Als Beispiel für Professoren wird nur ein Stimulus gewählt, nämlich ein Foto von Professor Süß. Die große Personenstichprobe bewertet das Foto (die Person darauf, Prof. Süß) als wenig freundlich. Kann jetzt geschlossen werden, dass Professoren allgemein als wenig freundlich beurteilt werden? Dieser Schlüsse würde vorschnell übergeneralisieren. Eine größere Stichprobe an Stimuli (mehrere vergleichbare, kontrollierte Professorenfotos) wären für eine solche Generalisierung nötig. Vgl. Wells, G. L., & Windschitl, P. D. (1999). Stimulus sampling and social psychological experimentation. *Personality and Social Psychology Bulletin, 25*(9), 1115-1125.
 
 
 
@@ -1529,7 +1534,7 @@ NUR QUALI:
 `---`
 
 
-- \- Es wurde eine (sehr) *kleine Stichprobe an Stimuli* erhoben, aber es wurden Aussagen für die Grundgesamtheit der betreffenden Stimuli gemacht. Der Grundsatz, dass von einer Personen-Stichprobe nicht ohne Weiteres auf die Grundgesamtheit geschlossen werden kann, sondern dass Größe und Zufälligkeit (Repräsentativität) eine entscheidende Rolle spielen, gilt auch für Stimuli-Stichproben. Beispiel: Eine Studie untersucht, ob Professoren als "freundlich" gesehen werden. Als Beispiel für Professoren wird nur ein Stimulus gewählt, nämlich ein Foto von Professor Süß. Die große Personenstichprobe bewertet das Foto (die Person darauf, Prof. Süß) als wenig freundlich. Kann jetzt geschlossen werden, dass Professoren allgemein als wenig freundlich beurteilt werden? Dieser Schlüsse würde vorschnell übergeneralisieren. Eine größere Stichprobe an Stimuli (mehrere vergleichbare, kontrollierte Professorenfotos) wären für eine solche Generalisierung nötig. Vgl. Wells, G. L., & Windschitl, P. D. (1999). Stimulus sampling and social psychological experimentation. *Personality and Social Psychology Bulletin, 25*(9), 1115-1125.
+- NEG Es wurde eine (sehr) *kleine Stichprobe an Stimuli* erhoben, aber es wurden Aussagen für die Grundgesamtheit der betreffenden Stimuli gemacht. Der Grundsatz, dass von einer Personen-Stichprobe nicht ohne Weiteres auf die Grundgesamtheit geschlossen werden kann, sondern dass Größe und Zufälligkeit (Repräsentativität) eine entscheidende Rolle spielen, gilt auch für Stimuli-Stichproben. Beispiel: Eine Studie untersucht, ob Professoren als "freundlich" gesehen werden. Als Beispiel für Professoren wird nur ein Stimulus gewählt, nämlich ein Foto von Professor Süß. Die große Personenstichprobe bewertet das Foto (die Person darauf, Prof. Süß) als wenig freundlich. Kann jetzt geschlossen werden, dass Professoren allgemein als wenig freundlich beurteilt werden? Dieser Schlüsse würde vorschnell übergeneralisieren. Eine größere Stichprobe an Stimuli (mehrere vergleichbare, kontrollierte Professorenfotos) wären für eine solche Generalisierung nötig. Vgl. Wells, G. L., & Windschitl, P. D. (1999). Stimulus sampling and social psychological experimentation. *Personality and Social Psychology Bulletin, 25*(9), 1115-1125.
 
   
 
@@ -1555,15 +1560,15 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 `+++`
 
-- \+ Die Anzahl der Hypothesen ist *groß*; es wurde somit eine umfangreiche Studie durchgeführt bzw. geplant.
+- POS Die Anzahl der Hypothesen ist *groß*; es wurde somit eine umfangreiche Studie durchgeführt bzw. geplant.
 
 
 `000`
 
 
-- \+- Die Anzahl der Hypothesen ist weder groß noch gering.
+- POS-NEG Die Anzahl der Hypothesen ist weder groß noch gering.
 
-- \+- Die Anzahl der Hypothesen ist von *mittlerer Höhe*.
+- POS-NEG Die Anzahl der Hypothesen ist von *mittlerer Höhe*.
 
 
 
@@ -1571,11 +1576,11 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 
 
-- \- Die Anzahl der Hypothesen ist *gering*.
+- NEG Die Anzahl der Hypothesen ist *gering*.
 
-- \- Die Hypothesen *wurden nicht expliziert* oder fehlen komplett. Das ist ein wesentliches Manko für quantitative Arbeiten (sofern der Theorieteil andeutet, dass Hypothesen untersucht werden sollen in der Arbeit, wie es hier der Fall ist).
+- NEG Die Hypothesen *wurden nicht expliziert* oder fehlen komplett. Das ist ein wesentliches Manko für quantitative Arbeiten (sofern der Theorieteil andeutet, dass Hypothesen untersucht werden sollen in der Arbeit, wie es hier der Fall ist).
 
-- \- Eine quantitative Studie dieser Art *sollte i.d.R. Hypothesen umfassen*. Diese fehlen aber in der vorliegenden Arbeit.
+- NEG Eine quantitative Studie dieser Art *sollte i.d.R. Hypothesen umfassen*. Diese fehlen aber in der vorliegenden Arbeit.
 
 
 
@@ -1588,30 +1593,36 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 `+++`
 
-- \+ Die Hypothesen wurden *formal korrekt spezifiziert*.
-- \+ H_0 und H_A wurden *jeweils korrekt spezifiziert*.
-
+- POS Die Hypothesen wurden *formal korrekt spezifiziert*.
+- POS H_0 und H_A wurden *jeweils korrekt spezifiziert*.
+- POS Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesis eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt (ausreichend oder komplett) in *guter Art und Weise* um. 
 
 `---`
 
 
-- \- Die Hypothesen wurden *formal nicht immer korrekt spezifiziert oder fehlen* (teilweise).
+- NEG Die Hypothesen wurden *formal nicht immer korrekt spezifiziert oder fehlen* (teilweise).
 
-- \- Die *Nullhypothese* und/oder die Alternativhypothese wurde nicht korrekt spezifiziert.
-
-
-- \- H_0 und H_1 wurden *nicht immer korrekt spezifiziert*.
-
-- \- Eine Hypothese sollte i.d.R. die Form "Wenn A, dann B" aufweisen (oder "Je mehr A, desto mehr B"). Hat aber eine Hypothese die Form *"Wenn A, dann B und C"* und findet man bei Vorliegen von A nur B, aber nicht C, so ist unklar, ob die Hypothese bestätigt ist oder nicht (streng genommen ist sie es nicht). Zur Klarheit empfiehlt es sich, letztere Hypothese in zwei Hypothesen aufzutrennen ("A -> B" und "A -> C"). Dieser Punkt wurde in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
-
-- \- Bei der Formulierung von Hypothesen sollte *auf den Zusatz "signifikant" verzichtet* werden, denn Hypothesen beziehen sich stets auf Populationen und "signifikant" heißt nichts anderes, als dass wir schließen, dass der beobachtete Effekt (d.h. in der Stichprobe) auch in der Population vorliegt (auf Basis der vorliegenden Analyse).
-
-- \- Auf den *Term "signifikant"* sollte *beim Formulieren von Hypothesen verzichtet* werden. Man soll also NICHT sagen "X hat einen signifikanten Einfluss auf Y" o. Ä., sondern "X hat einen Einfluss auf Y". Der Grund ist, dass sich Hypothesen stets auf Grundgesamtheiten (Populationen) beziehen und das ist genau das, was das Wort "signifikant" sagt. Signifikant bedeutet, dass man von einem Effekt in der Population ausgeht.
+- NEG Die *Nullhypothese* und/oder die Alternativhypothese wurde nicht korrekt spezifiziert.
 
 
-- \- Es *sollten keine zusammengesetzten Hypothesen formuliert werden*; stattdessen sollte für *jede Ursache/jeden Prädiktor eine eigene Hypothese* formuliert werden. Also nicht: "A, B und C führen zu D", sondern "H1: A führt zu D, H2: B führt zu D" etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?
+- NEG H_0 und H_1 wurden *nicht immer korrekt spezifiziert*.
 
-- \- Hypothesen sollten möglichst *präzise* formuliert werden; die Präzision der Begriffe (und damit auch einer Hypothese) ist die obere Schranke der Nützlichkeit einer empirischen Untersuchung. So wäre bspw. einer Hypothese der Art "Achtsamkeitstraining führt zu einer kurzfristigen Konzentrationssteigerung bei SchülerInnen" wenig präzise. Präziser wäre: μE > μK, wobei die Begriffe  μE und μK definiert sind (Mittelwerte der Populationen in Experimental- und Kontrollbedingung in der AV, welche auch in ihrer Operationalisierung genau ausgewiesen ist).
+- NEG Eine Hypothese sollte i.d.R. die Form "Wenn A, dann B" aufweisen (oder "Je mehr A, desto mehr B"). Hat aber eine Hypothese die Form *"Wenn A, dann B und C"* und findet man bei Vorliegen von A nur B, aber nicht C, so ist unklar, ob die Hypothese bestätigt ist oder nicht (streng genommen ist sie es nicht). Zur Klarheit empfiehlt es sich, letztere Hypothese in zwei Hypothesen aufzutrennen ("A -> B" und "A -> C"). Dieser Punkt wurde in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
+
+- NEG Bei der Formulierung von Hypothesen sollte *auf den Zusatz "signifikant" verzichtet* werden, denn Hypothesen beziehen sich stets auf Populationen und "signifikant" heißt nichts anderes, als dass wir schließen, dass der beobachtete Effekt (d.h. in der Stichprobe) auch in der Population vorliegt (auf Basis der vorliegenden Analyse).
+
+- NEG Auf den *Term "signifikant"* sollte *beim Formulieren von Hypothesen verzichtet* werden. Man soll also NICHT sagen "X hat einen signifikanten Einfluss auf Y" o. Ä., sondern "X hat einen Einfluss auf Y". Der Grund ist, dass sich Hypothesen stets auf Grundgesamtheiten (Populationen) beziehen und das ist genau das, was das Wort "signifikant" sagt. Signifikant bedeutet, dass man von einem Effekt in der Population ausgeht.
+
+
+- NEG Es *sollten keine zusammengesetzten Hypothesen formuliert werden*; stattdessen sollte für *jede Ursache/jeden Prädiktor eine eigene Hypothese* formuliert werden. Also nicht: "A, B und C führen zu D", sondern "H1: A führt zu D, H2: B führt zu D" etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?
+
+- NEG *Hypothesen* sollten möglichst *präzise* formuliert werden; die Präzision der Begriffe (und damit auch einer Hypothese) ist die obere Schranke der Nützlichkeit einer empirischen Untersuchung. So wäre bspw. einer Hypothese der Art "Achtsamkeitstraining führt zu einer kurzfristigen Konzentrationssteigerung bei SchülerInnen" wenig präzise. Präziser wäre: $\mu_E > \mu_K$, wobei die Begriffe (Mittelwerte der Populationen in Experimental- und Kontrollbedingung in der AV, welche auch in ihrer Operationalisierung genau ausgewiesen ist).
+
+- NEG Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesis eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
+
+- NEG *Statistische Symbole* in *Hypothesen* bergen den Vorteil, dass die Verbindung zur Datenanalyse, dem eigentlichen Auswerten und analytischen Beantworten der Forschungsfrage also, evident im Sinne von "nah" wird. Andernfalls stellt sich die Frage, wie z.B. "Achtsamkeit" gemessen wurde: mit welchem Instrument? Mit welcher Statistik (Mittelwert? Summe? Median? Über welche Items?).
+
+
 
 
 
@@ -1619,26 +1630,26 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 `+++`
 
-- \+ Die Hypothesen leiten sich *stringent* aus dem *Theorieteil* ab.
-- \+ Die Hypothesen leiten sich *insgesamt passend aus dem Theorieteil* ab.
+- POS Die Hypothesen leiten sich *stringent* aus dem *Theorieteil* ab.
+- POS Die Hypothesen leiten sich *insgesamt passend aus dem Theorieteil* ab.
 
-- \+ Die Hypothesen wurden *klar herausgestellt*.
+- POS Die Hypothesen wurden *klar herausgestellt*.
 
 
-- \+ Das *Kategoriensystem* leitet sich *stringent* aus der *Theorie* ab.
-- \+ Das Kategoriensystem wurden *klar* *herausgestellt.*
+- POS Das *Kategoriensystem* leitet sich *stringent* aus der *Theorie* ab.
+- POS Das Kategoriensystem wurden *klar* *herausgestellt.*
 
 
 `---`
 
 
 
-- \- Die Hypothesen leiten sich *nicht (alle) stringent aus dem Theorieteil* ab.
+- NEG Die Hypothesen leiten sich *nicht (alle) stringent aus dem Theorieteil* ab.
 
 
-- \- Einige Hypothesen sind nicht aus der vorher angeführten Theorie abgeleitet, sondern *schweben "frei im Raum"*. Dies ist nicht wünschenswert. Jede Hypothese soll sich gut ersichtlich aus der vorher angeführten Theorie (und der Forschungsfrage) ableiten (klassisches Beispiel: Geschlecht als UV). Nicht klar abgeleitete Hypothesen bergen die Gefahr der Beliebigkeit und erhöhen damit die Zahl der falsch-positiven Ergebnisse. Abgesehen sind sie wenig überzeugend.
-- \- Das Kategoriensystem leitet sich nicht stringent aus der Theorie ab.
-- \- Das Kategoriensystem wurden nicht klar herausgestellt.
+- NEG Einige Hypothesen sind nicht aus der vorher angeführten Theorie abgeleitet, sondern *schweben "frei im Raum"*. Dies ist nicht wünschenswert. Jede Hypothese soll sich gut ersichtlich aus der vorher angeführten Theorie (und der Forschungsfrage) ableiten (klassisches Beispiel: Geschlecht als UV). Nicht klar abgeleitete Hypothesen bergen die Gefahr der Beliebigkeit und erhöhen damit die Zahl der falsch-positiven Ergebnisse. Abgesehen sind sie wenig überzeugend.
+- NEG Das Kategoriensystem leitet sich nicht stringent aus der Theorie ab.
+- NEG Das Kategoriensystem wurden nicht klar herausgestellt.
 
 
 
@@ -1646,43 +1657,43 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 ### Präzision/operational formuliert
 
-- \+ Ein *Pfaddiagramm* zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
-- \+ Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die *Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
-- \+ Die Hypothesen wurden *klar (eindeutig, operational)* formuliert.
+- POS Ein *Pfaddiagramm* zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
+- POS Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die *Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
+- POS Die Hypothesen wurden *klar (eindeutig, operational)* formuliert.
 
 `---`
 
 
-- \- Ein *Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen für den Leser erleichtert*, fehlt aber.
-- \- Einige oder alle Hypothesen *sollten operationaler* definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
-- \- Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
-- \- Die Hypothesen *sollten konkreter* sein.
-- \- Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
-- \- Die Hypothesen sind nicht präzise genug (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
+- NEG Ein *Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen für den Leser erleichtert*, fehlt aber.
+- NEG Einige oder alle Hypothesen *sollten operationaler* definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
+- NEG Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
+- NEG Die Hypothesen *sollten konkreter* sein.
+- NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
+- NEG Die Hypothesen sind nicht präzise genug (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
-- \- Möchte man Hypothesen sehr präzise gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
+- NEG Möchte man Hypothesen sehr präzise gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
 
-- \- Hypothesen sollen operational formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
+- NEG Hypothesen sollen operational formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
 
 
 
 ### Sonstige Fehler
 
-- \- Für jede einzelne Hypothese soll eine eigene, *eigenständige H0 angenommen* werden. Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
+- NEG Für jede einzelne Hypothese soll eine eigene, *eigenständige H0 angenommen* werden. Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
 
-- \- Die Hypothesen werden *nicht an richtiger Stelle* aufgeführt.
-
-
-- \- *H0 und H1 wurden verwechselt*.
-- \- Die H0 braucht bei der Auflistung der Hypothesen nicht eigens formuliert zu werden (sofern sie sich komplementär zur H1 ergibt).
-
-- \- Die Hypothesen waren (ganz oder teilweise) ungerichtet formuliert, *obwohl eine gerichtete Hypothese sinnvoll gewesen* wäre.
+- NEG Die Hypothesen werden *nicht an richtiger Stelle* aufgeführt.
 
 
+- NEG *H0 und H1 wurden verwechselt*.
+- NEG Die H0 braucht bei der Auflistung der Hypothesen nicht eigens formuliert zu werden (sofern sie sich komplementär zur H1 ergibt).
 
-- \- Die Hypothesen wurden *nicht klar ersichtlich* oder nicht explizit oder nicht prägnant berichtet.
+- NEG Die Hypothesen waren (ganz oder teilweise) ungerichtet formuliert, *obwohl eine gerichtete Hypothese sinnvoll gewesen* wäre.
 
-- \- Das klassische Nullhypothesen-Testen, so wie es in typischen Lehrbüchern gelehrt wird, *kennt keine Null-Alternativhypothesen* (etwa "Es gibt keinen Zusammenhang von A und B"). 
+
+
+- NEG Die Hypothesen wurden *nicht klar ersichtlich* oder nicht explizit oder nicht prägnant berichtet.
+
+- NEG Das klassische Nullhypothesen-Testen, so wie es in typischen Lehrbüchern gelehrt wird, *kennt keine Null-Alternativhypothesen* (etwa "Es gibt keinen Zusammenhang von A und B"). 
 
 
 
@@ -1725,34 +1736,34 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 `+++`
 
 
-- \+ Der Umfang der Stichprobe ist *hoch* (gemessen an den Anforderungen der Prüfung).
+- POS Der Umfang der Stichprobe ist *hoch* (gemessen an den Anforderungen der Prüfung).
 
-- \+ Der *Umfang* der Stichprobe *erfüllt* die Anforderungen der Prüfung.
+- POS Der *Umfang* der Stichprobe *erfüllt* die Anforderungen der Prüfung.
 
 `---`
 
 
-- \+- Der Umfang der Stichprobe ist *mittel hoch* (gemessen an den Anforderungen der Prüfung).
+- POS-NEG Der Umfang der Stichprobe ist *mittel hoch* (gemessen an den Anforderungen der Prüfung).
 
-- \+- Der *Umfang* der Stichprobe ist *angemessen* (gemessen an den Anforderungen der Prüfung).
+- POS-NEG Der *Umfang* der Stichprobe ist *angemessen* (gemessen an den Anforderungen der Prüfung).
 
-- \- Der *Umfang* der Stichprobe ist *klein* (gemessen an den Anforderungen der Prüfung).
+- NEG Der *Umfang* der Stichprobe ist *klein* (gemessen an den Anforderungen der Prüfung).
 
 
 ### Qualität (Zufallsstichprobe)
 
-- \+ Es handelt sich um eine *Zufallsstichprobe*, was eine sinnvolle bzw. eine nötige Voraussetzung für die Verwendung von Methoden der Inferenzstatistik darstellt.
-- \+ Die Qualität der Stichprobe wurde unterstützt, indem auffällige Fälle aus der Stichprobe (nach Prüfung) entfernt wurden.
+- POS Es handelt sich um eine *Zufallsstichprobe*, was eine sinnvolle bzw. eine nötige Voraussetzung für die Verwendung von Methoden der Inferenzstatistik darstellt.
+- POS Die Qualität der Stichprobe wurde unterstützt, indem auffällige Fälle aus der Stichprobe (nach Prüfung) entfernt wurden.
 
 `---`
 
 
 
-- \- "Zufallsstichprobe" war hier eher *Adhoc-Stichprobe*.
+- NEG "Zufallsstichprobe" war hier eher *Adhoc-Stichprobe*.
 
-- \- Zwar spricht die Autorin von einer Zufallsstichprobe, doch handelt es sich wohl eher um eine *Adhoc-Stichprobe*.
+- NEG Zwar spricht die Autorin von einer Zufallsstichprobe, doch handelt es sich wohl eher um eine *Adhoc-Stichprobe*.
 
-- \- Hinweise zur Repräsentativität der Stichprobe wären von nutzen gewesen, fehlen aber.
+- NEG Hinweise zur Repräsentativität der Stichprobe wären von nutzen gewesen, fehlen aber.
 
 
 ### Poweranalyse (xxpower) {#poweranalyse}
@@ -1760,17 +1771,17 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 `+++`
 
 
-- \+ Es wurde eine *Power-Analyse* durchgeführt, was eine sinnvolle (oder sogar dringend benötigte) Maßnahme zur Sicherstellung der empirischen Qualität darstellt.
-- \+ Bei der Poweranalyse wurde der erwartete Effekt auf Basis früherer Untersuchungen festgelegt. Das ist ein sinnvolles Vorgehen und weit besser als per fiat von z.B. einem "mittleren" Effekt auszugehen. 
+- POS Es wurde eine *Power-Analyse* durchgeführt, was eine sinnvolle (oder sogar dringend benötigte) Maßnahme zur Sicherstellung der empirischen Qualität darstellt.
+- POS Bei der Poweranalyse wurde der erwartete Effekt auf Basis früherer Untersuchungen festgelegt. Das ist ein sinnvolles Vorgehen und weit besser als per fiat von z.B. einem "mittleren" Effekt auszugehen. 
 
 `---`
 
-- \- Eine Power-Analyse hätte die Aussagekraft der Ergebnisse erhöht, *fehlt* aber oder liegt nicht an geeigneter Stelle vor. Eine (apriori-)Effektgröße wäre aus bestehender Literatur wahrscheinlich ableitbar.
-- \- Die Power-Analyse *hätte genauer erläutert werden* müssen, damit sie nachvollziehbar ist. So sind die folgenden Informationen nötig, um die Berechnung replizieren zu können: Effektstärke in Höhe und Typ (z.B. Cohens *d*), Power, Alphaniveau, Seitigkeit des Tests (ein- vs. zweiseitig) und Art der Hypothese bzw. Tests (z.B. $F$-Test). 
+- NEG Eine Power-Analyse hätte die Aussagekraft der Ergebnisse erhöht, *fehlt* aber oder liegt nicht an geeigneter Stelle vor. Eine (apriori-)Effektgröße wäre aus bestehender Literatur wahrscheinlich ableitbar.
+- NEG Die Power-Analyse *hätte genauer erläutert werden* müssen, damit sie nachvollziehbar ist. So sind die folgenden Informationen nötig, um die Berechnung replizieren zu können: Effektstärke in Höhe und Typ (z.B. Cohens *d*), Power, Alphaniveau, Seitigkeit des Tests (ein- vs. zweiseitig) und Art der Hypothese bzw. Tests (z.B. $F$-Test). 
 
-- \- Bei einer Poweranalyse sollte die *Größe des erwarteten Effekts* durch *Rückgriff auf geeignete Literatur* gerechtfertigt werden (etwa: "Müller (2019) berichtet in seiner Metaanalyse von einer moderat hohen Korrelation (r = .42); entsprechend wird dieser Schätzwert für die Effektstärke in der vorliegenden Studie angenommen").
+- NEG Bei einer Poweranalyse sollte die *Größe des erwarteten Effekts* durch *Rückgriff auf geeignete Literatur* gerechtfertigt werden (etwa: "Müller (2019) berichtet in seiner Metaanalyse von einer moderat hohen Korrelation (r = .42); entsprechend wird dieser Schätzwert für die Effektstärke in der vorliegenden Studie angenommen").
 
-- \- Es ist nicht auszuschließen, dass es *fachliche Fehler in der Berechnung* des optimalen Stichprobenumfanges im Rahmen der Poweranalyse gibt.
+- NEG Es ist nicht auszuschließen, dass es *fachliche Fehler in der Berechnung* des optimalen Stichprobenumfanges im Rahmen der Poweranalyse gibt.
 
 
 ### Zusammenstellung/Auswahl {#stiprozusammenstellung}
@@ -1782,38 +1793,38 @@ NUR QUALI:
 `+++`
 
 
-- \+ Die *Auswahl* der untersuchten Personen bzw. die Zusammenstellung der Stichprobe wurde *adäquat begründet*.
+- POS Die *Auswahl* der untersuchten Personen bzw. die Zusammenstellung der Stichprobe wurde *adäquat begründet*.
 
 
 
 `000`
 
 
-- \+- Es wurden einige Hinweise zur Zusammensetzung bzw. zur Rationale der Stichprobenzusammensetzung gegeben, die Zusammenstellung der Stichprobe (bottom-up? top-down? Sättigungskriterien?) *hätte von einer ausführlicheren Erklärung profitiert*.
+- POS-NEG Es wurden einige Hinweise zur Zusammensetzung bzw. zur Rationale der Stichprobenzusammensetzung gegeben, die Zusammenstellung der Stichprobe (bottom-up? top-down? Sättigungskriterien?) *hätte von einer ausführlicheren Erklärung profitiert*.
 
 
 
 
 `---` 
 
-- \- Die Zusammenstellung der Stichprobe (bottom-up? top-down? Sättigungskriterien?) *wurde nicht (ausreichend) erläutert*.
-- \- Die Zusammenstellung der Stichprobe (bottom-up? top-down? Sättigungskriterien?) *hätte von einer ausführlicheren Erklärung profitiert*.
-- \- Bei der Erläuterung der Stichprobenzusammenstellung *wären Hinweise zur verfolgten Optimierungsstrategie* -- wie Heterogenitätsmaximierung zum Zweck der maximalen Informationsausschöpfung -- *sachdienlich gewesen*, sind aber nicht (ausführlich genug) dargestellt.
+- NEG Die Zusammenstellung der Stichprobe (bottom-up? top-down? Sättigungskriterien?) *wurde nicht (ausreichend) erläutert*.
+- NEG Die Zusammenstellung der Stichprobe (bottom-up? top-down? Sättigungskriterien?) *hätte von einer ausführlicheren Erklärung profitiert*.
+- NEG Bei der Erläuterung der Stichprobenzusammenstellung *wären Hinweise zur verfolgten Optimierungsstrategie* -- wie Heterogenitätsmaximierung zum Zweck der maximalen Informationsausschöpfung -- *sachdienlich gewesen*, sind aber nicht (ausführlich genug) dargestellt.
 
 
 ### Interviewdauer
 
 NUR QUALI: 
 
-- \- Für diese Prüfungsleistung war eine *gesamte Interviewdauer von 30 Minuten angezeigt*. Diese formale Anforderung wird in der vorliegenden Arbeit nicht erfüllt. Insofern ist ein wesentlicher Bestandteil der Prüfungsleistung nicht erbracht.
+- NEG Für diese Prüfungsleistung war eine *gesamte Interviewdauer von 30 Minuten angezeigt*. Diese formale Anforderung wird in der vorliegenden Arbeit nicht erfüllt. Insofern ist ein wesentlicher Bestandteil der Prüfungsleistung nicht erbracht.
 
 
 ## Tabellen (xxtabs)
 
 ### Anzahl von Tabellen
-- \+ Es wurden *Tabellen* zur Verdeutlichung zentraler Sachverhalte *sinnvoll* eingesetzt.
+- POS Es wurden *Tabellen* zur Verdeutlichung zentraler Sachverhalte *sinnvoll* eingesetzt.
 
-- \- Tabellen (oder Abbildungen) *wären eine sinnvolle Ergänzung gewesen*, um zentrale Ergebnisse konzise darzustellen, fehlen aber.
+- NEG Tabellen (oder Abbildungen) *wären eine sinnvolle Ergänzung gewesen*, um zentrale Ergebnisse konzise darzustellen, fehlen aber.
 
 
 
@@ -1821,27 +1832,27 @@ NUR QUALI:
 
 `+++`
 
-- \+ Einige oder alle Tabellen sind *optisch ansprechend formatiert *und übersichtlich gestaltet.
-- \+ Die Gestaltung und/oder Referenzierung der Tabellen ist *tadellos* und/oder orientiert sich an den Gestaltungsrichtlinien der APA.
+- POS Einige oder alle Tabellen sind *optisch ansprechend formatiert *und übersichtlich gestaltet.
+- POS Die Gestaltung und/oder Referenzierung der Tabellen ist *tadellos* und/oder orientiert sich an den Gestaltungsrichtlinien der APA.
 
 
 `---`
 
 
-- \- Tabellen sollten (in wissenschaftlichen Arbeiten) besser *auf "Schnörkel" verzichten*: Intensiv wirkende Aspekte (wie eingefärbte Hintergründe), die wenig Information bergen und/oder nur begrenzt (wenn überhaupt) zur Übersichtlichkeit/Strukturierung beitragen, sollten vermieden werden. Trotzdem sollte (natürlich) eine Tabelle ansprechend und elegant gesetzt sein, wie es in vielen Fachartikeln sinnvoll gelöst ist.
+- NEG Tabellen sollten (in wissenschaftlichen Arbeiten) besser *auf "Schnörkel" verzichten*: Intensiv wirkende Aspekte (wie eingefärbte Hintergründe), die wenig Information bergen und/oder nur begrenzt (wenn überhaupt) zur Übersichtlichkeit/Strukturierung beitragen, sollten vermieden werden. Trotzdem sollte (natürlich) eine Tabelle ansprechend und elegant gesetzt sein, wie es in vielen Fachartikeln sinnvoll gelöst ist.
 
-- \- Die Formatierung der Tabellen ist *häufig nicht ansprechend;* vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA dazu.
-- \- Die Formatierung der Tabellen ist *nicht immer ansprechend*; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA dazu.
-- \- Bitte machen Sie sich mit der *Formatierung* von Tabellen laut APA/DGPs *vertraut*.
+- NEG Die Formatierung der Tabellen ist *häufig nicht ansprechend;* vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA dazu.
+- NEG Die Formatierung der Tabellen ist *nicht immer ansprechend*; vgl. Richtlinien der dt. Gesellschaft für Psychologie/APA dazu.
+- NEG Bitte machen Sie sich mit der *Formatierung* von Tabellen laut APA/DGPs *vertraut*.
 
-- \- Tabellen sollten grundsätzlich ohne vertikale Linien gesetzt sein.
+- NEG Tabellen sollten grundsätzlich ohne vertikale Linien gesetzt sein.
 
-- \- *Tabellen* sollten nicht als *Screenshot* (z. B. aus Excel) abgebildet werden. Mit geringem Aufwand kann ein deutlich schöneres Ergebnis erzielt werden. 
+- NEG *Tabellen* sollten nicht als *Screenshot* (z. B. aus Excel) abgebildet werden. Mit geringem Aufwand kann ein deutlich schöneres Ergebnis erzielt werden. 
 
 
-- \- Die *Spaltenüberschriften* sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.
+- NEG Die *Spaltenüberschriften* sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.
 
-- \- Bei Tabellen sollte man auf (farblich intensive) Darstellung von *Spaltengrenzen* in Formen *vertikaler Linien* verzichten, da diese zur stark im Inhalt ablenken. Die Formvorgaben der APA/DGPs sehen zudem vor, auf solche Linien zu verzichten. Die vorliegende Arbeit berücksichtigt dies nicht durchgehend.
+- NEG Bei Tabellen sollte man auf (farblich intensive) Darstellung von *Spaltengrenzen* in Formen *vertikaler Linien* verzichten, da diese zur stark im Inhalt ablenken. Die Formvorgaben der APA/DGPs sehen zudem vor, auf solche Linien zu verzichten. Die vorliegende Arbeit berücksichtigt dies nicht durchgehend.
 
 
 
@@ -1859,26 +1870,26 @@ NUR QUALI:
 
 `+++`
 
-- \+ Es wurden durchgängig *angemessene Verfahren* der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
-+ \+ Es wurden *angemessene* Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
+- POS Es wurden durchgängig *angemessene Verfahren* der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
++ POS Es wurden *angemessene* Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
 
-- \+ Es wurden *im Großen und Ganzen* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
-+ \+ Es wurden *meistens* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
-+ \+ Es wurden *ingesamt* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
-
-
-- \+ Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet, z. B. *simulationsbasierte Inferenz, SBI* o. Ä..
-- \+ Es wurden (*in Teilen*) moderne bzw. sinnvolle Methoden der Datenanalyse verwendet (z. B. *simulationsbasierte Inferenz, SBI*).
-
-- \+ Es wurden *fortgeschrittene Methoden der Datenanalyse* eingesetzt, die nicht (oder nur eingeschränkt) im Unterricht behandelt wurden und insofern eine selbständige Einarbeitung verlangt haben (z. B. Moderator-, Interaktions- oder Mediatoranalysen). Dies zeigt eine gute Durchdringung der Materie.
-- \+ Es wurden *multivariate Methoden* (z. B. multiple Regression) sinnvoll ausgewählt, um etwaige "Überschneidungen" von Variablen bzw. um "Nettoeffekte" einzelner Variablen zu bestimmen.
-- \+ Es wurden *Moderator- bzw. Interaktionsanalysen* durchgeführt; diese Analysen bereichern die vorliegende Arbeit.
+- POS Es wurden *im Großen und Ganzen* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
++ POS Es wurden *meistens* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
++ POS Es wurden *ingesamt* angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
 
 
+- POS Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet, z. B. *simulationsbasierte Inferenz, SBI* o. Ä..
+- POS Es wurden (*in Teilen*) moderne bzw. sinnvolle Methoden der Datenanalyse verwendet (z. B. *simulationsbasierte Inferenz, SBI*).
+
+- POS Es wurden *fortgeschrittene Methoden der Datenanalyse* eingesetzt, die nicht (oder nur eingeschränkt) im Unterricht behandelt wurden und insofern eine selbständige Einarbeitung verlangt haben (z. B. Moderator-, Interaktions- oder Mediatoranalysen). Dies zeigt eine gute Durchdringung der Materie.
+- POS Es wurden *multivariate Methoden* (z. B. multiple Regression) sinnvoll ausgewählt, um etwaige "Überschneidungen" von Variablen bzw. um "Nettoeffekte" einzelner Variablen zu bestimmen.
+- POS Es wurden *Moderator- bzw. Interaktionsanalysen* durchgeführt; diese Analysen bereichern die vorliegende Arbeit.
 
 
 
-- \+- Es wurden *zum Teil angemessene*, *zum Teil nicht angemessene* Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
+
+
+- POS-NEG Es wurden *zum Teil angemessene*, *zum Teil nicht angemessene* Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
 
 
 `---`
@@ -1886,32 +1897,32 @@ NUR QUALI:
 
 
 
-- \- *Simulationsbasierte Inferenzverfahren (SBI)* wären eine sinnvolle Ergänzung in der vorliegenden Analyse gewesen, *fehlen* aber.
+- NEG *Simulationsbasierte Inferenzverfahren (SBI)* wären eine sinnvolle Ergänzung in der vorliegenden Analyse gewesen, *fehlen* aber.
 
-- \- Gerade im Hinblick zu den (möglicherweise) verletzten Annahmen, die "klassische" Verfahren (wie der t-Test) benötigen, wären simulationsbasierte Verfahren eine sinnvolle Ergänzung oder Alternative gewesen.
+- NEG Gerade im Hinblick zu den (möglicherweise) verletzten Annahmen, die "klassische" Verfahren (wie der t-Test) benötigen, wären simulationsbasierte Verfahren eine sinnvolle Ergänzung oder Alternative gewesen.
 
-- \- Es wurden *nicht angemessene Verfahren* der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt; stattdessen wurden falsche bzw. nicht angebrachte oder keine oder nicht optimale statistische Verfahren ausgewählt.
+- NEG Es wurden *nicht angemessene Verfahren* der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt; stattdessen wurden falsche bzw. nicht angebrachte oder keine oder nicht optimale statistische Verfahren ausgewählt.
 
-- \- *Multivariate Auswertungsverfahren* wären eine sinnvolle Ergänzung gewesen, fehlen aber (ganz oder teilweise) bzw. sind nicht im Hauptteil dokumentiert (Beispiel: Die Korrelationsanalysen oder einfache Regressionsanalysen wären durch eine multiple Regression gut ergänzt worden. So wäre es z. B. möglich gewesen, den Einfluss einzelner Variablen vom Einfluss anderer Variablen zu "befreien"). Der Vorteil multivariater Verfahren wie etwa der multiplen Regressionsanalyse liegt in ihrer Fähigkeit, den "wahren" Einfluss eines Prädiktors besser zu bestimmen, als dies etwa mehrere einfache Regressionsanalysen (mit nur jeweils einem Prädiktor) leisten. Die multiple Regression hilft, etwaige "Überschneidungen" von Variablen bzw. "Nettoeffekte" einzelner Variablen zu bestimmen.
+- NEG *Multivariate Auswertungsverfahren* wären eine sinnvolle Ergänzung gewesen, fehlen aber (ganz oder teilweise) bzw. sind nicht im Hauptteil dokumentiert (Beispiel: Die Korrelationsanalysen oder einfache Regressionsanalysen wären durch eine multiple Regression gut ergänzt worden. So wäre es z. B. möglich gewesen, den Einfluss einzelner Variablen vom Einfluss anderer Variablen zu "befreien"). Der Vorteil multivariater Verfahren wie etwa der multiplen Regressionsanalyse liegt in ihrer Fähigkeit, den "wahren" Einfluss eines Prädiktors besser zu bestimmen, als dies etwa mehrere einfache Regressionsanalysen (mit nur jeweils einem Prädiktor) leisten. Die multiple Regression hilft, etwaige "Überschneidungen" von Variablen bzw. "Nettoeffekte" einzelner Variablen zu bestimmen.
 
-- \- Es wurden keine oder nicht genügend *deskriptivstatistische* Kennwerte berichtet.
-- \- *Inferenzstatistische Verfahren fehlen* ganz oder teilweise.
+- NEG Es wurden keine oder nicht genügend *deskriptivstatistische* Kennwerte berichtet.
+- NEG *Inferenzstatistische Verfahren fehlen* ganz oder teilweise.
 
-- \- Die eingesetzten (statistischen) Verfahren wurde *nicht (durchgängig) spezifiziert*; so wird nicht (immer) klar, welche Berechnungen durchgeführt bzw. welche Modelle berechnet wurden bzw. werden sollen. Wenn die Leserschaft nicht weiß, welche statistischen Verfahren verwendet wurden, ist mit den Ergebnissen wenig anzufangen. Daher ist es von hoher Bedeutung, deutlich anzugeben, welche statistischen Verfahren (allgemein: welche Methoden) eingesetzt wurden bzw. werden sollen.
-- \- Bei der Durchführung einer statistischen Simulation reicht es nicht, z. B. von einem Permutationstest zu sprechen. Dazu ist noch anzugeben, welcher Kennwert (Mittelwert? Median?) permutiert wurde. 
+- NEG Die eingesetzten (statistischen) Verfahren wurde *nicht (durchgängig) spezifiziert*; so wird nicht (immer) klar, welche Berechnungen durchgeführt bzw. welche Modelle berechnet wurden bzw. werden sollen. Wenn die Leserschaft nicht weiß, welche statistischen Verfahren verwendet wurden, ist mit den Ergebnissen wenig anzufangen. Daher ist es von hoher Bedeutung, deutlich anzugeben, welche statistischen Verfahren (allgemein: welche Methoden) eingesetzt wurden bzw. werden sollen.
+- NEG Bei der Durchführung einer statistischen Simulation reicht es nicht, z. B. von einem Permutationstest zu sprechen. Dazu ist noch anzugeben, welcher Kennwert (Mittelwert? Median?) permutiert wurde. 
 
 
-- \- Die Auswahl der Verfahren zur Datenanalyse ist *nicht in ausreichendem Maß erläutert* und/oder begründet.
+- NEG Die Auswahl der Verfahren zur Datenanalyse ist *nicht in ausreichendem Maß erläutert* und/oder begründet.
 
-- \- Der Abschnitt zur Beschreibung der gewählten Verfahren zur Datenanalyse hätte *von einer detaillierteren Erörterung profitiert* (Beispiel: Welches Verfahren für welche Hypothese? Welche Variablen sollen jeweils analysiert werden?)
+- NEG Der Abschnitt zur Beschreibung der gewählten Verfahren zur Datenanalyse hätte *von einer detaillierteren Erörterung profitiert* (Beispiel: Welches Verfahren für welche Hypothese? Welche Variablen sollen jeweils analysiert werden?)
 
-- \- Es wird *nicht (genau genug) berichtet*, mit welchen *statistischen Methoden* die Daten der *geplanten* Studie ausgewertet werden sollen.
+- NEG Es wird *nicht (genau genug) berichtet*, mit welchen *statistischen Methoden* die Daten der *geplanten* Studie ausgewertet werden sollen.
 
-- \- Es wurden (in Teilen) unpassende Methoden der Datenanalyse ausgewählt.
+- NEG Es wurden (in Teilen) unpassende Methoden der Datenanalyse ausgewählt.
 
-- \- Die ausgewählten Methoden der Datenanalyse passen nicht zu den Hypothesen.
+- NEG Die ausgewählten Methoden der Datenanalyse passen nicht zu den Hypothesen.
 
-- \- Die ausgewählten Methoden der Datenanalyse passen nicht zu den Skalenniveaus der Variablen in den Hypothesen.
+- NEG Die ausgewählten Methoden der Datenanalyse passen nicht zu den Skalenniveaus der Variablen in den Hypothesen.
 
 
 
@@ -1926,25 +1937,25 @@ NUR QUALI:
 
 `+++`
 
-+ \+ Die statistischen Verfahren wurden (weitgehend) *richtig* (im Sinne von fehlerfrei) *angewendet.*
-+ \+ Die Ergebnisse der eingesetzten statistischen Verfahren wurden (weitgehend) richtig dargestellt.
++ POS Die statistischen Verfahren wurden (weitgehend) *richtig* (im Sinne von fehlerfrei) *angewendet.*
++ POS Die Ergebnisse der eingesetzten statistischen Verfahren wurden (weitgehend) richtig dargestellt.
 
 
-- \+ Die Ergebnisse wurden in *übersichtlicher und stringenter Weise dargestellt*.
-- \+ Es wurde ein sinnvoller und *breiter Überblick an Statistiken berichtet*.
+- POS Die Ergebnisse wurden in *übersichtlicher und stringenter Weise dargestellt*.
+- POS Es wurde ein sinnvoller und *breiter Überblick an Statistiken berichtet*.
 
 `---`
 
 
-- \- Es wurden *nicht alle relevanten statistischen Kennwerte berichtet* (z. B. fehlen t-Werte, SE oder deskriptive Kennwerte).
-- \- Aufgrund der fehlenden statistischen Kennwerte ist das methodische Vorgehen nur eingeschränkt nachvollziehen.
-- \- Die Ergebnisse der statistischen Verfahren wurden *lückenhaft* oder falsch berichtet.
-- \- Einige Verfahren wurden *falsch angewendet* (z. B. falsches Skalenniveau angenommen oder UV und AV verwechselt).
-- \- Eine quantitative Variable in *ordinale Stufen einzuteilen*, ist statistisch nachteilig (Power-Verlust), vgl. MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). *On the practice of dichotomization of quantitative variables*. Psychological Methods, 7(1), 19-40. doi: http://dx.doi.org/10.1037/1082-989X.7.1.19.
+- NEG Es wurden *nicht alle relevanten statistischen Kennwerte berichtet* (z. B. fehlen t-Werte, SE oder deskriptive Kennwerte).
+- NEG Aufgrund der fehlenden statistischen Kennwerte ist das methodische Vorgehen nur eingeschränkt nachvollziehen.
+- NEG Die Ergebnisse der statistischen Verfahren wurden *lückenhaft* oder falsch berichtet.
+- NEG Einige Verfahren wurden *falsch angewendet* (z. B. falsches Skalenniveau angenommen oder UV und AV verwechselt).
+- NEG Eine quantitative Variable in *ordinale Stufen einzuteilen*, ist statistisch nachteilig (Power-Verlust), vgl. MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). *On the practice of dichotomization of quantitative variables*. Psychological Methods, 7(1), 19-40. doi: http://dx.doi.org/10.1037/1082-989X.7.1.19.
 
-- \- Bei metrischen Variablen mit vielen Ausprägungen sollten sollten keine Häufigkeiten ausgezählt werden, da es sehr viele Kategorien mit jeweils sehr wenig "Insassen" geben wird. Das Ergebnis ist also nur wenig aussagekräftig.
-- \- Der *Standardfehler* ist zur Beurteilung der Signifikanz nötig, wurde aber *nicht berichtet.*
-- \- Es wurden Verfahren ausgeführt, die dann *nicht interpretiert* bzw. deren Ergebnisse *nicht (oder zu knapp) beschrieben* wurden. 
+- NEG Bei metrischen Variablen mit vielen Ausprägungen sollten sollten keine Häufigkeiten ausgezählt werden, da es sehr viele Kategorien mit jeweils sehr wenig "Insassen" geben wird. Das Ergebnis ist also nur wenig aussagekräftig.
+- NEG Der *Standardfehler* ist zur Beurteilung der Signifikanz nötig, wurde aber *nicht berichtet.*
+- NEG Es wurden Verfahren ausgeführt, die dann *nicht interpretiert* bzw. deren Ergebnisse *nicht (oder zu knapp) beschrieben* wurden. 
 
 
 
@@ -1954,7 +1965,7 @@ NUR QUALI:
 
 ### Datenvorverarbeitung
 
-- \- Ein metrische Variable in zwei Gruppen aufzuteilen (sog. "*Dichotomisierung*"), mit z. B. dem Median als Grenze ("*Mediansplit*") ist statistisch i.d.R. nachteilig und sollte vermieden werden. Die vorliegende Arbeit verwendet solch eine Art von nicht sinnvoller Dichotomisierung. ), vgl. MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). *On the practice of dichotomization of quantitative variables*. Psychological Methods, 7(1), 19-40. doi: http://dx.doi.org/10.1037/1082-989X.7.1.19.
+- NEG Ein metrische Variable in zwei Gruppen aufzuteilen (sog. "*Dichotomisierung*"), mit z. B. dem Median als Grenze ("*Mediansplit*") ist statistisch i.d.R. nachteilig und sollte vermieden werden. Die vorliegende Arbeit verwendet solch eine Art von nicht sinnvoller Dichotomisierung. ), vgl. MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). *On the practice of dichotomization of quantitative variables*. Psychological Methods, 7(1), 19-40. doi: http://dx.doi.org/10.1037/1082-989X.7.1.19.
 
 
 
@@ -1963,26 +1974,26 @@ NUR QUALI:
 
 #### Verwendung/Anzahl
 
-- \+ *Diagramme* wurden sinnvoll eingesetzt, um zentrale Ergebnisse zu vermitteln (z. B. Boxplots, Histogramme, Streudiagramme).
+- POS *Diagramme* wurden sinnvoll eingesetzt, um zentrale Ergebnisse zu vermitteln (z. B. Boxplots, Histogramme, Streudiagramme).
 
-- \- *(Mehr) Diagramme hätten geholfen*, die empirischen Ergebnisse anschaulicher und greifbarer zu machen.
+- NEG *(Mehr) Diagramme hätten geholfen*, die empirischen Ergebnisse anschaulicher und greifbarer zu machen.
 
 
 
 
 #### Auswahl
 
-+ \+ Es wurden *sinnvolle Diagramme* ausgewählt, die für die Forschungsfrage relevante Einblicke ermöglichen.
++ POS Es wurden *sinnvolle Diagramme* ausgewählt, die für die Forschungsfrage relevante Einblicke ermöglichen.
 
 `---`
 
 
-- \- Zwar wurden Diagramme eingesetzt, um zentrale statistische Sachverhalte zu verdeutlichen, jedoch war die *Wahl der Diagramme nicht immer ideal* (z. B. Balkendiagramm wo ein Histogramm informationsreicher gewesen wäre).
-- \- Der *Boxplot* ist gut geeignet, um die Verteilungen mehrerer Gruppen zu vergleichen (Histogramme hingegen weniger). Möchten man hingegen nur eine Verteilung visualisieren ist ein Histogramm oder eine Dichte-Diagramm besser geeignet.
+- NEG Zwar wurden Diagramme eingesetzt, um zentrale statistische Sachverhalte zu verdeutlichen, jedoch war die *Wahl der Diagramme nicht immer ideal* (z. B. Balkendiagramm wo ein Histogramm informationsreicher gewesen wäre).
+- NEG Der *Boxplot* ist gut geeignet, um die Verteilungen mehrerer Gruppen zu vergleichen (Histogramme hingegen weniger). Möchten man hingegen nur eine Verteilung visualisieren ist ein Histogramm oder eine Dichte-Diagramm besser geeignet.
 
-- \- Untersucht man einen Mittelwert bzw. *Mittelwertsunterschied*, so ist der *Boxplot keine ideale Visualisierung*, da im Boxplot der Median (nicht der Mittelwert) dargestellt wird. Eine gute Alternative wäre ein Violinplot plus einen gut sichtbaren Punkt für den (jeweiligen) Mittelwert (im Standard-Statistikskript ist dies dargestellt).
+- NEG Untersucht man einen Mittelwert bzw. *Mittelwertsunterschied*, so ist der *Boxplot keine ideale Visualisierung*, da im Boxplot der Median (nicht der Mittelwert) dargestellt wird. Eine gute Alternative wäre ein Violinplot plus einen gut sichtbaren Punkt für den (jeweiligen) Mittelwert (im Standard-Statistikskript ist dies dargestellt).
 
-- \- Ein *Diagramm*, das die *Hauptanalyse* (z.B. zum Zusammenhang zweier nominaler Variablen) *unterstützt*, wäre sinnvoll gewesen, *fehlt* aber.
+- NEG Ein *Diagramm*, das die *Hauptanalyse* (z.B. zum Zusammenhang zweier nominaler Variablen) *unterstützt*, wäre sinnvoll gewesen, *fehlt* aber.
 
 
 
@@ -1993,23 +2004,23 @@ NUR QUALI:
 
 
 #### Gestalterische Qualität - Bewertung
-- \+ Die gestalterische Qualität der Abbildungen ist *sehr hoch*.
-- \+ Die gestalterische Qualität der Abbildungen ist *hoch.*
-- \+ Die gestalterische Qualität einiger Abbildungen (nicht aller) ist *hoch.*
-- \+ Die gestalterische Qualität der Abbildungen ist *insgesamt gut*.
-- \+ Die gestalterische Qualität der Abbildungen ist *befriedigend bis gu*t.
+- POS Die gestalterische Qualität der Abbildungen ist *sehr hoch*.
+- POS Die gestalterische Qualität der Abbildungen ist *hoch.*
+- POS Die gestalterische Qualität einiger Abbildungen (nicht aller) ist *hoch.*
+- POS Die gestalterische Qualität der Abbildungen ist *insgesamt gut*.
+- POS Die gestalterische Qualität der Abbildungen ist *befriedigend bis gu*t.
 
 
 
-- \+- Die gestalterische Qualität der Abbildungen ist von *befriedigender Güte*.
+- POS-NEG Die gestalterische Qualität der Abbildungen ist von *befriedigender Güte*.
 
 `---`
 
 
-- \- Die gestalterische Qualität der Abbildungen *überzeugt nicht immer* (z. B. pixelig oder verzerrt).
+- NEG Die gestalterische Qualität der Abbildungen *überzeugt nicht immer* (z. B. pixelig oder verzerrt).
 
-- \- Die gestalterische Qualität der Abbildungen ist *nicht immer ausreichend* (z. B. pixelig oder verzerrt).
-- \- Die gestalterische Qualität der Abbildungen ist *zumeist unzureichend* (z. B. pixelig oder verzerrt).
+- NEG Die gestalterische Qualität der Abbildungen ist *nicht immer ausreichend* (z. B. pixelig oder verzerrt).
+- NEG Die gestalterische Qualität der Abbildungen ist *zumeist unzureichend* (z. B. pixelig oder verzerrt).
 
 
 #### Gestalterische Qualität - Kommentare
@@ -2024,15 +2035,15 @@ NUR QUALI:
 
 
 
-- \- *Balkendiagramme* sollten nicht in der Umrandung (ggplot: Parameter `color`), sondern wenn dann in der *Füllung* (ggplot: Parameter `fill`) eingefärbt werden.
-- \- Die Diagramme sind *nicht einheitlich gestaltet*; die Format-Vorlage wechselt.
-- \- *Kreisdiagramme* ("*Torten*") sollten gemieden werden, da (vor allem bei vielen kleinen Kategorien mit ähnlicher Häufigkeit) die visuelle Diskriminierbarkeit eingeschränkt ist. Einfach gesagt: Man sieht nicht unbedingt, was Sache ist, in einem Kreisdiagramm. In der vorliegenden Arbeit finden aber solche Diagramme Verwendung.
-- \- *3D-Diagramme* verzerren zumeist den Blickwinkel, so dass Winkeltreue nicht mehr gegeben ist. Der optische Eindruck von Winkeln (z. B. in einem Kreisdiagramm) korrespondiert dann nicht mehr unbedingt korrekt mit dem Winkel laut Daten.
-- \- Bei Balkendiagrammen ist es zumeist hilfreich, *nach der Höhe der Balken zu sortieren* -- zumindest, wenn die Frage im Vordergrund steht, was die häufigste (oder seltenste) Kategorie ist. Eine alphabetische Sortierung oder eine willkürliche Sortierung ist fast immer nicht sinnvoll. Dies wurde in der vorliegenden Arbeit nicht (ausreichend) beachtet.
-- \- Die Hypothesen untersuchen den *Mittelwert*, aber alle oder einige Diagramme zeigen nicht den Mittelwert, sondern den *Median* (z. B. mittels eines Boxplots).
-- \- Einige Diagramme leiden unter "*Overplotting*", d. h. viele Details (z. B. Punkte) sind übereinander gezeichnet, so dass die (relative) Anzahl von Punkten im Diagramm schwer bzw. eingeschränkt erkennbar ist.
+- NEG *Balkendiagramme* sollten nicht in der Umrandung (ggplot: Parameter `color`), sondern wenn dann in der *Füllung* (ggplot: Parameter `fill`) eingefärbt werden.
+- NEG Die Diagramme sind *nicht einheitlich gestaltet*; die Format-Vorlage wechselt.
+- NEG *Kreisdiagramme* ("*Torten*") sollten gemieden werden, da (vor allem bei vielen kleinen Kategorien mit ähnlicher Häufigkeit) die visuelle Diskriminierbarkeit eingeschränkt ist. Einfach gesagt: Man sieht nicht unbedingt, was Sache ist, in einem Kreisdiagramm. In der vorliegenden Arbeit finden aber solche Diagramme Verwendung.
+- NEG *3D-Diagramme* verzerren zumeist den Blickwinkel, so dass Winkeltreue nicht mehr gegeben ist. Der optische Eindruck von Winkeln (z. B. in einem Kreisdiagramm) korrespondiert dann nicht mehr unbedingt korrekt mit dem Winkel laut Daten.
+- NEG Bei Balkendiagrammen ist es zumeist hilfreich, *nach der Höhe der Balken zu sortieren* -- zumindest, wenn die Frage im Vordergrund steht, was die häufigste (oder seltenste) Kategorie ist. Eine alphabetische Sortierung oder eine willkürliche Sortierung ist fast immer nicht sinnvoll. Dies wurde in der vorliegenden Arbeit nicht (ausreichend) beachtet.
+- NEG Die Hypothesen untersuchen den *Mittelwert*, aber alle oder einige Diagramme zeigen nicht den Mittelwert, sondern den *Median* (z. B. mittels eines Boxplots).
+- NEG Einige Diagramme leiden unter "*Overplotting*", d. h. viele Details (z. B. Punkte) sind übereinander gezeichnet, so dass die (relative) Anzahl von Punkten im Diagramm schwer bzw. eingeschränkt erkennbar ist.
 
-- \- Die Verwendung von *Fehlerbalken* in Diagrammen ist eine gute Idee; allerdings sollte im Text (oder besser in der Diagrammbeschriftung) erläutert werden, was der Fehlerbalken darstellt: Den *Standardfehler* (SE), die Standardabweichung oder das 95%-Konfidenzintervall?
+- NEG Die Verwendung von *Fehlerbalken* in Diagrammen ist eine gute Idee; allerdings sollte im Text (oder besser in der Diagrammbeschriftung) erläutert werden, was der Fehlerbalken darstellt: Den *Standardfehler* (SE), die Standardabweichung oder das 95%-Konfidenzintervall?
 
 
 
@@ -2041,43 +2052,43 @@ NUR QUALI:
 
 `+++`
 
-- \+ Im Hinblick auf die Abbildungen sticht positiv ins Auge, dass die  Abbildungen (zumeist oder immer) gestochen dargestellt sind, also mit *hoher Auflösung* in den Druck eingegangen sind. Dies kann durch den Einsatz von Vektorgrafiken realisiert worden sein, was ein Indikator für technisches Geschick ist unabhängig oder zusätzlich zur optischen Anmutung der Abbildungen.
+- POS Im Hinblick auf die Abbildungen sticht positiv ins Auge, dass die  Abbildungen (zumeist oder immer) gestochen dargestellt sind, also mit *hoher Auflösung* in den Druck eingegangen sind. Dies kann durch den Einsatz von Vektorgrafiken realisiert worden sein, was ein Indikator für technisches Geschick ist unabhängig oder zusätzlich zur optischen Anmutung der Abbildungen.
 
 
 `---`
 
-- \- Es wäre von Vorteil gewesen, einige *Diagramme nicht (per "Screenshot") einzufügen*, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
+- NEG Es wäre von Vorteil gewesen, einige *Diagramme nicht (per "Screenshot") einzufügen*, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
 
-- \- Einige Abbildungen sind "*pixelig*".
+- NEG Einige Abbildungen sind "*pixelig*".
 
-- \- Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) -- zumal mit geringer Auflösung -- eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
+- NEG Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) -- zumal mit geringer Auflösung -- eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
 
 
 
 #### Farbwahl
 
-- \- Die gewählte *Farbpalette* war *nicht (durchgehend) gut für S/W-Druck geeignet*. Der Sättigungswert der Farben hätte besser variiert werden können Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>). Es sei hinzugefügt, dass es sich hierbei nur um ein Detail handelt, dass kaum ins Gewicht fällt. Vielmehr ist dieser Hinweis als Angebot für ambitionierte Lernende zu verstehen, um sich tiefer in (für die Praxis) wichtige Themen einzuarbeiten. 
+- NEG Die gewählte *Farbpalette* war *nicht (durchgehend) gut für S/W-Druck geeignet*. Der Sättigungswert der Farben hätte besser variiert werden können Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>). Es sei hinzugefügt, dass es sich hierbei nur um ein Detail handelt, dass kaum ins Gewicht fällt. Vielmehr ist dieser Hinweis als Angebot für ambitionierte Lernende zu verstehen, um sich tiefer in (für die Praxis) wichtige Themen einzuarbeiten. 
 
-- \- Idealerweise ist die gewählte Farbpalette auch für *Farb-Sehschwächen* geeignet. Dies wurde in der vorliegenden Arbeit zwar nicht (durchgängig) berücksichtigt, ist aber auch nur ein Detail, das kaum ins Gewicht fällt.
+- NEG Idealerweise ist die gewählte Farbpalette auch für *Farb-Sehschwächen* geeignet. Dies wurde in der vorliegenden Arbeit zwar nicht (durchgängig) berücksichtigt, ist aber auch nur ein Detail, das kaum ins Gewicht fällt.
 
 
 
 
 #### Achsen, Labels und Legenden von Abbildungen {#achsenetc}
-- \+ Die Achsen der Diagramme wurden *sinnvoll beschriftet*.
-- \+ Die Achsen der Diagramme wurden *(zumeist) sinnvoll beschrifte*t.
+- POS Die Achsen der Diagramme wurden *sinnvoll beschriftet*.
+- POS Die Achsen der Diagramme wurden *(zumeist) sinnvoll beschrifte*t.
 
-- \+- Die Achsen der Diagramme wurden *nur teilweise oder nicht (immer) klar verständlich* (z. B. in einer Abkürzung) beschriftet. Verständliche Achsenbeschriftungen (z. B. verständlicher, deutscher und nicht abgekürzter Variablenname). Ansonsten sind die Diagramme (für sich alleine stehend) schwer(er) zu verstehen.
+- POS-NEG Die Achsen der Diagramme wurden *nur teilweise oder nicht (immer) klar verständlich* (z. B. in einer Abkürzung) beschriftet. Verständliche Achsenbeschriftungen (z. B. verständlicher, deutscher und nicht abgekürzter Variablenname). Ansonsten sind die Diagramme (für sich alleine stehend) schwer(er) zu verstehen.
 
 `---`
 
 
-- \- Die Legende von Diagrammen sollten das Diagramm erläutern (vgl. auch APA-/DGPs-Richtlinien).
-- \- Die Achsen von Diagrammen sollten mit *aussagekräftigen* bzw. *verständlichen*  Bezeichnungen versehen werden (z. B. ganze Wörter in deutscher Sprache).
+- NEG Die Legende von Diagrammen sollten das Diagramm erläutern (vgl. auch APA-/DGPs-Richtlinien).
+- NEG Die Achsen von Diagrammen sollten mit *aussagekräftigen* bzw. *verständlichen*  Bezeichnungen versehen werden (z. B. ganze Wörter in deutscher Sprache).
 
-- \- Die Beschriftungen der Ausprägungen der Achsen (Labels) war *nicht durchgängig gut zu lesen* (z. B. überdeckten sich die Achsenlabels).
+- NEG Die Beschriftungen der Ausprägungen der Achsen (Labels) war *nicht durchgängig gut zu lesen* (z. B. überdeckten sich die Achsenlabels).
 
-- \- Teilweise fehlen die *Beschriftungen* der *Achsen* in den *Diagrammen*.
+- NEG Teilweise fehlen die *Beschriftungen* der *Achsen* in den *Diagrammen*.
 
 
 
@@ -2094,23 +2105,23 @@ NUR QUALI:
 
 `+++`
 
-- \+ Insgesamt ist der Umfang der Datenanalyse als *von hoher Güte* einzuschätzen. 
-- \+ Insgesamt ist der Umfang der Datenanalyse als *gut* einzuschätzen. 
+- POS Insgesamt ist der Umfang der Datenanalyse als *von hoher Güte* einzuschätzen. 
+- POS Insgesamt ist der Umfang der Datenanalyse als *gut* einzuschätzen. 
 
 
-- \+ Die Datenanalyse ist insgesamt *sehr umfangreich*.
-- \+ Die Datenanalyse ist insgesamt *umfangreich.*
+- POS Die Datenanalyse ist insgesamt *sehr umfangreich*.
+- POS Die Datenanalyse ist insgesamt *umfangreich.*
 
 
 `---`
 
 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von *mittlerer (befriedigender) bis hoher Güte* einzuschätzen. 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von *mittlerer* (befriedigender) Güte einzuschätzen. 
+- POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *mittlerer (befriedigender) bis hoher Güte* einzuschätzen. 
+- POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *mittlerer* (befriedigender) Güte einzuschätzen. 
 
 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
-- \+- Insgesamt ist der Umfang der Datenanalyse als von *geringer* Güte einzuschätzen. 
+- POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
+- POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *geringer* Güte einzuschätzen. 
 
 
 
@@ -2118,88 +2129,88 @@ NUR QUALI:
 
 `+++`
 
-- \+ Insgesamt ist das Niveau  er Datenanalyse als von *hoher* Güte einzuschätzen. 
-- \+ Insgesamt ist das Niveau der Datenanalyse als *gut* einzuschätzen. 
+- POS Insgesamt ist das Niveau  er Datenanalyse als von *hoher* Güte einzuschätzen. 
+- POS Insgesamt ist das Niveau der Datenanalyse als *gut* einzuschätzen. 
 
-- \+ Die Datenanalyse ist insgesamt als *qualitativ gut* einzustufen.
+- POS Die Datenanalyse ist insgesamt als *qualitativ gut* einzustufen.
 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von *mittlerer*  (befriedigender) bis hoher Güte einzuschätzen. 
-
-
-- \+- Insgesamt ist das Niveau der Datenanalyse als von *mittlerer* (befriedigender) Güte einzuschätzen. 
+- POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *mittlerer*  (befriedigender) bis hoher Güte einzuschätzen. 
 
 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
-- \+- Insgesamt ist das Niveau der Datenanalyse als von *geringer* Güte einzuschätzen. 
+- POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *mittlerer* (befriedigender) Güte einzuschätzen. 
 
-- \- Zentrale Konzepte oder Methoden oder Prinzipien der Datenanalyse sind fehlerbehaftet.
+
+- POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
+- POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *geringer* Güte einzuschätzen. 
+
+- NEG Zentrale Konzepte oder Methoden oder Prinzipien der Datenanalyse sind fehlerbehaftet.
 
 ### Deskriptive Statistik {#deskriptivstatistik}
 
-- \+ Es wurde eine *sinnvolle Auswahl* an deskriptiven Statistik berichtet.
-- \+ Die berichteten deskriptiven Statistiken wurden *korrekt interpretiert*.
+- POS Es wurde eine *sinnvolle Auswahl* an deskriptiven Statistik berichtet.
+- POS Die berichteten deskriptiven Statistiken wurden *korrekt interpretiert*.
 
 
 ### Häufigkeitsanalysen
 
 `+++`
 
-- \+ Für eine Häufigkeitsanalyse wurde vorab eine Gruppierung ("Binnen") in einige zusammenfassende Kategorien (z. B. "unter 3000$ Einkommen") vorgenommen. Die nachgeschaltete Häufigkeit wurde damit übersichtlicher und nützlicher.
+- POS Für eine Häufigkeitsanalyse wurde vorab eine Gruppierung ("Binnen") in einige zusammenfassende Kategorien (z. B. "unter 3000$ Einkommen") vorgenommen. Die nachgeschaltete Häufigkeit wurde damit übersichtlicher und nützlicher.
 
 
 `---`
 
 
-- \- Eine *Häufigkeitsaufstellung* sehr vieler Kategorien ist *wenig zweckdienlich*, da unübersichtlich. 
-- \- Ein sinnvolles Vorgehen beim Berichten der Häufigkeit vieler Kategorien ist es, diese *in Ober-Kategorien zusammenzufassen*, so dass es weniger Kategorien zu berichten gibt. Damit kann ein übersichtlicheres Ergebnis erreicht werden.
-- \- Eine Häufigkeitsanalyse sollte i.d.R. *sortiert* erfolgen, d. h. häufigere Kategorien sollten vor selteneren stehen. Eine willkürliche, alphabetische oder sonstige Sortierung ist zumeist wenig nützlich.
+- NEG Eine *Häufigkeitsaufstellung* sehr vieler Kategorien ist *wenig zweckdienlich*, da unübersichtlich. 
+- NEG Ein sinnvolles Vorgehen beim Berichten der Häufigkeit vieler Kategorien ist es, diese *in Ober-Kategorien zusammenzufassen*, so dass es weniger Kategorien zu berichten gibt. Damit kann ein übersichtlicheres Ergebnis erreicht werden.
+- NEG Eine Häufigkeitsanalyse sollte i.d.R. *sortiert* erfolgen, d. h. häufigere Kategorien sollten vor selteneren stehen. Eine willkürliche, alphabetische oder sonstige Sortierung ist zumeist wenig nützlich.
 
 
 
 
 ### Effektstärke  (xxeffsize) {#effsize}
-- \+ Das *Effektstärkemaß* (wie z. B. Cohens d oder R-Quadrat) ist eine sinnvolle, sogar notwendige Ergänzung zu den anderen deskriptiv-statistischen Werten und wurde sinnvoll eingesetzt; Angaben zur Schätzgenauigkeit eines Effekts sind dabei von hohem Nutzen.
+- POS Das *Effektstärkemaß* (wie z. B. Cohens d oder R-Quadrat) ist eine sinnvolle, sogar notwendige Ergänzung zu den anderen deskriptiv-statistischen Werten und wurde sinnvoll eingesetzt; Angaben zur Schätzgenauigkeit eines Effekts sind dabei von hohem Nutzen.
 
 
 `---`
 
 
-- \- Maße der Effektstärke (z. B. Cohens D oder R-Quadrat) *wären eine sinnvolle Ergänzung gewesen*, wurden aber nicht oder nur teilweise verwendet. Auch bei nicht-signifikanten Ergebnissen sind Effektstärken -- insbesondere mit Angaben zur Schätzgenauigkeit -- sinnvoll.
+- NEG Maße der Effektstärke (z. B. Cohens D oder R-Quadrat) *wären eine sinnvolle Ergänzung gewesen*, wurden aber nicht oder nur teilweise verwendet. Auch bei nicht-signifikanten Ergebnissen sind Effektstärken -- insbesondere mit Angaben zur Schätzgenauigkeit -- sinnvoll.
 
 
 ### Robustheit
-- \+ Es wurden *"robuste" Statistiken berichtet* (z. B. Median oder IQR).
-- \+ Der Datensatz wurde auf Ausreißer (Robustheit) hin untersucht.
+- POS Es wurden *"robuste" Statistiken berichtet* (z. B. Median oder IQR).
+- POS Der Datensatz wurde auf Ausreißer (Robustheit) hin untersucht.
 
 
 `---`
 
 
-- \- "Robuste" Statistiken (wie Median oder IQR) wären eine sinnvolle Ergänzung/Alternative zur vorliegenden Analyse gewesen, *fehlen* aber.
+- NEG "Robuste" Statistiken (wie Median oder IQR) wären eine sinnvolle Ergänzung/Alternative zur vorliegenden Analyse gewesen, *fehlen* aber.
 
-- \- Es wurde versäumt, den Datensatz  auf *Ausreißer* (Stichwort Robustheit) hin zu untersuchen.
+- NEG Es wurde versäumt, den Datensatz  auf *Ausreißer* (Stichwort Robustheit) hin zu untersuchen.
 
 
 
 ### Konfidenzintervalle (xxkonfi) {#ki}
 
-- \+  Konfidenzintervalle wurden *in sinnvoller Weise berichtet*.
+- POS  Konfidenzintervalle wurden *in sinnvoller Weise berichtet*.
 
 
 
-- \- Konfidenzintervalle wären eine sinnvolle Erweiterung gewesen (auch bei nicht-signifikanten Ergebnissen), *fehlen* aber.
+- NEG Konfidenzintervalle wären eine sinnvolle Erweiterung gewesen (auch bei nicht-signifikanten Ergebnissen), *fehlen* aber.
 
 
 ### Voraussetzungen/Annahmen 
-- \+ Einige oder alle statistischen *Voraussetzungen* (*Annahmen*) der eingesetzten inferenzstatistischen Verfahren wurden geprüft (z. B. Test auf Normalverteilung).
+- POS Einige oder alle statistischen *Voraussetzungen* (*Annahmen*) der eingesetzten inferenzstatistischen Verfahren wurden geprüft (z. B. Test auf Normalverteilung).
 
-- \- Wenn die *Voraussetzungen* für parametrische Verfahren *nicht erfüllt* sind, so können oft *non-parametrische Verfahren* eingesetzt werden.
+- NEG Wenn die *Voraussetzungen* für parametrische Verfahren *nicht erfüllt* sind, so können oft *non-parametrische Verfahren* eingesetzt werden.
 
-- \- Der *Shapiro-Wilk-Test* ist ein sehr *(zu) strenger Test* für Normalverteilung und sollte zumindest durch andere, v.a. grafisch-explorative Methoden, ergänzt werden.
+- NEG Der *Shapiro-Wilk-Test* ist ein sehr *(zu) strenger Test* für Normalverteilung und sollte zumindest durch andere, v.a. grafisch-explorative Methoden, ergänzt werden.
 
-- \- Es ist ein *Irrglaube*, dass *große Stichproben* alleine schon eine *Normalverteilung* implizieren. Auch eine große Stichprobe an z. B. Filmen wird keine Normalverteilung der Einnahmen aufzeigen.
+- NEG Es ist ein *Irrglaube*, dass *große Stichproben* alleine schon eine *Normalverteilung* implizieren. Auch eine große Stichprobe an z. B. Filmen wird keine Normalverteilung der Einnahmen aufzeigen.
 
-- \- Laut Gelman und Hill (2014) ist die *wichtigste Annahme der Regressionsanalyse*, dass es *keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen*. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
+- NEG Laut Gelman und Hill (2014) ist die *wichtigste Annahme der Regressionsanalyse*, dass es *keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen*. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
 
 - \ Laut Box (1953) ist die *Varianzanalyse robust gegenüber der Verletzung der Annahme gleicher Varianzen*, wenn die Stichproben ähnlich groß sind (bis zu einen Faktor von 1.5): 
 
@@ -2221,7 +2232,7 @@ before making an analysis of variance test ior homogeneity of means in which hom
  Demnach kann in diesen Fällen eine Varianzanalyse verwendet werden.
  
  
-- \- Der *t-Test ist robust gegenüber Verletzungen seiner Annahmen* (insbesondere der Normalverteilung), wenn die Stichprobe groß genug ist (> 30): "By the time the sample sizes reach 25 or 30, the approach should be close enough that one can, in effect, ignore the effects of violations of assump- tions except for extremes." (S. 63), Boneau, C. A. (1960). The effects of violations of assumptions underlying the t test. *Psychological bulletin*, 57(1), 49-64.
+- NEG Der *t-Test ist robust gegenüber Verletzungen seiner Annahmen* (insbesondere der Normalverteilung), wenn die Stichprobe groß genug ist (> 30): "By the time the sample sizes reach 25 or 30, the approach should be close enough that one can, in effect, ignore the effects of violations of assump- tions except for extremes." (S. 63), Boneau, C. A. (1960). The effects of violations of assumptions underlying the t test. *Psychological bulletin*, 57(1), 49-64.
 
 
 
@@ -2229,11 +2240,11 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 `+++`
 
-- \+ Der p-Wert wird *exakt erläutert* bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass "Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt".
+- POS Der p-Wert wird *exakt erläutert* bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass "Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt".
 
-- \+ Der p-Wert wird *einigermaßen korrekt* erläutert bzw. verwendet. Vollständig korrekt wäre etwa "Die Daten (und noch extremere) sind unwahrscheinlich, unter der Annahme, dass die H0 gilt".
+- POS Der p-Wert wird *einigermaßen korrekt* erläutert bzw. verwendet. Vollständig korrekt wäre etwa "Die Daten (und noch extremere) sind unwahrscheinlich, unter der Annahme, dass die H0 gilt".
 
-- \+ Der p-Wert wird  *korrekt erläutert* bzw. verwendet.
+- POS Der p-Wert wird  *korrekt erläutert* bzw. verwendet.
 
 
 
@@ -2243,44 +2254,44 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 
 
-- \- Der p-Wert wird *falsch berichtet* bzw. verwendet.
+- NEG Der p-Wert wird *falsch berichtet* bzw. verwendet.
 
 
-- \- Der p-Wert *wird falsch erläutert* bzw. verwendet.
-- \- Der p-Wert wurde für einige oder alle Inferenztest nicht berichtet.
+- NEG Der p-Wert *wird falsch erläutert* bzw. verwendet.
+- NEG Der p-Wert wurde für einige oder alle Inferenztest nicht berichtet.
 
-- \- Der *p-Wert bzw. seine Bedeutung wurde nicht interpretiert* (z. B. "da der p-Wert größer als alpha ist, wird die H0 beibehalten").
+- NEG Der *p-Wert bzw. seine Bedeutung wurde nicht interpretiert* (z. B. "da der p-Wert größer als alpha ist, wird die H0 beibehalten").
 
-- \- Da der p-Wert und - damit zusammenhängend - das Konzept des Nullhypothesen-Testen zu den zentralen Lernzielen gehört, ist ein Fehler bzw. Verständnislücken in diesem Bereich als *gravierender Mangel* einzuordnen.
+- NEG Da der p-Wert und - damit zusammenhängend - das Konzept des Nullhypothesen-Testen zu den zentralen Lernzielen gehört, ist ein Fehler bzw. Verständnislücken in diesem Bereich als *gravierender Mangel* einzuordnen.
 
 
-- \- *Was heißt ein "signifikanter Einfluss" bzw. ein "signifikanter Zusammenhang"*, wie es in der vorliegenden Arbeit geschrieben wird? Dass der Einfluss (Zusammenhang) groß ist? Dass es wahrscheinlich ist, dass es einen gibt? Beides? Etwas anderes? Ist ein Einfluss kausal? Diese Fragen würden einer besseren Erklärung verdienen. Es sollte z. B. festgehalten werden, dass "statistische Signifikanz" eine Aussage der Inferenzstatistik ist und gewisse Evidenz gegen die H0 liefert und damit für die H1. Aus diesem Grund wird die H0 verworfen. Es ist aber nicht gesagt, dass der Effekt groß ist (also von praktischer Bedeutung); es ist nicht mal gesagt, dass die H0 wahrscheinlich falsch ist. Nur, dass die vorliegende Methode sich gegen die H0 ausspricht.
+- NEG *Was heißt ein "signifikanter Einfluss" bzw. ein "signifikanter Zusammenhang"*, wie es in der vorliegenden Arbeit geschrieben wird? Dass der Einfluss (Zusammenhang) groß ist? Dass es wahrscheinlich ist, dass es einen gibt? Beides? Etwas anderes? Ist ein Einfluss kausal? Diese Fragen würden einer besseren Erklärung verdienen. Es sollte z. B. festgehalten werden, dass "statistische Signifikanz" eine Aussage der Inferenzstatistik ist und gewisse Evidenz gegen die H0 liefert und damit für die H1. Aus diesem Grund wird die H0 verworfen. Es ist aber nicht gesagt, dass der Effekt groß ist (also von praktischer Bedeutung); es ist nicht mal gesagt, dass die H0 wahrscheinlich falsch ist. Nur, dass die vorliegende Methode sich gegen die H0 ausspricht.
 
-- \- p-Werte sollten *nicht im "technischen Format"* des Taschenrechners berichtet werden, also etwa nicht *"p = 2.2e-16"*, sondern in diesem Format: "p < .001".
+- NEG p-Werte sollten *nicht im "technischen Format"* des Taschenrechners berichtet werden, also etwa nicht *"p = 2.2e-16"*, sondern in diesem Format: "p < .001".
 
-- \- Ein p-Wert kleiner als das Signifikanzniveau (5%), bedeutet, dass man die getestete Nullhypothese ablehnt. Das Ergebnis nennt man dann *"statistisch signifikant"*. Ein statistisch signifikantes Ergebnis bedeutet *nicht*, dass man einen *"signifikanten Zusammenhang"* gefunden hat. Der Term "statistisch signifikant" darf nicht mit dem Alltagsbegriff "signifikant" (etwa: wichtig, bedeutsam, stark) missverstanden werden. Statistische Signifikanz bezeichnet  den oben skizzierten technischen Sachverhalt. Vom p-Wert kann man nicht (eindeutig) die Stärke eines Effekts ableiten.
+- NEG Ein p-Wert kleiner als das Signifikanzniveau (5%), bedeutet, dass man die getestete Nullhypothese ablehnt. Das Ergebnis nennt man dann *"statistisch signifikant"*. Ein statistisch signifikantes Ergebnis bedeutet *nicht*, dass man einen *"signifikanten Zusammenhang"* gefunden hat. Der Term "statistisch signifikant" darf nicht mit dem Alltagsbegriff "signifikant" (etwa: wichtig, bedeutsam, stark) missverstanden werden. Statistische Signifikanz bezeichnet  den oben skizzierten technischen Sachverhalt. Vom p-Wert kann man nicht (eindeutig) die Stärke eines Effekts ableiten.
 
 
 ### Signifikanzniveau (Alpha)
 
-- \+ Das *Signifikanzniveau* (alpha) wurde spezifiziert.
-- \+ Das Signifikanzniveau (alpha) wurde nicht (immer) spezifiziert.
+- POS Das *Signifikanzniveau* (alpha) wurde spezifiziert.
+- POS Das Signifikanzniveau (alpha) wurde nicht (immer) spezifiziert.
 
-- \- Es wurde nicht spezifiziert, ob ein- oder zweiseitig getestet wurde. Diese Entscheidung hat eine Auswirkung auf das Signifikanzniveau.
+- NEG Es wurde nicht spezifiziert, ob ein- oder zweiseitig getestet wurde. Diese Entscheidung hat eine Auswirkung auf das Signifikanzniveau.
 
 
 ### Hypothesen-Testen (xxhyptest) {#hyptests}
 
 #### Hypothesen-Testen -- Beurteilung
 
-- \+ Die Entscheidung zum *Verwerfen/Beibehalten der H0* wurde korrekt von der Datenlage bzw. dem p-Wert abgeleitet.
+- POS Die Entscheidung zum *Verwerfen/Beibehalten der H0* wurde korrekt von der Datenlage bzw. dem p-Wert abgeleitet.
 
 
 `---`
 
 
-- \- Die Entscheidung zum *Verwerfen/Beibehalten der H0 wurde nicht korrekt* von der Datenlage bzw. dem p-Wert abgeleitet.
-- \- Es wurden *keine inferenzstatistischen Verfahren* eingesetzt.
+- NEG Die Entscheidung zum *Verwerfen/Beibehalten der H0 wurde nicht korrekt* von der Datenlage bzw. dem p-Wert abgeleitet.
+- NEG Es wurden *keine inferenzstatistischen Verfahren* eingesetzt.
 
 
 #### Hypothesen-Testen  -- Kommentare 
@@ -2290,7 +2301,7 @@ before making an analysis of variance test ior homogeneity of means in which hom
 `+++`
 
 
-- \+ H0 und H1 wurden korrekt spezifiziert.
+- POS H0 und H1 wurden korrekt spezifiziert.
 
 
 
@@ -2299,19 +2310,19 @@ before making an analysis of variance test ior homogeneity of means in which hom
 `---`
 
 
-- \- Es *wurden nicht für alle Hypothesen (ausreichend bzw. korrekt) hypothesenprüfende Verfahren* (wie die Berechnung eines p-Werts) eingesetzt. Dies wirft die Frage auf, ob das Konzept von (und der Grund für) inferenzstatistischen Verfahren verstanden wurde. Die Antwort auf die Frage kann zumindest nicht positiv beantwortet werden auf Basis der gezeigten Leistung (weil die Leistung nicht gezeigt wurde).
+- NEG Es *wurden nicht für alle Hypothesen (ausreichend bzw. korrekt) hypothesenprüfende Verfahren* (wie die Berechnung eines p-Werts) eingesetzt. Dies wirft die Frage auf, ob das Konzept von (und der Grund für) inferenzstatistischen Verfahren verstanden wurde. Die Antwort auf die Frage kann zumindest nicht positiv beantwortet werden auf Basis der gezeigten Leistung (weil die Leistung nicht gezeigt wurde).
 
 
-- \- *Hypothesen* beziehen sich auf *Grundgesamtheiten*, von denen *Stichproben (Datensätze) nur einen Ausschnitt zeigen*. Daher kann über eine Hypothese nicht auf Grund der deskriptiven Statistik, d. h. der Beschaffenheit des Datensatzes allein, entschieden werden. Stattdessen ist ein Schluss auf die Grundgesamtheit vonnöten, was mittels Inferenzstatistik vorgenommen werden kann. Dies wurde in der vorliegenden Arbeit nicht verstanden; es wurde *keine Inferenzstatistik in diesem Sinne* eingesetzt. Dieses Manko ist als schwerwiegend einzustufen, da es fraglich ist, ob der Autor die zentrale Idee der Inferenzstatistik verstanden hat. Es sei dem Autor angeraten, über das Wozu der Inferenzstatistik noch einmal nachzudenken.
-
-
-
-
-- \- Leider zielt eine Hypothese in dieser Arbeit auf *Bestätigung einer Nullhypothese* ab, was in der Fisherschen Inferenzstatistik nicht (ohne Weiteres) möglich ist. (Eine Möglichkeit bestünde im Äquivalenztesten; ein Verfahren, das im Unterricht nicht besprochen wurde und in der vorliegenden Arbeit nicht verwendet wurde). 
+- NEG *Hypothesen* beziehen sich auf *Grundgesamtheiten*, von denen *Stichproben (Datensätze) nur einen Ausschnitt zeigen*. Daher kann über eine Hypothese nicht auf Grund der deskriptiven Statistik, d. h. der Beschaffenheit des Datensatzes allein, entschieden werden. Stattdessen ist ein Schluss auf die Grundgesamtheit vonnöten, was mittels Inferenzstatistik vorgenommen werden kann. Dies wurde in der vorliegenden Arbeit nicht verstanden; es wurde *keine Inferenzstatistik in diesem Sinne* eingesetzt. Dieses Manko ist als schwerwiegend einzustufen, da es fraglich ist, ob der Autor die zentrale Idee der Inferenzstatistik verstanden hat. Es sei dem Autor angeraten, über das Wozu der Inferenzstatistik noch einmal nachzudenken.
 
 
 
-- \- *Alternativhypothesen werden nicht beibehalten oder verworfen*, das macht nur für Nullhypothesen sind, da diese getestet werden (im Gegensatz zu den Alternativhypothesen). Zwei Fälle können auftreten. Fall (A): Verwirft man eine Nullhypothese, dann hat man Grund, sich zugunsten der HA zu *entscheiden*. Diese Entscheidung impliziert noch nicht, dass die HA bewiesen ist, also sicher wahr ist. Die Entscheidung impliziert noch nicht mal, dass man an HA glaubt. Aber, egal was man glaubt, entscheiden für eine Aktion muss man sich, und in dem Fall handelt man so, als ob die HA wahr ist (vielleicht ist sie das ja). Fall (B): Kann man die H0 nicht verwerfen, so behält man sie bei. Sie ist "noch nicht verworfen", wie man sagt. Das heißt NICHT, dass die H0 (als wahr) bewiesen wurde. Nein. So könnte die Stichprobe zu klein gewesen sein, um die tatsächliche Wahrheit von HA festzustellen. Aber die Evidenzlage ist im Fall B nun mal so, dass wir nicht (mit genug Sicherheit) ausschließen können, dass H0 der Fall ist. Noch etwas präziser formuliert: Gilt die H0 wirklich (ist sie also wahr), dann sind die vorliegenden Daten nicht unwahrscheinlich. Auf dieser Basis entscheidet man sich, so die "Spielregel" dieser Technik, weiterhin an die H0 zu glauben oder sich zumindest so zu verhalten, als ob sie wahr wäre. Kurz: Man entscheidet sich für die H0, man behält sie bei.
+
+- NEG Leider zielt eine Hypothese in dieser Arbeit auf *Bestätigung einer Nullhypothese* ab, was in der Fisherschen Inferenzstatistik nicht (ohne Weiteres) möglich ist. (Eine Möglichkeit bestünde im Äquivalenztesten; ein Verfahren, das im Unterricht nicht besprochen wurde und in der vorliegenden Arbeit nicht verwendet wurde). 
+
+
+
+- NEG *Alternativhypothesen werden nicht beibehalten oder verworfen*, das macht nur für Nullhypothesen sind, da diese getestet werden (im Gegensatz zu den Alternativhypothesen). Zwei Fälle können auftreten. Fall (A): Verwirft man eine Nullhypothese, dann hat man Grund, sich zugunsten der HA zu *entscheiden*. Diese Entscheidung impliziert noch nicht, dass die HA bewiesen ist, also sicher wahr ist. Die Entscheidung impliziert noch nicht mal, dass man an HA glaubt. Aber, egal was man glaubt, entscheiden für eine Aktion muss man sich, und in dem Fall handelt man so, als ob die HA wahr ist (vielleicht ist sie das ja). Fall (B): Kann man die H0 nicht verwerfen, so behält man sie bei. Sie ist "noch nicht verworfen", wie man sagt. Das heißt NICHT, dass die H0 (als wahr) bewiesen wurde. Nein. So könnte die Stichprobe zu klein gewesen sein, um die tatsächliche Wahrheit von HA festzustellen. Aber die Evidenzlage ist im Fall B nun mal so, dass wir nicht (mit genug Sicherheit) ausschließen können, dass H0 der Fall ist. Noch etwas präziser formuliert: Gilt die H0 wirklich (ist sie also wahr), dann sind die vorliegenden Daten nicht unwahrscheinlich. Auf dieser Basis entscheidet man sich, so die "Spielregel" dieser Technik, weiterhin an die H0 zu glauben oder sich zumindest so zu verhalten, als ob sie wahr wäre. Kurz: Man entscheidet sich für die H0, man behält sie bei.
 
 
 
@@ -2319,21 +2330,21 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 
 
-- \- "No evidence of effect" ist *nicht* "evidence of no effect".  Wird ein Signifikanztest nicht signifikant, so heißt das nicht (zwangsläufig), dass kein Effekt vorliegt! Vielleicht war die Stichprobe einfach zu klein. Dieser Sachverhalt wurde in der vorliegenden Arbeit nicht klar genug erkannt.
+- NEG "No evidence of effect" ist *nicht* "evidence of no effect".  Wird ein Signifikanztest nicht signifikant, so heißt das nicht (zwangsläufig), dass kein Effekt vorliegt! Vielleicht war die Stichprobe einfach zu klein. Dieser Sachverhalt wurde in der vorliegenden Arbeit nicht klar genug erkannt.
 
-- \- *Findet man keinen Effekt, heißt das nicht (zwangsläufig), dass es keinen Effekt gibt*. Das ist analog zur Situation, dass Sie Ihren Schlüssel suchen in der Wohnung. Von der Tatsache, dass man ihn (noch) nicht gefunden hat, kann man nicht (zwangsläufig) folgern, dass der *Schlüssel* nicht da ist. Daher sollte man nicht sagen: "Es gibt keinen Effekt (Schlüssel)", sondern besser: "Es konnte kein Effekt gefunden werden" oder auch "Die Ergebnisse liefern keine ausreichende Evidenz, dass es ein Effekt vorliegt". Oder ganz nah an der Methodik des Hypothesentestens: "Die Nullhypothese konnte nicht verworfen werden (wird beibehalten)".
-
-
-- \- Es ist *nicht korrekt, bei nicht-signifikanten Ergebnissen die Alternativhypothese abzulehnen*. Besser ist es zu sagen, dass die Nullhypothese *nicht verworfen werden konnte*.
+- NEG *Findet man keinen Effekt, heißt das nicht (zwangsläufig), dass es keinen Effekt gibt*. Das ist analog zur Situation, dass Sie Ihren Schlüssel suchen in der Wohnung. Von der Tatsache, dass man ihn (noch) nicht gefunden hat, kann man nicht (zwangsläufig) folgern, dass der *Schlüssel* nicht da ist. Daher sollte man nicht sagen: "Es gibt keinen Effekt (Schlüssel)", sondern besser: "Es konnte kein Effekt gefunden werden" oder auch "Die Ergebnisse liefern keine ausreichende Evidenz, dass es ein Effekt vorliegt". Oder ganz nah an der Methodik des Hypothesentestens: "Die Nullhypothese konnte nicht verworfen werden (wird beibehalten)".
 
 
-- \- Es wurden nicht für alle Hypothesen die Ergebnisse berichtet.
-
-- \- Die *Nullhypothese wird nicht angenommen*, da Datenlagen, die nicht statistisch signifikant sind, nicht nur mit der Nullhypothese, sondern auch mit vielen anderen Hypothesen kompatibel sind. Eine bessere Bezeichnung ist daher, die Nullhypothese würde "nicht verworfen" oder würde "beibehalten".
-- \- Da ein "nicht-signifikantes" Ergebnis nicht beweist, dass die H0 richtig ist, *sieht man besser von Aussagen wie "die H0 wurden akzeptiert/angenommen" ab*. Besser ist der Ausdruck "die H0 wurde nicht verworfen" oder "die H0 wurde beibehalten".
+- NEG Es ist *nicht korrekt, bei nicht-signifikanten Ergebnissen die Alternativhypothese abzulehnen*. Besser ist es zu sagen, dass die Nullhypothese *nicht verworfen werden konnte*.
 
 
-- \- *Da die H0 getestet wurde, kann auch nur die H0 verworfen werden* -- nicht die H1. Dieser Sachverhalt wurde in der vorliegenden Arbeit nicht korrekt dargestellt. Analog wird die H0 bei statistisch nicht signifikanten Daten nicht angenommen, sondern nur nicht verworfen, oder beibehalten.
+- NEG Es wurden nicht für alle Hypothesen die Ergebnisse berichtet.
+
+- NEG Die *Nullhypothese wird nicht angenommen*, da Datenlagen, die nicht statistisch signifikant sind, nicht nur mit der Nullhypothese, sondern auch mit vielen anderen Hypothesen kompatibel sind. Eine bessere Bezeichnung ist daher, die Nullhypothese würde "nicht verworfen" oder würde "beibehalten".
+- NEG Da ein "nicht-signifikantes" Ergebnis nicht beweist, dass die H0 richtig ist, *sieht man besser von Aussagen wie "die H0 wurden akzeptiert/angenommen" ab*. Besser ist der Ausdruck "die H0 wurde nicht verworfen" oder "die H0 wurde beibehalten".
+
+
+- NEG *Da die H0 getestet wurde, kann auch nur die H0 verworfen werden* -- nicht die H1. Dieser Sachverhalt wurde in der vorliegenden Arbeit nicht korrekt dargestellt. Analog wird die H0 bei statistisch nicht signifikanten Daten nicht angenommen, sondern nur nicht verworfen, oder beibehalten.
 
 
 
@@ -2342,7 +2353,7 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 `+++`
 
-- \+ Es wurde korrekt erkannt, dass ein *nicht* signifikantes Ergebnis keinesfalls impliziert, dass ein Effekt nicht vorliegt. Stattdessen wurde richtig angemerkt, dass die inhaltliche Hypothese keine Unterstützung gefunden habe, die Nullhypothese nicht verworfen werden konnte oder keine/kaum Evidenz zugunsten der Alternativhypothese gefunden werden konnte.
+- POS Es wurde korrekt erkannt, dass ein *nicht* signifikantes Ergebnis keinesfalls impliziert, dass ein Effekt nicht vorliegt. Stattdessen wurde richtig angemerkt, dass die inhaltliche Hypothese keine Unterstützung gefunden habe, die Nullhypothese nicht verworfen werden konnte oder keine/kaum Evidenz zugunsten der Alternativhypothese gefunden werden konnte.
 
 
 `---`
@@ -2352,18 +2363,18 @@ Fehlinterpretationen:
 
 
 
-- \- Ein *signifikanter p-Wert* beim Vergleich von Gruppen kann so interpretiert werden, dass sich die *Mittelwerte* (sic) der *Gruppen unterscheiden* (unter der Annahme, dass man den Mittelwertsunterschied getestet hat). Zu sagen, dass "Gruppe 1 höhere Werte aufweist als Gruppe 2" hingegen ist unpräzise. Weil: Was meinen Sie mit "höheren Werte in Gruppe 1"? Jeder einzelne? Einige? Sicher meinen Sie den Mittelwert und nicht alle. Also lieber präzise sein!
+- NEG Ein *signifikanter p-Wert* beim Vergleich von Gruppen kann so interpretiert werden, dass sich die *Mittelwerte* (sic) der *Gruppen unterscheiden* (unter der Annahme, dass man den Mittelwertsunterschied getestet hat). Zu sagen, dass "Gruppe 1 höhere Werte aufweist als Gruppe 2" hingegen ist unpräzise. Weil: Was meinen Sie mit "höheren Werte in Gruppe 1"? Jeder einzelne? Einige? Sicher meinen Sie den Mittelwert und nicht alle. Also lieber präzise sein!
 
 
-- \- Testet man auf einen Mittelwertsunterschied (z. B. Einparkgeschwindigkeit von Männer vs. Frauen anhand eines t-Tests) und findet man ein signifikantes Ergebnis, so ist es nicht geboten, auf allgemeine Unterschiede zwischen den Gruppen zu schließen (z. B. "Männer parken schneller ein als Frauen"). Man kann höchstens resümieren, das das Ergebnis impliziert, dass sich die *Durchschnitte der Populationen unterschieden* (z. B. "Männer parken IM DURCHSCHNITT schneller ein als Frauen").
+- NEG Testet man auf einen Mittelwertsunterschied (z. B. Einparkgeschwindigkeit von Männer vs. Frauen anhand eines t-Tests) und findet man ein signifikantes Ergebnis, so ist es nicht geboten, auf allgemeine Unterschiede zwischen den Gruppen zu schließen (z. B. "Männer parken schneller ein als Frauen"). Man kann höchstens resümieren, das das Ergebnis impliziert, dass sich die *Durchschnitte der Populationen unterschieden* (z. B. "Männer parken IM DURCHSCHNITT schneller ein als Frauen").
 
 
-- \- Testet man, ob Gruppe "A" im Mittel höhere Werte in X aufweist als Gruppe "B" und findet man ein signifikantes Ergebnis, so *ENTSCHEIDET* man sich, sich so zu verhalten, als ob die Hypothese richtig ist. Wir können aber nicht sicher, sein, dass A wirklich höhere Wert hat als B -- in einigen Fällen werden wir z. B. einen Alpha-Fehler begangen haben. 
+- NEG Testet man, ob Gruppe "A" im Mittel höhere Werte in X aufweist als Gruppe "B" und findet man ein signifikantes Ergebnis, so *ENTSCHEIDET* man sich, sich so zu verhalten, als ob die Hypothese richtig ist. Wir können aber nicht sicher, sein, dass A wirklich höhere Wert hat als B -- in einigen Fällen werden wir z. B. einen Alpha-Fehler begangen haben. 
 
 
-- \- Findet sich in einer Analyse ein *statistisch signifikanter Zusammenhang* (Einfluss bzw. allgemeiner ein "Effekt"), so kann *nicht (zwangsläufig)* daraus geschlossen werden, dass es einen *"echten" Effekt* gibt. Die vorliegende Arbeit suggeriert aber diesen (falschen) Schluss. Findet man z. B. dass Babies und Störche "statistisch extrem signifikant" korreliert sind, so heißt das nicht, dass es in Wirklichkeit einen echten (also kausalen) Zusammenhang zwischen beiden Größen geben muss.
+- NEG Findet sich in einer Analyse ein *statistisch signifikanter Zusammenhang* (Einfluss bzw. allgemeiner ein "Effekt"), so kann *nicht (zwangsläufig)* daraus geschlossen werden, dass es einen *"echten" Effekt* gibt. Die vorliegende Arbeit suggeriert aber diesen (falschen) Schluss. Findet man z. B. dass Babies und Störche "statistisch extrem signifikant" korreliert sind, so heißt das nicht, dass es in Wirklichkeit einen echten (also kausalen) Zusammenhang zwischen beiden Größen geben muss.
 
-- \- Liegt z. B. für einen Zusammenhang ein *statistisch signifikantes Ergebnis* vor, heißt das nicht, dass die Analyse für die Population auf einen "starken", "deutlichen" oder "signifikanten" Zusammenhang hindeutet, sondern nur, dass es einen Zusammenhang gäbe. Entsprechend sollte man bei statistischer Signifikanz nicht von einem *"signifikanten Zusammenhang"* sprechen. Bei einem "signifikanten Zusammenhang" ist man geneigt, an einen starken Zusammenhang, also einen inhaltlich-fahlich bedeutsamen, zu schließen. Diese Aussage ist aber von einem p-Wert als solchem nicht ableitbar.
+- NEG Liegt z. B. für einen Zusammenhang ein *statistisch signifikantes Ergebnis* vor, heißt das nicht, dass die Analyse für die Population auf einen "starken", "deutlichen" oder "signifikanten" Zusammenhang hindeutet, sondern nur, dass es einen Zusammenhang gäbe. Entsprechend sollte man bei statistischer Signifikanz nicht von einem *"signifikanten Zusammenhang"* sprechen. Bei einem "signifikanten Zusammenhang" ist man geneigt, an einen starken Zusammenhang, also einen inhaltlich-fahlich bedeutsamen, zu schließen. Diese Aussage ist aber von einem p-Wert als solchem nicht ableitbar.
 
 
 
@@ -2371,15 +2382,15 @@ Fehlinterpretationen:
 
 ###  Ungewissheit/Übergewissheit -- Statistisches Denken (xxovercertain) {#overcertainty}
 
-- \- Teilweise *fehlen Koeffizienten der Ungewissheit* (z. B. *SE* bei Regressionsausgaben). Solche Angaben sind sehr wichtig, denn die Ausgaben eines statistisches Modells, sofern sie sich auf einen Populationsparameter beziehen (z. B. Einfluss des Prädiktors X in der Population) sind immer nur Schätzwerte. Ohne eine Angabe der Genauigkeit ist eine Schätzung wenig Wert. Daher sollten Schätzwerte (wie Einflussgewichte der Regression) stets mit einem Koeffizienten der Schätzgenauigkeit ausgegeben werden (z. B. SE oder Konfidenzintervalle).
+- NEG Teilweise *fehlen Koeffizienten der Ungewissheit* (z. B. *SE* bei Regressionsausgaben). Solche Angaben sind sehr wichtig, denn die Ausgaben eines statistisches Modells, sofern sie sich auf einen Populationsparameter beziehen (z. B. Einfluss des Prädiktors X in der Population) sind immer nur Schätzwerte. Ohne eine Angabe der Genauigkeit ist eine Schätzung wenig Wert. Daher sollten Schätzwerte (wie Einflussgewichte der Regression) stets mit einem Koeffizienten der Schätzgenauigkeit ausgegeben werden (z. B. SE oder Konfidenzintervalle).
 
-- \- Die Arbeit ist in einigen Aspekten von *falsch verstandener (überhöhter) Sicherheit bzw. Übergewissheit* geprägt. Das heißt, dass aus den Analysen eine Sicherheit abgeleitet wird, die die Daten bzw. die verwendeten Modelle nicht hergeben. Insgesamt sollten Sie vorsichtiger formulieren.
+- NEG Die Arbeit ist in einigen Aspekten von *falsch verstandener (überhöhter) Sicherheit bzw. Übergewissheit* geprägt. Das heißt, dass aus den Analysen eine Sicherheit abgeleitet wird, die die Daten bzw. die verwendeten Modelle nicht hergeben. Insgesamt sollten Sie vorsichtiger formulieren.
 
-- \- Die Ergebnisse einer Analyse sollten *nicht (automatisch) für "bare Münze" genommen werden,* im Sinne von "das Modell hat die Wirklichkeit fotografiert", "das wurde jetzt zweifelsfrei bewiesen". Analyseergebnisse dieser Art sollten eher verstanden werden als "das Modell unterstützt die Hypothese  XXX ", "laut Modell gibt es einen Zusammenhang zwischen XXX" bzw. "es konnte kein Zusammenhang gefunden werden", "die Analyse lieferte keinen Beleg für einen Zusammenhang XXX".
+- NEG Die Ergebnisse einer Analyse sollten *nicht (automatisch) für "bare Münze" genommen werden,* im Sinne von "das Modell hat die Wirklichkeit fotografiert", "das wurde jetzt zweifelsfrei bewiesen". Analyseergebnisse dieser Art sollten eher verstanden werden als "das Modell unterstützt die Hypothese  XXX ", "laut Modell gibt es einen Zusammenhang zwischen XXX" bzw. "es konnte kein Zusammenhang gefunden werden", "die Analyse lieferte keinen Beleg für einen Zusammenhang XXX".
 
-- \- Anstelle von Formulierungen "es besteht folglich (k)ein Einfluss von X auf Y" hätten *besser vorsichtigere Schlussfolgerungen zur Aussagekraft der Ergebnisse* wie "die Daten unterstützen XXX" oder "es konnte kein Hinweis auf YYY gefunden werden".
+- NEG Anstelle von Formulierungen "es besteht folglich (k)ein Einfluss von X auf Y" hätten *besser vorsichtigere Schlussfolgerungen zur Aussagekraft der Ergebnisse* wie "die Daten unterstützen XXX" oder "es konnte kein Hinweis auf YYY gefunden werden".
 
-- \- Die Arbeit zwar theoretisch begründbare Erklärungen auf, die für die Daten verantwortlich sein können; das ist begrüßenswert. Es fehlt allerdings eine Aufarbeitung möglicher *(methodischer) Artefakte*, die zu den Ergebnissen haben führen können. Wenn etwa X mit Y korreliert, so könnte eine Erklärung sein, dass X die Ursache von Y ist. Allerdings könnte es sich bei der Korrelation von X mit Y auch um eine *Scheinkorrelation* handeln; demnach wären Erklärungen der Art "X ist die Ursache von Y" (egal, wie die semantischen Inhalte einer solchen Theorie aussehen), fehl am Platz. Die vorliegende Arbeit geht nicht ausreichend auf solche methodischen Artefakte bzw. alternativen Kausalmodelle (wie *Konfundierung*) ein.
+- NEG Die Arbeit zwar theoretisch begründbare Erklärungen auf, die für die Daten verantwortlich sein können; das ist begrüßenswert. Es fehlt allerdings eine Aufarbeitung möglicher *(methodischer) Artefakte*, die zu den Ergebnissen haben führen können. Wenn etwa X mit Y korreliert, so könnte eine Erklärung sein, dass X die Ursache von Y ist. Allerdings könnte es sich bei der Korrelation von X mit Y auch um eine *Scheinkorrelation* handeln; demnach wären Erklärungen der Art "X ist die Ursache von Y" (egal, wie die semantischen Inhalte einer solchen Theorie aussehen), fehl am Platz. Die vorliegende Arbeit geht nicht ausreichend auf solche methodischen Artefakte bzw. alternativen Kausalmodelle (wie *Konfundierung*) ein.
 
 
 
@@ -2387,64 +2398,77 @@ Fehlinterpretationen:
 ### Unterscheidung zw. Stichprobe und Population (xxestimate)
 
 
-- \- Schreibt eine Autorin z. B., dass die Ergebnisse ihrer Analyse aufzeigen, dass der Mittelwert in Gruppe X um 42 Punkte höher sei als in Gruppe Y, so stellt sich die Frage, ob die Aussage für die Stichrobe oder die Population gemeint ist. Die Analyse deutet im Allgemeinen darauf hin, dass die Stichprobe gemeint ist (dass also eine Statistik berichtet wurde), denn die Analyse der Stichprobendaten liefern genau den berichteten Wert (42). Allerdings ist die Aussage allgemein formuliert, so dass sie in diesem Sinne auf die Population anwendbar ist. Außerdem bezieht sich die Hypothese auf die Population, so dass man erwarten darf, dass berichtete Ergebnisse als Antworten zur Hypothese gemeint sind (und daher auf die Population abzielen, also Parameter berichten). Die *Unterscheidung von Statistiken und Parametern* ist wesentlich; das genaue Auseinanderhalten von Statistiken und Parametern ist auch ein wichtiges Indiz, ob und inwieweit eine Autorin die Grundlagen der (Inferenz-)Statistik durchdrungen hat. Gibt man Parameter an, so ist es sinnvoll, die Genauigkeit dieser Schätzung anzugeben, denn Angaben von *Parametern sind stets mit Unsicherheit behaftet*. Eine Studie untersucht stets nur einen Ausschnitt der Population und verallgemeinert dann zumeist auf die Population. Die Unsicherheit dieses Generalisierens sollte angegeben sein. Denn: wie wertvoll ist eine Aussage, die eine Schätzung ist, wenn man die Genauigkeit der Schätzung verschwiegen wird? Auf eine Aussage ohne Angabe der Schätzgenauigkeit wird man sich nicht verlassen wollen, man wird die Aussage in vielen Fällen als wenig nützlich zurückweisen wollen. Auf diesen Aspekt ist in der vorliegenden Arbeit *suboptimal dargestellt* bzw. nicht (durchgängig bzw. in ausreichendem Maße) Rücksicht genommen worden.
+- NEG Schreibt eine Autorin z. B., dass die Ergebnisse ihrer Analyse aufzeigen, dass der Mittelwert in Gruppe X um 42 Punkte höher sei als in Gruppe Y, so stellt sich die Frage, ob die Aussage für die Stichrobe oder die Population gemeint ist. Die Analyse deutet im Allgemeinen darauf hin, dass die Stichprobe gemeint ist (dass also eine Statistik berichtet wurde), denn die Analyse der Stichprobendaten liefern genau den berichteten Wert (42). Allerdings ist die Aussage allgemein formuliert, so dass sie in diesem Sinne auf die Population anwendbar ist. Außerdem bezieht sich die Hypothese auf die Population, so dass man erwarten darf, dass berichtete Ergebnisse als Antworten zur Hypothese gemeint sind (und daher auf die Population abzielen, also Parameter berichten). Die *Unterscheidung von Statistiken und Parametern* ist wesentlich; das genaue Auseinanderhalten von Statistiken und Parametern ist auch ein wichtiges Indiz, ob und inwieweit eine Autorin die Grundlagen der (Inferenz-)Statistik durchdrungen hat. Gibt man Parameter an, so ist es sinnvoll, die Genauigkeit dieser Schätzung anzugeben, denn Angaben von *Parametern sind stets mit Unsicherheit behaftet*. Eine Studie untersucht stets nur einen Ausschnitt der Population und verallgemeinert dann zumeist auf die Population. Die Unsicherheit dieses Generalisierens sollte angegeben sein. Denn: wie wertvoll ist eine Aussage, die eine Schätzung ist, wenn man die Genauigkeit der Schätzung verschwiegen wird? Auf eine Aussage ohne Angabe der Schätzgenauigkeit wird man sich nicht verlassen wollen, man wird die Aussage in vielen Fällen als wenig nützlich zurückweisen wollen. Auf diesen Aspekt ist in der vorliegenden Arbeit *suboptimal dargestellt* bzw. nicht (durchgängig bzw. in ausreichendem Maße) Rücksicht genommen worden.
 
 
 
 
 ### Bayes
 
+`+++`
 
-- Verwendet man den Begriff "Signifikanz" im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von "signifikant" ist "das 95%-PI der Posterioriverteilung liegt komplett außerhalb des ROPE". Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist.
+- POS Es wurde eine ROPE-Analyse durchgeführt.
+- POS Die Ergebnisse der ROPE-Analyse wurden korrekt interpretiert.
+
+
+`---`
+
+- NEG Liefert eine ROPE-Analyse den Befund, dass das Gros (z.B. 95%-PI) der Posteriori-Verteilung zum Teil im ROPE und zum Teil außerhalb liebt, so ist zu resümieren, dass die Befundlage *uneinheitlich* ist. Zu sagen, dass die ROPE-Hypothese ("praktische Nullhypothese") nicht verworfen werden dürfe, ist zwar nicht falsch, aber nicht präzise genug.
+
+- NEG Verwendet man den Begriff *"Signifikanz"* im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird und es daher keine einheitlich akzeptierte Definition gibt. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von "signifikant" ist "das 95%-PI der Posterioriverteilung liegt komplett außerhalb des ROPE". Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist.
 
 
 
 
+
+### Kausalanalyse
+
+- POS Es wurden Kausalmodelle empirisch-statistisch überprüft. Das ist laudabel, denn übliche statistische Untersuchung zu Effekten (wie Nullhyphothesentesten oder Effektschätzungen) beruhen auf der - häufig ungeprüften - Annahme, dass das Kausalmodell der Studie korrekt ist. Ohne ein Wissen über die Korrektheit eines Kausalmodells ist eine herkömmliche statistische Untersuchung zu einem Effekt streng genommen sinnlos. Angemerkt sei, dass ein experimentellen Untersuchungen, sofern diese gut durchgeführt sind und die Stichprobe groß genug ist, auf die Überprüfung eines Kausalmodells verzichtet werden kann, da das Design die Validität des Kausalmodells garantiert.
 
 
 
 
 ### Regression (xxregress)
 
-- \+ Die Regression bzw. der Einfluss des Prädiktors wurde korrekt interpretiert.
+- POS Die Regression bzw. der Einfluss des Prädiktors wurde korrekt interpretiert.
 
-- \+  Bei den Regressionsmodellen multivariate Modelle mit mehreren Prädiktoren berechnet. Diese Herangehensweise ist meist besser als die Berechnung von Modellen mit nur jeweils einem Prädiktor, da man an den "bereinigten Nettoeffekten" interessiert ist. Univariate Modelle können diese bereinigten Effekte nicht zutage fördern, im Gegensatz zu Modellen mit mehreren Prädiktoren.
+- POS  Bei den Regressionsmodellen multivariate Modelle mit mehreren Prädiktoren berechnet. Diese Herangehensweise ist meist besser als die Berechnung von Modellen mit nur jeweils einem Prädiktor, da man an den "bereinigten Nettoeffekten" interessiert ist. Univariate Modelle können diese bereinigten Effekte nicht zutage fördern, im Gegensatz zu Modellen mit mehreren Prädiktoren.
   
 
 `---`
 
 
-- \- Die Regression bzw. der Einfluss des Prädiktors wurde *falsch* interpretiert.
-- \- Es wäre noch nützlich gewesen, zusätzlich die *standardisierten* Regressionsgewichte anzugeben, da die unstandardisierten Regressionsgewichte von der Streuung bzw. Skalierung der Variablen abhängig sind. Da dieser Punkt aber über den Unterrichtsstoff hinausgeht, wird ihm keine große Bedeutung zugemessen.
+- NEG Die Regression bzw. der Einfluss des Prädiktors wurde *falsch* interpretiert.
+- NEG Es wäre noch nützlich gewesen, zusätzlich die *standardisierten* Regressionsgewichte anzugeben, da die unstandardisierten Regressionsgewichte von der Streuung bzw. Skalierung der Variablen abhängig sind. Da dieser Punkt aber über den Unterrichtsstoff hinausgeht, wird ihm keine große Bedeutung zugemessen.
 
-- \- Es wurden *nicht alle nötigen* bzw. sinnvollen Statistiken zur Regressionsanalyse *berichtet.* Zu den nötigen Statistiken (einer Regressionsanalyse) zählen das Regressionsgewicht (Punktschätzer) sowie eine Angabe zur Genauigkeit des Punktschätzers (z.B. Standardfehler).
+- NEG Es wurden *nicht alle nötigen* bzw. sinnvollen Statistiken zur Regressionsanalyse *berichtet.* Zu den nötigen Statistiken (einer Regressionsanalyse) zählen das Regressionsgewicht (Punktschätzer) sowie eine Angabe zur Genauigkeit des Punktschätzers (z.B. Standardfehler).
 
 
 ### Datensatz
-- \+ Die Daten bzw. der Datensatz wurden ausführlich und korrekt beschrieben.
+- POS Die Daten bzw. der Datensatz wurden ausführlich und korrekt beschrieben.
 
 
 `---`
 
 
-- \- Die Daten bzw. der Datensatz wurden nicht ausführlich genug oder nicht korrekt beschrieben.
-- \- Es reicht, die zu analysierenden Variablen zu beschreiben; es müssen nicht alle Variablen des Datensatzes vorgestellt werden.
+- NEG Die Daten bzw. der Datensatz wurden nicht ausführlich genug oder nicht korrekt beschrieben.
+- NEG Es reicht, die zu analysierenden Variablen zu beschreiben; es müssen nicht alle Variablen des Datensatzes vorgestellt werden.
 
 ### Nachkommastellen (xxdezimal) {#nachkommastellen}
 
-- \+ Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist immer oder zumeist *passend* bzw. konsistent.
+- POS Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist immer oder zumeist *passend* bzw. konsistent.
 
 
 `---`
 
 
-- \- Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist *nicht immer konsistent* oder zu lang (zwei Nachkommastellen reichen i.d.R.).
-- \- Die Anzahl der Nachkommastellen (Dezimalstellen) ist *teilweise unpassend *(z. B. zu lang) oder *inkonsistent* (mal mehr, mal weniger).
+- NEG Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist *nicht immer konsistent* oder zu lang (zwei Nachkommastellen reichen i.d.R.).
+- NEG Die Anzahl der Nachkommastellen (Dezimalstellen) ist *teilweise unpassend *(z. B. zu lang) oder *inkonsistent* (mal mehr, mal weniger).
 
-- \- Bei *Prozentzahlen* sollte man in der Regel *auf Nachkommastellen verzichten*, was hier nicht getan wurde.
+- NEG Bei *Prozentzahlen* sollte man in der Regel *auf Nachkommastellen verzichten*, was hier nicht getan wurde.
 
 
-- \- Die *Anzahl der Nachkommastellen* (Dezimalstellen) sollte *nicht zu hoch sein*, um *Scheingenauigkeit* zu vermeiden (Beispiel: "Das mittlere Körpergewicht in Deutschland beträgt 78,314159267 kg, wie eine Studie mit *n=30* herausfand".) In der Arbeit wurden (teilweise) zu viele Nachkommastellen angegeben.
+- NEG Die *Anzahl der Nachkommastellen* (Dezimalstellen) sollte *nicht zu hoch sein*, um *Scheingenauigkeit* zu vermeiden (Beispiel: "Das mittlere Körpergewicht in Deutschland beträgt 78,314159267 kg, wie eine Studie mit *n=30* herausfand".) In der Arbeit wurden (teilweise) zu viele Nachkommastellen angegeben.
 
 
 
@@ -2453,9 +2477,9 @@ Fehlinterpretationen:
 
 ### Skalenniveau (xxskalen) {#skalenniveau}
 
-- \+ Die *Skalenniveaus* der untersuchten Variablen wurden *korrekt* benannt.
+- POS Die *Skalenniveaus* der untersuchten Variablen wurden *korrekt* benannt.
 
-- \- Die *Skalenniveaus* der untersuchten Variablen wurden *nicht (immer) benannt* oder nicht (immer) korrekt benannt.
+- NEG Die *Skalenniveaus* der untersuchten Variablen wurden *nicht (immer) benannt* oder nicht (immer) korrekt benannt.
 
 
 
@@ -2465,26 +2489,26 @@ Fehlinterpretationen:
 
 #### Berichten von Statistiken -- Bewertung
 
-+ \+ Statistische Kennwerte wurden (zumeist) *korrekt nach Vorgaben der APA berichtet*, entsprechend der formalen Vorgaben.
++ POS Statistische Kennwerte wurden (zumeist) *korrekt nach Vorgaben der APA berichtet*, entsprechend der formalen Vorgaben.
 
 `---`
 
 
-- \- Statistische Kennwerte *wurden nicht (durchgängig) nach Vorgaben der APA berichtet*.
-- \- Es wurden *nicht alle nötigen Statistiken im Text angeführt* (z. B. fehlt der Chi-Quadrat-Wert oder ein SE-Wert).
-- \- Statistische Kennwerte wurden *falsch oder unvollständig berichtet*.
+- NEG Statistische Kennwerte *wurden nicht (durchgängig) nach Vorgaben der APA berichtet*.
+- NEG Es wurden *nicht alle nötigen Statistiken im Text angeführt* (z. B. fehlt der Chi-Quadrat-Wert oder ein SE-Wert).
+- NEG Statistische Kennwerte wurden *falsch oder unvollständig berichtet*.
 
 
 
 
 #### Berichten von Statistiken -- Kommentare
 
-- \+ Es wurden alle bzw. viele relevante Koeffizienten (Kennwerte) für die Analysen berichtet.
+- POS Es wurden alle bzw. viele relevante Koeffizienten (Kennwerte) für die Analysen berichtet.
 
-- \- *Statistische Kennwerte* sollten entweder in einer *Tabelle* berichtet werden (die dann im Text referenziert wird) oder im *Fließtext* eingearbeitet sein. *Elliptische*, bruchstückhafte oder nicht kommentierte Statistik-Fragmente *sollten vermieden werden*.
-- \- *p-Werte kleiner als 0.001* sollen laut APA als "p < .001" berichtet werden.
-- \- Kleine Zahlen wie manche p-Werte sollten nicht in der Exponentialschreibweise und insbesondere nicht in der "Taschenrechnervariante" der Exponentialschreibweise notiert werden, also nicht "p = 2.345e-03", sondern "$p = .002$". 
-- \- *Einflusskoeffizienten* der Regressionsanalyse ($b$) sollten entweder direkt verständlich sein, also in allgemein verständlichen Einheiten operationalisiert sein (z. B. Geldeinheiten) oder es sollte zumindest die Skalierung expliziert werden, in z. B. die Skalenendpunkte benannt sind. Eine sinnvolle Alternative liegt im Berichten der standardisierten Koeffizienten.
+- NEG *Statistische Kennwerte* sollten entweder in einer *Tabelle* berichtet werden (die dann im Text referenziert wird) oder im *Fließtext* eingearbeitet sein. *Elliptische*, bruchstückhafte oder nicht kommentierte Statistik-Fragmente *sollten vermieden werden*.
+- NEG *p-Werte kleiner als 0.001* sollen laut APA als "p < .001" berichtet werden.
+- NEG Kleine Zahlen wie manche p-Werte sollten nicht in der Exponentialschreibweise und insbesondere nicht in der "Taschenrechnervariante" der Exponentialschreibweise notiert werden, also nicht "p = 2.345e-03", sondern "$p = .002$". 
+- NEG *Einflusskoeffizienten* der Regressionsanalyse ($b$) sollten entweder direkt verständlich sein, also in allgemein verständlichen Einheiten operationalisiert sein (z. B. Geldeinheiten) oder es sollte zumindest die Skalierung expliziert werden, in z. B. die Skalenendpunkte benannt sind. Eine sinnvolle Alternative liegt im Berichten der standardisierten Koeffizienten.
 
 
 
@@ -2497,7 +2521,7 @@ Fehlinterpretationen:
 
 `---`
 
-- \- Gerade bei qualitativ angelegten Forschungsdesigns sollte sich die Datenanalyse nicht in einem Schema-F-Vorgehen erschöpfen. Die Stärke der qualitativen Methode liegt in ihrer Flexibilität, ihrer Methodenangemessenheit und ihrer Kraft zu konzeptioneller Tiefe. Diesen Stärken wird ein (zusammenfassende) Inhaltsanalyse nach Mayring nicht gänzlich gerecht. So ist es etwa möglich (und nicht selten der Fall), dass die entdeckten Kategorien in bestimmten Verhältnissen zueinander stehen, etwa in einem Ursache-Wirkungs-Verhältnis. Ein anderes Beispiel ist, dass eine Kategorie einen Kontext (oder Moderator) aufspannt und andere Kategorien miteinander kovariieren. Diese Reichhaltigkeit von Datenmustern spiegelt ein einfaches "es gibt Kategorie A, B und C" nicht wider. Vorteilhafter ist es daher, auf reichhaltigere Datenanalysemethoden wie etwa die *Grounded Theorie* zurückzugreifen; von solchen Methoden hätten Anspruch, Breite und Tiefe der Datenanalyse in der vorliegenden Arbeit profitiert.
+- NEG Gerade bei qualitativ angelegten Forschungsdesigns sollte sich die Datenanalyse nicht in einem Schema-F-Vorgehen erschöpfen. Die Stärke der qualitativen Methode liegt in ihrer Flexibilität, ihrer Methodenangemessenheit und ihrer Kraft zu konzeptioneller Tiefe. Diesen Stärken wird ein (zusammenfassende) Inhaltsanalyse nach Mayring nicht gänzlich gerecht. So ist es etwa möglich (und nicht selten der Fall), dass die entdeckten Kategorien in bestimmten Verhältnissen zueinander stehen, etwa in einem Ursache-Wirkungs-Verhältnis. Ein anderes Beispiel ist, dass eine Kategorie einen Kontext (oder Moderator) aufspannt und andere Kategorien miteinander kovariieren. Diese Reichhaltigkeit von Datenmustern spiegelt ein einfaches "es gibt Kategorie A, B und C" nicht wider. Vorteilhafter ist es daher, auf reichhaltigere Datenanalysemethoden wie etwa die *Grounded Theorie* zurückzugreifen; von solchen Methoden hätten Anspruch, Breite und Tiefe der Datenanalyse in der vorliegenden Arbeit profitiert.
 
 
 
@@ -2506,11 +2530,11 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die angewendeten *Transkriptionsregeln* wurden *expliziert.*
+- POS Die angewendeten *Transkriptionsregeln* wurden *expliziert.*
 
 `---`
 
-- \- Die angewendeten Transkriptionsregeln wurden *nicht (ausreichend) expliziert*.
+- NEG Die angewendeten Transkriptionsregeln wurden *nicht (ausreichend) expliziert*.
 
 
 
@@ -2520,14 +2544,14 @@ Fehlinterpretationen:
 ### Kodierregeln {#kodierregeln}
 
 
-- \+ Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
+- POS Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
 
 `---`
 
 
-- \- Die Kodierregeln sind nicht (ausreichend) stimmig gewählt und/oder nicht transparent (genug) dokumentiert.
-- \- Die Kodierregeln für die verwendeten Kategorien wurde nicht expliziert. So besteht die Gefahr, dass die Zuordnung der Textstellen zu den Kategorien nicht objektiv nachprüfbar und damit nicht reproduzierbar ist. Eine Studie, die nicht reproduzierbar und nicht replizierbar ist, ist für die Wissenschaft nicht nutzbar.
-- \- Ein Nichtexplizieren der Kodierregeln wirft die Gefahr der Beliebigkeit auf. Insofern handelt es sich dabei aus Sicht der wissenschaftlichen Verwertbarkeit um einen gravierenden Fehler.
+- NEG Die Kodierregeln sind nicht (ausreichend) stimmig gewählt und/oder nicht transparent (genug) dokumentiert.
+- NEG Die Kodierregeln für die verwendeten Kategorien wurde nicht expliziert. So besteht die Gefahr, dass die Zuordnung der Textstellen zu den Kategorien nicht objektiv nachprüfbar und damit nicht reproduzierbar ist. Eine Studie, die nicht reproduzierbar und nicht replizierbar ist, ist für die Wissenschaft nicht nutzbar.
+- NEG Ein Nichtexplizieren der Kodierregeln wirft die Gefahr der Beliebigkeit auf. Insofern handelt es sich dabei aus Sicht der wissenschaftlichen Verwertbarkeit um einen gravierenden Fehler.
 
 
 
@@ -2537,11 +2561,11 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Der Interviewleitfaden *entspricht der Forschungsfrage* bzw. setzt diese angemessen um.
+- POS Der Interviewleitfaden *entspricht der Forschungsfrage* bzw. setzt diese angemessen um.
 
-- \+ Der Interviewleitfaden ist *geschickt aufgebaut* (z.B. werden Eisbrecher- bzw. Einstiegsfragen verwendet).
+- POS Der Interviewleitfaden ist *geschickt aufgebaut* (z.B. werden Eisbrecher- bzw. Einstiegsfragen verwendet).
 
-- \+ Der Interviewleitfaden ist gut theoriegestützt und nicht nur atheoretisch.
+- POS Der Interviewleitfaden ist gut theoriegestützt und nicht nur atheoretisch.
 
 
 
@@ -2551,20 +2575,20 @@ Fehlinterpretationen:
 
 `---`
 
-- \- Der Interviewleitfaden *fehlt* (oder ist nicht an der richtigen Stelle angeführt).
+- NEG Der Interviewleitfaden *fehlt* (oder ist nicht an der richtigen Stelle angeführt).
 
 
 
-- \- Der *Interviewleitfaden* ist *nicht (ausführlich genug) oder nicht an richtiger Stelle dargestellt* worden; falls der Interviewleitfaden im Anhang detailliert wird, muss er im entsprechenden Abschnitt referenziert werden. Für eine qualitative Arbeit dieser Art ist der Interviewleitfaden von elementarer Bedeutung; das Fehlen ist als substanzieller Fehler zu werten.
+- NEG Der *Interviewleitfaden* ist *nicht (ausführlich genug) oder nicht an richtiger Stelle dargestellt* worden; falls der Interviewleitfaden im Anhang detailliert wird, muss er im entsprechenden Abschnitt referenziert werden. Für eine qualitative Arbeit dieser Art ist der Interviewleitfaden von elementarer Bedeutung; das Fehlen ist als substanzieller Fehler zu werten.
 
 
-- \- Der Interviewleitfaden soll im Hauptteil *vorgestellt* werden (aber nicht in tutto abgedruckt werden), da er einer der wichtigsten Punkte einer empirischen Studie mit diesem Design ist.
+- NEG Der Interviewleitfaden soll im Hauptteil *vorgestellt* werden (aber nicht in tutto abgedruckt werden), da er einer der wichtigsten Punkte einer empirischen Studie mit diesem Design ist.
 
-- \- Wird der *Interviewleitfaden en Detail im Anhang* aufgeführt, so soll er im Haupttext referenziert werden (etwa: "Der Interviewleitfaden ist im Detail im Anhang C angeführt.")
+- NEG Wird der *Interviewleitfaden en Detail im Anhang* aufgeführt, so soll er im Haupttext referenziert werden (etwa: "Der Interviewleitfaden ist im Detail im Anhang C angeführt.")
 
-- \- Der Interviewleitfaden soll auf *einschlägige Theorien zurückgreifen*. Falsch wäre es, rein auf *vorwissenschaftliche* Fragen (etwa: "Was macht eine Führungskraft erfolgreich?") zurückzugreifen. Vielmehr liegt die Stärke der qualitativen Forschung in dem tieferen Verständnis der Forschungsfrage. Daher ist es sinnvoll (bzw. nötig), in qualitativer Forschung die Interviewfragen so zu formulieren, dass ein tiefes (und vertiefendes) Verständnis relevanter Theorien zum Gegenstand ersichtlich wird. Dieser Punkt hätte in der vorliegenden Arbeit von stärkerer Beachtung profitiert. 
+- NEG Der Interviewleitfaden soll auf *einschlägige Theorien zurückgreifen*. Falsch wäre es, rein auf *vorwissenschaftliche* Fragen (etwa: "Was macht eine Führungskraft erfolgreich?") zurückzugreifen. Vielmehr liegt die Stärke der qualitativen Forschung in dem tieferen Verständnis der Forschungsfrage. Daher ist es sinnvoll (bzw. nötig), in qualitativer Forschung die Interviewfragen so zu formulieren, dass ein tiefes (und vertiefendes) Verständnis relevanter Theorien zum Gegenstand ersichtlich wird. Dieser Punkt hätte in der vorliegenden Arbeit von stärkerer Beachtung profitiert. 
 
-- \- Im Interviewleitfaden sollten *geschlossene* Fragen ("Gefällt Ihnen Ihre Arbeit") nicht oder nur in Ausnahmen verwendet werden.
+- NEG Im Interviewleitfaden sollten *geschlossene* Fragen ("Gefällt Ihnen Ihre Arbeit") nicht oder nur in Ausnahmen verwendet werden.
 
 
 
@@ -2572,21 +2596,21 @@ Fehlinterpretationen:
 
 ### Kategoriensystem {#kategoriensystem}
 
-- \+ *Zentrale Aussagen* der Kategorien wurden *treffend* wiedergegeben.
+- POS *Zentrale Aussagen* der Kategorien wurden *treffend* wiedergegeben.
 
-- \+ Die Kategorien des Kategoriensystems wurden *adäquat definiert*.
+- POS Die Kategorien des Kategoriensystems wurden *adäquat definiert*.
 
-- \+ Es wurden *plausible Kategorien* abgeleitet, die das Material *stimmig* widerzuspiegeln scheinen.
+- POS Es wurden *plausible Kategorien* abgeleitet, die das Material *stimmig* widerzuspiegeln scheinen.
 
 
 
-- \- Es wurde *kein Kategoriensystem berichtet*. Das ist als schwerwiegender Mangel der Arbeit einzustufen.
+- NEG Es wurde *kein Kategoriensystem berichtet*. Das ist als schwerwiegender Mangel der Arbeit einzustufen.
 
-- \- Es wurde *versäumt*, ein *Kategoriensystem aus den Hypothesen abzuleiten*. Da Hypothesen vorhanden waren, sollten sich diese im Text bzw. in der inneren Struktur des Textmaterials wiederfinden - in den Kategorien also. 
+- NEG Es wurde *versäumt*, ein *Kategoriensystem aus den Hypothesen abzuleiten*. Da Hypothesen vorhanden waren, sollten sich diese im Text bzw. in der inneren Struktur des Textmaterials wiederfinden - in den Kategorien also. 
 
-- \- Der Ergebnisteil *berichtet keine Kategorien*; Kategorien sind aber das Herzstück einer qualitativen Inhaltsanalyse zumindest so, wie Sie im Unterricht besprochen wurde. Das Fehlen eines Kategoriensystems ist als schwerer Mangel zu werten.
+- NEG Der Ergebnisteil *berichtet keine Kategorien*; Kategorien sind aber das Herzstück einer qualitativen Inhaltsanalyse zumindest so, wie Sie im Unterricht besprochen wurde. Das Fehlen eines Kategoriensystems ist als schwerer Mangel zu werten.
 
-- \- Der Ergebnisteil berichtet zwar *Kategorien*, jedoch erscheint die Darstellung als zu *kurz* gehalten und *bruchstückhaft.*
+- NEG Der Ergebnisteil berichtet zwar *Kategorien*, jedoch erscheint die Darstellung als zu *kurz* gehalten und *bruchstückhaft.*
 
 
 
@@ -2599,36 +2623,36 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in *differenzierter und klarer Weise* dar. 
-- \+ Der Ergebnisteil berichtet *umfangreiches Material* zu den Kategorien.
+- POS Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in *differenzierter und klarer Weise* dar. 
+- POS Der Ergebnisteil berichtet *umfangreiches Material* zu den Kategorien.
 
 
 `000`
 
 
-- \+- Die berichteten Kategorien bieten einige Anhaltspunkte zur Beantwortung der Forschungsfrage, hätten aber von *Zuspitzung* profitiert. 
+- POS-NEG Die berichteten Kategorien bieten einige Anhaltspunkte zur Beantwortung der Forschungsfrage, hätten aber von *Zuspitzung* profitiert. 
 
 
 `---`
 
 
 
-- \- Beim Berichten der Kategorien sollte die *Essenz* der Kategorie, d. h. ihre Bestimmungsstücke bzw. wesentlichen Inhalte berichtet werden. Die Kategorie ist zu *definieren* und ihr *Wesensmerkmal* zu erklären. Es *reicht nicht*, einige Textstellen des Interviewmaterials illustrativ bzw. beispielhaft aufzureihen, die der Kategorie zugeordnet wurden.
+- NEG Beim Berichten der Kategorien sollte die *Essenz* der Kategorie, d. h. ihre Bestimmungsstücke bzw. wesentlichen Inhalte berichtet werden. Die Kategorie ist zu *definieren* und ihr *Wesensmerkmal* zu erklären. Es *reicht nicht*, einige Textstellen des Interviewmaterials illustrativ bzw. beispielhaft aufzureihen, die der Kategorie zugeordnet wurden.
 
 
 
 
-- \- Das Kategoriensystem, welches aus einer qualitativen Studie resultiert, sollte *nicht* schwerpunktmäßig aus einer Sammlung von *Interview-Zitaten* o.Ä. bestehen. Vielmehr sind die wesentlichen *Inhaltsstücke* einer Kategorie als Generalisierung, Abstrahierung und Zusammenfassung von Rohtextstellen zu erstellen, ähnliche einer *Definition.* Die Rohtextstellen dienen lediglich dem Beleg; sie sind nicht der Inhalt der Kategorie. Diese *Extrahierung* der Kategorien bzw. deren Inhalte sind die zentrale intellektuelle/analytische Leistung der empirischen Arbeit. Ein Fehlen solcher Leistung ist ein substanzieller Mangel in der empirischen Ausarbeitung.
+- NEG Das Kategoriensystem, welches aus einer qualitativen Studie resultiert, sollte *nicht* schwerpunktmäßig aus einer Sammlung von *Interview-Zitaten* o.Ä. bestehen. Vielmehr sind die wesentlichen *Inhaltsstücke* einer Kategorie als Generalisierung, Abstrahierung und Zusammenfassung von Rohtextstellen zu erstellen, ähnliche einer *Definition.* Die Rohtextstellen dienen lediglich dem Beleg; sie sind nicht der Inhalt der Kategorie. Diese *Extrahierung* der Kategorien bzw. deren Inhalte sind die zentrale intellektuelle/analytische Leistung der empirischen Arbeit. Ein Fehlen solcher Leistung ist ein substanzieller Mangel in der empirischen Ausarbeitung.
 
-- \- Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die *Definition* der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
-
-
-- \- Die (Namen bzw. Bezeichnungen der) *Kategorien* scheinen die *Forschungsfrage nicht adäquat widerzuspiegeln* bzw. nicht zu beantworten. Lautet die Forschungsfrage bspw. "Der Einfluss (die Bedeutung von) von Stress auf (für) Gesundheit", so könnte man etwa eine Metakategorie "positive Effekte" erwarten mit Unterkategorien wie "Anstoßen von Änderungen im Lebensstil" oder "Beendigung von Langeweile" erwarten. Falsch bzw. wenig informativ wären Kategorien wie "Stress", "Gesundheit" oder "Auswirkungen". Vielmehr sollen die Kategorien das Wesentliche hervorheben; so könnten die Kategorien etwa "Bluthochdruck", "Partnerschaftsprobleme", "Alkoholkonsum" und "Streit mit Chef" umfassen. Die vorliegende Arbeit ist hier nicht (durchgehend) prägnant genug.
-
-- \- Angenommen die Forschungsfrage lautete "Die Auswirkungen von Betriebssport auf subjektive Wahrnehmung der Resilienz". Dann wären Ergebniskategorien wie *"Vorteile" und "Nachteile"* ungeeignete also *nicht empfehlenswerte Kategorien*. Diese Kategorien sind informationsarm: Dass der Betriebssport Vor- und Nachteile haben könnte, ist wenig informationsreich. Kategorien sollten vielmehr inhaltsreich formuliert sein und danach streben, zu einem tiefen Verständnis des Gegenstands vorzudringen. Der Name bzw. die Definition einer Kategorie hat daran einen entscheidenden Anteil.
+- NEG Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die *Definition* der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
 
 
-- \- Wesentlich bei einer qualitativen Inhaltsanalyse ist die Dokumentation des Vorgehens, auf welchem Wege also zu den Kategorien gekommen ist. Es ist also der *Prozess der Kategorienentwicklung* aufzuzeigen; im Falle der Mayring'schen Analyse gilt es etwa, *Paraphrasieren und Generalisieren darzustellen*, die entsprechenden Arbeitsschritte also zu dokumentieren. Ohne die *Offenlegung* dieses Vorgehens ist die Qualität des empirischen Arbeiten in einem wesentlichen Punkt nicht als ausreichend zu beurteilen. Dieser Punkt findet in der vorliegenden Arbeit nicht ausreichend Beachtung.
+- NEG Die (Namen bzw. Bezeichnungen der) *Kategorien* scheinen die *Forschungsfrage nicht adäquat widerzuspiegeln* bzw. nicht zu beantworten. Lautet die Forschungsfrage bspw. "Der Einfluss (die Bedeutung von) von Stress auf (für) Gesundheit", so könnte man etwa eine Metakategorie "positive Effekte" erwarten mit Unterkategorien wie "Anstoßen von Änderungen im Lebensstil" oder "Beendigung von Langeweile" erwarten. Falsch bzw. wenig informativ wären Kategorien wie "Stress", "Gesundheit" oder "Auswirkungen". Vielmehr sollen die Kategorien das Wesentliche hervorheben; so könnten die Kategorien etwa "Bluthochdruck", "Partnerschaftsprobleme", "Alkoholkonsum" und "Streit mit Chef" umfassen. Die vorliegende Arbeit ist hier nicht (durchgehend) prägnant genug.
+
+- NEG Angenommen die Forschungsfrage lautete "Die Auswirkungen von Betriebssport auf subjektive Wahrnehmung der Resilienz". Dann wären Ergebniskategorien wie *"Vorteile" und "Nachteile"* ungeeignete also *nicht empfehlenswerte Kategorien*. Diese Kategorien sind informationsarm: Dass der Betriebssport Vor- und Nachteile haben könnte, ist wenig informationsreich. Kategorien sollten vielmehr inhaltsreich formuliert sein und danach streben, zu einem tiefen Verständnis des Gegenstands vorzudringen. Der Name bzw. die Definition einer Kategorie hat daran einen entscheidenden Anteil.
+
+
+- NEG Wesentlich bei einer qualitativen Inhaltsanalyse ist die Dokumentation des Vorgehens, auf welchem Wege also zu den Kategorien gekommen ist. Es ist also der *Prozess der Kategorienentwicklung* aufzuzeigen; im Falle der Mayring'schen Analyse gilt es etwa, *Paraphrasieren und Generalisieren darzustellen*, die entsprechenden Arbeitsschritte also zu dokumentieren. Ohne die *Offenlegung* dieses Vorgehens ist die Qualität des empirischen Arbeiten in einem wesentlichen Punkt nicht als ausreichend zu beurteilen. Dieser Punkt findet in der vorliegenden Arbeit nicht ausreichend Beachtung.
 
 
 
@@ -2638,7 +2662,7 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Das Vorgehen in der Inhaltsanalyse ist *lege artis* gestaltet.
+- POS Das Vorgehen in der Inhaltsanalyse ist *lege artis* gestaltet.
 
 
 
@@ -2651,17 +2675,17 @@ Fehlinterpretationen:
 
 ### Explikation der Software und des Vorgehens
 
-- \+ Der *Name* einer oder aller *Software*-Pakete zur *Datenanalyse* wurde expliziert.
+- POS Der *Name* einer oder aller *Software*-Pakete zur *Datenanalyse* wurde expliziert.
 
 
 `---`
 
 
-- \- Idealerweise sind alle *Software*-Pakete, das *Betriebssystem* und die *Versionsnummern* zu explizieren.
+- NEG Idealerweise sind alle *Software*-Pakete, das *Betriebssystem* und die *Versionsnummern* zu explizieren.
 
-- \- Ob ein *Datensatz* in MS *Excel*, OpenOffice, Notepad++, eine Oracle-Datenbank etc. gespeichert (betrachtet) wurde, ist *irrelevant* für diesen Bericht und sollte daher nicht berichtet werden (höchstens im Anhang).
+- NEG Ob ein *Datensatz* in MS *Excel*, OpenOffice, Notepad++, eine Oracle-Datenbank etc. gespeichert (betrachtet) wurde, ist *irrelevant* für diesen Bericht und sollte daher nicht berichtet werden (höchstens im Anhang).
 
-- \- Da *RStudio* keinerlei Einfluss auf die Syntax, d.h. den Analysealgorithmus hat, ist es irrelevant für diesen Bericht, ob RStudio Verwendung fand. Demgegenüber ist es von hoher Relevanz, ob R (in welcher Version) und welche R-Pakete und -Funktionen (in welcher Version) Verwendung fanden, sprich: ob die Syntax reproduzierbar berichtet wurde.
+- NEG Da *RStudio* keinerlei Einfluss auf die Syntax, d.h. den Analysealgorithmus hat, ist es irrelevant für diesen Bericht, ob RStudio Verwendung fand. Demgegenüber ist es von hoher Relevanz, ob R (in welcher Version) und welche R-Pakete und -Funktionen (in welcher Version) Verwendung fanden, sprich: ob die Syntax reproduzierbar berichtet wurde.
 
 
 
@@ -2670,38 +2694,38 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Es wurde ein *sehr hohes Maß* an Kompetenz im Umgang mit R demonstriert.
-- \+ Es wurde ein *hohes Maß* an Kompetenz im Umgang mit R demonstriert.
-- \+ Die Arbeit lässt auf eine *insgesamt gute Kompetenz* im Umgang mit R schließen.
-- \+ Es wurden *Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen* wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
+- POS Es wurde ein *sehr hohes Maß* an Kompetenz im Umgang mit R demonstriert.
+- POS Es wurde ein *hohes Maß* an Kompetenz im Umgang mit R demonstriert.
+- POS Die Arbeit lässt auf eine *insgesamt gute Kompetenz* im Umgang mit R schließen.
+- POS Es wurden *Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen* wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
 
 
 `000`
 
 
 
-- \+- Es wurde ein *durchschnittliches bis gutes Maß* an Kompetenz im Umgang mit R demonstriert.
-- \+- Es wurde ein *durchschnittliches* Maß an Kompetenz im Umgang mit R demonstriert.
+- POS-NEG Es wurde ein *durchschnittliches bis gutes Maß* an Kompetenz im Umgang mit R demonstriert.
+- POS-NEG Es wurde ein *durchschnittliches* Maß an Kompetenz im Umgang mit R demonstriert.
 
 
 `---`
 
 
-- \- Es wurde ein *geringes* Maß an Kompetenz im Umgang mit R demonstriert.
-- \- Es wurde ein *sehr geringes Maß* an Kompetenz im Umgang mit R demonstriert.
+- NEG Es wurde ein *geringes* Maß an Kompetenz im Umgang mit R demonstriert.
+- NEG Es wurde ein *sehr geringes Maß* an Kompetenz im Umgang mit R demonstriert.
 
-- \- Das Maß an Kompetenz mit R konnte nicht überprüft werden, da (fast) keine Syntax in der Arbeit vorhanden war.
+- NEG Das Maß an Kompetenz mit R konnte nicht überprüft werden, da (fast) keine Syntax in der Arbeit vorhanden war.
 
 
 ### Data Wrangling (xxwrangle)
 
-- \- Anstatt Variablen mit `<- NULL` zu löschen, ist es einfacher, mit `dplyr::select` zu wählen.
-- \- Anstatt Fälle mit dem Operator `[` zu wählen, ist es einfacher, `dplyr::filter` zu verwenden.
-- \- Anstatt Variablennamen mit `names` und `[` zu ändern, ist es einfacher, `dplyr::rename` zu verwenden.
-- \- Möchte man *Subgruppen vergleichen*, ist es eine suboptimale Lösung, den Datensatz in mehrere Teildatensätze aufzuteilen (z.B. mit `filter()`). Dadurch nimmt man sich die Möglichkeit, die Gruppen einfach bzw. direkt nebeneinander zu vergleichen oder macht sich das Leben komplizierter als nötig. Eine Möglichkeit zur gruppierten Analyse bietet mosaic: `verfahren(AV ~ gruppierungsvariable, ...)`. Alternativ kann man mit `group_by()` aus `dplyr` einen gruppierten Datensatz erzeugen und mittels weiterer Befehle (aus dplyr-komptabiblen Paketen) verrechnen (z.B. `summarise()`).
-- \- Es sollten *keine technischen Bezeichnungen für Variablen* wie `F9r` verwendet werden im Hauptteil der Arbeit, sondern stets *sprechende Namen* (oder ggf. definierte Abkürzungen).
+- NEG Anstatt Variablen mit `<- NULL` zu löschen, ist es einfacher, mit `dplyr::select` zu wählen.
+- NEG Anstatt Fälle mit dem Operator `[` zu wählen, ist es einfacher, `dplyr::filter` zu verwenden.
+- NEG Anstatt Variablennamen mit `names` und `[` zu ändern, ist es einfacher, `dplyr::rename` zu verwenden.
+- NEG Möchte man *Subgruppen vergleichen*, ist es eine suboptimale Lösung, den Datensatz in mehrere Teildatensätze aufzuteilen (z.B. mit `filter()`). Dadurch nimmt man sich die Möglichkeit, die Gruppen einfach bzw. direkt nebeneinander zu vergleichen oder macht sich das Leben komplizierter als nötig. Eine Möglichkeit zur gruppierten Analyse bietet mosaic: `verfahren(AV ~ gruppierungsvariable, ...)`. Alternativ kann man mit `group_by()` aus `dplyr` einen gruppierten Datensatz erzeugen und mittels weiterer Befehle (aus dplyr-komptabiblen Paketen) verrechnen (z.B. `summarise()`).
+- NEG Es sollten *keine technischen Bezeichnungen für Variablen* wie `F9r` verwendet werden im Hauptteil der Arbeit, sondern stets *sprechende Namen* (oder ggf. definierte Abkürzungen).
 
-- \- Es wurden weniger gut lesbare Verfahren der Datenaufbereitung verwendet. So ist dieses Methode weniger gut lesbar: `difwt.frauen <- (Report$repwt[Report$sex == "F"])-(Report$weight[Report$sex == "F"])`. Besser lesbar wäre: ` Report %>% mutate(difference_weight = repwt - weight)`.
+- NEG Es wurden weniger gut lesbare Verfahren der Datenaufbereitung verwendet. So ist dieses Methode weniger gut lesbar: `difwt.frauen <- (Report$repwt[Report$sex == "F"])-(Report$weight[Report$sex == "F"])`. Besser lesbar wäre: ` Report %>% mutate(difference_weight = repwt - weight)`.
 
 
 
@@ -2709,63 +2733,63 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die *Syntax* und/oder die R-Ausgaben wurden *optisch sehr ansprechend* und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
-- \+ Die Syntax und/oder die R-Ausgaben wurden *weitgehend* optisch ansprechend und übersichtlich gestaltet.
+- POS Die *Syntax* und/oder die R-Ausgaben wurden *optisch sehr ansprechend* und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
+- POS Die Syntax und/oder die R-Ausgaben wurden *weitgehend* optisch ansprechend und übersichtlich gestaltet.
 
 
 
 `000`
 
-- \+- Die *Syntaxformatierung* hätte *professioneller*, etwa anhand eines *Farbschemas*, gestaltet werden können.
+- POS-NEG Die *Syntaxformatierung* hätte *professioneller*, etwa anhand eines *Farbschemas*, gestaltet werden können.
 
-- \+- Die Syntax und/oder die R-Ausgaben *nicht immer optisch ansprechend* und übersichtlich gestaltet.
+- POS-NEG Die Syntax und/oder die R-Ausgaben *nicht immer optisch ansprechend* und übersichtlich gestaltet.
 
 `---`
 
 
 
-- \- Die *Syntax wurde optisch wenig ansprechend* und/oder wenig übersichtlich gestaltet (z. B. als Screenshot oder Screenshot mangelnder optischer Qualität). Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich".
-- \- Die Syntax und/oder die R-Ausgaben wurden ganz oder in Teilen als Screenshot dargestellt. Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich". Darüber ist die grafische Qualität nicht so gut wie bei z. B. Text, der als Vektorgrafik aufgebaut ist, also verlustfrei zoombar ist.
+- NEG Die *Syntax wurde optisch wenig ansprechend* und/oder wenig übersichtlich gestaltet (z. B. als Screenshot oder Screenshot mangelnder optischer Qualität). Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich".
+- NEG Die Syntax und/oder die R-Ausgaben wurden ganz oder in Teilen als Screenshot dargestellt. Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich". Darüber ist die grafische Qualität nicht so gut wie bei z. B. Text, der als Vektorgrafik aufgebaut ist, also verlustfrei zoombar ist.
 
 
-- \- In einem wissenschaftlichen Bericht dieser Art sollte keine R-Syntax bzw. kein unformatierter R-Output aufgeführt sein.
+- NEG In einem wissenschaftlichen Bericht dieser Art sollte keine R-Syntax bzw. kein unformatierter R-Output aufgeführt sein.
 
 
 ### R-Ausgaben (xxroutput) {#routput}
 
-- \+  Die *R-Ausgaben* wurden optisch sehr ansprechend und *übersichtlich* gestaltet (z. B. mit Syntax-Highlighting).
-- \+ Die R-Ausgaben wurden weitgehend optisch ansprechend und übersichtlich gestaltet.
+- POS  Die *R-Ausgaben* wurden optisch sehr ansprechend und *übersichtlich* gestaltet (z. B. mit Syntax-Highlighting).
+- POS Die R-Ausgaben wurden weitgehend optisch ansprechend und übersichtlich gestaltet.
 
 
 `---`
 
 
-- \- Die R-Ausgaben sind *teilweise optisch wenig ansprechend formatiert* (z. B. unübersichtlich). 
-- \- Teilweise wurde sehr langer und/oder weniger informativer R-Output (kommentarlos) abgedruckt. Solcher R-Output ist wenig nützlich.
+- NEG Die R-Ausgaben sind *teilweise optisch wenig ansprechend formatiert* (z. B. unübersichtlich). 
+- NEG Teilweise wurde sehr langer und/oder weniger informativer R-Output (kommentarlos) abgedruckt. Solcher R-Output ist wenig nützlich.
 
-- \- Die Syntax und/oder die R-Ausgaben wurden ganz oder in Teilen als Screenshot dargestellt. Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich". Darüber ist die grafische Qualität nicht so gut wie bei z. B. Text, der als Vektorgrafik aufgebaut ist, also verlustfrei zoombar ist.
+- NEG Die Syntax und/oder die R-Ausgaben wurden ganz oder in Teilen als Screenshot dargestellt. Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich". Darüber ist die grafische Qualität nicht so gut wie bei z. B. Text, der als Vektorgrafik aufgebaut ist, also verlustfrei zoombar ist.
 
-- \- In *wissenschaftlichen Berichten dieser Art sollte kein unformartierter R-Code oder R-Ausgaben in den Hauptteil* aufgenommen werden. Vielmehr sollten auf Basis der R-Ausgaben ansprechende, informative, wohl strukturierte Textpassagen, Diagramme oder Tabellen erstellt werden. Den Lesenden soll es nicht aufgebürdet werden, sich selber "durchzupflügen", sondern eine gute Arbeit stellt die Ergebnisse wohl aufbereitet dar. Vermeiden Sie es, unformatierte R-Ausgabe in den Hauptteil einer solchen Arbeit aufzunehmen.
+- NEG In *wissenschaftlichen Berichten dieser Art sollte kein unformartierter R-Code oder R-Ausgaben in den Hauptteil* aufgenommen werden. Vielmehr sollten auf Basis der R-Ausgaben ansprechende, informative, wohl strukturierte Textpassagen, Diagramme oder Tabellen erstellt werden. Den Lesenden soll es nicht aufgebürdet werden, sich selber "durchzupflügen", sondern eine gute Arbeit stellt die Ergebnisse wohl aufbereitet dar. Vermeiden Sie es, unformatierte R-Ausgabe in den Hauptteil einer solchen Arbeit aufzunehmen.
 
 
 ### RMarkdown {#rmarkdown}
 
-- \+ Die Verwendung von *RMarkdown* ist gerade bei Berichten dieser Art sehr sinnvoll; insofern ist dieser Ansatz begrüßenswert.
+- POS Die Verwendung von *RMarkdown* ist gerade bei Berichten dieser Art sehr sinnvoll; insofern ist dieser Ansatz begrüßenswert.
 
-- \- Hinweise (*Messages*) von in R-Chunks ausgeführten Befehlen wie "Loading required package: dplyr" oder "The following packages are masked XXX" *sollten besser unterdrückt werden* und nicht im Hauptteil des Berichts erscheinen. Dafür ist die Chunk-Option "message = FALSE" sinnvoll: z. B. "```{r message = FALSE}".
+- NEG Hinweise (*Messages*) von in R-Chunks ausgeführten Befehlen wie "Loading required package: dplyr" oder "The following packages are masked XXX" *sollten besser unterdrückt werden* und nicht im Hauptteil des Berichts erscheinen. Dafür ist die Chunk-Option "message = FALSE" sinnvoll: z. B. "```{r message = FALSE}".
 
 
 ### Beschreibung des Datensatzes (xxdatadescription) {#datasetdescription}
 
-- \+ *Relevante Aspekte des Datensatzes* wurden beschrieben.
-- \+ Die *Quelle* des Datensatzes wurde benannt. Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
+- POS *Relevante Aspekte des Datensatzes* wurden beschrieben.
+- POS Die *Quelle* des Datensatzes wurde benannt. Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
 
 `---`
 
 
-- \- Nicht alle relevanten Aspekte des Datensatzes wurden beschrieben.
-- \- Die untersuchten Variablen des Datensatzes wurden nicht (alle) bzw. nicht ausführlich (genug) beschrieben.
-- \- Es *fehlt ein Hinweis zur Quelle des Datensatzes* (zumindest eine URL wäre wünschenswert). Nur mit der Quelle kann die Analyse in allen Schritten überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit wäre damit gewährleistet gewesen, fehlt aber in der vorliegenden Analyse.
+- NEG Nicht alle relevanten Aspekte des Datensatzes wurden beschrieben.
+- NEG Die untersuchten Variablen des Datensatzes wurden nicht (alle) bzw. nicht ausführlich (genug) beschrieben.
+- NEG Es *fehlt ein Hinweis zur Quelle des Datensatzes* (zumindest eine URL wäre wünschenswert). Nur mit der Quelle kann die Analyse in allen Schritten überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit wäre damit gewährleistet gewesen, fehlt aber in der vorliegenden Analyse.
 
 
 ## Konzise Beschreibung vs. unnötige Erläuterungen im Methodenteil {#unnoetigeerlaueterung}
@@ -2773,11 +2797,11 @@ Fehlinterpretationen:
 
 `+++` 
 
-- \+ Der Methodenteil besticht durch eine konzise Beschreibung. Es wurden -- so wie es wünschenswert ist -- im Methodenteil nur das Vorgehen der Studie beschrieben. Auf "Lehrbuchausführungen", etwa der Beschreibung von Standardmethoden wie Mittelwertsberechnung oder dem t-Test wurde korrekterweise verzichtet. 
+- POS Der Methodenteil besticht durch eine konzise Beschreibung. Es wurden -- so wie es wünschenswert ist -- im Methodenteil nur das Vorgehen der Studie beschrieben. Auf "Lehrbuchausführungen", etwa der Beschreibung von Standardmethoden wie Mittelwertsberechnung oder dem t-Test wurde korrekterweise verzichtet. 
 
 `---`
 
-- \- Die eingesetzten Methoden sollten \*nicht\* in der Arbeit erläutert werden, sofern es sich gängige Methoden handelt (die im Unterricht erläutert werden; Beispiele: "Der t-Test wird verwendet um XXX", "Qualitative Methoden zeichnen sich aus durch YYYY"). Das Wissen um gängige Methoden wird beim Leser vorausgesetzt. Erörtern Sie nicht, wie eine Methode funktioniert, sondern nutzen Sie den knappen Platz, um zu erklären, was Sie machen. Man soll also in so einer Arbeit kein "Lehrbuch" schreiben.
+- NEG Die eingesetzten Methoden sollten \*nicht\* in der Arbeit erläutert werden, sofern es sich gängige Methoden handelt (die im Unterricht erläutert werden; Beispiele: "Der t-Test wird verwendet um XXX", "Qualitative Methoden zeichnen sich aus durch YYYY"). Das Wissen um gängige Methoden wird beim Leser vorausgesetzt. Erörtern Sie nicht, wie eine Methode funktioniert, sondern nutzen Sie den knappen Platz, um zu erklären, was Sie machen. Man soll also in so einer Arbeit kein "Lehrbuch" schreiben.
 
 
 ## Kausal- vs. Vorhersageaussgen {#kausalmeth}
@@ -2786,11 +2810,19 @@ Fehlinterpretationen:
 
 `000`
 
-- \+- Ich empfehle Ihnen, sich mit dem aktuellen Stand der Kausalanalyse von (nicht-experimentellen) Forschungsdesigns vertraut zu machen. Diese Quelle bietet einen guten Einstieg: https://journals.sagepub.com/doi/abs/10.1177/2515245917745629?journalCode=ampa. 
+- POS-NEG Ich empfehle Ihnen, sich mit dem aktuellen Stand der Kausalanalyse von (nicht-experimentellen) Forschungsdesigns vertraut zu machen. Diese Quelle bietet einen guten Einstieg: https://journals.sagepub.com/doi/abs/10.1177/2515245917745629?journalCode=ampa. 
 
 `---`
 
-- \- Die vorliegende Arbeit verwendet den Term *"beeinflussen"* an einer (oder mehreren) Stellen (z. B. in den Hypothesen oder im Ergebnisteil). Der Begriff suggeriert einen* kausalen Anspruch in der Hypothese; ein Anspruch, der das *Design* (bzw. die interne Validität des Designs) der vorliegenden Studie *nicht gerecht* wird.
+- NEG Die vorliegende Arbeit verwendet den Term *"beeinflussen"* an einer (oder mehreren) Stellen (z. B. in den Hypothesen oder im Ergebnisteil). Der Begriff suggeriert einen* kausalen Anspruch in der Hypothese; ein Anspruch, der das *Design* (bzw. die interne Validität des Designs) der vorliegenden Studie *nicht gerecht* wird.
+
+
+## Datensatz
+
+`---`
+
+- NEG Zur sinnvollen Auswertung der Daten ist es von Vorteil (oder sogar nötig), dass alle Daten in einer Tabelle (bzw. Datei) vorliegen. In der vorliegenden Arbeit wurde dieser Punkt nicht ausreichend berücksichtigt.
+
 
 
 
@@ -2804,34 +2836,34 @@ Fehlinterpretationen:
 
 `+++`
 
-- \- Die Studie ist insgesamt *methodisch ambitioniert* geplant.
+- NEG Die Studie ist insgesamt *methodisch ambitioniert* geplant.
 
-- \+ Insgesamt wurde weitgehend relevante empirisch-methodische Verfahren sinnvoll und methodisch gewandt verwendet.
-- \+ Die Anwendung — sowohl in Qualität als auch in Quantität — zeugt in fast allen Punkten von sehr gutem methodischem Verständnis.
-- \+ Insgesamt finden sich nur wenige Fehler in der Verwendung von relevanten empirisch-methodischen Verfahren.
-- \+ Ein gelungener Einsatz von technischen/EDV-Werkzeugen zur Optimierung der Arbeit ist festzustellen.
-- \+ Adäquater Gebrauch der empirisch-wissenschaftlichen Methodik ist insgesamt festzustellen.
-- \+ Sehr gutes Verständnis der empirisch-wissenschaftlichen Methodik ist festzustellen.
-- \+ Das methodische Vorgehen anschaulich und gut verständlich erläutert.
+- POS Insgesamt wurde weitgehend relevante empirisch-methodische Verfahren sinnvoll und methodisch gewandt verwendet.
+- POS Die Anwendung — sowohl in Qualität als auch in Quantität — zeugt in fast allen Punkten von sehr gutem methodischem Verständnis.
+- POS Insgesamt finden sich nur wenige Fehler in der Verwendung von relevanten empirisch-methodischen Verfahren.
+- POS Ein gelungener Einsatz von technischen/EDV-Werkzeugen zur Optimierung der Arbeit ist festzustellen.
+- POS Adäquater Gebrauch der empirisch-wissenschaftlichen Methodik ist insgesamt festzustellen.
+- POS Sehr gutes Verständnis der empirisch-wissenschaftlichen Methodik ist festzustellen.
+- POS Das methodische Vorgehen anschaulich und gut verständlich erläutert.
 
 
 `000`
 
 
-- \+- Insgesamt ist das Niveau und der Umfang des methodisch-empirischen Teils als von mittlerer Güte einzuschätzen. 
+- POS-NEG Insgesamt ist das Niveau und der Umfang des methodisch-empirischen Teils als von mittlerer Güte einzuschätzen. 
 
 
 `---`
 
-- \- Die zentralen Vorgaben zur *Methode der Arbeit* wurden *nicht* oder *bruchstückhaft* umgesetzt.
+- NEG Die zentralen Vorgaben zur *Methode der Arbeit* wurden *nicht* oder *bruchstückhaft* umgesetzt.
 
-- \- Es *fehlt eine empirische Methode*, die aber für diese Arbeut vorgegeben war.
+- NEG Es *fehlt eine empirische Methode*, die aber für diese Arbeut vorgegeben war.
 
-- \- Zentrale empirisch-methodische Konzepte wurden falsch eingesetzt.
-- \- Es sind einige kleinere methodische Mängel aufzufinden.
-- \- Die Anwendung von empirischen Methoden, wie es in der vorliegenden Arbeit demonstriert wird, weist klares Verbesserungspotenzial auf.
+- NEG Zentrale empirisch-methodische Konzepte wurden falsch eingesetzt.
+- NEG Es sind einige kleinere methodische Mängel aufzufinden.
+- NEG Die Anwendung von empirischen Methoden, wie es in der vorliegenden Arbeit demonstriert wird, weist klares Verbesserungspotenzial auf.
 
-- \- Die Datenanalyse weist große Lücke auf.
+- NEG Die Datenanalyse weist große Lücke auf.
 
 
 
@@ -2841,21 +2873,21 @@ Fehlinterpretationen:
 `+++`
 
 
-- \+ Insgesamt sind die Formalia der Datenanalyse gut bis sehr gut abgearbeitet.
+- POS Insgesamt sind die Formalia der Datenanalyse gut bis sehr gut abgearbeitet.
 
-- \+ Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden.
+- POS Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden.
 
-- \+ Die Skalenniveaus der untersuchten Variablen wurden korrekt benannt.
+- POS Die Skalenniveaus der untersuchten Variablen wurden korrekt benannt.
 
-- \+ Relevante Aspekte des Datensatzes wurden beschrieben.
+- POS Relevante Aspekte des Datensatzes wurden beschrieben.
 
-- \+ Die Quelle des Datensatzes wurde benannt. Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
+- POS Die Quelle des Datensatzes wurde benannt. Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
 
-- \+ Die Syntax und/oder die R-Ausgaben wurden optisch  ansprechend und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
+- POS Die Syntax und/oder die R-Ausgaben wurden optisch  ansprechend und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
 
-- \+ Es wurde ein hohes Maß an Kompetenz im Umgang mit R demonstriert.
+- POS Es wurde ein hohes Maß an Kompetenz im Umgang mit R demonstriert.
 
-- \+ Die gestalterische Qualität der Abbildungen ist hoch.
+- POS Die gestalterische Qualität der Abbildungen ist hoch.
 
 
 
@@ -2868,20 +2900,20 @@ Fehlinterpretationen:
 `+++`
 
 
-- \+ Es wurden angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
+- POS Es wurden angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.
 
-- \+ Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet, z. B. simulationsbasierte Inferenz, SBI o. Ä..
+- POS Es wurden moderne bzw. sinnvolle Methoden der Datenanalyse verwendet, z. B. simulationsbasierte Inferenz, SBI o. Ä..
 
-- \+ Es wurden multivariate Methoden (z. B. multiple Regression) sinnvoll ausgewählt, um etwaige “Überschneidungen” von Variablen bzw. um “Nettoeffekte” einzelner Variablen zu bestimmen.
+- POS Es wurden multivariate Methoden (z. B. multiple Regression) sinnvoll ausgewählt, um etwaige “Überschneidungen” von Variablen bzw. um “Nettoeffekte” einzelner Variablen zu bestimmen.
 
-- \+ Die statistischen Verfahren wurden (weitgehend) richtig (im Sinne von fehlerfrei) angewendet.
+- POS Die statistischen Verfahren wurden (weitgehend) richtig (im Sinne von fehlerfrei) angewendet.
 
-- \+ Das Effektstärkemaß (wie z. B. Cohens d oder R-Quadrat) ist eine sinnvolle, sogar notwendige Ergänzung zu den anderen deskriptiv-statistischen Werten und wurde sinnvoll eingesetzt; Angaben zur Schätzgenauigkeit eines Effekts sind dabei von hohem Nutzen.
+- POS Das Effektstärkemaß (wie z. B. Cohens d oder R-Quadrat) ist eine sinnvolle, sogar notwendige Ergänzung zu den anderen deskriptiv-statistischen Werten und wurde sinnvoll eingesetzt; Angaben zur Schätzgenauigkeit eines Effekts sind dabei von hohem Nutzen.
 
 
-- \+ Konfidenzintervalle wurden in sinnvoller Weise berichtet.
+- POS Konfidenzintervalle wurden in sinnvoller Weise berichtet.
 
-- \+ Die Anzahl der Nachkommastellen (Dezimalstellen) ist immer oder zumeist passend bzw. konsistent.
+- POS Die Anzahl der Nachkommastellen (Dezimalstellen) ist immer oder zumeist passend bzw. konsistent.
 
 
 
@@ -2893,22 +2925,22 @@ Fehlinterpretationen:
 `+++`
 
 
-- \+ Der p-Wert wird exakt erläutert bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass “Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt”.
+- POS Der p-Wert wird exakt erläutert bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass “Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt”.
 
-- \+ Die Entscheidung zum Verwerfen/Beibehalten der H0 wurde korrekt von der Datenlage bzw. dem p-Wert abgeleitet.
+- POS Die Entscheidung zum Verwerfen/Beibehalten der H0 wurde korrekt von der Datenlage bzw. dem p-Wert abgeleitet.
 
 
-- \+ Die Hypothesen wurden formal korrekt spezifiziert.
+- POS Die Hypothesen wurden formal korrekt spezifiziert.
 
-- \+ Titel, Forschungsfrage/Hypothesen und Datenanalyse passen zusammen.
+- POS Titel, Forschungsfrage/Hypothesen und Datenanalyse passen zusammen.
 
-- \+ Der Ansatz der Problemlösung ist breit angelegt.
+- POS Der Ansatz der Problemlösung ist breit angelegt.
 
-- \+ Insgesamt ist die Diskussion als gut zu beurteilen.
+- POS Insgesamt ist die Diskussion als gut zu beurteilen.
 
-- \+ Das Ergebnis der Arbeit wurde kritisch reflektiert.
+- POS Das Ergebnis der Arbeit wurde kritisch reflektiert.
 
-- \+ Das methodische Vorgehen wurde kritisch reflektiert.
+- POS Das methodische Vorgehen wurde kritisch reflektiert.
 
 
 
@@ -2925,23 +2957,24 @@ Fehlinterpretationen:
 
 `+++`
 
-+ \+ Der Titel der Arbeit ist *pointiert*, konzise und gut passend.
-+ \+ Der Titel der Arbeit ist *passend.*
++ POS Der Titel der Arbeit ist *pointiert*, konzise und gut passend.
++ POS Der Titel der Arbeit ist *passend.*
 +
 
 
 `---`
 
 
-- \- Der Titel der Arbeit ist *sehr (zu) lang* und damit nicht sehr eingängig.
-- \- Der Titel der Arbeit ist *zu vage/unpräzise* oder nicht griffig genug.
-- \- Der Titel der Arbeit ist *sehr kurz *und damit nicht präzise genug.
-- \- Der Titel ist *zu kurz *und damit nicht präzise genug; besser wäre ein präziserer Titel.
-- \- Der Titel ist *nicht präzise (genug)*. Wesentlich Aspekte der Forschungsfrage(n) bzw. der Studie bleiben außen vor. Ein guter Titel sollte bereits das Wesentliche der Arbeit vermitteln.
+- NEG Der Titel der Arbeit ist *sehr (zu) lang* und damit nicht sehr eingängig.
+- NEG Der Titel der Arbeit ist *zu vage/unpräzise* oder nicht griffig genug.
+- NEG Der Titel der Arbeit ist *sehr kurz *und damit nicht präzise genug.
+- NEG Der Titel ist *zu kurz *und damit nicht präzise genug; besser wäre ein präziserer Titel.
+- NEG Der Titel ist *nicht präzise (genug)*. Wesentlich Aspekte der Forschungsfrage(n) bzw. der Studie bleiben außen vor. Ein guter Titel sollte bereits das Wesentliche der Arbeit vermitteln.
 
 
-- \- Es *fehlt* ein Titel.
+- NEG Es *fehlt* ein Titel.
 
+- NEG Die *Forschungsfrage*, wie sie in der Einleitung formuliert ist, passt nicht (komplett) auf den *Titel*, der ja seinerseits das Wesentliche der Studie - die Forschungsfrage mithin - anspricht; insofern liegt eine *Inkonsistenz* vor.
 
 
 ### Titel -- Inhalt Kommentare {#titelinhaltkommentar}
@@ -2952,11 +2985,11 @@ Fehlinterpretationen:
 
 
 
-- \+ Der Titel spiegelt die *Forschungsfrage* adäquat wider. Das ist sinnvoll, denn die Forschungsfrage kann als zentrale Informationseinheit zu einer Studie verstanden werden und verdient daher eine prominente Platzierung.
+- POS Der Titel spiegelt die *Forschungsfrage* adäquat wider. Das ist sinnvoll, denn die Forschungsfrage kann als zentrale Informationseinheit zu einer Studie verstanden werden und verdient daher eine prominente Platzierung.
 
 
 
-- \+- Der Titel gibt einige zentrale Aspekte der Forschungsfrage und/oder des Studiendesigns wieder, aber hätte noch *von weiterer Präzisierung profitiert*.
+- POS-NEG Der Titel gibt einige zentrale Aspekte der Forschungsfrage und/oder des Studiendesigns wieder, aber hätte noch *von weiterer Präzisierung profitiert*.
 
 
 
@@ -2964,31 +2997,31 @@ Fehlinterpretationen:
 `---`
 
 
-- \- Der Titel spiegelt den *zentralen Inhalt* der Arbeit *nicht präzise* genug wider. 
+- NEG Der Titel spiegelt den *zentralen Inhalt* der Arbeit *nicht präzise* genug wider. 
 
-- \- Das *Inhaltsverzeichnis* der Arbeit findet sich in seinen Schwerpunkten *nur in Teilen im Titel* wieder.
-
-
-- \- Der Titel *hätte präziser formuliert werden können*, z.B. um die Richtung der *Hypothesen* oder Art des *Studiendesigns* zu erwähnen.
-- \- Besser wäre der Titel noch, wenn die Art des *Studiendesigns* berichtet werden würde ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine *querschnittliche Beobachtungsstudie*").
+- NEG Das *Inhaltsverzeichnis* der Arbeit findet sich in seinen Schwerpunkten *nur in Teilen im Titel* wieder.
 
 
-- \- Der Titel *hätte präziser formuliert werden können*, um die Art des empirischen Vorgehens genauer zu beleuchten (z.B. "eine randomisierte Querschnittstudie", "ein Experteninterview auf Basis der qualitativen Inhaltsanalyse").
-
-- \- Die *Forschungsfrage* geht aus dem Titel *nicht (klar)* genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
-
-- \- Der Titel läuft Gefahr aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Titel für eine Abschlussarbeit angenommen zu werden. Damit würde auch das Thema abgelehnt werden bzw. die Abschlussarbeit mit diesem *Thema nicht angemeldet werden können*. Insofern ist der Titel und auch die Ausrichtung der Arbeit als problematisch zu bezeichnen. Für jede wissenschaftliche Arbeit gilt, dass ein Thema auf wissenschaftliche Art und Weise untersucht werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung sieht i.d.R. über den Einzelfall hinweg und versucht, allgemeingültige Muster zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
-
-- \- Ich rate Ihnen, den *Titel für Ihre Abschlussarbeit zu überdenken* bzw. zu ändern.
-
-- \- Der Titel benutzt *kausal konnotierte Begriffe* wie "der Effekt/Einfluss von X auf Y". Allerdings lassen die theoretischen und/oder versuchsplanerischen Grundlagen der vorliegenden keine Kausalaussagen zu.
-
-- \- Der Titel sollte in einer wissenschaftlichen Arbeit besser *als Forschungsfrage formuliert* sein, nicht als gesicherte Lösung. Das Ziel einer wissenschaftlichen Arbeit besteht gerade darin, Fragen zu stellen und an deren Beantwortung zu arbeiten. Wäre die Frage schon geklärt, wäre sie nicht Thema einer Forschungsarbeit. Man muss außerdem bescheiden sein im Hinblick auf die Klärungskraft einer einzelnen Studie: Viele wissenschaftlichen Phänomene sind so komplex, dass es aussichtslos ist, sie mit einer einzelnen Studie zu beantworten zu wollen. Sozialwissenschaftliche Phänomen stellen ob ihrer Multideterminiertheit darin keine Ausnahmen, ganz im Gegenteil. Wissenschaftliches Denken und Argumentieren erkennt von vor diesem Hintergrund also in einer bescheidenen, vorsichtigen, kritischen Formulierung -- bei gleichzeitiger Anwendung der besten Methodik, um Wissen zu generieren bzw. um Zweifel auszuräumen. Daher sind *(Unter-)Titel der Art "wie man von X zu Y kommt" etc. nicht gut geeignet* als Titel von Forschungsarbeiten.
+- NEG Der Titel *hätte präziser formuliert werden können*, z.B. um die Richtung der *Hypothesen* oder Art des *Studiendesigns* zu erwähnen.
+- NEG Besser wäre der Titel noch, wenn die Art des *Studiendesigns* berichtet werden würde ("Das Paarungsverhalten der südsibirischen Kreuzschwanzschwalbe blablabla - Eine *querschnittliche Beobachtungsstudie*").
 
 
+- NEG Der Titel *hätte präziser formuliert werden können*, um die Art des empirischen Vorgehens genauer zu beleuchten (z.B. "eine randomisierte Querschnittstudie", "ein Experteninterview auf Basis der qualitativen Inhaltsanalyse").
+
+- NEG Die *Forschungsfrage* geht aus dem Titel *nicht (klar)* genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
+
+- NEG Der Titel läuft Gefahr aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Titel für eine Abschlussarbeit angenommen zu werden. Damit würde auch das Thema abgelehnt werden bzw. die Abschlussarbeit mit diesem *Thema nicht angemeldet werden können*. Insofern ist der Titel und auch die Ausrichtung der Arbeit als problematisch zu bezeichnen. Für jede wissenschaftliche Arbeit gilt, dass ein Thema auf wissenschaftliche Art und Weise untersucht werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung sieht i.d.R. über den Einzelfall hinweg und versucht, allgemeingültige Muster zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
+
+- NEG Ich rate Ihnen, den *Titel für Ihre Abschlussarbeit zu überdenken* bzw. zu ändern.
+
+- NEG Der Titel benutzt *kausal konnotierte Begriffe* wie "der Effekt/Einfluss von X auf Y". Allerdings lassen die theoretischen und/oder versuchsplanerischen Grundlagen der vorliegenden keine Kausalaussagen zu.
+
+- NEG Der Titel sollte in einer wissenschaftlichen Arbeit besser *als Forschungsfrage formuliert* sein, nicht als gesicherte Lösung. Das Ziel einer wissenschaftlichen Arbeit besteht gerade darin, Fragen zu stellen und an deren Beantwortung zu arbeiten. Wäre die Frage schon geklärt, wäre sie nicht Thema einer Forschungsarbeit. Man muss außerdem bescheiden sein im Hinblick auf die Klärungskraft einer einzelnen Studie: Viele wissenschaftlichen Phänomene sind so komplex, dass es aussichtslos ist, sie mit einer einzelnen Studie zu beantworten zu wollen. Sozialwissenschaftliche Phänomen stellen ob ihrer Multideterminiertheit darin keine Ausnahmen, ganz im Gegenteil. Wissenschaftliches Denken und Argumentieren erkennt von vor diesem Hintergrund also in einer bescheidenen, vorsichtigen, kritischen Formulierung -- bei gleichzeitiger Anwendung der besten Methodik, um Wissen zu generieren bzw. um Zweifel auszuräumen. Daher sind *(Unter-)Titel der Art "wie man von X zu Y kommt" etc. nicht gut geeignet* als Titel von Forschungsarbeiten.
 
 
 
+
+- Die Frage, die der Titel der vorliegenden Frage aufwirft, führt für eine Forschungsarbeit (wie diese) zu weit: Ob man eine potenziell *weitreichende praktische (politische) Entscheidung* treffen sollte, ist nicht vorderdings die Frage einer Forschungsarbeit. Vielmehr sollte es hier um die Absicherung von Wissen gehen.
 
 
 
@@ -3001,32 +3034,34 @@ Fehlinterpretationen:
 
 
 
-- \+ Die Gliederung der Arbeit ist *stimmig.*
+- POS Die Gliederung der Arbeit ist *stimmig.*
 
-- \+ Die anteilige Aufteilung der Gliederungspunkte zu den einzelnen Hauptteilen der Arbeit ist *wohl proportioniert*.
+- POS Die anteilige Aufteilung der Gliederungspunkte zu den einzelnen Hauptteilen der Arbeit ist *wohl proportioniert*.
 
-- \+ Aufbau und Gliederung der Arbeit sind *wohl durchdacht*.
+- POS Aufbau und Gliederung der Arbeit sind *wohl durchdacht*.
 
-- \+ Die Gliederung *spiegelt den Titel adäquat* wider.
-- \+ Die Gliederung *spiegelt die Forschungsfrage adäquat* wider.
+- POS Die Gliederung *spiegelt den Titel adäquat* wider.
+- POS Die Gliederung *spiegelt die Forschungsfrage adäquat* wider.
+
+
 
 
 `---`
 
 
 
-- \- Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln? Außerdem ist die Beschreibung "Stand der Forschung" *zu wenig aussagekräftig*. Der Leser erfährt kaum etwas darüber, was in dem Abschnitt versteht. Vergleichen Sie, welche Überschrift aussagekräftiger ist: "Neuigkeiten aus der Politik" im Gegensatz zu "Frau Merkel bekommt den Nobelpreis für Physik!".
+- NEG Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln? Außerdem ist die Beschreibung "Stand der Forschung" *zu wenig aussagekräftig*. Der Leser erfährt kaum etwas darüber, was in dem Abschnitt versteht. Vergleichen Sie, welche Überschrift aussagekräftiger ist: "Neuigkeiten aus der Politik" im Gegensatz zu "Frau Merkel bekommt den Nobelpreis für Physik!".
 
-- \- Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. *nicht komplett treffend wider*.
+- NEG Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. *nicht komplett treffend wider*.
 
-- \- Das *Inhaltsverzeichnis* sollte *alle Teile der Forschungsfrage* aufgreifen bzw. widerspiegeln. Lautet die Forschungsfrage etwa *"A führt zu B"*, so sind im Inhaltsverzeichnis für den Theorieteil (zumindest) *drei Unterkapitel* aufzuführen: A, B und der (möglicherweise kausale) Zusammenhang von A und B. Die vorliegende Arbeit berücksichtigt diesen Aspekt nicht ausreichend. 
+- NEG Das *Inhaltsverzeichnis* sollte *alle Teile der Forschungsfrage* aufgreifen bzw. widerspiegeln. Lautet die Forschungsfrage etwa *"A führt zu B"*, so sind im Inhaltsverzeichnis für den Theorieteil (zumindest) *drei Unterkapitel* aufzuführen: A, B und der (möglicherweise kausale) Zusammenhang von A und B. Die vorliegende Arbeit berücksichtigt diesen Aspekt nicht ausreichend. 
 
-- \- Die Gliederung sollte auf der ersten Ebene die *klassische Aufteilung* in Einleitung, Theorie, Methoden, Ergebnisse, Diskussion widerspiegeln. Die vorliegende Arbeit weicht davon ab.
+- NEG Die Gliederung sollte auf der ersten Ebene die *klassische Aufteilung* in Einleitung, Theorie, Methoden, Ergebnisse, Diskussion widerspiegeln. Die vorliegende Arbeit weicht davon ab.
 
-- \- Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
+- NEG Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
 
 
-- \- Das Inhaltsverzeichnis ist nicht *inhaltsdicht* genug, sondern in Teilen *inhaltsarm*. So sind Gliederungspunkt wie "Ansatz, "Hypothese 1", "Vorgehen", "Problemstellung" wenig informativ. Auf der ersten Gliederungsebene eines wissenschaftlichen Berichts ist es üblich, auf solche hoch schematischen und inhaltsarmen Benennungen zurückzugreifen ("Theorie, Methode, etc."). Auf der zweiten (und folgenden) Gliederungsbene(n) hingegen sollten informative, informationsreiche, exakte, sprechende, konkrete Beschreibungen gewählt werden (z.B. "Selbstbestimmungstheorie nach Deci und Ryan (2003)", "H1: Männer sind im Durchschnitt größer als Frauen"). 
+- NEG Das Inhaltsverzeichnis ist nicht *inhaltsdicht* genug, sondern in Teilen *inhaltsarm*. So sind Gliederungspunkt wie "Ansatz, "Hypothese 1", "Vorgehen", "Problemstellung" wenig informativ. Auf der ersten Gliederungsebene eines wissenschaftlichen Berichts ist es üblich, auf solche hoch schematischen und inhaltsarmen Benennungen zurückzugreifen ("Theorie, Methode, etc."). Auf der zweiten (und folgenden) Gliederungsbene(n) hingegen sollten informative, informationsreiche, exakte, sprechende, konkrete Beschreibungen gewählt werden (z.B. "Selbstbestimmungstheorie nach Deci und Ryan (2003)", "H1: Männer sind im Durchschnitt größer als Frauen"). 
 
 
 
@@ -3037,8 +3072,9 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die Gliederung/das Inhaltsverzeichnis ist *optisch gelungen* und hilft dem schnellen Erfassen.
-- \+ Die Gliederung ist *optisch gut strukturiert*, was das Erfassen der Gedanken des Textes unterstützt.
+- POS Die Gliederung/das Inhaltsverzeichnis ist *optisch gelungen* und hilft dem schnellen Erfassen.
+- POS Die Gliederung ist *optisch gut strukturiert*, was das Erfassen der Gedanken des Textes unterstützt.
+- POS Die Gliederung ist *optisch insgesamt eher sinnvoll strukturiert*, was das Erfassen der Gedanken des Textes unterstützt.
 
 
 
@@ -3046,36 +3082,36 @@ Fehlinterpretationen:
 
 
 
-- \- Die Gliederung/das Inhaltsverzeichnis könnte *optisch besser strukturiert* sein. Dies kann u. a. durch Einrücken (horizontale Nähe und Distanz) und durch und Abstände zwischen Kapiteln (vertikalem Raum) erreicht werden (innerhalb der Unterkapitel eines Kapitels ist mehr vertikaler Raum zu lassen als zwischen zwei Kapiteln; die Kapitelgrenze ist durch zusätzlichem vertikalem Raum hervorzuheben). Das Ziel ist optisch zu verdeutlichen, welche Gedanken zur gleichen bzw. zu anderen Gruppen gehören (also einander näher oder weiter entfernt gedacht stehen). In der vorliegenden Arbeit wurden diese Aspekte nicht (komplett) berücksichtigt.
+- NEG Die Gliederung/das Inhaltsverzeichnis könnte *optisch besser strukturiert* sein. Dies kann u. a. durch Einrücken (horizontale Nähe und Distanz) und durch und Abstände zwischen Kapiteln (vertikalem Raum) erreicht werden (innerhalb der Unterkapitel eines Kapitels ist mehr vertikaler Raum zu lassen als zwischen zwei Kapiteln; die Kapitelgrenze ist durch zusätzlichem vertikalem Raum hervorzuheben). Das Ziel ist optisch zu verdeutlichen, welche Gedanken zur gleichen bzw. zu anderen Gruppen gehören (also einander näher oder weiter entfernt gedacht stehen). In der vorliegenden Arbeit wurden diese Aspekte nicht (komplett) berücksichtigt.
 
-- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile).
-- \- Das Inhaltsverzeichnis sollte (bei so einer kurzen Arbeit) geschickterweise *nur eine Seite lang* sein.
+- NEG Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile).
+- NEG Das Inhaltsverzeichnis sollte (bei so einer kurzen Arbeit) geschickterweise *nur eine Seite lang* sein.
 
-- \- Eine *Gliederung fehlt*; sie sollte stets vorhanden sein, da sie die Orientierung auch bei "kleineren" Arbeiten erleichtert.
-- \- Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein.
-
-
-- \- Gliederungspunkte sollten stets *mehr als einen Unterpunkt haben*, ansonsten verzichtet man besser auf die untergeordnete Gliederungsebene.
-
-- \- Teile wie *Literaturverzeichnis* oder *Anhang* werden in der *Gliederung nicht nummeriert*. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
+- NEG Eine *Gliederung fehlt*; sie sollte stets vorhanden sein, da sie die Orientierung auch bei "kleineren" Arbeiten erleichtert.
+- NEG Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein.
 
 
+- NEG Gliederungspunkte sollten stets *mehr als einen Unterpunkt haben*, ansonsten verzichtet man besser auf die untergeordnete Gliederungsebene.
+
+- NEG Teile wie *Literaturverzeichnis* oder *Anhang* werden in der *Gliederung nicht nummeriert*. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
 
 
 
-- \- *Vertikale Abstände* im Text sollten so gesetzt sein, dass sie Sinnzusammenhänge wie Kapitel verdeutlichen. Daher sollte z. B. nach der Überschrift zum Text des Absatzes weniger Abstand sein als zwischen Absatzende und neuer Überschrift. In der vorliegenden Arbeit wurden die Abstände zwischen Sinnabschnitten nicht durchgehend sinnvoll gewählt.
-
-- \- Der *Abstract* soll nicht in der Gliederung erscheinen.
-
-- \- Teile wie *Literaturverzeichnis* oder Anhang werden in der Gliederung *nicht nummeriert*. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
-
-- \- Das *Literaturverzeichnis* ist im Inhaltsverzeichnis  aufzuführen, fehlt aber.
 
 
-- \- Auf der ersten Gliederungsebene sollte die klassische Einteilung in *Einleitung*, *Theorie*, *Methode*, *Ergebnisse* und *Diskussion* gewählt werden.
+- NEG *Vertikale Abstände* im Text sollten so gesetzt sein, dass sie Sinnzusammenhänge wie Kapitel verdeutlichen. Daher sollte z. B. nach der Überschrift zum Text des Absatzes weniger Abstand sein als zwischen Absatzende und neuer Überschrift. In der vorliegenden Arbeit wurden die Abstände zwischen Sinnabschnitten nicht durchgehend sinnvoll gewählt.
+
+- NEG Der *Abstract* soll nicht in der Gliederung erscheinen.
+
+- NEG Teile wie *Literaturverzeichnis* oder Anhang werden in der Gliederung *nicht nummeriert*. Dieser Punkt wird in der vorliegenden Arbeit nicht korrekt umgesetzt.
+
+- NEG Das *Literaturverzeichnis* ist im Inhaltsverzeichnis  aufzuführen, fehlt aber.
 
 
-- \- Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
+- NEG Auf der ersten Gliederungsebene sollte die klassische Einteilung in *Einleitung*, *Theorie*, *Methode*, *Ergebnisse* und *Diskussion* gewählt werden.
+
+
+- NEG Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
 
 
 
@@ -3085,13 +3121,13 @@ Fehlinterpretationen:
 `+++`
 
 
-- \+ Die Einträge des Inhaltsverzeichnis sind *verlinkt* (zu den entsprechenden Kapiteln im Hauptteil), so dass ein flüssiges, flottes Lesen bzw. Rezipieren des Berichtes möglich ist; dies trägt zur "Leserfreundlichkeit" des Berichts bei. Gleiches gilt für Zitationen und Referenzen auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
+- POS Die Einträge des Inhaltsverzeichnis sind *verlinkt* (zu den entsprechenden Kapiteln im Hauptteil), so dass ein flüssiges, flottes Lesen bzw. Rezipieren des Berichtes möglich ist; dies trägt zur "Leserfreundlichkeit" des Berichts bei. Gleiches gilt für Zitationen und Referenzen auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
 
 
 `---`
 
 
-- \- Wären die Einträge des Inhaltsverzeichnis *verlinkt* gewesen (zu den entsprechenden Kapiteln im Hauptteil), so wäre ein flüssigeres, flotteres Lesen bzw. Rezipieren des Berichtes möglich gewesen; die "*Leserfreundlichkeit*" des Berichts wäre damit höher gewesen als es im vorliegenden Bericht der Fall ist.  Gleiches gilt für *Zitationen* und *Referenzen* auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
+- NEG Wären die Einträge des Inhaltsverzeichnis *verlinkt* gewesen (zu den entsprechenden Kapiteln im Hauptteil), so wäre ein flüssigeres, flotteres Lesen bzw. Rezipieren des Berichtes möglich gewesen; die "*Leserfreundlichkeit*" des Berichts wäre damit höher gewesen als es im vorliegenden Bericht der Fall ist.  Gleiches gilt für *Zitationen* und *Referenzen* auf Kapitel, Abbildungen oder Tabellen. Auch hier ist ein Link im Dokument nützlich und sollte bereitgestellt werden.
 
 
 `000`
@@ -3116,51 +3152,51 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die Forschungsfrage wurde *klar formuliert*.
-- \+ Die Forschungsfrage wurde *klar und an geeigneter Stelle* (z. B. am Ende der Einleitung) formuliert.
-- \+ Das Ziel der Arbeit wurde *klar herausgestellt*.
-- \+ Das Ziel der Arbeit wurde *herausgestellt.*
-- \+ Die Forschungsfrage wurde *stringent beantwortet*.
+- POS Die Forschungsfrage wurde *klar formuliert*.
+- POS Die Forschungsfrage wurde *klar und an geeigneter Stelle* (z. B. am Ende der Einleitung) formuliert.
+- POS Das Ziel der Arbeit wurde *klar herausgestellt*.
+- POS Das Ziel der Arbeit wurde *herausgestellt.*
+- POS Die Forschungsfrage wurde *stringent beantwortet*.
 
 
 
 `000` 
 
-- \+- Das *Ziel* der Arbeit wurde herausgestellt, hätte aber noch *von Präzisierung profitiert*.
-- \+- Die Forschungsfrage hätte *von weiterer Präzisierung profitiert*.
-- \+- Die Begriffe in der Forschungsfrage hätten *von weiterer Präzisierung profitiert*.
+- POS Das *Ziel* der Arbeit wurde herausgestellt, hätte aber noch *von Präzisierung profitiert*.
+- POS Die Forschungsfrage hätte *von weiterer Präzisierung profitiert*.
+- POS Die Begriffe in der Forschungsfrage hätten *von weiterer Präzisierung profitiert*.
 
 
 
 `---`
 
-- \- Die *Forschungsfrage nicht klar genug herausgestellt* oder findet sich nicht an dem einschlägigen Platz (Einleitung oder zu Beginn des Theorieteils).
-- \- Das Ziel der Arbeit sollte in *einem oder zwei Sätzen prägnant* expliziert sein.
-- \- Ein deutliches Manko der Arbeit ist das *Fehlen einer expliziten Forschungsfrage*.
-- \- Es wird nicht deutlich genug klar, welches Problem (welche Frage) die Arbeit versucht zu lösen; die *Forschungsfrage ist unklar*. Dadurch wird viel Potenzial verschenkt. 
+- NEG Die *Forschungsfrage nicht klar genug herausgestellt* oder findet sich nicht an dem einschlägigen Platz (Einleitung oder zu Beginn des Theorieteils).
+- NEG Das Ziel der Arbeit sollte in *einem oder zwei Sätzen prägnant* expliziert sein.
+- NEG Ein deutliches Manko der Arbeit ist das *Fehlen einer expliziten Forschungsfrage*.
+- NEG Es wird nicht deutlich genug klar, welches Problem (welche Frage) die Arbeit versucht zu lösen; die *Forschungsfrage ist unklar*. Dadurch wird viel Potenzial verschenkt. 
 
-- \- Es sollten *nicht mehrere Forschungsfrage formuliert werden*, sondern besser nur eine einzige. Oder zumindest muss es eine übergreifende Forschungsfrage geben. Stehen mehrere Forschungsfragen nebeneinander, ist der wesentliche Beitrag der Arbeit weniger klar erkenntlich. Außerdem ist es zweifelhaft, ob eine vergleichsweise kurze Arbeit mehrere Fragen in nützlicher Tiefe bearbeiten kann. Ich empfehle daher, die Arbeit auf die Beantwortung einer Frage hin zuzuspitzen. Man braucht i. d. R. keine Sorge haben, dass es nicht genug Stoff (Literatur und Gedanken) gibt, um eine Arbeit zu füllen; diese Sorge ist fast immer unbegründet. 
+- NEG Es sollten *nicht mehrere Forschungsfrage formuliert werden*, sondern besser nur eine einzige. Oder zumindest muss es eine übergreifende Forschungsfrage geben. Stehen mehrere Forschungsfragen nebeneinander, ist der wesentliche Beitrag der Arbeit weniger klar erkenntlich. Außerdem ist es zweifelhaft, ob eine vergleichsweise kurze Arbeit mehrere Fragen in nützlicher Tiefe bearbeiten kann. Ich empfehle daher, die Arbeit auf die Beantwortung einer Frage hin zuzuspitzen. Man braucht i. d. R. keine Sorge haben, dass es nicht genug Stoff (Literatur und Gedanken) gibt, um eine Arbeit zu füllen; diese Sorge ist fast immer unbegründet. 
 
-- \- Eine *Forschungsfrage in einer explorativen Arbeit sollte als offene Frage formuliert sein* (etwa: "Was sind die Gründe für xxx?", "Wie kann man die Produktivität steigern?"). Im Gegensatz dazu weisen *hypothesenprüfende Arbeiten zumeist geschlossenen (oder skalierende) Fragen auf* ("Parken Frauen im Schnitt schneller ein als Männer?"). Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+- NEG Eine *Forschungsfrage in einer explorativen Arbeit sollte als offene Frage formuliert sein* (etwa: "Was sind die Gründe für xxx?", "Wie kann man die Produktivität steigern?"). Im Gegensatz dazu weisen *hypothesenprüfende Arbeiten zumeist geschlossenen (oder skalierende) Fragen auf* ("Parken Frauen im Schnitt schneller ein als Männer?"). Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
-- \- Die Forschungsfrage hätte *von weiterer Präzisierung profitiert*.
-- \- Die Begriffe in der Forschungsfrage hätten *von weiterer Präzisierung profitiert*.
-
-
-- \- Die Forschungsfrage ist *nicht präzise genug formuliert*.
-
-- \- Die Forschungsfrage *sollte früher in der Arbeit vorgestellt* werden, da sie das forschungsleitende Interesse -- den *Begründungszusammenhang* des Forschungsvorhabens insgesamt -- charakterisiert. Salopp formuliert gibt die Forschungsfrage eine Antwort auf die Frage: "Worum geht es hier überhaupt?". Da diese Information die Richtung für die ganze Arbeit gibt, ist ihr Platz zu Beginn der Arbeit.
+- NEG Die Forschungsfrage hätte *von weiterer Präzisierung profitiert*.
+- NEG Die Begriffe in der Forschungsfrage hätten *von weiterer Präzisierung profitiert*.
 
 
-- \- Die *Forschungsfrage* ist *zu breit* bzw. zu weit formuliert. Die Arbeit würde von einer "*Zuspitzung*" bzw. Präzisierung des Themas/der Forschungsfrage profitieren.
+- NEG Die Forschungsfrage ist *nicht präzise genug formuliert*.
+
+- NEG Die Forschungsfrage *sollte früher in der Arbeit vorgestellt* werden, da sie das forschungsleitende Interesse -- den *Begründungszusammenhang* des Forschungsvorhabens insgesamt -- charakterisiert. Salopp formuliert gibt die Forschungsfrage eine Antwort auf die Frage: "Worum geht es hier überhaupt?". Da diese Information die Richtung für die ganze Arbeit gibt, ist ihr Platz zu Beginn der Arbeit.
 
 
-- \- Die *Forschungsfrage* in der vorliegenden Arbeit ist *nicht-kausal* formuliert, zielt also nur auf das Vorhandensein von Mustern (Zusammenhängen etc.) ab. Solche methodologische Bescheidenheit ist in Forschungsarbeiten nicht unüblich und oft ein Zeichen von methodischer Strenge, was positiv zu sehen ist. Auf der anderen Seite hätte inhaltlich eine kausale Forschungsfrage mehr Sinn gemacht, eine Forschungsfrage der Art "Führt X zu Y" also. Vermutlich ist die Zurückhaltung darin zu suchen, dass die eingesetzte Forschungsmethode nicht (direkt) Zugang zu kausalen Schlussfolgerungen erlaubt. Glücklicherweise jedoch erlauben Fortschritte in der *Kausalanalyse* auch, bei Beobachtungsdaten, also ohne das Vorhandensein von randomiserten Experimenten, Kausalfragen zu untersuchen. Es sei hinzugefügt, dass die Kausalanalyse auf Annahmen beruht, natürlich; diese Annahmen sind vor allem im Vorhandensein einer entsprechenden Theorie zu suchen. Es gibt einige zugängliche Einstiegsliteratur in die Kausalanalyse, die an  dieser Stelle empfohlen sei \[vgl. @rohrer_thinking_2018\].
+- NEG Die *Forschungsfrage* ist *zu breit* bzw. zu weit formuliert. Die Arbeit würde von einer "*Zuspitzung*" bzw. Präzisierung des Themas/der Forschungsfrage profitieren.
+
+
+- NEG Die *Forschungsfrage* in der vorliegenden Arbeit ist *nicht-kausal* formuliert, zielt also nur auf das Vorhandensein von Mustern (Zusammenhängen etc.) ab. Solche methodologische Bescheidenheit ist in Forschungsarbeiten nicht unüblich und oft ein Zeichen von methodischer Strenge, was positiv zu sehen ist. Auf der anderen Seite hätte inhaltlich eine kausale Forschungsfrage mehr Sinn gemacht, eine Forschungsfrage der Art "Führt X zu Y" also. Vermutlich ist die Zurückhaltung darin zu suchen, dass die eingesetzte Forschungsmethode nicht (direkt) Zugang zu kausalen Schlussfolgerungen erlaubt. Glücklicherweise jedoch erlauben Fortschritte in der *Kausalanalyse* auch, bei Beobachtungsdaten, also ohne das Vorhandensein von randomiserten Experimenten, Kausalfragen zu untersuchen. Es sei hinzugefügt, dass die Kausalanalyse auf Annahmen beruht, natürlich; diese Annahmen sind vor allem im Vorhandensein einer entsprechenden Theorie zu suchen. Es gibt einige zugängliche Einstiegsliteratur in die Kausalanalyse, die an  dieser Stelle empfohlen sei \[vgl. @rohrer_thinking_2018\].
 
 
 **NUR QUALI:**
 
-- \- Die Forschungsfrage in einer qualitativen Forschungsarbeit sollte *das genuin Qualitative der Arbeit aufzeigen*. Eine Forschungsfrage wie "Einführung moderner Führungswerkzeuge" etwa streicht nicht klar genug die subjektive bzw. das sozialkonstruktive Gefüge heraus.
+- NEG Die Forschungsfrage in einer qualitativen Forschungsarbeit sollte *das genuin Qualitative der Arbeit aufzeigen*. Eine Forschungsfrage wie "Einführung moderner Führungswerkzeuge" etwa streicht nicht klar genug die subjektive bzw. das sozialkonstruktive Gefüge heraus.
 
 
 
@@ -3169,13 +3205,13 @@ Fehlinterpretationen:
 
 
 
-- \- Die Abschlussarbeit läuft Gefahr, aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Abschlussarbeit angenommen werden zu können. 
+- NEG Die Abschlussarbeit läuft Gefahr, aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Abschlussarbeit angenommen werden zu können. 
 
 
-- \- Für jede wissenschaftliche Arbeit gilt, dass ein *Thema auf wissenschaftliche Art und Weise untersucht* werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung generalisiert i.d.R. über den *Einzelfall* hinaus -- wie eine bestimmte Firma oder ein bestimmtes Projekt -- und versucht, *allgemeingültige Muster* zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage oder die Ergebnisse an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
+- NEG Für jede wissenschaftliche Arbeit gilt, dass ein *Thema auf wissenschaftliche Art und Weise untersucht* werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung generalisiert i.d.R. über den *Einzelfall* hinaus -- wie eine bestimmte Firma oder ein bestimmtes Projekt -- und versucht, *allgemeingültige Muster* zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage oder die Ergebnisse an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
 
 
-- \- Der Ergebnisteil dreht sich in hohem Maße um die Bedeutung bzw. Umsetzung der Ergebnisse für die untersuchte Firma. Es wäre wünschenswert gewesen, zwischen einem Fallbeispiel und dem allgemein-wissenschaftlichen Ergebnissen zu unterscheiden.
+- NEG Der Ergebnisteil dreht sich in hohem Maße um die Bedeutung bzw. Umsetzung der Ergebnisse für die untersuchte Firma. Es wäre wünschenswert gewesen, zwischen einem Fallbeispiel und dem allgemein-wissenschaftlichen Ergebnissen zu unterscheiden.
 
 
 
@@ -3186,22 +3222,22 @@ Fehlinterpretationen:
 `+++`
 
 
-- \+ Der Bezug zu *aktuellen Themen* wurde herausgestellt.
-- \+ Der *Praxisbezug* der Arbeit wurde gut herausgearbeitet.
-- \+ Der Autor/die Autorin nähert sich auf kreative und durchdachte Weise einem interessanten und forschungsbedeutsamen Thema.
-- \+ Der Autor/die Autorin bewies gute Problemlösungskompetenz.
+- POS Der Bezug zu *aktuellen Themen* wurde herausgestellt.
+- POS Der *Praxisbezug* der Arbeit wurde gut herausgearbeitet.
+- POS Der Autor/die Autorin nähert sich auf kreative und durchdachte Weise einem interessanten und forschungsbedeutsamen Thema.
+- POS Der Autor/die Autorin bewies gute Problemlösungskompetenz.
 
 
 ## Roter Faden (xxrot) {#roterfaden}
 
 `+++`
 
-- \+ Titel, Forschungsfrage/Hypothesen und Theorieteil *passen zueinander*.
-- \+ Titel, Forschungsfrage/Hypothesen und *Datenanalyse* passen zusammen.
-- \+ Titel, Forschungsfrage/Hypothesen und Datenanalyse passen *großteils* zusammen.
+- POS Titel, Forschungsfrage/Hypothesen und Theorieteil *passen zueinander*.
+- POS Titel, Forschungsfrage/Hypothesen und *Datenanalyse* passen zusammen.
+- POS Titel, Forschungsfrage/Hypothesen und Datenanalyse passen *großteils* zusammen.
 
 
-- \+ Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der *Theorieteil eine Lücke* aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst *A -> B (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen *Zusammenhang* beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde dieser Fehler nicht begangen, sondern korrekterweise alle drei Aspekte im Theorieteil adressiert.
+- POS Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der *Theorieteil eine Lücke* aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst *A -> B (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen *Zusammenhang* beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde dieser Fehler nicht begangen, sondern korrekterweise alle drei Aspekte im Theorieteil adressiert.
 
 
 
@@ -3209,20 +3245,20 @@ Fehlinterpretationen:
 `---`
 
 
-- \- Titel, Forschungsfrage/Hypothesen und Theorieteil *passen teilweise zueinander*.
-- \- Titel, Forschungsfrage/Hypothesen und Theorieteil *passen nicht* zueinander.
+- NEG Titel, Forschungsfrage/Hypothesen und Theorieteil *passen teilweise zueinander*.
+- NEG Titel, Forschungsfrage/Hypothesen und Theorieteil *passen nicht* zueinander.
 
-- \- Titel, Forschungsfrage/Hypothesen und Datenanalyse *passen nur bedingt zusammen*.
+- NEG Titel, Forschungsfrage/Hypothesen und Datenanalyse *passen nur bedingt zusammen*.
 
-- \- Im Theorieteil wird *versäumt, auf alle Aspekte, die in der Forschungsfrage/den Forschungsfragen vorkommen*, einzugehen.
+- NEG Im Theorieteil wird *versäumt, auf alle Aspekte, die in der Forschungsfrage/den Forschungsfragen vorkommen*, einzugehen.
 
-- \- Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde entweder nicht ausreichend auf den Zusammenhang von "A" und "B" eingegangen oder nicht in der Gliederung diese drei Aspekte separat ausgewiesen.
+- NEG Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde entweder nicht ausreichend auf den Zusammenhang von "A" und "B" eingegangen oder nicht in der Gliederung diese drei Aspekte separat ausgewiesen.
 
-- \- Damit ein "roter Faden" in der Arbeit erkennbar ist, ist es notwendig, dass im Theorieteil *alle Aspekte der der Forschungsfrage des Typs "A -> B"* diskutiert werden, nämlich A, B und der Zusammenhang von A und B (möglicherweise kausaler Natur). Häufig sind das zwei Phänomen und (das wird häufig vergessen) eine Erklärung zum Einfluss oder zum  Zusammenhang der Phänomene. Gleiches gilt für die Hypothese; es sollten nur Hypothesen (in einer quantitativen bzw. nicht-explorativen Arbeit) formuliert werden, die zuvor im Theorieteil erläutert wurden. Dieser Aspekt wird in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
+- NEG Damit ein "roter Faden" in der Arbeit erkennbar ist, ist es notwendig, dass im Theorieteil *alle Aspekte der der Forschungsfrage des Typs "A -> B"* diskutiert werden, nämlich A, B und der Zusammenhang von A und B (möglicherweise kausaler Natur). Häufig sind das zwei Phänomen und (das wird häufig vergessen) eine Erklärung zum Einfluss oder zum  Zusammenhang der Phänomene. Gleiches gilt für die Hypothese; es sollten nur Hypothesen (in einer quantitativen bzw. nicht-explorativen Arbeit) formuliert werden, die zuvor im Theorieteil erläutert wurden. Dieser Aspekt wird in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
 
 
-- \- Der Theorieteil hätte *schärfer auf die Forschungsfrage* hin ausgerichtet sein sollen. *Verwandte Phänomene*, die aber für die Forschungsfrage insofern *randständig* sind, als dass sie in der vorliegenden Arbeit nicht untersucht werden, sollten im Theorietiel entsprechend nicht, oder nur randständig erwähnt werden.
+- NEG Der Theorieteil hätte *schärfer auf die Forschungsfrage* hin ausgerichtet sein sollen. *Verwandte Phänomene*, die aber für die Forschungsfrage insofern *randständig* sind, als dass sie in der vorliegenden Arbeit nicht untersucht werden, sollten im Theorietiel entsprechend nicht, oder nur randständig erwähnt werden.
 
 
 ## (Güte der) Problemlösung {#gueteproblemloesung}
@@ -3230,18 +3266,18 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Der Ansatz der Problemlösung ist *breit* angelegt.
-- \+ Der Ansatz zur Problemlösung erreicht eine *sehr gute Tiefe*.
-- \+ Der Ansatz zur Problemlösung erreicht eine *gute Tiefe*.
-- \+ Der Ansatz zur Problemlösung erreicht eine *angemessene* Tiefe.
+- POS Der Ansatz der Problemlösung ist *breit* angelegt.
+- POS Der Ansatz zur Problemlösung erreicht eine *sehr gute Tiefe*.
+- POS Der Ansatz zur Problemlösung erreicht eine *gute Tiefe*.
+- POS Der Ansatz zur Problemlösung erreicht eine *angemessene* Tiefe.
 
-- \+- Der Ansatz zur Problemlösung erreicht eine *mittlere* Tiefe.
+- POS Der Ansatz zur Problemlösung erreicht eine *mittlere* Tiefe.
 
 `---`
 
 
-- \- Der Ansatz zur Problemlösung erreicht *nicht eine hohe* Tiefe.
-- \- Der Ansatz zur Problemlösung erreicht nur eine *geringe* Tiefe.
+- NEG Der Ansatz zur Problemlösung erreicht *nicht eine hohe* Tiefe.
+- NEG Der Ansatz zur Problemlösung erreicht nur eine *geringe* Tiefe.
 
 
 ## Argumentation und inhaltliche Güte {#argumentation}
@@ -3250,22 +3286,22 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Der *Theorieteil leitet sich stringent aus der Forschungsfrage* ab.
-- \+ Die wissenschaftliche Fundiertheit des untersuchten Konstrukts wird gut erörtert.
-- \+ Es wurde auf *wissenschaftlich angemessene Art und Weise argumentiert* (z. B. unparteiisch und mit kritischer Distanz).
-- \+ Der Ergebnisteil schildert die wesentlichen Ergebnisse treffend/pointiert.
+- POS Der *Theorieteil leitet sich stringent aus der Forschungsfrage* ab.
+- POS Die wissenschaftliche Fundiertheit des untersuchten Konstrukts wird gut erörtert.
+- POS Es wurde auf *wissenschaftlich angemessene Art und Weise argumentiert* (z. B. unparteiisch und mit kritischer Distanz).
+- POS Der Ergebnisteil schildert die wesentlichen Ergebnisse treffend/pointiert.
 
-- \+ Die Arbeit *rekurriert zwar auf theoretisch fragwürdiges Material* (z. B. AIDA-Modell, Maslows Bedürfnispyramide oder das Johari-Fenster), allerdings wird *diese Einschränkung erkannt und kritisch diskutiert*. Besser wäre es noch gewesen, auf wissenschaftlich fragwürdiges Material gänzlich zu verzichten bzw. es durch Quellen höherer Qualität einzutauschen.
+- POS Die Arbeit *rekurriert zwar auf theoretisch fragwürdiges Material* (z. B. AIDA-Modell, Maslows Bedürfnispyramide oder das Johari-Fenster), allerdings wird *diese Einschränkung erkannt und kritisch diskutiert*. Besser wäre es noch gewesen, auf wissenschaftlich fragwürdiges Material gänzlich zu verzichten bzw. es durch Quellen höherer Qualität einzutauschen.
 
 
 
 `---`
 
-- \- Der Ergebnisteil schildert die *wesentlichen Ergebnisse nicht* treffend/pointiert.
+- NEG Der Ergebnisteil schildert die *wesentlichen Ergebnisse nicht* treffend/pointiert.
 
-- \- Das *empirisch-methodisch Vorgehen wurde zu knapp* oder gar nicht beschrieben.
+- NEG Das *empirisch-methodisch Vorgehen wurde zu knapp* oder gar nicht beschrieben.
 
-- \- Der *Theorieteil* fußt (in Teilen) auf alten, falsifizierten oder wissenschaftlich *überholten oder fragwürdigen Theorien* bzw. Modellen (z. B. AIDA-Modell, Maslows Bedürfnispyramide oder das Johari-Fenster).
+- NEG Der *Theorieteil* fußt (in Teilen) auf alten, falsifizierten oder wissenschaftlich *überholten oder fragwürdigen Theorien* bzw. Modellen (z. B. AIDA-Modell, Maslows Bedürfnispyramide oder das Johari-Fenster).
 
 
 
@@ -3278,42 +3314,42 @@ Fehlinterpretationen:
 `+++`
 
 
-- \+ Theoretische Behauptungen (z. B. "A führt zu B") werden *anhand von empirischen Ergebnissen untermauert*. Das ist ein gutes Beispiel für gelungene wissenschaftliche Argumentation.
+- POS Theoretische Behauptungen (z. B. "A führt zu B") werden *anhand von empirischen Ergebnissen untermauert*. Das ist ein gutes Beispiel für gelungene wissenschaftliche Argumentation.
 
-- \+ Wissenschaftliches Argumentieren zeichnet sich (auch) darin aus, dass Befunde nicht als (unabdingbare) Wahrheiten hingestellt werden ("*ontologisiert*"), sondern als das, was sie zumeist sind: *Vermutungen* mit einiger empirischer Unterstützung, aber noch längst nicht zweifelsfreie "Naturgesetze" (wenn es das überhaupt gibt). Diese Art des Argumentieren lässt sich an einigen Stellen schön in der vorliegenden Arbeit nachzeichnen. Beispiele für gute Argumentationsweisen in diesem Sinne sind: "Laut XXX (2019) ist ...", "Insgesamt deutet die Studienlage darauf hin, dass ...", "Nach Süß und Sauer (2019) lassen sich drei Varianten unterscheiden ...", "Die Daten unterstützen die Hypothese nicht".
+- POS Wissenschaftliches Argumentieren zeichnet sich (auch) darin aus, dass Befunde nicht als (unabdingbare) Wahrheiten hingestellt werden ("*ontologisiert*"), sondern als das, was sie zumeist sind: *Vermutungen* mit einiger empirischer Unterstützung, aber noch längst nicht zweifelsfreie "Naturgesetze" (wenn es das überhaupt gibt). Diese Art des Argumentieren lässt sich an einigen Stellen schön in der vorliegenden Arbeit nachzeichnen. Beispiele für gute Argumentationsweisen in diesem Sinne sind: "Laut XXX (2019) ist ...", "Insgesamt deutet die Studienlage darauf hin, dass ...", "Nach Süß und Sauer (2019) lassen sich drei Varianten unterscheiden ...", "Die Daten unterstützen die Hypothese nicht".
 
-- \+ Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit adäquat berücksichtigt worden.
+- POS Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit adäquat berücksichtigt worden.
 
-- \+ Der Text der vorliegenden Arbeit ist in Teilen begrüßenswert nahe an den Interna der empirischen Evidenzbeurteilung; dazu zählen als Beispiel die *Aufschlüsselung der Qualität von Messinstrumenten* anhand gängiger Kriterien (wie Cronbachs Alpha oder Interrater-Reliabilität) oder die Erläuterung von Zusammenhangskoeffizienten (wie Pearsons r).
+- POS Der Text der vorliegenden Arbeit ist in Teilen begrüßenswert nahe an den Interna der empirischen Evidenzbeurteilung; dazu zählen als Beispiel die *Aufschlüsselung der Qualität von Messinstrumenten* anhand gängiger Kriterien (wie Cronbachs Alpha oder Interrater-Reliabilität) oder die Erläuterung von Zusammenhangskoeffizienten (wie Pearsons r).
 
 
 `---`
 
-- \- Im Theorieteil sind *prototypisch drei Aspekte zu erörtern*: 1. Die UV, 2. die AV und 3. der (kausale) Zusammenhang von UV und AV. In der vorliegenden Arbeit wurde es versäumt, einen dieser drei Aspekte  in ausreichendem Maße zu erörtern (nämlich 3., den (kausalen) Zusammenhang von UV und AV). 
+- NEG Im Theorieteil sind *prototypisch drei Aspekte zu erörtern*: 1. Die UV, 2. die AV und 3. der (kausale) Zusammenhang von UV und AV. In der vorliegenden Arbeit wurde es versäumt, einen dieser drei Aspekte  in ausreichendem Maße zu erörtern (nämlich 3., den (kausalen) Zusammenhang von UV und AV). 
 
-- \- *Behauptungen (Aussagen) sind grundsätzlich mit einer Quelle* zu belegen. Die vorliegende Arbeit hält dies nicht durchgängig ein.
+- NEG *Behauptungen (Aussagen) sind grundsätzlich mit einer Quelle* zu belegen. Die vorliegende Arbeit hält dies nicht durchgängig ein.
 
-- \- *Ergebnisse und Diskussion sind strikt zu trennen* - die Arbeit hält dies nicht durchgängig durch. Der Ergebnisteil berichtet Fakten; die Diskussion tut das nicht. In der Diskussion wird über Fakten gesprochen. Damit ist die Diskussion deutlich subjektiver als der Ergebnisteil. In der Wissenschaft versucht man, Fakten von Meinungen deutlich zu trennen, da es sich um grundverschieden Dinge handelt.
-- \- Grundlegende methodische Verfahren sollten hier nicht erläutert werden.
+- NEG *Ergebnisse und Diskussion sind strikt zu trennen* - die Arbeit hält dies nicht durchgängig durch. Der Ergebnisteil berichtet Fakten; die Diskussion tut das nicht. In der Diskussion wird über Fakten gesprochen. Damit ist die Diskussion deutlich subjektiver als der Ergebnisteil. In der Wissenschaft versucht man, Fakten von Meinungen deutlich zu trennen, da es sich um grundverschieden Dinge handelt.
+- NEG Grundlegende methodische Verfahren sollten hier nicht erläutert werden.
 
-- \- Der Theorieteil versäumt es (zu einem großen Teil), auf den Zusammenhang oder den Einfluss der untersuchen Konstrukte ("X", "Y") untereinander einzugehen. Es ist aber eine wesentliche Aufgabe, im Theorieteil zu erläutern, wie X auf Y wirkt oder warum X und Y statistisch zusammenhängen könnten.
+- NEG Der Theorieteil versäumt es (zu einem großen Teil), auf den Zusammenhang oder den Einfluss der untersuchen Konstrukte ("X", "Y") untereinander einzugehen. Es ist aber eine wesentliche Aufgabe, im Theorieteil zu erläutern, wie X auf Y wirkt oder warum X und Y statistisch zusammenhängen könnten.
 
-- \- Anstatt von "technischen" Variablennamen wie "xkcd_42_trmp" sollten besser *sprechende Variablennamen* verwendet werden wie "Experimentalgruppe" oder "Anzahl richtiger Wörter".
+- NEG Anstatt von "technischen" Variablennamen wie "xkcd_42_trmp" sollten besser *sprechende Variablennamen* verwendet werden wie "Experimentalgruppe" oder "Anzahl richtiger Wörter".
 
-- \- *Hinweise wie "durch umfangreiche Recherchen und Analysen erreichte die Arbeit XXX" sind nicht angebracht*; in einer Arbeit sollte in *wissenschaftlich-nüchternem Duktus* berichtet werden. Es widerspricht dem Duktus wissenschaftlichen Schreibens a. global-unspezifisches Vorgehen anstelle von genauer Beschreibung anzuführen, b. die eigene Arbeit (frühzeitig) zu loben und c. durch Adjektive Emphasis herauszukehren anstelle von sachlicher Erörterung.
+- NEG *Hinweise wie "durch umfangreiche Recherchen und Analysen erreichte die Arbeit XXX" sind nicht angebracht*; in einer Arbeit sollte in *wissenschaftlich-nüchternem Duktus* berichtet werden. Es widerspricht dem Duktus wissenschaftlichen Schreibens a. global-unspezifisches Vorgehen anstelle von genauer Beschreibung anzuführen, b. die eigene Arbeit (frühzeitig) zu loben und c. durch Adjektive Emphasis herauszukehren anstelle von sachlicher Erörterung.
 
-- \- Die Argumentationsweise der vorliegenden Arbeit ist stellenweise von *kausalen Aussagen zur Forschungsfrage* geprägt: "Die Ergebnisse bestätigen, dass X sich auf Y *auswirkt*". Allerdings lässt theoretischer und/oder empirischer Aufbau der Arbeit keine solchen starken Aussagen zu. Wissen über die Grenzen der eigenen (empirischen) Analyse - im positiven wie im negativen Sinne - sind essenzielle Kompetenz im wissenschaftlichen Arbeiten. Entsprechendes wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
+- NEG Die Argumentationsweise der vorliegenden Arbeit ist stellenweise von *kausalen Aussagen zur Forschungsfrage* geprägt: "Die Ergebnisse bestätigen, dass X sich auf Y *auswirkt*". Allerdings lässt theoretischer und/oder empirischer Aufbau der Arbeit keine solchen starken Aussagen zu. Wissen über die Grenzen der eigenen (empirischen) Analyse - im positiven wie im negativen Sinne - sind essenzielle Kompetenz im wissenschaftlichen Arbeiten. Entsprechendes wurde in der vorliegenden Arbeit nicht durchgängig berücksichtigt.
 
-- \- Der *Theorieteil sollte nicht als "kleines Lehrbuch"* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden.  Die vorliegende Arbeit hält das nicht durchgehend durch.
+- NEG Der *Theorieteil sollte nicht als "kleines Lehrbuch"* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden.  Die vorliegende Arbeit hält das nicht durchgehend durch.
 
-- \- *Zitationen* aus allgemeinen Psychologie-Lehrbüchern wie Meyers, *Zimbardo* o.Ä. sind Anzeichen von geringer fachlicher Durchdringung und sollten vermieden werden. Besser sind spezifische Lehrbücher zum Thema der Arbeit; noch besser sind Fachartikel.
+- NEG *Zitationen* aus allgemeinen Psychologie-Lehrbüchern wie Meyers, *Zimbardo* o.Ä. sind Anzeichen von geringer fachlicher Durchdringung und sollten vermieden werden. Besser sind spezifische Lehrbücher zum Thema der Arbeit; noch besser sind Fachartikel.
 
-- \- Ein wesentliches Merkmal wissenschaftlicher Argumentation ist es, *nur Dinge zu behaupten, deren man sich (sehr) sicher ist*. Zu anderen Dingen schweigt man entweder oder man *verdeutlicht den Grad der Ungewissheit*. Es ist kein Mangel, sich Dinge nicht sicher zu sein. Die meisten interessanten Dinge (in der Wissenschaft) sind nicht (komplett) sicher. 
+- NEG Ein wesentliches Merkmal wissenschaftlicher Argumentation ist es, *nur Dinge zu behaupten, deren man sich (sehr) sicher ist*. Zu anderen Dingen schweigt man entweder oder man *verdeutlicht den Grad der Ungewissheit*. Es ist kein Mangel, sich Dinge nicht sicher zu sein. Die meisten interessanten Dinge (in der Wissenschaft) sind nicht (komplett) sicher. 
 
-- \- Anstelle von Sätzen wie "*Es gibt drei Arten* von Problemen ...", sollte man besser schreiben in der Art von "Sauer und Lustig (2017) unterscheiden drei Arten von Problemen nämlich blabla" oder "*Nach Sauer und Lustig* (2017) gibt es drei Arten von Problemen, wobei man laut Süß (2018) noch ein viertes Problem blablabla". Diese Art der Formulierung entspricht eher der intellektuellen Redlichkeit, denn es ist schwer abzusichern, dass es genau drei Arten von Problemen gibt (eine "*Ontologisierung*", die behauptet, es gäbe nicht mehr und nicht weniger) und dass es genau die gerade dargestellten sind (und keine anderen).
+- NEG Anstelle von Sätzen wie "*Es gibt drei Arten* von Problemen ...", sollte man besser schreiben in der Art von "Sauer und Lustig (2017) unterscheiden drei Arten von Problemen nämlich blabla" oder "*Nach Sauer und Lustig* (2017) gibt es drei Arten von Problemen, wobei man laut Süß (2018) noch ein viertes Problem blablabla". Diese Art der Formulierung entspricht eher der intellektuellen Redlichkeit, denn es ist schwer abzusichern, dass es genau drei Arten von Problemen gibt (eine "*Ontologisierung*", die behauptet, es gäbe nicht mehr und nicht weniger) und dass es genau die gerade dargestellten sind (und keine anderen).
 
 
-- \- *Jedes Kapitel*, jeder Abschnitt, jeder Absatz und jeder Satz sollte *genau einen Gedanken* ausdrücken; nicht mehr und nicht weniger. Die vorliegende Arbeit erfüllt diesen Anspruch nicht (vollständig). So finden sich etwa Absätze, die sich nicht sinnvoll mit einer Kernaussage widergeben lassen.
+- NEG *Jedes Kapitel*, jeder Abschnitt, jeder Absatz und jeder Satz sollte *genau einen Gedanken* ausdrücken; nicht mehr und nicht weniger. Die vorliegende Arbeit erfüllt diesen Anspruch nicht (vollständig). So finden sich etwa Absätze, die sich nicht sinnvoll mit einer Kernaussage widergeben lassen.
 
 
 
@@ -3321,8 +3357,8 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die Arbeit beginnt mit einer *sinnvollen Einführung*.
-- \+ Die *Relevanz* das Themas wird *anhand verschiedener Statistiken* (wie Umsatz, Anzahl Personen oder dergleichen) belegt. Das ist eine sinnvolle Art, die Relevanz eines Themas einzuleiten.
+- POS Die Arbeit beginnt mit einer *sinnvollen Einführung*.
+- POS Die *Relevanz* das Themas wird *anhand verschiedener Statistiken* (wie Umsatz, Anzahl Personen oder dergleichen) belegt. Das ist eine sinnvolle Art, die Relevanz eines Themas einzuleiten.
 
 
 
@@ -3339,15 +3375,15 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die fachlich-theoretische Ausarbeitung ist von *außergewöhnlich hoher Güte*.
-- \+ Die fachlich-theoretische Sachkenntnis ist *sehr hoch*.
-- \+ Die fachlich-theoretische Sachkenntnis ist *hoch*.
-- \+ Die fachlich-theoretische Sachkenntnis ist *gut bis sehr gut*.
+- POS Die fachlich-theoretische Ausarbeitung ist von *außergewöhnlich hoher Güte*.
+- POS Die fachlich-theoretische Sachkenntnis ist *sehr hoch*.
+- POS Die fachlich-theoretische Sachkenntnis ist *hoch*.
+- POS Die fachlich-theoretische Sachkenntnis ist *gut bis sehr gut*.
 
-- \+ Die fachlich-theoretische Sachkenntnis ist *gut.*
-- \+ Die fachlich-theoretische Sachkenntnis ist *insgesamt gut*.
+- POS Die fachlich-theoretische Sachkenntnis ist *gut.*
+- POS Die fachlich-theoretische Sachkenntnis ist *insgesamt gut*.
 
-- \+ Umfang und/oder Tiefe des Theorieteils von hoher Stärke.
+- POS Umfang und/oder Tiefe des Theorieteils von hoher Stärke.
 
 
 
@@ -3355,28 +3391,28 @@ Fehlinterpretationen:
 `+-`
 
 
-- \+- Die fachlich-theoretische Sachkenntnis ist insgesamt *befriedigend bis gut*.
-- \+- Die fachlich-theoretische Sachkenntnis ist insgesamt *befriedigend.*
-- \+- Die fachlich-theoretische Sachkenntnis ist insgesamt *befriedigend bis ausreichend*.
+- POS Die fachlich-theoretische Sachkenntnis ist insgesamt *befriedigend bis gut*.
+- POS Die fachlich-theoretische Sachkenntnis ist insgesamt *befriedigend.*
+- POS-NEG Die fachlich-theoretische Sachkenntnis ist insgesamt *befriedigend bis ausreichend*.
 
 
 `---`
 
-- \- Die fachlich-theoretische Sachkenntnis ist insgesamt *ausreichend.*
-- \- Die fachlich-theoretische Sachkenntnis ist *mangelhaft.*
+- NEG Die fachlich-theoretische Sachkenntnis ist insgesamt *ausreichend.*
+- NEG Die fachlich-theoretische Sachkenntnis ist *mangelhaft.*
 
 
 
-- \+- Der Umfang und/oder die Tiefe des Theorieteils ist von *mittlerer* Stärke.
+- POS-NEG Der Umfang und/oder die Tiefe des Theorieteils ist von *mittlerer* Stärke.
 
 
 
-- \- Umfang und/oder Tiefe des Theorieteils ist/sind von *eingeschränkter* Güte.
-- \- Umfang und/oder Tiefe des Theorieteils ist/sind *gering.*
-- \- Umfang und/oder Tiefe des Theorieteils ist/sind nicht *ausreichend.*
+- NEG Umfang und/oder Tiefe des Theorieteils ist/sind von *eingeschränkter* Güte.
+- NEG Umfang und/oder Tiefe des Theorieteils ist/sind *gering.*
+- NEG Umfang und/oder Tiefe des Theorieteils ist/sind nicht *ausreichend.*
 
 
-- \- Aufgrund der *Selbstplagiate* ist die Güte des Theorieteils nicht bewertbar bzw. es ist davon auszugehen, dass substanzielle Teile des Theorieteils nicht im Rahmen dieser Arbeit erstellt wurden. Das wiederum bedeutet, dass der genuin für diese Arbeit erstellte Theorieteil wesentliche Lücken aufweist.
+- NEG Aufgrund der *Selbstplagiate* ist die Güte des Theorieteils nicht bewertbar bzw. es ist davon auszugehen, dass substanzielle Teile des Theorieteils nicht im Rahmen dieser Arbeit erstellt wurden. Das wiederum bedeutet, dass der genuin für diese Arbeit erstellte Theorieteil wesentliche Lücken aufweist.
 
 
 
@@ -3385,36 +3421,36 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Der Theorieteil ist umfangreich; es wird ein *breiter Überblick* an theoretischen Grundlagen vermittelt.
+- POS Der Theorieteil ist umfangreich; es wird ein *breiter Überblick* an theoretischen Grundlagen vermittelt.
 
 
-- \+ Der Umfang des Theorieteils ist *hoch.*
-- \+ Der Umfang des Theorieteils ist *angemessen.*
+- POS Der Umfang des Theorieteils ist *hoch.*
+- POS Der Umfang des Theorieteils ist *angemessen.*
 
-- \+- Der Umfang des Theorieteils ist  von *mittlerer Stärke*.
+- POS-NEG Der Umfang des Theorieteils ist  von *mittlerer Stärke*.
 
 
 `---`
 
 
-- \- Der theoretischer Teil *könnte tiefer und breiter ausgebaut* sein.
-- \- Der Theorieteil hat einen relativ geringen Anteil an der Gesamtmenge des Textes. Die Arbeit würde von einem größeren Anteil des Theorieteiles profitieren.
+- NEG Der theoretischer Teil *könnte tiefer und breiter ausgebaut* sein.
+- NEG Der Theorieteil hat einen relativ geringen Anteil an der Gesamtmenge des Textes. Die Arbeit würde von einem größeren Anteil des Theorieteiles profitieren.
 
-- \- Umfang und/oder Tiefe des Theorieteils ist/sind von *eingeschränkter Güte*.
-- \- Umfang und/oder Tiefe des Theorieteils ist/sind *gering.*
-- \- Umfang und/oder Tiefe des Theorieteils ist/sind *nicht ausreichend*.
-- \- Die *wissenschaftliche Güte* des Theorieteils ist *eingeschränkt.*
-- \- Der Theorieteil hätte profitiert von der Aufnahme von mehr (und stichhaltiger) Evidenz.
-
-
-- \- Der Theorieteil ist insgesamt *kurz* geraten.
-- \- Der Umfang des theoretischen Teils hätte von *stärkerer Ausarbeitung bzw. größerem Umfang profitiert*.
+- NEG Umfang und/oder Tiefe des Theorieteils ist/sind von *eingeschränkter Güte*.
+- NEG Umfang und/oder Tiefe des Theorieteils ist/sind *gering.*
+- NEG Umfang und/oder Tiefe des Theorieteils ist/sind *nicht ausreichend*.
+- NEG Die *wissenschaftliche Güte* des Theorieteils ist *eingeschränkt.*
+- NEG Der Theorieteil hätte profitiert von der Aufnahme von mehr (und stichhaltiger) Evidenz.
 
 
-- \- Der Theorieteil lässt wesentliche Aspekte des Themas außen vor; die Ausarbeitung weist *deutliche Lücken* auf.
-- \- Die fachlich-psychologische *Erklärung* zum angesprochenen Phänomen *fehlt fast vollständig*.
-- \- Die fachlich-psychologische *Erklärung* zum angesprochenen Phänomen *fehlt zum großen Teil*.
-- \- Der theoretischer Teil könnte *tiefer und breiter ausgebaut* sein.
+- NEG Der Theorieteil ist insgesamt *kurz* geraten.
+- NEG Der Umfang des theoretischen Teils hätte von *stärkerer Ausarbeitung bzw. größerem Umfang profitiert*.
+
+
+- NEG Der Theorieteil lässt wesentliche Aspekte des Themas außen vor; die Ausarbeitung weist *deutliche Lücken* auf.
+- NEG Die fachlich-psychologische *Erklärung* zum angesprochenen Phänomen *fehlt fast vollständig*.
+- NEG Die fachlich-psychologische *Erklärung* zum angesprochenen Phänomen *fehlt zum großen Teil*.
+- NEG Der theoretischer Teil könnte *tiefer und breiter ausgebaut* sein.
 
 
 ### Qualität des Theorieteiles {#qualtheorie}
@@ -3423,67 +3459,67 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Der Theorieteil baut auf gut *etablierten und aktuellen Theorien auf*; damit ist das theoretische Fundament der Arbeit als solide zu betrachten.
-- \+ Der Theorieteil bezieht sich in *hohem Maße auf wissenschaftliches Material*.
-- \+ Der Theorieteil bezieht sich auf *einiges wissenschaftliches Material*.
-- \+ Die Arbeit *bezieht aktuelle Überblicksarbeiten mit ein*; das ist begrüßenswert, da diese Arbeiten die in der Regel beste Stufe an Evidenzqualität aufweisen.
+- POS Der Theorieteil baut auf gut *etablierten und aktuellen Theorien auf*; damit ist das theoretische Fundament der Arbeit als solide zu betrachten.
+- POS Der Theorieteil bezieht sich in *hohem Maße auf wissenschaftliches Material*.
+- POS Der Theorieteil bezieht sich auf *einiges wissenschaftliches Material*.
+- POS Die Arbeit *bezieht aktuelle Überblicksarbeiten mit ein*; das ist begrüßenswert, da diese Arbeiten die in der Regel beste Stufe an Evidenzqualität aufweisen.
 
 
-- \+ Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit adäquat berücksichtigt worden.
+- POS Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit adäquat berücksichtigt worden.
 
 
 `+-`
 
 
-- \+- Der Theorieteil hätte von einem *ausgiebigerem Rückgriff* auf wissenschaftliches Material hoher Güte *profitiert.*
+- POS-NEG Der Theorieteil hätte von einem *ausgiebigerem Rückgriff* auf wissenschaftliches Material hoher Güte *profitiert.*
 
 `---`
 
-- \- Der Theorieteil ist hätte *von stärkerer Ausdifferenzierung profitiert*.
-- \- Der Theorieteil geht *nicht tief genug* auf die relevanten Punkte ein.
-- \- Der Theorieteil ist *zu wenig differenziert*.
+- NEG Der Theorieteil ist hätte *von stärkerer Ausdifferenzierung profitiert*.
+- NEG Der Theorieteil geht *nicht tief genug* auf die relevanten Punkte ein.
+- NEG Der Theorieteil ist *zu wenig differenziert*.
+
+- NEG Der Theorieteil greift nicht alle Aspekte der Forschunsfrage(n) bzw. Hypothesen auf. Er ist insofern unvollständig.
 
 
+- NEG Der Theorieteil lässt wesentliche Aspekte des Themas außen vor; die Ausarbeitung weist *deutliche Lücken* auf.
+- NEG Die fachlich-psychologische Erklärung zum angesprochenen Phänomen *fehlt fast vollständig*.
+- NEG Die fachlich-psychologische Erklärung zum angesprochenen Phänomen *fehlt zum großen Teil*.
+- NEG Es liegen *substanzielle Fehler in der Sachkenntnis* vor.
+- NEG Die *Diskussion* psychologischer Aspekte des fachlich-inhaltlichen Themas *fehlt* fast komplett.
+- NEG *Es fehlt ein kausales Modell* bzw. eine Erklärung, warum die Effekte (auf die AV) erwartet werden und inwiefern die UV diesen Effekt induzieren sollten. Dies ist ein schwer wiegender Mangel, fehlt doch die grundlegende Rationale, also der eigentliche Grund, warum der Versuchsaufbau so erstellt wurde.
+- NEG Ein *ausgiebiger(er) Rückgriff auf aktuelle Forschungsarbeiten wäre zweckdienlich* gewesen.
+- NEG Der Theorieteil bezieht sich in in nur *geringem Maße auf wissenschaftliches Material*.
 
 
-- \- Der Theorieteil lässt wesentliche Aspekte des Themas außen vor; die Ausarbeitung weist *deutliche Lücken* auf.
-- \- Die fachlich-psychologische Erklärung zum angesprochenen Phänomen *fehlt fast vollständig*.
-- \- Die fachlich-psychologische Erklärung zum angesprochenen Phänomen *fehlt zum großen Teil*.
-- \- Es liegen *substanzielle Fehler in der Sachkenntnis* vor.
-- \- Die *Diskussion* psychologischer Aspekte des fachlich-inhaltlichen Themas *fehlt* fast komplett.
-- \- *Es fehlt ein kausales Modell* bzw. eine Erklärung, warum die Effekte (auf die AV) erwartet werden und inwiefern die UV diesen Effekt induzieren sollten. Dies ist ein schwer wiegender Mangel, fehlt doch die grundlegende Rationale, also der eigentliche Grund, warum der Versuchsaufbau so erstellt wurde.
-- \- Ein *ausgiebiger(er) Rückgriff auf aktuelle Forschungsarbeiten wäre zweckdienlich* gewesen.
-- \- Der Theorieteil bezieht sich in in nur *geringem Maße auf wissenschaftliches Material*.
+- NEG Ein stärkerer *Rückgriff auf aktuelle Überblicksarbeiten hätte die Arbeit bereichert*.
 
 
-- \- Ein stärkerer *Rückgriff auf aktuelle Überblicksarbeiten hätte die Arbeit bereichert*.
+- NEG Es finden sich *kaum Quellen zur Forschungsfrage* im Literaturverzeichnis.
+- NEG *Unveröffentlichte Skripte* sind keine qualitativ hochstehenden Quellen und sollten daher besser gemieden werden.
 
 
-- \- Es finden sich *kaum Quellen zur Forschungsfrage* im Literaturverzeichnis.
-- \- *Unveröffentlichte Skripte* sind keine qualitativ hochstehenden Quellen und sollten daher besser gemieden werden.
+- NEG Die *Aufgabe des Theorieteils ist es, die Forschungsfrage zu erläutern* - nicht mehr (also keine Phänomene, die nicht in der Forschungsfrgage spezifiziert sind) und nicht weniger (also alle Aspekte, die in der Forschungsfrage aufgegriffen werden). Wesentlich ist, dass die Erläuterung auf bestehende (wenn möglich, gut etablierte) *Theorien zurückgreift*. Daten bzw. Beobachtungen sollten stets im Lichte einer Theorie diskutiert - etwa der Dissonanztheorie, der Theorie des schnellen und langsamen Denkens oder der Selbstbestimmungstheorie nach Deci und Ryan, um einige willkürliche Beispiele zu nennen. Es ist bzw. es wäre ein substanzielles Versäumnis, auf Erläuterungen von "Fakten" im Lichte einer Theorie zu verzichten. Dabei ist die Leistung einer Theorie darin zu spezifizieren, dass Beobachtungen ("Fakten") durch (z.B. psychologische) zumeist nicht direkt beobachtbare Vorgänge oder Strukturen in ihrer kausalen Bedingtheit aufgeschlüsselt werden. Dieser Punkt findet in der vorliegenden Arbeit nicht genug Beachtung. 
+
+- NEG Der Theorieteil sollte *nicht als kleines Lehrbuch missverstanden* werden. Leitidee sollte sein, alle Phänomene der Forschungsfrage zu erläutern - aber nicht mehr. So ist es falsch, die Grundlagen der Persönlichkeit oder gar einen Überblick über Persönlichkeitstheorien aufzuführen, wenn z.B. "Extraversion" ein Bestandteil der Forschungsfrage ist. Der Theorieteil sollte also möglichst nah an der Forschungsfrage dran sein, je "weiter weg" ein Inhaltsteil des Theorieteils von der Forschungsfrage ist, desto weniger Berechtigung gibt es, diesen Inhaltsteil auszuführen. Dieser Punkt wird im Theorieteil der vorliegenden Arbeit nicht (komplett) berücksichtigt.
+
+- NEG Der Theorieteil hätte an einigen Stellen *von aktuellerem Material* profitiert. 
+
+- NEG - Der Theorieteil sollte nicht als *“kleines Lehrbuch”* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.
 
 
-- \- Die *Aufgabe des Theorieteils ist es, die Forschungsfrage zu erläutern* - nicht mehr (also keine Phänomene, die nicht in der Forschungsfrgage spezifiziert sind) und nicht weniger (also alle Aspekte, die in der Forschungsfrage aufgegriffen werden). Wesentlich ist, dass die Erläuterung auf bestehende (wenn möglich, gut etablierte) *Theorien zurückgreift*. Daten bzw. Beobachtungen sollten stets im Lichte einer Theorie diskutiert - etwa der Dissonanztheorie, der Theorie des schnellen und langsamen Denkens oder der Selbstbestimmungstheorie nach Deci und Ryan, um einige willkürliche Beispiele zu nennen. Es ist bzw. es wäre ein substanzielles Versäumnis, auf Erläuterungen von "Fakten" im Lichte einer Theorie zu verzichten. Dabei ist die Leistung einer Theorie darin zu spezifizieren, dass Beobachtungen ("Fakten") durch (z.B. psychologische) zumeist nicht direkt beobachtbare Vorgänge oder Strukturen in ihrer kausalen Bedingtheit aufgeschlüsselt werden. Dieser Punkt findet in der vorliegenden Arbeit nicht genug Beachtung. 
+### Drei Teile des Theorieteils (xxdreiteile)
 
-- \- Der Theorieteil sollte *nicht als kleines Lehrbuch missverstanden* werden. Leitidee sollte sein, alle Phänomene der Forschungsfrage zu erläutern - aber nicht mehr. So ist es falsch, die Grundlagen der Persönlichkeit oder gar einen Überblick über Persönlichkeitstheorien aufzuführen, wenn z.B. "Extraversion" ein Bestandteil der Forschungsfrage ist. Der Theorieteil sollte also möglichst nah an der Forschungsfrage dran sein, je "weiter weg" ein Inhaltsteil des Theorieteils von der Forschungsfrage ist, desto weniger Berechtigung gibt es, diesen Inhaltsteil auszuführen. Dieser Punkt wird im Theorieteil der vorliegenden Arbeit nicht (komplett) berücksichtigt.
+- NEG Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit *nicht* adäquat berücksichtigt worden.
 
-- \- Der Theorieteil hätte an einigen Stellen *von aktuellerem Material* profitiert. 
-
-- \- - Der Theorieteil sollte nicht als *“kleines Lehrbuch”* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.
-
-
-#### Drei Teile des Theorieteils (xxdreiteile)
-
-- \- Sofern die Forschungsfrage strukturell vom Typ "A führt zu B" oder "A beeinflusst B" ist, so sollte der Theorieteil nicht nur auf A und B, sondern *auch auf den (kausalen) Zusammenhang von A und B*, den Einfluss von A auf B also, eingehen. Dies ist in der vorliegenden Arbeit *nicht* adäquat berücksichtigt worden.
-
-- \- - Der Theorieteil versäumt es (zu einem großen Teil), auf den *Zusammenhang oder den Einfluss der untersuchen Konstrukte (“X”, “Y”)* untereinander einzugehen. Es ist aber eine wesentliche Aufgabe, im Theorieteil zu erläutern, wie X auf Y wirkt oder warum X und Y (statistisch) zusammenhängen könnten.
+- NEG - Der Theorieteil versäumt es (zu einem großen Teil), auf den *Zusammenhang oder den Einfluss der untersuchen Konstrukte (“X”, “Y”)* untereinander einzugehen. Es ist aber eine wesentliche Aufgabe, im Theorieteil zu erläutern, wie X auf Y wirkt oder warum X und Y (statistisch) zusammenhängen könnten.
 
 
 
 
 **NUR QUALI:**
 
-- \- Die Stärke der qualitativen Forschung liegt (auch) darin, einen Gegenstandsbereich zu *verstehen*. Das verlangt aber eine *ausführliche Beschäftigung* mit dem Gegenstand. Es soll eine dezidiert hohe Kompetenz zum Gegenstand ersichtlich sein. Mit einem Wort: Sie kennen sich zu dem Thema einfach gut aus! Die Darlegung des Gegenstands beinhaltet dabei nicht nur eine Aufführung relevanter Theorien und Modelle (inklusive deren Evidenz), sondern auch und gerade eine *Reflexion über und eine Diskussion zu* diesen theoretischen Ausführung. Den Gegenstand in der Tiefe verstehen, das ist die Leitidee, die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Teilen um.
+- NEG Die Stärke der qualitativen Forschung liegt (auch) darin, einen Gegenstandsbereich zu *verstehen*. Das verlangt aber eine *ausführliche Beschäftigung* mit dem Gegenstand. Es soll eine dezidiert hohe Kompetenz zum Gegenstand ersichtlich sein. Mit einem Wort: Sie kennen sich zu dem Thema einfach gut aus! Die Darlegung des Gegenstands beinhaltet dabei nicht nur eine Aufführung relevanter Theorien und Modelle (inklusive deren Evidenz), sondern auch und gerade eine *Reflexion über und eine Diskussion zu* diesen theoretischen Ausführung. Den Gegenstand in der Tiefe verstehen, das ist die Leitidee, die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Teilen um.
 
 
 
@@ -3498,32 +3534,32 @@ Fehlinterpretationen:
 
 `+++`
 
-- \+ Die *Grenzen der internen Validität* -- also die Grenzen beim Formulieren von Kausalaussagen -- wurden in *nützlicher* Art und Weise diskutiert.
+- POS Die *Grenzen der internen Validität* -- also die Grenzen beim Formulieren von Kausalaussagen -- wurden in *nützlicher* Art und Weise diskutiert.
 
-- \+ Es wurde ein Kausalmodell in Form eines DAG (Directed Acyclic Graph) formuliert.
+- POS Es wurde ein Kausalmodell in Form eines DAG (Directed Acyclic Graph) formuliert.
 
 
 `---`
 
-- \- Die Forschungsfrage legt ein *Kausalmodell* der Form "X wirkt auf Y" nahe, aber der Theorieteil *geht nicht (ausführlich genug) auf ursächliche Erläuterungen* ein. Es wird daher nicht klar genug herausgearbeitet, wie - vermöge welcher Mechanismen bzw. auf welche Art und Weise - X auf Y wirken könnte.
+- NEG Die Forschungsfrage legt ein *Kausalmodell* der Form "X wirkt auf Y" nahe, aber der Theorieteil *geht nicht (ausführlich genug) auf ursächliche Erläuterungen* ein. Es wird daher nicht klar genug herausgearbeitet, wie - vermöge welcher Mechanismen bzw. auf welche Art und Weise - X auf Y wirken könnte.
 
-- \- Es *fehlen Erläuterung* zu den *Ursache-Wirkungs-Zusammenhängen* im Hinblick auf die Forschungsfrage. Lautet die Forschungsfrage etwa "Welchen Einfluss hat die Nutzung von Onlinedating-Plattformen auf das Selbstwertgefühl?" so sollte der Theorieteil explizit auf die Frage eingehen, wie und warum die Nutzung solcher Plattformen auf das Selbstwertgefühl eingeht. Der zentrale Grund wissenschaftliche Theorie aufzustellen, ist, die Welt zu verstehen. Die Welt zu verstehen, heißt (zu gutem Teil) die Ursachen der Phänomene zu verstehen. Daher ist es eine zentrale Aufgabe für Theorien und damit für Forschung , auf Kausalstrukturen (d.h. Ursache-Wirkungs-Zusammenhänge) einzugehen. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
-
-
-- \- Zur Erläuterung eines Kausalmodells (oder seiner Grundzüge) ist es hilfreich, *auf eine bestehende Theorie zurückzugreifen*, da diese zumeist auf Wirkbeziehungen fokussieren. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausreichend) berücksichtigt.
-
-- \- Bei der Erläuterung eines Kausalmodells ist neben einer theoretischen Erklärung möglichst *auch empirische Evidenz* zugunsten dieser theoretischen Erklärung anzuführen. So könnte z. B. die Ergebnisse einer Studie, die ein Kausalmodell überprüft - etwa anhand eines randomisierten, gut kontrollierten Experiments  - angeführt werden. Die vorliegenden Arbeit hätte von der (stärkeren) Berücksichtigung dieses Punktes profitiert. 
-
-- \- Eine zentrale Aufgabe des Theorieteils ist es, *Erklärungen für das "Warum" der zentralen Behauptungen der Arbeit vorzuschlagen*. Lautet eine zentrale Behauptung der Arbeit "A hat einen Einfluss auf B", so sollte der Theorieteil - neben der Darstellung der Phänomene A und B - im Wesentlichen Erklärungen anbieten, warum A einen Einfluss auf B haben könnte. Handelt es sich bei A und/oder B um ein psychologisches Phänomen, so sind (auch und vor allem) psychologische Theorien anzuführen.
-
-- \+- Ihre Forschungsfrage untersucht einen Zusammenhang, etwa "*X hängt mit Y zusammen*" oder "Gruppe G1 hat einen höheren Wert in Y als Gruppe G2" (anders formuliert: Gruppe hängt mit Y zusammen). Als einfaches Beispiel "Eisverkauf hängt mit der Zahl der Haifischangriffe zusammen (und zwar positiv)". Nehmen wir an, dass sich erwartungsgemäß dieser Zusammenhang in ihren Daten findet, also Belege zugunsten Ihrer Forschungsfrage auftreten. Grund zur Freude?! Nehmen wir weiter, eine dritte Variable (z.B. Temperatur) beeinflusst (kausal) beide Variablen Ihrer Hypothese, also Temperatur beeinflusst sowohl den Eisverkauf und die Zahl der Haifischangriffe an diesem Tag. Untersucht man nur heiße Tage, so finde man, nehmen wir an, keinen Zusammenhang mehr zwischen Eisverkauf und Haiangriffen. Gleiches gelte für kühle Tage. Die Einbeziehung einer *Drittvariablen* hat also die Befundlage komplett verändert. Vor diesem Hintergrund stellt sich daher die Frage, ob bzw. in welchen Situationen eine "unschuldige" Zusammenhangshypothese wie "X hängt mit Y zusammen" *nützlich* ist. Eine einfache Antwort lautet, dass man stets Überlegungen zur *kausalen Struktur seiner Forschungsfrage* anstellen sollte. Das war eine lange Ausführung, aber ich hoffe, ich konnte Ihrem Verständnis von Forschungsdesigns weiterhelfen.
-
-- \- Verwendet man in der Forschungsfrage bzw. in den Hypothesen Begriffe/Terme wie *"X beeinflusst Y"* , "der Effekt (die Wirkung) von X auf Y", "die Auswirkung von X auf Y" oder "X bewirkt Y" etc., so formuliert man eine *Kausalaussage*, eine Aussage also, die etwas über einen ursächlichen Zusammenhang zweier Größen aussagt. Kausalaussagen sind ein zentrales Thema in den meisten empirischen Forschungsarbeiten. Entsprechend sollte in der Arbeit (etwa im Theorie-, Methoden- und Ergebnisteil) auf entsprechende Modelle oder Methoden zur Analyse von Kausalaussagen zurückgegriffen werden; es reicht dann nicht, Assoziationsmaße (wie Korrelationskoeffizienten) zu berechnen. In der vorliegenden Arbeit ist dies nicht (durchgehend) der Fall. Alternativ könnte man auf kausale Aussagen verzichten und stattdessen nur vom "Zusammenhang" (Assoziation) von X und Y sprechen, kausale Behauptungen also meiden.
+- NEG Es *fehlen Erläuterung* zu den *Ursache-Wirkungs-Zusammenhängen* im Hinblick auf die Forschungsfrage. Lautet die Forschungsfrage etwa "Welchen Einfluss hat die Nutzung von Onlinedating-Plattformen auf das Selbstwertgefühl?" so sollte der Theorieteil explizit auf die Frage eingehen, wie und warum die Nutzung solcher Plattformen auf das Selbstwertgefühl eingeht. Der zentrale Grund wissenschaftliche Theorie aufzustellen, ist, die Welt zu verstehen. Die Welt zu verstehen, heißt (zu gutem Teil) die Ursachen der Phänomene zu verstehen. Daher ist es eine zentrale Aufgabe für Theorien und damit für Forschung , auf Kausalstrukturen (d.h. Ursache-Wirkungs-Zusammenhänge) einzugehen. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
 
-- \- Formuliert man kausale Hypothese, so ist es nicht ausreichend, bestimmte Statistiken wie Korrelationen auszurechnen, da Korrelationen noch keine Kausation begründet, wie allgemein bekannt ist. Besser ist es, die *statistischen Ergebnisse im Licht der Kausalmodelle* zu prüfen.
+- NEG Zur Erläuterung eines Kausalmodells (oder seiner Grundzüge) ist es hilfreich, *auf eine bestehende Theorie zurückzugreifen*, da diese zumeist auf Wirkbeziehungen fokussieren. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausreichend) berücksichtigt.
 
-- \- Da in der Arbeit Ausagen mit Kausalanspruch formuliert werden, empfehle ich Ihnen, sich mit der *statistischen Analyse von Kausalaussagen* zu beschäftigen. Empfehlenswerte *Einstiegsliteratur* ist etwa: Rohrer, J. M. (2018). Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data. Advances in Methods and Practices in Psychological Science, 1(1), 27–42. https://doi.org/10.1177/2515245917745629, Lübke, K., Gehrke, M., Horst, J., & Szepannek, G. (2020). Why We Should Teach Causal Inference: Examples in Linear Regression with Simulated Data. Journal of Statistics Education, 1–17. https://doi.org/10.1080/10691898.2020.1752859 oder Elwert, F. (2013). Graphical causal models. In S. Morgan (Ed.), Handbook of causal analysis for social research (pp. 245–273). Springer. https://www.researchgate.net/publication/278717528_Graphical_Causal_Models.
+- NEG Bei der Erläuterung eines Kausalmodells ist neben einer theoretischen Erklärung möglichst *auch empirische Evidenz* zugunsten dieser theoretischen Erklärung anzuführen. So könnte z. B. die Ergebnisse einer Studie, die ein Kausalmodell überprüft - etwa anhand eines randomisierten, gut kontrollierten Experiments  - angeführt werden. Die vorliegenden Arbeit hätte von der (stärkeren) Berücksichtigung dieses Punktes profitiert. 
+
+- NEG Eine zentrale Aufgabe des Theorieteils ist es, *Erklärungen für das "Warum" der zentralen Behauptungen der Arbeit vorzuschlagen*. Lautet eine zentrale Behauptung der Arbeit "A hat einen Einfluss auf B", so sollte der Theorieteil - neben der Darstellung der Phänomene A und B - im Wesentlichen Erklärungen anbieten, warum A einen Einfluss auf B haben könnte. Handelt es sich bei A und/oder B um ein psychologisches Phänomen, so sind (auch und vor allem) psychologische Theorien anzuführen.
+
+- POS-NEG Ihre Forschungsfrage untersucht einen Zusammenhang, etwa "*X hängt mit Y zusammen*" oder "Gruppe G1 hat einen höheren Wert in Y als Gruppe G2" (anders formuliert: Gruppe hängt mit Y zusammen). Als einfaches Beispiel "Eisverkauf hängt mit der Zahl der Haifischangriffe zusammen (und zwar positiv)". Nehmen wir an, dass sich erwartungsgemäß dieser Zusammenhang in ihren Daten findet, also Belege zugunsten Ihrer Forschungsfrage auftreten. Grund zur Freude?! Nehmen wir weiter, eine dritte Variable (z.B. Temperatur) beeinflusst (kausal) beide Variablen Ihrer Hypothese, also Temperatur beeinflusst sowohl den Eisverkauf und die Zahl der Haifischangriffe an diesem Tag. Untersucht man nur heiße Tage, so finde man, nehmen wir an, keinen Zusammenhang mehr zwischen Eisverkauf und Haiangriffen. Gleiches gelte für kühle Tage. Die Einbeziehung einer *Drittvariablen* hat also die Befundlage komplett verändert. Vor diesem Hintergrund stellt sich daher die Frage, ob bzw. in welchen Situationen eine "unschuldige" Zusammenhangshypothese wie "X hängt mit Y zusammen" *nützlich* ist. Eine einfache Antwort lautet, dass man stets Überlegungen zur *kausalen Struktur seiner Forschungsfrage* anstellen sollte. Das war eine lange Ausführung, aber ich hoffe, ich konnte Ihrem Verständnis von Forschungsdesigns weiterhelfen.
+
+- NEG Verwendet man in der Forschungsfrage bzw. in den Hypothesen Begriffe/Terme wie *"X beeinflusst Y"* , "der Effekt (die Wirkung) von X auf Y", "die Auswirkung von X auf Y" oder "X bewirkt Y" etc., so formuliert man eine *Kausalaussage*, eine Aussage also, die etwas über einen ursächlichen Zusammenhang zweier Größen aussagt. Kausalaussagen sind ein zentrales Thema in den meisten empirischen Forschungsarbeiten. Entsprechend sollte in der Arbeit (etwa im Theorie-, Methoden- und Ergebnisteil) auf entsprechende Modelle oder Methoden zur Analyse von Kausalaussagen zurückgegriffen werden; es reicht dann nicht, Assoziationsmaße (wie Korrelationskoeffizienten) zu berechnen. In der vorliegenden Arbeit ist dies nicht (durchgehend) der Fall. Alternativ könnte man auf kausale Aussagen verzichten und stattdessen nur vom "Zusammenhang" (Assoziation) von X und Y sprechen, kausale Behauptungen also meiden.
+
+
+- NEG Formuliert man kausale Hypothese, so ist es nicht ausreichend, bestimmte Statistiken wie Korrelationen auszurechnen, da Korrelationen noch keine Kausation begründet, wie allgemein bekannt ist. Besser ist es, die *statistischen Ergebnisse im Licht der Kausalmodelle* zu prüfen.
+
+- NEG Da in der Arbeit Ausagen mit Kausalanspruch formuliert werden, empfehle ich Ihnen, sich mit der *statistischen Analyse von Kausalaussagen* zu beschäftigen. Empfehlenswerte *Einstiegsliteratur* ist etwa: Rohrer, J. M. (2018). Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data. Advances in Methods and Practices in Psychological Science, 1(1), 27–42. https://doi.org/10.1177/2515245917745629, Lübke, K., Gehrke, M., Horst, J., & Szepannek, G. (2020). Why We Should Teach Causal Inference: Examples in Linear Regression with Simulated Data. Journal of Statistics Education, 1–17. https://doi.org/10.1080/10691898.2020.1752859 oder Elwert, F. (2013). Graphical causal models. In S. Morgan (Ed.), Handbook of causal analysis for social research (pp. 245–273). Springer. https://www.researchgate.net/publication/278717528_Graphical_Causal_Models.
 
 
 
@@ -3545,54 +3581,54 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ *Einige hochwertige Literaturstellen *(Fachartikel) finden sich im Literaturverzeichnis.
-- \+ Der Umfang des Literaturverzeichnisses und die Qualität der Quellen sind *sehr gut*.
-- \+ Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *sehr hoc*h.
-- \+ Der Umfang des Literaturverzeichnisses ist sehr hoch.
+- POS *Einige hochwertige Literaturstellen *(Fachartikel) finden sich im Literaturverzeichnis.
+- POS Der Umfang des Literaturverzeichnisses und die Qualität der Quellen sind *sehr gut*.
+- POS Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *sehr hoc*h.
+- POS Der Umfang des Literaturverzeichnisses ist sehr hoch.
 
 
-- \+ Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *hoch.*
-- \+ Der Umfang des Literaturverzeichnisses ist *hoch.*
+- POS Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *hoch.*
+- POS Der Umfang des Literaturverzeichnisses ist *hoch.*
 
 
-- \+ Der Umfang des Literaturverzeichnisses (an guten Quellen) ist als *gut* zu bewerten.
-- \+ Der Umfang des Literaturverzeichnisses  ist *als gut* zu bewerten.
+- POS Der Umfang des Literaturverzeichnisses (an guten Quellen) ist als *gut* zu bewerten.
+- POS Der Umfang des Literaturverzeichnisses  ist *als gut* zu bewerten.
 
 
-- \+ Der Umfang des Literaturverzeichnisses (an guten Quellen) ist befriedigend bis gut.
-- \+ Der Umfang des Literaturverzeichnisses ist *befriedigend bis gut*.
+- POS Der Umfang des Literaturverzeichnisses (an guten Quellen) ist befriedigend bis gut.
+- POS Der Umfang des Literaturverzeichnisses ist *befriedigend bis gut*.
 
-- \+- Der Umfang des Literaturverzeichnisses (an guten Quellen) ist befriedigend groß (Note 3).
-- \+- Der Umfang des Literaturverzeichnisses  ist *befriedigend* groß (Note 3).
+- POS-NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist befriedigend groß (Note 3).
+- POS-NEG Der Umfang des Literaturverzeichnisses  ist *befriedigend* groß (Note 3).
 
 
-- \+- Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *ausreichend bis befriedigend* groß (Note 3-4).
-- \+- Der Umfang des Literaturverzeichnisses ist ausreichend bis befriedigend groß (Note 3-4).
+- POS-NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *ausreichend bis befriedigend* groß (Note 3-4).
+- POS-NEG Der Umfang des Literaturverzeichnisses ist ausreichend bis befriedigend groß (Note 3-4).
 
 
 `---`
 
 
-- \- Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *ausreichend.*
-- \- Der Umfang des Literaturverzeichnisses ist ausreichend.
+- NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *ausreichend.*
+- NEG Der Umfang des Literaturverzeichnisses ist ausreichend.
 
 
-- \- Die Anzahl der Quellen im Literaturverzeichnis (an guten Quellen) ist *ausreichend bis mangelhaft* (Note 4 bis 5).
-- \- Die Anzahl der Quellen im Literaturverzeichnis ist ausreichend bis mangelhaft (Note 4 bis 5).
+- NEG Die Anzahl der Quellen im Literaturverzeichnis (an guten Quellen) ist *ausreichend bis mangelhaft* (Note 4 bis 5).
+- NEG Die Anzahl der Quellen im Literaturverzeichnis ist ausreichend bis mangelhaft (Note 4 bis 5).
 
 
-- \- Der Umfang des Literaturverzeichnis (an guten Quellen) ist *mangelhaft.*
-- \- Der Umfang des Literaturverzeichnis  ist mangelhaft.
+- NEG Der Umfang des Literaturverzeichnis (an guten Quellen) ist *mangelhaft.*
+- NEG Der Umfang des Literaturverzeichnis  ist mangelhaft.
 
 
 
-- \- Die Anzahl der fachlich-inhaltlichen Quellen (mit Qualität) sollte umfassender sein.
-- \- Die Anzahl der fachlich-inhaltlichen Quellen *sollte umfassender* sein.
+- NEG Die Anzahl der fachlich-inhaltlichen Quellen (mit Qualität) sollte umfassender sein.
+- NEG Die Anzahl der fachlich-inhaltlichen Quellen *sollte umfassender* sein.
 
-- \- Die Anzahl der Quellen im Literaturverzeichnis (mit Qualität) ist *zu gering*.
-- \- Die Anzahl der Quellen im Literaturverzeichnis ist zu gering.
+- NEG Die Anzahl der Quellen im Literaturverzeichnis (mit Qualität) ist *zu gering*.
+- NEG Die Anzahl der Quellen im Literaturverzeichnis ist zu gering.
 
-- \- Die Anzahl und/oder die Qualität der der Quellen im Literaturverzeichnis entspricht nicht dem geforderten Niveau des Studiengangs.
+- NEG Die Anzahl und/oder die Qualität der der Quellen im Literaturverzeichnis entspricht nicht dem geforderten Niveau des Studiengangs.
 
 
 
@@ -3600,23 +3636,23 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist *ungewöhnlich groß*; dies belegt die theoretische Fundierung der Arbeit.
-- \+ Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist *sehr hoch*.
-- \+ Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist *hoch.*
-- \+ Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist befriedigend bis hoch.
+- POS Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist *ungewöhnlich groß*; dies belegt die theoretische Fundierung der Arbeit.
+- POS Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist *sehr hoch*.
+- POS Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist *hoch.*
+- POS Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist befriedigend bis hoch.
 
-- \+- Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist von *mittlerer Güte*.
+- POS-NEG Die Anzahl der zitierten wissenschaftlich hochwertigen Literaturstellen (Originalartikel oder Reviews) ist von *mittlerer Güte*.
 
 
 `---`
 
 
-- \- Die Anzahl der Quellen mit hohem wissenschaftlichem Anspruch (Originalartikel oder Reviews) ist *gering.*
-- \- Die Anzahl der Quellen mit hohem wissenschaftlichem Anspruch (Originalartikel oder Reviews) ist *zu gering*.
+- NEG Die Anzahl der Quellen mit hohem wissenschaftlichem Anspruch (Originalartikel oder Reviews) ist *gering.*
+- NEG Die Anzahl der Quellen mit hohem wissenschaftlichem Anspruch (Originalartikel oder Reviews) ist *zu gering*.
 
-- \- Ein oder mehrere *systematische Literaturüberblicksarbeiten* (wie Metaanalysen oder systematische Reviews) hätten der Qualität des Theorieteils bzw. des Literaturverzeichnis *noch zugute getan*.
+- NEG Ein oder mehrere *systematische Literaturüberblicksarbeiten* (wie Metaanalysen oder systematische Reviews) hätten der Qualität des Theorieteils bzw. des Literaturverzeichnis *noch zugute getan*.
 
-- \- Die Arbeit *hätte von mehr Quellen mit hohem wissenschaftlichem Anspruch (Fachartikel) profitiert*.
+- NEG Die Arbeit *hätte von mehr Quellen mit hohem wissenschaftlichem Anspruch (Fachartikel) profitiert*.
 
 
 
@@ -3625,51 +3661,52 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ Die Qualität der Quellen im Literaturverzeichnis ist *sehr gut*.
-- \+ Die Qualität der Quellen im Literaturverzeichnis ist insgesamt *gut bis sehr gut*.
-- \+ Die Qualität der Quellen im Literaturverzeichnis ist *insgesamt* gut.
+- POS Die Qualität der Quellen im Literaturverzeichnis ist *sehr gut*.
+- POS Die Qualität der Quellen im Literaturverzeichnis ist insgesamt *gut bis sehr gut*.
+- POS Die Qualität der Quellen im Literaturverzeichnis ist *insgesamt* gut.
 
-- \+ Die Qualität der Quellen im Literaturverzeichnis ist *insgesamt gut bis befriedigend*.
+- POS Die Qualität der Quellen im Literaturverzeichnis ist *insgesamt gut bis befriedigend*.
 
 
-- \+- Die Qualität der Quellen im Literaturverzeichnis ist von *mittlerer* (befriedigender) Güte.
-- \+- Die Qualität der Quellen im Literaturverzeichnis ist von *mittlerer bis geringer* Güte.
+- POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist von *mittlerer* (befriedigender) Güte.
+- POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist von *mittlerer bis geringer* Güte.
 
 
 
 
 `---`
 
-- \- Die Qualität der Quellen im Literaturverzeichnis ist *wenig überzeugend* (Note 4).
-- \- Die Qualität der Quellen im Literaturverzeichnis ist *mangelhaft.*
+- NEG Die Qualität der Quellen im Literaturverzeichnis ist *wenig überzeugend* (Note 4).
+- NEG Die Qualität der Quellen im Literaturverzeichnis ist *mangelhaft.*
 
 
 
-- \- Die Qualität der Quellen im Literaturverzeichnis erreicht *nicht das Niveau eines Master of Science Studiengangs*.
+- NEG Die Qualität der Quellen im Literaturverzeichnis erreicht *nicht das Niveau eines Master of Science Studiengangs*.
 
  
 ### Qualität der Quellen -- Kommentare
 
 `+++`
 
-- \+ Aktuelle (Forschungs-)arbeiten werden *aufgegriffen.*
-- \+ In der vorliegenden Arbeit werden (eine oder mehrere) *Überblicksarbeiten* wie Reviews oder Meta-Analysen zitiert. Das ist *begrüßenswert* und zeugt von gutem Verständnis zum Evidenzgehalt von Publikationen.
+- POS Aktuelle (Forschungs-)arbeiten werden *aufgegriffen.*
+- POS In der vorliegenden Arbeit werden (eine oder mehrere) *Überblicksarbeiten* wie Reviews oder Meta-Analysen zitiert. Das ist *begrüßenswert* und zeugt von gutem Verständnis zum Evidenzgehalt von Publikationen.
+- POS Die vorliegende Arbeit greift einige *wesentliche Studien* des Forschungsfelds auf.
 
 
 `---`
 
-- \- Die Arbeit hätte *von einem ausgiebigerem Rückgriff* auf aktuelle *Forschungsarbeiten profitiert*.
+- NEG Die Arbeit hätte *von einem ausgiebigerem Rückgriff* auf aktuelle *Forschungsarbeiten profitiert*.
 
-- \- Aktuelle (Forschungs-)arbeiten werden *nicht oder kaum aufgegriffen*.
+- NEG Aktuelle (Forschungs-)arbeiten werden *nicht oder kaum aufgegriffen*.
 
-- \- Dem Literaturverzeichnis *mangelt* es an *Originalarbeiten* bzw. genauen Berichten empirischer Ergebnisse.
+- NEG Dem Literaturverzeichnis *mangelt* es an *Originalarbeiten* bzw. genauen Berichten empirischer Ergebnisse.
 
-- \- Internetquellen sind meist von *geringer Qualität* und außerdem von Flüchtigkeit und sollten gemieden werden.
-- \- Die Arbeit bezieht sich in großer Zahl auf Quellen von geringer Qualität wie etwa Internetseiten.
+- NEG Internetquellen sind meist von *geringer Qualität* und außerdem von Flüchtigkeit und sollten gemieden werden.
+- NEG Die Arbeit bezieht sich in großer Zahl auf Quellen von geringer Qualität wie etwa Internetseiten.
 
-- \- Es wurden in *zu hohem Maße allgemeine Lehrbücher*, nicht aber spezifische Quellen zur Verdeutlichung der Theorien herangezogen.
+- NEG Es wurden in *zu hohem Maße allgemeine Lehrbücher*, nicht aber spezifische Quellen zur Verdeutlichung der Theorien herangezogen.
 
-- \- Die höchste Form der Evidenz sind (ceteris paribus) Review-Studien bzw. Metaanalysen. Die vorliegende Arbeit hätte von der (größeren) *Einbeziehung solcher Review-Arbeiten* profitiert.
+- NEG Die höchste Form der Evidenz sind (ceteris paribus) Review-Studien bzw. Metaanalysen. Die vorliegende Arbeit hätte von der (größeren) *Einbeziehung solcher Review-Arbeiten* profitiert.
 
 
 
@@ -3678,20 +3715,20 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ Das Literaturverzeichnis bezieht *angelsächsische* Quellen reichhaltig mit ein. Da diese Quellen einen dominierenden Anteil der Literatur stellen, ist plausibel, dass das theoretische Fundament der Arbeit breit und solide ist.
+- POS Das Literaturverzeichnis bezieht *angelsächsische* Quellen reichhaltig mit ein. Da diese Quellen einen dominierenden Anteil der Literatur stellen, ist plausibel, dass das theoretische Fundament der Arbeit breit und solide ist.
 
-- \+ Das Literaturverzeichnis bezieht *englischsprachige* Arbeiten *reichhaltig* mit ein.
-- \+ Das Literaturverzeichnis bezieht einige englischsprachige Arbeiten mit ein.
+- POS Das Literaturverzeichnis bezieht *englischsprachige* Arbeiten *reichhaltig* mit ein.
+- POS Das Literaturverzeichnis bezieht einige englischsprachige Arbeiten mit ein.
 
 
 `---`
 
 
-- \- Das Literaturverzeichnis *hätte von einem ausgiebigerem Rückgriff auf englischsprachige Literatur profitiert*.
+- NEG Das Literaturverzeichnis *hätte von einem ausgiebigerem Rückgriff auf englischsprachige Literatur profitiert*.
 
-- \- Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass substanzielle Lücken im Literaturüberblick vorliegen.
-- \- Das Literaturverzeichnis v*ernachlässigt angelsächsische Quellen*, die aber einen dominierenden Anteil der Literatur stellen. Daher ist davon auszugehen, dass das theoretische Fundament der Arbeit lückenhaft oder/und verzerrt ist.
-- \- Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.
+- NEG Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass substanzielle Lücken im Literaturüberblick vorliegen.
+- NEG Das Literaturverzeichnis v*ernachlässigt angelsächsische Quellen*, die aber einen dominierenden Anteil der Literatur stellen. Daher ist davon auszugehen, dass das theoretische Fundament der Arbeit lückenhaft oder/und verzerrt ist.
+- NEG Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.
 
 
 
@@ -3708,39 +3745,42 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ Der sprachliche Ausdruck ist insgesamt *sehr gut*.
-- \+ Der sprachliche Ausdruck ist *gut*.
-- \+ Der sprachliche Ausdruck ist insgesamt  gut.
+- POS Der sprachliche Ausdruck ist insgesamt *sehr gut*.
+- POS Der sprachliche Ausdruck ist *gut*.
+- POS Der sprachliche Ausdruck ist insgesamt  gut.
 
-- \+ Der sprachliche Ausdruck ist *angemessen.*
-- \+ Der sprachliche Ausdruck ist insgesamt adäquat.
+- POS Der sprachliche Ausdruck ist *angemessen.*
+- POS Der sprachliche Ausdruck ist insgesamt adäquat.
 
-- \+ Auf *Fachjargon wurde verzichtet*, ohne dass die Klarheit der Begriffe eingeschränkt ist. Damit ist eine Fachsprache auf gutem Niveau großteils erreicht worden.
-- \+ Die Formulierung ist *exakt und präzise*, so wie es für eine wissenschaftliche Arbeit angemessen ist.
+- POS Auf *Fachjargon wurde verzichtet*, ohne dass die Klarheit der Begriffe eingeschränkt ist. Damit ist eine Fachsprache auf gutem Niveau großteils erreicht worden.
+- POS Die Formulierung ist *exakt und präzise*, so wie es für eine wissenschaftliche Arbeit angemessen ist.
 
 
 `---`
 
-- \- Der sprachliche Ausdruck ist *nicht immer angemessen*.
-- \- An einigen Stellen ist der sprachliche Ausdruck *nicht angemessen*.
+- NEG Der sprachliche Ausdruck ist *nicht immer angemessen*.
+- NEG An einigen Stellen ist der sprachliche Ausdruck *nicht angemessen*.
 
 
 ### Sprachlicher Ausdruck (Klarheit) -- Kommentare {#klaresprache}
 
 `+++`
 
-- \+ Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". *Schwafeln* ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.
+- POS Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". *Schwafeln* ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.
 
 
 
-- \+ Ein *Zitat* oder mehrere Zitate wurden in gewinnbringender, *schmückender* Form verwendet.
+- POS Ein *Zitat* oder mehrere Zitate wurden in gewinnbringender, *schmückender* Form verwendet.
 
-- \+ *Rhetorische* Fragen wurden in *sinnvoller* (eleganter) Art und Weise verwendet.
+- POS *Rhetorische* Fragen wurden in *sinnvoller* (eleganter) Art und Weise verwendet.
 
 
-- \+ Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm *geringen Teil an Füllwörtern* ("nämlich", "nun", "gerade deshalb", "letztlich") und überflüssigen Adjektiven ("sehr stringent", "besonders aufwändig", "schwere Verwüstung") aus.
-- \+ Der *Satzbau* ist *elegant*, insofern er durch Konjunktionen (und/oder andere Junktoren) wie "obwohl", "während" oder "gleichzeitig" interessante Gedankengefüge erstellt.
+- POS Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm *geringen Teil an Füllwörtern* ("nämlich", "nun", "gerade deshalb", "letztlich") und überflüssigen Adjektiven ("sehr stringent", "besonders aufwändig", "schwere Verwüstung") aus.
+- POS Der *Satzbau* ist *elegant*, insofern er durch Konjunktionen (und/oder andere Junktoren) wie "obwohl", "während" oder "gleichzeitig" interessante Gedankengefüge erstellt.
 
+- NEG Der sprachliche Ausdruck ist in Teilen zu *umgangssprachlich*. So wäre z.B. folgendes Aussage "Aufgrund der aktuell vorliegenden Daten kam uns die Überlegung, ..." besser so formuliert "Auf Basis der vorliegenden Daten formulierten wir folgende Hypothese ..." oder "Auf Basis der in der Literatur aufgeführten Evidenz leitete sich folgende Forschungsfrage ab ...".
+
+- NEG Das Personalpronomen in der ersten Person Singular oder Plural (ich bzw. wir) sollte nicht zu häufig verwendet werden. So könnte man  anstelle von "Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und uns privat kontaktieren" eher formulieren "Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und *die Versuchsleiterinnen* privat kontaktieren".
 
 
 `---` 
@@ -3748,44 +3788,44 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 
 
-- \- Die *erste Person Singular* (Ich-Form) und Plural sollte in wissenschaftlichen Berichten *spärlich* eingesetzt werden; zumindest in der deutschen Sprache. Die vorliegende Arbeit macht relativ regen Gebrauch von dieser Form.
+- NEG Die *erste Person Singular* (Ich-Form) und Plural sollte in wissenschaftlichen Berichten *spärlich* eingesetzt werden; zumindest in der deutschen Sprache. Die vorliegende Arbeit macht relativ regen Gebrauch von dieser Form.
 
-- \- Zwar kann man es mit *politisch korrekter Sprache* auch übertreiben, aber nur von Männern zu reden, wenn es um Frauen und Männer geht, führt eine unnötige Verzerrung und Verengung des Blickwinkels an (z. B. "Hier muss man einen alleinstehenden Mann von einem Familienvater unterscheiden" - wenn man auch eine alleinstehende Frau von einer Mutter unterscheiden müsste).
+- NEG Zwar kann man es mit *politisch korrekter Sprache* auch übertreiben, aber nur von Männern zu reden, wenn es um Frauen und Männer geht, führt eine unnötige Verzerrung und Verengung des Blickwinkels an (z. B. "Hier muss man einen alleinstehenden Mann von einem Familienvater unterscheiden" - wenn man auch eine alleinstehende Frau von einer Mutter unterscheiden müsste).
 
-- \- *Abkürzungen* wurden verwendet, *ohne dass sie vorab definiert* wurden; Abkürzungen sollten zuerst definiert werden, bevor sie verwendet werden.
+- NEG *Abkürzungen* wurden verwendet, *ohne dass sie vorab definiert* wurden; Abkürzungen sollten zuerst definiert werden, bevor sie verwendet werden.
 
-- \- In einem Forschungsbericht sollten Handlungen, die in der Vergangenheit liegen, mit einer *Vergangenheitsform* (Präteritum oder Perfekt) beschrieben werden ("Die Versuchspersonen wurden aufgeklärt über ..."). Aussagen hingegen, die zeitübergreifend oder aktuell gültig sind, sollten im Präsens formuliert werden ("Die Ergebnisse zeigen/implizieren/verdeutlichen ..."). Die Wahl der Zeitform wurde in der vorliegenden Arbeit nicht immer korrekt gewählt.
+- NEG In einem Forschungsbericht sollten Handlungen, die in der Vergangenheit liegen, mit einer *Vergangenheitsform* (Präteritum oder Perfekt) beschrieben werden ("Die Versuchspersonen wurden aufgeklärt über ..."). Aussagen hingegen, die zeitübergreifend oder aktuell gültig sind, sollten im Präsens formuliert werden ("Die Ergebnisse zeigen/implizieren/verdeutlichen ..."). Die Wahl der Zeitform wurde in der vorliegenden Arbeit nicht immer korrekt gewählt.
 
-- \- Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.
-
-
+- NEG Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.
 
 
+- NEG Das Wort *"signifikant"* sollte nur in wohl abgewogenen Zusammenhängen angeführt werden. Die vorliegende Arbeit verwendet den Begriff nicht immer präzise genug.
 
 
-- \- *Füllwörter sollten vermieden* werden ("also", "nun", "etwas", "genau", "gerade", "gewiss", "im Prinzip", "ja", "letztlich" "sogar", "streng", "zudem", usw.). In der vorliegenden Arbeit finden sich davon einige.
 
-- \- Die Sprache klingt in Teilen nach "*Amtsdeutsch*": "Durch die Begehungsvorschriftinkraftretung wird ein Fortschritt erzielt". Besser: "Die Maßnahme brachte Fortschritte in XXX". 
+- NEG *Füllwörter sollten vermieden* werden ("also", "nun", "etwas", "genau", "gerade", "gewiss", "im Prinzip", "ja", "letztlich" "sogar", "streng", "zudem", usw.). In der vorliegenden Arbeit finden sich davon einige.
 
-- \- *Anglizismen* sollten in deutschsprachigen Texten *vermieden* werden bzw. nur verwendet werden, wenn sie im Deutschen üblich sind (ok: Internet, vermeidbar: Das Slidedeck, der Go-Live, der Consultant).
-- \- Der Text ist in hohem *(zu hohem) Umfang im Passiv* formuliert. So könnten Textstellen wie "es wird gezeigt, dass blablabla" umformuliert werden in "Die Ergebnisse deuten darauf hin, dass blablabla" oder "Kapitel 2 geht auf blablabla ein".
-- \- Adjektive sollte man vorsichtig(er) verwenden, da sie oft unnötig aufblähen ("eine besonders extrem ambitiöse quantitativ-statistische Untersuchung"), doppelt-gemoppelt sind ("Interviewpartner bewusst gewählt" - wie oft wählt man die Interviewpartner unbewusst) oder falsch sind ("die einzigste Untersuchung"). Im vorliegenden Text wird in *zu hohem oder nicht adäquatem Maß von Adjektiven Gebrauch* gemacht.
+- NEG Die Sprache klingt in Teilen nach "*Amtsdeutsch*": "Durch die Begehungsvorschriftinkraftretung wird ein Fortschritt erzielt". Besser: "Die Maßnahme brachte Fortschritte in XXX". 
 
-- \- *Adjektive* sollten in technischen Berichten bzw. wissenschaftlichen Texten sparsam (nicht ohne Not) verwendet werden.
+- NEG *Anglizismen* sollten in deutschsprachigen Texten *vermieden* werden bzw. nur verwendet werden, wenn sie im Deutschen üblich sind (ok: Internet, vermeidbar: Das Slidedeck, der Go-Live, der Consultant).
+- NEG Der Text ist in hohem *(zu hohem) Umfang im Passiv* formuliert. So könnten Textstellen wie "es wird gezeigt, dass blablabla" umformuliert werden in "Die Ergebnisse deuten darauf hin, dass blablabla" oder "Kapitel 2 geht auf blablabla ein".
+- NEG Adjektive sollte man vorsichtig(er) verwenden, da sie oft unnötig aufblähen ("eine besonders extrem ambitiöse quantitativ-statistische Untersuchung"), doppelt-gemoppelt sind ("Interviewpartner bewusst gewählt" - wie oft wählt man die Interviewpartner unbewusst) oder falsch sind ("die einzigste Untersuchung"). Im vorliegenden Text wird in *zu hohem oder nicht adäquatem Maß von Adjektiven Gebrauch* gemacht.
 
-- \- Es findet sich mind. ein *Pleonasmus* im Text ("weißer Schimmel"; z. B. "geistige Reflexion").
+- NEG *Adjektive* sollten in technischen Berichten bzw. wissenschaftlichen Texten sparsam (nicht ohne Not) verwendet werden.
 
-- \- Ein sachlicher Bericht, und das ist eine wissenschaftliche Seminararbeit, *sollte auf Adjektive verzichten*, da Adjektive mitunter einen nüchternen Beschreibung im Wege stehen. So sollte man vermeiden, von der "ausführlichen Recherche" oder der "genauen Beschreibung", die man durchgeführt habe, zu sprechen.
+- NEG Es findet sich mind. ein *Pleonasmus* im Text ("weißer Schimmel"; z. B. "geistige Reflexion").
 
-- \- Wissenschaftliche (und andere) Berichte zeichnen sich durch *Präzision* aus. *Phrasen* wie "nach intensiver Lektüre wurden folgende Thesen abgleitet", "Dieses Kapitel [der Theorieteil] beschäftigt sich mit der theoretischen Betrachtung" oder "durch Anwendung fortgeschrittener Analysemethoden" stehen daher der wissenschaftlichen Sprache  entgegen, da *inhaltsarm*, und sollten sorgfältig vermieden werden. Insbesondere gilt dies für Abschnitte des Berichts, die das Aushängeschild für präzise, knappe bzw. prägnante Sprache herhalten sollen wie der Abstract. (In Teilen) *mangelnde Präzision* ist ein substanzieller Fehler im Hinblick auf den Bewertungsaspekt des wissenschaftlichen Formulierens zu verstehen. 
+- NEG Ein sachlicher Bericht, und das ist eine wissenschaftliche Seminararbeit, *sollte auf Adjektive verzichten*, da Adjektive mitunter einen nüchternen Beschreibung im Wege stehen. So sollte man vermeiden, von der "ausführlichen Recherche" oder der "genauen Beschreibung", die man durchgeführt habe, zu sprechen.
 
-- \- Es finden sich *Schachtelsätze* bzw. "Klemmkeil-Satzkonstruktionen", die von einem zu hohem Maße an eingeschobenen *Nebensätzen* gekennzeichnet sind. Überspitztes Beispiel: "Derjenige, der denjenigen, der den Pfahl, der an der Brücke, die an der Straße, die nach Mainz führt, liegt, stand, umgeworfen hat, anzeigt, erhält eine Belohnung." Besser ist es, kurze Hauptsätze (*Hypotaxen*) mit etwas längeren Sätzen (etwa: Hauptsatz plus ein Nebensatz) abzuwechseln.
+- NEG Wissenschaftliche (und andere) Berichte zeichnen sich durch *Präzision* aus. *Phrasen* wie "nach intensiver Lektüre wurden folgende Thesen abgleitet", "Dieses Kapitel [der Theorieteil] beschäftigt sich mit der theoretischen Betrachtung" oder "durch Anwendung fortgeschrittener Analysemethoden" stehen daher der wissenschaftlichen Sprache  entgegen, da *inhaltsarm*, und sollten sorgfältig vermieden werden. Insbesondere gilt dies für Abschnitte des Berichts, die das Aushängeschild für präzise, knappe bzw. prägnante Sprache herhalten sollen wie der Abstract. (In Teilen) *mangelnde Präzision* ist ein substanzieller Fehler im Hinblick auf den Bewertungsaspekt des wissenschaftlichen Formulierens zu verstehen. 
 
-
-- \- Zentrales Merkmal wissenschaftlichen Schreibens ist *Präzision.* Ein Beispiel für eine nicht präzise Aussage bzw. Forschungsfrage ist "*Sind harte Führungskräfte erfolgreich*?". Diese Frage lässt beispielsweise offen, was unter einer "harten" oder einer "erfolgreichen" Führungskraft zu verstehen ist. Präziser wäre die Forschungsfrage so formuliert: "Wie stark ist der Einfluss der Eigenschaften aus der sog. 'Dunklen Triade der Persönlichkeit' auf die Zufriedenheit der Mitarbeiter, gemessen mit dem XYZ-Inventar?". Die vorliegende Arbeit weist sich nicht an allen Stellen durch hohe Präzision in den Formulierungen aus. 
+- NEG Es finden sich *Schachtelsätze* bzw. "Klemmkeil-Satzkonstruktionen", die von einem zu hohem Maße an eingeschobenen *Nebensätzen* gekennzeichnet sind. Überspitztes Beispiel: "Derjenige, der denjenigen, der den Pfahl, der an der Brücke, die an der Straße, die nach Mainz führt, liegt, stand, umgeworfen hat, anzeigt, erhält eine Belohnung." Besser ist es, kurze Hauptsätze (*Hypotaxen*) mit etwas längeren Sätzen (etwa: Hauptsatz plus ein Nebensatz) abzuwechseln.
 
 
-- \- Es werden *wissenschaftlich-methodische Sachverhalte* (in Teilen) *fehlerhaft formuliert*.
+- NEG Zentrales Merkmal wissenschaftlichen Schreibens ist *Präzision.* Ein Beispiel für eine nicht präzise Aussage bzw. Forschungsfrage ist "*Sind harte Führungskräfte erfolgreich*?". Diese Frage lässt beispielsweise offen, was unter einer "harten" oder einer "erfolgreichen" Führungskraft zu verstehen ist. Präziser wäre die Forschungsfrage so formuliert: "Wie stark ist der Einfluss der Eigenschaften aus der sog. 'Dunklen Triade der Persönlichkeit' auf die Zufriedenheit der Mitarbeiter, gemessen mit dem XYZ-Inventar?". Die vorliegende Arbeit weist sich nicht an allen Stellen durch hohe Präzision in den Formulierungen aus. 
+
+
+- NEG Es werden *wissenschaftlich-methodische Sachverhalte* (in Teilen) *fehlerhaft formuliert*.
 
 
 
@@ -3795,53 +3835,53 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ Insgesamt ist die Diskussion als sehr gut zu beurteilen.
-- \+ Die Diskussion ist sehr umfangreich.
+- POS Insgesamt ist die Diskussion als sehr gut zu beurteilen.
+- POS Die Diskussion ist sehr umfangreich.
 
-- \+ Insgesamt ist die Diskussion als gut zu beurteilen.
-- \+ Die Diskussion spricht einige nennenswerte Aspekte an.
+- POS Insgesamt ist die Diskussion als gut zu beurteilen.
+- POS Die Diskussion spricht einige nennenswerte Aspekte an.
 
-- \+- Insgesamt ist die Diskussion als befriedigend zu beurteilen.
-- \+/- Es wurden einige Aspekte der Arbeit (Inhalt, Methode, Ergebnis) diskutiert; die Diskussion erreicht jedoch keine große Tiefe oder Breite.
+- POS-NEG Insgesamt ist die Diskussion als befriedigend zu beurteilen.
+- POS/- Es wurden einige Aspekte der Arbeit (Inhalt, Methode, Ergebnis) diskutiert; die Diskussion erreicht jedoch keine große Tiefe oder Breite.
 
 
 `---`
 
 
-- \- Insgesamt ist die Diskussion als ausreichend zu beurteilen.
-- \- Die Diskussion ist sehr kurz gehalten.
-- \- Die Diskussion ist insgesamt zu wenig ausgeprägt; wesentliche diskussionswürdige Punkte fehlen bzw. werden nicht angesprochen.
+- NEG Insgesamt ist die Diskussion als ausreichend zu beurteilen.
+- NEG Die Diskussion ist sehr kurz gehalten.
+- NEG Die Diskussion ist insgesamt zu wenig ausgeprägt; wesentliche diskussionswürdige Punkte fehlen bzw. werden nicht angesprochen.
 
-- \- Wesentliche Einschränkungen qualitativer Forschung (wie eingeschränkte Repräsentativität der Ergebnisse) wurden nicht diskutiert.
+- NEG Wesentliche Einschränkungen qualitativer Forschung (wie eingeschränkte Repräsentativität der Ergebnisse) wurden nicht diskutiert.
 
 
-- \- Das Fehler des Diskussionsteils ist zu bemängeln. 
+- NEG Das Fehler des Diskussionsteils ist zu bemängeln. 
 
 
 ### Reflexion/Diskussion (allgemein, OHNE Schwächen) -- Kommentare
 
 
 
-- \+ Das Ergebnis der Arbeit wurde *kritisch reflektiert*.
-- \+ Die Implikation bzw. die Bedeutung für die Praxis, die sich aus den Ergebnissen der Arbeit ergeben, werden *in nützlicher Weise diskutiert*.
+- POS Das Ergebnis der Arbeit wurde *kritisch reflektiert*.
+- POS Die Implikation bzw. die Bedeutung für die Praxis, die sich aus den Ergebnissen der Arbeit ergeben, werden *in nützlicher Weise diskutiert*.
 
-- \+ Die Ergebnisse der Studie wurden *recht umfangreich interpretiert*.
+- POS Die Ergebnisse der Studie wurden *recht umfangreich interpretiert*.
 
-- \+ Die Befunde der vorliegenden Studie wurden *in den Kontext früherer Studien gestellt* und somit in nützlicher Weise eingeordnet.
+- POS Die Befunde der vorliegenden Studie wurden *in den Kontext früherer Studien gestellt* und somit in nützlicher Weise eingeordnet.
 
 `---`
 
 
 
-- \- Der Arbeit *fehlt eine Anbindung der Ergebnisse in die Forschungslandschaft*. Fügen sich die Ergebnisse in das Gros der bisherigen Befunde ein? Wo widersprechen die vorliegenden Erkenntnisse der Literatur? Werden Lücken in der Forschungslandschaft gefüllt? Sind die Erkenntnisse dieser Arbeit als valider zu bewerten als gewisse andere existierende Arbeiten?
+- NEG Der Arbeit *fehlt eine Anbindung der Ergebnisse in die Forschungslandschaft*. Fügen sich die Ergebnisse in das Gros der bisherigen Befunde ein? Wo widersprechen die vorliegenden Erkenntnisse der Literatur? Werden Lücken in der Forschungslandschaft gefüllt? Sind die Erkenntnisse dieser Arbeit als valider zu bewerten als gewisse andere existierende Arbeiten?
 
-- \- Die Diskussion bietet Raum primär um das Ausmaß, die Tiefe und die Gründlichkeit des eigenen Nachdenkens über die eigene Arbeit und das Ergebnis der Analyse zu erörtern. Diese Gelegenheit wurde *nicht (ausreichend) genutzt*; die Diskussion erreicht keine großen Tiefen.
+- NEG Die Diskussion bietet Raum primär um das Ausmaß, die Tiefe und die Gründlichkeit des eigenen Nachdenkens über die eigene Arbeit und das Ergebnis der Analyse zu erörtern. Diese Gelegenheit wurde *nicht (ausreichend) genutzt*; die Diskussion erreicht keine großen Tiefen.
 
-- \- Fähigkeit zur Reflexion im Allgemeinen und zur *Selbstreflexion* im Besonderen sind ein wesentliches (vielleicht das wesentliche) Lernziel eines akademischen Studiums. Daraus leitet sich die hohe Bedeutung der Reflexion bzw. des Diskussionsteils in einer wissenschaftlichen Arbeit wie einer Seminararbeit oder einer Thesis ab; die Güte des Diskussionsteils ist ein wichtiger Indikator zur Einschätzung der Fähigkeit zur Reflexion bei der Autorin bzw. beim Autor. In der vorliegenden Arbeit kann die Reflexionsfähigkeit aufgrund der gezeigten Reflexion bzw. Reflexivität nicht als ausgeprägt eingeschätzt werden, da *keine ausführliche Reflexion* des eigenen Vorgehens im Rahmen des Diskussionsteils gezeigt wurde.
+- NEG Fähigkeit zur Reflexion im Allgemeinen und zur *Selbstreflexion* im Besonderen sind ein wesentliches (vielleicht das wesentliche) Lernziel eines akademischen Studiums. Daraus leitet sich die hohe Bedeutung der Reflexion bzw. des Diskussionsteils in einer wissenschaftlichen Arbeit wie einer Seminararbeit oder einer Thesis ab; die Güte des Diskussionsteils ist ein wichtiger Indikator zur Einschätzung der Fähigkeit zur Reflexion bei der Autorin bzw. beim Autor. In der vorliegenden Arbeit kann die Reflexionsfähigkeit aufgrund der gezeigten Reflexion bzw. Reflexivität nicht als ausgeprägt eingeschätzt werden, da *keine ausführliche Reflexion* des eigenen Vorgehens im Rahmen des Diskussionsteils gezeigt wurde.
 
-- \- Ein wesentliches Manko (des Diskussionsteils) der Arbeit ist der von *Übergewissheit* bzw. nicht gerechtfertigtem Optimismus auf die *Aussagekraft* (Validität) der Ergebnisse getragen. So finden sich Hinweise, dass die Ergebnisse "verlässlich" seien oder etwas "bewiesen" haben oder etwas klar "zeigen". So wird verkannt, dass die Ergebnisse weniger Aussagekraft haben, als es die sprachliche Darstellung vermuten ließe.
+- NEG Ein wesentliches Manko (des Diskussionsteils) der Arbeit ist der von *Übergewissheit* bzw. nicht gerechtfertigtem Optimismus auf die *Aussagekraft* (Validität) der Ergebnisse getragen. So finden sich Hinweise, dass die Ergebnisse "verlässlich" seien oder etwas "bewiesen" haben oder etwas klar "zeigen". So wird verkannt, dass die Ergebnisse weniger Aussagekraft haben, als es die sprachliche Darstellung vermuten ließe.
 
-- \- Zwar reflektieren viele Studien den Einfluss der Personen-Stichprobengröße, der Anzahl der (i.d.R.) Personen, die an einem Versuch teilnehmen. Hingegen fehlt häufiger - und so auch in der vorliegenden Arbeit - eine *umfassende Reflektion des Einflusses* der *Stimuli-Stichprobe*. Wie auch für eine Personen-Stichprobe gilt für eine Stimuli-Stichprobe in gleichem Maße: je geringer die Größe der Stichprobe, desto unsicherer die Schätzung der Grundgesamtheit. Vergleicht zum Beispiel eine Studie ob "Adam" attraktiver ist als "Eva", so ist etwa der Schluss, dass "Männer weniger attraktiv" seien als Frauen (bei gegebener Datenlage) überzogen. Das Studiendesign ließe, ob der geringen Stichprobengröße der Stimuli nur einen Schluss zu, dass etwa Eva als attraktiver wahrgenommen wird als Adam.  
+- NEG Zwar reflektieren viele Studien den Einfluss der Personen-Stichprobengröße, der Anzahl der (i.d.R.) Personen, die an einem Versuch teilnehmen. Hingegen fehlt häufiger - und so auch in der vorliegenden Arbeit - eine *umfassende Reflektion des Einflusses* der *Stimuli-Stichprobe*. Wie auch für eine Personen-Stichprobe gilt für eine Stimuli-Stichprobe in gleichem Maße: je geringer die Größe der Stichprobe, desto unsicherer die Schätzung der Grundgesamtheit. Vergleicht zum Beispiel eine Studie ob "Adam" attraktiver ist als "Eva", so ist etwa der Schluss, dass "Männer weniger attraktiv" seien als Frauen (bei gegebener Datenlage) überzogen. Das Studiendesign ließe, ob der geringen Stichprobengröße der Stimuli nur einen Schluss zu, dass etwa Eva als attraktiver wahrgenommen wird als Adam.  
 
 
 
@@ -3849,55 +3889,55 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- \+ Der eigene Forschungsprozess wurde in sinnvollerweise Weise *kritisch diskutiert*.
-- \+ Die Studie in Aufbau, Durchführung und Ergebnissen wurden *umfangreich diskutiert*.
-- \+ Das methodische Vorgehen wurde *kritisch reflektiert*.
-- \+ *Die (geringe) Stichprobengröße* bzw. die Konsequenzen auf den Signifikanzwert wurde *gut diskutiert* (bei größerer Stichprobe wären vielleicht andere/deutlichere Effekte aufgetreten).
-- \+ *Grenzen der internen Validität* der Studie (also des Ursache-Wirkungs-Zusammenhangs) wurden erkannt und *stimmig diskutiert*.
+- POS Der eigene Forschungsprozess wurde in sinnvollerweise Weise *kritisch diskutiert*.
+- POS Die Studie in Aufbau, Durchführung und Ergebnissen wurden *umfangreich diskutiert*.
+- POS Das methodische Vorgehen wurde *kritisch reflektiert*.
+- POS *Die (geringe) Stichprobengröße* bzw. die Konsequenzen auf den Signifikanzwert wurde *gut diskutiert* (bei größerer Stichprobe wären vielleicht andere/deutlichere Effekte aufgetreten).
+- POS *Grenzen der internen Validität* der Studie (also des Ursache-Wirkungs-Zusammenhangs) wurden erkannt und *stimmig diskutiert*.
 
-- \+- Die *Stichprobengröße* ist zwar ein meist treffender Kritikpunkt an einer Studie; kaum eine Studie weist eine "zu große" Stichprobe auf. Gleichzeitig ist dieser Punkt nicht ausreichend für die Diskussion der Grenzen der Untersuchung und insofern noch *kein Zeugnis einer tiefen Durchdringung* der Stärken und Schwächen eines Forschungsdesigns.
-- \+- Das methodische Vorgehen wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
+- POS-NEG Die *Stichprobengröße* ist zwar ein meist treffender Kritikpunkt an einer Studie; kaum eine Studie weist eine "zu große" Stichprobe auf. Gleichzeitig ist dieser Punkt nicht ausreichend für die Diskussion der Grenzen der Untersuchung und insofern noch *kein Zeugnis einer tiefen Durchdringung* der Stärken und Schwächen eines Forschungsdesigns.
+- POS-NEG Das methodische Vorgehen wurde kritisch reflektiert, wenn dieser Teil auch *relativ kurz gehalten* ist. Die Diskussion hätte von einer ausführlicheren Diskussion der methodischen Schwächen bzw. Einschränkungen der Studie profitiert.
 
 
 
 `+++` 
 
-- \+- Es wurden *einige Aspekte* im Hinblick auf die Grenzen (Limitationen) der vorliegenden Arbeit *diskutiert.*
+- POS-NEG Es wurden *einige Aspekte* im Hinblick auf die Grenzen (Limitationen) der vorliegenden Arbeit *diskutiert.*
 
 
 `---`
 
 
-- \- Die Diskussion hätte von einer *intensiveren Erörterung der Limitationen der vorliegenden Arbeit profitiert*.
+- NEG Die Diskussion hätte von einer *intensiveren Erörterung der Limitationen der vorliegenden Arbeit profitiert*.
 
-- \- Der Diskussion *fehlt es an einer Diskussion der Grenzen der Arbeit* und der Grenzen der Aussagekraft der Ergebnisse. 
+- NEG Der Diskussion *fehlt es an einer Diskussion der Grenzen der Arbeit* und der Grenzen der Aussagekraft der Ergebnisse. 
 
-- \- Der Diskussion fehlt es an einer Diskussion der Grenzen der Arbeit und der Grenzen der Aussagekraft der Ergebnisse. Das ist als *substanzieller Schwachpunkt* der Arbeit zu bewerten.
+- NEG Der Diskussion fehlt es an einer Diskussion der Grenzen der Arbeit und der Grenzen der Aussagekraft der Ergebnisse. Das ist als *substanzieller Schwachpunkt* der Arbeit zu bewerten.
 
-- \- Der Diskussion fehlt es an einer Diskussion der Grenzen der Arbeit und der Grenzen der *Aussagekraft* der Ergebnisse.
+- NEG Der Diskussion fehlt es an einer Diskussion der Grenzen der Arbeit und der Grenzen der *Aussagekraft* der Ergebnisse.
 
-- \- Die (geringe) *Stichprobengröße* bzw. die Konsequenzen auf den Signifikanzwert wurde *nicht* (ausreichend) diskutiert (bei größerer Stichprobe wären vielleicht andere/deutlichere Effekte aufgetreten).
-- \- Die *Schwächen im Aufbau der Studie* wurden nicht in ausreichendem Umfang und Tiefe diskutiert.
+- NEG Die (geringe) *Stichprobengröße* bzw. die Konsequenzen auf den Signifikanzwert wurde *nicht* (ausreichend) diskutiert (bei größerer Stichprobe wären vielleicht andere/deutlichere Effekte aufgetreten).
+- NEG Die *Schwächen im Aufbau der Studie* wurden nicht in ausreichendem Umfang und Tiefe diskutiert.
 
-- \- Eine Schwäche an *Beobachtungsstudien* ist, dass die Aufnahme weiterer Kovariablen (Prädiktoren) die Einflussgewichte der bereits inkludierten Variablen ändern kann, teils sogar das Vorzeichen umdreht. Bei gut geplanten Experimenten tritt dieses gravierende Problem hingegen nicht auf. Die vorliegende Studie hätte in ihrer Diskussion von einer Erörterung dieses Sachverhalts profitiert.
+- NEG Eine Schwäche an *Beobachtungsstudien* ist, dass die Aufnahme weiterer Kovariablen (Prädiktoren) die Einflussgewichte der bereits inkludierten Variablen ändern kann, teils sogar das Vorzeichen umdreht. Bei gut geplanten Experimenten tritt dieses gravierende Problem hingegen nicht auf. Die vorliegende Studie hätte in ihrer Diskussion von einer Erörterung dieses Sachverhalts profitiert.
 
-- \- *Beispiele für methodische Schwächen*, die es lohnt, in der Diskussion zu erörtern, sind: Welche anderen Variablen hätten (vermutlich) noch einen substanziellen Erklärungsbeitrag geliefert? Welche anderen statistischen Analysen wären noch hilfreich gewesen, wurden aber nicht durchgeführt (z. B. Konfidenzintervalle, klassifizierende Regression, Mehrebenenmodelle und so weiter)? War die Stichprobe insofern nicht repräsentativ, als dass bestimmte Ausprägungen bestimmter Variablen nicht (ausreichend) Eingang fanden (z. B. junge Frauen oder nur bestimmte Zeitperioden)? Welche Schwachpunkte hat das Studiendesign aufzuweisen (z. B. querschnittliche Beobachtungsstudie oder Messinstrumente geringer Qualität)? Sind die gefundenen Effekte vielleicht Artefakte (z. B. durch mögliche Interessenskonflikte)? Inwiefern sind kausale Schlüsse gerechtfertigt (z. B. erlaubt eine große randomisierte Stichprobe eher kausale Schlüsse als eine kleine, nicht balancierte Adhoc-Stichprobe)? 
+- NEG *Beispiele für methodische Schwächen*, die es lohnt, in der Diskussion zu erörtern, sind: Welche anderen Variablen hätten (vermutlich) noch einen substanziellen Erklärungsbeitrag geliefert? Welche anderen statistischen Analysen wären noch hilfreich gewesen, wurden aber nicht durchgeführt (z. B. Konfidenzintervalle, klassifizierende Regression, Mehrebenenmodelle und so weiter)? War die Stichprobe insofern nicht repräsentativ, als dass bestimmte Ausprägungen bestimmter Variablen nicht (ausreichend) Eingang fanden (z. B. junge Frauen oder nur bestimmte Zeitperioden)? Welche Schwachpunkte hat das Studiendesign aufzuweisen (z. B. querschnittliche Beobachtungsstudie oder Messinstrumente geringer Qualität)? Sind die gefundenen Effekte vielleicht Artefakte (z. B. durch mögliche Interessenskonflikte)? Inwiefern sind kausale Schlüsse gerechtfertigt (z. B. erlaubt eine große randomisierte Stichprobe eher kausale Schlüsse als eine kleine, nicht balancierte Adhoc-Stichprobe)? 
 
-- \- Die Diskussion der methodischen Schwächen der Arbeit *begrenzt sich auf den Hinweis, dass eine größere Stichprobe sinnvoll gewesen wäre*. Dieser Hinweis ist zwar richtig, erfüllt aber noch nicht den Anspruch an einer wohl überlegten und tiefgehenden Reflexion der Studienmethodik.
+- NEG Die Diskussion der methodischen Schwächen der Arbeit *begrenzt sich auf den Hinweis, dass eine größere Stichprobe sinnvoll gewesen wäre*. Dieser Hinweis ist zwar richtig, erfüllt aber noch nicht den Anspruch an einer wohl überlegten und tiefgehenden Reflexion der Studienmethodik.
 
-- \- Der Diskussion der Schwächen der Arbeit ist ein *eigener Abschnitt bzw. Absatz* zu widmen, da diesem Teil eine *große Bedeutung zukommt*. Dieser Punkt wurde in der vorliegenden Arbeit nicht berücksichtigt.
+- NEG Der Diskussion der Schwächen der Arbeit ist ein *eigener Abschnitt bzw. Absatz* zu widmen, da diesem Teil eine *große Bedeutung zukommt*. Dieser Punkt wurde in der vorliegenden Arbeit nicht berücksichtigt.
 
-- \- Im Gegensatz zum Großteil des Textes einer wissenschaftlichen Arbeit, *bespricht der Abschnitt zu den Limitationen der Arbeit keine Fachinhalte*, noch wird über das Vorgehen des Forschers informiert. Stattdessen wird über das Vorgehen des Forschers, über die "Handwerksarbeit" des vorliegenden Forschungsbericht geschrieben. Insofern ist es ein besonderer Abschnitt, der aber von großer Wichtigkeit für die Qualität eines Forschungsberichtes ist.
+- NEG Im Gegensatz zum Großteil des Textes einer wissenschaftlichen Arbeit, *bespricht der Abschnitt zu den Limitationen der Arbeit keine Fachinhalte*, noch wird über das Vorgehen des Forschers informiert. Stattdessen wird über das Vorgehen des Forschers, über die "Handwerksarbeit" des vorliegenden Forschungsbericht geschrieben. Insofern ist es ein besonderer Abschnitt, der aber von großer Wichtigkeit für die Qualität eines Forschungsberichtes ist.
 
-- \- Ein substanzielles, alldieweil oft vernachlässigtes Problem von Forschung mittels Fragebogen ist es, dass die *Konstrukte oft semantisch stark überlappen*: "Ich nehme unangenehme Erfahrung an" (Achtsamkeit), "Schwierigkeiten sehe ich gelassen entgegen ..." (Optimismus) und "Ich bin mit meinem Leben zufrieden" (Lebenszufriedenheit). So könnte ein Zusammenhang in den Antwortmustern der Respondenten alleine schon auf diese semantischen Überlappungen zurückzuführen sein, unabhängig von der Validität der Konstrukte. Diese Möglichkeit bzw. sollte einem Autor bewusst sein bzw. er oder sie sollte explizieren, dass das Problem bekannt ist. Dieses Problem wird auch *Common Method Bias* bezeichnet. Die vorliegende Arbeit hätte von einer intensiveren Diskussion der Relevanz dieses Problems für die Studie profitiert Nimon, K., Shuck, B., & Zigarmi, D. (2016). Construct Overlap Between Employee Engagement and Job Satisfaction: A Function of Semantic Equivalence? Journal of Happiness Studies, 17(3), 1149–1171. https://doi.org/10.1007/s10902-015-9636-6).
+- NEG Ein substanzielles, alldieweil oft vernachlässigtes Problem von Forschung mittels Fragebogen ist es, dass die *Konstrukte oft semantisch stark überlappen*: "Ich nehme unangenehme Erfahrung an" (Achtsamkeit), "Schwierigkeiten sehe ich gelassen entgegen ..." (Optimismus) und "Ich bin mit meinem Leben zufrieden" (Lebenszufriedenheit). So könnte ein Zusammenhang in den Antwortmustern der Respondenten alleine schon auf diese semantischen Überlappungen zurückzuführen sein, unabhängig von der Validität der Konstrukte. Diese Möglichkeit bzw. sollte einem Autor bewusst sein bzw. er oder sie sollte explizieren, dass das Problem bekannt ist. Dieses Problem wird auch *Common Method Bias* bezeichnet. Die vorliegende Arbeit hätte von einer intensiveren Diskussion der Relevanz dieses Problems für die Studie profitiert Nimon, K., Shuck, B., & Zigarmi, D. (2016). Construct Overlap Between Employee Engagement and Job Satisfaction: A Function of Semantic Equivalence? Journal of Happiness Studies, 17(3), 1149–1171. https://doi.org/10.1007/s10902-015-9636-6).
 
-- \- Die *formalen Bedingungen* (wie geforderte Ober-/Untergrenzen an Text- oder Datenmenge) sollten bei den Limitationen nicht aufgeführt werden. 
+- NEG Die *formalen Bedingungen* (wie geforderte Ober-/Untergrenzen an Text- oder Datenmenge) sollten bei den Limitationen nicht aufgeführt werden. 
 
 
 ### Sonstiges
 
-- \+ Mit der Studie wurde eine aktuelle Diskussion in der Scientific Community  aufgegriffen.
-- \+ Anregungen für zukünftige Forschungsarbeiten werden auf fundierter Basis gegeben.
+- POS Mit der Studie wurde eine aktuelle Diskussion in der Scientific Community  aufgegriffen.
+- POS Anregungen für zukünftige Forschungsarbeiten werden auf fundierter Basis gegeben.
 
 
 
@@ -3905,50 +3945,50 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 
 
-- \- In Fällen, in denen sich Hypothesen nicht bestätigen, ist es angezeigt, *über die Gründe (post-hoc) zu spekulieren*. Kurz gesagt: Woran lag's? Statt der angenommen Ursache "A" könnte vielleicht doch "B" wichtiger sein? Oder wirkt "A" nur in der Situation "C", die nicht zutraf in der vorliegenden Studie hingeben bei Mayer (2015) der Fall war? Solcherlei Räsonnement wäre sinnvoll gewesen im Diskussionsteil, fehlt aber (großteils).
-- \- Ein *Kritikpunkt* an der Arbeit ist, dass im Schlussteil *versäumt* wird, das eigene *Vorgehen* (und somit die Qualität der Ergebnisse) (ausführlich genug) zu *diskutieren*: Wurden womöglich nicht alle zentralen Literaturstellen identifiziert? Wurden einige Theorien nicht berücksichtigt? Wurden bestimmte Blickwinkel ausgelassen? Haben die Messinstrumente Mängel? Könnte die Intervention nicht richtig funktioniert haben? Gab es Ausreißer, die die Daten evtl. verfälscht haben? Waren die Annahmen der statistischen Verfahren nicht ausreichend abgesichert? Etc. Dabei soll keineswegs seitens des Gutachters kritisiert werden, dass nicht alle möglichen Punkte beleuchtet wurden (was aufgrund z. B. von Platzrestriktionen nicht möglich ist). Vielmehr soll die Reflexion des eigenen Vorgehen verdeutlichen, dass kritisches Denkvermögen insoweit angewandt wurde, als dass eigene Stärken und Schwächen bewusst sind, soweit sie die niedergeschriebene Arbeit betreffen. Insgesamt ist diese Art der Reflexivität nicht in ausreichendem Maße im Diskussionsteil gezeigt werden. Das ist ein substanzieller Mangel, da Reflexivität ein zentrales Lernziel nicht nur für diese Seminararbeit, sondern generell des Studiums darstellt.
-- \- *Ergebnisse und Diskussion sind strikt zu trennen* - die Arbeit hält dies nicht durchgängig durch.
-- \- Die Diskussion versäumt es, kritisch über (potenzielle) Einschränkungen der internen Validität zu diskutieren. 
+- NEG In Fällen, in denen sich Hypothesen nicht bestätigen, ist es angezeigt, *über die Gründe (post-hoc) zu spekulieren*. Kurz gesagt: Woran lag's? Statt der angenommen Ursache "A" könnte vielleicht doch "B" wichtiger sein? Oder wirkt "A" nur in der Situation "C", die nicht zutraf in der vorliegenden Studie hingeben bei Mayer (2015) der Fall war? Solcherlei Räsonnement wäre sinnvoll gewesen im Diskussionsteil, fehlt aber (großteils).
+- NEG Ein *Kritikpunkt* an der Arbeit ist, dass im Schlussteil *versäumt* wird, das eigene *Vorgehen* (und somit die Qualität der Ergebnisse) (ausführlich genug) zu *diskutieren*: Wurden womöglich nicht alle zentralen Literaturstellen identifiziert? Wurden einige Theorien nicht berücksichtigt? Wurden bestimmte Blickwinkel ausgelassen? Haben die Messinstrumente Mängel? Könnte die Intervention nicht richtig funktioniert haben? Gab es Ausreißer, die die Daten evtl. verfälscht haben? Waren die Annahmen der statistischen Verfahren nicht ausreichend abgesichert? Etc. Dabei soll keineswegs seitens des Gutachters kritisiert werden, dass nicht alle möglichen Punkte beleuchtet wurden (was aufgrund z. B. von Platzrestriktionen nicht möglich ist). Vielmehr soll die Reflexion des eigenen Vorgehen verdeutlichen, dass kritisches Denkvermögen insoweit angewandt wurde, als dass eigene Stärken und Schwächen bewusst sind, soweit sie die niedergeschriebene Arbeit betreffen. Insgesamt ist diese Art der Reflexivität nicht in ausreichendem Maße im Diskussionsteil gezeigt werden. Das ist ein substanzieller Mangel, da Reflexivität ein zentrales Lernziel nicht nur für diese Seminararbeit, sondern generell des Studiums darstellt.
+- NEG *Ergebnisse und Diskussion sind strikt zu trennen* - die Arbeit hält dies nicht durchgängig durch.
+- NEG Die Diskussion versäumt es, kritisch über (potenzielle) Einschränkungen der internen Validität zu diskutieren. 
 
-- \- Die Diskussion *rückbezieht die Ergebnisse nicht (ausführlich) genug auf den Stand der Literatur*.
+- NEG Die Diskussion *rückbezieht die Ergebnisse nicht (ausführlich) genug auf den Stand der Literatur*.
 
 
 
 ### Unkritische Verwendung von Theorien
 
-- \- Der *Theorie* hätte *stärker auf Kritikpunkte* am untersuchten Konstrukt eingehen sollen.
+- NEG Der *Theorie* hätte *stärker auf Kritikpunkte* am untersuchten Konstrukt eingehen sollen.
 
-- \- Die Idee, dass empirisch scharf abgrenzbare *Generationenunterschiede* existieren, ist nicht als wissenschaftlich etabliert zu betrachten. Im Gegenteil, es sind deutliche Zweifel angebracht, ob dieses Phänomen überhaupt existiert. So zeigte eine Untersuchung von Schröder (2018) anhand von knapp 80.000 Menschen aller Generationen (inkl. *GenY*, Generation X, Baby-Boomer), dass "von der Literatur postulierte Generationsunterschiede zwischen der sogenannten Generation Y, X, den Babyboomern, den ’68ern sowie der sogenannten Skeptischen Nachkriegsgeneration in Wirklichkeit kaum existieren" (S. 469). Die vorliegende Arbeit verwendet das Konzept der Generationenprofile zu unkritisch. Die Arbeit hätte von einem intensiveren Hinterfragen profitiert. Literatur: Schröder, M. (2018). Der Generationenmythos. KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie, 70(3), 469–494. https://doi.org/10.1007/s11577-018-0570-6
+- NEG Die Idee, dass empirisch scharf abgrenzbare *Generationenunterschiede* existieren, ist nicht als wissenschaftlich etabliert zu betrachten. Im Gegenteil, es sind deutliche Zweifel angebracht, ob dieses Phänomen überhaupt existiert. So zeigte eine Untersuchung von Schröder (2018) anhand von knapp 80.000 Menschen aller Generationen (inkl. *GenY*, Generation X, Baby-Boomer), dass "von der Literatur postulierte Generationsunterschiede zwischen der sogenannten Generation Y, X, den Babyboomern, den ’68ern sowie der sogenannten Skeptischen Nachkriegsgeneration in Wirklichkeit kaum existieren" (S. 469). Die vorliegende Arbeit verwendet das Konzept der Generationenprofile zu unkritisch. Die Arbeit hätte von einem intensiveren Hinterfragen profitiert. Literatur: Schröder, M. (2018). Der Generationenmythos. KZfSS Kölner Zeitschrift für Soziologie und Sozialpsychologie, 70(3), 469–494. https://doi.org/10.1007/s11577-018-0570-6
 
 
 
 ### Reflexion im Theorieteil
 
-- \+ Theorien/Studien wurden *kritisch bzw. aus mehreren Blickwinkeln beleuchtet* oder es wurden Theorien verglichen.
+- POS Theorien/Studien wurden *kritisch bzw. aus mehreren Blickwinkeln beleuchtet* oder es wurden Theorien verglichen.
 
 
 `---`
 
 
-- \- Die untersuchten Theorien sollten (im Theorieteil) *nicht nur aufgeführt, sondern noch stärker als es in der vorliegenden Arbeit der Fall ist diskutiert*, verglichen, beurteilt — kurz: analysiert — werden.
-- \- Die untersuchten Theorien sollten nicht nur aufgeführt, sondern diskutiert, verglichen, beurteilt — kurz: analysiert — werden. 
+- NEG Die untersuchten Theorien sollten (im Theorieteil) *nicht nur aufgeführt, sondern noch stärker als es in der vorliegenden Arbeit der Fall ist diskutiert*, verglichen, beurteilt — kurz: analysiert — werden.
+- NEG Die untersuchten Theorien sollten nicht nur aufgeführt, sondern diskutiert, verglichen, beurteilt — kurz: analysiert — werden. 
 
 ### Ideen für weiterführende Studien
 
-- \+ Es werden *Vorschläge* für die Weiterführung der vorliegenden Arbeit in *zukünftigen Studien* gegeben.
-- \+ Es werden Vorschläge zur Weiterführung der vorliegenden Arbeit unterbreitet.
+- POS Es werden *Vorschläge* für die Weiterführung der vorliegenden Arbeit in *zukünftigen Studien* gegeben.
+- POS Es werden Vorschläge zur Weiterführung der vorliegenden Arbeit unterbreitet.
 
-- \- Anregungen für Forschungsfragen zukünftiger Studien aufbauend auf den 
+- NEG Anregungen für Forschungsfragen zukünftiger Studien aufbauend auf den 
 Überlegungen, warum die Hypothesen sich nicht bestätigt haben (z. B. zu geringe Power) wären sinnvoll gewesen, aber fehlen.
 
 
 #### "Beweisen"
 
-- \- *Vorsicht vor Kausalaussagen* zu den Ergebnissen ("es wurde bewiesen, dass ", "X führt zu Y", etc.), da solche sehr ambitionierten Aussagen häufig nicht durch die zitierten Befunde ausreichend gestützt werden. Vorsichtigere Formulierungen ("Die publizierten Ergebnisse lassen darauf schließen, dass", "die Ergebnisse unterstützen die These, dass", etc.) sind häufig sinnvoller.
+- NEG *Vorsicht vor Kausalaussagen* zu den Ergebnissen ("es wurde bewiesen, dass ", "X führt zu Y", etc.), da solche sehr ambitionierten Aussagen häufig nicht durch die zitierten Befunde ausreichend gestützt werden. Vorsichtigere Formulierungen ("Die publizierten Ergebnisse lassen darauf schließen, dass", "die Ergebnisse unterstützen die These, dass", etc.) sind häufig sinnvoller.
 
-- \- "*Beweisen*" ("belegen") ist ein großes Wort; *statistische Untersuchungen treffen (auf die allermeisten Fragen) nur bedingte Wahrscheinlichkeitsaussagen*. Solche Aussagen lassen keine sicheren Aussagen zu, und damit auch keine Beweise. Nur "fast sicher" ist als höchstes Gefühl möglich. Sie sollten daher Ausdrücke wie "bewiesen" mit mehr Vorsicht verwenden.
+- NEG "*Beweisen*" ("belegen") ist ein großes Wort; *statistische Untersuchungen treffen (auf die allermeisten Fragen) nur bedingte Wahrscheinlichkeitsaussagen*. Solche Aussagen lassen keine sicheren Aussagen zu, und damit auch keine Beweise. Nur "fast sicher" ist als höchstes Gefühl möglich. Sie sollten daher Ausdrücke wie "bewiesen" mit mehr Vorsicht verwenden.
 
-- \- "*Beweisen*" ("belegen") ist ein großes Wort; da der *Stand der Forschung der Stärke dieser Behauptung häufig nicht standhält*. Weiterhin sollte man, wenn man diesen Ausdruck doch verwendet, ausreichend Belege für so eine weitgehende Behauptung präsentieren und etwaige Gegenargumente entkräften.
+- NEG "*Beweisen*" ("belegen") ist ein großes Wort; da der *Stand der Forschung der Stärke dieser Behauptung häufig nicht standhält*. Weiterhin sollte man, wenn man diesen Ausdruck doch verwendet, ausreichend Belege für so eine weitgehende Behauptung präsentieren und etwaige Gegenargumente entkräften.
 
 
 
@@ -3956,27 +3996,27 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 # Plagiate  {#plagiate}
 
-- \- Es fanden sich mögliche *Plagiate* in der vorliegenden Arbeit aus dieser Quelle:
+- NEG Es fanden sich mögliche *Plagiate* in der vorliegenden Arbeit aus dieser Quelle:
 
-- \- Hinweise auf mögliche Plagiate in der vorliegenden Arbeit wurden nicht weiter verfolgt.
-- \- Weitere Hinweise auf mögliche Plagiate in der vorliegenden Arbeit wurden nicht weiter verfolgt.
-- \- Es fanden sich Hinweise auf Plagiate.
-- \- Im Sinne von in dubio pro reo flossen diese Verdachtsfälle von Plagiaten nicht in die Beurteilung der Seminararbeit ein.
+- NEG Hinweise auf mögliche Plagiate in der vorliegenden Arbeit wurden nicht weiter verfolgt.
+- NEG Weitere Hinweise auf mögliche Plagiate in der vorliegenden Arbeit wurden nicht weiter verfolgt.
+- NEG Es fanden sich Hinweise auf Plagiate.
+- NEG Im Sinne von in dubio pro reo flossen diese Verdachtsfälle von Plagiaten nicht in die Beurteilung der Seminararbeit ein.
 
-- \- Es kann nicht ausgeschlossen werden, dass es sich Vergessen des Zitierens, aber nicht um bewusste Täuschung handelt. Daher werden dieser Arbeit nur grobe Fehler des Zitierens, kein absichtsvolles Betrügen, zur Last gelegt.
+- NEG Es kann nicht ausgeschlossen werden, dass es sich Vergessen des Zitierens, aber nicht um bewusste Täuschung handelt. Daher werden dieser Arbeit nur grobe Fehler des Zitierens, kein absichtsvolles Betrügen, zur Last gelegt.
 
-- \- Die Befundlage zu den *möglichen (Selbst-)Plagiaten*  beeinflusst die Notengebung negativ.
+- NEG Die Befundlage zu den *möglichen (Selbst-)Plagiaten*  beeinflusst die Notengebung negativ.
 
-- \- Die Befundlage zu den *möglichen Plagiaten bzw. den schweren Zitationsfehlern* *beeinflusst die Notengebung negativ*.
+- NEG Die Befundlage zu den *möglichen Plagiaten bzw. den schweren Zitationsfehlern* *beeinflusst die Notengebung negativ*.
 
 
-- \- Warum sind Selbstplagiate nicht erlaubt? Angenommen, sie wären erlaubt. Man könnte dann eine zweite Seminararbeit einreichen, die sich ganz oder in Teilen aus einer früheren/ersten speiste. Allerdings sieht eine staatlich (!) vorgeschriebene Prüfungsordnung vor, dass gewisse Arbeitsmengen (in Zeit- und Creditpunkte-Zahlen) zu erbringen sind im Rahmen eines Studiengangs. Wären Selbstplagiate erlaubt, würde man gegen diesen Mindestaufwand eines Studiums verstoßen. Angenommen, es gäbe keinen Mindestaufwand für ein Studium. In der letzten Konsequenz könnte man dann einen Studiumsabschluss mit einer Zeitstunde Aufwand erwerben -- das Studium wäre damit komplett wertlos. Daher muss es Mindestanforderungen für Studiengänge geben. Ist dieser Gedankengang kompliziert? Wenn er nicht kompliziert ist, kann vorausgesetzt werden, dass ein oder eine Studierende sich darüber klar ist. Ist sich eine Person über eine Anforderung bewusst, setzt sich aber darüber hinweg, so muss das als Vorsatz bzw. als bewusster Täuschungsversuch verstanden werden. 
+- NEG Warum sind Selbstplagiate nicht erlaubt? Angenommen, sie wären erlaubt. Man könnte dann eine zweite Seminararbeit einreichen, die sich ganz oder in Teilen aus einer früheren/ersten speiste. Allerdings sieht eine staatlich (!) vorgeschriebene Prüfungsordnung vor, dass gewisse Arbeitsmengen (in Zeit- und Creditpunkte-Zahlen) zu erbringen sind im Rahmen eines Studiengangs. Wären Selbstplagiate erlaubt, würde man gegen diesen Mindestaufwand eines Studiums verstoßen. Angenommen, es gäbe keinen Mindestaufwand für ein Studium. In der letzten Konsequenz könnte man dann einen Studiumsabschluss mit einer Zeitstunde Aufwand erwerben -- das Studium wäre damit komplett wertlos. Daher muss es Mindestanforderungen für Studiengänge geben. Ist dieser Gedankengang kompliziert? Wenn er nicht kompliziert ist, kann vorausgesetzt werden, dass ein oder eine Studierende sich darüber klar ist. Ist sich eine Person über eine Anforderung bewusst, setzt sich aber darüber hinweg, so muss das als Vorsatz bzw. als bewusster Täuschungsversuch verstanden werden. 
 
 
 `000`
 
 
-- \- Hinweise auf mögliche Plagiate sind nicht in die Beurteilung eingeflossen.
+- NEG Hinweise auf mögliche Plagiate sind nicht in die Beurteilung eingeflossen.
 
 
 # Summarisch 
@@ -3985,27 +4025,27 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 ## Sehr gute qualitative Methoden  {#sehrgutequalimeth}
 
-- \+ *Insgesamt* ist die *qualitative* Methodik *sinnvoll* *aufgebaut.*
+- POS *Insgesamt* ist die *qualitative* Methodik *sinnvoll* *aufgebaut.*
 
 
 
 
 
-- \+ Die Auswahl der untersuchten Personen bzw. die Zusammenstellung der Stichprobe wurde adäquat begründet.
+- POS Die Auswahl der untersuchten Personen bzw. die Zusammenstellung der Stichprobe wurde adäquat begründet.
 
-- \+ Ethische Aspekte in Bezug auf die Datenerhebung wurden diskutiert und angemessen umgesetzt.
+- POS Ethische Aspekte in Bezug auf die Datenerhebung wurden diskutiert und angemessen umgesetzt.
 
-- \+ Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
+- POS Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
 
-- \+ Zentrale Aussagen der Kategorien wurden treffend wiedergegeben.
+- POS Zentrale Aussagen der Kategorien wurden treffend wiedergegeben.
 
-- \+ Die Kategorien des Kategoriensystems wurden *adäquat definiert*.
+- POS Die Kategorien des Kategoriensystems wurden *adäquat definiert*.
 
-- \+ Es wurden plausible Kategorien abgeleitet, die das Material stimmig widerzuspiegeln scheinen.
+- POS Es wurden plausible Kategorien abgeleitet, die das Material stimmig widerzuspiegeln scheinen.
 
-- \+ Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in differenzierter und klarer Weise dar.
+- POS Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in differenzierter und klarer Weise dar.
 
-- \+ Der Ergebnisteil berichtet umfangreiches Material zu den Kategorien.
+- POS Der Ergebnisteil berichtet umfangreiches Material zu den Kategorien.
 
 
 
@@ -4017,24 +4057,24 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 ## Keine Kodierregeln expliziert (qualitative Methoden)  {#schlechtequalimeth}
 
 
-- \- Die Kodierregeln sind nicht (ausreichend) stimmig gewählt und/oder nicht transparent (genug) dokumentiert.
+- NEG Die Kodierregeln sind nicht (ausreichend) stimmig gewählt und/oder nicht transparent (genug) dokumentiert.
 
-- \- Die Kodierregeln für die verwendeten Kategorien wurde nicht expliziert. So besteht die Gefahr, dass die Zuordnung der Textstellen zu den Kategorien nicht objektiv nachprüfbar und damit nicht reproduzierbar ist. Eine Studie, die nicht reproduzierbar und nicht replizierbar ist, ist für die Wissenschaft nicht nutzbar.
+- NEG Die Kodierregeln für die verwendeten Kategorien wurde nicht expliziert. So besteht die Gefahr, dass die Zuordnung der Textstellen zu den Kategorien nicht objektiv nachprüfbar und damit nicht reproduzierbar ist. Eine Studie, die nicht reproduzierbar und nicht replizierbar ist, ist für die Wissenschaft nicht nutzbar.
 
-- \- Ein Nichtexplizieren der Kodierregeln wirft die Gefahr der Beliebigkeit auf. Insofern handelt es sich dabei aus Sicht der wissenschaftlichen Verwertbarkeit um einen gravierenden Fehler.
+- NEG Ein Nichtexplizieren der Kodierregeln wirft die Gefahr der Beliebigkeit auf. Insofern handelt es sich dabei aus Sicht der wissenschaftlichen Verwertbarkeit um einen gravierenden Fehler.
 
-- \- Beim Berichten der Kategorien sollte die Essenz der Kategorie, d. h. ihre Bestimmungsstücke bzw. wesentlichen Inhalte berichtet werden. Die Kategorie ist zu definieren und ihr Wesensmerkmal zu erklären. Es reicht nicht, einige Textstellen des Interviewmaterials aufzureihen, die der Kategorie zugeordnet wurden.
+- NEG Beim Berichten der Kategorien sollte die Essenz der Kategorie, d. h. ihre Bestimmungsstücke bzw. wesentlichen Inhalte berichtet werden. Die Kategorie ist zu definieren und ihr Wesensmerkmal zu erklären. Es reicht nicht, einige Textstellen des Interviewmaterials aufzureihen, die der Kategorie zugeordnet wurden.
 
-- \- Das Kategoriensystem, welches aus einer qualitativen Studie resultiert, sollte nicht schwerpunktmäßig aus einer Sammlung von Interview-Zitaten o. Ä. bestehen. Vielmehr sind die wesentlichen Inhaltsstücke einer Kategorie als Generalisierung, Abstrahierung und Zusammenfassung von Rohtextstellen zu erstellen. Die Rohtextstellen dienen lediglich dem Beleg; sie sind nicht der Inhalt der Kategorie. Diese Extrahierung der Kategorien bzw. deren Inhalte sind die zentrale intellektuelle/analytische Leistung der empirischen Arbeit. Ein Fehlen solcher Leistung ist ein substanzieller Mangel in der empirischen Ausarbeitung.
+- NEG Das Kategoriensystem, welches aus einer qualitativen Studie resultiert, sollte nicht schwerpunktmäßig aus einer Sammlung von Interview-Zitaten o. Ä. bestehen. Vielmehr sind die wesentlichen Inhaltsstücke einer Kategorie als Generalisierung, Abstrahierung und Zusammenfassung von Rohtextstellen zu erstellen. Die Rohtextstellen dienen lediglich dem Beleg; sie sind nicht der Inhalt der Kategorie. Diese Extrahierung der Kategorien bzw. deren Inhalte sind die zentrale intellektuelle/analytische Leistung der empirischen Arbeit. Ein Fehlen solcher Leistung ist ein substanzieller Mangel in der empirischen Ausarbeitung.
 
-- \- Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die Definition der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
+- NEG Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die Definition der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
 
 
 ## Praxistransfer
 
-- \+ Die Arbeit weist einen wohl ausgearbeiteten und umfangreichen *Transfer* in die (berufliche) Praxis auf.
+- POS Die Arbeit weist einen wohl ausgearbeiteten und umfangreichen *Transfer* in die (berufliche) Praxis auf.
 
-- \- Der Arbeit *fehlt* der formal geforderte Transfer in die berufliche Praxis.
+- NEG Der Arbeit *fehlt* der formal geforderte Transfer in die berufliche Praxis.
 
 
 
@@ -4065,16 +4105,16 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 ## Darstellung (Rhetorik, Körpersprache)
 
 `+++`
-- \+ Es wurde gut verständlich gesprochen.
+- POS Es wurde gut verständlich gesprochen.
 
 
 `---`
 
-- \- Es wurden einige Füllwörter verwendet (wie "ähm", "auch" oder "genau").
-- \- Es wurde am Bildschirm ("Teleprompter") abgelesen.
-- \- Es wurde immer wieder dem Publikum der Rücken zugedreht, um an der Visualisierungshilfe abzulesen.
-- \- Die Betonung bzw. Prosodie hätte von mehr Abwechslung profitiert.
-- \- Die Argumentation hätte punktuierter, akzentuierter sein können. Nicht: "wir wollen auch gar nicht groß um den heißen Brei herumreden, sondern lieber gleich, ohne uns aufzuhalten, denn das wäre nicht zielführend, mit dem Thema des Vortrags starten. Ich will Sie auch lieber gar nicht auf die Folter spannen ...". Sondern: "Unser Thema heute lautet XXX."
+- NEG Es wurden einige Füllwörter verwendet (wie "ähm", "auch" oder "genau").
+- NEG Es wurde am Bildschirm ("Teleprompter") abgelesen.
+- NEG Es wurde immer wieder dem Publikum der Rücken zugedreht, um an der Visualisierungshilfe abzulesen.
+- NEG Die Betonung bzw. Prosodie hätte von mehr Abwechslung profitiert.
+- NEG Die Argumentation hätte punktuierter, akzentuierter sein können. Nicht: "wir wollen auch gar nicht groß um den heißen Brei herumreden, sondern lieber gleich, ohne uns aufzuhalten, denn das wäre nicht zielführend, mit dem Thema des Vortrags starten. Ich will Sie auch lieber gar nicht auf die Folter spannen ...". Sondern: "Unser Thema heute lautet XXX."
 
 
 
@@ -4085,8 +4125,8 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 
 `---`
-- \- Bei einer Video-Präsentation sollte möglichst immer in die Kamera geschaut werden. Dies wurde in der vorliegenden Präsentation nicht berücksichtigt.
-- \- Bei einer Video-Präsentation sollte die Kamera etwa auf Augenhöhe der sprechenden Person gehalten sein.
+- NEG Bei einer Video-Präsentation sollte möglichst immer in die Kamera geschaut werden. Dies wurde in der vorliegenden Präsentation nicht berücksichtigt.
+- NEG Bei einer Video-Präsentation sollte die Kamera etwa auf Augenhöhe der sprechenden Person gehalten sein.
 
 
 
@@ -4120,33 +4160,33 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 # Kommentare {#kommentare}
 
 ## Negativ
-- \- Bitte vertiefen Sie Ihre *methodischen Kenntnisse* vor der Abschlussarbeit.
+- NEG Bitte vertiefen Sie Ihre *methodischen Kenntnisse* vor der Abschlussarbeit.
 
-- \- Bitte lesen Sie sich (gute) andere Arbeiten durch, um besser das Anspruchsniveau an eine solche Ausarbeitung zu verstehen. 
+- NEG Bitte lesen Sie sich (gute) andere Arbeiten durch, um besser das Anspruchsniveau an eine solche Ausarbeitung zu verstehen. 
 
 
-- \+- Im OC finden Sie unter meinem Namen bei "Allgemeine Informationen" eine Auswahl guter  Seminararbeiten.
+- POS-NEG Im OC finden Sie unter meinem Namen bei "Allgemeine Informationen" eine Auswahl guter  Seminararbeiten.
 
-- \- Insgesamt ist die gezeigte Leistung nicht mehr ausreichend.
+- NEG Insgesamt ist die gezeigte Leistung nicht mehr ausreichend.
 
-- \- Das ist als schwerwiegender Mangel der Arbeit einzustufen.
+- NEG Das ist als schwerwiegender Mangel der Arbeit einzustufen.
 
-- \- Aufgrund schwerwiegender Mängel (falsche oder nicht gezeigte Ansätze) ist die Arbeit als "mangelhaft" einzustufen.
+- NEG Aufgrund schwerwiegender Mängel (falsche oder nicht gezeigte Ansätze) ist die Arbeit als "mangelhaft" einzustufen.
 
-- \- Aufgrund fehlender Erörterungen sind einige Aspekte der vorliegenden Arbeit nicht beurteilbar.
+- NEG Aufgrund fehlender Erörterungen sind einige Aspekte der vorliegenden Arbeit nicht beurteilbar.
 
-- \- Da wesentliche Aspekte der Arbeit fehlen, ist die Arbeit mit "mangelhaft" einzustufen.
+- NEG Da wesentliche Aspekte der Arbeit fehlen, ist die Arbeit mit "mangelhaft" einzustufen.
 
-- \- Hinweise, dass ein höheres Wortlimit detailliertere Erklärung ermöglicht hätte, sollten nicht gegeben werden, da damit keine neuen Informationen gegeben werden.
+- NEG Hinweise, dass ein höheres Wortlimit detailliertere Erklärung ermöglicht hätte, sollten nicht gegeben werden, da damit keine neuen Informationen gegeben werden.
 
 
 ## Positiv
 
-- \- Der Autor/die Autorin hat *sehr selbständig* gearbeitet. Damit wurde ein zentraler Aspekt der Lernziele einer akademischen Ausbildung erfüllt.
+- NEG Der Autor/die Autorin hat *sehr selbständig* gearbeitet. Damit wurde ein zentraler Aspekt der Lernziele einer akademischen Ausbildung erfüllt.
 
 
 ## Neutral
 
-- \- Der genannte Punkt fließt nicht in die Bewertung der Arbeit ein.
+- NEG Der genannte Punkt fließt nicht in die Bewertung der Arbeit ein.
 
 
