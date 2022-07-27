@@ -1,7 +1,7 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "Letzte Aktualisierung: 2022-07-15 10:38:32" 
+date: "Letzte Aktualisierung: 2022-07-27 15:47:07" 
 numbersections: TRUE 
 lang: de-De
 output:
@@ -15,12 +15,27 @@ output:
     #toc_float:
     #  collapsed: true
     keep_md: yes
+    #pandoc_args: "--html-q-tags"
     number_sections: yes
     toc: yes
   md_document:
     toc: true
     variant: gfm
 ---
+
+
+<style>
+q {
+  quotes: '„' '“';
+}
+</style>
+
+
+
+<div class="figure">
+<img src="quote.png" alt="Sprechen passiert in Anführungsstrichen" width="25%" />
+<p class="caption">Sprechen passiert in Anführungsstrichen</p>
+</div>
 
 
 
@@ -97,9 +112,15 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
+<div class="figure" style="text-align: center">
+<img src="quote.png" alt="Sprechen, und damit Begutachten, passiert in Anführungsstrichen" width="25%" />
+<p class="caption">Sprechen, und damit Begutachten, passiert in Anführungsstrichen</p>
+</div>
 
 
-# CHECKLISTE -- DATENANALYSE **!!DATANAL-Check** (xxcheckdat) {#checkdat}
+
+
+# CHECKLISTE -- DATENANALYSE !!DATANAL-Check (xxcheckdat) {#checkdat}
 
 
 
@@ -569,7 +590,8 @@ ausführlich genug vorgestellt?
 
 
 
-### Kursivsatz vs. Anführungszeichen {#kursivsatzanfuehr}
+### Kursivsatz und Anführungszeichen {#kursivsatzanfuehr}
+
 `+++`
 
 - POS Kursivdruck wurde korrekt (im Sinne der Vorgaben der APA) eingesetzt.
@@ -591,6 +613,7 @@ ausführlich genug vorgestellt?
 
 - NEG *Statistische Symbole* wie $n = 200$ oder $SD = 1.23$ sollten *kursiv* gesetzt sein; für griechische Buchstaben gilt dies nicht. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
+- NEG Es wurden keine Anführungszeichen der deutschen Typographie verwendet ("unten zu Beginn und oben am Ende der Anführung").
 
 
 
@@ -655,7 +678,7 @@ ausführlich genug vorgestellt?
 
 - NEG Verwendet man *vertikalen* Leerraum zur Trennung von Absätzen, so sollte man den Abstand *nicht zu groß* (und nicht zu klein) setzen; eine halbe (zusätzliche) Leerzeile ist ein vertretbares Maß. Das Ziel sollte sein, einen Absatz kenntlich zu machen mit so wenig Zusatzabstand wie möglich. Allerdings muss der Abstand größer sein als eine normale Leerzeile (sonst würde kein Absatzwechsel kenntlich sein). In der vorliegenden Arbeit ist der vertikale Abstand nicht durchgehend passend (d. h. zu groß oder zu klein).
 
-- NEG Der *erste Absatz nach einer Überschrift* ist *nicht einzurücken* (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). 
+- NEG Der *erste Absatz nach einer Überschrift* ist *nicht einzurücken* (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). Der Grund, dass Einrücken hier nicht sinnvoll ist, liegt darin, dass kein *Ende* eines Gedankens anzuzeigen ist; im Gegenteil, es beginnt erst ein neuer Gedanke. Das Ende des letzten Gedanken ist hingegen schon durch den Abstand zwischen der  aktuellen Überschrift und dem vorasgehenden Abschnitt ausgezeichnet.
 
 
 
@@ -682,6 +705,9 @@ ausführlich genug vorgestellt?
 
 ### Klammersetzung und Auslassungszeichen
 
+
+`---`
+
 - NEG Zu Beginn oder zum Ende eines Zitats sind keine *Auslassungszeichen* zu setzen (und auch nicht in Klammern).
 - NEG Möchte man *innerhalb eines Zitats* eine Auslassung markieren, so verwendet man Auslassungszeichen (...). Diese sind laut APA/DGPs *ohne eckige oder runde Klammern* zu setzen.
 - NEG *Runde Klammern* sind laut APA primär für Einschübe im Text zu verwenden.
@@ -689,7 +715,13 @@ ausführlich genug vorgestellt?
 
 
 
+### Sonstiger Schriftsatz
 
+
+`---`
+
+
+- NEG Das *Ampersand*-Zeichen "&" sollte nicht im normalen Fließtext als Ersatz für die Konjuntion "und" hergenommen werdn.
 
 
 ## Umfang
@@ -966,7 +998,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - NEG Die *Formatierung* des Literaturverzeichnisses entspricht nicht in allen Punkten der Vorgaben oder ist *nicht in allen Punkten sinnvoll* gewählt (z.B. Einzug oder ersten Zeile, Blocksatz, Abstände etc.).
 
-- NEG Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile)
+- NEG Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile).
 
 - NEG Laut APA/DGPs sind Einträge im Literaturverzeichnis nicht zu nummerieren oder mit Aufzählungszeichen zu versehen.
 
