@@ -1,7 +1,7 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "Letzte Aktualisierung: 2022-07-27 15:47:07" 
+date: "Letzte Aktualisierung: 2023-02-14 09:12:51" 
 numbersections: TRUE 
 lang: de-De
 output:
@@ -15,7 +15,7 @@ output:
     #toc_float:
     #  collapsed: true
     keep_md: yes
-    #pandoc_args: "--html-q-tags"
+    pandoc_args: "--html-q-tags"
     number_sections: yes
     toc: yes
   md_document:
@@ -33,7 +33,7 @@ q {
 
 
 <div class="figure">
-<img src="quote.png" alt="Sprechen passiert in Anführungsstrichen" width="25%" />
+<img src="quote.png" alt="Sprechen passiert in Anführungsstrichen" width="15%" />
 <p class="caption">Sprechen passiert in Anführungsstrichen</p>
 </div>
 
@@ -395,12 +395,14 @@ ausführlich genug vorgestellt?
 `000`
 
 - POS-NEG Ein Abstract ist *vorhanden*, der auf einiges relevantes Material eingeht, jedoch *von Präzisierung profitiert* hätte.
-- Ein Abstract sollte die wesentlichen Punkte der Arbeit genau benennen; bei einer empirischen Studie sind das Forschungsfrage, Stichprobe, Messinstrumente, Design, Ergebnis, Limitationen.
+
 
 `---`
 
-- NEG Abstract schreibt sich mit "c", nicht mit "k".
+- NEG Ein Abstract *benennt nicht die wesentlichen Punkte der Arbeit genau*; bei einer empirischen Studie sind das Forschungsfrage, Stichprobe, Messinstrumente, Design, Ergebnis, Limitationen.
 
+- NEG Abstract schreibt sich mit "c", nicht mit "k".
+i
 - NEG Ein Abstract, der das Überblicken der Arbeit unterstützt, *fehlt*, wäre aber sinnvoll gewesen.
 
 
@@ -721,7 +723,11 @@ ausführlich genug vorgestellt?
 `---`
 
 
-- NEG Das *Ampersand*-Zeichen "&" sollte nicht im normalen Fließtext als Ersatz für die Konjuntion "und" hergenommen werdn.
+- NEG Das *Ampersand*-Zeichen "&" sollte nicht im normalen Fließtext als Ersatz für die Konjuntion "und" hergenommen werden.
+
+- NEG Es wurden keine "deutschen" Anführungszeichen (zu Beginn der Zitation unten und am Ende oben) verwendet.
+
+
 
 
 ## Umfang
@@ -3052,10 +3058,13 @@ Fehlinterpretationen:
 
 
 
-- Die Frage, die der Titel der vorliegenden Frage aufwirft, führt für eine Forschungsarbeit (wie diese) zu weit: Ob man eine potenziell *weitreichende praktische (politische) Entscheidung* treffen sollte, ist nicht vorderdings die Frage einer Forschungsarbeit. Vielmehr sollte es hier um die Absicherung von Wissen gehen.
+- NEG Die Frage, die der Titel der vorliegenden Frage aufwirft, führt für eine Forschungsarbeit (wie diese) zu weit: Ob man eine potenziell *weitreichende praktische (politische) Entscheidung* treffen sollte, ist nicht vorderdings die Frage einer Forschungsarbeit. Vielmehr sollte es hier um die Absicherung von Wissen gehen.
 
 
+- NEG Der Titel einer Studie sollte nicht beginnen mit "*Eine Studie zu ...*" oder "Eine Abhandlung über", denn das ist selbstevident.
 
+
+i
 
 
 ## Gliederung (xxtoc) (xxglied)
