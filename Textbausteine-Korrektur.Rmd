@@ -650,11 +650,14 @@ i
 
 - POS Ein *Absatzwechsel* wurde typographisch sinnvoll kenntlich gemacht.
 
+- POS Die Kapitel und Unterkapitel (Abschnitte) wurden *fortlaufend nummeriert*. Das ist vorteilhaft, da es die Orientierung im Text erleichtert und eine Referenzierung ("wie in Abschnitt 3.14 dargestellt...") erleichtert.
+
+
 
 `000` 
 
 
-- POS-NEG Nicht alle Absatzwechsel wurden typographisch sinnvoll kenntlich gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
+- POS-NEG Nicht alle *Absatzwechsel* wurden typographisch sinnvoll kenntlich gemacht (d.h. mit vertikalem Raum oder mit Einrückung der ersten Zeile des Folgeabsatzes).
 
 
 `---`
@@ -686,6 +689,8 @@ i
 
 
 - NEG *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+- NEG Kapitel und Unterkapitel (Abschnitte) sollte *nummeriert* werden, da das die Orientierung im Text erleichtert.
 
 
 
@@ -908,6 +913,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - POS Die APA empfiehlt, bei Zitaten von Büchern eine *Seitenzahl* anzugeben; das ist eine sinnvolle Praxis, auch wenn sie von vielen Autoren nicht berücksichtigt wird. Dies wurde in der vorliegenden Arbeit umgesetzt.
 - POS Laut APA sind Quellen mit *3-5 Autoren ab dem zweiten Zitieren* in der Form "Erstautor et al. (Jahr)" zu zitieren. Diese Regel wurde in der vorliegenden Arbeit beachtet, was auf eine hohe Durchdringung der formalen Regeln des Zitierens hindeutet.
+
+- POS *Bilder wurden zitiert* (ihr Autor und Rechteinhaber wurde expliziert), was leider immer wieder nicht getan wird, aber sowohl rechtlich geboten als auch moralisch richtig ist.
 
 `---`
 
@@ -1165,6 +1172,24 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Diagramme/Abbildungen {#diagramme}
 
 
@@ -1274,6 +1299,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - POS Die *Reproduzierbarkeit* ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax).
 
+- POS Die *Reproduzierbarkeit* der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur Initialisierung der Zufallswerte sichergestellt (z.B. mit `set.seed()`).
+
+ 
 
 
 `---`
@@ -1890,6 +1918,9 @@ NUR QUALI:
 - NEG Bei Tabellen sollte man auf (farblich intensive) Darstellung von *Spaltengrenzen* in Formen *vertikaler Linien* verzichten, da diese zur stark im Inhalt ablenken. Die Formvorgaben der APA/DGPs sehen zudem vor, auf solche Linien zu verzichten. Die vorliegende Arbeit berücksichtigt dies nicht durchgehend.
 
 
+- NEG *Tabellen* sollten (in Berichten, die man einem Publikum, etwa einem Kunden) präsentiert nicht als bloßer, unformartierter R-Output gesetzt werden. Stattdessen sollten *optisch ansprechendere Formatierungen* verwendet werden. In R gibt es z.B. eine Reihe von Methoden, um optisch ansprechende Tabellen zu generieren, etwa mit `gt::gt()`, `knitr::kable()` oder `insight::display()`, s. [Details hier](https://easystats.github.io/insight/reference/display.html).
+
+
 
 
 
@@ -1898,6 +1929,12 @@ NUR QUALI:
 
 
 
+
+### Einführender Absatz
+
+`+++` 
+
+- POS Die Analyse beginnt nicht bevor ein *einführender Absatz* den Rahmen abgesteckt hat. Das ist ein sinnvolles Vorgehen. Auch in einem eher "technischen" Bericht, der die Darstellung und die Ergebnisse einer Analyse (im mathematisch-statistischen) Sinne zum Gegenstand hat, ist (zumindest) ein Grundmaß an Erklärung zum Rahmen vonnöten. So sollten etwa Hintergrund, zu lösende Problem, Ziel und/oder Forschungsfrage beschrieben werden. Ein kurzes Überblick über den Bericht kann sich anschließen.
 
 
 
@@ -1998,10 +2035,6 @@ NUR QUALI:
 
 
 
-### Datenvorverarbeitung
-
-- NEG Ein metrische Variable in zwei Gruppen aufzuteilen (sog. "*Dichotomisierung*"), mit z. B. dem Median als Grenze ("*Mediansplit*") ist statistisch i.d.R. nachteilig und sollte vermieden werden. Die vorliegende Arbeit verwendet solch eine Art von nicht sinnvoller Dichotomisierung. ), vgl. MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). *On the practice of dichotomization of quantitative variables*. Psychological Methods, 7(1), 19-40. doi: http://dx.doi.org/10.1037/1082-989X.7.1.19.
-
 
 
 
@@ -2018,7 +2051,16 @@ NUR QUALI:
 
 #### Auswahl
 
-+ POS Es wurden *sinnvolle Diagramme* ausgewählt, die für die Forschungsfrage relevante Einblicke ermöglichen.
+`+++`
+
+- POS Es wurden *sinnvolle Diagramme* ausgewählt, die für die Forschungsfrage relevante Einblicke ermöglichen.
+
+
+`000`
+
+- POS-NEG Eine *Wordcloud* ist zwar eine unübersichtliche und damit wissenschaftlich eingeschränkt nützliche Datenvisualisierung. Ist man sich dieses Nachteils aber bewusst und setzt die "Wortwolke" nur als groben Indikator ein, so kann sie nützlich sein zur optischen Auflockerung und ansprechenden Gestaltung eines Dokuments.
+
+
 
 `---`
 
@@ -2063,6 +2105,9 @@ NUR QUALI:
 
 
 
+
+
+
 `---`
 
 
@@ -2082,7 +2127,7 @@ NUR QUALI:
 
 
 
-### Pixelig {#pixelig}
+#### Pixelig {#pixelig}
 
 
 `+++`
@@ -2164,7 +2209,9 @@ NUR QUALI:
 
 `+++`
 
-- POS Insgesamt ist das Niveau  er Datenanalyse als von *hoher* Güte einzuschätzen. 
+- POS Der Autori/die Autorin demonstrierte Fachkompetenz auch insofern, als er oder sie Methoden oder Verfahren einsetzte, die nicht direkt im Unterricht erläutert oder in Musterlösungen vom Dozenten vorgegeben wurden.
+
+- POS Insgesamt ist das Niveau  der Datenanalyse als von *hoher* Güte einzuschätzen. 
 - POS Insgesamt ist das Niveau der Datenanalyse als *gut* einzuschätzen. 
 
 - POS Die Datenanalyse ist insgesamt als *qualitativ gut* einzustufen.
@@ -2179,6 +2226,8 @@ NUR QUALI:
 - POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *geringer* Güte einzuschätzen. 
 
 - NEG Zentrale Konzepte oder Methoden oder Prinzipien der Datenanalyse sind fehlerbehaftet.
+
+
 
 ### Deskriptive Statistik {#deskriptivstatistik}
 
@@ -2213,7 +2262,8 @@ NUR QUALI:
 - NEG Maße der Effektstärke (z. B. Cohens D oder R-Quadrat) *wären eine sinnvolle Ergänzung gewesen*, wurden aber nicht oder nur teilweise verwendet. Auch bei nicht-signifikanten Ergebnissen sind Effektstärken -- insbesondere mit Angaben zur Schätzgenauigkeit -- sinnvoll.
 
 
-### Robustheit
+### Robuste Statistiken
+
 - POS Es wurden *"robuste" Statistiken berichtet* (z. B. Median oder IQR).
 - POS Der Datensatz wurde auf Ausreißer (Robustheit) hin untersucht.
 
@@ -2224,6 +2274,27 @@ NUR QUALI:
 - NEG "Robuste" Statistiken (wie Median oder IQR) wären eine sinnvolle Ergänzung/Alternative zur vorliegenden Analyse gewesen, *fehlen* aber.
 
 - NEG Es wurde versäumt, den Datensatz  auf *Ausreißer* (Stichwort Robustheit) hin zu untersuchen.
+
+
+
+
+
+
+### Explorative Datenanalyse (EDA) sonstiges (xxeda)
+
+
+`+++`
+
+- POS Der Datensatz wurde *zu Beginn der Analyse im Überblick* dargestellt bzw. grob analysiert. Das ist ein sinnvoller Start der Analyse.
+
+- POS Der *Datensatz* wurde* zu Beginn* mit `vis_dat` *visualisiert.* Das eine eine sinnvolle Möglichkeit, die Analyse zu starten, da sie einen Überblick über den Datensatz gibt.
+
+
+
+
+
+
+
 
 
 
@@ -2547,6 +2618,90 @@ Fehlinterpretationen:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Maschinelles Lernen und seine Spezifika (xxml) {#maschlern}
+
+
+### Summarische Beurteilung
+
+`+++`
+
+- POS Ein *fundiertes Verständnis* von Konzepten und Methoden des Maschinenlernens wurde demonstriert.
+- POS Der Autor/die Autorin setzte die Konzepte und Methoden des Maschinenlernens *anhand aktueller R-Funktionen* um. 
+
+- POS Der Autor/die Autorin setzte die Konzepte und Methoden des Maschinenlernens anhand des *Tidymodels-Frameworks* um, was eines der führendes Methodologien im Maschinenlernen ist.
+
+- POS Es wurden *fortgeschrittene Techniken* (im Sinne der behandelten Konzepte im Unterricht) in der Arbeit angewendet, z.B. *Word-Embeddings*.
+
+- POS Es wurde eine recht *breite und angemessene Auswahl* an *Modellen* des Maschinenlernens verwendet bzw. deren Schätzwerte und Modellgüte berechnet.
+
+
+### Modellwahl
+
+`---`
+
+- NEG Es hätte noch stärker hervorgearbeitet werden können, welches Modell zum Schluss bevorzugt wird (oder welche Mischung von Modellen).
+
+
+
+### Tuning
+
+`+++`
+
+- POS Es wurde Hyperparameter-Tuning in sinnvoller Art und Weise verwendet.
+
+
+
+### Resampling
+
+`+++`
+
+- POS Es wurde Resampling in sachlich nützlicher Art und Weise verwendet.
+
+
+
+### Interpretierbarkeit
+
+`---`
+
+- NEG Mehr Interpretation des Vorgehens und der Interpretation der Ergebnisse würden die Analyse zugänglicher gestalten und mehr Nutzen beim Lesen generieren.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Qualitative Datenanalyse (xxqualinh)  {#quali}
 
 
@@ -2752,15 +2907,39 @@ Fehlinterpretationen:
 - NEG Das Maß an Kompetenz mit R konnte nicht überprüft werden, da (fast) keine Syntax in der Arbeit vorhanden war.
 
 
-### Data Wrangling (xxwrangle)
+### Data Wrangling (xxwrangle xxdatenjudo)
+
+
+
+`+++`
+
+- POS Eine *ID-Variable* wurde dem Datensatz hinzugefügt, was eine sinnvolle Ergänzung ist und von pragmatischer Kompetenz im Umgang mit Datenanalyse zeugt.
+
+
+
+
+
+`---`
+
+
 
 - NEG Anstatt Variablen mit `<- NULL` zu löschen, ist es einfacher, mit `dplyr::select` zu wählen.
+
 - NEG Anstatt Fälle mit dem Operator `[` zu wählen, ist es einfacher, `dplyr::filter` zu verwenden.
+
 - NEG Anstatt Variablennamen mit `names` und `[` zu ändern, ist es einfacher, `dplyr::rename` zu verwenden.
+
 - NEG Möchte man *Subgruppen vergleichen*, ist es eine suboptimale Lösung, den Datensatz in mehrere Teildatensätze aufzuteilen (z.B. mit `filter()`). Dadurch nimmt man sich die Möglichkeit, die Gruppen einfach bzw. direkt nebeneinander zu vergleichen oder macht sich das Leben komplizierter als nötig. Eine Möglichkeit zur gruppierten Analyse bietet mosaic: `verfahren(AV ~ gruppierungsvariable, ...)`. Alternativ kann man mit `group_by()` aus `dplyr` einen gruppierten Datensatz erzeugen und mittels weiterer Befehle (aus dplyr-komptabiblen Paketen) verrechnen (z.B. `summarise()`).
+
 - NEG Es sollten *keine technischen Bezeichnungen für Variablen* wie `F9r` verwendet werden im Hauptteil der Arbeit, sondern stets *sprechende Namen* (oder ggf. definierte Abkürzungen).
 
-- NEG Es wurden weniger gut lesbare Verfahren der Datenaufbereitung verwendet. So ist dieses Methode weniger gut lesbar: `difwt.frauen <- (Report$repwt[Report$sex == "F"])-(Report$weight[Report$sex == "F"])`. Besser lesbar wäre: ` Report %>% mutate(difference_weight = repwt - weight)`.
+- NEG Es wurden *weniger gut lesbare Verfahren* der Datenaufbereitung verwendet. So ist dieses Methode weniger gut lesbar: `difwt.frauen <- (Report$repwt[Report$sex == "F"])-(Report$weight[Report$sex == "F"])`. Besser lesbar wäre: ` Report %>% mutate(difference_weight = repwt - weight)`.
+
+
+
+- NEG Ein metrische Variable in zwei Gruppen aufzuteilen (sog. "*Dichotomisierung*"), mit z. B. dem Median als Grenze ("*Mediansplit*") ist statistisch i.d.R. nachteilig und sollte vermieden werden. Die vorliegende Arbeit verwendet solch eine Art von nicht sinnvoller Dichotomisierung. ), vgl. MacCallum, R. C., Zhang, S., Preacher, K. J., & Rucker, D. D. (2002). *On the practice of dichotomization of quantitative variables*. Psychological Methods, 7(1), 19-40. doi: http://dx.doi.org/10.1037/1082-989X.7.1.19.
+
+
 
 
 
@@ -2793,25 +2972,61 @@ Fehlinterpretationen:
 ### R-Ausgaben (xxroutput) {#routput}
 
 - POS  Die *R-Ausgaben* wurden optisch sehr ansprechend und *übersichtlich* gestaltet (z. B. mit Syntax-Highlighting).
-- POS Die R-Ausgaben wurden weitgehend optisch ansprechend und übersichtlich gestaltet.
+- POS Die R-Ausgaben wurden *weitgehend optisch ansprechend* und übersichtlich gestaltet.
 
 
 `---`
 
 
 - NEG Die R-Ausgaben sind *teilweise optisch wenig ansprechend formatiert* (z. B. unübersichtlich). 
-- NEG Teilweise wurde sehr langer und/oder weniger informativer R-Output (kommentarlos) abgedruckt. Solcher R-Output ist wenig nützlich.
+- NEG Teilweise wurde sehr *langer und/oder weniger informativer R-Output (kommentarlos) abgedruckt*. Solcher R-Output ist wenig nützlich.
 
-- NEG Die Syntax und/oder die R-Ausgaben wurden ganz oder in Teilen als Screenshot dargestellt. Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich". Darüber ist die grafische Qualität nicht so gut wie bei z. B. Text, der als Vektorgrafik aufgebaut ist, also verlustfrei zoombar ist.
+- NEG Die Syntax und/oder die R-Ausgaben wurden ganz oder in Teilen als *Screenshot* dargestellt. Liegt Syntax nur als Screenshot vor, so ist es nicht möglich, die Syntax zu kopieren, um sie direkt auszuführen. Vielmehr wird der Leser gezwungen, abzutippen (oder anderswo zu suchen). Das ist nicht sehr "kundenfreundlich". Darüber ist die grafische Qualität nicht so gut wie bei z. B. Text, der als Vektorgrafik aufgebaut ist, also verlustfrei zoombar ist.
 
 - NEG In *wissenschaftlichen Berichten dieser Art sollte kein unformartierter R-Code oder R-Ausgaben in den Hauptteil* aufgenommen werden. Vielmehr sollten auf Basis der R-Ausgaben ansprechende, informative, wohl strukturierte Textpassagen, Diagramme oder Tabellen erstellt werden. Den Lesenden soll es nicht aufgebürdet werden, sich selber "durchzupflügen", sondern eine gute Arbeit stellt die Ergebnisse wohl aufbereitet dar. Vermeiden Sie es, unformatierte R-Ausgabe in den Hauptteil einer solchen Arbeit aufzunehmen.
 
 
-### RMarkdown {#rmarkdown}
+
+
+
+### Quarto, RMarkdown, knitr (xxquarto, xxrmd, xxknitr) {#rmarkdown}
+
+`+++`
 
 - POS Die Verwendung von *RMarkdown* ist gerade bei Berichten dieser Art sehr sinnvoll; insofern ist dieser Ansatz begrüßenswert.
 
+- POS *Tabellen* (vor allem solche, die Datensätze und deren Objekte weiterer Verarbeitung betreffen) wurden in *ansprechender Form* im Textdokument dargestellt (z.B. via `kable`).
+
+- POS *Chunk-Messages* und/oder Warnungen, die meistens in Berichten unpassend wirken, wurden unterdrückt. Durch diese Maßnahme wurde der Lesefluss sinnvoll unterstützt.
+
+
+`000`
+
+- POS-NEG In Quarto kann man einstellen, dass *Tabellen automatisch "schön" gedruckt werden*, s. [hier](https://quarto.org/docs/computations/r.html#data-frames).
+
+
+`---`
+
+
+
+
 - NEG Hinweise (*Messages*) von in R-Chunks ausgeführten Befehlen wie "Loading required package: dplyr" oder "The following packages are masked XXX" *sollten besser unterdrückt werden* und nicht im Hauptteil des Berichts erscheinen. Dafür ist die Chunk-Option "message = FALSE" sinnvoll: z. B. "```{r message = FALSE}".
+
+
+
+
+- NEG *Chunk-Warnings* der Art "Warning: package 'ggplot2' was built under R version 4.0.5" sollten besser unterdrückt werden. Z.B. mit der Chunk-Option `#| warning: false` (in Quarto; d. [Details hier](https://quarto.org/docs/computations/execution-options.html))
+
+- NEG *Chunk-Messages* der Art `Attaching package: 'discrim' The following object is masked from 'package:dials': ` sollten beser ausgeschaltet werden, da sie im Textfluss eher stören. Dies kann man in Quarto so erreichen: `#|: message: false`.
+
+
+
+- NEG In Quarto kann man einstellen, dass *Abschnitte fortlaufend nummeriert* werden. Das erleichtert die Orientierung im Text und hilft beim Referenzieren auf Abschnitte. Hinweise zur Einstellung dazu in Quarto findet sich [hier](https://quarto.org/docs/get-started/authoring/rstudio.html). Kurz gesagt, fügt man im YAML-Block folgendes Key-Value-Paar hinzu: `number-sections: true` (auf der Root-Ebene in YAML).
+
+
+
+
+
 
 
 ### Beschreibung des Datensatzes (xxdatadescription) {#datasetdescription}
@@ -2825,6 +3040,24 @@ Fehlinterpretationen:
 - NEG Nicht alle relevanten Aspekte des Datensatzes wurden beschrieben.
 - NEG Die untersuchten Variablen des Datensatzes wurden nicht (alle) bzw. nicht ausführlich (genug) beschrieben.
 - NEG Es *fehlt ein Hinweis zur Quelle des Datensatzes* (zumindest eine URL wäre wünschenswert). Nur mit der Quelle kann die Analyse in allen Schritten überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit wäre damit gewährleistet gewesen, fehlt aber in der vorliegenden Analyse.
+
+
+
+
+
+### Syntax-Aufbau
+
+`+++` 
+
+- POS Es wurde eine Methode zum Unterstützung eines modularen Aufbau der Syntax verwendet (z.B. `targets`). Ansätze wie *targets*  sind sinnvoll, denn so steigt die Robustheit und Übersichtlichkeit einer Analyse. Darüber hinaus spart man sich Rechenzeit (und damit Warten und Ressourcen).
+
+- POS Die *Analyseschritte* wurden *beschrieben* und *interpretiert*.
+
+- POS Zu Beginn wurden alle R-Pakete gestartet (und nicht etwa im Verlauf der Analyse). Auf diese Weise wird beim Lesen geholfen, denn die benötigten Pakete sind direkt bekannt.
+
+
+
+
 
 
 ## Konzise Beschreibung vs. unnötige Erläuterungen im Methodenteil {#unnoetigeerlaueterung}
@@ -3062,44 +3295,25 @@ Fehlinterpretationen:
 - NEG Der Titel einer Studie sollte nicht beginnen mit "*Eine Studie zu ...*" oder "Eine Abhandlung über", denn das ist selbstevident.
 
 
-i
+
 
 
 ## Gliederung (xxtoc) (xxglied)
 
 
-### Gliederung -- Inhalt {#gliederunginhalt}
+(Formales und Inhaltliches zur Gliederung)
 
 
+### Gliederung vorhanden
 
-- POS Die Gliederung der Arbeit ist *stimmig.*
+`+++` 
 
-- POS Die anteilige Aufteilung der Gliederungspunkte zu den einzelnen Hauptteilen der Arbeit ist *wohl proportioniert*.
-
-- POS Aufbau und Gliederung der Arbeit sind *wohl durchdacht*.
-
-- POS Die Gliederung *spiegelt den Titel adäquat* wider.
-- POS Die Gliederung *spiegelt die Forschungsfrage adäquat* wider.
-
-
+- POS Eine *Gliederung ist vorhanden*, was die Orientierung im Dokument und den Lesefluss verbessert. Außerdem trägt eine (verlinkte bzw. bei paginierten Dokumenten mit Seitenzahlen versehene) Gliederung zu einem einfacheren Bewegen im Dokument bei, was den Komfort beim Lesen (und damit wiederum den Lesefluss) verbessert.
 
 
 `---`
 
-
-
-- NEG Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln? Außerdem ist die Beschreibung "Stand der Forschung" *zu wenig aussagekräftig*. Der Leser erfährt kaum etwas darüber, was in dem Abschnitt versteht. Vergleichen Sie, welche Überschrift aussagekräftiger ist: "Neuigkeiten aus der Politik" im Gegensatz zu "Frau Merkel bekommt den Nobelpreis für Physik!".
-
-- NEG Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. *nicht komplett treffend wider*.
-
-- NEG Das *Inhaltsverzeichnis* sollte *alle Teile der Forschungsfrage* aufgreifen bzw. widerspiegeln. Lautet die Forschungsfrage etwa *"A führt zu B"*, so sind im Inhaltsverzeichnis für den Theorieteil (zumindest) *drei Unterkapitel* aufzuführen: A, B und der (möglicherweise kausale) Zusammenhang von A und B. Die vorliegende Arbeit berücksichtigt diesen Aspekt nicht ausreichend. 
-
-- NEG Die Gliederung sollte auf der ersten Ebene die *klassische Aufteilung* in Einleitung, Theorie, Methoden, Ergebnisse, Diskussion widerspiegeln. Die vorliegende Arbeit weicht davon ab.
-
-- NEG Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
-
-
-- NEG Das Inhaltsverzeichnis ist nicht *inhaltsdicht* genug, sondern in Teilen *inhaltsarm*. So sind Gliederungspunkt wie "Ansatz, "Hypothese 1", "Vorgehen", "Problemstellung" wenig informativ. Auf der ersten Gliederungsebene eines wissenschaftlichen Berichts ist es üblich, auf solche hoch schematischen und inhaltsarmen Benennungen zurückzugreifen ("Theorie, Methode, etc."). Auf der zweiten (und folgenden) Gliederungsbene(n) hingegen sollten informative, informationsreiche, exakte, sprechende, konkrete Beschreibungen gewählt werden (z.B. "Selbstbestimmungstheorie nach Deci und Ryan (2003)", "H1: Männer sind im Durchschnitt größer als Frauen"). 
+- NEG Eine *Gliederung fehlt*, wäre aber hilfreich gewesen.
 
 
 
@@ -3150,6 +3364,48 @@ i
 
 
 - NEG Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
+
+
+
+
+
+
+
+
+### Gliederung -- Inhalt {#gliederunginhalt}
+
+`+++` 
+
+- POS Die Gliederung der Arbeit ist *stimmig.*
+
+- POS Die anteilige Aufteilung der Gliederungspunkte zu den einzelnen Hauptteilen der Arbeit ist *wohl proportioniert*.
+
+- POS Aufbau und Gliederung der Arbeit sind *wohl durchdacht*.
+
+- POS Die Gliederung *spiegelt den Titel adäquat* wider.
+- POS Die Gliederung *spiegelt die Forschungsfrage adäquat* wider.
+
+
+
+
+`---`
+
+
+- NEG Ein Abschnitt *"Stand der Forschung"*, *"Forschungsstand"* o. Ä. ist *nicht sinnvoll*, denn der Stand der Forschung sollte sich in praktisch allen Theoriekapiteln wiederfinden. Wenn der Stand der Forschung also nur in einem Kapitel angesprochen wird, was steht dann in den übrigen Kapiteln? Außerdem ist die Beschreibung "Stand der Forschung" *zu wenig aussagekräftig*. Der Leser erfährt kaum etwas darüber, was in dem Abschnitt versteht. Vergleichen Sie, welche Überschrift aussagekräftiger ist: "Neuigkeiten aus der Politik" im Gegensatz zu "Frau Merkel bekommt den Nobelpreis für Physik!".
+
+- NEG Die Gliederung spiegelt die Forschungsfrage bzw. den Titel nicht zur Gänze bzw. *nicht komplett treffend wider*.
+
+- NEG Das *Inhaltsverzeichnis* sollte *alle Teile der Forschungsfrage* aufgreifen bzw. widerspiegeln. Lautet die Forschungsfrage etwa *"A führt zu B"*, so sind im Inhaltsverzeichnis für den Theorieteil (zumindest) *drei Unterkapitel* aufzuführen: A, B und der (möglicherweise kausale) Zusammenhang von A und B. Die vorliegende Arbeit berücksichtigt diesen Aspekt nicht ausreichend. 
+
+- NEG Die Gliederung sollte auf der ersten Ebene die *klassische Aufteilung* in Einleitung, Theorie, Methoden, Ergebnisse, Diskussion widerspiegeln. Die vorliegende Arbeit weicht davon ab.
+
+- NEG Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
+
+
+- NEG Das Inhaltsverzeichnis ist nicht *inhaltsdicht* genug, sondern in Teilen *inhaltsarm*. So sind Gliederungspunkt wie "Ansatz, "Hypothese 1", "Vorgehen", "Problemstellung" wenig informativ. Auf der ersten Gliederungsebene eines wissenschaftlichen Berichts ist es üblich, auf solche hoch schematischen und inhaltsarmen Benennungen zurückzugreifen ("Theorie, Methode, etc."). Auf der zweiten (und folgenden) Gliederungsbene(n) hingegen sollten informative, informationsreiche, exakte, sprechende, konkrete Beschreibungen gewählt werden (z.B. "Selbstbestimmungstheorie nach Deci und Ryan (2003)", "H1: Männer sind im Durchschnitt größer als Frauen"). 
+
+
+
 
 
 
