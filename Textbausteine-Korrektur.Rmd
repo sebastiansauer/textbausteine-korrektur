@@ -330,7 +330,7 @@ ausführlich genug vorgestellt?
 
 
 
-###  Titel -- Formatierung {#titelformatierung}
+###  Titel -- Formales {#titelformatierung}
 
 `+++`
 
@@ -364,8 +364,7 @@ ausführlich genug vorgestellt?
 
 - NEG Die *Titelseite* ist optisch  *suboptimal* gesetzt. Beispiele für nicht optimale Formatierungen sind zu viel "Schnörkel" wie Kästen um die Überschrift oder (zu) viele verschiedene Schriftarten oder schlecht lesbare Schriftarten oder inhaltsfreie Ornamente.
 
-
-
+-  NEG Es findet sich ein *Rechtschreibfehler* im *Titel*, was keine schöne Visitenkarte für Ihren Bericht ist.
 
 
 
@@ -1488,18 +1487,16 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-- NEG Das Design der Studie wurde nicht oder nicht ausführlich oder nicht korrekt berichtet (z. B. ob es um ein querschnittliches Experiment handelt mit einer UV oder um eine Beobachtungsstudie).
-- NEG UVs und AVs wurden nicht expliziert, bzw. Prädiktoren und Kriterium wurden nicht expliziert.
+- NEG Das *Design* der Studie wurde nicht oder *nicht* ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht *erläutert* (z. B. ob es um ein querschnittliches Experiment handelt mit einer UV oder um eine Beobachtungsstudie).
+- NEG *UVs* und AVs wurden *nicht* *expliziert*, bzw. Prädiktoren und Kriterium wurden nicht expliziert.
 
 
-- NEG Die Darstellung des empirischen Vorgehens (Studiendesign) weist große Lücken auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.
-- NEG Der Ablauf der Studie (z. B. Intervention, Messung, Instruktionen) wurde unzureichend genau beschrieben.
-- NEG Das empirisch-methodisch Vorgehen wurde zu knapp oder gar nicht beschrieben (z. B. Mit welcher R-Funktion wurde die Power durchgeführt)?
-
-
-- NEG Eine prägnante Beschreibung des Studienablaufs (z.B. in Form eines Ablaufdiagramms) wäre von Nutzen gewesen (z.B.: 1. Informierte Einwilligung; 2. Demografische Daten; 3. Fragebogen 1; 4. Fragebogen 2 etc.).
-- NEG Eine Visualisierung oder konzise Zusammenfassung (z. B. als "Flowchart") des Versuchsablauf wäre hilfreich gewesen, fehlt aber.
-
+- NEG Die *Darstellung* des empirischen Vorgehens (Studiendesign) weist große *Lücken* auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.
+- NEG Der *Ablauf* der Studie (z. B. Intervention, Messung, Instruktionen) wurde *unzureichend* genau *beschrieben.*
+- NEG Das empirisch-methodisch *Vorgehen* wurde zu *knapp* oder gar nicht *beschrieben* (z. B. Mit welcher R-Funktion wurde die Power durchgeführt)?
+- NEG Eine prägnante Beschreibung des *Studienablaufs* (z.B. in Form eines Ablaufdiagramms) wäre von Nutzen gewesen (z.B.: 1. Informierte Einwilligung; 2. Demografische Daten; 3. Fragebogen 1; 4. Fragebogen 2 etc.), *fehlt* aber.
+- NEG Eine *Visualisierung* oder konzise Zusammenfassung (z. B. als "Flowchart") des *Versuchsablauf* wäre hilfreich gewesen, *fehlt* aber.
+- NEG Die Erläuterung zur *Art* des Experiments, *between vs. within*, *fehlt*, wurde nicht erläutert, oder nicht klar genug oder nicht an richtiger Stelle.
 
 
 
@@ -1536,11 +1533,26 @@ NUR QUALI:
 - NEG Es wäre für die Validität der Studie nützlich gewesen, dass Vorwissen, Beziehung und/oder das Setting der Untersuchung genauer zu erläutern. Gerade qualitative Forschung ist sich einer Wechselwirkung von Forschungssubjekt und -objekt ausgesetzt - und gerade qualitative Forschung ist sich (und sollte sich) dieser Wechselwirkung besonders bewusst sein.
 
 
+
+
+
+
+### Sonstiges zum Design
+
+`---`
+
+- NEG *Unwesentliche* Details wurden *berichtet.* Beispiel für ein unwesentliches Detail: "Die Verwendung einer Likert-Skala ermöglicht eine quantitative Erfassung von Daten. Die Antwortoptionen auf der Skala sind numerisch kodiert, was eine einfache Auswertung und statistische Analyse der Daten ermöglicht. Dies erleichtert die Quantifizierung von Meinungen, Einstellungen oder Wahrnehmungen der Teilnehmer und ermöglicht den Vergleich zwischen verschiedenen Gruppen."
+
+
+
+
 ## Messinstrumente (xxmess) {#measurement}
 
 `+++`
 
 - POS Es wurden *geeignete Messinstrumente* ausgewählt.
+
+- POS Die Wahl der Messinstrumente wurde unter Bezug auf existierende relevante Studien bestimmt; das ist ein sinnvolles Vorgehen.
 
 - POS Die Messinstrumente wurden präzise benannt und beschrieben.
 
@@ -1601,10 +1613,10 @@ NUR QUALI:
 
   
 
-## Hypothesen (xxhypo) {#hypothesen}
+## Hypothesen und Forschungsfrage (xxhypo) {#hypothesen}
 
 
-### Anzahl {#anzhyps}
+### Anzahl Hyps {#anzhyps}
 
 Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
@@ -1652,13 +1664,14 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 
 
-### Formulierung -- Beurteilung (Korrektheit/Vorhandensein)
+### Formulierung Hyps -- Beurteilung (Korrektheit/Vorhandensein)
 
 `+++`
 
 - POS Die Hypothesen wurden *formal korrekt spezifiziert*.
-- POS H_0 und H_A wurden *jeweils korrekt spezifiziert*.
-- POS Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesis eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt (ausreichend oder komplett) in *guter Art und Weise* um. 
+- POS Die Hypothesen sind *präzise* formuliert.
+- POS *H_0* und *H_A* wurden *jeweils korrekt spezifiziert*.
+- POS Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesern eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt (ausreichend oder komplett) in *guter Art und Weise* um. 
 
 `---`
 
@@ -1681,10 +1694,17 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 - NEG *Hypothesen* sollten möglichst *präzise* formuliert werden; die Präzision der Begriffe (und damit auch einer Hypothese) ist die obere Schranke der Nützlichkeit einer empirischen Untersuchung. So wäre bspw. einer Hypothese der Art "Achtsamkeitstraining führt zu einer kurzfristigen Konzentrationssteigerung bei SchülerInnen" wenig präzise. Präziser wäre: $\mu_E > \mu_K$, wobei die Begriffe (Mittelwerte der Populationen in Experimental- und Kontrollbedingung in der AV, welche auch in ihrer Operationalisierung genau ausgewiesen ist).
 
-- NEG Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesis eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
+- NEG Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesern eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
 
 - NEG *Statistische Symbole* in *Hypothesen* bergen den Vorteil, dass die Verbindung zur Datenanalyse, dem eigentlichen Auswerten und analytischen Beantworten der Forschungsfrage also, evident im Sinne von "nah" wird. Andernfalls stellt sich die Frage, wie z.B. "Achtsamkeit" gemessen wurde: mit welchem Instrument? Mit welcher Statistik (Mittelwert? Summe? Median? Über welche Items?).
 
+
+
+### Formulierung Forschungsfrage
+
+`---`
+
+- NEG Die *Forschungsfrage* ist *unpräzise.* Beispiel für eine unpräzise Forschungsfrage: "Was ist der Effekt von Bringtnixtin auf den Menschen?". Diese Forschungsfrage lässt ungeschickterweise offen, welche Art von Effekt gemeint ist, was also die AV ist (Kopfschmerzreduktion? Haarwachstum? Lebenszufriedenheit?). 
 
 
 
@@ -1693,10 +1713,10 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 `+++`
 
-- POS Die Hypothesen leiten sich *stringent* aus dem *Theorieteil* ab.
-- POS Die Hypothesen leiten sich *insgesamt passend aus dem Theorieteil* ab.
+- POS Die Hypothesen oder die Forschungsfrage leiten sich *stringent* aus dem *Theorieteil* ab.
+- POS Die Hypothesen oder die Forschungsfrage leiten sich *insgesamt passend aus dem Theorieteil* ab.
 
-- POS Die Hypothesen wurden *klar herausgestellt*.
+- POS Die Hypothesen oder die Forschungsfrage wurden *klar herausgestellt*.
 
 
 - POS Das *Kategoriensystem* leitet sich *stringent* aus der *Theorie* ab.
@@ -1707,10 +1727,10 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 
 
-- NEG Die Hypothesen leiten sich *nicht (alle) stringent aus dem Theorieteil* ab.
+- NEG Die Hypothesen oder die Forschungsfrage leiten sich *nicht (alle) stringent aus dem Theorieteil* ab.
 
 
-- NEG Einige Hypothesen sind nicht aus der vorher angeführten Theorie abgeleitet, sondern *schweben "frei im Raum"*. Dies ist nicht wünschenswert. Jede Hypothese soll sich gut ersichtlich aus der vorher angeführten Theorie (und der Forschungsfrage) ableiten (klassisches Beispiel: Geschlecht als UV). Nicht klar abgeleitete Hypothesen bergen die Gefahr der Beliebigkeit und erhöhen damit die Zahl der falsch-positiven Ergebnisse. Abgesehen sind sie wenig überzeugend.
+- NEG Einige Hypothesen oder die Forschungsfrage sind nicht aus der vorher angeführten Theorie abgeleitet, sondern *schweben "frei im Raum"*. Dies ist nicht wünschenswert. Jede Hypothese soll sich gut ersichtlich aus der vorher angeführten Theorie (und der Forschungsfrage) ableiten (klassisches Beispiel: Geschlecht als UV). Nicht klar abgeleitete Hypothesen bergen die Gefahr der Beliebigkeit und erhöhen damit die Zahl der falsch-positiven Ergebnisse. Abgesehen sind sie wenig überzeugend.
 - NEG Das Kategoriensystem leitet sich nicht stringent aus der Theorie ab.
 - NEG Das Kategoriensystem wurden nicht klar herausgestellt.
 
@@ -1720,9 +1740,12 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 ### Präzision/operational formuliert
 
-- POS Ein *Pfaddiagramm* zur Darstellung der Hypothesen wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
+`+++`
+
+- POS Ein *Pfaddiagramm* zur Darstellung der Hypothesen oder der Forschungsfrage wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
 - POS Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die *Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
 - POS Die Hypothesen wurden *klar (eindeutig, operational)* formuliert.
+- POS Die Hypothesen (oder die Forschungsfrage) wurde *präzise* formuliert.
 
 `---`
 
@@ -1730,21 +1753,21 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Ein *Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen für den Leser erleichtert*, fehlt aber.
 - NEG Einige oder alle Hypothesen *sollten operationaler* definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
 - NEG Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
-- NEG Die Hypothesen *sollten konkreter* sein.
+- NEG Die Hypothesen oder die Forschungsfrage *sollten konkreter* sein.
 - NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
-- NEG Die Hypothesen sind nicht präzise genug (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
+- NEG Die Hypothesen sind *unpräzise* (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
-- NEG Möchte man Hypothesen sehr präzise gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
+- NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
 
-- NEG Hypothesen sollen operational formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
+- NEG Hypothesen sollen *operational* formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
 
 
 
 ### Sonstige Fehler
 
-- NEG Für jede einzelne Hypothese soll eine eigene, *eigenständige H0 angenommen* werden. Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
+- NEG Für jede einzelne Hypothese soll eine eigene, *eigenständige H0 angenommen* werden. Das wurde in der vorliegenden Arbeit nicht berücksichtigt (sofern man das frequentistische Diktum verwendet)
 
-- NEG Die Hypothesen werden *nicht an richtiger Stelle* aufgeführt.
+- NEG Die Hypothesen oder die Forschungsfrage werden *nicht an richtiger Stelle* aufgeführt.
 
 
 - NEG *H0 und H1 wurden verwechselt*.
@@ -1754,7 +1777,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 
 
-- NEG Die Hypothesen wurden *nicht klar ersichtlich* oder nicht explizit oder nicht prägnant berichtet.
+- NEG Die Hypothesen wurden oder die Forschungsfrage *nicht klar ersichtlich* oder nicht explizit oder nicht prägnant berichtet.
 
 - NEG Das klassische Nullhypothesen-Testen, so wie es in typischen Lehrbüchern gelehrt wird, *kennt keine Null-Alternativhypothesen* (etwa "Es gibt keinen Zusammenhang von A und B"). 
 
@@ -1811,6 +1834,8 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 - POS-NEG Der *Umfang* der Stichprobe ist *angemessen* (gemessen an den Anforderungen der Prüfung).
 
 - NEG Der *Umfang* der Stichprobe ist *klein* (gemessen an den Anforderungen der Prüfung).
+
+- NEG Der *Umfang* der Stichprobe wird nicht (oder nicht an der richtigen Stellen) benannt. Damit fehlt eine wesentliche Information zur Einschätzung der Stichhaltigkeit der Ergebnisse der Studie.
 
 
 ### Qualität (Zufallsstichprobe)
@@ -2193,7 +2218,8 @@ NUR QUALI:
 - POS Die Datenanalyse ist insgesamt *umfangreich.*
 
 
-`---`
+
+`000`
 
 
 - POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *mittlerer (befriedigender) bis hoher Güte* einzuschätzen. 
@@ -2202,6 +2228,13 @@ NUR QUALI:
 
 - POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
 - POS-NEG Insgesamt ist der Umfang der Datenanalyse als von *geringer* Güte einzuschätzen. 
+
+
+
+`---`
+
+- NEG Wesentliche *Teile* der Analyse *fehlen.*
+- NEG Wesentliche Teile der *Inferenstatistik* *fehlen*.
 
 
 
@@ -2216,6 +2249,9 @@ NUR QUALI:
 
 - POS Die Datenanalyse ist insgesamt als *qualitativ gut* einzustufen.
 
+
+`000`
+
 - POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *mittlerer*  (befriedigender) bis hoher Güte einzuschätzen. 
 
 
@@ -2225,14 +2261,22 @@ NUR QUALI:
 - POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *unterdurchschnittlicher* Güte einzuschätzen. 
 - POS-NEG Insgesamt ist das Niveau der Datenanalyse als von *geringer* Güte einzuschätzen. 
 
+
+`---`
+
+
 - NEG Zentrale Konzepte oder Methoden oder Prinzipien der Datenanalyse sind fehlerbehaftet.
 
 
 
-### Deskriptive Statistik {#deskriptivstatistik}
+### Deskriptive Statistik, allgemein (xxdesk) {#deskriptivstatistik}
+
+`+++`
 
 - POS Es wurde eine *sinnvolle Auswahl* an deskriptiven Statistik berichtet.
 - POS Die berichteten deskriptiven Statistiken wurden *korrekt interpretiert*.
+- POS Statistiken wurden in *sinnvoller* Weise berichtet.
+- POS Statistiken wurden *übersichtlich* und/oder in formal gebotener Form im Text aufgeführt.
 
 
 ### Häufigkeitsanalysen
@@ -2298,13 +2342,23 @@ NUR QUALI:
 
 
 
-### Konfidenzintervalle (xxkonfi) {#ki}
+### Konfidenzintervalle (xxkonfi) (xxci) {#ki}
+
+`+++`
 
 - POS  Konfidenzintervalle wurden *in sinnvoller Weise berichtet*.
 
+`---'
 
 
-- NEG Konfidenzintervalle wären eine sinnvolle Erweiterung gewesen (auch bei nicht-signifikanten Ergebnissen), *fehlen* aber.
+- NEG *Konfidenzintervalle* wären eine sinnvolle Erweiterung gewesen (auch bei nicht-signifikanten Ergebnissen), *fehlen* aber.
+
+- NEG Die *Intervallgrenzen* der Konfidenzintervalle wurden nicht (in allen Fällen) berichtet oder sie wurden fehlerhaft berichtet.
+
+- NEG Das Konfidenzintervall wurde falsch interpretiert.
+
+- NEG Eine typische (und häufige) *Fehlinterpretation* des Konfidenzintervalls, so auch in der vorliegenden Arbeit, ist, dass das Intervall mit 95% Wahrscheinlichkeit den wahren Populationsparameterwert überdecke. Das ist allerdings nicht die richtige Interpretation. Frequentistische Statistik erlaubt keine Wahrscheinlichkeitsaussagen über Parameter. Nähere Informationen finden sich z.B. hier: Hoekstra, R., Morey, R. D., Rouder, J. N., & Wagenmakers, E.-J. (2014). Robust misinterpretation of confidence intervals. Psychonomic Bulletin & Review, 21(5), 1157–1164. https://doi.org/10.3758/s13423-013-0572-3. Daraus: "The key point is that the CIs do not provide for a statement about the parameter as it relates to the particular sample at hand; instead, they provide for a statement about the performance of the procedure of drawing such intervals in repeated use. Hence, it is incorrect to interpret a CI as the probability that the true value is within the interval (e.g., Berger & Wolpert, 1988). As is the case with p-values, CIs do not allow one to make probability statements about parameters or hypotheses."
+
 
 
 ### Voraussetzungen/Annahmen 
@@ -2318,7 +2372,7 @@ NUR QUALI:
 
 - NEG Laut Gelman und Hill (2014) ist die *wichtigste Annahme der Regressionsanalyse*, dass es *keinen Zusammenhang gibt zwischen vorhergesagten Werten und Residuen*. Im entsprechenden Streudiagramm sollte die Regressionsgerade parallel zur X-Achse verlaufen. 
 
-- \ Laut Box (1953) ist die *Varianzanalyse robust gegenüber der Verletzung der Annahme gleicher Varianzen*, wenn die Stichproben ähnlich groß sind (bis zu einen Faktor von 1.5): 
+- KOMMENTAR Laut Box (1953) ist die *Varianzanalyse robust gegenüber der Verletzung der Annahme gleicher Varianzen*, wenn die Stichproben ähnlich groß sind (bis zu einen Faktor von 1.5): 
 
     > "It has frequently been suggested that a test of homogeneity of variances should be applied
 
@@ -2338,8 +2392,24 @@ before making an analysis of variance test ior homogeneity of means in which hom
  Demnach kann in diesen Fällen eine Varianzanalyse verwendet werden.
  
  
-- NEG Der *t-Test ist robust gegenüber Verletzungen seiner Annahmen* (insbesondere der Normalverteilung), wenn die Stichprobe groß genug ist (> 30): "By the time the sample sizes reach 25 or 30, the approach should be close enough that one can, in effect, ignore the effects of violations of assump- tions except for extremes." (S. 63), Boneau, C. A. (1960). The effects of violations of assumptions underlying the t test. *Psychological bulletin*, 57(1), 49-64.
+- NEG Der *t-Test ist robust gegenüber Verletzungen seiner Annahmen* (insbesondere der Normalverteilung), wenn die Stichprobe groß genug ist (> 30): "By the time the sample sizes reach 25 or 30, the approach should be close enough that one can, in effect, ignore the effects of violations of assumptions except for extremes." (S. 63), Boneau, C. A. (1960). The effects of violations of assumptions underlying the t test. *Psychological bulletin*, 57(1), 49-64.
 
+- NEG Die Daten bzw. das Studiendesign erfüllen nicht komplett die *Anforderungen* bzw. die *Annahmen* der verwendeten statistischen *Verfahren.*
+
+- NEG Es wurden *nicht metrische Daten* (z.B. ordinal oder nominal skaliert) mit Verfahren für metrische Daten ausgewertet. Insofern sind die *Anforderungen* dieser Verfahren nicht erfüllt. Daher sind die gewonnenen Ergebnisse u.U. nicht belastbar bzw. es die *Ergebnisqualität ist unklar*, es ist also unklar, inwieweit die gewonnenen *Ergebnisse* belastbar sind.
+
+
+### Inferenzstatistik (xxinfstat)
+
+`+++`
+- POS Insgesamt ist die *inferenzstatistische Analyse*, soweit in der Arbeit gezeigt, als  *gut* zu bewerten.
+- POS Es wurde eine nützliche Auswahl an inferenzstatisichen Kennwerten präsentiert.
+- POS Insgesamt wurden die Ergebnisse der inferenzstastischen Analyse korrekt interpretiert.
+
+`---`
+
+- NEG Insgesamt ist die *inferenzstatistische Analyse*, soweit in der Arbeit gezeigt, als *wenig gut* zu bewerten.
+- NEG Insgesamt *fehlt* die inferenzstatistische Analyse komplett oder in weiten Teilen.
 
 
 ### p-Wert (xxpvalue, xxpwert) {#pvalue}
@@ -2375,15 +2445,16 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 - NEG p-Werte sollten *nicht im "technischen Format"* des Taschenrechners berichtet werden, also etwa nicht *"p = 2.2e-16"*, sondern in diesem Format: "p < .001".
 
-- NEG Ein p-Wert kleiner als das Signifikanzniveau (5%), bedeutet, dass man die getestete Nullhypothese ablehnt. Das Ergebnis nennt man dann *"statistisch signifikant"*. Ein statistisch signifikantes Ergebnis bedeutet *nicht*, dass man einen *"signifikanten Zusammenhang"* gefunden hat. Der Term "statistisch signifikant" darf nicht mit dem Alltagsbegriff "signifikant" (etwa: wichtig, bedeutsam, stark) missverstanden werden. Statistische Signifikanz bezeichnet  den oben skizzierten technischen Sachverhalt. Vom p-Wert kann man nicht (eindeutig) die Stärke eines Effekts ableiten.
+- NEG Ein p-Wert kleiner als das Signifikanzniveau (5%), bedeutet, dass man die getestete Nullhypothese ablehnt. Das Ergebnis nennt man dann *"statistisch signifikant"*. Ein statistisch signifikantes Ergebnis bedeutet *nicht*, dass man einen *inhaltlich "signifikanten Zusammenhang"* gefunden hat. Der Term "statistisch signifikant" darf nicht mit dem Alltagsbegriff "signifikant" (etwa: wichtig, bedeutsam, stark) missverstanden werden. Statistische Signifikanz bezeichnet  den oben skizzierten technischen Sachverhalt. Vom p-Wert kann man nicht (eindeutig) die Stärke eines Effekts ableiten.
+
+- NEG Von einem kleinen p-Wert kann man nicht auf eine kleine Wahrscheinlichkeit der Nullhypothese schließen: *Kleiner p-Wert heißt nicht kleine Wahrscheinlichkeit der Nullhypothese*. Zwar ist es richtig, dass je kleiner der p-Wert, umso kleiner auch die Wahrscheinlichkeit der Nullhypothese ist (ceteris paribus). Allerdings gibt der p-Wert nicht die Wahrscheinlichkeit der Nullhypothese an, sondern die Wahrscheinlichkeit der Daten (und extremerer) unter der Annahme, dass die Nullhypothese wahr ist. Es ist zu beachten, dass die Frequentistische Statistik kein (primäres) Interesse daran hat, die Wahrscheinlichkeit der Nullhypothese zu bemessen. Vielmehr geht es darum, die Höhe des Alphafehlers zu kontrollieren.
 
 
 ### Signifikanzniveau (Alpha)
 
 - POS Das *Signifikanzniveau* (alpha) wurde spezifiziert.
 - POS Das Signifikanzniveau (alpha) wurde nicht (immer) spezifiziert.
-
-- NEG Es wurde nicht spezifiziert, ob ein- oder zweiseitig getestet wurde. Diese Entscheidung hat eine Auswirkung auf das Signifikanzniveau.
+- NEG Es wurde nicht spezifiziert, ob *ein- oder zweiseitig* getestet wurde. Diese Entscheidung hat eine Auswirkung auf das Signifikanzniveau.
 
 
 ### Hypothesen-Testen (xxhyptest) {#hyptests}
@@ -2509,19 +2580,21 @@ Fehlinterpretationen:
 
 
 
-### Bayes
+### Bayes (xxbayes)
 
 `+++`
 
-- POS Es wurde eine ROPE-Analyse durchgeführt.
-- POS Die Ergebnisse der ROPE-Analyse wurden korrekt interpretiert.
+- POS Insgesamt wurde eine inferenzstatistische Analyse mit den Methoden der *Bayes*-Methode *sinnvoll* durchgeführt.
+- POS Insgesamt wurden die Kennwerte der Bayes-Analyse korrekt interpretiert.
+- POS Es wurde eine *ROPE-Analyse* *durchgeführt.*
+- POS Die Ergebnisse der ROPE-Analyse wurden korrekt *interpretiert.*
 
 
 `---`
 
-- NEG Liefert eine ROPE-Analyse den Befund, dass das Gros (z.B. 95%-PI) der Posteriori-Verteilung zum Teil im ROPE und zum Teil außerhalb liebt, so ist zu resümieren, dass die Befundlage *uneinheitlich* ist. Zu sagen, dass die ROPE-Hypothese ("praktische Nullhypothese") nicht verworfen werden dürfe, ist zwar nicht falsch, aber nicht präzise genug.
+- NEG Liefert eine *ROPE-Analys*e den Befund, dass das Gros (z.B. 95%-PI) der Posteriori-Verteilung zum Teil im ROPE und zum Teil außerhalb liegt, so ist zu resümieren, dass die Befundlage *uneinheitlich* ist. Zu sagen, dass die ROPE-Hypothese ("praktische Nullhypothese") nicht verworfen werden dürfe, ist zwar nicht falsch, aber nicht präzise genug.
 
-- NEG Verwendet man den Begriff *"Signifikanz"* im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird und es daher keine einheitlich akzeptierte Definition gibt. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von "signifikant" ist "das 95%-PI der Posterioriverteilung liegt komplett außerhalb des ROPE". Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist.
+- NEG Verwendet man den Begriff *"Signifikanz"* (korrekter: statistische Signifikanz) im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird und es daher keine einheitlich akzeptierte Definition gibt. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von "signifikant" ist "das 95%-PI der Posteriori-Verteilung liegt komplett außerhalb des ROPE". Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist. Es ist auch zu argumentieren, dass es besser ist, außerhalb der Frequentistischen Statistik, auf den Begriff zu verzichten. Übrigens rät die ASA, auch innerhalb der Frequentistischen Statistik auf den Begriff zu verzichten.
 
 
 
@@ -2529,7 +2602,7 @@ Fehlinterpretationen:
 
 ### Kausalanalyse
 
-- POS Es wurden Kausalmodelle empirisch-statistisch überprüft. Das ist laudabel, denn übliche statistische Untersuchung zu Effekten (wie Nullhyphothesentesten oder Effektschätzungen) beruhen auf der - häufig ungeprüften - Annahme, dass das Kausalmodell der Studie korrekt ist. Ohne ein Wissen über die Korrektheit eines Kausalmodells ist eine herkömmliche statistische Untersuchung zu einem Effekt streng genommen sinnlos. Angemerkt sei, dass ein experimentellen Untersuchungen, sofern diese gut durchgeführt sind und die Stichprobe groß genug ist, auf die Überprüfung eines Kausalmodells verzichtet werden kann, da das Design die Validität des Kausalmodells garantiert.
+- POS Es wurden *Kausalmodelle* empirisch-statistisch überprüft. Das ist laudabel, denn übliche statistische Untersuchung zu Effekten (wie Nullhyphothesentesten oder Effektschätzungen) beruhen auf der - häufig ungeprüften - Annahme, dass das Kausalmodell der Studie korrekt ist. Ohne ein Wissen über die Korrektheit eines Kausalmodells ist eine herkömmliche statistische Untersuchung zu einem Effekt streng genommen sinnlos. Angemerkt sei, dass ein experimentellen Untersuchungen, sofern diese gut durchgeführt sind und die Stichprobe groß genug ist, auf die Überprüfung eines Kausalmodells verzichtet werden kann, da das Design die Validität des Kausalmodells garantiert.
 
 
 
@@ -3836,6 +3909,16 @@ Fehlinterpretationen:
 `---`
 
 - NEG Die Forschungsfrage legt ein *Kausalmodell* der Form "X wirkt auf Y" nahe, aber der Theorieteil *geht nicht (ausführlich genug) auf ursächliche Erläuterungen* ein. Es wird daher nicht klar genug herausgearbeitet, wie - vermöge welcher Mechanismen bzw. auf welche Art und Weise - X auf Y wirken könnte.
+
+- NEG Ein DAG wäre sinnvoll gewesen, fehlt aber.
+
+- NEG Der DAG spiegelt die Forschungsfrage(n) nicht adäquat wider.
+
+- NEG Der DAG ist nicht ausreichend erläutert.
+
+- NEG Es finden sich logische Fehler im DAG.
+
+- NEG Der DAG ist nicht (in Gänze) nachvollziehbar.
 
 - NEG Es *fehlen Erläuterung* zu den *Ursache-Wirkungs-Zusammenhängen* im Hinblick auf die Forschungsfrage. Lautet die Forschungsfrage etwa "Welchen Einfluss hat die Nutzung von Onlinedating-Plattformen auf das Selbstwertgefühl?" so sollte der Theorieteil explizit auf die Frage eingehen, wie und warum die Nutzung solcher Plattformen auf das Selbstwertgefühl eingeht. Der zentrale Grund wissenschaftliche Theorie aufzustellen, ist, die Welt zu verstehen. Die Welt zu verstehen, heißt (zu gutem Teil) die Ursachen der Phänomene zu verstehen. Daher ist es eine zentrale Aufgabe für Theorien und damit für Forschung , auf Kausalstrukturen (d.h. Ursache-Wirkungs-Zusammenhänge) einzugehen. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
