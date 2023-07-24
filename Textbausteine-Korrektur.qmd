@@ -1,26 +1,18 @@
 ---
 title: "Textbausteine zur Begutachtung von Seminar- und Abschlussarbeiten"
 author: "Sebastian Sauer"
-date: "Letzte Aktualisierung: `r Sys.time()`" 
-numbersections: TRUE 
+date: today
+number-sections: true
 lang: de-De
-output:
-  html_document:
-    
-    #   "+smart"
-    # ]
-    # 
-    
+format:
+  html:
     highlight: pygments
     #toc_float:
     #  collapsed: true
-    keep_md: yes
-    pandoc_args: "--html-q-tags"
-    number_sections: yes
-    toc: yes
-  md_document:
+
     toc: true
-    variant: gfm
+    toc-location: left
+
 ---
 
 
@@ -42,10 +34,11 @@ knitr::include_graphics("quote.png")
 
 
 
-## FORMALIA (Checkliste Seminararbeit **!!FORMALIA-CHECK**)
+
+## FORMALIA (Checkliste Seminararbeit)
 
 
-
+**!!FORMALIA-CHECK**
 
 1. WICHTIG Titel  [optisch prägnant?](#titelformatierung) und [präzise?](#titelinhalt)
 2. WICHTIG [Abstract: vorhanden und korrekt?](#abstract)
@@ -59,10 +52,12 @@ knitr::include_graphics("quote.png")
 10. [Referenzieren ok?](#referenzieren)
 
 
-## METHODEN (Checkliste Seminararbeit **!!METHODEN-CHECK**)
+## METHODEN (Checkliste Seminararbeit )
 
+**!!METHODEN-CHECK xxmc**
 
-### Methoden -- QUANTITATIV
+### Methoden -- QUANTITATIV xxq!
+
 
 
 1. WICHTIG [Reproduzierbarkeit](#repro)
@@ -440,6 +435,13 @@ i
 
 
 ## Typografie und Erscheinungsbild (xxtypo) {#typo}
+
+
+### Fomalia
+
+`---` 
+
+- NEG Die Anforderungen an die Textformatierung inkl. der Formatierung von Tabellen und Abbildungen entspricht nicht (durchgängig) den Vorgaben.
 
 ### Schriftsatz und Erscheinungsbild - Beurteilung
 `+++`
@@ -1191,6 +1193,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ## Diagramme/Abbildungen {#diagramme}
 
+**xxdiag**
 
 
 ### Schemata/Ablauf-Diagramme
@@ -1296,7 +1299,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Fazit  (xxrepfazit)
 
-- POS Die *Reproduzierbarkeit* ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax).
+- POS Die *Reproduzierbarkeit* ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax, Codebook/Data-Dictionary).
 
 - POS Die *Reproduzierbarkeit* der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur Initialisierung der Zufallswerte sichergestellt (z.B. mit `set.seed()`).
 
@@ -1307,7 +1310,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-- NEG Die Reproduzierbarkeit ist insofern *nicht sichergestellt*, als dass einer oder mehrere der folgenden Teile nicht eingereicht wurden: Daten, Syntax, Stimuli, sonstiges Material. Reproduzierbarkeit ist die Grundlage oder Bedingung von Transparenz. Transparenz ist ein oder der Grundwert der Wissenschaft.
+- NEG Die Reproduzierbarkeit ist insofern *nicht sichergestellt*, als dass einer oder mehrere der folgenden Teile nicht eingereicht wurden: Daten, Syntax, Stimuli, Codebook, sonstiges Material. Reproduzierbarkeit ist die Grundlage oder Bedingung von Transparenz. Transparenz ist ein oder der Grundwert der Wissenschaft.
 
 
 - NEG Die Datei mit den Materialien zur Reproduzierbarkeit *ließ sich nicht öffnen*. Damit/Insofern ist die Reproduzierbarkeit nicht gegeben. Es obliegt dem Autor, die technische Funktionstüchtigkeit sicherzustellen.
@@ -1539,6 +1542,10 @@ NUR QUALI:
 
 ### Sonstiges zum Design
 
+`+++`
+
+- POS Die Studie greift, im Sinne eines Replikationsansatzes, auf eine existierende Studie zurück, baut also auf einer (vermutlich hochqualitativen) Studie auf bzw. repliziert diese und/oder führt diese Forschung weiter. Das replizierende Weiterführen ist ein sinnvolles Vorgehen, da es den kumulativen Character der Wissenschaft hervorhebt und gleichzeitig, insbesondere für studentische Arbeiten, eine nützliche Maßnahme der Qualitätssicherung darstellt.
+
 `---`
 
 - NEG *Unwesentliche* Details wurden *berichtet.* Beispiel für ein unwesentliches Detail: "Die Verwendung einer Likert-Skala ermöglicht eine quantitative Erfassung von Daten. Die Antwortoptionen auf der Skala sind numerisch kodiert, was eine einfache Auswertung und statistische Analyse der Daten ermöglicht. Dies erleichtert die Quantifizierung von Meinungen, Einstellungen oder Wahrnehmungen der Teilnehmer und ermöglicht den Vergleich zwischen verschiedenen Gruppen."
@@ -1697,6 +1704,8 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesern eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
 
 - NEG *Statistische Symbole* in *Hypothesen* bergen den Vorteil, dass die Verbindung zur Datenanalyse, dem eigentlichen Auswerten und analytischen Beantworten der Forschungsfrage also, evident im Sinne von "nah" wird. Andernfalls stellt sich die Frage, wie z.B. "Achtsamkeit" gemessen wurde: mit welchem Instrument? Mit welcher Statistik (Mittelwert? Summe? Median? Über welche Items?).
+
+- NEG Die *statistische Auswertung einer inhaltlichen Hypothese* ist mitunter unklar oder sogar irreführend. Betrachten wir als Beispieli folgende inhaltliche Hypothese: "Smart-Home-Besitzer haben mehr Vertrauen in Smart-Home-Produkte mit KI als nicht Smart-Home-Besitzer". Die Hypothese scheint zu implizieren, dass jeder Mensch der Experimentalgruppe E einen höheren Wert in der AV aufweist als jeder Mensch in der Kontrollgruppe K - oder zumindest tendenziell. Aus dieser Hypothese ließen sich verschiedene Auswertungsstrategien ableiten. Aber es ist nicht sicher, ob damit der Vergleich der Mittelwerte gemeint ist. Daher ist es immer sinnvoll, präziser zu werden und eine statistische Hypothese hinzu zufügen, etwa "MW(AV_E ) > MW(AV_K)".
 
 
 
@@ -2162,11 +2171,11 @@ NUR QUALI:
 
 `---`
 
-- NEG Es wäre von Vorteil gewesen, einige *Diagramme nicht (per "Screenshot") einzufügen*, sondern selber zu erstellen, um die Qualität der Abbildung sicherzustellen (z. B. um "pixelige" Abbildungen aufgrund geringer DPI-Auflösung zu vermeiden).
+
 
 - NEG Einige Abbildungen sind "*pixelig*".
 
-- NEG Die optische Qualität hätte profitiert, wenn die Diagramme nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) -- zumal mit geringer Auflösung -- eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden.
+- NEG Die optische Qualität hätte profitiert, wenn Diagramme (oder Tabellen) nicht als Bitmap (d. h. als *Screenshot*, z. B. in den Formaten png oder jpg) -- zumal mit geringer Auflösung -- eingefügt worden wären, sondern als *Vektordiagramm.* Im Fall von Vektorgrafiken ist die Auflösung besser und andere Bildfehler werden ebenfalls vermieden. Außerdem kann aus einem Bild kein Text kopiert werden.
 
 
 
@@ -2584,6 +2593,7 @@ Fehlinterpretationen:
 
 `+++`
 
+- POS Das Bayes-Modell wurde *spefiziert* (Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).
 - POS Insgesamt wurde eine inferenzstatistische Analyse mit den Methoden der *Bayes*-Methode *sinnvoll* durchgeführt.
 - POS Insgesamt wurden die Kennwerte der Bayes-Analyse korrekt interpretiert.
 - POS Es wurde eine *ROPE-Analyse* *durchgeführt.*
@@ -3903,22 +3913,26 @@ Fehlinterpretationen:
 
 - POS Die *Grenzen der internen Validität* -- also die Grenzen beim Formulieren von Kausalaussagen -- wurden in *nützlicher* Art und Weise diskutiert.
 
-- POS Es wurde ein Kausalmodell in Form eines DAG (Directed Acyclic Graph) formuliert.
+- POS Es wurde ein *Kausalmodell* in Form eines *DAG* (Directed Acyclic Graph) formuliert.
+
+- POS Der *DAG* spiegelt die *Forschungsfrage* korrekt wider.
+
+- POS Der *DAG* wurde *korrekt* erstellt.
 
 
 `---`
 
 - NEG Die Forschungsfrage legt ein *Kausalmodell* der Form "X wirkt auf Y" nahe, aber der Theorieteil *geht nicht (ausführlich genug) auf ursächliche Erläuterungen* ein. Es wird daher nicht klar genug herausgearbeitet, wie - vermöge welcher Mechanismen bzw. auf welche Art und Weise - X auf Y wirken könnte.
 
-- NEG Ein DAG wäre sinnvoll gewesen, fehlt aber.
+- NEG Ein *DAG* wäre sinnvoll gewesen, *fehlt* aber.
 
-- NEG Der DAG spiegelt die Forschungsfrage(n) nicht adäquat wider.
+- NEG Der DAG spiegelt die Forschungsfrage(n) *nicht* adäquat wider.
 
-- NEG Der DAG ist nicht ausreichend erläutert.
+- NEG Der DAG ist *nicht* ausreichend *erläutert.*
 
-- NEG Es finden sich logische Fehler im DAG.
+- NEG Es finden sich logische *Fehler* im DAG.
 
-- NEG Der DAG ist nicht (in Gänze) nachvollziehbar.
+- NEG Der DAG ist *nicht* (in Gänze) *nachvollziehbar.*
 
 - NEG Es *fehlen Erläuterung* zu den *Ursache-Wirkungs-Zusammenhängen* im Hinblick auf die Forschungsfrage. Lautet die Forschungsfrage etwa "Welchen Einfluss hat die Nutzung von Onlinedating-Plattformen auf das Selbstwertgefühl?" so sollte der Theorieteil explizit auf die Frage eingehen, wie und warum die Nutzung solcher Plattformen auf das Selbstwertgefühl eingeht. Der zentrale Grund wissenschaftliche Theorie aufzustellen, ist, die Welt zu verstehen. Die Welt zu verstehen, heißt (zu gutem Teil) die Ursachen der Phänomene zu verstehen. Daher ist es eine zentrale Aufgabe für Theorien und damit für Forschung , auf Kausalstrukturen (d.h. Ursache-Wirkungs-Zusammenhänge) einzugehen. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
@@ -4084,6 +4098,10 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 - NEG Es wurden in *zu hohem Maße allgemeine Lehrbücher*, nicht aber spezifische Quellen zur Verdeutlichung der Theorien herangezogen.
 
 - NEG Die höchste Form der Evidenz sind (ceteris paribus) Review-Studien bzw. Metaanalysen. Die vorliegende Arbeit hätte von der (größeren) *Einbeziehung solcher Review-Arbeiten* profitiert.
+
+- NEG Es wurden eine oder mehrere Studien verwendet, bei denen die Gefahr von *Interessenskonflikten* besteht.
+
+- NEG Es wurdne eine oder mehrere Studien verwendet, deren Qualität nicht durch ein unabhängiges *Peer-Review* bestätigt wurde.
 
 
 
