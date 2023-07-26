@@ -35,22 +35,6 @@ knitr::include_graphics("quote.png")
 
 
 
-## FORMALIA (Checkliste Seminararbeit)
-
-
-**!!FORMALIA-CHECK**
-
-1. WICHTIG Titel  [optisch prägnant?](#titelformatierung) und [präzise?](#titelinhalt)
-2. WICHTIG [Abstract: vorhanden und korrekt?](#abstract)
-2. Gliederung [optisch prägnant?](#gliederungformat), [verlinkt](#verlinkt) und [passend zum Titel/Forschungsfrage?](#gliederunginhalt)
-4. Textsatz [allgemein ok?](#typo)
-5. [Silbentrennung ok?](#silbentrennung)
-6. [Absatzformatierung ok?](#absatz)
-7. [Rechtschreibung ok?](#rechtschreibung), z. B. [Fremdwörter](#fremd) und [Kopplung](#rechtkommentare)?
-8. [Zitieren im Text ok?](#zitieren)
-9. WICHTIG [Literaturverzeichnis im Aufbau ok?](#litverzaufbau),  [Im Zitieren ok](#litverzzit) und insgesamt [Insgesamt ok?](#litverzzitieren)
-10. [Referenzieren ok?](#referenzieren)
-
 
 ## METHODEN (Checkliste Seminararbeit )
 
@@ -89,6 +73,24 @@ Summarisch: [Sehr gute qualitative Methoden](#sehrgutequalimeth)
 Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
+
+
+
+## FORMALIA (Checkliste Seminararbeit)
+
+
+**!!FORMALIA-CHECK**
+
+1. WICHTIG Titel  [optisch prägnant?](#titelformatierung) und [präzise?](#titelinhalt)
+2. WICHTIG [Abstract: vorhanden und korrekt?](#abstract)
+2. Gliederung [optisch prägnant?](#gliederungformat), [verlinkt](#verlinkt) und [passend zum Titel/Forschungsfrage?](#gliederunginhalt)
+4. Textsatz [allgemein ok?](#typo)
+5. [Silbentrennung ok?](#silbentrennung)
+6. [Absatzformatierung ok?](#absatz)
+7. [Rechtschreibung ok?](#rechtschreibung), z. B. [Fremdwörter](#fremd) und [Kopplung](#rechtkommentare)?
+8. [Zitieren im Text ok?](#zitieren)
+9. WICHTIG [Literaturverzeichnis im Aufbau ok?](#litverzaufbau),  [Im Zitieren ok](#litverzzit) und insgesamt [Insgesamt ok?](#litverzzitieren)
+10. [Referenzieren ok?](#referenzieren)
 
 
 
@@ -4222,6 +4224,7 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 - NEG Es werden *wissenschaftlich-methodische Sachverhalte* (in Teilen) *fehlerhaft formuliert*.
 
+- NEG Es finden sich *englischsprachige Fragmente* in einem ansonsten auf Deutsch formulierten Text.
 
 
 ## Reflexion/Diskussion (xxreflex, xxdisk) {#diskussion}
@@ -4230,27 +4233,29 @@ Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zit
 
 `+++`
 
-- POS Insgesamt ist die Diskussion als sehr gut zu beurteilen.
-- POS Die Diskussion ist sehr umfangreich.
+- POS Insgesamt ist die *Diskussion* als *sehr gut* zu beurteilen.
+- POS Die Diskussion ist sehr *umfangreich.*
 
-- POS Insgesamt ist die Diskussion als gut zu beurteilen.
-- POS Die Diskussion spricht einige nennenswerte Aspekte an.
+- POS Insgesamt ist die Diskussion als *gut* zu beurteilen.
+- POS Die Diskussion spricht *einige nennenswerte Aspekte* an.
 
-- POS-NEG Insgesamt ist die Diskussion als befriedigend zu beurteilen.
-- POS/- Es wurden einige Aspekte der Arbeit (Inhalt, Methode, Ergebnis) diskutiert; die Diskussion erreicht jedoch keine große Tiefe oder Breite.
+`000`
+
+- POS-NEG Insgesamt ist die Diskussion als *befriedigend* zu beurteilen.
+- POS-NEG Es wurden *einige Aspekte* der Arbeit (Inhalt, Methode, Ergebnis) *diskutiert*; die Diskussion erreicht jedoch keine große Tiefe oder Breite.
 
 
 `---`
 
 
-- NEG Insgesamt ist die Diskussion als ausreichend zu beurteilen.
-- NEG Die Diskussion ist sehr kurz gehalten.
-- NEG Die Diskussion ist insgesamt zu wenig ausgeprägt; wesentliche diskussionswürdige Punkte fehlen bzw. werden nicht angesprochen.
+- NEG Insgesamt ist die Diskussion als *ausreichend* zu beurteilen.
+- NEG Die Diskussion ist sehr *kurz* gehalten.
+- NEG Die Diskussion ist insgesamt zu *wenig ausgeprägt*; wesentliche diskussionswürdige Punkte fehlen bzw. werden nicht angesprochen.
 
-- NEG Wesentliche Einschränkungen qualitativer Forschung (wie eingeschränkte Repräsentativität der Ergebnisse) wurden nicht diskutiert.
+- NEG Wesentliche Einschränkungen qualitativer Forschung (wie eingeschränkte Repräsentativität der Ergebnisse) wurden *nicht diskutier*t.
 
 
-- NEG Das Fehler des Diskussionsteils ist zu bemängeln. 
+- NEG Das *Fehlen* des *Diskussionsteils* ist zu bemängeln. 
 
 
 ### Reflexion/Diskussion (allgemein, OHNE Schwächen) -- Kommentare
