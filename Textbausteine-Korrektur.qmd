@@ -363,6 +363,7 @@ ausführlich genug vorgestellt?
 
 -  NEG Es findet sich ein *Rechtschreibfehler* im *Titel*, was keine schöne Visitenkarte für Ihren Bericht ist.
 
+- NEG Der Titel ist *nicht in Anführungsstriche* zu setzen.
 
 
 
@@ -1467,15 +1468,13 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - POS Es wurde eine *Visualisierung*  (z. B. als "Flowchart" bzw. Flussdiagramm oder Ablaufdiagramm) des Versuchsablauf dargeboten, was die Verständlichkeit erhöht.
 - POS Der *Ablauf* des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) *geschildert.*
 
-`---`
 
+
+`---`
 
 - POS-NEG Der *Ablauf bzw. das Design* der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.
 - POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.
-
-
-
-- NEG Das *Design* der Studie wurde nicht oder *nicht* ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht *erläutert* (z. B. ob es um ein querschnittliches Experiment handelt mit einer UV oder um eine Beobachtungsstudie).
+- NEG Das *Design* der Studie wurde nicht oder *nicht* ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht *erläutert* (z. B. ob es um ein Between-Subject-Experiment mit einem Faktor und zwei Stufen handelt oder um eine Beobachtungsstudie).
 - NEG *UVs* und AVs wurden *nicht* *expliziert*, bzw. Prädiktoren und Kriterium wurden nicht expliziert.
 
 
@@ -1673,6 +1672,42 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 
 
+### Präzision/operational formuliert
+
+`+++`
+
+- POS Ein *Pfaddiagramm* zur Darstellung der Hypothesen oder der Forschungsfrage wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
+- POS Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die *Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
+- POS Die Hypothesen wurden *klar (eindeutig, operational)* formuliert.
+- POS Die Hypothesen (oder die Forschungsfrage) wurde *präzise* formuliert.
+
+
+`---`
+
+- NEG Die *statistische Auswertung einer inhaltlichen Hypothese* ist mitunter unklar oder sogar irreführend. Betrachten wir als Beispiel folgende inhaltliche Hypothese: "Smart-Home-Besitzer haben mehr Vertrauen in Smart-Home-Produkte mit KI als nicht Smart-Home-Besitzer". Die Hypothese scheint zu implizieren, dass jeder Mensch der Experimentalgruppe E einen höheren Wert in der AV aufweist als jeder Mensch in der Kontrollgruppe K - oder zumindest tendenziell. Aus dieser Hypothese ließen sich verschiedene Auswertungsstrategien ableiten. Aber es ist nicht sicher, ob damit der Vergleich der Mittelwerte gemeint ist. Daher ist es immer sinnvoll, präziser zu werden und eine statistische Hypothese hinzu zufügen, etwa "MW(AV_E ) > MW(AV_K)".
+
+
+- NEG Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesern eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
+
+- NEG *Statistische Symbole* in *Hypothesen* bergen den Vorteil, dass die Verbindung zur Datenanalyse, dem eigentlichen Auswerten und analytischen Beantworten der Forschungsfrage also, evident im Sinne von "nah" wird, also zur *Präzision* beitragen. Andernfalls stellt sich die Frage, wie z.B. "Achtsamkeit" gemessen wurde: mit welchem Instrument? Mit welcher Statistik (Mittelwert? Summe? Median? Über welche Items?). Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+- NEG *Hypothesen* sollten möglichst *präzise* formuliert werden; die Präzision der Begriffe (und damit auch einer Hypothese) ist die obere Schranke der Nützlichkeit einer empirischen Untersuchung. So wäre bspw. einer Hypothese der Art "Achtsamkeitstraining führt zu einer kurzfristigen Konzentrationssteigerung bei SchülerInnen" wenig präzise. Präziser wäre: $\mu_E > \mu_K$, wobei die Begriffe (Mittelwerte der Populationen in Experimental- und Kontrollbedingung in der AV, welche auch in ihrer Operationalisierung genau ausgewiesen ist).
+
+- NEG Ein *Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen für den Leser erleichtert*, fehlt aber.
+- NEG Einige oder alle Hypothesen *sollten operationaler* definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
+- NEG Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
+- NEG Die Hypothesen oder die Forschungsfrage *sollten konkreter* sein.
+- NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
+- NEG Die Hypothesen würden von *präsiserer Formulierung profitieren*. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: "Je schlechter die *E*rfahrungen mit KI, desto geringer das *V*ertrauen in KI" oder noch präziser: "r(E, V) > 0.3".  Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.
+- NEG Die Hypothesen sind *unpräzise* (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
+
+- NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
+
+- NEG Hypothesen sollen *operational* formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
+
+
+
+
 
 
 
@@ -1705,13 +1740,9 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 - NEG Es *sollten keine zusammengesetzten Hypothesen formuliert werden*; stattdessen sollte für *jede Ursache/jeden Prädiktor eine eigene Hypothese* formuliert werden. Also nicht: "A, B und C führen zu D", sondern "H1: A führt zu D, H2: B führt zu D" etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?
 
-- NEG *Hypothesen* sollten möglichst *präzise* formuliert werden; die Präzision der Begriffe (und damit auch einer Hypothese) ist die obere Schranke der Nützlichkeit einer empirischen Untersuchung. So wäre bspw. einer Hypothese der Art "Achtsamkeitstraining führt zu einer kurzfristigen Konzentrationssteigerung bei SchülerInnen" wenig präzise. Präziser wäre: $\mu_E > \mu_K$, wobei die Begriffe (Mittelwerte der Populationen in Experimental- und Kontrollbedingung in der AV, welche auch in ihrer Operationalisierung genau ausgewiesen ist).
 
-- NEG Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesern eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt nicht (ausreichend oder komplett) um. 
 
-- NEG *Statistische Symbole* in *Hypothesen* bergen den Vorteil, dass die Verbindung zur Datenanalyse, dem eigentlichen Auswerten und analytischen Beantworten der Forschungsfrage also, evident im Sinne von "nah" wird. Andernfalls stellt sich die Frage, wie z.B. "Achtsamkeit" gemessen wurde: mit welchem Instrument? Mit welcher Statistik (Mittelwert? Summe? Median? Über welche Items?).
 
-- NEG Die *statistische Auswertung einer inhaltlichen Hypothese* ist mitunter unklar oder sogar irreführend. Betrachten wir als Beispieli folgende inhaltliche Hypothese: "Smart-Home-Besitzer haben mehr Vertrauen in Smart-Home-Produkte mit KI als nicht Smart-Home-Besitzer". Die Hypothese scheint zu implizieren, dass jeder Mensch der Experimentalgruppe E einen höheren Wert in der AV aufweist als jeder Mensch in der Kontrollgruppe K - oder zumindest tendenziell. Aus dieser Hypothese ließen sich verschiedene Auswertungsstrategien ableiten. Aber es ist nicht sicher, ob damit der Vergleich der Mittelwerte gemeint ist. Daher ist es immer sinnvoll, präziser zu werden und eine statistische Hypothese hinzu zufügen, etwa "MW(AV_E ) > MW(AV_K)".
 
 
 
@@ -1750,32 +1781,6 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Das Kategoriensystem wurden nicht klar herausgestellt.
 
 
-
-
-
-### Präzision/operational formuliert
-
-`+++`
-
-- POS Ein *Pfaddiagramm* zur Darstellung der Hypothesen oder der Forschungsfrage wurde verwendet, was die Rezeption der Hypothesen durch den Leser erleichtert.
-- POS Die Hypothesen waren konkret, *spezifisch*; d. h. es wurde z. B. nicht nur ein einfacher Zusammenhang, sondern auch die *Stärke dieses Zusammenhangs* in der Alternativhypothese vermerkt.
-- POS Die Hypothesen wurden *klar (eindeutig, operational)* formuliert.
-- POS Die Hypothesen (oder die Forschungsfrage) wurde *präzise* formuliert.
-
-`---`
-
-
-- NEG Ein *Pfaddiagramm hätte die Darstellung der Hypothesen bzw. die Rezeption der Hypothesen für den Leser erleichtert*, fehlt aber.
-- NEG Einige oder alle Hypothesen *sollten operationaler* definiert sein ("konkret"), als es in der vorliegenden Arbeit der Fall ist.
-- NEG Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
-- NEG Die Hypothesen oder die Forschungsfrage *sollten konkreter* sein.
-- NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
-- NEG Die Hypothesen würden von *präsiserer Formulierung profitieren*. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: "Je schlechter die *E*rfahrungen mit KI, desto geringer das *V*ertrauen in KI" oder noch präziser: "r(E, V) > 0.3".  Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.
-- NEG Die Hypothesen sind *unpräzise* (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
-
-- NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
-
-- NEG Hypothesen sollen *operational* formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
 
 
 
