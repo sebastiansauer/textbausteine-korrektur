@@ -614,7 +614,7 @@ i
 
 - NEG *Antwortoptionen* einer *psychometrischen Skala sollen kursiv gesetzt* sein, etwa: "Die Items waren mittels einer vierstufigen Likertskala zu beantworten mit den Stufen von 1 (*stimme überhaupt nicht zu*) bis 4 (*stimme voll und ganz zu*).
 
-- NEG *Statistische Symbole* wie $n = 200$ oder $SD = 1.23$ sollten *kursiv* gesetzt sein; für griechische Buchstaben gilt dies nicht. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
+- NEG *Statistische Symbole* wie *n = 200* oder *SD = 1.23* sollten *kursiv* gesetzt sein; für griechische Buchstaben gilt dies nicht. Dies wurde in der vorliegenden Arbeit nicht durchgängig umgesetzt.
 
 - NEG Es wurden keine Anführungszeichen der deutschen Typographie verwendet ("unten zu Beginn und oben am Ende der Anführung").
 
@@ -1433,7 +1433,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - POS Der Versuchsaufbau ist geschickt und *handwerklich* *hervorragend* umgesetzt.
 - POS Der Versuchsaufbau ist *"handwerklich" gut* gestaltet.
 - POS Es wurde eine *Pilotstudie* durchgeführt, was zur Güte des Designs (potenziell) beiträgt.
-
+- POS Das *Forschungsdesign* der Studie zeichnet sich durch einen *hohen Anspruch* aus.
 
 
 
@@ -1451,30 +1451,13 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - NEG Die *methodische Raffinesse* des Versuchsplan ist eher *einfach/gering*.
 - NEG Das *Versuchsdesign* zeichnet sich durch einen eher geringen Umfang oder eine *eher geringe Komplexität* aus (z. B. nur zwei Variablen in einer Zusammenhangshypothese).
 - NEG Die Versuchsplanung zeugt nicht von einer hohen Einarbeitung mit dem Gegenstand.
-- NEG Um Effekte einer Intervention zu messen, gerade bei kleinen Stichproben, ist es zwar möglich, auf eine Messung der AV vor  der Intervention zu verzichten, aber besser ist es, vor ($t_0$) und nach ($t_1$) der Intervention die AV zu messen. Im nächsten Schritt kann man dann das Delta ($d= t_1 - t_0$) zwischen beiden Gruppen vergleicht, in der Regel mit der Hypothese, dass man einen (substanziellen) Unterschied findet. In der vorliegenden Arbeit wurde allerdings auf einen Test zu $t_0$ verzichtet.
-
-
-### Besonderheiten qualitativer Designs {#qualidesigns}
-
-`+++`
-
-
-- POS Der Rückgriff auf die Methode der *Grounded Theory* zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.
-
-
-
-`---`
-
-- NEG Auch in *qualitativen Untersuchungen* ist es nützlich, sich über das Studiendesign (vertiefte) Gedanken zu machen. Ein *Standardvorgehen sensu Mayring* ist zwar oft möglich (und wird von einer großen Zahl an Arbeiten eingesetzt), allerdings kann im Einzelfall mit einem überlegten, *genau auf den Einzelfall der vorliegenden Forschungsfrage abgestimmten Vorgehen* ein besseres Ergebnis erwartet werden. Solch eine Auseinandersetzung mit dem Gegenstand und der dazu abzuleitenden empirischen Methode steht der qualitativen Forschung besonders gut zu Gesichte; genau das ist der Geist und der Leitgedanke qualitativer Forschung. Ein "Vorgehen von der Stange" sticht zumindest nicht positiv hervor und lässt Potenziale der qualitativen Forschung ungenutzt.
-
-- NEG Die qualitative Methode ist für einige Forschungsfragen bzw. Hypothesen gut für andere wiederum weniger gut geeignet. Eine Forschungsfrage bzw. Hypothese, die für qualitative Forschungsfragen weniger gut geeignet ist, lautet: "Arbeitnehmer haben eine höhere Anzahl von Krankheitstagen aufgrund von psychosomatischen Belastungsstörungen als Arbeitnehmer ohne eine psychosomatische Belastungsstörung". Eine Aussage dieser Art zielt auf eine allgemein gültige, populationsbezogene Erkenntnis ab, die mit qualitativer Methode -- zumal in Form einer kleinen Zahl von Interviews -- kaum zu erreichen ist. Im Gegensatz dazu sollten sich sich qualitative Forschungsfragen auf *"Es-gibt-Aussagen"* konzentrieren. So könnte eine qualitative Studie untersuchen, ob "Konflikt am Arbeitsplatz eine Auslöser (aus Sicht der Betroffenen) für Mobbing ist". Denn findet man z.B. im Interview entsprechende Hinweise, so kann man schlussfolgern, dass dies offenbar einer der möglichen Gründe ist. Zwar ist anzunehmen, dass es auch anderen Menschen -- also über die untersuchte Stichprobe hinaus -- so geht, aber eine generelle, quantifizierende Aussage, etwa dass es sich um den wichtigsten Punkt handele oder dass diese Ursache häufiger sei als eine andere, ist nicht abzuleiten. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend umgesetzt.
-
-
-- NEG Untersucht man mittels einer qualitativen Methode etwa "*Einflussfaktoren*" oder sonstige kausal konnotierte Fragen, so sollte sich der Autor bzw. die Autorin darüber bewusst sein, dass eine solche Studie nicht direkt Tatsachen zu Tage fördert sondern *Ansichten* über Tatsachen, das die Methode per se *subjektiv*, nicht objektiv ist. Dass man sich beim Schreiben über diese Tatsache bewusst ist, und Leser darüber bewusst hält, ist zu dokumentieren, also an geeigneter Stelle im Text zu diskutieren. Auch eine entsprechende Formulierung im Titel, etwa "Subjektive Beweggründe von Personalentscheidungen" hilft, diesem Sachverhalt Rechnung zu tragen. Eine Argumentation, dass dieser Sachverhalt evident sei und daher keiner Erwähnung bedürfe, greift zu kurz, denn die Verwechslungsgefahr ist faktisch groß. Im Übrigen ist es das Wesen einer Qualifizierungsarbeit, auf wesentliche Dinge hinzuweisen, um das eigene Wissen zu demonstrieren.
+- NEG Um Effekte einer Intervention zu messen, gerade bei kleinen Stichproben, ist es zwar möglich, auf eine Messung der AV vor  der Intervention zu verzichten, aber besser ist es, vor (t_0) und nach (t_1) der Intervention die AV zu messen. Im nächsten Schritt kann man dann das Delta (d= t_1 - t_0) zwischen beiden Gruppen vergleicht, in der Regel mit der Hypothese, dass man einen (substanziellen) Unterschied findet. In der vorliegenden Arbeit wurde allerdings auf einen Test zu t_0 verzichtet.
 
 
 
 ### Dokumentation des Designs/des Ablaufs 
+
+**xxdokudesign**
 
 `+++`
 
@@ -1511,6 +1494,7 @@ NUR QUALI:
 
 
 ### Maßnahmen zur Sicherstellung der internen Validität
+
 - POS Der Erfolg der experimentellen Intervention wurde geprüft (*"Manipulation Check"*).
 - POS *Störvariablen* wurden reflektiert, identifiziert und (in Teilen) kontrolliert.
 - POS Es wurde auf *Kontrolle von Störvarianz* geachtet, um die interne Validität nicht (unnötig) einzuschränken.
@@ -1554,6 +1538,25 @@ NUR QUALI:
 
 
 
+### Besonderheiten qualitativer Designs {#qualidesigns}
+
+`+++`
+
+
+- POS Der Rückgriff auf die Methode der *Grounded Theory* zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.
+
+
+
+`---`
+
+- NEG Auch in *qualitativen Untersuchungen* ist es nützlich, sich über das Studiendesign (vertiefte) Gedanken zu machen. Ein *Standardvorgehen sensu Mayring* ist zwar oft möglich (und wird von einer großen Zahl an Arbeiten eingesetzt), allerdings kann im Einzelfall mit einem überlegten, *genau auf den Einzelfall der vorliegenden Forschungsfrage abgestimmten Vorgehen* ein besseres Ergebnis erwartet werden. Solch eine Auseinandersetzung mit dem Gegenstand und der dazu abzuleitenden empirischen Methode steht der qualitativen Forschung besonders gut zu Gesichte; genau das ist der Geist und der Leitgedanke qualitativer Forschung. Ein "Vorgehen von der Stange" sticht zumindest nicht positiv hervor und lässt Potenziale der qualitativen Forschung ungenutzt.
+
+- NEG Die qualitative Methode ist für einige Forschungsfragen bzw. Hypothesen gut für andere wiederum weniger gut geeignet. Eine Forschungsfrage bzw. Hypothese, die für qualitative Forschungsfragen weniger gut geeignet ist, lautet: "Arbeitnehmer haben eine höhere Anzahl von Krankheitstagen aufgrund von psychosomatischen Belastungsstörungen als Arbeitnehmer ohne eine psychosomatische Belastungsstörung". Eine Aussage dieser Art zielt auf eine allgemein gültige, populationsbezogene Erkenntnis ab, die mit qualitativer Methode -- zumal in Form einer kleinen Zahl von Interviews -- kaum zu erreichen ist. Im Gegensatz dazu sollten sich sich qualitative Forschungsfragen auf *"Es-gibt-Aussagen"* konzentrieren. So könnte eine qualitative Studie untersuchen, ob "Konflikt am Arbeitsplatz eine Auslöser (aus Sicht der Betroffenen) für Mobbing ist". Denn findet man z.B. im Interview entsprechende Hinweise, so kann man schlussfolgern, dass dies offenbar einer der möglichen Gründe ist. Zwar ist anzunehmen, dass es auch anderen Menschen -- also über die untersuchte Stichprobe hinaus -- so geht, aber eine generelle, quantifizierende Aussage, etwa dass es sich um den wichtigsten Punkt handele oder dass diese Ursache häufiger sei als eine andere, ist nicht abzuleiten. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend umgesetzt.
+
+
+- NEG Untersucht man mittels einer qualitativen Methode etwa "*Einflussfaktoren*" oder sonstige kausal konnotierte Fragen, so sollte sich der Autor bzw. die Autorin darüber bewusst sein, dass eine solche Studie nicht direkt Tatsachen zu Tage fördert sondern *Ansichten* über Tatsachen, das die Methode per se *subjektiv*, nicht objektiv ist. Dass man sich beim Schreiben über diese Tatsache bewusst ist, und Leser darüber bewusst hält, ist zu dokumentieren, also an geeigneter Stelle im Text zu diskutieren. Auch eine entsprechende Formulierung im Titel, etwa "Subjektive Beweggründe von Personalentscheidungen" hilft, diesem Sachverhalt Rechnung zu tragen. Eine Argumentation, dass dieser Sachverhalt evident sei und daher keiner Erwähnung bedürfe, greift zu kurz, denn die Verwechslungsgefahr ist faktisch groß. Im Übrigen ist es das Wesen einer Qualifizierungsarbeit, auf wesentliche Dinge hinzuweisen, um das eigene Wissen zu demonstrieren.
+
+
 
 ## Messinstrumente (xxmess) {#measurement}
 
@@ -1561,9 +1564,9 @@ NUR QUALI:
 
 - POS Es wurden *geeignete Messinstrumente* ausgewählt.
 
-- POS Die Wahl der Messinstrumente wurde unter Bezug auf existierende relevante Studien bestimmt; das ist ein sinnvolles Vorgehen.
+- POS Die Wahl der Messinstrumente wurde *unter Bezug auf existierende relevante Studien* bestimmt; das ist ein sinnvolles Vorgehen.
 
-- POS Die Messinstrumente wurden präzise benannt und beschrieben.
+- POS Die Messinstrumente wurden *präzise* *benannt* und beschrieben.
 
 
 - POS Die *Qualität* der Messinstrumente *wurde methodisch geschickt untersucht*.
@@ -1600,7 +1603,7 @@ NUR QUALI:
 
 - NEG Aufgrund der zentralen Bedeutung der Messinstrumente *sind diese genau zu schildern*. Bei psychometrisch fundierten Fragebogen und ähnlichen Instrumenten sind z.B. die Items im Anhang aufzuführen (oder als zweitbeste Alternative auf eine offene URL zu verweisen) und im Haupttext einige Items beispielhaft zu zitieren. Wird eine Variable nur mit einem Item (per Selbstauskunft) erhoben (z.B. "Wie glücklich sind Sie heute?" oder "Wie viele Zigaretten haben Sie gestern geraucht?") so sind diese Items im Haupttext zu zitieren.
 
-
+- NEG Nur eine *Submenge von Items aus einer existierenden, validierten Skala zu entnehmen ist problematisch*: Die Qualität der Skala ist nur in toto, als Ganzes, geprüft. Eine Teilmenge der Items garantiert nicht für die Messqualität. 
 
 
 ## Stimuli (xxstimuli)
@@ -1650,7 +1653,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 `000`
 
 
-- POS-NEG Die Anzahl der Hypothesen ist weder groß noch gering.
+- POS-NEG Die Anzahl der Hypothesen ist *mittelgroß* (weder groß noch gering).
 
 - POS-NEG Die Anzahl der Hypothesen ist von *mittlerer Höhe*.
 
@@ -1678,6 +1681,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 `+++`
 
 - POS Die Hypothesen wurden *formal korrekt spezifiziert*.
+- POS Es wurden *statische* Hypothesen formuliert. Das ist vorteilhaft, denn damit findet die statistische Analyse ihre Anbindung an die Hypothese; andernfalls klaffte eine Lücke zwischen Theorie und Statistik.
 - POS Die Hypothesen sind *präzise* formuliert.
 - POS *H_0* und *H_A* wurden *jeweils korrekt spezifiziert*.
 - POS Es bietet sich an, die *Hypothesen* an einem geeigneten Platz *konzise* aufzuführen, *abgesetzt* auch optisch vom Textfluss, um Lesern eine schnelle Rezeption dieser wesentlichen Information, was die Hypothesen seien, zu ermöglichen. In diesem Zusammenhang bietet es sich an (oder ist es zumindest eine Möglichkeit), mit statistischen Symbolen zu arbeiten, um die Präzision zu maximieren. Die vorliegende Arbeit setzt diesen Aspekt (ausreichend oder komplett) in *guter Art und Weise* um. 
@@ -1766,6 +1770,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
 - NEG Die Hypothesen oder die Forschungsfrage *sollten konkreter* sein.
 - NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
+- NEG Die Hypothesen würden von *präsiserer Formulierung profitieren*. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: "Je schlechter die *E*rfahrungen mit KI, desto geringer das *V*ertrauen in KI" oder noch präziser: "r(E, V) > 0.3".  Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.
 - NEG Die Hypothesen sind *unpräzise* (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
 - NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
@@ -1832,6 +1837,7 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 
 `+++`
 
+- POS Der Umfang der Stichprobe ist *sehr hoch* (gemessen an den Anforderungen der Prüfung).
 
 - POS Der Umfang der Stichprobe ist *hoch* (gemessen an den Anforderungen der Prüfung).
 
@@ -1946,7 +1952,8 @@ NUR QUALI:
 
 - NEG Tabellen sollten grundsätzlich ohne vertikale Linien gesetzt sein.
 
-- NEG *Tabellen* sollten nicht als *Screenshot* (z. B. aus Excel) abgebildet werden. Mit geringem Aufwand kann ein deutlich schöneres Ergebnis erzielt werden. 
+- NEG *Tabellen* sollten nicht als *Screenshot* (z. B. aus Excel) abgebildet werden. Häufig leidet die gestalterische Qualität dadurch. Außerdem ist es nicht möglich, Werte zu entnehmen per Copy-Paste.
+Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem erzielt werden. 
 
 
 - NEG Die *Spaltenüberschriften* sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.
@@ -2698,8 +2705,8 @@ Fehlinterpretationen:
 
 - NEG *Statistische Kennwerte* sollten entweder in einer *Tabelle* berichtet werden (die dann im Text referenziert wird) oder im *Fließtext* eingearbeitet sein. *Elliptische*, bruchstückhafte oder nicht kommentierte Statistik-Fragmente *sollten vermieden werden*.
 - NEG *p-Werte kleiner als 0.001* sollen laut APA als "p < .001" berichtet werden.
-- NEG Kleine Zahlen wie manche p-Werte sollten nicht in der Exponentialschreibweise und insbesondere nicht in der "Taschenrechnervariante" der Exponentialschreibweise notiert werden, also nicht "p = 2.345e-03", sondern "$p = .002$". 
-- NEG *Einflusskoeffizienten* der Regressionsanalyse ($b$) sollten entweder direkt verständlich sein, also in allgemein verständlichen Einheiten operationalisiert sein (z. B. Geldeinheiten) oder es sollte zumindest die Skalierung expliziert werden, in z. B. die Skalenendpunkte benannt sind. Eine sinnvolle Alternative liegt im Berichten der standardisierten Koeffizienten.
+- NEG Kleine Zahlen wie manche p-Werte sollten nicht in der Exponentialschreibweise und insbesondere nicht in der "Taschenrechnervariante" der Exponentialschreibweise notiert werden, also nicht "p = 2.345e-03", sondern "p = .002". 
+- NEG *Einflusskoeffizienten* der Regressionsanalyse (b) sollten entweder direkt verständlich sein, also in allgemein verständlichen Einheiten operationalisiert sein (z. B. Geldeinheiten) oder es sollte zumindest die Skalierung expliziert werden, in z. B. die Skalenendpunkte benannt sind. Eine sinnvolle Alternative liegt im Berichten der standardisierten Koeffizienten.
 
 
 
@@ -2779,165 +2786,6 @@ Fehlinterpretationen:
 
 
 
-
-
-
-
-
-
-
-
-## Qualitative Datenanalyse (xxqualinh)  {#quali}
-
-
-
-### Auswahl der qualitativen Inhaltsanalyse
-
-
-`---`
-
-- NEG Gerade bei qualitativ angelegten Forschungsdesigns sollte sich die Datenanalyse nicht in einem Schema-F-Vorgehen erschöpfen. Die Stärke der qualitativen Methode liegt in ihrer Flexibilität, ihrer Methodenangemessenheit und ihrer Kraft zu konzeptioneller Tiefe. Diesen Stärken wird ein (zusammenfassende) Inhaltsanalyse nach Mayring nicht gänzlich gerecht. So ist es etwa möglich (und nicht selten der Fall), dass die entdeckten Kategorien in bestimmten Verhältnissen zueinander stehen, etwa in einem Ursache-Wirkungs-Verhältnis. Ein anderes Beispiel ist, dass eine Kategorie einen Kontext (oder Moderator) aufspannt und andere Kategorien miteinander kovariieren. Diese Reichhaltigkeit von Datenmustern spiegelt ein einfaches "es gibt Kategorie A, B und C" nicht wider. Vorteilhafter ist es daher, auf reichhaltigere Datenanalysemethoden wie etwa die *Grounded Theorie* zurückzugreifen; von solchen Methoden hätten Anspruch, Breite und Tiefe der Datenanalyse in der vorliegenden Arbeit profitiert.
-
-
-
-### Transkriptionsregeln der Inhaltsanalyse
-
-
-`+++`
-
-- POS Die angewendeten *Transkriptionsregeln* wurden *expliziert.*
-
-`---`
-
-- NEG Die angewendeten Transkriptionsregeln wurden *nicht (ausreichend) expliziert*.
-
-
-
-
-
-
-### Kodierregeln {#kodierregeln}
-
-
-- POS Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
-
-`---`
-
-
-- NEG Die Kodierregeln sind nicht (ausreichend) stimmig gewählt und/oder nicht transparent (genug) dokumentiert.
-- NEG Die Kodierregeln für die verwendeten Kategorien wurde nicht expliziert. So besteht die Gefahr, dass die Zuordnung der Textstellen zu den Kategorien nicht objektiv nachprüfbar und damit nicht reproduzierbar ist. Eine Studie, die nicht reproduzierbar und nicht replizierbar ist, ist für die Wissenschaft nicht nutzbar.
-- NEG Ein Nichtexplizieren der Kodierregeln wirft die Gefahr der Beliebigkeit auf. Insofern handelt es sich dabei aus Sicht der wissenschaftlichen Verwertbarkeit um einen gravierenden Fehler.
-
-
-
-
-
-### Interviewleitfaden {#interviewleitfaden}
-
-`+++`
-
-- POS Der Interviewleitfaden *entspricht der Forschungsfrage* bzw. setzt diese angemessen um.
-
-- POS Der Interviewleitfaden ist *geschickt aufgebaut* (z.B. werden Eisbrecher- bzw. Einstiegsfragen verwendet).
-
-- POS Der Interviewleitfaden ist gut theoriegestützt und nicht nur atheoretisch.
-
-
-
-
-
-
-
-`---`
-
-- NEG Der Interviewleitfaden *fehlt* (oder ist nicht an der richtigen Stelle angeführt).
-
-
-
-- NEG Der *Interviewleitfaden* ist *nicht (ausführlich genug) oder nicht an richtiger Stelle dargestellt* worden; falls der Interviewleitfaden im Anhang detailliert wird, muss er im entsprechenden Abschnitt referenziert werden. Für eine qualitative Arbeit dieser Art ist der Interviewleitfaden von elementarer Bedeutung; das Fehlen ist als substanzieller Fehler zu werten.
-
-
-- NEG Der Interviewleitfaden soll im Hauptteil *vorgestellt* werden (aber nicht in tutto abgedruckt werden), da er einer der wichtigsten Punkte einer empirischen Studie mit diesem Design ist.
-
-- NEG Wird der *Interviewleitfaden en Detail im Anhang* aufgeführt, so soll er im Haupttext referenziert werden (etwa: "Der Interviewleitfaden ist im Detail im Anhang C angeführt.")
-
-- NEG Der Interviewleitfaden soll auf *einschlägige Theorien zurückgreifen*. Falsch wäre es, rein auf *vorwissenschaftliche* Fragen (etwa: "Was macht eine Führungskraft erfolgreich?") zurückzugreifen. Vielmehr liegt die Stärke der qualitativen Forschung in dem tieferen Verständnis der Forschungsfrage. Daher ist es sinnvoll (bzw. nötig), in qualitativer Forschung die Interviewfragen so zu formulieren, dass ein tiefes (und vertiefendes) Verständnis relevanter Theorien zum Gegenstand ersichtlich wird. Dieser Punkt hätte in der vorliegenden Arbeit von stärkerer Beachtung profitiert. 
-
-- NEG Im Interviewleitfaden sollten *geschlossene* Fragen ("Gefällt Ihnen Ihre Arbeit") nicht oder nur in Ausnahmen verwendet werden.
-
-
-
-
-
-### Kategoriensystem {#kategoriensystem}
-
-- POS *Zentrale Aussagen* der Kategorien wurden *treffend* wiedergegeben.
-
-- POS Die Kategorien des Kategoriensystems wurden *adäquat definiert*.
-
-- POS Es wurden *plausible Kategorien* abgeleitet, die das Material *stimmig* widerzuspiegeln scheinen.
-
-
-
-- NEG Es wurde *kein Kategoriensystem berichtet*. Das ist als schwerwiegender Mangel der Arbeit einzustufen.
-
-- NEG Es wurde *versäumt*, ein *Kategoriensystem aus den Hypothesen abzuleiten*. Da Hypothesen vorhanden waren, sollten sich diese im Text bzw. in der inneren Struktur des Textmaterials wiederfinden - in den Kategorien also. 
-
-- NEG Der Ergebnisteil *berichtet keine Kategorien*; Kategorien sind aber das Herzstück einer qualitativen Inhaltsanalyse zumindest so, wie Sie im Unterricht besprochen wurde. Das Fehlen eines Kategoriensystems ist als schwerer Mangel zu werten.
-
-- NEG Der Ergebnisteil berichtet zwar *Kategorien*, jedoch erscheint die Darstellung als zu *kurz* gehalten und *bruchstückhaft.*
-
-
-
-
-
-
-
-
-### Ergebnisdarstellung der Qualitativen Inhaltsanalyse {#ergebnissequali}
-
-`+++`
-
-- POS Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in *differenzierter und klarer Weise* dar. 
-- POS Der Ergebnisteil berichtet *umfangreiches Material* zu den Kategorien.
-
-
-`000`
-
-
-- POS-NEG Die berichteten Kategorien bieten einige Anhaltspunkte zur Beantwortung der Forschungsfrage, hätten aber von *Zuspitzung* profitiert. 
-
-
-`---`
-
-
-
-- NEG Beim Berichten der Kategorien sollte die *Essenz* der Kategorie, d. h. ihre Bestimmungsstücke bzw. wesentlichen Inhalte berichtet werden. Die Kategorie ist zu *definieren* und ihr *Wesensmerkmal* zu erklären. Es *reicht nicht*, einige Textstellen des Interviewmaterials illustrativ bzw. beispielhaft aufzureihen, die der Kategorie zugeordnet wurden.
-
-
-
-
-- NEG Das Kategoriensystem, welches aus einer qualitativen Studie resultiert, sollte *nicht* schwerpunktmäßig aus einer Sammlung von *Interview-Zitaten* o.Ä. bestehen. Vielmehr sind die wesentlichen *Inhaltsstücke* einer Kategorie als Generalisierung, Abstrahierung und Zusammenfassung von Rohtextstellen zu erstellen, ähnliche einer *Definition.* Die Rohtextstellen dienen lediglich dem Beleg; sie sind nicht der Inhalt der Kategorie. Diese *Extrahierung* der Kategorien bzw. deren Inhalte sind die zentrale intellektuelle/analytische Leistung der empirischen Arbeit. Ein Fehlen solcher Leistung ist ein substanzieller Mangel in der empirischen Ausarbeitung.
-
-- NEG Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die *Definition* der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
-
-
-- NEG Die (Namen bzw. Bezeichnungen der) *Kategorien* scheinen die *Forschungsfrage nicht adäquat widerzuspiegeln* bzw. nicht zu beantworten. Lautet die Forschungsfrage bspw. "Der Einfluss (die Bedeutung von) von Stress auf (für) Gesundheit", so könnte man etwa eine Metakategorie "positive Effekte" erwarten mit Unterkategorien wie "Anstoßen von Änderungen im Lebensstil" oder "Beendigung von Langeweile" erwarten. Falsch bzw. wenig informativ wären Kategorien wie "Stress", "Gesundheit" oder "Auswirkungen". Vielmehr sollen die Kategorien das Wesentliche hervorheben; so könnten die Kategorien etwa "Bluthochdruck", "Partnerschaftsprobleme", "Alkoholkonsum" und "Streit mit Chef" umfassen. Die vorliegende Arbeit ist hier nicht (durchgehend) prägnant genug.
-
-- NEG Angenommen die Forschungsfrage lautete "Die Auswirkungen von Betriebssport auf subjektive Wahrnehmung der Resilienz". Dann wären Ergebniskategorien wie *"Vorteile" und "Nachteile"* ungeeignete also *nicht empfehlenswerte Kategorien*. Diese Kategorien sind informationsarm: Dass der Betriebssport Vor- und Nachteile haben könnte, ist wenig informationsreich. Kategorien sollten vielmehr inhaltsreich formuliert sein und danach streben, zu einem tiefen Verständnis des Gegenstands vorzudringen. Der Name bzw. die Definition einer Kategorie hat daran einen entscheidenden Anteil.
-
-
-- NEG Wesentlich bei einer qualitativen Inhaltsanalyse ist die Dokumentation des Vorgehens, auf welchem Wege also zu den Kategorien gekommen ist. Es ist also der *Prozess der Kategorienentwicklung* aufzuzeigen; im Falle der Mayring'schen Analyse gilt es etwa, *Paraphrasieren und Generalisieren darzustellen*, die entsprechenden Arbeitsschritte also zu dokumentieren. Ohne die *Offenlegung* dieses Vorgehens ist die Qualität des empirischen Arbeiten in einem wesentlichen Punkt nicht als ausreichend zu beurteilen. Dieser Punkt findet in der vorliegenden Arbeit nicht ausreichend Beachtung.
-
-
-
-
-### Vorgehen bei zusammenfassenden Inhaltsanalyse (Materialreduktion)
-
-
-`+++`
-
-- POS Das Vorgehen in der Inhaltsanalyse ist *lege artis* gestaltet.
 
 
 
@@ -3179,9 +3027,164 @@ Fehlinterpretationen:
 
 
 
-## Sonstige Kommentare zum Methodenteil
+
+## Qualitative Datenanalyse (xxqualinh)  {#quali}
+
+
+
+### Auswahl der qualitativen Inhaltsanalyse
+
 
 `---`
+
+- NEG Gerade bei qualitativ angelegten Forschungsdesigns sollte sich die Datenanalyse nicht in einem Schema-F-Vorgehen erschöpfen. Die Stärke der qualitativen Methode liegt in ihrer Flexibilität, ihrer Methodenangemessenheit und ihrer Kraft zu konzeptioneller Tiefe. Diesen Stärken wird ein (zusammenfassende) Inhaltsanalyse nach Mayring nicht gänzlich gerecht. So ist es etwa möglich (und nicht selten der Fall), dass die entdeckten Kategorien in bestimmten Verhältnissen zueinander stehen, etwa in einem Ursache-Wirkungs-Verhältnis. Ein anderes Beispiel ist, dass eine Kategorie einen Kontext (oder Moderator) aufspannt und andere Kategorien miteinander kovariieren. Diese Reichhaltigkeit von Datenmustern spiegelt ein einfaches "es gibt Kategorie A, B und C" nicht wider. Vorteilhafter ist es daher, auf reichhaltigere Datenanalysemethoden wie etwa die *Grounded Theorie* zurückzugreifen; von solchen Methoden hätten Anspruch, Breite und Tiefe der Datenanalyse in der vorliegenden Arbeit profitiert.
+
+
+
+### Transkriptionsregeln der Inhaltsanalyse
+
+
+`+++`
+
+- POS Die angewendeten *Transkriptionsregeln* wurden *expliziert.*
+
+`---`
+
+- NEG Die angewendeten Transkriptionsregeln wurden *nicht (ausreichend) expliziert*.
+
+
+
+
+
+
+### Kodierregeln {#kodierregeln}
+
+
+- POS Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
+
+`---`
+
+
+- NEG Die Kodierregeln sind nicht (ausreichend) stimmig gewählt und/oder nicht transparent (genug) dokumentiert.
+- NEG Die Kodierregeln für die verwendeten Kategorien wurde nicht expliziert. So besteht die Gefahr, dass die Zuordnung der Textstellen zu den Kategorien nicht objektiv nachprüfbar und damit nicht reproduzierbar ist. Eine Studie, die nicht reproduzierbar und nicht replizierbar ist, ist für die Wissenschaft nicht nutzbar.
+- NEG Ein Nichtexplizieren der Kodierregeln wirft die Gefahr der Beliebigkeit auf. Insofern handelt es sich dabei aus Sicht der wissenschaftlichen Verwertbarkeit um einen gravierenden Fehler.
+
+
+
+
+
+### Interviewleitfaden {#interviewleitfaden}
+
+`+++`
+
+- POS Der Interviewleitfaden *entspricht der Forschungsfrage* bzw. setzt diese angemessen um.
+
+- POS Der Interviewleitfaden ist *geschickt aufgebaut* (z.B. werden Eisbrecher- bzw. Einstiegsfragen verwendet).
+
+- POS Der Interviewleitfaden ist gut theoriegestützt und nicht nur atheoretisch.
+
+
+
+
+
+
+
+`---`
+
+- NEG Der Interviewleitfaden *fehlt* (oder ist nicht an der richtigen Stelle angeführt).
+
+
+
+- NEG Der *Interviewleitfaden* ist *nicht (ausführlich genug) oder nicht an richtiger Stelle dargestellt* worden; falls der Interviewleitfaden im Anhang detailliert wird, muss er im entsprechenden Abschnitt referenziert werden. Für eine qualitative Arbeit dieser Art ist der Interviewleitfaden von elementarer Bedeutung; das Fehlen ist als substanzieller Fehler zu werten.
+
+
+- NEG Der Interviewleitfaden soll im Hauptteil *vorgestellt* werden (aber nicht in tutto abgedruckt werden), da er einer der wichtigsten Punkte einer empirischen Studie mit diesem Design ist.
+
+- NEG Wird der *Interviewleitfaden en Detail im Anhang* aufgeführt, so soll er im Haupttext referenziert werden (etwa: "Der Interviewleitfaden ist im Detail im Anhang C angeführt.")
+
+- NEG Der Interviewleitfaden soll auf *einschlägige Theorien zurückgreifen*. Falsch wäre es, rein auf *vorwissenschaftliche* Fragen (etwa: "Was macht eine Führungskraft erfolgreich?") zurückzugreifen. Vielmehr liegt die Stärke der qualitativen Forschung in dem tieferen Verständnis der Forschungsfrage. Daher ist es sinnvoll (bzw. nötig), in qualitativer Forschung die Interviewfragen so zu formulieren, dass ein tiefes (und vertiefendes) Verständnis relevanter Theorien zum Gegenstand ersichtlich wird. Dieser Punkt hätte in der vorliegenden Arbeit von stärkerer Beachtung profitiert. 
+
+- NEG Im Interviewleitfaden sollten *geschlossene* Fragen ("Gefällt Ihnen Ihre Arbeit") nicht oder nur in Ausnahmen verwendet werden.
+
+
+
+
+
+### Kategoriensystem {#kategoriensystem}
+
+- POS *Zentrale Aussagen* der Kategorien wurden *treffend* wiedergegeben.
+
+- POS Die Kategorien des Kategoriensystems wurden *adäquat definiert*.
+
+- POS Es wurden *plausible Kategorien* abgeleitet, die das Material *stimmig* widerzuspiegeln scheinen.
+
+
+
+- NEG Es wurde *kein Kategoriensystem berichtet*. Das ist als schwerwiegender Mangel der Arbeit einzustufen.
+
+- NEG Es wurde *versäumt*, ein *Kategoriensystem aus den Hypothesen abzuleiten*. Da Hypothesen vorhanden waren, sollten sich diese im Text bzw. in der inneren Struktur des Textmaterials wiederfinden - in den Kategorien also. 
+
+- NEG Der Ergebnisteil *berichtet keine Kategorien*; Kategorien sind aber das Herzstück einer qualitativen Inhaltsanalyse zumindest so, wie Sie im Unterricht besprochen wurde. Das Fehlen eines Kategoriensystems ist als schwerer Mangel zu werten.
+
+- NEG Der Ergebnisteil berichtet zwar *Kategorien*, jedoch erscheint die Darstellung als zu *kurz* gehalten und *bruchstückhaft.*
+
+
+
+
+
+
+
+
+### Ergebnisdarstellung der Qualitativen Inhaltsanalyse {#ergebnissequali}
+
+`+++`
+
+- POS Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in *differenzierter und klarer Weise* dar. 
+- POS Der Ergebnisteil berichtet *umfangreiches Material* zu den Kategorien.
+
+
+`000`
+
+
+- POS-NEG Die berichteten Kategorien bieten einige Anhaltspunkte zur Beantwortung der Forschungsfrage, hätten aber von *Zuspitzung* profitiert. 
+
+
+`---`
+
+
+
+- NEG Beim Berichten der Kategorien sollte die *Essenz* der Kategorie, d. h. ihre Bestimmungsstücke bzw. wesentlichen Inhalte berichtet werden. Die Kategorie ist zu *definieren* und ihr *Wesensmerkmal* zu erklären. Es *reicht nicht*, einige Textstellen des Interviewmaterials illustrativ bzw. beispielhaft aufzureihen, die der Kategorie zugeordnet wurden.
+
+
+
+
+- NEG Das Kategoriensystem, welches aus einer qualitativen Studie resultiert, sollte *nicht* schwerpunktmäßig aus einer Sammlung von *Interview-Zitaten* o.Ä. bestehen. Vielmehr sind die wesentlichen *Inhaltsstücke* einer Kategorie als Generalisierung, Abstrahierung und Zusammenfassung von Rohtextstellen zu erstellen, ähnliche einer *Definition.* Die Rohtextstellen dienen lediglich dem Beleg; sie sind nicht der Inhalt der Kategorie. Diese *Extrahierung* der Kategorien bzw. deren Inhalte sind die zentrale intellektuelle/analytische Leistung der empirischen Arbeit. Ein Fehlen solcher Leistung ist ein substanzieller Mangel in der empirischen Ausarbeitung.
+
+- NEG Bei einer qualitativen Inhaltsanalyse ist beim Berichten einer Kategorie nicht entscheidend, was die Interview-Partner gesagt haben. Vielmehr ist die Blickrichtung umgekehrt: Es wird die *Definition* der Kategorie erläutert, die auf Basis der Aussagen der interviewten Personen begründet ist.
+
+
+- NEG Die (Namen bzw. Bezeichnungen der) *Kategorien* scheinen die *Forschungsfrage nicht adäquat widerzuspiegeln* bzw. nicht zu beantworten. Lautet die Forschungsfrage bspw. "Der Einfluss (die Bedeutung von) von Stress auf (für) Gesundheit", so könnte man etwa eine Metakategorie "positive Effekte" erwarten mit Unterkategorien wie "Anstoßen von Änderungen im Lebensstil" oder "Beendigung von Langeweile" erwarten. Falsch bzw. wenig informativ wären Kategorien wie "Stress", "Gesundheit" oder "Auswirkungen". Vielmehr sollen die Kategorien das Wesentliche hervorheben; so könnten die Kategorien etwa "Bluthochdruck", "Partnerschaftsprobleme", "Alkoholkonsum" und "Streit mit Chef" umfassen. Die vorliegende Arbeit ist hier nicht (durchgehend) prägnant genug.
+
+- NEG Angenommen die Forschungsfrage lautete "Die Auswirkungen von Betriebssport auf subjektive Wahrnehmung der Resilienz". Dann wären Ergebniskategorien wie *"Vorteile" und "Nachteile"* ungeeignete also *nicht empfehlenswerte Kategorien*. Diese Kategorien sind informationsarm: Dass der Betriebssport Vor- und Nachteile haben könnte, ist wenig informationsreich. Kategorien sollten vielmehr inhaltsreich formuliert sein und danach streben, zu einem tiefen Verständnis des Gegenstands vorzudringen. Der Name bzw. die Definition einer Kategorie hat daran einen entscheidenden Anteil.
+
+
+- NEG Wesentlich bei einer qualitativen Inhaltsanalyse ist die Dokumentation des Vorgehens, auf welchem Wege also zu den Kategorien gekommen ist. Es ist also der *Prozess der Kategorienentwicklung* aufzuzeigen; im Falle der Mayring'schen Analyse gilt es etwa, *Paraphrasieren und Generalisieren darzustellen*, die entsprechenden Arbeitsschritte also zu dokumentieren. Ohne die *Offenlegung* dieses Vorgehens ist die Qualität des empirischen Arbeiten in einem wesentlichen Punkt nicht als ausreichend zu beurteilen. Dieser Punkt findet in der vorliegenden Arbeit nicht ausreichend Beachtung.
+
+
+
+
+### Vorgehen bei zusammenfassenden Inhaltsanalyse (Materialreduktion)
+
+
+`+++`
+
+- POS Das Vorgehen in der Inhaltsanalyse ist *lege artis* gestaltet.
+
+
+
+
+
+
 
 
 
@@ -3212,11 +3215,11 @@ Fehlinterpretationen:
 
 - NEG Es *fehlt eine empirische Methode*, die aber für diese Arbeut vorgegeben war.
 
-- NEG Zentrale empirisch-methodische Konzepte wurden falsch eingesetzt.
-- NEG Es sind einige kleinere methodische Mängel aufzufinden.
-- NEG Die Anwendung von empirischen Methoden, wie es in der vorliegenden Arbeit demonstriert wird, weist klares Verbesserungspotenzial auf.
+- NEG *Zentrale empirisch-methodische Konzepte* wurden *falsch* eingesetzt.
+- NEG Es sind *einige kleinere methodische Mängel *aufzufinden.
+- NEG Die Anwendung von empirischen Methoden, wie es in der vorliegenden Arbeit demonstriert wird, weist *klares Verbesserungspotenzial* auf.
 
-- NEG Die Datenanalyse weist große Lücke auf.
+- NEG Die Datenanalyse weist *große Lücken* auf.
 
 
 
@@ -3226,21 +3229,21 @@ Fehlinterpretationen:
 `+++`
 
 
-- POS Insgesamt sind die Formalia der Datenanalyse gut bis sehr gut abgearbeitet.
+- POS Insgesamt sind die Formalia der Datenanalyse *gut bis sehr gut* abgearbeitet.
 
-- POS Die Arbeit ist vollständig insofern, als dass alle (wesentlichen) geforderten Arbeitsschritte ausgeführt wurden.
+- POS Die Arbeit ist vollständig insofern, als dass *alle (wesentlichen) geforderten Arbeitsschritte ausgeführt* wurden.
 
-- POS Die Skalenniveaus der untersuchten Variablen wurden korrekt benannt.
+- POS Die Skalenniveaus der untersuchten Variablen wurden *korrekt benannt*.
 
-- POS Relevante Aspekte des Datensatzes wurden beschrieben.
+- POS *Relevante Aspekte* des Datensatzes wurden *beschrieben.*
 
-- POS Die Quelle des Datensatzes wurde benannt. Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
+- POS Die *Quelle* des Datensatzes wurde *benannt.* Damit kann die Analyse ggf. besser überprüft werden. Ein zentraler Bestandteil zur Reproduzierbarkeit ist damit gewährleistet.
 
-- POS Die Syntax und/oder die R-Ausgaben wurden optisch  ansprechend und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
+- POS Die *Syntax und/oder die R-Ausgaben wurden optisch  ansprechend* und übersichtlich gestaltet (z. B. mit Syntax-Highlighting).
 
-- POS Es wurde ein hohes Maß an Kompetenz im Umgang mit R demonstriert.
+- POS Es wurde ein *hohes Maß an Kompetenz im Umgang mit R* demonstriert.
 
-- POS Die gestalterische Qualität der Abbildungen ist hoch.
+- POS Die *gestalterische* *Qualität* der *Abbildungen* ist hoch.
 
 
 
@@ -3283,7 +3286,7 @@ Fehlinterpretationen:
 - POS Die Entscheidung zum Verwerfen/Beibehalten der H0 wurde korrekt von der Datenlage bzw. dem p-Wert abgeleitet.
 
 
-- POS Die Hypothesen wurden formal korrekt spezifiziert.
+- POS Die Hypothesen wurden *formal korrekt* spezifiziert.
 
 - POS Titel, Forschungsfrage/Hypothesen und Datenanalyse passen zusammen.
 
