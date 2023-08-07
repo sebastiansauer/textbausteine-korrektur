@@ -268,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#umfang-des-theorieteiles" id="toc-umfang-des-theorieteiles" class="nav-link" data-scroll-target="#umfang-des-theorieteiles"><span class="header-section-number">6.11.2</span> Umfang des Theorieteiles</a></li>
   <li><a href="#qualtheorie" id="toc-qualtheorie" class="nav-link" data-scroll-target="#qualtheorie"><span class="header-section-number">6.11.3</span> Qualität des Theorieteiles</a></li>
   <li><a href="#drei-teile-des-theorieteils-xxdreiteile" id="toc-drei-teile-des-theorieteils-xxdreiteile" class="nav-link" data-scroll-target="#drei-teile-des-theorieteils-xxdreiteile"><span class="header-section-number">6.11.4</span> Drei Teile des Theorieteils (xxdreiteile)</a></li>
-  <li><a href="#theorieteil---kausalmodell-xxkausal-xxcausal" id="toc-theorieteil---kausalmodell-xxkausal-xxcausal" class="nav-link" data-scroll-target="#theorieteil---kausalmodell-xxkausal-xxcausal"><span class="header-section-number">6.11.5</span> Theorieteil - Kausalmodell (xxkausal, xxcausal)</a></li>
+  <li><a href="#theorieteil---kausalmodell-dag-xxkausal-xxcausal-xxdag" id="toc-theorieteil---kausalmodell-dag-xxkausal-xxcausal-xxdag" class="nav-link" data-scroll-target="#theorieteil---kausalmodell-dag-xxkausal-xxcausal-xxdag"><span class="header-section-number">6.11.5</span> Theorieteil - Kausalmodell, DAG (xxkausal, xxcausal, xxdag)</a></li>
   </ul></li>
   <li><a href="#literaturverzeichnis-xxliteratur" id="toc-literaturverzeichnis-xxliteratur" class="nav-link" data-scroll-target="#literaturverzeichnis-xxliteratur"><span class="header-section-number">6.12</span> Literaturverzeichnis (xxliteratur)</a>
   <ul class="collapse">
@@ -344,7 +344,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">27. Juli 2023</p>
+      <p class="date">7. August 2023</p>
     </div>
   </div>
   
@@ -1259,6 +1259,7 @@ q {
 <li>POS Das <em>Studiendesign</em> bzw. der -ablauf wurde in guter Weise stringent und konzise berichtet.</li>
 <li>POS Das Studiendesign bzw. der -ablauf wurde nachvollziehbar berichtet.</li>
 <li>POS <em>UV und AV</em> (bzw. Prädiktoren und Kriterium) wurden expliziert.</li>
+<li>POS Was die unabhängige Variable (UV) und die abhängige Variable (AV) einer Forschungsfrage ist, weist entscheidende Bedeutung für eine Studie auf. Daher ist es sinnvoll, diese Information <em>gut lesbar (und konzise) zu platzieren</em>. Eine Abhebung vom allgemeinen Textfluss ist eine sinnvolle Möglichkeit dazu. Dieser Punkt wurde in der vorliegenden Arbeit in guter Weise umgesetzt.</li>
 <li>POS Es wurde eine <em>Visualisierung</em> (z. B. als “Flowchart” bzw. Flussdiagramm oder Ablaufdiagramm) des Versuchsablauf dargeboten, was die Verständlichkeit erhöht.</li>
 <li>POS Der <em>Ablauf</em> des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) <em>geschildert.</em></li>
 </ul>
@@ -1267,7 +1268,7 @@ q {
 <li><p>POS-NEG Der <em>Ablauf bzw. das Design</em> der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.</p></li>
 <li><p>POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.</p></li>
 <li><p>NEG Das <em>Design</em> der Studie wurde nicht oder <em>nicht</em> ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht <em>erläutert</em> (z. B. ob es um ein Between-Subject-Experiment mit einem Faktor und zwei Stufen handelt oder um eine Beobachtungsstudie).</p></li>
-<li><p>NEG <em>UVs</em> und AVs wurden <em>nicht</em> <em>expliziert</em>, bzw. Prädiktoren und Kriterium wurden nicht expliziert.</p></li>
+<li><p>NEG <em>UVs</em> und AVs wurden <em>nicht</em> <em>expliziert</em>, bzw. Prädiktoren und Kriterium wurden nicht expliziert (oder nicht an geeigneter Stelle).</p></li>
 <li><p>NEG Die <em>Darstellung</em> des empirischen Vorgehens (Studiendesign) weist große <em>Lücken</em> auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.</p></li>
 <li><p>NEG Der <em>Ablauf</em> der Studie (z. B. Intervention, Messung, Instruktionen) wurde <em>unzureichend</em> genau <em>beschrieben.</em></p></li>
 <li><p>NEG Das empirisch-methodisch <em>Vorgehen</em> wurde zu <em>knapp</em> oder gar nicht <em>beschrieben</em> (z. B. Mit welcher R-Funktion wurde die Power durchgeführt)?</p></li>
@@ -1357,6 +1358,8 @@ q {
 <li><p>NEG Die Messinstrumente sollten in einem <em>eigenen Abschnitt namens “Messinstrumente”</em> o.Ä. berichtet werden. Diese Regel gilt auch, wenn keine psychometrischen Maße verwendet wurden, sondern z.B Verhaltensbeobachtungen durchgeführt wurden.</p></li>
 <li><p>NEG Aufgrund der zentralen Bedeutung der Messinstrumente <em>sind diese genau zu schildern</em>. Bei psychometrisch fundierten Fragebogen und ähnlichen Instrumenten sind z.B. die Items im Anhang aufzuführen (oder als zweitbeste Alternative auf eine offene URL zu verweisen) und im Haupttext einige Items beispielhaft zu zitieren. Wird eine Variable nur mit einem Item (per Selbstauskunft) erhoben (z.B. “Wie glücklich sind Sie heute?” oder “Wie viele Zigaretten haben Sie gestern geraucht?”) so sind diese Items im Haupttext zu zitieren.</p></li>
 <li><p>NEG Nur eine <em>Submenge von Items aus einer existierenden, validierten Skala zu entnehmen ist problematisch</em>: Die Qualität der Skala ist nur in toto, als Ganzes, geprüft. Eine Teilmenge der Items garantiert nicht für die Messqualität.</p></li>
+<li><p>NEG <em>Entwirft man selber</em> ein Messinstrument, so sollten grundlegende Kennzahlen zur Güte im Bericht aufgeführt werden.</p></li>
+<li><p>NEG Verwendet man einen (ggf. <em>selbstentwickelten</em>) <em>Wissenstest</em> als AV, so sollte man <em>grundlegende Kennzahlen zur Güte</em> dieses Instruments vorlegen. So stellt sich beispielsweise die Frage “Waren die Fragen auch nicht zu schwer? Vielleicht konnte ja niemand, in keiner Gruppe, die Fragen beantworten?” oder “Waren die Fragen auch nicht zu leicht? Vielleicht haben ja alle Versuchspersonen alle Fragen korrekt beantwortet?” oder “Wenn alle Fragen auf ein und dasselbe Wissensgebiet abzielen, so sollten die Fragenantworten korrelieren. Tun sie das? Alle? Wie sehr?”.</p></li>
 </ul>
 </section>
 <section id="stimuli-xxstimuli" class="level2" data-number="5.4">
@@ -1388,7 +1391,8 @@ q {
 </ol>
 <p><code>+++</code></p>
 <ul>
-<li>POS Die Anzahl der Hypothesen ist <em>groß</em>; es wurde somit eine umfangreiche Studie durchgeführt bzw. geplant.</li>
+<li><p>POS Die Anzahl der Hypothesen ist <em>groß</em>; es wurde somit eine umfangreiche Studie durchgeführt bzw. geplant.</p></li>
+<li><p>POS Die Anzahl der Hypothesen ist <em>passend</em> für den Anspruch der Prüfung.</p></li>
 </ul>
 <p><code>000</code></p>
 <ul>
@@ -1424,7 +1428,7 @@ q {
 <li><p>NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass “X größer Y” sei. Vermutlich war aber gemeint, dass X <em>im Durchschnitt</em> größer als Y ist.</p></li>
 <li><p>NEG Die Hypothesen würden von <em>präsiserer Formulierung profitieren</em>. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: “Je schlechter die <em>E</em>rfahrungen mit KI, desto geringer das <em>V</em>ertrauen in KI” oder noch präziser: “r(E, V) &gt; 0.3”. Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.</p></li>
 <li><p>NEG Die Hypothesen sind <em>unpräzise</em> (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also “signifikant”) unterscheiden, so sollte die zugehörige H0 etwa lauten: “<em>Mittelwert von Gruppe A gleich Mittelwert von Gruppe B</em>”; zu sagen “Es gibt keinen Unterschied zwischen den Gruppen A und B” hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.</p></li>
-<li><p>NEG Möchte man Hypothesen sehr <em>präzise</em> gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: “<span class="math inline">\(H_A: \mu_F &gt; \mu_M\)</span>” oder <span class="math inline">\(r(A, B) &gt; 0\)</span>.</p></li>
+<li><p>NEG Möchte man Hypothesen sehr <em>präzise</em> gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: “H_A: µ_F &gt; µ_M” oder <em>r(A, B) &gt; 0</em>. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend umgesetzt.</p></li>
 <li><p>NEG Hypothesen sollen <em>operational</em> formuliert sein. Also nicht z.B. “Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab” sondern etwa “LEaD ist positiv korreliert mit XYZ”.</p></li>
 </ul>
 </section>
@@ -1600,6 +1604,7 @@ q {
 <li><p>NEG Die <em>Spaltenüberschriften</em> sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.</p></li>
 <li><p>NEG Bei Tabellen sollte man auf (farblich intensive) Darstellung von <em>Spaltengrenzen</em> in Formen <em>vertikaler Linien</em> verzichten, da diese zur stark im Inhalt ablenken. Die Formvorgaben der APA/DGPs sehen zudem vor, auf solche Linien zu verzichten. Die vorliegende Arbeit berücksichtigt dies nicht durchgehend.</p></li>
 <li><p>NEG <em>Tabellen</em> sollten (in Berichten, die man einem Publikum, etwa einem Kunden) präsentiert nicht als bloßer, unformartierter R-Output gesetzt werden. Stattdessen sollten <em>optisch ansprechendere Formatierungen</em> verwendet werden. In R gibt es z.B. eine Reihe von Methoden, um optisch ansprechende Tabellen zu generieren, etwa mit <code>gt::gt()</code>, <code>knitr::kable()</code> oder <code>insight::display()</code>, s. <a href="https://easystats.github.io/insight/reference/display.html">Details hier</a>.</p></li>
+<li><p>NEG Tabellen sollten als Tabellen und nicht als <em>Abbildungen</em> <em>referenziert</em> werden.</p></li>
 </ul>
 </section>
 </section>
@@ -1684,7 +1689,7 @@ q {
 </ul>
 <p><code>000</code></p>
 <ul>
-<li>POS-NEG Eine <em>Wordcloud</em> ist zwar eine unübersichtliche und damit wissenschaftlich eingeschränkt nützliche Datenvisualisierung. Ist man sich dieses Nachteils aber bewusst und setzt die “Wortwolke” nur als groben Indikator ein, so kann sie nützlich sein zur optischen Auflockerung und ansprechenden Gestaltung eines Dokuments.</li>
+<li>NEUTRAL Eine <em>Wordcloud</em> ist zwar eine unübersichtliche und damit wissenschaftlich eingeschränkt nützliche Datenvisualisierung. Ist man sich dieses Nachteils aber bewusst und setzt die “Wortwolke” nur als groben Indikator ein, so kann sie nützlich sein zur optischen Auflockerung und ansprechenden Gestaltung eines Dokuments.</li>
 </ul>
 <p><code>---</code></p>
 <ul>
@@ -1723,6 +1728,7 @@ q {
 <li><p>NEG Die Hypothesen untersuchen den <em>Mittelwert</em>, aber alle oder einige Diagramme zeigen nicht den Mittelwert, sondern den <em>Median</em> (z. B. mittels eines Boxplots).</p></li>
 <li><p>NEG Einige Diagramme leiden unter “<em>Overplotting</em>”, d.&nbsp;h. viele Details (z. B. Punkte) sind übereinander gezeichnet, so dass die (relative) Anzahl von Punkten im Diagramm schwer bzw. eingeschränkt erkennbar ist.</p></li>
 <li><p>NEG Die Verwendung von <em>Fehlerbalken</em> in Diagrammen ist eine gute Idee; allerdings sollte im Text (oder besser in der Diagrammbeschriftung) erläutert werden, was der Fehlerbalken darstellt: Den <em>Standardfehler</em> (SE), die Standardabweichung oder das 95%-Konfidenzintervall?</p></li>
+<li><p>NEG <em>Freunde lassen Freunde keine Balkendiagramme</em> verwenden, wenn es darum geht, Mittelwerte darzustellen: <a href="https://github.com/cxli233/FriendsDontLetFriends#1-friends-dont-let-friends-make-bar-plots-for-means-separation" class="uri">https://github.com/cxli233/FriendsDontLetFriends#1-friends-dont-let-friends-make-bar-plots-for-means-separation</a></p></li>
 </ul>
 </section>
 <section id="pixelig" class="level4" data-number="5.8.4.5">
@@ -2001,7 +2007,7 @@ q {
 <h3 data-number="5.8.20" class="anchored" data-anchor-id="bayes-xxbayes"><span class="header-section-number">5.8.20</span> Bayes (xxbayes)</h3>
 <p><code>+++</code></p>
 <ul>
-<li>POS Das Bayes-Modell wurde <em>spefiziert</em> (Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).</li>
+<li>POS Das Bayes-Modell wurde <em>spezifiziert</em> (Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).</li>
 <li>POS Insgesamt wurde eine inferenzstatistische Analyse mit den Methoden der <em>Bayes</em>-Methode <em>sinnvoll</em> durchgeführt.</li>
 <li>POS Insgesamt wurden die Kennwerte der Bayes-Analyse korrekt interpretiert.</li>
 <li>POS Es wurde eine <em>ROPE-Analyse</em> <em>durchgeführt.</em></li>
@@ -2009,6 +2015,7 @@ q {
 </ul>
 <p><code>---</code></p>
 <ul>
+<li><p>POS Das Bayes-Modell wurde <em>nicht spezifiziert</em> (im Hinblick auf Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).</p></li>
 <li><p>NEG Liefert eine <em>ROPE-Analys</em>e den Befund, dass das Gros (z.B. 95%-PI) der Posteriori-Verteilung zum Teil im ROPE und zum Teil außerhalb liegt, so ist zu resümieren, dass die Befundlage <em>uneinheitlich</em> ist. Zu sagen, dass die ROPE-Hypothese (“praktische Nullhypothese”) nicht verworfen werden dürfe, ist zwar nicht falsch, aber nicht präzise genug.</p></li>
 <li><p>NEG Verwendet man den Begriff <em>“Signifikanz”</em> (korrekter: statistische Signifikanz) im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird und es daher keine einheitlich akzeptierte Definition gibt. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von “signifikant” ist “das 95%-PI der Posteriori-Verteilung liegt komplett außerhalb des ROPE”. Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist. Es ist auch zu argumentieren, dass es besser ist, außerhalb der Frequentistischen Statistik, auf den Begriff zu verzichten. Übrigens rät die ASA, auch innerhalb der Frequentistischen Statistik auf den Begriff zu verzichten.</p></li>
 </ul>
@@ -2832,8 +2839,8 @@ q {
 <li>NEG Die Stärke der qualitativen Forschung liegt (auch) darin, einen Gegenstandsbereich zu <em>verstehen</em>. Das verlangt aber eine <em>ausführliche Beschäftigung</em> mit dem Gegenstand. Es soll eine dezidiert hohe Kompetenz zum Gegenstand ersichtlich sein. Mit einem Wort: Sie kennen sich zu dem Thema einfach gut aus! Die Darlegung des Gegenstands beinhaltet dabei nicht nur eine Aufführung relevanter Theorien und Modelle (inklusive deren Evidenz), sondern auch und gerade eine <em>Reflexion über und eine Diskussion zu</em> diesen theoretischen Ausführung. Den Gegenstand in der Tiefe verstehen, das ist die Leitidee, die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Teilen um.</li>
 </ul>
 </section>
-<section id="theorieteil---kausalmodell-xxkausal-xxcausal" class="level3" data-number="6.11.5">
-<h3 data-number="6.11.5" class="anchored" data-anchor-id="theorieteil---kausalmodell-xxkausal-xxcausal"><span class="header-section-number">6.11.5</span> Theorieteil - Kausalmodell (xxkausal, xxcausal)</h3>
+<section id="theorieteil---kausalmodell-dag-xxkausal-xxcausal-xxdag" class="level3" data-number="6.11.5">
+<h3 data-number="6.11.5" class="anchored" data-anchor-id="theorieteil---kausalmodell-dag-xxkausal-xxcausal-xxdag"><span class="header-section-number">6.11.5</span> Theorieteil - Kausalmodell, DAG (xxkausal, xxcausal, xxdag)</h3>
 <p><code>+++</code></p>
 <ul>
 <li><p>POS Die <em>Grenzen der internen Validität</em> – also die Grenzen beim Formulieren von Kausalaussagen – wurden in <em>nützlicher</em> Art und Weise diskutiert.</p></li>
@@ -2857,6 +2864,7 @@ q {
 <li><p>NEG Verwendet man in der Forschungsfrage bzw. in den Hypothesen Begriffe/Terme wie <em>“X beeinflusst Y”</em> , “der Effekt (die Wirkung) von X auf Y”, “die Auswirkung von X auf Y” oder “X bewirkt Y” etc., so formuliert man eine <em>Kausalaussage</em>, eine Aussage also, die etwas über einen ursächlichen Zusammenhang zweier Größen aussagt. Kausalaussagen sind ein zentrales Thema in den meisten empirischen Forschungsarbeiten. Entsprechend sollte in der Arbeit (etwa im Theorie-, Methoden- und Ergebnisteil) auf entsprechende Modelle oder Methoden zur Analyse von Kausalaussagen zurückgegriffen werden; es reicht dann nicht, Assoziationsmaße (wie Korrelationskoeffizienten) zu berechnen. In der vorliegenden Arbeit ist dies nicht (durchgehend) der Fall. Alternativ könnte man auf kausale Aussagen verzichten und stattdessen nur vom “Zusammenhang” (Assoziation) von X und Y sprechen, kausale Behauptungen also meiden.</p></li>
 <li><p>NEG Formuliert man kausale Hypothese, so ist es nicht ausreichend, bestimmte Statistiken wie Korrelationen auszurechnen, da Korrelationen noch keine Kausation begründet, wie allgemein bekannt ist. Besser ist es, die <em>statistischen Ergebnisse im Licht der Kausalmodelle</em> zu prüfen.</p></li>
 <li><p>NEG Da in der Arbeit Ausagen mit Kausalanspruch formuliert werden, empfehle ich Ihnen, sich mit der <em>statistischen Analyse von Kausalaussagen</em> zu beschäftigen. Empfehlenswerte <em>Einstiegsliteratur</em> ist etwa: Rohrer, J. M. (2018). Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data. Advances in Methods and Practices in Psychological Science, 1(1), 27–42. https://doi.org/10.1177/2515245917745629, Lübke, K., Gehrke, M., Horst, J., &amp; Szepannek, G. (2020). Why We Should Teach Causal Inference: Examples in Linear Regression with Simulated Data. Journal of Statistics Education, 1–17. https://doi.org/10.1080/10691898.2020.1752859 oder Elwert, F. (2013). Graphical causal models. In S. Morgan (Ed.), Handbook of causal analysis for social research (pp.&nbsp;245–273). Springer. https://www.researchgate.net/publication/278717528_Graphical_Causal_Models.</p></li>
+<li><p>NEG Der DAG ist in der vorliegenden Arbeit in folgender Form dargestellt “G_Exp –&gt; AV &lt;– G_Kon”. Dabei steht “G_Exp” für <em>Experimentalgruppe</em> und “G_Kon” für <em>Kontrollgruppe</em>. Die Darstellung des DAG ist (grundlegend) falsch, da “G_Exp” und “G_Kon” nicht jeweils eine Variable darstellen, sondern nur jeweils eine <em>Stufe</em> (Ausprägung) einer Variablen. Es wurden also die verschiedenen Stufen (Ausprägungen) der UV fälschlich als mehrere UV dargestellt. Richtig wäre also ein DAG der Art “UV –&gt; AV”. Dieser Punkt ist in der vorliegenden Arbeit nicht korrekt umgesetzt.</p></li>
 </ul>
 </section>
 </section>
@@ -2864,10 +2872,10 @@ q {
 <h2 data-number="6.12" class="anchored" data-anchor-id="literaturverzeichnis-xxliteratur"><span class="header-section-number">6.12</span> Literaturverzeichnis (xxliteratur)</h2>
 <section id="literaturmenge" class="level3" data-number="6.12.1">
 <h3 data-number="6.12.1" class="anchored" data-anchor-id="literaturmenge"><span class="header-section-number">6.12.1</span> Umfang des Literaturverzeichnisses (xxlitmenge)</h3>
-<p>Der Gutachter beziffert seine Anforderung (Für eine “gute” Leistung) an die zitierte <em>Quellenzahl</em> bei</p>
+<p>Der Gutachter beziffert seine Anforderung (für eine “gute” Leistung) für eine Einzelarbeit wie folgt:</p>
 <ul>
 <li><em>Abschlussarbeiten</em> wie folgt (vgl. Anforderungen für Abschlussarbeiten auf der OC-Seite des Gutachters): 1. Bachelor: Ca. <em>50-60</em> Quellen; 2. Master: ca. <em>60-80</em> Quellen.</li>
-<li><em>quant. Seminararbeiten</em> wie folgt: 15-20 Quellen im Bachelor (davon 25% Fachartikel) und 25-30 Quellen im Master (davon 50% Fachartikel).</li>
+<li><em>quant. Seminararbeiten</em> wie folgt: 15-20 Quellen im Bachelor (davon 25% Fachartikel) und 25-30 Quellen im Master (davon 50% Fachartikel) bei einer Einzelarbeit (Faktor 2 für Gruppenarbeiten)</li>
 <li><em>qual. Seminararbeiten</em> wie folgt: ???</li>
 <li><em>theoretischen Seminararbeiten</em>: 30-40 Quellen.</li>
 </ul>

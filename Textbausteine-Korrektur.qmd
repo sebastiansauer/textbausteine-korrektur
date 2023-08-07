@@ -1465,6 +1465,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - POS Das *Studiendesign* bzw. der -ablauf wurde in guter Weise stringent und konzise berichtet.
 - POS Das Studiendesign bzw. der -ablauf wurde nachvollziehbar berichtet. 
 - POS *UV und AV* (bzw. Prädiktoren und Kriterium) wurden expliziert.
+- POS Was die unabhängige Variable (UV) und die abhängige Variable (AV) einer Forschungsfrage ist, weist entscheidende Bedeutung für eine Studie auf. Daher ist es sinnvoll, diese Information *gut lesbar (und konzise) zu platzieren*. Eine Abhebung vom allgemeinen Textfluss ist eine sinnvolle Möglichkeit dazu. Dieser Punkt wurde in der vorliegenden Arbeit in guter Weise umgesetzt.
 - POS Es wurde eine *Visualisierung*  (z. B. als "Flowchart" bzw. Flussdiagramm oder Ablaufdiagramm) des Versuchsablauf dargeboten, was die Verständlichkeit erhöht.
 - POS Der *Ablauf* des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) *geschildert.*
 
@@ -1475,7 +1476,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - POS-NEG Der *Ablauf bzw. das Design* der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.
 - POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.
 - NEG Das *Design* der Studie wurde nicht oder *nicht* ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht *erläutert* (z. B. ob es um ein Between-Subject-Experiment mit einem Faktor und zwei Stufen handelt oder um eine Beobachtungsstudie).
-- NEG *UVs* und AVs wurden *nicht* *expliziert*, bzw. Prädiktoren und Kriterium wurden nicht expliziert.
+- NEG *UVs* und AVs wurden *nicht* *expliziert*, bzw. Prädiktoren und Kriterium wurden nicht expliziert (oder nicht an geeigneter Stelle).
 
 
 - NEG Die *Darstellung* des empirischen Vorgehens (Studiendesign) weist große *Lücken* auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.
@@ -1587,6 +1588,7 @@ NUR QUALI:
 - NEG Es ist nicht klar (genug) ersichtlich aus dem Text, *ob und inwieweit geeignete Messinstrumente ausgewählt* wurden.
 
 - NEG Die *verwendeten Messinstrumente wurden nicht (in ausreichendem Maße) erläutert*. Messung ist jedoch für jede empirische Forschung ein Grundstein; daher sollte diesem Punkt immer Aufmerksamkeit zuerteilt werden.
+
 - NEG Es *fehlen Hinweise zu den Gütekriterien* der Messinstrumente oder diese Informationen stehen am falschen Ort.
 
 - NEG Es fehlen Hinweisen zur *internen Konsistenz* (z. B. Cronbachs Alpha) der verwendeten Messinstrumente oder diese Informationen stehen am falschen Ort.
@@ -1603,6 +1605,11 @@ NUR QUALI:
 - NEG Aufgrund der zentralen Bedeutung der Messinstrumente *sind diese genau zu schildern*. Bei psychometrisch fundierten Fragebogen und ähnlichen Instrumenten sind z.B. die Items im Anhang aufzuführen (oder als zweitbeste Alternative auf eine offene URL zu verweisen) und im Haupttext einige Items beispielhaft zu zitieren. Wird eine Variable nur mit einem Item (per Selbstauskunft) erhoben (z.B. "Wie glücklich sind Sie heute?" oder "Wie viele Zigaretten haben Sie gestern geraucht?") so sind diese Items im Haupttext zu zitieren.
 
 - NEG Nur eine *Submenge von Items aus einer existierenden, validierten Skala zu entnehmen ist problematisch*: Die Qualität der Skala ist nur in toto, als Ganzes, geprüft. Eine Teilmenge der Items garantiert nicht für die Messqualität. 
+
+- NEG *Entwirft man selber* ein Messinstrument, so sollten grundlegende Kennzahlen zur Güte im Bericht aufgeführt werden.
+
+- NEG Verwendet man einen (ggf. *selbstentwickelten*) *Wissenstest* als AV, so sollte man *grundlegende Kennzahlen zur Güte* dieses Instruments vorlegen. So stellt sich beispielsweise die Frage "Waren die Fragen auch nicht zu schwer? Vielleicht konnte ja niemand, in keiner Gruppe, die Fragen beantworten?" oder "Waren die Fragen auch nicht zu leicht? Vielleicht haben ja alle Versuchspersonen alle Fragen korrekt beantwortet?" oder "Wenn alle Fragen auf ein und dasselbe Wissensgebiet abzielen, so sollten die Fragenantworten korrelieren. Tun sie das? Alle? Wie sehr?".
+
 
 
 ## Stimuli (xxstimuli)
@@ -1648,6 +1655,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 
 - POS Die Anzahl der Hypothesen ist *groß*; es wurde somit eine umfangreiche Studie durchgeführt bzw. geplant.
 
+- POS Die Anzahl der Hypothesen ist *passend* für den Anspruch der Prüfung.
 
 `000`
 
@@ -1701,7 +1709,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Die Hypothesen würden von *präsiserer Formulierung profitieren*. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: "Je schlechter die *E*rfahrungen mit KI, desto geringer das *V*ertrauen in KI" oder noch präziser: "r(E, V) > 0.3".  Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.
 - NEG Die Hypothesen sind *unpräzise* (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
-- NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "$H_A: \mu_F > \mu_M$" oder $r(A, B) > 0$.
+- NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "H_A: µ_F > µ_M" oder *r(A, B) > 0*. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend umgesetzt.
 
 - NEG Hypothesen sollen *operational* formuliert sein. Also nicht z.B. "Der Erfolg von mobilem Arbeiten hängt von der Akzeptanz durch die Führungskräfte ab" sondern etwa "LEaD ist positiv korreliert mit XYZ".
 
@@ -1969,7 +1977,7 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem erzie
 - NEG *Tabellen* sollten (in Berichten, die man einem Publikum, etwa einem Kunden) präsentiert nicht als bloßer, unformartierter R-Output gesetzt werden. Stattdessen sollten *optisch ansprechendere Formatierungen* verwendet werden. In R gibt es z.B. eine Reihe von Methoden, um optisch ansprechende Tabellen zu generieren, etwa mit `gt::gt()`, `knitr::kable()` oder `insight::display()`, s. [Details hier](https://easystats.github.io/insight/reference/display.html).
 
 
-
+- NEG Tabellen sollten als Tabellen und nicht als *Abbildungen* *referenziert* werden.
 
 
 
@@ -2106,7 +2114,7 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem erzie
 
 `000`
 
-- POS-NEG Eine *Wordcloud* ist zwar eine unübersichtliche und damit wissenschaftlich eingeschränkt nützliche Datenvisualisierung. Ist man sich dieses Nachteils aber bewusst und setzt die "Wortwolke" nur als groben Indikator ein, so kann sie nützlich sein zur optischen Auflockerung und ansprechenden Gestaltung eines Dokuments.
+- NEUTRAL Eine *Wordcloud* ist zwar eine unübersichtliche und damit wissenschaftlich eingeschränkt nützliche Datenvisualisierung. Ist man sich dieses Nachteils aber bewusst und setzt die "Wortwolke" nur als groben Indikator ein, so kann sie nützlich sein zur optischen Auflockerung und ansprechenden Gestaltung eines Dokuments.
 
 
 
@@ -2172,6 +2180,8 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem erzie
 - NEG Einige Diagramme leiden unter "*Overplotting*", d. h. viele Details (z. B. Punkte) sind übereinander gezeichnet, so dass die (relative) Anzahl von Punkten im Diagramm schwer bzw. eingeschränkt erkennbar ist.
 
 - NEG Die Verwendung von *Fehlerbalken* in Diagrammen ist eine gute Idee; allerdings sollte im Text (oder besser in der Diagrammbeschriftung) erläutert werden, was der Fehlerbalken darstellt: Den *Standardfehler* (SE), die Standardabweichung oder das 95%-Konfidenzintervall?
+
+- NEG *Freunde lassen Freunde keine Balkendiagramme* verwenden, wenn es darum geht, Mittelwerte darzustellen: <https://github.com/cxli233/FriendsDontLetFriends#1-friends-dont-let-friends-make-bar-plots-for-means-separation>
 
 
 
@@ -2607,7 +2617,7 @@ Fehlinterpretationen:
 
 `+++`
 
-- POS Das Bayes-Modell wurde *spefiziert* (Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).
+- POS Das Bayes-Modell wurde *spezifiziert* (Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).
 - POS Insgesamt wurde eine inferenzstatistische Analyse mit den Methoden der *Bayes*-Methode *sinnvoll* durchgeführt.
 - POS Insgesamt wurden die Kennwerte der Bayes-Analyse korrekt interpretiert.
 - POS Es wurde eine *ROPE-Analyse* *durchgeführt.*
@@ -2615,6 +2625,8 @@ Fehlinterpretationen:
 
 
 `---`
+
+- POS Das Bayes-Modell wurde *nicht spezifiziert* (im Hinblick auf Prior-Verteilungen und ihre Parameter bzw. Likelihood-Form).
 
 - NEG Liefert eine *ROPE-Analys*e den Befund, dass das Gros (z.B. 95%-PI) der Posteriori-Verteilung zum Teil im ROPE und zum Teil außerhalb liegt, so ist zu resümieren, dass die Befundlage *uneinheitlich* ist. Zu sagen, dass die ROPE-Hypothese ("praktische Nullhypothese") nicht verworfen werden dürfe, ist zwar nicht falsch, aber nicht präzise genug.
 
@@ -3917,7 +3929,7 @@ Fehlinterpretationen:
 
 
 
-### Theorieteil - Kausalmodell (xxkausal, xxcausal)
+### Theorieteil - Kausalmodell, DAG (xxkausal, xxcausal, xxdag)
 
 `+++`
 
@@ -3962,6 +3974,7 @@ Fehlinterpretationen:
 
 - NEG Da in der Arbeit Ausagen mit Kausalanspruch formuliert werden, empfehle ich Ihnen, sich mit der *statistischen Analyse von Kausalaussagen* zu beschäftigen. Empfehlenswerte *Einstiegsliteratur* ist etwa: Rohrer, J. M. (2018). Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data. Advances in Methods and Practices in Psychological Science, 1(1), 27–42. https://doi.org/10.1177/2515245917745629, Lübke, K., Gehrke, M., Horst, J., & Szepannek, G. (2020). Why We Should Teach Causal Inference: Examples in Linear Regression with Simulated Data. Journal of Statistics Education, 1–17. https://doi.org/10.1080/10691898.2020.1752859 oder Elwert, F. (2013). Graphical causal models. In S. Morgan (Ed.), Handbook of causal analysis for social research (pp. 245–273). Springer. https://www.researchgate.net/publication/278717528_Graphical_Causal_Models.
 
+- NEG Der DAG ist in der vorliegenden Arbeit in folgender Form dargestellt "G_Exp --> AV <-- G_Kon". Dabei steht "G_Exp" für *Experimentalgruppe* und "G_Kon" für *Kontrollgruppe*. Die Darstellung des DAG ist (grundlegend) falsch, da "G_Exp" und "G_Kon" nicht jeweils eine Variable darstellen, sondern nur jeweils eine *Stufe* (Ausprägung) einer Variablen. Es wurden also die verschiedenen Stufen (Ausprägungen) der UV fälschlich als mehrere UV dargestellt. Richtig wäre also ein DAG der Art "UV --> AV". Dieser Punkt ist in der vorliegenden Arbeit nicht korrekt umgesetzt.
 
 
 
@@ -3973,10 +3986,10 @@ Fehlinterpretationen:
 
 ### Umfang des Literaturverzeichnisses (xxlitmenge) {#literaturmenge}
 
-Der Gutachter beziffert seine Anforderung (Für eine "gute" Leistung) an die zitierte *Quellenzahl* bei 
+Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine Einzelarbeit wie folgt:
 
 - *Abschlussarbeiten* wie folgt (vgl. Anforderungen für Abschlussarbeiten auf der OC-Seite des Gutachters): 1. Bachelor: Ca. *50-60* Quellen; 2. Master: ca. *60-80* Quellen.
-- *quant. Seminararbeiten* wie folgt: 15-20 Quellen im Bachelor (davon 25% Fachartikel) und 25-30 Quellen im Master (davon 50% Fachartikel).
+- *quant. Seminararbeiten* wie folgt: 15-20 Quellen im Bachelor (davon 25% Fachartikel) und 25-30 Quellen im Master (davon 50% Fachartikel) bei einer Einzelarbeit (Faktor 2 für Gruppenarbeiten)
 - *qual. Seminararbeiten* wie folgt: ??? 
 - *theoretischen Seminararbeiten*: 30-40 Quellen.
 
