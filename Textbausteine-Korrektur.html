@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de-De" xml:lang="de-De"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,6 +38,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body>
@@ -56,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#methoden-qualitativ" id="toc-methoden-qualitativ" class="nav-link" data-scroll-target="#methoden-qualitativ"><span class="header-section-number">1.1.2</span> Methoden – Qualitativ</a></li>
   <li><a href="#methoden-qualitativ---summarisch" id="toc-methoden-qualitativ---summarisch" class="nav-link" data-scroll-target="#methoden-qualitativ---summarisch"><span class="header-section-number">1.1.3</span> Methoden – Qualitativ - Summarisch</a></li>
   </ul></li>
-  <li><a href="#formalia-checkliste-seminararbeit" id="toc-formalia-checkliste-seminararbeit" class="nav-link" data-scroll-target="#formalia-checkliste-seminararbeit"><span class="header-section-number">1.2</span> FORMALIA (Checkliste Seminararbeit)</a></li>
+  <li><a href="#formalia-checkliste-seminararbeit-xxcheckformalia" id="toc-formalia-checkliste-seminararbeit-xxcheckformalia" class="nav-link" data-scroll-target="#formalia-checkliste-seminararbeit-xxcheckformalia"><span class="header-section-number">1.2</span> FORMALIA (Checkliste Seminararbeit, xxcheckformalia)</a></li>
   <li><a href="#inhalt-checklist-seminararbeit-inhalt-check" id="toc-inhalt-checklist-seminararbeit-inhalt-check" class="nav-link" data-scroll-target="#inhalt-checklist-seminararbeit-inhalt-check"><span class="header-section-number">1.3</span> INHALT (Checklist Seminararbeit <strong>!!INHALT-CHECK</strong>)</a></li>
   </ul></li>
   <li><a href="#checkdat" id="toc-checkdat" class="nav-link" data-scroll-target="#checkdat"><span class="header-section-number">2</span> CHECKLISTE – DATENANALYSE !!DATANAL-Check (xxcheckdat)</a>
@@ -124,6 +151,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#postvollstaendig" id="toc-postvollstaendig" class="nav-link" data-scroll-target="#postvollstaendig"><span class="header-section-number">4.11.2</span> Vollständigkeit</a></li>
   <li><a href="#platznutzung" id="toc-platznutzung" class="nav-link" data-scroll-target="#platznutzung"><span class="header-section-number">4.11.3</span> Platznutzung</a></li>
   </ul></li>
+  <li><a href="#projektmanagement" id="toc-projektmanagement" class="nav-link" data-scroll-target="#projektmanagement"><span class="header-section-number">4.12</span> Projektmanagement</a></li>
   </ul></li>
   <li><a href="#methoden" id="toc-methoden" class="nav-link" data-scroll-target="#methoden"><span class="header-section-number">5</span> METHODEN (<strong>xxmeth</strong>)</a>
   <ul class="collapse">
@@ -159,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#größe" id="toc-größe" class="nav-link" data-scroll-target="#größe"><span class="header-section-number">5.6.1</span> Größe</a></li>
   <li><a href="#qualität-zufallsstichprobe" id="toc-qualität-zufallsstichprobe" class="nav-link" data-scroll-target="#qualität-zufallsstichprobe"><span class="header-section-number">5.6.2</span> Qualität (Zufallsstichprobe)</a></li>
-  <li><a href="#poweranalyse" id="toc-poweranalyse" class="nav-link" data-scroll-target="#poweranalyse"><span class="header-section-number">5.6.3</span> Poweranalyse (xxpower)</a></li>
+  <li><a href="#poweranalyse" id="toc-poweranalyse" class="nav-link" data-scroll-target="#poweranalyse"><span class="header-section-number">5.6.3</span> Poweranalyse/Stichprobenplanung (xxpower)</a></li>
   <li><a href="#stiprozusammenstellung" id="toc-stiprozusammenstellung" class="nav-link" data-scroll-target="#stiprozusammenstellung"><span class="header-section-number">5.6.4</span> Zusammenstellung/Auswahl</a></li>
   <li><a href="#interviewdauer" id="toc-interviewdauer" class="nav-link" data-scroll-target="#interviewdauer"><span class="header-section-number">5.6.5</span> Interviewdauer</a></li>
   </ul></li>
@@ -204,6 +232,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#tuning" id="toc-tuning" class="nav-link" data-scroll-target="#tuning"><span class="header-section-number">5.9.3</span> Tuning</a></li>
   <li><a href="#resampling" id="toc-resampling" class="nav-link" data-scroll-target="#resampling"><span class="header-section-number">5.9.4</span> Resampling</a></li>
   <li><a href="#interpretierbarkeit" id="toc-interpretierbarkeit" class="nav-link" data-scroll-target="#interpretierbarkeit"><span class="header-section-number">5.9.5</span> Interpretierbarkeit</a></li>
+  <li><a href="#literaturreview-xxreview" id="toc-literaturreview-xxreview" class="nav-link" data-scroll-target="#literaturreview-xxreview"><span class="header-section-number">5.9.6</span> Literaturreview xxreview</a></li>
   </ul></li>
   <li><a href="#rrring" id="toc-rrring" class="nav-link" data-scroll-target="#rrring"><span class="header-section-number">5.10</span> Software zur Datenanalyse/R/RMarkdown (xxrrr)</a>
   <ul class="collapse">
@@ -229,11 +258,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ergebnissequali" id="toc-ergebnissequali" class="nav-link" data-scroll-target="#ergebnissequali"><span class="header-section-number">5.14.6</span> Ergebnisdarstellung der Qualitativen Inhaltsanalyse</a></li>
   <li><a href="#vorgehen-bei-zusammenfassenden-inhaltsanalyse-materialreduktion" id="toc-vorgehen-bei-zusammenfassenden-inhaltsanalyse-materialreduktion" class="nav-link" data-scroll-target="#vorgehen-bei-zusammenfassenden-inhaltsanalyse-materialreduktion"><span class="header-section-number">5.14.7</span> Vorgehen bei zusammenfassenden Inhaltsanalyse (Materialreduktion)</a></li>
   </ul></li>
-  <li><a href="#beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" id="toc-beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" class="nav-link" data-scroll-target="#beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt"><span class="header-section-number">5.15</span> Beurteilung des Methoden-/Ergebnisteils insgesamt (xxmethgesamt)</a>
+  <li><a href="#systematisches-review-xxsystrev" id="toc-systematisches-review-xxsystrev" class="nav-link" data-scroll-target="#systematisches-review-xxsystrev"><span class="header-section-number">5.15</span> Systematisches Review (xxsystrev)</a></li>
+  <li><a href="#beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" id="toc-beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" class="nav-link" data-scroll-target="#beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt"><span class="header-section-number">5.16</span> Beurteilung des Methoden-/Ergebnisteils insgesamt (xxmethgesamt)</a>
   <ul class="collapse">
-  <li><a href="#beurtformaliadatenanalyse" id="toc-beurtformaliadatenanalyse" class="nav-link" data-scroll-target="#beurtformaliadatenanalyse"><span class="header-section-number">5.15.1</span> Beurteilung der FORMALIA der Datenanalyse</a></li>
-  <li><a href="#beurtmethdatenanalyse" id="toc-beurtmethdatenanalyse" class="nav-link" data-scroll-target="#beurtmethdatenanalyse"><span class="header-section-number">5.15.2</span> Beurteilung der METHODIK der Datenanalyse</a></li>
-  <li><a href="#beurtinhaltdatenanalyse" id="toc-beurtinhaltdatenanalyse" class="nav-link" data-scroll-target="#beurtinhaltdatenanalyse"><span class="header-section-number">5.15.3</span> Beurteilung des INHALTS der Datenanalyse</a></li>
+  <li><a href="#beurtformaliadatenanalyse" id="toc-beurtformaliadatenanalyse" class="nav-link" data-scroll-target="#beurtformaliadatenanalyse"><span class="header-section-number">5.16.1</span> Beurteilung der FORMALIA der Datenanalyse</a></li>
+  <li><a href="#beurtmethdatenanalyse" id="toc-beurtmethdatenanalyse" class="nav-link" data-scroll-target="#beurtmethdatenanalyse"><span class="header-section-number">5.16.2</span> Beurteilung der METHODIK der Datenanalyse</a></li>
+  <li><a href="#beurtinhaltdatenanalyse" id="toc-beurtinhaltdatenanalyse" class="nav-link" data-scroll-target="#beurtinhaltdatenanalyse"><span class="header-section-number">5.16.3</span> Beurteilung des INHALTS der Datenanalyse</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#inhalt" id="toc-inhalt" class="nav-link" data-scroll-target="#inhalt"><span class="header-section-number">6</span> INHALT (<strong>xxinh</strong>)</a>
@@ -344,7 +374,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">7. August 2023</p>
+      <p class="date">26. Januar 2024</p>
     </div>
   </div>
   
@@ -352,7 +382,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <style>
 q {
@@ -364,7 +396,7 @@ q {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="quote.png" class="img-fluid figure-img" style="width:15.0%"></p>
-<figcaption class="figure-caption">Sprechen passiert in Anführungsstrichen</figcaption>
+<figcaption>Sprechen passiert in Anführungsstrichen</figcaption>
 </figure>
 </div>
 </div>
@@ -405,8 +437,8 @@ q {
 <p>Summarisch: <a href="#schlechtequalimeth">Keine Kodierregeln defniert</a></p>
 </section>
 </section>
-<section id="formalia-checkliste-seminararbeit" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="formalia-checkliste-seminararbeit"><span class="header-section-number">1.2</span> FORMALIA (Checkliste Seminararbeit)</h2>
+<section id="formalia-checkliste-seminararbeit-xxcheckformalia" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="formalia-checkliste-seminararbeit-xxcheckformalia"><span class="header-section-number">1.2</span> FORMALIA (Checkliste Seminararbeit, xxcheckformalia)</h2>
 <p><strong>!!FORMALIA-CHECK</strong></p>
 <ol type="1">
 <li>WICHTIG Titel <a href="#titelformatierung">optisch prägnant?</a> und <a href="#titelinhalt">präzise?</a></li>
@@ -436,8 +468,8 @@ q {
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="quote.png" class="img-fluid figure-img" style="width:25.0%"></p>
-<figcaption class="figure-caption">Sprechen, und damit Begutachten, passiert in Anführungsstrichen</figcaption>
+<p><img src="quote.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:25.0%"></p>
+<figcaption>Sprechen, und damit Begutachten, passiert in Anführungsstrichen</figcaption>
 </figure>
 </div>
 </div>
@@ -637,6 +669,7 @@ q {
 <li><p>POS-NEG Der äußere Eindruck der Arbeit ist von <em>mittlerer Güte</em>.</p></li>
 <li><p>POS-NEG Weite Teile der Arbeit sind äußerlich ansprechend, allerdings gibt es ein paar <em>gestalterische Schwächen</em>.</p></li>
 <li><p>NEG Die Arbeit macht insgesamt <em>keinen</em> ansprechenden äußeren Eindruck; z. B. sind Schriftsatz und -bild nicht ansprechend (genug) gestaltet.</p></li>
+<li><p>NEG Ein Exposé sollte im Aufbau einer Seminararbeit gleichgesetzt werden. In der vorliegenden Arbeit gibt es davon einige abweichende Punkte.</p></li>
 </ul>
 </section>
 <section id="typokommentare" class="level3" data-number="4.5.3">
@@ -685,7 +718,7 @@ q {
 <li><p>NEG Die <em>optimale Lesbarkeit liegt bei ca. 65 Zeichen/Buchstaben pro Zeile</em> oder sogar darunter. In der vorliegenden Arbeit liegt die Zeilenlänge deutlich darüber.</p></li>
 <li><p>NEG Die <em>Laufweite der Schrift (d.&nbsp;h. der Abstand zwischen den Buchstaben)</em> ist teilweise unpassend (zu groß oder zu klein).</p></li>
 <li><p>NEG Die <em>Seitenränder sind zu klein gewählt</em>; d.&nbsp;h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen sind nicht gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.</p></li>
-<li><p>NEG <em>Neue Kapitel beginnen auf einer neuen Seite</em> und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt.</p></li>
+<li><p>NEG <em>Neue Kapitel beginnen auf einer neuen Seite</em> und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt; ein Seitenumbruch ist angezeigt.</p></li>
 <li><p>NEG Der Hinweis <em>“Seite” vor der Angabe der Seitenzahl</em> birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.</p></li>
 <li><p>NEG Auf der <em>Titelseite</em> soll <em>keine Seitenzahl</em> ausgewiesen werden.</p></li>
 <li><p>NEG Der <em>Hauptteil</em> einer Arbeit soll mit <em>arabischen</em>, nicht römischen, <em>Ziffern</em> ausgewiesen werden.</p></li>
@@ -717,7 +750,7 @@ q {
 </ul>
 <p><code>---</code></p>
 <ul>
-<li><p>NEG Um ein schöneres Schriftbild mit besserem Abstand zwischen den Wörtern zu erreichen, empfiehlt es sich, stets eine Silbentrennung zu verwenden. Dieser Punkt wurde in der vorliegenden Arbeit <em>nicht berücksichtigt</em>.</p></li>
+<li><p>NEG Um ein schöneres Schriftbild mit besserem Abstand zwischen den Wörtern zu erreichen, empfiehlt es sich, stets eine Silbentrennung zu verwenden. Dieser Punkt wurde in der vorliegenden Arbeit <em>nicht (komplett) berücksichtigt</em>.</p></li>
 <li><p>NEG Der Blocksatz weist <em>unschöne “Löcher”</em> auf (evtl. wg. fehlender Silbentrennung).</p></li>
 <li><p>NEG Auch beim linksbündigem Text (“<em>Flattersatz</em>”) sollte die <em>Silbentrennung</em> eingeschaltet sein, um die Zeilenenden nicht zu unruhig werden zu lassen, was in der vorliegenden Arbeit versäumt wurde. In der vorliegenden Arbeit wirkt der linksbündige formatierte Text daher “flattrig” (aufgrund fehlender Silbentrennung).</p></li>
 </ul>
@@ -742,10 +775,10 @@ q {
 <li><p>NEG Ein <em>Abschnitt</em> (z. B. “2.1”) sollte nicht kürzer sein als eine <em>halbe Seite</em>.</p></li>
 <li><p>NEG Es bieten sich <em>zwei Formate</em> um, um Absätze optisch im Textfluss voneinander zu trennen: Durch vertikalen Abstand oder durch Einrücken der ersten Zeile des Folgeabsatzes. Beide Methoden sind gleich legitim. Hat man sich aber für eine Methode entschieden, so ist sie konsequent einzuhalten. Nicht sinnvoll ist, Absätze ohne einer der beiden gerade genannten Methoden zu trennen. Ebenso sollten nicht beide Methoden gleichzeitig verwendet werden (Leerraum plus Einrücken). Diese Aspekte finden in der vorliegenden Arbeit <em>nicht ausreichend Berücksichtigung</em>.</p></li>
 <li><p>NEG Verwendet man <em>vertikalen</em> Leerraum zur Trennung von Absätzen, so sollte man den Abstand <em>nicht zu groß</em> (und nicht zu klein) setzen; eine halbe (zusätzliche) Leerzeile ist ein vertretbares Maß. Das Ziel sollte sein, einen Absatz kenntlich zu machen mit so wenig Zusatzabstand wie möglich. Allerdings muss der Abstand größer sein als eine normale Leerzeile (sonst würde kein Absatzwechsel kenntlich sein). In der vorliegenden Arbeit ist der vertikale Abstand nicht durchgehend passend (d.&nbsp;h. zu groß oder zu klein).</p></li>
-<li><p>NEG Der <em>erste Absatz nach einer Überschrift</em> ist <em>nicht einzurücken</em> (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). Der Grund, dass Einrücken hier nicht sinnvoll ist, liegt darin, dass kein <em>Ende</em> eines Gedankens anzuzeigen ist; im Gegenteil, es beginnt erst ein neuer Gedanke. Das Ende des letzten Gedanken ist hingegen schon durch den Abstand zwischen der aktuellen Überschrift und dem vorasgehenden Abschnitt ausgezeichnet.</p></li>
+<li><p>NEG Der <em>erste Absatz nach einer Überschrift</em> ist <em>nicht einzurücken</em> (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). Der Grund, dass Einrücken hier nicht sinnvoll ist, liegt darin, dass kein <em>Ende</em> eines Gedankens anzuzeigen ist; im Gegenteil, es beginnt erst ein neuer Gedanke. Das Ende des letzten Gedanken ist hingegen schon durch den Abstand zwischen der aktuellen Überschrift und dem vorausgehenden Abschnitt ausgezeichnet.</p></li>
 <li><p>NEG Absätze sollten <em>länger als ein Satz sein</em>; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch <em>Absatzlängen</em>.</p></li>
 <li><p>NEG <em>Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen</em>; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen <em>Seitenwechsel</em>. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.</p></li>
-<li><p>NEG Kapitel und Unterkapitel (Abschnitte) sollte <em>nummeriert</em> werden, da das die Orientierung im Text erleichtert.</p></li>
+<li><p>NEG Kapitel und Unterkapitel (Abschnitte) sollte <em>nummeriert</em> werden, da das die Orientierung im Text erleichtert (die <em>Nummerierung der Abschnitte fehlt</em>).</p></li>
 </ul>
 </section>
 <section id="lesbarkeit" class="level3" data-number="4.5.8">
@@ -834,7 +867,7 @@ q {
 <li><p>NEG Eine substanzielle Zahl an Fehlern in Orthografie und/oder Interpunktion ist vorhanden.</p></li>
 <li><p>NEG Einige Fehler in der Rechtschreibung, vor allem in der Interpunktion, sind vorhanden.</p></li>
 <li><p>NEG Einige Fehler in der Interpunktion sind vorhanden.</p></li>
-<li><p>NEG Deutliche Fehler in der Interpunktion sind vorhanden.</p></li>
+<li><p>NEG Deutliche Mängel in der Interpunktion sind vorhanden.</p></li>
 <li><p>NEG Die Grammatik bzw. der Satzbau weist deutliche Fehler auf.</p></li>
 </ul>
 </section>
@@ -945,7 +978,7 @@ q {
 <h4 data-number="4.9.2.1" class="anchored" data-anchor-id="litverzbeurteilung"><span class="header-section-number">4.9.2.1</span> Literaturverzeichnis - Beurteilung</h4>
 <p><code>+++</code></p>
 <ul>
-<li><p>POS Das Literaturverzeichnis enthält <em>kaum/keine Fehler</em>.</p></li>
+<li><p>POS Das Literaturverzeichnis enthält <em>kaum/keine (formalen) Fehler</em>.</p></li>
 <li><p>POS Das Literaturverzeichnis ist formal als <em>gut bis sehr gut</em> zu bewerten.</p></li>
 <li><p>POS Das Literaturverzeichnis enthält <em>wenig</em> Fehler.</p></li>
 <li><p>POS Das Literaturverzeichnis enthält <em>wenig</em> Zitationsfehler.</p></li>
@@ -954,11 +987,11 @@ q {
 </ul>
 <p><code>---</code></p>
 <ul>
-<li><p>NEG Es finden sich <em>einige Fehler</em> im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Namen des Verlags).</p></li>
-<li><p>NEG Es finden sich eine <em>substanzielle</em> Zahl an Fehlern im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Ort des Verlags).</p></li>
-<li><p>NEG Das Literaturverzeichnis enthält eine <em>große Zahl</em> oder einen <em>großen Anteil</em> an Fehlern.</p></li>
+<li><p>NEG Es finden sich <em>einige (formale) Fehler</em> im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Namen des Verlags).</p></li>
+<li><p>NEG Es findet sich eine <em>substanzielle</em> Zahl an (formalen) Fehlern im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Ort des Verlags).</p></li>
+<li><p>NEG Das Literaturverzeichnis enthält eine <em>große Zahl</em> oder einen <em>großen Anteil</em> an (formalen) Fehlern.</p></li>
 <li><p>NEG <em>Jede oder fast jede Quelle</em> im Literaturverzeichnis ist falsch zitiert. Das ist als gravierender Mangel der vorliegenden Arbeit zu sehen.</p></li>
-<li><p>NEG Das Literaturverzeichnis ist <em>nicht konsistent</em> aufgebaut; verschiedenen Stile oder Varianten wurden gemischt. Solches - unzulässiges - Mischen könnte etwa bedeuten, dass Namen von Zeitschriften teilweise abgekürzt und teilweise ausgeschrieben wurden oder das insgesamt in einigen Zitationen die Vorgaben der APA V7 befolgt, aber in anderen Zitationen nach einem anderen Zitationsstil formatiert wurde.</p></li>
+<li><p>NEG Das Literaturverzeichnis ist <em>nicht konsistent</em> aufgebaut; verschiedenen Zitationsstile oder -varianten wurden gemischt. Solches - unzulässiges - Mischen könnte etwa bedeuten, dass Namen von Zeitschriften teilweise abgekürzt und teilweise ausgeschrieben wurden oder das insgesamt in einigen Zitationen die Vorgaben der APA V7 befolgt, aber in anderen Zitationen nach einem anderen Zitationsstil formatiert wurde.</p></li>
 </ul>
 </section>
 <section id="litverzaufbau" class="level4" data-number="4.9.2.2">
@@ -1145,6 +1178,13 @@ q {
 <!-- - NEG Insgesamt ist die akustische Qualität des Podcasts als ausreichend einzuschätzen. -->
 </section>
 </section>
+<section id="projektmanagement" class="level2" data-number="4.12">
+<h2 data-number="4.12" class="anchored" data-anchor-id="projektmanagement"><span class="header-section-number">4.12</span> Projektmanagement</h2>
+<ul>
+<li><p>NEG Die Projektplanung sollte auf dem tatsächlichen (formal vorgegebenen) Zeitplan beruhen.</p></li>
+<li><p>NEG Die geplante Zeitdauer der Arbeit sollte die formal vorgegebene Zeit nicht überschreiten.</p></li>
+</ul>
+</section>
 </section>
 <section id="methoden" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> METHODEN (<strong>xxmeth</strong>)</h1>
@@ -1152,9 +1192,11 @@ q {
 <h2 data-number="5.1" class="anchored" data-anchor-id="repro"><span class="header-section-number">5.1</span> Reproduzierbarkeit (xxrepro)</h2>
 <section id="fazit-xxrepfazit" class="level3" data-number="5.1.1">
 <h3 data-number="5.1.1" class="anchored" data-anchor-id="fazit-xxrepfazit"><span class="header-section-number">5.1.1</span> Fazit (xxrepfazit)</h3>
+<p><code>+++</code></p>
 <ul>
-<li><p>POS Die <em>Reproduzierbarkeit</em> ist <em>insgesamt</em> in gutem Maße <em>sichergestellt</em>, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax, Codebook/Data-Dictionary).</p></li>
-<li><p>POS Die <em>Reproduzierbarkeit</em> der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur Initialisierung der Zufallswerte sichergestellt (z.B. mit <code>set.seed()</code>).</p></li>
+<li><p>POS Die <em>Reproduzierbarkeit</em> der Studie ist <em>insgesamt</em> in gutem Maße <em>sichergestellt</em>, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax, Codebook/Data-Dictionary).</p></li>
+<li><p>POS Die <em>Reproduzierbarkeit</em> der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur <em>Initialisierung</em> der <em>Zufallswerte</em> sichergestellt (z.B. mit <code>set.seed()</code>).</p></li>
+<li><p>POS Die <em>Reproduzierbarkeit</em> des Reviews ist insoferm in gutem Maße sichergestellt, als dass relevantes Material eingereicht wurde, z.B. durchsuchte Datenbanken, Suchterme, Ein- und Ausschlusskriterien, Bibliographien identifizierter Literaturquellen, Interrater-Übereinstimmung, verwendete Software.</p></li>
 </ul>
 <p><code>---</code></p>
 <ul>
@@ -1263,10 +1305,13 @@ q {
 <li>POS Es wurde eine <em>Visualisierung</em> (z. B. als “Flowchart” bzw. Flussdiagramm oder Ablaufdiagramm) des Versuchsablauf dargeboten, was die Verständlichkeit erhöht.</li>
 <li>POS Der <em>Ablauf</em> des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) <em>geschildert.</em></li>
 </ul>
+<p><code>000</code></p>
+<ul>
+<li>POS-NEG Der <em>Ablauf bzw. das Design</em> der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.</li>
+<li>POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.</li>
+</ul>
 <p><code>---</code></p>
 <ul>
-<li><p>POS-NEG Der <em>Ablauf bzw. das Design</em> der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.</p></li>
-<li><p>POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.</p></li>
 <li><p>NEG Das <em>Design</em> der Studie wurde nicht oder <em>nicht</em> ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht <em>erläutert</em> (z. B. ob es um ein Between-Subject-Experiment mit einem Faktor und zwei Stufen handelt oder um eine Beobachtungsstudie).</p></li>
 <li><p>NEG <em>UVs</em> und AVs wurden <em>nicht</em> <em>expliziert</em>, bzw. Prädiktoren und Kriterium wurden nicht expliziert (oder nicht an geeigneter Stelle).</p></li>
 <li><p>NEG Die <em>Darstellung</em> des empirischen Vorgehens (Studiendesign) weist große <em>Lücken</em> auf; die Darstellung lässt Wesentliches außen vor. Insgesamt ist dieser Teil als mangelhaft einzustufen.</p></li>
@@ -1318,7 +1363,8 @@ q {
 <h3 data-number="5.2.6" class="anchored" data-anchor-id="qualidesigns"><span class="header-section-number">5.2.6</span> Besonderheiten qualitativer Designs</h3>
 <p><code>+++</code></p>
 <ul>
-<li>POS Der Rückgriff auf die Methode der <em>Grounded Theory</em> zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.</li>
+<li><p>POS Der Rückgriff auf die Methode der <em>Grounded Theory</em> zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.</p></li>
+<li><p>POS Es wurden die Stärken der qualitativen Methoden ausgespielt, indem – in gewissem Maß – Theoriebildung betrieben wurde. Qualitatives Arbeit in dieser Art ist besonders fruchtbar.</p></li>
 </ul>
 <p><code>---</code></p>
 <ul>
@@ -1451,6 +1497,7 @@ q {
 <li><p>NEG Bei der Formulierung von Hypothesen sollte <em>auf den Zusatz “signifikant” verzichtet</em> werden, denn Hypothesen beziehen sich stets auf Populationen und “signifikant” heißt nichts anderes, als dass wir schließen, dass der beobachtete Effekt (d.h. in der Stichprobe) auch in der Population vorliegt (auf Basis der vorliegenden Analyse).</p></li>
 <li><p>NEG Auf den <em>Term “signifikant”</em> sollte <em>beim Formulieren von Hypothesen verzichtet</em> werden. Man soll also NICHT sagen “X hat einen signifikanten Einfluss auf Y” o. Ä., sondern “X hat einen Einfluss auf Y”. Der Grund ist, dass sich Hypothesen stets auf Grundgesamtheiten (Populationen) beziehen und das ist genau das, was das Wort “signifikant” sagt. Signifikant bedeutet, dass man von einem Effekt in der Population ausgeht.</p></li>
 <li><p>NEG Es <em>sollten keine zusammengesetzten Hypothesen formuliert werden</em>; stattdessen sollte für <em>jede Ursache/jeden Prädiktor eine eigene Hypothese</em> formuliert werden. Also nicht: “A, B und C führen zu D”, sondern “H1: A führt zu D, H2: B führt zu D” etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?</p></li>
+<li><p>NEG <em>Nullhypothesen</em> brauchen <em>nicht zusätzlich zu den Forschungshypothesen</em> (Alternativhypothesen) aufgeführt werden. Es darf vorausgesetzt werden, dass fachkundige Leser die Nullhypothesen selbständig aus den Forschungshypothesen erschließen können.</p></li>
 </ul>
 </section>
 <section id="formulierung-forschungsfrage" class="level3" data-number="5.5.4">
@@ -1537,7 +1584,7 @@ q {
 </ul>
 </section>
 <section id="poweranalyse" class="level3" data-number="5.6.3">
-<h3 data-number="5.6.3" class="anchored" data-anchor-id="poweranalyse"><span class="header-section-number">5.6.3</span> Poweranalyse (xxpower)</h3>
+<h3 data-number="5.6.3" class="anchored" data-anchor-id="poweranalyse"><span class="header-section-number">5.6.3</span> Poweranalyse/Stichprobenplanung (xxpower)</h3>
 <p><code>+++</code></p>
 <ul>
 <li>POS Es wurde eine <em>Power-Analyse</em> durchgeführt, was eine sinnvolle (oder sogar dringend benötigte) Maßnahme zur Sicherstellung der empirischen Qualität darstellt.</li>
@@ -1549,6 +1596,7 @@ q {
 <li><p>NEG Die Power-Analyse <em>hätte genauer erläutert werden</em> müssen, damit sie nachvollziehbar ist. So sind die folgenden Informationen nötig, um die Berechnung replizieren zu können: Effektstärke in Höhe und Typ (z.B. Cohens <em>d</em>), Power, Alphaniveau, Seitigkeit des Tests (ein- vs.&nbsp;zweiseitig) und Art der Hypothese bzw. Tests (z.B. <span class="math inline">\(F\)</span>-Test).</p></li>
 <li><p>NEG Bei einer Poweranalyse sollte die <em>Größe des erwarteten Effekts</em> durch <em>Rückgriff auf geeignete Literatur</em> gerechtfertigt werden (etwa: “Müller (2019) berichtet in seiner Metaanalyse von einer moderat hohen Korrelation (r = .42); entsprechend wird dieser Schätzwert für die Effektstärke in der vorliegenden Studie angenommen”).</p></li>
 <li><p>NEG Es ist nicht auszuschließen, dass es <em>fachliche Fehler in der Berechnung</em> des optimalen Stichprobenumfanges im Rahmen der Poweranalyse gibt.</p></li>
+<li><p>NEG Es fehlen Hinweise zur Planung der Stichprobengröße und/oder der gewünschten Genauigkeit derErgebnisse.</p></li>
 </ul>
 </section>
 <section id="stiprozusammenstellung" class="level3" data-number="5.6.4">
@@ -2137,6 +2185,16 @@ q {
 <li>NEG Mehr Interpretation des Vorgehens und der Interpretation der Ergebnisse würden die Analyse zugänglicher gestalten und mehr Nutzen beim Lesen generieren.</li>
 </ul>
 </section>
+<section id="literaturreview-xxreview" class="level3" data-number="5.9.6">
+<h3 data-number="5.9.6" class="anchored" data-anchor-id="literaturreview-xxreview"><span class="header-section-number">5.9.6</span> Literaturreview xxreview</h3>
+<p><code>---</code></p>
+<ul>
+<li><p>NEG Eine (un)systematische <em>Review-Arbeit</em> setzt deutlich <em>höhere Ansprüche</em> an den Überblick der Literatur als eine empirische Arbeit. Diesem Anspruch wird die vorliegende Arbeit nicht ausreichend gerecht.</p></li>
+<li><p>NEG Die Gliederung einer Review-Arbeit ähnelt der einer empirischen Arbeit in dem Sinne, dass es auch einen <em>Methoden-Teil gibt</em>, der das Vorgehen erklärt und einem Ergebnis-Teil, der die Ergebnisse der Recherche darlegt.</p></li>
+<li><p>NEG Die Recherche-Methodik ist nicht detailliert genug geschildert. So fehlen Hinweise zu den Suchthemen oder -termen.</p></li>
+<li><p>Ich empfehle, dass Sie sich näher mit den methodischen Spezifika der (un)systematischen Literaturrecherche bzw. dem Review befassen.</p></li>
+</ul>
+</section>
 </section>
 <section id="rrring" class="level2" data-number="5.10">
 <h2 data-number="5.10" class="anchored" data-anchor-id="rrring"><span class="header-section-number">5.10</span> Software zur Datenanalyse/R/RMarkdown (xxrrr)</h2>
@@ -2386,8 +2444,27 @@ q {
 </ul>
 </section>
 </section>
-<section id="beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" class="level2" data-number="5.15">
-<h2 data-number="5.15" class="anchored" data-anchor-id="beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt"><span class="header-section-number">5.15</span> Beurteilung des Methoden-/Ergebnisteils insgesamt (xxmethgesamt)</h2>
+<section id="systematisches-review-xxsystrev" class="level2" data-number="5.15">
+<h2 data-number="5.15" class="anchored" data-anchor-id="systematisches-review-xxsystrev"><span class="header-section-number">5.15</span> Systematisches Review (xxsystrev)</h2>
+<p><code>+++</code></p>
+<ul>
+<li><p>POS Es wurde ein <em>methodisches sinnvolles Vorgehen</em> im Rahmen des systematischen Literatur-Reviews gewählt.</p></li>
+<li><p>POS Es wurde das Vorgehen nach <em>Siddaway, Wood und Hedges</em> (2019) gewählt, was eine sinnvolle Wahl ist.</p></li>
+<li><p>POS Es wurde das Vorgehen nach @siddaway_how_2019 gewählt, was eine sinnvolle Wahl ist.</p></li>
+<li><p>POS Ein <em>Prisma-Flowchart</em> wurde verwendet, um die Auswahl bzw. das Filtern relevanter Studien für den Review zu beschreiben. Dieses Vorgehen ist methodisch begrüßenswert.</p></li>
+<li><p>POS Der <em>Umfang</em> an analysierten Primärquellen ist <em>umfassend</em>, <span class="math inline">\(n=??\)</span>.</p></li>
+<li><p>POS Der <em>Umfang</em> an analysierten Primärquellen ist <em>angemessen</em>, <span class="math inline">\(n=??\)</span>.</p></li>
+<li><p>POS Ein- und/oder <em>Ausschlusskriterien</em> wurden berichtet.</p></li>
+<li><p>POS Die verwendeteten Ein- bzw. <em>Ausschlusskriterien</em> sind <em>gegenstandsangemessen.</em></p></li>
+</ul>
+<p><code>---</code></p>
+<ul>
+<li>POS Der <em>Umfang</em> an analysierten Primärquellen ist <em>nicht hoch</em>, <span class="math inline">\(n=??\)</span>.</li>
+<li>POS Der <em>Umfang</em> an analysierten Primärquellen ist <em>gering</em>, <span class="math inline">\(n=??\)</span>.</li>
+</ul>
+</section>
+<section id="beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" class="level2" data-number="5.16">
+<h2 data-number="5.16" class="anchored" data-anchor-id="beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt"><span class="header-section-number">5.16</span> Beurteilung des Methoden-/Ergebnisteils insgesamt (xxmethgesamt)</h2>
 <p><code>+++</code></p>
 <ul>
 <li><p>NEG Die Studie ist insgesamt <em>methodisch ambitioniert</em> geplant.</p></li>
@@ -2412,8 +2489,8 @@ q {
 <li><p>NEG Die Anwendung von empirischen Methoden, wie es in der vorliegenden Arbeit demonstriert wird, weist <em>klares Verbesserungspotenzial</em> auf.</p></li>
 <li><p>NEG Die Datenanalyse weist <em>große Lücken</em> auf.</p></li>
 </ul>
-<section id="beurtformaliadatenanalyse" class="level3" data-number="5.15.1">
-<h3 data-number="5.15.1" class="anchored" data-anchor-id="beurtformaliadatenanalyse"><span class="header-section-number">5.15.1</span> Beurteilung der FORMALIA der Datenanalyse</h3>
+<section id="beurtformaliadatenanalyse" class="level3" data-number="5.16.1">
+<h3 data-number="5.16.1" class="anchored" data-anchor-id="beurtformaliadatenanalyse"><span class="header-section-number">5.16.1</span> Beurteilung der FORMALIA der Datenanalyse</h3>
 <p><code>+++</code></p>
 <ul>
 <li><p>POS Insgesamt sind die Formalia der Datenanalyse <em>gut bis sehr gut</em> abgearbeitet.</p></li>
@@ -2426,8 +2503,8 @@ q {
 <li><p>POS Die <em>gestalterische</em> <em>Qualität</em> der <em>Abbildungen</em> ist hoch.</p></li>
 </ul>
 </section>
-<section id="beurtmethdatenanalyse" class="level3" data-number="5.15.2">
-<h3 data-number="5.15.2" class="anchored" data-anchor-id="beurtmethdatenanalyse"><span class="header-section-number">5.15.2</span> Beurteilung der METHODIK der Datenanalyse</h3>
+<section id="beurtmethdatenanalyse" class="level3" data-number="5.16.2">
+<h3 data-number="5.16.2" class="anchored" data-anchor-id="beurtmethdatenanalyse"><span class="header-section-number">5.16.2</span> Beurteilung der METHODIK der Datenanalyse</h3>
 <p><code>+++</code></p>
 <ul>
 <li><p>POS Es wurden angemessene Verfahren der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt.</p></li>
@@ -2439,8 +2516,8 @@ q {
 <li><p>POS Die Anzahl der Nachkommastellen (Dezimalstellen) ist immer oder zumeist passend bzw. konsistent.</p></li>
 </ul>
 </section>
-<section id="beurtinhaltdatenanalyse" class="level3" data-number="5.15.3">
-<h3 data-number="5.15.3" class="anchored" data-anchor-id="beurtinhaltdatenanalyse"><span class="header-section-number">5.15.3</span> Beurteilung des INHALTS der Datenanalyse</h3>
+<section id="beurtinhaltdatenanalyse" class="level3" data-number="5.16.3">
+<h3 data-number="5.16.3" class="anchored" data-anchor-id="beurtinhaltdatenanalyse"><span class="header-section-number">5.16.3</span> Beurteilung des INHALTS der Datenanalyse</h3>
 <p><code>+++</code></p>
 <ul>
 <li><p>POS Der p-Wert wird exakt erläutert bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass “Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt”.</p></li>
@@ -2582,7 +2659,7 @@ q {
 <h2 data-number="6.3" class="anchored" data-anchor-id="aufbau-der-einzelnen-teile"><span class="header-section-number">6.3</span> Aufbau der einzelnen Teile</h2>
 <p><code>---</code></p>
 <ul>
-<li>Ein <em>Advance Organizer</em> kann sinnvoll sein, birgt aber zwei Gefahren: Zum einen wird knapper, daher wertvoller Platz, vergeben; zum anderen ist die Information häufig redundant zum Inhaltsverzeichnis.</li>
+<li>NEG Ein <em>Advance Organizer</em> (“Im folgenden Abschnitt spreche ich über A, B und C…”) kann sinnvoll sein, birgt aber zwei Gefahren: Zum einen wird knapper, daher wertvoller Platz, vergeben; zum anderen ist die Information häufig redundant zum Inhaltsverzeichnis. Bei Arbeiten mit knappem Platz sollte sich tendenziell gegen Advance Organizer entschieden werden.</li>
 </ul>
 </section>
 <section id="fofrage" class="level2" data-number="6.4">
@@ -2727,6 +2804,7 @@ q {
 <ul>
 <li>POS Die Arbeit beginnt mit einer <em>sinnvollen Einführung</em>.</li>
 <li>POS Die <em>Relevanz</em> das Themas wird <em>anhand verschiedener Statistiken</em> (wie Umsatz, Anzahl Personen oder dergleichen) belegt. Das ist eine sinnvolle Art, die Relevanz eines Themas einzuleiten.</li>
+<li>POS Die <em>Relevanz</em> des Themas wird auf sinnvolle Art und Weise begründet.</li>
 </ul>
 <p><code>---</code></p>
 <ul>
@@ -2825,7 +2903,8 @@ q {
 <li><p>NEG Die <em>Aufgabe des Theorieteils ist es, die Forschungsfrage zu erläutern</em> - nicht mehr (also keine Phänomene, die nicht in der Forschungsfrgage spezifiziert sind) und nicht weniger (also alle Aspekte, die in der Forschungsfrage aufgegriffen werden). Wesentlich ist, dass die Erläuterung auf bestehende (wenn möglich, gut etablierte) <em>Theorien zurückgreift</em>. Daten bzw. Beobachtungen sollten stets im Lichte einer Theorie diskutiert - etwa der Dissonanztheorie, der Theorie des schnellen und langsamen Denkens oder der Selbstbestimmungstheorie nach Deci und Ryan, um einige willkürliche Beispiele zu nennen. Es ist bzw. es wäre ein substanzielles Versäumnis, auf Erläuterungen von “Fakten” im Lichte einer Theorie zu verzichten. Dabei ist die Leistung einer Theorie darin zu spezifizieren, dass Beobachtungen (“Fakten”) durch (z.B. psychologische) zumeist nicht direkt beobachtbare Vorgänge oder Strukturen in ihrer kausalen Bedingtheit aufgeschlüsselt werden. Dieser Punkt findet in der vorliegenden Arbeit nicht genug Beachtung.</p></li>
 <li><p>NEG Der Theorieteil sollte <em>nicht als kleines Lehrbuch missverstanden</em> werden. Leitidee sollte sein, alle Phänomene der Forschungsfrage zu erläutern - aber nicht mehr. So ist es falsch, die Grundlagen der Persönlichkeit oder gar einen Überblick über Persönlichkeitstheorien aufzuführen, wenn z.B. “Extraversion” ein Bestandteil der Forschungsfrage ist. Der Theorieteil sollte also möglichst nah an der Forschungsfrage dran sein, je “weiter weg” ein Inhaltsteil des Theorieteils von der Forschungsfrage ist, desto weniger Berechtigung gibt es, diesen Inhaltsteil auszuführen. Dieser Punkt wird im Theorieteil der vorliegenden Arbeit nicht (komplett) berücksichtigt.</p></li>
 <li><p>NEG Der Theorieteil hätte an einigen Stellen <em>von aktuellerem Material</em> profitiert.</p></li>
-<li><p>NEG - Der Theorieteil sollte nicht als <em>“kleines Lehrbuch”</em> missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.</p></li>
+<li><p>NEG Der Theorieteil sollte nicht als <em>“kleines Lehrbuch”</em> missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.</p></li>
+<li><p>NEG Der <em>Theorieteil beinhaltet Teile, die nicht Gegenstand der Forschungsfrage sind</em>. Im Gegensatz dazu sollte der Theorieteil “nur” die Forschungsfrage erläutern (und umgekehrt alle Aspekte der Forschungsfrage). Die vorliegende Arbeit setzt diesen Punkt nicht ausreichend um.</p></li>
 </ul>
 </section>
 <section id="drei-teile-des-theorieteils-xxdreiteile" class="level3" data-number="6.11.4">
@@ -2894,10 +2973,12 @@ q {
 <li><p>POS-NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist befriedigend groß (Note 3).</p></li>
 <li><p>POS-NEG Der Umfang des Literaturverzeichnisses ist <em>befriedigend</em> groß (Note 3).</p></li>
 <li><p>POS-NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist <em>ausreichend bis befriedigend</em> groß (Note 3-4).</p></li>
-<li><p>POS-NEG Der Umfang des Literaturverzeichnisses ist ausreichend bis befriedigend groß (Note 3-4).</p></li>
+<li><p>POS-NEG Der Umfang des Literaturverzeichnisses ist ausreichend bis befriedigend groß (<em>Note 3-4</em>).</p></li>
+<li><p>POS-NEG Der Umfang des Literaturverzeichnisses würde von einer ausgiebigeren Quellenwahl profitieren.</p></li>
 </ul>
 <p><code>---</code></p>
 <ul>
+<li><p>NEG Der Umfang des Literaturverzeichnisses würde von einer <em>ausgiebigeren Quellenwahl profitieren</em>.</p></li>
 <li><p>NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist <em>ausreichend.</em></p></li>
 <li><p>NEG Der Umfang des Literaturverzeichnisses ist ausreichend.</p></li>
 <li><p>NEG Die Anzahl der Quellen im Literaturverzeichnis (an guten Quellen) ist <em>ausreichend bis mangelhaft</em> (Note 4 bis 5).</p></li>
@@ -2933,18 +3014,18 @@ q {
 <h3 data-number="6.12.3" class="anchored" data-anchor-id="qualität-der-quellen---beurteilung-xxlitqual"><span class="header-section-number">6.12.3</span> Qualität der Quellen - Beurteilung (xxlitqual)</h3>
 <p><code>+++</code></p>
 <ul>
-<li><p>POS Die Qualität der Quellen im Literaturverzeichnis ist <em>sehr gut</em>.</p></li>
+<li><p>POS Die Qualität der Quellen im Literaturverzeichnis ist insgesamt <em>sehr gut</em>.</p></li>
 <li><p>POS Die Qualität der Quellen im Literaturverzeichnis ist insgesamt <em>gut bis sehr gut</em>.</p></li>
 <li><p>POS Die Qualität der Quellen im Literaturverzeichnis ist <em>insgesamt</em> gut.</p></li>
 <li><p>POS Die Qualität der Quellen im Literaturverzeichnis ist <em>insgesamt gut bis befriedigend</em>.</p></li>
-<li><p>POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist von <em>mittlerer</em> (befriedigender) Güte.</p></li>
-<li><p>POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist von <em>mittlerer bis geringer</em> Güte.</p></li>
+<li><p>POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt von <em>mittlerer</em> (befriedigender) Güte.</p></li>
+<li><p>POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt von <em>mittlerer bis geringer</em> Güte.</p></li>
 </ul>
 <p><code>---</code></p>
 <ul>
-<li><p>NEG Die Qualität der Quellen im Literaturverzeichnis ist <em>wenig überzeugend</em> (Note 4).</p></li>
-<li><p>NEG Die Qualität der Quellen im Literaturverzeichnis ist <em>mangelhaft.</em></p></li>
-<li><p>NEG Die Qualität der Quellen im Literaturverzeichnis erreicht <em>nicht das Niveau eines Master of Science Studiengangs</em>.</p></li>
+<li><p>NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt <em>wenig überzeugend</em> (Note 4).</p></li>
+<li><p>NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt <em>mangelhaft.</em></p></li>
+<li><p>NEG Die Qualität der Quellen im Literaturverzeichnis erreicht insgesamt <em>nicht das Niveau eines Master of Science Studiengangs</em>.</p></li>
 </ul>
 </section>
 <section id="qualität-der-quellen-kommentare" class="level3" data-number="6.12.4">
@@ -2965,7 +3046,7 @@ q {
 <li><p>NEG Es wurden in <em>zu hohem Maße allgemeine Lehrbücher</em>, nicht aber spezifische Quellen zur Verdeutlichung der Theorien herangezogen.</p></li>
 <li><p>NEG Die höchste Form der Evidenz sind (ceteris paribus) Review-Studien bzw. Metaanalysen. Die vorliegende Arbeit hätte von der (größeren) <em>Einbeziehung solcher Review-Arbeiten</em> profitiert.</p></li>
 <li><p>NEG Es wurden eine oder mehrere Studien verwendet, bei denen die Gefahr von <em>Interessenskonflikten</em> besteht.</p></li>
-<li><p>NEG Es wurdne eine oder mehrere Studien verwendet, deren Qualität nicht durch ein unabhängiges <em>Peer-Review</em> bestätigt wurde.</p></li>
+<li><p>NEG Es wurden eine oder mehrere Studien verwendet, deren Qualität nicht durch ein unabhängiges <em>Peer-Review</em> bestätigt wurde.</p></li>
 </ul>
 </section>
 <section id="englischsprachige-literatur" class="level3" data-number="6.12.5">
@@ -2981,7 +3062,7 @@ q {
 <li><p>NEG Das Literaturverzeichnis <em>hätte von einem ausgiebigerem Rückgriff auf englischsprachige Literatur profitiert</em>.</p></li>
 <li><p>NEG Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass substanzielle Lücken im Literaturüberblick vorliegen.</p></li>
 <li><p>NEG Das Literaturverzeichnis v<em>ernachlässigt angelsächsische Quellen</em>, die aber einen dominierenden Anteil der Literatur stellen. Daher ist davon auszugehen, dass das theoretische Fundament der Arbeit lückenhaft oder/und verzerrt ist.</p></li>
-<li><p>NEG Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.</p></li>
+<li><p>NEG Das Literaturverzeichnis berücksichtigt <em>nur wenige englischsprachige</em> Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.</p></li>
 </ul>
 </section>
 <section id="qualität-der-quellen-empfehlungen" class="level3" data-number="6.12.6">
@@ -3001,7 +3082,7 @@ q {
 <li><p>POS Der sprachliche Ausdruck ist <em>gut</em>.</p></li>
 <li><p>POS Der sprachliche Ausdruck ist insgesamt gut.</p></li>
 <li><p>POS Der sprachliche Ausdruck ist <em>angemessen.</em></p></li>
-<li><p>POS Der sprachliche Ausdruck ist insgesamt adäquat.</p></li>
+<li><p>POS Der sprachliche Ausdruck ist insgesamt <em>adäquat</em>.</p></li>
 <li><p>POS Auf <em>Fachjargon wurde verzichtet</em>, ohne dass die Klarheit der Begriffe eingeschränkt ist. Damit ist eine Fachsprache auf gutem Niveau großteils erreicht worden.</p></li>
 <li><p>POS Die Formulierung ist <em>exakt und präzise</em>, so wie es für eine wissenschaftliche Arbeit angemessen ist.</p></li>
 </ul>
@@ -3020,11 +3101,11 @@ q {
 <li><p>POS <em>Rhetorische</em> Fragen wurden in <em>sinnvoller</em> (eleganter) Art und Weise verwendet.</p></li>
 <li><p>POS Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm <em>geringen Teil an Füllwörtern</em> (“nämlich”, “nun”, “gerade deshalb”, “letztlich”) und überflüssigen Adjektiven (“sehr stringent”, “besonders aufwändig”, “schwere Verwüstung”) aus.</p></li>
 <li><p>POS Der <em>Satzbau</em> ist <em>elegant</em>, insofern er durch Konjunktionen (und/oder andere Junktoren) wie “obwohl”, “während” oder “gleichzeitig” interessante Gedankengefüge erstellt.</p></li>
-<li><p>NEG Der sprachliche Ausdruck ist in Teilen zu <em>umgangssprachlich</em>. So wäre z.B. folgendes Aussage “Aufgrund der aktuell vorliegenden Daten kam uns die Überlegung, …” besser so formuliert “Auf Basis der vorliegenden Daten formulierten wir folgende Hypothese …” oder “Auf Basis der in der Literatur aufgeführten Evidenz leitete sich folgende Forschungsfrage ab …”.</p></li>
-<li><p>NEG Das Personalpronomen in der ersten Person Singular oder Plural (ich bzw. wir) sollte nicht zu häufig verwendet werden. So könnte man anstelle von “Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und uns privat kontaktieren” eher formulieren “Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und <em>die Versuchsleiterinnen</em> privat kontaktieren”.</p></li>
 </ul>
 <p><code>---</code></p>
 <ul>
+<li><p>NEG Der sprachliche Ausdruck ist in Teilen zu <em>umgangssprachlich</em>. So wäre z.B. folgendes Aussage “Aufgrund der aktuell vorliegenden Daten kam uns die Überlegung, …” besser so formuliert “Auf Basis der vorliegenden Daten formulierten wir folgende Hypothese …” oder “Auf Basis der in der Literatur aufgeführten Evidenz leitete sich folgende Forschungsfrage ab …”.</p></li>
+<li><p>NEG Das Personalpronomen in der ersten Person Singular oder Plural (ich bzw. wir) sollte nicht zu häufig verwendet werden. So könnte man anstelle von “Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und uns privat kontaktieren” eher formulieren “Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und <em>die Versuchsleiterinnen</em> privat kontaktieren”.</p></li>
 <li><p>NEG Die <em>erste Person Singular</em> (Ich-Form) und Plural sollte in wissenschaftlichen Berichten <em>spärlich</em> eingesetzt werden; zumindest in der deutschen Sprache. Die vorliegende Arbeit macht relativ regen Gebrauch von dieser Form.</p></li>
 <li><p>NEG Zwar kann man es mit <em>politisch korrekter Sprache</em> auch übertreiben, aber nur von Männern zu reden, wenn es um Frauen und Männer geht, führt eine unnötige Verzerrung und Verengung des Blickwinkels an (z. B. “Hier muss man einen alleinstehenden Mann von einem Familienvater unterscheiden” - wenn man auch eine alleinstehende Frau von einer Mutter unterscheiden müsste).</p></li>
 <li><p>NEG <em>Abkürzungen</em> wurden verwendet, <em>ohne dass sie vorab definiert</em> wurden; Abkürzungen sollten zuerst definiert werden, bevor sie verwendet werden.</p></li>
@@ -3074,11 +3155,13 @@ q {
 </section>
 <section id="reflexiondiskussion-allgemein-ohne-schwächen-kommentare" class="level3" data-number="6.14.2">
 <h3 data-number="6.14.2" class="anchored" data-anchor-id="reflexiondiskussion-allgemein-ohne-schwächen-kommentare"><span class="header-section-number">6.14.2</span> Reflexion/Diskussion (allgemein, OHNE Schwächen) – Kommentare</h3>
+<p><code>+++</code></p>
 <ul>
 <li><p>POS Das Ergebnis der Arbeit wurde <em>kritisch reflektiert</em>.</p></li>
 <li><p>POS Die Implikation bzw. die Bedeutung für die Praxis, die sich aus den Ergebnissen der Arbeit ergeben, werden <em>in nützlicher Weise diskutiert</em>.</p></li>
 <li><p>POS Die Ergebnisse der Studie wurden <em>recht umfangreich interpretiert</em>.</p></li>
 <li><p>POS Die Befunde der vorliegenden Studie wurden <em>in den Kontext früherer Studien gestellt</em> und somit in nützlicher Weise eingeordnet.</p></li>
+<li><p>POS Die <em>praktische Implikationen</em> der vorliegenden Studie wurden in nützlicher Form diskutiert.</p></li>
 </ul>
 <p><code>---</code></p>
 <ul>
@@ -3367,10 +3450,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -3380,8 +3462,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -3394,6 +3485,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -3437,6 +3647,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -3462,6 +3673,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -3522,6 +3759,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

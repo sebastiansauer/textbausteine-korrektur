@@ -76,7 +76,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
-## FORMALIA (Checkliste Seminararbeit)
+## FORMALIA (Checkliste Seminararbeit, xxcheckformalia)
 
 
 **!!FORMALIA-CHECK**
@@ -467,7 +467,7 @@ i
 - NEG Die Arbeit macht insgesamt *keinen* ansprechenden äußeren Eindruck; z. B. sind Schriftsatz und -bild nicht ansprechend (genug) gestaltet.
 
 
-
+- NEG Ein Exposé sollte im Aufbau einer Seminararbeit gleichgesetzt werden. In der vorliegenden Arbeit gibt es davon einige abweichende Punkte.
 
 
 
@@ -572,7 +572,8 @@ i
 - NEG Die *Laufweite der Schrift (d. h. der Abstand zwischen den Buchstaben)* ist teilweise unpassend (zu groß oder zu klein). 
 - NEG Die *Seitenränder sind zu klein gewählt*; d. h. nicht günstig gewählt. Größere Seitenränder wirken optisch ansprechender; lange Textzeilen sind nicht gut lesbar. Allgemein wird von einer optimalen Lesbarkeit von etwa 66 Zeichen pro Zeile ausgegangen.
 
-- NEG *Neue Kapitel beginnen auf einer neuen Seite* und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt.
+- NEG *Neue Kapitel beginnen auf einer neuen Seite* und werden nicht, wie in der vorliegenden Arbeit zu finden, auf der gleichen Seite fortgeführt; ein Seitenumbruch ist angezeigt.
+
 
 - NEG Der Hinweis *"Seite" vor der Angabe der Seitenzahl* birgt wenig Zusatznutzen; daher sollte auf diesen Zusatz verzichtet werden.
 
@@ -638,7 +639,7 @@ i
 
 
 
-- NEG Um ein schöneres Schriftbild mit besserem Abstand zwischen den Wörtern zu erreichen, empfiehlt es sich, stets eine Silbentrennung zu verwenden. Dieser Punkt wurde in der vorliegenden Arbeit *nicht berücksichtigt*.
+- NEG Um ein schöneres Schriftbild mit besserem Abstand zwischen den Wörtern zu erreichen, empfiehlt es sich, stets eine Silbentrennung zu verwenden. Dieser Punkt wurde in der vorliegenden Arbeit *nicht (komplett) berücksichtigt*.
 
 - NEG Der Blocksatz weist *unschöne "Löcher"* auf (evtl. wg. fehlender Silbentrennung).
 
@@ -685,7 +686,7 @@ i
 
 - NEG Verwendet man *vertikalen* Leerraum zur Trennung von Absätzen, so sollte man den Abstand *nicht zu groß* (und nicht zu klein) setzen; eine halbe (zusätzliche) Leerzeile ist ein vertretbares Maß. Das Ziel sollte sein, einen Absatz kenntlich zu machen mit so wenig Zusatzabstand wie möglich. Allerdings muss der Abstand größer sein als eine normale Leerzeile (sonst würde kein Absatzwechsel kenntlich sein). In der vorliegenden Arbeit ist der vertikale Abstand nicht durchgehend passend (d. h. zu groß oder zu klein).
 
-- NEG Der *erste Absatz nach einer Überschrift* ist *nicht einzurücken* (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). Der Grund, dass Einrücken hier nicht sinnvoll ist, liegt darin, dass kein *Ende* eines Gedankens anzuzeigen ist; im Gegenteil, es beginnt erst ein neuer Gedanke. Das Ende des letzten Gedanken ist hingegen schon durch den Abstand zwischen der  aktuellen Überschrift und dem vorasgehenden Abschnitt ausgezeichnet.
+- NEG Der *erste Absatz nach einer Überschrift* ist *nicht einzurücken* (oder durch vertikalen Abstand zur Überschrift kenntlich zu machen). Der Grund, dass Einrücken hier nicht sinnvoll ist, liegt darin, dass kein *Ende* eines Gedankens anzuzeigen ist; im Gegenteil, es beginnt erst ein neuer Gedanke. Das Ende des letzten Gedanken ist hingegen schon durch den Abstand zwischen der  aktuellen Überschrift und dem vorausgehenden Abschnitt ausgezeichnet.
 
 
 
@@ -694,7 +695,7 @@ i
 
 - NEG *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
-- NEG Kapitel und Unterkapitel (Abschnitte) sollte *nummeriert* werden, da das die Orientierung im Text erleichtert.
+- NEG Kapitel und Unterkapitel (Abschnitte) sollte *nummeriert* werden, da das die Orientierung im Text erleichtert (die *Nummerierung der Abschnitte fehlt*).
 
 
 
@@ -812,7 +813,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - NEG Eine substanzielle Zahl an Fehlern in Orthografie und/oder Interpunktion ist vorhanden.
 - NEG Einige Fehler in der Rechtschreibung, vor allem in der Interpunktion, sind vorhanden.
 - NEG Einige Fehler in der Interpunktion sind vorhanden.
-- NEG Deutliche Fehler in der Interpunktion sind vorhanden.
+- NEG Deutliche Mängel in der Interpunktion sind vorhanden.
 
 - NEG Die Grammatik bzw. der Satzbau weist deutliche Fehler auf.
 
@@ -966,7 +967,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 `+++`
 
-- POS Das Literaturverzeichnis enthält *kaum/keine Fehler*.
+- POS Das Literaturverzeichnis enthält *kaum/keine (formalen) Fehler*.
 - POS Das Literaturverzeichnis ist formal als *gut bis sehr gut* zu bewerten.
 - POS Das Literaturverzeichnis enthält *wenig* Fehler.
 - POS Das Literaturverzeichnis enthält *wenig* Zitationsfehler.
@@ -977,14 +978,14 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `---`
 
 
-- NEG Es finden sich *einige Fehler* im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Namen des Verlags).
-- NEG Es finden sich eine *substanzielle* Zahl an Fehlern im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Ort des Verlags).
+- NEG Es finden sich *einige (formale) Fehler* im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Namen des Verlags).
+- NEG Es findet sich eine *substanzielle* Zahl an (formalen) Fehlern im Literaturverzeichnis (z. B. bei Herausgeber-Werken oder beim Ort des Verlags).
 
 
-- NEG Das Literaturverzeichnis enthält eine *große Zahl* oder einen *großen Anteil* an Fehlern.
+- NEG Das Literaturverzeichnis enthält eine *große Zahl* oder einen *großen Anteil* an (formalen) Fehlern.
 - NEG *Jede oder fast jede Quelle* im Literaturverzeichnis ist falsch zitiert. Das ist als gravierender Mangel der vorliegenden Arbeit zu sehen.
 
-- NEG Das Literaturverzeichnis ist *nicht konsistent* aufgebaut; verschiedenen Stile oder Varianten wurden gemischt. Solches - unzulässiges - Mischen könnte etwa bedeuten, dass Namen von Zeitschriften teilweise abgekürzt und teilweise ausgeschrieben wurden oder das insgesamt in einigen Zitationen die Vorgaben der APA V7 befolgt, aber in anderen Zitationen nach einem anderen Zitationsstil formatiert wurde.
+- NEG Das Literaturverzeichnis ist *nicht konsistent* aufgebaut; verschiedenen Zitationsstile oder -varianten wurden gemischt. Solches - unzulässiges - Mischen könnte etwa bedeuten, dass Namen von Zeitschriften teilweise abgekürzt und teilweise ausgeschrieben wurden oder das insgesamt in einigen Zitationen die Vorgaben der APA V7 befolgt, aber in anderen Zitationen nach einem anderen Zitationsstil formatiert wurde.
 
 
 
@@ -1289,7 +1290,11 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 <!-- - NEG Insgesamt ist die akustische Qualität des Podcasts als ausreichend einzuschätzen. -->
 
 
+## Projektmanagement
 
+- NEG Die Projektplanung sollte auf dem tatsächlichen (formal vorgegebenen) Zeitplan beruhen. 
+
+- NEG Die geplante Zeitdauer der Arbeit sollte die formal vorgegebene Zeit nicht überschreiten.
 
 
 
@@ -1302,11 +1307,13 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Fazit  (xxrepfazit)
 
-- POS Die *Reproduzierbarkeit* ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax, Codebook/Data-Dictionary).
+`+++`
 
-- POS Die *Reproduzierbarkeit* der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur Initialisierung der Zufallswerte sichergestellt (z.B. mit `set.seed()`).
+- POS Die *Reproduzierbarkeit* der Studie ist *insgesamt* in gutem Maße *sichergestellt*, da relevantes Material eingereicht wurde (z. B. Daten, Stimuli, Syntax, Codebook/Data-Dictionary).
 
- 
+- POS Die *Reproduzierbarkeit* der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur *Initialisierung* der *Zufallswerte* sichergestellt (z.B. mit `set.seed()`).
+
+- POS Die *Reproduzierbarkeit* des Reviews ist insoferm in gutem Maße sichergestellt, als dass relevantes Material eingereicht wurde, z.B. durchsuchte Datenbanken, Suchterme, Ein- und Ausschlusskriterien, Bibliographien identifizierter Literaturquellen, Interrater-Übereinstimmung, verwendete Software.
 
 
 `---`
@@ -1470,11 +1477,15 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - POS Der *Ablauf* des Versuchs (aus Sicht der Versuchspersonen) wurde nachvollziehbar (und damit reproduzierbar) *geschildert.*
 
 
+`000`
 
-`---`
 
 - POS-NEG Der *Ablauf bzw. das Design* der Studie wurde in einigen Aspekten beschrieben, aber eine genauere Beschreibung wäre sinnvoll gewesen.
 - POS-NEG Es wurden einige Hinweise zum Ablauf bzw. Setting der Studie gegeben.
+
+
+`---`
+
 - NEG Das *Design* der Studie wurde nicht oder *nicht* ausführlich oder nicht korrekt oder nicht an der richtigen Stelle im Bericht *erläutert* (z. B. ob es um ein Between-Subject-Experiment mit einem Faktor und zwei Stufen handelt oder um eine Beobachtungsstudie).
 - NEG *UVs* und AVs wurden *nicht* *expliziert*, bzw. Prädiktoren und Kriterium wurden nicht expliziert (oder nicht an geeigneter Stelle).
 
@@ -1544,6 +1555,8 @@ NUR QUALI:
 
 
 - POS Der Rückgriff auf die Methode der *Grounded Theory* zeugt von einem guten Verständnis der Idee und der Stärken der qualitativen Methode.
+
+- POS Es wurden die Stärken der qualitativen Methoden ausgespielt, indem -- in gewissem Maß -- Theoriebildung betrieben wurde. Qualitatives Arbeit in dieser Art ist besonders fruchtbar.
 
 
 
@@ -1749,7 +1762,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Es *sollten keine zusammengesetzten Hypothesen formuliert werden*; stattdessen sollte für *jede Ursache/jeden Prädiktor eine eigene Hypothese* formuliert werden. Also nicht: "A, B und C führen zu D", sondern "H1: A führt zu D, H2: B führt zu D" etc. Bei zusammengesetzten Hypothesen ist es nicht (direkt) klar, in welchem Fall die Hypothese falsifiziert ist: Was ist wenn A, B aber nicht C zu D führen?
 
 
-
+- NEG *Nullhypothesen* brauchen *nicht zusätzlich zu den Forschungshypothesen* (Alternativhypothesen) aufgeführt werden. Es darf vorausgesetzt werden, dass fachkundige Leser die Nullhypothesen selbständig aus den Forschungshypothesen erschließen können.
 
 
 
@@ -1884,7 +1897,7 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 - NEG Hinweise zur Repräsentativität der Stichprobe wären von nutzen gewesen, fehlen aber.
 
 
-### Poweranalyse (xxpower) {#poweranalyse}
+### Poweranalyse/Stichprobenplanung (xxpower) {#poweranalyse}
 
 `+++`
 
@@ -1900,6 +1913,8 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 - NEG Bei einer Poweranalyse sollte die *Größe des erwarteten Effekts* durch *Rückgriff auf geeignete Literatur* gerechtfertigt werden (etwa: "Müller (2019) berichtet in seiner Metaanalyse von einer moderat hohen Korrelation (r = .42); entsprechend wird dieser Schätzwert für die Effektstärke in der vorliegenden Studie angenommen").
 
 - NEG Es ist nicht auszuschließen, dass es *fachliche Fehler in der Berechnung* des optimalen Stichprobenumfanges im Rahmen der Poweranalyse gibt.
+
+- NEG Es fehlen Hinweise zur Planung der Stichprobengröße und/oder der gewünschten Genauigkeit derErgebnisse.
 
 
 ### Zusammenstellung/Auswahl {#stiprozusammenstellung}
@@ -2808,6 +2823,17 @@ Fehlinterpretationen:
 
 
 
+### Literaturreview xxreview
+
+`---`
+
+- NEG Eine (un)systematische *Review-Arbeit* setzt deutlich *höhere Ansprüche* an den Überblick der Literatur als eine empirische Arbeit. Diesem Anspruch wird die vorliegende Arbeit nicht ausreichend gerecht.
+
+- NEG Die Gliederung einer Review-Arbeit ähnelt der einer empirischen Arbeit in dem Sinne, dass es auch einen *Methoden-Teil gibt*, der das Vorgehen erklärt und einem Ergebnis-Teil, der die Ergebnisse der Recherche darlegt. 
+
+- NEG Die Recherche-Methodik ist nicht detailliert genug geschildert. So fehlen Hinweise zu den Suchthemen oder -termen.
+
+- Ich empfehle, dass Sie sich näher mit den methodischen Spezifika der (un)systematischen Literaturrecherche bzw. dem Review befassen.
 
 
 
@@ -3199,8 +3225,33 @@ Fehlinterpretationen:
 
 
 
+## Systematisches Review (xxsystrev)
+
+`+++`
+
+- POS Es wurde ein *methodisches sinnvolles Vorgehen* im Rahmen des systematischen Literatur-Reviews gewählt.
+
+- POS Es wurde das Vorgehen nach *Siddaway, Wood und Hedges* (2019) gewählt, was eine sinnvolle Wahl ist.
+
+- POS Es wurde das Vorgehen nach \@siddaway_how_2019 gewählt, was eine sinnvolle Wahl ist.
+
+- POS Ein *Prisma-Flowchart* wurde verwendet, um die Auswahl bzw. das Filtern relevanter Studien für den Review zu beschreiben. Dieses Vorgehen ist methodisch begrüßenswert.
+
+- POS Der *Umfang* an analysierten Primärquellen ist *umfassend*, $n=??$.
+
+- POS Der *Umfang* an analysierten Primärquellen ist *angemessen*, $n=??$.
+
+- POS Ein- und/oder *Ausschlusskriterien* wurden berichtet.
+
+- POS Die verwendeteten Ein- bzw. *Ausschlusskriterien* sind *gegenstandsangemessen.*
 
 
+
+
+`---`
+
+- POS Der *Umfang* an analysierten Primärquellen ist *nicht hoch*, $n=??$.
+- POS Der *Umfang* an analysierten Primärquellen ist *gering*, $n=??$.
 
 
 
@@ -3538,7 +3589,7 @@ Fehlinterpretationen:
 
 `---`
 
-- Ein *Advance Organizer* kann sinnvoll sein, birgt aber zwei Gefahren: Zum einen wird knapper, daher wertvoller Platz, vergeben; zum anderen ist die Information häufig redundant zum Inhaltsverzeichnis. 
+- NEG Ein *Advance Organizer* ("Im folgenden Abschnitt spreche ich über A, B und C...") kann sinnvoll sein, birgt aber zwei Gefahren: Zum einen wird knapper, daher wertvoller Platz, vergeben; zum anderen ist die Information häufig redundant zum Inhaltsverzeichnis. Bei Arbeiten mit knappem Platz sollte sich tendenziell gegen Advance Organizer entschieden werden.
 
 
 
@@ -3758,7 +3809,7 @@ Fehlinterpretationen:
 
 - POS Die Arbeit beginnt mit einer *sinnvollen Einführung*.
 - POS Die *Relevanz* das Themas wird *anhand verschiedener Statistiken* (wie Umsatz, Anzahl Personen oder dergleichen) belegt. Das ist eine sinnvolle Art, die Relevanz eines Themas einzuleiten.
-
+- POS Die *Relevanz* des Themas wird auf sinnvolle Art und Weise begründet.
 
 
 `---`
@@ -3895,6 +3946,7 @@ Fehlinterpretationen:
 
 
 - NEG Es finden sich *kaum Quellen zur Forschungsfrage* im Literaturverzeichnis.
+
 - NEG *Unveröffentlichte Skripte* sind keine qualitativ hochstehenden Quellen und sollten daher besser gemieden werden.
 
 
@@ -3904,7 +3956,9 @@ Fehlinterpretationen:
 
 - NEG Der Theorieteil hätte an einigen Stellen *von aktuellerem Material* profitiert. 
 
-- NEG - Der Theorieteil sollte nicht als *“kleines Lehrbuch”* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.
+- NEG Der Theorieteil sollte nicht als *“kleines Lehrbuch”* missverstanden werden. Insbesondere sind nur Bestandteile der empirisch getesteten Modelle darzustellen. Grundlagen wie z. B. der Wahrnehmung oder Kognition im Allgemeinen sind zu weit führend und sollten vermieden werden. Die vorliegende Arbeit hält das nicht durchgehend durch.
+
+- NEG Der *Theorieteil beinhaltet Teile, die nicht Gegenstand der Forschungsfrage sind*. Im Gegensatz dazu sollte der Theorieteil "nur" die Forschungsfrage erläutern (und umgekehrt alle Aspekte der Forschungsfrage). Die vorliegende Arbeit setzt diesen Punkt nicht ausreichend um.
 
 
 ### Drei Teile des Theorieteils (xxdreiteile)
@@ -4017,10 +4071,13 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 
 - POS-NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *ausreichend bis befriedigend* groß (Note 3-4).
-- POS-NEG Der Umfang des Literaturverzeichnisses ist ausreichend bis befriedigend groß (Note 3-4).
+- POS-NEG Der Umfang des Literaturverzeichnisses ist ausreichend bis befriedigend groß (*Note 3-4*).
 
+- POS-NEG Der Umfang des Literaturverzeichnisses würde von einer ausgiebigeren Quellenwahl profitieren.
 
 `---`
+
+- NEG Der Umfang des Literaturverzeichnisses würde von einer *ausgiebigeren Quellenwahl profitieren*.
 
 
 - NEG Der Umfang des Literaturverzeichnisses (an guten Quellen) ist *ausreichend.*
@@ -4075,27 +4132,27 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 `+++`
 
-- POS Die Qualität der Quellen im Literaturverzeichnis ist *sehr gut*.
+- POS Die Qualität der Quellen im Literaturverzeichnis ist insgesamt *sehr gut*.
 - POS Die Qualität der Quellen im Literaturverzeichnis ist insgesamt *gut bis sehr gut*.
 - POS Die Qualität der Quellen im Literaturverzeichnis ist *insgesamt* gut.
 
 - POS Die Qualität der Quellen im Literaturverzeichnis ist *insgesamt gut bis befriedigend*.
 
 
-- POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist von *mittlerer* (befriedigender) Güte.
-- POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist von *mittlerer bis geringer* Güte.
+- POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt von *mittlerer* (befriedigender) Güte.
+- POS-NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt von *mittlerer bis geringer* Güte.
 
 
 
 
 `---`
 
-- NEG Die Qualität der Quellen im Literaturverzeichnis ist *wenig überzeugend* (Note 4).
-- NEG Die Qualität der Quellen im Literaturverzeichnis ist *mangelhaft.*
+- NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt *wenig überzeugend* (Note 4).
+- NEG Die Qualität der Quellen im Literaturverzeichnis ist insgesamt *mangelhaft.*
 
 
 
-- NEG Die Qualität der Quellen im Literaturverzeichnis erreicht *nicht das Niveau eines Master of Science Studiengangs*.
+- NEG Die Qualität der Quellen im Literaturverzeichnis erreicht insgesamt *nicht das Niveau eines Master of Science Studiengangs*.
 
  
 ### Qualität der Quellen -- Kommentare
@@ -4124,7 +4181,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 - NEG Es wurden eine oder mehrere Studien verwendet, bei denen die Gefahr von *Interessenskonflikten* besteht.
 
-- NEG Es wurdne eine oder mehrere Studien verwendet, deren Qualität nicht durch ein unabhängiges *Peer-Review* bestätigt wurde.
+- NEG Es wurden eine oder mehrere Studien verwendet, deren Qualität nicht durch ein unabhängiges *Peer-Review* bestätigt wurde.
 
 
 
@@ -4145,8 +4202,10 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 - NEG Das Literaturverzeichnis *hätte von einem ausgiebigerem Rückgriff auf englischsprachige Literatur profitiert*.
 
 - NEG Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass substanzielle Lücken im Literaturüberblick vorliegen.
+
 - NEG Das Literaturverzeichnis v*ernachlässigt angelsächsische Quellen*, die aber einen dominierenden Anteil der Literatur stellen. Daher ist davon auszugehen, dass das theoretische Fundament der Arbeit lückenhaft oder/und verzerrt ist.
-- NEG Das Literaturverzeichnis berücksichtigt nur wenige englischsprachige Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.
+
+- NEG Das Literaturverzeichnis berücksichtigt *nur wenige englischsprachige* Arbeiten. Da aber englischsprachige Arbeiten einen Großteil der verfügbaren Literatur ausmachen, ist davon auszugehen, dass es Lücken in der Rezeption relevanter Forschungserkenntnisse gibt.
 
 
 
@@ -4168,7 +4227,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 - POS Der sprachliche Ausdruck ist insgesamt  gut.
 
 - POS Der sprachliche Ausdruck ist *angemessen.*
-- POS Der sprachliche Ausdruck ist insgesamt adäquat.
+- POS Der sprachliche Ausdruck ist insgesamt *adäquat*.
 
 - POS Auf *Fachjargon wurde verzichtet*, ohne dass die Klarheit der Begriffe eingeschränkt ist. Damit ist eine Fachsprache auf gutem Niveau großteils erreicht worden.
 - POS Die Formulierung ist *exakt und präzise*, so wie es für eine wissenschaftliche Arbeit angemessen ist.
@@ -4194,15 +4253,18 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 
 - POS Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm *geringen Teil an Füllwörtern* ("nämlich", "nun", "gerade deshalb", "letztlich") und überflüssigen Adjektiven ("sehr stringent", "besonders aufwändig", "schwere Verwüstung") aus.
+
+
 - POS Der *Satzbau* ist *elegant*, insofern er durch Konjunktionen (und/oder andere Junktoren) wie "obwohl", "während" oder "gleichzeitig" interessante Gedankengefüge erstellt.
+
+
+`---`
+
+
 
 - NEG Der sprachliche Ausdruck ist in Teilen zu *umgangssprachlich*. So wäre z.B. folgendes Aussage "Aufgrund der aktuell vorliegenden Daten kam uns die Überlegung, ..." besser so formuliert "Auf Basis der vorliegenden Daten formulierten wir folgende Hypothese ..." oder "Auf Basis der in der Literatur aufgeführten Evidenz leitete sich folgende Forschungsfrage ab ...".
 
 - NEG Das Personalpronomen in der ersten Person Singular oder Plural (ich bzw. wir) sollte nicht zu häufig verwendet werden. So könnte man  anstelle von "Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und uns privat kontaktieren" eher formulieren "Die Teilnehmer:Innen konnten am Ende der Studie eine Rückmeldung hinterlassen und *die Versuchsleiterinnen* privat kontaktieren".
-
-
-`---` 
-
 
 
 
@@ -4281,7 +4343,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 ### Reflexion/Diskussion (allgemein, OHNE Schwächen) -- Kommentare
 
-
+`+++`
 
 - POS Das Ergebnis der Arbeit wurde *kritisch reflektiert*.
 - POS Die Implikation bzw. die Bedeutung für die Praxis, die sich aus den Ergebnissen der Arbeit ergeben, werden *in nützlicher Weise diskutiert*.
@@ -4289,6 +4351,8 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 - POS Die Ergebnisse der Studie wurden *recht umfangreich interpretiert*.
 
 - POS Die Befunde der vorliegenden Studie wurden *in den Kontext früherer Studien gestellt* und somit in nützlicher Weise eingeordnet.
+
+- POS Die *praktische Implikationen* der vorliegenden Studie wurden in nützlicher Form diskutiert.
 
 `---`
 
