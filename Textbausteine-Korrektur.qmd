@@ -348,6 +348,8 @@ ausführlich genug vorgestellt?
 
 - NEG Die Größe des *Logos* auf der Titelseite entspricht nicht der Relevanz des Logos; besser wäre es, das Logo kleiner zu halten, da dem Logo keine große (inhaltliche) Bedeutung zukommt.
 
+- NEG Der *Titel* ist das *Wichtigste* der *Titelseite*, daher sollte er auch das größte Element sein. Dieser Punkt ist in der vorliegenden Arbeit nicht (vollständig) umgesetzt.
+
 
 - NEG Eine *Zäsur* in Form z.B. eines Doppelpunkts oder Gedankenstrichs wäre sinnvoll gewesen, *fehlt* aber. 
 
@@ -2411,7 +2413,8 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 - POS  Konfidenzintervalle wurden *in sinnvoller Weise berichtet*.
 
-`---'
+`---`
+
 
 
 - NEG *Konfidenzintervalle* wären eine sinnvolle Erweiterung gewesen (auch bei nicht-signifikanten Ergebnissen), *fehlen* aber.
@@ -3722,7 +3725,7 @@ Fehlinterpretationen:
 
 - NEG Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde entweder nicht ausreichend auf den Zusammenhang von  "A" und "B" eingegangen oder nicht in der Gliederung diese drei Aspekte separat ausgewiesen.
 
-- NEG Damit ein "roter Faden" in der Arbeit erkennbar ist, ist es notwendig, dass im Theorieteil *alle Aspekte der der Forschungsfrage des Typs "A -> B"* diskutiert werden, nämlich A, B und der Zusammenhang von A und B (möglicherweise kausaler Natur). Häufig sind das zwei Phänomen und (das wird häufig vergessen) eine Erklärung zum Einfluss oder zum  Zusammenhang der Phänomene. Gleiches gilt für die Hypothese; es sollten nur Hypothesen (in einer quantitativen bzw. nicht-explorativen Arbeit) formuliert werden, die zuvor im Theorieteil erläutert wurden. Dieser Aspekt wird in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
+- NEG Damit ein "roter Faden" in der Arbeit erkennbar ist, ist es notwendig, dass im Theorieteil *alle Aspekte der der Forschungsfrage des Typs "A -> B"* diskutiert werden, nämlich A, B und der Zusammenhang von A und B (möglicherweise kausaler Natur). Häufig sind das zwei Phänomen und (das wird häufig vergessen) eine *Erklärung* zum Einfluss oder zum  Zusammenhang der Phänomene. Gleiches gilt für die Hypothese; es sollten nur Hypothesen (in einer quantitativen bzw. nicht-explorativen Arbeit) formuliert werden, die zuvor im Theorieteil erläutert wurden. Mit "erläutert" ist gemeint, dass sowohl die involvierten Phänomene als auch ihr (kausaler) Zusammenhang vorab diskutiert wurde. Dieser Aspekt wird in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
 
 
