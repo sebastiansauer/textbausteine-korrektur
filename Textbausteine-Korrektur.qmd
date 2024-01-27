@@ -95,7 +95,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
-## INHALT (Checklist Seminararbeit **!!INHALT-CHECK**)
+## INHALT (Checklist Seminararbeit **!!INHALT-CHECK**, xxcheckinhalt)
 
 1. [Forschungsfrage expliziert?](#fofrage)
 2. WICHTIG [Roter Faden erkennbar?](#roterfaden)
@@ -677,7 +677,6 @@ i
 - NEG Der *erste Absatz eines Kapitels* sollte nicht eingerückt sein, da es nicht nötig bzw. nicht sinnvoll ist, einen Absatzwechsel anzuzeigen. Dies wurde in der vorliegenden Arbeit nicht berücksichtigt. Allerdings handelt es sich hierbei eher um eine typografische Feinheit, der keine große Bewertungsrelevanz zukommt. 
 
 
-
 - NEG Ein *Abschnitt* (z. B. "2.1") sollte nicht kürzer sein als eine *halbe Seite*.
 
 - NEG Es bieten sich *zwei Formate* um, um Absätze optisch im Textfluss voneinander zu trennen: Durch vertikalen Abstand oder durch Einrücken der ersten Zeile des Folgeabsatzes. Beide Methoden sind gleich legitim. Hat man sich aber für eine Methode entschieden, so ist sie konsequent einzuhalten. Nicht sinnvoll ist, Absätze ohne einer der beiden gerade genannten Methoden zu trennen. Ebenso sollten nicht beide Methoden gleichzeitig verwendet werden (Leerraum plus Einrücken). Diese Aspekte finden in der vorliegenden Arbeit *nicht ausreichend Berücksichtigung*.
@@ -697,6 +696,7 @@ i
 
 - NEG Kapitel und Unterkapitel (Abschnitte) sollte *nummeriert* werden, da das die Orientierung im Text erleichtert (die *Nummerierung der Abschnitte fehlt*).
 
+- NEG Beginnt man ein Kapitel auf einer neuen Seite, so sollte die nun folgende *Überschrift stets die gleiche Position innehaben* auf der Seite; anders gesagt sollte der Abstand nach oben konstant sein für alle betreffenden Seiten. Dieser Punkt wird in der vorliegenden Arbeit nicht (konsistent) umgesetzt.
 
 
 ### Lesbarkeit  {#lesbarkeit}
@@ -846,7 +846,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Hinweise zu Komposita
 
-+ POS  *Komposita*  (zusammengesetzte Nomen) wurden korrekt geschrieben, nämlich gekoppelt d.h. entweder mit Bindestrich oder in einem Wort (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
+`+++`
+
+- POS  *Komposita*  (zusammengesetzte Nomen) wurden korrekt geschrieben, nämlich gekoppelt d.h. entweder mit Bindestrich oder in einem Wort (z. B. richtig: "Software-Standard", "R-Syntax", "Desktop-Publishing", "Influencer-Marketing", "BFI-Skala", "Between-Subject-Design" oder "Master-Thesis"; falsch: "R Befehl", "Multiple Choice Aufgabe" oder "Fugen Reiniger"). Es gilt die Regel: Wörter, die zusammen einen Begriff bilden, werden gemäß der geltenden Rechtschreibung entweder zusammengeschrieben oder es wird ein Bindestrich gesetzt.
 
 
 
@@ -989,7 +991,18 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-#### Literaturverzeichnis -- Kommentare zu Aufbaufehlern {#litverzaufbau}
+#### Literaturverzeichnis -- Kommentare zu Aufbau(fehlern) {#litverzaufbau}
+
+
+`+++` 
+
+
+- Pos Das Literaturverzeichnis ist mit “Literaturverzeichnis” (formatiert als Überschrift Ebene 1) zu überschreiben, aber nicht zu nummerieren. Dieser Punkt wurde in der vorliegenden Arbeit korrekt umgesetzt.
+
+
+- POS Es wurde (ggf. die deutsche Version) der aktuellen, d.h. 7. Auflage, des APA-Handbuchs verwendet.
+
+
 
 `000`
 
@@ -1005,7 +1018,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - NEG Laut APA/DPGs ist ab der zweiten Zeile einer Zitation im Literaturverzeichnis einzurücken (5-7 Leerzeichen; *"hängender Einzug"*). Das wurde in der vorliegenden Arbeit nicht berücksichtigt.
 
 
-- NEG Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Titel) zu überschreiben, aber *nicht zu nummerieren*.
+- NEG Das Literaturverzeichnis ist mit "Literaturverzeichnis" (formatiert als Überschrift der Ebene 1) zu überschreiben, aber *nicht zu nummerieren*.
 
 
 - NEG In der vorliegenden Arbeit werden Quellen im Text zitiert, die sich nicht im Literaturverzeichnis finden (oder umgekehrt). Das ist als schwerer formaler Fehler zu werten.
@@ -1497,6 +1510,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - NEG Eine *Visualisierung* oder konzise Zusammenfassung (z. B. als "Flowchart") des *Versuchsablauf* wäre hilfreich gewesen, *fehlt* aber.
 - NEG Die Erläuterung zur *Art* des Experiments, *between vs. within*, *fehlt*, wurde nicht erläutert, oder nicht klar genug oder nicht an richtiger Stelle.
 
+- NEG Zwar wurden relevante Informationen zum (methodischen) *Vorgehen* im *Fließtext* berichtet, aber es wäre einem einfacheren Lesefluss und einer besseren Zugänglichkeit der Informationen zuträglich gewesen, wären die Informationen in *Tabellenform* berichtet worden.
+
 
 
 NUR QUALI:
@@ -1981,7 +1996,7 @@ NUR QUALI:
 - NEG Tabellen sollten grundsätzlich ohne vertikale Linien gesetzt sein.
 
 - NEG *Tabellen* sollten nicht als *Screenshot* (z. B. aus Excel) abgebildet werden. Häufig leidet die gestalterische Qualität dadurch. Außerdem ist es nicht möglich, Werte zu entnehmen per Copy-Paste.
-Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem erzielt werden. 
+Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Erscheinungsbild erzielt werden. 
 
 
 - NEG Die *Spaltenüberschriften* sollten in der gleichen Sprache geschrieben sein wie der übrige Bericht.
@@ -2647,7 +2662,7 @@ Fehlinterpretationen:
 
 - NEG Verwendet man den Begriff *"Signifikanz"* (korrekter: statistische Signifikanz) im Rahmen einer Analyse mit Methoden der Bayes-Statistik, so sollte dieser Begriff definiert sein, da er nicht standardmäßig verwendet wird und es daher keine einheitlich akzeptierte Definition gibt. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt. Eine mögliche Definition von "signifikant" ist "das 95%-PI der Posteriori-Verteilung liegt komplett außerhalb des ROPE". Es sei angemerkt, dass auch zu definieren ist, wie das ROPE definiert ist. Es ist auch zu argumentieren, dass es besser ist, außerhalb der Frequentistischen Statistik, auf den Begriff zu verzichten. Übrigens rät die ASA, auch innerhalb der Frequentistischen Statistik auf den Begriff zu verzichten.
 
-
+- NEG Die Ergebnisse der ROPE-Analyse wurden nicht (durchgängig) korrekt *interpretiert.*
 
 
 
@@ -3250,9 +3265,11 @@ Fehlinterpretationen:
 
 `---`
 
-- POS Der *Umfang* an analysierten Primärquellen ist *nicht hoch*, $n=??$.
-- POS Der *Umfang* an analysierten Primärquellen ist *gering*, $n=??$.
+- NEG Der *Umfang* an analysierten Primärquellen ist *nicht hoch*, $n=??$.
+- NEG Der *Umfang* an analysierten Primärquellen ist *gering*, $n=??$.
 
+
+- NEG Der Methodenteil hätte von einer Untergliederung in *Teilkapitel* profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskritierien und Datenbanken), Mengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).
 
 
 
@@ -3643,10 +3660,11 @@ Fehlinterpretationen:
 
 - NEG Die *Forschungsfrage* in der vorliegenden Arbeit ist *nicht-kausal* formuliert, zielt also nur auf das Vorhandensein von Mustern (Zusammenhängen etc.) ab. Solche methodologische Bescheidenheit ist in Forschungsarbeiten nicht unüblich und oft ein Zeichen von methodischer Strenge, was positiv zu sehen ist. Auf der anderen Seite hätte inhaltlich eine kausale Forschungsfrage mehr Sinn gemacht, eine Forschungsfrage der Art "Führt X zu Y" also. Vermutlich ist die Zurückhaltung darin zu suchen, dass die eingesetzte Forschungsmethode nicht (direkt) Zugang zu kausalen Schlussfolgerungen erlaubt. Glücklicherweise jedoch erlauben Fortschritte in der *Kausalanalyse* auch, bei Beobachtungsdaten, also ohne das Vorhandensein von randomiserten Experimenten, Kausalfragen zu untersuchen. Es sei hinzugefügt, dass die Kausalanalyse auf Annahmen beruht, natürlich; diese Annahmen sind vor allem im Vorhandensein einer entsprechenden Theorie zu suchen. Es gibt einige zugängliche Einstiegsliteratur in die Kausalanalyse, die an  dieser Stelle empfohlen sei \[vgl. @rohrer_thinking_2018\].
 
+- NEG Auch eine Review-Arbeit sollte eine Forschungsfrage aufweisen, da so das erkenntnisleitende Interesse besser ausgerichtet wird, als durch ein Thema oder Ziel.
 
 **NUR QUALI:**
 
-- NEG Die Forschungsfrage in einer qualitativen Forschungsarbeit sollte *das genuin Qualitative der Arbeit aufzeigen*. Eine Forschungsfrage wie "Einführung moderner Führungswerkzeuge" etwa streicht nicht klar genug die subjektive bzw. das sozialkonstruktive Gefüge heraus.
+- NEG Die Forschungsfrage in einer qualitativen Forschungsarbeit sollte *das genuin Qualitative der Arbeit aufzeigen*. Eine Forschungsfrage zu "Einführung moderner Führungswerkzeuge" etwa streicht nicht klar genug die subjektive bzw. das sozialkonstruktive Gefüge heraus.
 
 
 
@@ -3702,7 +3720,7 @@ Fehlinterpretationen:
 
 - NEG Im Theorieteil wird *versäumt, auf alle Aspekte, die in der Forschungsfrage/den Forschungsfragen vorkommen*, einzugehen.
 
-- NEG Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde entweder nicht ausreichend auf den Zusammenhang von "A" und "B" eingegangen oder nicht in der Gliederung diese drei Aspekte separat ausgewiesen.
+- NEG Ein häufiger Fehler in vergleichbaren Arbeiten besteht darin, dass der Theorieteil eine Lücke aufweist. Und zwar sind viele Forschungsfragen formal mit dem Gerüst "*A -> B" (A beeinflusst B)* fassbar; allerdings übersehen einige Schreibende, im Theorieteil eben nicht nur A und B vorzustellen, sondern auch über den (möglicherweise) kausalen Zusammenhang beider Merkmale zu schreiben. In der vorliegenden Arbeit wurde entweder nicht ausreichend auf den Zusammenhang von  "A" und "B" eingegangen oder nicht in der Gliederung diese drei Aspekte separat ausgewiesen.
 
 - NEG Damit ein "roter Faden" in der Arbeit erkennbar ist, ist es notwendig, dass im Theorieteil *alle Aspekte der der Forschungsfrage des Typs "A -> B"* diskutiert werden, nämlich A, B und der Zusammenhang von A und B (möglicherweise kausaler Natur). Häufig sind das zwei Phänomen und (das wird häufig vergessen) eine Erklärung zum Einfluss oder zum  Zusammenhang der Phänomene. Gleiches gilt für die Hypothese; es sollten nur Hypothesen (in einer quantitativen bzw. nicht-explorativen Arbeit) formuliert werden, die zuvor im Theorieteil erläutert wurden. Dieser Aspekt wird in der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
@@ -3803,7 +3821,7 @@ Fehlinterpretationen:
 
 
 
-## Einführung/Einleitung (xxeinl) {#einleitung}
+## Einleitung (xxeinl) {#einleitung}
 
 `+++`
 
