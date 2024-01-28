@@ -399,7 +399,7 @@ ausführlich genug vorgestellt?
 - NEG Ein Abstract *benennt nicht die wesentlichen Punkte der Arbeit genau*; bei einer empirischen Studie sind das Forschungsfrage, Stichprobe, Messinstrumente, Design, Ergebnis, Limitationen.
 
 - NEG Abstract schreibt sich mit "c", nicht mit "k".
-i
+
 - NEG Ein Abstract, der das Überblicken der Arbeit unterstützt, *fehlt*, wäre aber sinnvoll gewesen.
 
 
@@ -433,6 +433,8 @@ i
 - NEG Der Abstract soll nicht in Absätze untergliedert, sondern als Fließtext innerhalb eines Absatzes gestaltet sein.
 
 - NEG Die *Forschungsfrage* soll *im Abstract auftauchen*; das ist bei der vorliegenden Arbeit nicht (deutlich genug) der Fall.
+
+- NEG Der Abstract brilliert, wenn er die Kunst darstellt, das *Wesentliche prägnant* zu benennen. Eine wesentliche Frage, die der Abstract beantworten muss, ist die Frage nach den Ergebnissen der Studie. So wäre z.B. das Ergebnis, dass "Hassrede eine kontextspefizisches Phänomen" sei, nicht ausreichend spezzisch.
 
 
 
@@ -1046,7 +1048,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - POS Schön ist, dass *URLs* im Literaturverzeichnis am Zeilenende *getrennt/umgebrochen* wurden, um hässliche Lücken im Textsatz zu vermeiden. Häufig wird das vernachlässigt.
 
-- POS Es ist positiv anzumerken, dass *Verlagsnamen* in der von der APA (6. Auflage) vorgeschlagenen Form berichtet wurden (nämlich "Heidelberg: Springer." anstelle von z.B. "Berlin, Heidelberg: Springer Medien Verlag."). Allerdings ist die 6. Auflage mittlerweile veraltet.
+- POS Es ist positiv anzumerken, dass *Verlagsnamen* in der von der APA (6. Auflage) vorgeschlagenen Form berichtet wurden (nämlich "Heidelberg: Springer." anstelle von z.B. "Berlin, Heidelberg: Springer Medien Verlag."; letzteres wäre falsch). Allerdings ist die 6. Auflage mittlerweile veraltet.
 
 
 
@@ -1104,8 +1106,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - NEG *Zitiert man aus einem Kapitel einer Monografie*, so ist die ganze Monografie zu zitieren. Falsch ist die Zitation des Buchkapitels als wäre es Teil eines Herausgeberwerks. 
 
-
-
+- NEG Es ist anzumerken, dass *Verlagsnamen* in der von der APA (6. und 7. Auflage) vorgeschlagenen Form in Kurzform berichtet werden soll, also z.B. "Springer" und nicht "Springer Fachmedien Wiesbaden". Dieser Punkt wurde in der vorliegenden Arbeit nicht konsequent umgesetzt.
 
 
 #### Literaturverzeichnis -- Beispiele/Blaupausen von Zitaten nach Typen
@@ -3249,7 +3250,7 @@ Fehlinterpretationen:
 
 - POS Es wurde ein *methodisches sinnvolles Vorgehen* im Rahmen des systematischen Literatur-Reviews gewählt.
 
-- POS Es wurde das Vorgehen nach *Siddaway, Wood und Hedges* (2019) gewählt, was eine sinnvolle Wahl ist.
+- POS Es wurde im Rahmen des systematischen Literatur-Reviews das Vorgehen nach *Siddaway, Wood und Hedges* (2019) gewählt, was eine sinnvolle Wahl ist.
 
 - POS Es wurde das Vorgehen nach \@siddaway_how_2019 gewählt, was eine sinnvolle Wahl ist.
 
@@ -3263,7 +3264,11 @@ Fehlinterpretationen:
 
 - POS Die verwendeteten Ein- bzw. *Ausschlusskriterien* sind *gegenstandsangemessen.*
 
+- POS Die untersuchten *Datenbanken* wurden angegeben.
 
+- POS Die *Suchterme* (und ihre Verknüpfung) wurden berichtet.
+
+- POS Die verwendete *Recherche-Software* (und ihre Versionsnummern) wurde berichtet.
 
 
 `---`
