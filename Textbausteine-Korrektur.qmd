@@ -1245,26 +1245,47 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 ### Übersichtlichkeit {#postuebersichtlich}
 
+`+++`
+
 - POS Das Poster ist übersichtlich gestaltet.
 
 - POS-NEG Das Poster ist nicht immer übersichtlich gestaltet.
 
+
+`---`
+
 - NEG Das Poster ist nicht übersichtlich gestaltet.
 
 
-- NEG Bei einem Poster sollten die einzelnen Teile -- wie Einleitung oder Methoden -- optisch gut voneinander getrennt werden. Häufig erreicht man das durch Farbgebung (z. B. jeder Abschnitt wird in einer Box mit grauem Hintergrund dargestellt; zwischen den Boxen liegt Weißraum). Diese optische Abtrennung der einzelnen Teile ist in der vorliegenden Arbeit nicht gut gelungen.
-- NEG Die Reihenfolge der Positionierung der Abschnitte auf dem Poster entspricht nicht dem Lesefluss. So ist z. B. die Diskussion unten rechts zu positionieren, da dies das Ende des natürlichen Leseflusses darstellt.
+- NEG Bei einem Poster sollten die einzelnen *Teile* -- wie Einleitung oder Methoden -- *optisch gut voneinander getrennt* werden. Häufig erreicht man das durch Farbgebung (z. B. jeder Abschnitt wird in einer Box mit grauem Hintergrund dargestellt; zwischen den Boxen liegt Weißraum). Diese optische Abtrennung der einzelnen Teile ist in der vorliegenden Arbeit nicht gut gelungen.
+
+- NEG Die *Reihenfolge* der Positionierung der Abschnitte auf dem Poster entspricht nicht dem Lesefluss. So ist z. B. die Diskussion unten rechts zu positionieren, da dies das Ende des natürlichen Leseflusses darstellt.
+
+- NEG *Lange Texte* auf Postern (und Folien) sollten vermieden werden. Stattdessen bietet sich eine Segmentierung mittels *Spiegelstrichen* (Aufzählung) an. Dieser Punkt wurde im vorliegenden Poster nicht (komplett) umgesetzt.
+
+
+
 
 ### Vollständigkeit {#postvollstaendig}
 
-- POS Das Poster ist vollständig insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) aufgeführt sind.
-- NEG Das Poster ist unvollständig insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) nicht im erforderlichen Umfang aufgeführt sind.
+`+++`
+
+- POS Das Poster ist *vollständig*, insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) aufgeführt sind.
+
+
+`---`
+
+- NEG Das Poster ist *unvollständig*, insofern als dass die wesentlichen Aspekte einer Studie (Einleitung, Theorie, Methode, Ergebnisse, Diskussion, Literatur) nicht im erforderlichen Umfang aufgeführt sind.
 
 
 ### Platznutzung
 
-- POS Der (knappe) Platz auf dem Poster wurde sinnvoll genutzt.
-- NEG Der (knappe) Platz auf dem Poster wurde nicht immer sinnvoll genutzt; z. B. wurde Platz verschenkt.
+`+++`
+
+- POS Der *(knappe) Platz* auf dem Poster wurde *sinnvoll* genutzt.
+
+`---`
+- NEG Der *(knappe) Platz* auf dem Poster wurde *nicht* immer sinnvoll genutzt; z. B. wurde Platz verschenkt.
 
 
 <!-- ## Podcast -->
@@ -1336,7 +1357,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 
-- NEG Die Reproduzierbarkeit ist insofern *nicht sichergestellt*, als dass einer oder mehrere der folgenden Teile nicht eingereicht wurden: Daten, Syntax, Stimuli, Codebook, sonstiges Material. Reproduzierbarkeit ist die Grundlage oder Bedingung von Transparenz. Transparenz ist ein oder der Grundwert der Wissenschaft.
+- NEG Die Reproduzierbarkeit ist insofern *nicht sichergestellt*, als dass einer oder mehrere der folgenden Teile nicht eingereicht wurden (oder nicht auffindbar waren): Daten, Syntax, Stimuli, Codebook, sonstiges Material. Reproduzierbarkeit ist die Grundlage oder Bedingung von Transparenz. Transparenz ist ein oder der Grundwert der Wissenschaft.
 
 
 - NEG Die Datei mit den Materialien zur Reproduzierbarkeit *ließ sich nicht öffnen*. Damit/Insofern ist die Reproduzierbarkeit nicht gegeben. Es obliegt dem Autor, die technische Funktionstüchtigkeit sicherzustellen.
@@ -2131,7 +2152,14 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 #### Verwendung/Anzahl
 
+`+++`
+
 - POS *Diagramme* wurden sinnvoll eingesetzt, um zentrale Ergebnisse zu vermitteln (z. B. Boxplots, Histogramme, Streudiagramme).
+
+- POS Es wurde ein hohes Maß an *Kompetenz* in der *Datenvisualisierung* (z.B. mit ggplot) demonstriert.
+
+
+`---` 
 
 - NEG *(Mehr) Diagramme hätten geholfen*, die empirischen Ergebnisse anschaulicher und greifbarer zu machen.
 
@@ -2238,9 +2266,20 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 #### Farbwahl
 
+`+++`
+
+- POS Es wurde eine *ansprechende* *Farbpalette* gewählt. 
+
+- POS Die gewählte Farbpalette scheint *optisch gut diskriminierbare Farben* zu verwenden.
+
+
+`---`
+
 - NEG Die gewählte *Farbpalette* war *nicht (durchgehend) gut für S/W-Druck geeignet*. Der Sättigungswert der Farben hätte besser variiert werden können Tipp: Auf der Webseite <http://colorbrewer2.org/> kann man sich Farbpaletten erstellen lassen. In `ggplot2` kann man Grauskalen mit dem Argument `scale_fill_grey` erreichen. Auch die Viridis-Farbpalette ist für S/W-Druck geeignet (vgl. <https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html>). Es sei hinzugefügt, dass es sich hierbei nur um ein Detail handelt, dass kaum ins Gewicht fällt. Vielmehr ist dieser Hinweis als Angebot für ambitionierte Lernende zu verstehen, um sich tiefer in (für die Praxis) wichtige Themen einzuarbeiten. 
 
 - NEG Idealerweise ist die gewählte Farbpalette auch für *Farb-Sehschwächen* geeignet. Dies wurde in der vorliegenden Arbeit zwar nicht (durchgängig) berücksichtigt, ist aber auch nur ein Detail, das kaum ins Gewicht fällt.
+
+- NEG Die gewählte *Farbpalette* erfüllt nicht (zweifelsfrei) grundlegende *gestalterische Anforderungen* wie hohe optische Diskriminierbarkeit qualitativer Wertelabels, robust im Schwarz-Weiß-Druck, robust bei Farbsehschwächen. Tipp: Die Farbpalette von Okabe und Ito erfüllt genannte Anforderungen.
 
 
 
@@ -2335,7 +2374,7 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 
 
-### Deskriptive Statistik, allgemein (xxdesk) {#deskriptivstatistik}
+### Deskriptive Statistik -- allgemein (xxdesk) {#deskriptivstatistik}
 
 `+++`
 
@@ -2390,15 +2429,28 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 
 
-### Explorative Datenanalyse (EDA) sonstiges (xxeda)
+### Explorative Datenanalyse, EDA sonstiges (xxeda)
 
 
 `+++`
 
 - POS Der Datensatz wurde *zu Beginn der Analyse im Überblick* dargestellt bzw. grob analysiert. Das ist ein sinnvoller Start der Analyse.
 
-- POS Der *Datensatz* wurde* zu Beginn* mit `vis_dat` *visualisiert.* Das eine eine sinnvolle Möglichkeit, die Analyse zu starten, da sie einen Überblick über den Datensatz gibt.
+- POS Der *Datensatz* wurde *zu Beginn* mit `vis_dat` *visualisiert.* Das eine eine sinnvolle Möglichkeit, die Analyse zu starten, da sie einen Überblick über den Datensatz gibt.
 
+- POS Der Datensatz wurde auf *fehlende Werte* (`NA`) hin geprüft.
+
+- POS Der Datensatz wurde auf seine *Verteilungsform* hin (Schiefe, Kurtosis) untersucht.
+
+- POS Der Datensatz wurde  auf *Extremwerte* hin untersucht.
+
+`---`
+
+- NEG Der Datensatz wurde nicht auf *fehlende Werte* (`NA`) hin geprüft.
+
+- NEG Der Datensatz wurde nicht auf seine *Verteilungsform* hin (Schiefe, Kurtosis) untersucht.
+
+- NEG Der Datensatz wurde nicht auf *Extremwerte* hin untersucht.
 
 
 
@@ -2785,11 +2837,16 @@ Fehlinterpretationen:
 - POS Ein *fundiertes Verständnis* von Konzepten und Methoden des Maschinenlernens wurde demonstriert.
 - POS Der Autor/die Autorin setzte die Konzepte und Methoden des Maschinenlernens *anhand aktueller R-Funktionen* um. 
 
-- POS Der Autor/die Autorin setzte die Konzepte und Methoden des Maschinenlernens anhand des *Tidymodels-Frameworks* um, was eines der führendes Methodologien im Maschinenlernen ist.
+- POS Der Autor/die Autorin setzte die Konzepte und Methoden des Maschinenlernens anhand des *Tidymodels-Frameworks* um, was eine gute entwickelte Methodologie für Methoden des Maschinenlernen ist.
 
 - POS Es wurden *fortgeschrittene Techniken* (im Sinne der behandelten Konzepte im Unterricht) in der Arbeit angewendet, z.B. *Word-Embeddings*.
 
 - POS Es wurde eine recht *breite und angemessene Auswahl* an *Modellen* des Maschinenlernens verwendet bzw. deren Schätzwerte und Modellgüte berechnet.
+
+
+
+- POS Die *Prädiktoren* wurden auf ihre *Bedeutung* (z.B. via dem VIP-Ansatz) hin untersucht.
+
 
 
 ### Modellwahl
@@ -2804,8 +2861,8 @@ Fehlinterpretationen:
 
 `+++`
 
-- POS Es wurde Hyperparameter-Tuning in sinnvoller Art und Weise verwendet.
-
+- POS Es wurde *Hyperparameter-Tuning* in sinnvoller Art und Weise verwendet.
+- POS Es wurde eine umfassende und sinnvolle Auswahl an *Tuningparametern* für das Tuninng berechnet.
 
 
 ### Resampling
@@ -2868,6 +2925,10 @@ Fehlinterpretationen:
 
 - NEG Idealerweise sind alle *Software*-Pakete, das *Betriebssystem* und die *Versionsnummern* zu explizieren.
 
+- NEG Eine gute Möglichkeit, der *Reproduzierbarkeit* der Analyse zu unterstützen, ist es, die verwendete Software -- inkl. den jeweiligen *Versionsnummern* -- offenzulegen. In R kann man diese komfortabel erreichen, indem man (z.B. ganz am Schluss der Analyse) den Befehl `sessionInfo()` nutzt. Dieser Punkt wurde in der vorliegenden Arbeit nicht (komplett) umgesetzt.
+
+
+
 - NEG Ob ein *Datensatz* in MS *Excel*, OpenOffice, Notepad++, eine Oracle-Datenbank etc. gespeichert (betrachtet) wurde, ist *irrelevant* für diesen Bericht und sollte daher nicht berichtet werden (höchstens im Anhang).
 
 - NEG Da *RStudio* keinerlei Einfluss auf die Syntax, d.h. den Analysealgorithmus hat, ist es irrelevant für diesen Bericht, ob RStudio Verwendung fand. Demgegenüber ist es von hoher Relevanz, ob R (in welcher Version) und welche R-Pakete und -Funktionen (in welcher Version) Verwendung fanden, sprich: ob die Syntax reproduzierbar berichtet wurde.
@@ -2875,7 +2936,7 @@ Fehlinterpretationen:
 
 
 
-### Allgemeine Beurteilung der R-Kompetenz (xxrkomp xxrcomp)
+### Allgemeine Beurteilung der R-/Python-Kompetenz (xxrkomp xxrcomp)
 
 `+++`
 
@@ -2883,6 +2944,8 @@ Fehlinterpretationen:
 - POS Es wurde ein *hohes Maß* an Kompetenz im Umgang mit R demonstriert.
 - POS Die Arbeit lässt auf eine *insgesamt gute Kompetenz* im Umgang mit R schließen.
 - POS Es wurden *Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen* wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
+- POS Es wurde ein hohes Maß an Kompetenz im Umgang mit *Python* demonstriert.
+- POS Es wurden mehrere Programmiersprachen verwendet, etwa R und Python, was eine breite Kompetenz der Problemlösung demonstriert.
 
 
 `000`
@@ -2971,6 +3034,10 @@ Fehlinterpretationen:
 
 
 `---`
+
+- NEG Es *fehlen* die *R-Ausgaben* im Bericht.
+- NEG Es fehlt die R-Syntax im Bericht.
+
 
 
 - NEG Die R-Ausgaben sind *teilweise optisch wenig ansprechend formatiert* (z. B. unübersichtlich). 
@@ -4349,6 +4416,9 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 - POS Die Diskussion spricht *einige nennenswerte Aspekte* an.
 
 `000`
+
+
+- POS-NEG Die Diskussion spricht *einige nennenswerte Aspekte* an, hätte aber von mehr Ausführlichkeit profitiert. 
 
 - POS-NEG Insgesamt ist die Diskussion als *befriedigend* zu beurteilen.
 - POS-NEG Es wurden *einige Aspekte* der Arbeit (Inhalt, Methode, Ergebnis) *diskutiert*; die Diskussion erreicht jedoch keine große Tiefe oder Breite.
