@@ -285,7 +285,9 @@ ausführlich genug vorgestellt?
 ### Formalia - Kommentare
 
 - NEG Entgegen den formalen Vorgaben wurde *kein ausgedrucktes Exemplar* dem Gutachter vorgelegt.
+
 - NEG Entgegen den formalen Vorgaben wurde die Arbeit nicht mit LaTeX oder `RMarkdown` erstellt. 
+
 - NEG Die *Wortzahl* wurde nicht angegeben: Entgegen den formalen Vorgaben wurde die *Wortanzahl* (des Hauptteiles) nicht oder nicht an richtiger (und direkt einsehbarer) Stelle angegeben.
 
 - NEG Es wurde *kein Thema* angegeben im Online Campus.
@@ -302,6 +304,7 @@ ausführlich genug vorgestellt?
 
 - NEG *Seitenzahlen fehlen* - zumindest in Teilen des Dokuments - , sind aber auf paginierten Dokumenten eine sinnvolle Ergänzung.
 
+- NEG Laut Vorgabe ist bei einer Gruppenarbeit klar ersichtlich anzubringen, wer der Autor bzw. die *Autorin eines Hauptkapitel* ist. Dieser Punkt fehlt in der vorliegenden Arbeit.
 
 
 
@@ -434,7 +437,7 @@ ausführlich genug vorgestellt?
 
 - NEG Die *Forschungsfrage* soll *im Abstract auftauchen*; das ist bei der vorliegenden Arbeit nicht (deutlich genug) der Fall.
 
-- NEG Der Abstract brilliert, wenn er die Kunst darstellt, das *Wesentliche prägnant* zu benennen. Eine wesentliche Frage, die der Abstract beantworten muss, ist die Frage nach den Ergebnissen der Studie. So wäre z.B. das Ergebnis, dass "Hassrede eine kontextspefizisches Phänomen" sei, nicht ausreichend spezzisch.
+- NEG Der Abstract brilliert, wenn er die Kunst darstellt, das *Wesentliche prägnant* zu benennen. Eine wesentliche Frage, die der Abstract beantworten muss, ist die Frage nach den Ergebnissen der Studie. So wäre z.B. das Ergebnis, dass "Hassrede eine kontextspezifisches Phänomen" sei, nicht ausreichend spezifisch.
 
 
 
@@ -545,7 +548,7 @@ ausführlich genug vorgestellt?
 
 - NEG Es finden sich "*komische*" Zeichen (Glyphen) im Schriftsatz (Z. B. "QualitÃ¤"t), die vermutlich auf *Enkodierungsfehler* zurückzuführen sind. Textdokumente müssen mit der richtigen Enkodierung (z. B. UTF8 oder Latin1) geladen werden und sollten mit der Enkodierung UTF8 gespeichert werden.
 
-
+- NEG *Beschriftungen* von *Tabellen* oder *Abbildungen* sollten *linksbündig* formatiert sein. Dieser Punkt ist in der vorliegenden Arbeit nur teilweise umgesetzt.
 
 
 
@@ -585,7 +588,7 @@ ausführlich genug vorgestellt?
 
 - NEG Der *Hauptteil* einer Arbeit soll mit *arabischen*, nicht römischen, *Ziffern* ausgewiesen werden.
 
-- NEG Die Seiten sind *nicht zwei- bzw. doppelseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen und sollten daher bevorzugt weren.
+- NEG Die Seiten sind *nicht zwei- bzw. doppelseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen und sollten daher bevorzugt werden.
 
 
 
@@ -696,7 +699,7 @@ ausführlich genug vorgestellt?
 - NEG Absätze sollten *länger als ein Satz sein*; in der vorliegenden Arbeit gibt es einen oder mehrere Absätze, die nur aus einem Satz bestehen, was typografisch nicht wünschenswert ist. Vermeiden Sie solch *Absatzlängen*.
 
 
-- NEG *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bwz. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+- NEG *Jedes (Haupt-)kapitel soll auf einer neuen Seite beginnen*; ein Kapitelwechsel bzw. Abschnittswechsel bedingt einen *Seitenwechsel*. Das Gleiche gilt für Abstract, Anhang, Ehrenwörtliche Erklärung und Verzeichnisse inklusive dem Literaturverzeichnis. Dieser Punkt wurde in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
 
 - NEG Kapitel und Unterkapitel (Abschnitte) sollte *nummeriert* werden, da das die Orientierung im Text erleichtert (die *Nummerierung der Abschnitte fehlt*).
 
@@ -1095,7 +1098,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - NEG Laut APA (6./7. Auflage) ist das *Abrufdatum einer Online-Quelle* nicht zu nennen. Gerade bei einem nachprüfbaren Publikation wie einem Fachartikel spielt das Abrufdatum keine Rolle (genauso wenig wie das Ausleihdatum eines gedruckten Buches aus einer Bücherei von Relevanz ist).
 
-- NEG Laut APA (6./7. Auflage) sind in der Zitation im *Literatverzeichnis* beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
+- NEG Laut APA (6./7. Auflage) sind in der Zitation im *Literaturverzeichnis* beim Titel (neben dem ersten Wort) *nur Eigennamen großzuschreiben*. Beispiel: "Tu, H.-W., & Hampton, R. R. (2014). Control of working memory in rhesus monkeys (Macaca mulatta). *Journal of Experimental Psychology: Animal Learning and Cognition, 40*, 467–476. http://dx.doi.org/10.1037/xan0000030".
 
 
 
@@ -1350,7 +1353,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - POS Die *Reproduzierbarkeit* der Datenanalyse wurde (auch) durch Verwendung eines Startwerts zur *Initialisierung* der *Zufallswerte* sichergestellt (z.B. mit `set.seed()`).
 
-- POS Die *Reproduzierbarkeit* des Reviews ist insoferm in gutem Maße sichergestellt, als dass relevantes Material eingereicht wurde, z.B. durchsuchte Datenbanken, Suchterme, Ein- und Ausschlusskriterien, Bibliographien identifizierter Literaturquellen, Interrater-Übereinstimmung, verwendete Software.
+- POS Die *Reproduzierbarkeit* des Reviews ist insofern in gutem Maße sichergestellt, als dass relevantes Material eingereicht wurde, z.B. durchsuchte Datenbanken, Suchterme, Ein- und Ausschlusskriterien, Bibliographien identifizierter Literaturquellen, Interrater-Übereinstimmung, verwendete Software.
 
 
 `---`
@@ -1489,6 +1492,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - POS-NEG Das Design der Studie ist von *mittlerer (befriedigender) Komplexität oder Güte*.
 
+
+- POS-NEG Das *Design* der Studie erreicht *keine* *hohe Komplexität*.
 
 
 `---`
@@ -1758,7 +1763,7 @@ Der Gutachter beziffert seine Anforderungen in etwa wie folgt:
 - NEG Die Hypothesen *wurden als ungerichtet berichtet*; allerdings lässt die Ausarbeitung im Theorieteil eher auf gerichtete Hypothesen schließen. Insofern passen Theorieteil und Hypothesen nicht ideal aufeinander.
 - NEG Die Hypothesen oder die Forschungsfrage *sollten konkreter* sein.
 - NEG Eine oder mehrere Hypothesen konstatieren (allgemein gesagt), dass "X größer Y" sei. Vermutlich war aber gemeint, dass X *im Durchschnitt* größer als Y ist.
-- NEG Die Hypothesen würden von *präsiserer Formulierung profitieren*. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: "Je schlechter die *E*rfahrungen mit KI, desto geringer das *V*ertrauen in KI" oder noch präziser: "r(E, V) > 0.3".  Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.
+- NEG Die Hypothesen würden von *präziserer Formulierung profitieren*. So ist folgende Hypothese beispielsweise nicht präzise genug: “Menschen vertrauen KI im generellen weniger, wenn sie in der Vergangenheit schon schlechte Erfahrungen gemacht haben, bzw. wenn sie in der Vergangenheit schon mal falsche Antworten erhalten haben”. Präziser wäre: "Je schlechter die *E*rfahrungen mit KI, desto geringer das *V*ertrauen in KI" oder noch präziser: "r(E, V) > 0.3".  Natürlich bliebe (an anderer Stelle noch) die Terme in der Hypothese zu definieren bzw. zu erläutern.
 - NEG Die Hypothesen sind *unpräzise* (oder falsch) formuliert bzw. passen nicht zu der Datenanalyse. Testet man z. B., ob sich zwei Mittelwerte (in der Population also "signifikant") unterscheiden, so sollte die zugehörige H0 etwa lauten: "*Mittelwert von Gruppe A gleich Mittelwert von Gruppe B*"; zu sagen "Es gibt keinen Unterschied zwischen den Gruppen A und B" hingegen vernachlässigt, die Aussage auf den Mittelwert einzugrenzen.
 
 - NEG Möchte man Hypothesen sehr *präzise* gestalten, so bietet es sich an, die zu testenden Statistiken explizit zu nennen: "H_A: µ_F > µ_M" oder *r(A, B) > 0*. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend umgesetzt.
@@ -1893,10 +1898,7 @@ Der Gutachter beziffert seine Anforderungen an das grobe *Mengengerüst* einer e
 
 **QUANT. SEMINARARBEIT**
 
-1. Beobachtend: ca. 30-40 Fälle
-2. Experimentell between: ca. 20-30 Fälle 
-3. Experimentell within: ca. 15-25 Fälle
-
+s. [Hinweisbuch für quantitative Projektarbeit](https://hinweisbuch.netlify.app/hinweise-pruefung-projektarbeit-frame)
 
 
 
@@ -2085,7 +2087,7 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 - NEG Es wurden *nicht angemessene Verfahren* der Datenanalyse (z. B. inferenzstatistische Verfahren) ausgewählt; stattdessen wurden falsche bzw. nicht angebrachte oder keine oder nicht optimale statistische Verfahren ausgewählt.
 
-- NEG *Multivariate Auswertungsverfahren* wären eine sinnvolle Ergänzung gewesen, fehlen aber (ganz oder teilweise) bzw. sind nicht im Hauptteil dokumentiert (Beispiel: Die Korrelationsanalysen oder einfache Regressionsanalysen wären durch eine multiple Regression gut ergänzt worden. So wäre es z. B. möglich gewesen, den Einfluss einzelner Variablen vom Einfluss anderer Variablen zu "befreien"). Der Vorteil multivariater Verfahren wie etwa der multiplen Regressionsanalyse liegt in ihrer Fähigkeit, den "wahren" Einfluss eines Prädiktors besser zu bestimmen, als dies etwa mehrere einfache Regressionsanalysen (mit nur jeweils einem Prädiktor) leisten. Die multiple Regression hilft, etwaige "Überschneidungen" von Variablen bzw. "Nettoeffekte" einzelner Variablen zu bestimmen.
+- NEG *Multivariate Auswertungsverfahren* (z.B. multiple Regression) wären eine sinnvolle Ergänzung gewesen, fehlen aber (ganz oder teilweise) bzw. sind nicht im Hauptteil dokumentiert (Beispiel: Die Korrelationsanalysen oder einfache Regressionsanalysen wären durch eine multiple Regression gut ergänzt worden. So wäre es z. B. möglich gewesen, den Einfluss einzelner Variablen vom Einfluss anderer Variablen zu "befreien"). Der Vorteil multivariater Verfahren wie etwa der multiplen Regressionsanalyse liegt in ihrer Fähigkeit, den "wahren" Einfluss eines Prädiktors besser zu bestimmen, als dies etwa mehrere einfache Regressionsanalysen (mit nur jeweils einem Prädiktor) leisten. Die multiple Regression hilft, etwaige "Überschneidungen" von Variablen bzw. "Nettoeffekte" einzelner Variablen zu bestimmen.
 
 - NEG Es wurden keine oder nicht genügend *deskriptivstatistische* Kennwerte berichtet.
 - NEG *Inferenzstatistische Verfahren fehlen* ganz oder teilweise.
@@ -2315,8 +2317,8 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 `+++`
 
-- POS Insgesamt ist der Umfang der Datenanalyse als *von hoher Güte* einzuschätzen. 
-- POS Insgesamt ist der Umfang der Datenanalyse als *gut* einzuschätzen. 
+- POS Insgesamt ist der *Umfang* der Datenanalyse als *von hoher Güte* einzuschätzen. 
+- POS Insgesamt ist der *Umfang* der Datenanalyse als *gut* einzuschätzen. 
 
 
 - POS Die Datenanalyse ist insgesamt *sehr umfangreich*.
@@ -2347,7 +2349,7 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 `+++`
 
-- POS Der Autori/die Autorin demonstrierte Fachkompetenz auch insofern, als er oder sie Methoden oder Verfahren einsetzte, die nicht direkt im Unterricht erläutert oder in Musterlösungen vom Dozenten vorgegeben wurden.
+- POS Der Autor/die Autorin demonstrierte Fachkompetenz auch insofern, als er oder sie Methoden oder Verfahren einsetzte, die nicht direkt im Unterricht erläutert oder in Musterlösungen vom Dozenten vorgegeben wurden.
 
 - POS Insgesamt ist das Niveau  der Datenanalyse als von *hoher* Güte einzuschätzen. 
 - POS Insgesamt ist das Niveau der Datenanalyse als *gut* einzuschätzen. 
@@ -2370,7 +2372,9 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 `---`
 
 
-- NEG Zentrale Konzepte oder Methoden oder Prinzipien der Datenanalyse sind fehlerbehaftet.
+- NEG *Zentrale Konzepte* oder Methoden oder Prinzipien der *Datenanalyse* sind *fehlerbehaftet*.
+
+- NEG Es finden sich *substanzielle methodische Mängel*.
 
 
 
@@ -2517,23 +2521,32 @@ before making an analysis of variance test ior homogeneity of means in which hom
 
 - NEG Es wurden *nicht metrische Daten* (z.B. ordinal oder nominal skaliert) mit Verfahren für metrische Daten ausgewertet. Insofern sind die *Anforderungen* dieser Verfahren nicht erfüllt. Daher sind die gewonnenen Ergebnisse u.U. nicht belastbar bzw. es die *Ergebnisqualität ist unklar*, es ist also unklar, inwieweit die gewonnenen *Ergebnisse* belastbar sind.
 
+- NEG *Einzelne* (Likert-)*Items* sollten nicht per Fiat als *metrisch* skaliert angenommen werden. Besser ist eine Auswertung auf ordinalem Niveau.
+
+
 
 ### Inferenzstatistik (xxinfstat)
 
 `+++`
+
 - POS Insgesamt ist die *inferenzstatistische Analyse*, soweit in der Arbeit gezeigt, als  *gut* zu bewerten.
-- POS Es wurde eine nützliche Auswahl an inferenzstatisichen Kennwerten präsentiert.
-- POS Insgesamt wurden die Ergebnisse der inferenzstastischen Analyse korrekt interpretiert.
+- POS Es wurde eine nützliche Auswahl an inferenzstatistischen Kennwerten präsentiert.
+- POS Insgesamt wurden die Ergebnisse der inferenzstatistischen Analyse korrekt interpretiert.
 
 `---`
 
 - NEG Insgesamt ist die *inferenzstatistische Analyse*, soweit in der Arbeit gezeigt, als *wenig gut* zu bewerten.
 - NEG Insgesamt *fehlt* die inferenzstatistische Analyse komplett oder in weiten Teilen.
+- NEG Es finden sich eine *deutliche Fehler* in der inferenzstatistischen Analyse.
+- NEG Es *fehlen* einige *Kennwerte* der inferenzstatistischen Analyse.
 
 
 ### p-Wert (xxpvalue, xxpwert) {#pvalue}
 
 `+++`
+
+- POS Es wurde eine *inferenzstatistische Methode verwendet*, z.B. mittels des p-Werts.
+
 
 - POS Der p-Wert wird *exakt erläutert* bzw. verwendet. Es wird auf die genaue Definition gehört, nämlich dass "Die Daten (und noch extremere) unwahrscheinlich sind, unter der Annahme, dass die H0 gilt".
 
@@ -2720,6 +2733,8 @@ Fehlinterpretationen:
 
 - NEG Die Ergebnisse der ROPE-Analyse wurden nicht (durchgängig) korrekt *interpretiert.*
 
+- NEG Der *p-Wert* ist keine Kennzahl, die in einer *Bayes-Analyse* verwendet wird. Zwar gibt es konzeptionell (leicht) ähnliche Koeffizienten, aber das sind keine p-Werte. Daher sollte der Begriff "p-Wert" in einer Bayes-Analyse nicht verwendet werden.
+
 
 
 ### Kausalanalyse
@@ -2746,6 +2761,7 @@ Fehlinterpretationen:
 
 
 ### Datensatz
+
 - POS Die Daten bzw. der Datensatz wurden ausführlich und korrekt beschrieben.
 
 
@@ -2762,9 +2778,12 @@ Fehlinterpretationen:
 
 `---`
 
+- NEG Die APA empfiehlt *möglichst* *wenig Dezimalstellen* zu verwenden, bzw. nur so viele wie nötig (und so wenige wie möglich), ceteris paribus.
+
+- NEG Die APA empfiehlt, *Skalenwerte* auf *eine Dezimalstelle* zu runden, nicht auf mehr.
 
 - NEG Die Anzahl der *Nachkommastellen* (Dezimalstellen) ist *nicht immer konsistent* oder zu lang (zwei Nachkommastellen reichen i.d.R.).
-- NEG Die Anzahl der Nachkommastellen (Dezimalstellen) ist *teilweise unpassend *(z. B. zu lang) oder *inkonsistent* (mal mehr, mal weniger).
+- NEG Die Anzahl der Nachkommastellen (Dezimalstellen) ist *teilweise unpassend* (z. B. zu lang) oder *inkonsistent* (mal mehr, mal weniger).
 
 - NEG Bei *Prozentzahlen* sollte man in der Regel *auf Nachkommastellen verzichten*, was hier nicht getan wurde.
 
@@ -2772,7 +2791,9 @@ Fehlinterpretationen:
 - NEG Die *Anzahl der Nachkommastellen* (Dezimalstellen) sollte *nicht zu hoch sein*, um *Scheingenauigkeit* zu vermeiden (Beispiel: "Das mittlere Körpergewicht in Deutschland beträgt 78,314159267 kg, wie eine Studie mit *n=30* herausfand".) In der Arbeit wurden (teilweise) zu viele Nachkommastellen angegeben.
 
 
+- NEG Anstelle der *Exponenzialschreibweise* ("1e3" oder "1E3" oder 10^3) sollten Zahlen besser auf (zwei) Dezimalstellen gerundet werden und in der Dezimalschreibweise aufgeführt werden. Beispiel: Anstelle von "95% CI [1.04e-07, 0,14]" besser:  95% CI [0.0, 0.1]".
 
+- NEG Bitte lesen Sie in den *APA-Hinweisen* nach zur Verwendung von Dezimalstellen (z.B. [hier](https://apastyle.apa.org/instructional-aids/numbers-statistics-guide.pdf)) .
 
 
 
@@ -3131,7 +3152,7 @@ Fehlinterpretationen:
 
 `---`
 
-- NEG Die eingesetzten Methoden sollten \*nicht\* in der Arbeit erläutert werden, sofern es sich gängige Methoden handelt (die im Unterricht erläutert werden; Beispiele: "Der t-Test wird verwendet um XXX", "Qualitative Methoden zeichnen sich aus durch YYYY"). Das Wissen um gängige Methoden wird beim Leser vorausgesetzt. Erörtern Sie nicht, wie eine Methode funktioniert, sondern nutzen Sie den knappen Platz, um zu erklären, was Sie machen. Man soll also in so einer Arbeit kein "Lehrbuch" schreiben.
+- NEG Die eingesetzten Methoden sollten \*nicht\* in der Arbeit erläutert werden, sofern es sich gängige Methoden handelt (die im Unterricht erläutert werden; Beispiele: "Der t-Test wird verwendet, um XXX", "Qualitative Methoden zeichnen sich aus durch YYYY"). Das Wissen um gängige Methoden wird beim Leser vorausgesetzt. Erörtern Sie nicht, wie eine Methode funktioniert, sondern nutzen Sie den knappen Platz, um zu erklären, was Sie machen. Man soll also in so einer Arbeit kein "Lehrbuch" schreiben.
 
 
 ## Kausal- vs. Vorhersageaussgen {#kausalmeth}
@@ -3344,7 +3365,7 @@ Fehlinterpretationen:
 - NEG Der *Umfang* an analysierten Primärquellen ist *gering*, $n=??$.
 
 
-- NEG Der Methodenteil hätte von einer Untergliederung in *Teilkapitel* profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskritierien und Datenbanken), Mengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).
+- NEG Der Methodenteil hätte von einer Untergliederung in *Teilkapitel* profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskritierien und Datenbanken), Mengengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).
 
 
 
@@ -3352,7 +3373,7 @@ Fehlinterpretationen:
 
 `+++`
 
-- NEG Die Studie ist insgesamt *methodisch ambitioniert* geplant.
+- POS Die Studie ist insgesamt *methodisch ambitioniert* geplant.
 
 - POS Insgesamt wurde weitgehend relevante empirisch-methodische Verfahren sinnvoll und methodisch gewandt verwendet.
 - POS Die Anwendung — sowohl in Qualität als auch in Quantität — zeugt in fast allen Punkten von sehr gutem methodischem Verständnis.
@@ -3380,6 +3401,10 @@ Fehlinterpretationen:
 - NEG Die Anwendung von empirischen Methoden, wie es in der vorliegenden Arbeit demonstriert wird, weist *klares Verbesserungspotenzial* auf.
 
 - NEG Die Datenanalyse weist *große Lücken* auf.
+
+- NEG Der methodische Aufbau der Arbeit weist substanzielle *Mängel* auf.
+
+- NEG Der methodische Aufbau der Arbeit weist substanzielle *Lücken* auf.
 
 
 
@@ -3526,7 +3551,7 @@ Fehlinterpretationen:
 
 - NEG Die *Forschungsfrage* geht aus dem Titel *nicht (klar)* genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
 
-- NEG Der Titel läuft Gefahr aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Titel für eine Abschlussarbeit angenommen zu werden. Damit würde auch das Thema abgelehnt werden bzw. die Abschlussarbeit mit diesem *Thema nicht angemeldet werden können*. Insofern ist der Titel und auch die Ausrichtung der Arbeit als problematisch zu bezeichnen. Für jede wissenschaftliche Arbeit gilt, dass ein Thema auf wissenschaftliche Art und Weise untersucht werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung sieht i.d.R. über den Einzelfall hinweg und versucht, allgemeingültige Muster zu entdecken. So kann die "XYZ Gmbh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
+- NEG Der Titel läuft Gefahr aufgrund von *zu hoher Firmennähe* bzw. Praxisorientierung -- und damit zu geringem wissenschaftlichem Anspruch -- nicht als Titel für eine Abschlussarbeit angenommen zu werden. Damit würde auch das Thema abgelehnt werden bzw. die Abschlussarbeit mit diesem *Thema nicht angemeldet werden können*. Insofern ist der Titel und auch die Ausrichtung der Arbeit als problematisch zu bezeichnen. Für jede wissenschaftliche Arbeit gilt, dass ein Thema auf wissenschaftliche Art und Weise untersucht werden soll. Keinesfalls darf der Eindruck entstehen, es handele sich um eine wirtschaftliche Projektarbeit, gar im Auftrag einer bestimmten Firma. Wissenschaftliche Betrachtung sieht i.d.R. über den Einzelfall hinweg und versucht, allgemeingültige Muster zu entdecken. So kann die "XYZ GmBh" oder "DingsBums AG" höchstens als ein Beispiel für die Manifestation der Phänomene laut Forschungsfrage herhalten. In keinem Fall darf sich die Forschungsfrage an einem Projektbeispiel dieser Firma erschöpfen, sonst stellt sich die Frage, ob die Arbeit dieses Mindestmaß an Wissenschaftlichkeit erfüllt.
 
 - NEG Ich rate Ihnen, den *Titel für Ihre Abschlussarbeit zu überdenken* bzw. zu ändern.
 
@@ -3650,7 +3675,7 @@ Fehlinterpretationen:
 - NEG Das *Inhaltsverzeichnis sollte nicht im Inhaltsverzeichnis* auftauchen. Denn: Wer würde im Inhaltsverzeichnis suchen, wo er (oder sie) das Inhaltsverzeichnis findet?
 
 
-- NEG Das Inhaltsverzeichnis ist nicht *inhaltsdicht* genug, sondern in Teilen *inhaltsarm*. So sind Gliederungspunkt wie "Ansatz, "Hypothese 1", "Vorgehen", "Problemstellung" wenig informativ. Auf der ersten Gliederungsebene eines wissenschaftlichen Berichts ist es üblich, auf solche hoch schematischen und inhaltsarmen Benennungen zurückzugreifen ("Theorie, Methode, etc."). Auf der zweiten (und folgenden) Gliederungsbene(n) hingegen sollten informative, informationsreiche, exakte, sprechende, konkrete Beschreibungen gewählt werden (z.B. "Selbstbestimmungstheorie nach Deci und Ryan (2003)", "H1: Männer sind im Durchschnitt größer als Frauen"). 
+- NEG Das Inhaltsverzeichnis ist nicht *inhaltsdicht* genug, sondern in Teilen *inhaltsarm*. So sind Gliederungspunkt wie "Ansatz, "Hypothese 1", "Vorgehen", "Problemstellung" wenig informativ. Auf der ersten Gliederungsebene eines wissenschaftlichen Berichts ist es üblich, auf solche hoch schematischen und inhaltsarmen Benennungen zurückzugreifen ("Theorie, Methode, etc."). Auf der zweiten (und folgenden) Gliederungsebene(n) hingegen sollten informative, informationsreiche, exakte, sprechende, konkrete Beschreibungen gewählt werden (z.B. "Selbstbestimmungstheorie nach Deci und Ryan (2003)", "H1: Männer sind im Durchschnitt größer als Frauen"). 
 
 
 
@@ -3892,7 +3917,7 @@ Fehlinterpretationen:
 - NEG Anstelle von Sätzen wie "*Es gibt drei Arten* von Problemen ...", sollte man besser schreiben in der Art von "Sauer und Lustig (2017) unterscheiden drei Arten von Problemen nämlich blabla" oder "*Nach Sauer und Lustig* (2017) gibt es drei Arten von Problemen, wobei man laut Süß (2018) noch ein viertes Problem blablabla". Diese Art der Formulierung entspricht eher der intellektuellen Redlichkeit, denn es ist schwer abzusichern, dass es genau drei Arten von Problemen gibt (eine "*Ontologisierung*", die behauptet, es gäbe nicht mehr und nicht weniger) und dass es genau die gerade dargestellten sind (und keine anderen).
 
 
-- NEG *Jedes Kapitel*, jeder Abschnitt, jeder Absatz und jeder Satz sollte *genau einen Gedanken* ausdrücken; nicht mehr und nicht weniger. Die vorliegende Arbeit erfüllt diesen Anspruch nicht (vollständig). So finden sich etwa Absätze, die sich nicht sinnvoll mit einer Kernaussage widergeben lassen.
+- NEG *Jedes Kapitel*, jeder Abschnitt, jeder Absatz und jeder Satz sollte *genau einen Gedanken* ausdrücken; nicht mehr und nicht weniger. Die vorliegende Arbeit erfüllt diesen Anspruch nicht (vollständig). So finden sich etwa Absätze, die sich nicht sinnvoll mit einer Kernaussage wiedergeben lassen.
 
 
 
@@ -4043,7 +4068,7 @@ Fehlinterpretationen:
 - NEG *Unveröffentlichte Skripte* sind keine qualitativ hochstehenden Quellen und sollten daher besser gemieden werden.
 
 
-- NEG Die *Aufgabe des Theorieteils ist es, die Forschungsfrage zu erläutern* - nicht mehr (also keine Phänomene, die nicht in der Forschungsfrgage spezifiziert sind) und nicht weniger (also alle Aspekte, die in der Forschungsfrage aufgegriffen werden). Wesentlich ist, dass die Erläuterung auf bestehende (wenn möglich, gut etablierte) *Theorien zurückgreift*. Daten bzw. Beobachtungen sollten stets im Lichte einer Theorie diskutiert - etwa der Dissonanztheorie, der Theorie des schnellen und langsamen Denkens oder der Selbstbestimmungstheorie nach Deci und Ryan, um einige willkürliche Beispiele zu nennen. Es ist bzw. es wäre ein substanzielles Versäumnis, auf Erläuterungen von "Fakten" im Lichte einer Theorie zu verzichten. Dabei ist die Leistung einer Theorie darin zu spezifizieren, dass Beobachtungen ("Fakten") durch (z.B. psychologische) zumeist nicht direkt beobachtbare Vorgänge oder Strukturen in ihrer kausalen Bedingtheit aufgeschlüsselt werden. Dieser Punkt findet in der vorliegenden Arbeit nicht genug Beachtung. 
+- NEG Die *Aufgabe des Theorieteils ist es, die Forschungsfrage zu erläutern* - nicht mehr (also keine Phänomene, die nicht in der Forschungsfrage spezifiziert sind) und nicht weniger (also alle Aspekte, die in der Forschungsfrage aufgegriffen werden). Wesentlich ist, dass die Erläuterung auf bestehende (wenn möglich, gut etablierte) *Theorien zurückgreift*. Daten bzw. Beobachtungen sollten stets im Lichte einer Theorie diskutiert - etwa der Dissonanztheorie, der Theorie des schnellen und langsamen Denkens oder der Selbstbestimmungstheorie nach Deci und Ryan, um einige willkürliche Beispiele zu nennen. Es ist bzw. es wäre ein substanzielles Versäumnis, auf Erläuterungen von "Fakten" im Lichte einer Theorie zu verzichten. Dabei ist die Leistung einer Theorie darin zu spezifizieren, dass Beobachtungen ("Fakten") durch (z.B. psychologische) zumeist nicht direkt beobachtbare Vorgänge oder Strukturen in ihrer kausalen Bedingtheit aufgeschlüsselt werden. Dieser Punkt findet in der vorliegenden Arbeit nicht genug Beachtung. 
 
 - NEG Der Theorieteil sollte *nicht als kleines Lehrbuch missverstanden* werden. Leitidee sollte sein, alle Phänomene der Forschungsfrage zu erläutern - aber nicht mehr. So ist es falsch, die Grundlagen der Persönlichkeit oder gar einen Überblick über Persönlichkeitstheorien aufzuführen, wenn z.B. "Extraversion" ein Bestandteil der Forschungsfrage ist. Der Theorieteil sollte also möglichst nah an der Forschungsfrage dran sein, je "weiter weg" ein Inhaltsteil des Theorieteils von der Forschungsfrage ist, desto weniger Berechtigung gibt es, diesen Inhaltsteil auszuführen. Dieser Punkt wird im Theorieteil der vorliegenden Arbeit nicht (komplett) berücksichtigt.
 
@@ -4119,7 +4144,7 @@ Fehlinterpretationen:
 
 - NEG Formuliert man kausale Hypothese, so ist es nicht ausreichend, bestimmte Statistiken wie Korrelationen auszurechnen, da Korrelationen noch keine Kausation begründet, wie allgemein bekannt ist. Besser ist es, die *statistischen Ergebnisse im Licht der Kausalmodelle* zu prüfen.
 
-- NEG Da in der Arbeit Ausagen mit Kausalanspruch formuliert werden, empfehle ich Ihnen, sich mit der *statistischen Analyse von Kausalaussagen* zu beschäftigen. Empfehlenswerte *Einstiegsliteratur* ist etwa: Rohrer, J. M. (2018). Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data. Advances in Methods and Practices in Psychological Science, 1(1), 27–42. https://doi.org/10.1177/2515245917745629, Lübke, K., Gehrke, M., Horst, J., & Szepannek, G. (2020). Why We Should Teach Causal Inference: Examples in Linear Regression with Simulated Data. Journal of Statistics Education, 1–17. https://doi.org/10.1080/10691898.2020.1752859 oder Elwert, F. (2013). Graphical causal models. In S. Morgan (Ed.), Handbook of causal analysis for social research (pp. 245–273). Springer. https://www.researchgate.net/publication/278717528_Graphical_Causal_Models.
+- NEG Da in der Arbeit Aussagen mit Kausalanspruch formuliert werden, empfehle ich Ihnen, sich mit der *statistischen Analyse von Kausalaussagen* zu beschäftigen. Empfehlenswerte *Einstiegsliteratur* ist etwa: Rohrer, J. M. (2018). Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data. Advances in Methods and Practices in Psychological Science, 1(1), 27–42. https://doi.org/10.1177/2515245917745629, Lübke, K., Gehrke, M., Horst, J., & Szepannek, G. (2020). Why We Should Teach Causal Inference: Examples in Linear Regression with Simulated Data. Journal of Statistics Education, 1–17. https://doi.org/10.1080/10691898.2020.1752859 oder Elwert, F. (2013). Graphical causal models. In S. Morgan (Ed.), Handbook of causal analysis for social research (pp. 245–273). Springer. https://www.researchgate.net/publication/278717528_Graphical_Causal_Models.
 
 - NEG Der DAG ist in der vorliegenden Arbeit in folgender Form dargestellt "G_Exp --> AV <-- G_Kon". Dabei steht "G_Exp" für *Experimentalgruppe* und "G_Kon" für *Kontrollgruppe*. Die Darstellung des DAG ist (grundlegend) falsch, da "G_Exp" und "G_Kon" nicht jeweils eine Variable darstellen, sondern nur jeweils eine *Stufe* (Ausprägung) einer Variablen. Es wurden also die verschiedenen Stufen (Ausprägungen) der UV fälschlich als mehrere UV dargestellt. Richtig wäre also ein DAG der Art "UV --> AV". Dieser Punkt ist in der vorliegenden Arbeit nicht korrekt umgesetzt.
 
@@ -4272,7 +4297,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 - NEG Die höchste Form der Evidenz sind (ceteris paribus) Review-Studien bzw. Metaanalysen. Die vorliegende Arbeit hätte von der (größeren) *Einbeziehung solcher Review-Arbeiten* profitiert.
 
-- NEG Es wurden eine oder mehrere Studien verwendet, bei denen die Gefahr von *Interessenskonflikten* besteht.
+- NEG Es wurden eine oder mehrere Studien verwendet, bei denen die Gefahr von *Interessenkonflikten* besteht.
 
 - NEG Es wurden eine oder mehrere Studien verwendet, deren Qualität nicht durch ein unabhängiges *Peer-Review* bestätigt wurde.
 
@@ -4699,7 +4724,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 
 
-### Besonderheite der Video-Präsentation
+### Besonderheiten der Video-Präsentation
 
 `+++`
 
