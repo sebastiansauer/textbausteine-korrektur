@@ -38,7 +38,7 @@ knitr::include_graphics("quote.png")
 
 ## METHODEN (Checkliste Seminararbeit )
 
-**!!METHODEN-CHECK xxmc**
+**!!METHODEN-CHECK xxcm**
 
 ### Methoden -- QUANTITATIV xxq!
 
@@ -76,7 +76,7 @@ Summarisch: [Keine Kodierregeln defniert](#schlechtequalimeth)
 
 
 
-## FORMALIA (Checkliste Seminararbeit, xxcheckformalia)
+## FORMALIA (Checkliste Seminararbeit, xxcheckformalia, xxcf)
 
 
 **!!FORMALIA-CHECK**
@@ -439,6 +439,7 @@ ausführlich genug vorgestellt?
 
 - NEG Der Abstract brilliert, wenn er die Kunst darstellt, das *Wesentliche prägnant* zu benennen. Eine wesentliche Frage, die der Abstract beantworten muss, ist die Frage nach den Ergebnissen der Studie. So wäre z.B. das Ergebnis, dass "Hassrede eine kontextspezifisches Phänomen" sei, nicht ausreichend spezifisch.
 
+- NEG Der *Abstract* sollte kurz auf die zugrundeliegende *Theorie* der *Forschungsfrage* eingehen.
 
 
 
@@ -873,7 +874,10 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 `---`
 
 
-- NEG Wörter aus dem *Englischen* werden den *Rechtschreiberegeln des Deutschen* unterworfen. Besteht der Ausdruck aus zwei Substantiven, so wird zusammengeschrieben oder gekoppelt (d. h. mit Bindestrich geschrieben) also z. B. "Shoppingcenter" oder "Shopping-Center" ist korrekt, aber nicht "shopping center". Ist das erste Wort ein Adjektiv, so kann auch auseinander geschrieben werden, aber die Großschreibung ist auf jeden Fall zu verwenden: "Hot Spot", "Top Ten", "High Fidelity". Bei Verbindungen von Verb und Partikeln sind Zusammen- oder Bindestrichschreibweise möglich: "Hang-over" (nicht: "Hang over") oder "Blackout". Wird ein englisches Wort oder eine Wortgruppe mit deutschen Wörtern gekoppelt, so ist der Bindestrich zu verwenden: "Multiple-Choice-Aufgabe", "Add-on-Indikator".
+- NEG Wörter aus dem *Englischen* (Anglizismen) werden grundsätzlich den *Rechtschreiberegeln des Deutschen* unterworfen. Besteht der Ausdruck aus zwei Substantiven, so wird zusammengeschrieben oder gekoppelt (d. h. mit Bindestrich geschrieben) also z. B. "Shoppingcenter" oder "Shopping-Center" ist korrekt, aber nicht "shopping center"; in dem Fall spricht man von Komposita. Ist das erste Wort ein Adjektiv, so kann auch auseinander geschrieben werden, aber die Großschreibung ist auf jeden Fall zu verwenden: "Hot Spot", "Top Ten", "High Fidelity". Bei Verbindungen von Verb und Partikeln sind Zusammen- oder Bindestrichschreibweise möglich: "Hang-over" (nicht: "Hang over") oder "Blackout". Wird ein englisches Wort oder eine Wortgruppe mit deutschen Wörtern gekoppelt, so ist der Bindestrich zu verwenden: "Multiple-Choice-Aufgabe", "Add-on-Indikator". 
+
+- POS-NEG Eine Ausnahme der Regel des "Eindeutschens" stellen *Eigennamen* dar, deren *Schreibweise beibehalten* werden darf, z.B. "Great Barrier Reef", "Technology Acceptance Model", "Chief Executive Officer" oder "Tower Bridge". Eine weitere Ausnahme, bei der nicht gekoppelt wird, sind *Präpositionalausdrücke.* Hier wird (im Gegensatz zu Komposita) nicht das letzte Wort näher bestimmt, sondern das erste. Beispiel: "Return on Investment" oder "Point of no Return".
+
 - NEG Die Rechtschreiberegeln von aus dem Englischen entlehnten Wörtern können z. B. hier nachgelesen werden: <https://www.duden.de/sprachwissen/sprachratgeber/Schreibung-von-Fremdwortern-aus-dem-Englischen>.
 
 
@@ -1036,7 +1040,7 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - NEG Verzeichnisse (Inhaltsverzeichnis oder Literaturverzeichnis) sollten *linksbündig* formatiert sein (ohne Einzug in der ersten Zeile).
 
-- NEG Laut APA/DGPs sind Einträge im Literaturverzeichnis nicht zu nummerieren oder mit Aufzählungszeichen zu versehen.
+- NEG Laut APA/DGPs sind Einträge im Literaturverzeichnis nicht zu *nummerieren* oder mit *Aufzählungszeichen* zu versehen.
 
 
 
@@ -1110,6 +1114,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - NEG *Zitiert man aus einem Kapitel einer Monografie*, so ist die ganze Monografie zu zitieren. Falsch ist die Zitation des Buchkapitels als wäre es Teil eines Herausgeberwerks. 
 
 - NEG Es ist anzumerken, dass *Verlagsnamen* in der von der APA (6. und 7. Auflage) vorgeschlagenen Form in Kurzform berichtet werden soll, also z.B. "Springer" und nicht "Springer Fachmedien Wiesbaden". Dieser Punkt wurde in der vorliegenden Arbeit nicht konsequent umgesetzt.
+
+- NEG Laut APA sind die Namen von Titeln von Werken (wie z.B. Namen von Zeitschriften) in *"Title Case"* zu setzen, d.h. *alle Wörter groß schreiben* bis auf auf kurze Konjunktionen, Artikel oder Präpositionen. Im *Literaturverzeichnis* hingegen gilt, dass der Titel eines Werks in "*Sentence Case*" zu setzen ist, d.h. nur Eigennamen werden groß geschrieben. Allerdings sollte diese Regeln nicht für deutsche Werke angewendet werden. Diese Regel zur Großschreibung ist in der vorliegenden Arbeit nicht (komplett) umgesetzt.
 
 
 #### Literaturverzeichnis -- Beispiele/Blaupausen von Zitaten nach Typen
@@ -1646,7 +1652,7 @@ NUR QUALI:
 
 - NEG Die *verwendeten Messinstrumente wurden nicht (in ausreichendem Maße) erläutert*. Messung ist jedoch für jede empirische Forschung ein Grundstein; daher sollte diesem Punkt immer Aufmerksamkeit zuerteilt werden.
 
-- NEG Es *fehlen Hinweise zu den Gütekriterien* der Messinstrumente oder diese Informationen stehen am falschen Ort.
+- NEG Teilweise *fehlen Hinweise zu den Gütekriterien* der Messinstrumente oder diese Informationen stehen am falschen Ort.
 
 - NEG Es fehlen Hinweisen zur *internen Konsistenz* (z. B. Cronbachs Alpha) der verwendeten Messinstrumente oder diese Informationen stehen am falschen Ort.
 
@@ -2246,6 +2252,7 @@ Mit überschaubarem Aufwand kann ein besseres Ergebnis mit professionellem Ersch
 
 - NEG *Freunde lassen Freunde keine Balkendiagramme* verwenden, wenn es darum geht, Mittelwerte darzustellen: <https://github.com/cxli233/FriendsDontLetFriends#1-friends-dont-let-friends-make-bar-plots-for-means-separation>
 
+- NEG *Freunde* lassen ihre Freunde nicht *Tortendiagramme* verwenden: <https://interworks.com/blog/rcurtis/2018/01/19/friends-dont-let-friends-make-pie-charts>
 
 
 #### Pixelig {#pixelig}
@@ -2938,7 +2945,10 @@ Fehlinterpretationen:
 
 ### Explikation der Software und des Vorgehens
 
+`+++`
+
 - POS Der *Name* einer oder aller *Software*-Pakete zur *Datenanalyse* wurde expliziert.
+
 
 
 `---`
@@ -2954,10 +2964,12 @@ Fehlinterpretationen:
 
 - NEG Da *RStudio* keinerlei Einfluss auf die Syntax, d.h. den Analysealgorithmus hat, ist es irrelevant für diesen Bericht, ob RStudio Verwendung fand. Demgegenüber ist es von hoher Relevanz, ob R (in welcher Version) und welche R-Pakete und -Funktionen (in welcher Version) Verwendung fanden, sprich: ob die Syntax reproduzierbar berichtet wurde.
 
+- NEG *Triviale Aspekte* der Datenanalyse sollten nicht im Bericht (zumindest nicht im Hauptteil) erwähnt werden. Dazu gehören, dass R gestartet werden musste, bestimmte Pakete benötigt wurden oder dass die Daten importiert wurden, bevor die Analyse begann.
+
+- NEG Im Methodenteil sollten nicht die *Details des Vorgehens während der Analyse* erläutert werden, die dann im Ergebnisteil berichtet werden, da *redundant.* So ist es nicht sinnvoll, im Methodenteil zu erläutern, dass Summenwerte berechnet wurden und diese dann im Ergebnisteil vorzustellen. Auch dass Annahmen der eingesetzten Verfahren (z.B. Normalverteilung) überprüft wurde, braucht nicht im Methodenteil erwähnt zu werden, da die Ergebnisse ja im Ergebnisteil vorgestellt werden.
 
 
-
-### Allgemeine Beurteilung der R-/Python-Kompetenz (xxrkomp xxrcomp)
+### R-/Python-Kompetenz (xxrkomp xxrcomp)
 
 `+++`
 
@@ -2968,6 +2980,7 @@ Fehlinterpretationen:
 - POS Es wurde ein hohes Maß an Kompetenz im Umgang mit *Python* demonstriert.
 - POS Es wurden mehrere Programmiersprachen verwendet, etwa R und Python, was eine breite Kompetenz der Problemlösung demonstriert.
 
+- POS Ein (gewisses) Verständnis in Umgang mit *Regex* (Regular Expressions) für *String*-Verarbeitung wurde demonstriert.
 
 `000`
 
@@ -3086,6 +3099,7 @@ Fehlinterpretationen:
 `000`
 
 - POS-NEG In Quarto kann man einstellen, dass *Tabellen automatisch "schön" gedruckt werden*, s. [hier](https://quarto.org/docs/computations/r.html#data-frames).
+
 
 
 `---`
@@ -4375,6 +4389,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 - POS Der *Satzbau* ist *elegant*, insofern er durch Konjunktionen (und/oder andere Junktoren) wie "obwohl", "während" oder "gleichzeitig" interessante Gedankengefüge erstellt.
 
+- POS Der Text ist in *englischer Sprache* verfasst, was insofern wünschenswert ist, als dass es eine Übung in der Lingua Franca darstellt, was für das Berufsleben weitflächig nützlich ist.
 
 `---`
 
