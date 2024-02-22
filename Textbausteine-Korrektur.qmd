@@ -422,7 +422,7 @@ ausführlich genug vorgestellt?
 
 - NEG Der Abstract soll *nicht in der Gliederung* erscheinen.
 
-- NEG *"Meta-Aussagen"* folgender Art sind (im Abstract und auch andernorts) zu vermeiden: "Es wird das Design begründet", "Es werden die Hypothesen vorgestellt" etc. Viel besser ist es, die Inhalte dieser Aussagen anzugeben, etwa "Die zentrale Hypothese lautet, dass X zu Y führt" oder "Es handelt sich um ein kontrolliertes, randomisiertes Experiment", "Im Anschluss wurden die Daten analysiert", "Die Literatur wurde anfangs gesichtet". Zugespitzt formuliert: Aussagen der Art "Diese Studie hat eine Hypothese" sind *inhaltsarm* und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa "Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC", "Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer", "Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht".
+- NEG *"Meta-Aussagen"* folgender Art sind (im Abstract und auch andernorts) zu vermeiden: "Es wird das Design begründet", "Es werden die Hypothesen vorgestellt", "Implikationen werden diskutiert", etc. Besser ist es, die Inhalte dieser Aussagen anzugeben, etwa "Die zentrale Hypothese lautet, dass X zu Y führt" oder "Es handelt sich um ein kontrolliertes, randomisiertes Experiment", "Im Anschluss wurden die Daten analysiert", "Eine Limitation dieser Studie ist X". Zugespitzt formuliert: Aussagen der Art "Diese Studie hat eine Hypothese" sind *inhaltsarm* und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa: "Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC", "Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer", "Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht".
 
 - NEG Die *Forschungsfrage* geht aus dem Abstract nicht (klar) genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
 
@@ -2911,8 +2911,11 @@ Fehlinterpretationen:
 
 
 
+### Feature Engineering
 
+`---`
 
+- NEG Die prädiktive Leistung von Shallow-Learner steht und fällt mit dem *Feature Engineering*. Oder zumindest ist Feature Engineering oft eine notwendige Voraussetzung für prädiktive Güte (wenn auch nicht immer hinreichende Voraussetzung). Mit mehr Investition in das Feature Engineering hätten vermutlich bessere prädiktive Gütekennzahlen erreicht werden können. 
 
 
 
@@ -2979,6 +2982,8 @@ Fehlinterpretationen:
 - POS Es wurden *Verfahren/Funktionen in R angewendet, die nicht im Unterricht besprochen* wurden. Das lässt auf eine selbständige Arbeitsweise und gute Problemdurchdringung schließen.
 - POS Es wurde ein hohes Maß an Kompetenz im Umgang mit *Python* demonstriert.
 - POS Es wurden mehrere Programmiersprachen verwendet, etwa R und Python, was eine breite Kompetenz der Problemlösung demonstriert.
+
+- POS Ein gutes Verständnis in Umgang mit *Regex* (Regular Expressions) für *String*-Verarbeitung wurde demonstriert.
 
 - POS Ein (gewisses) Verständnis in Umgang mit *Regex* (Regular Expressions) für *String*-Verarbeitung wurde demonstriert.
 
@@ -4375,7 +4380,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 `+++`
 
-- POS Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". *Schwafeln* ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.
+- POS Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Weitschweifigkeit ist bei wissenschaftlichen Schriften ein grober Fehler und zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.
 
 
 
@@ -4409,7 +4414,7 @@ Der Gutachter beziffert seine Anforderung (für eine "gute" Leistung) für eine 
 
 - NEG In einem Forschungsbericht sollten Handlungen, die in der Vergangenheit liegen, mit einer *Vergangenheitsform* (Präteritum oder Perfekt) beschrieben werden ("Die Versuchspersonen wurden aufgeklärt über ..."). Aussagen hingegen, die zeitübergreifend oder aktuell gültig sind, sollten im Präsens formuliert werden ("Die Ergebnisse zeigen/implizieren/verdeutlichen ..."). Die Wahl der Zeitform wurde in der vorliegenden Arbeit nicht immer korrekt gewählt.
 
-- NEG Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.
+- NEG Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die *Prägnanz*: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, "Schwafeln". Weitschweifigkeit ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers "Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge" fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.
 
 
 - NEG Das Wort *"signifikant"* sollte nur in wohl abgewogenen Zusammenhängen angeführt werden. Die vorliegende Arbeit verwendet den Begriff nicht immer präzise genug.
