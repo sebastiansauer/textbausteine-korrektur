@@ -1117,6 +1117,8 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 - NEG Laut APA sind die Namen von Titeln von Werken (wie z.B. Namen von Zeitschriften) in *"Title Case"* zu setzen, d.h. *alle Wörter groß schreiben* bis auf auf kurze Konjunktionen, Artikel oder Präpositionen. Im *Literaturverzeichnis* hingegen gilt, dass der Titel eines Werks in "*Sentence Case*" zu setzen ist, d.h. nur Eigennamen werden groß geschrieben. Allerdings sollte diese Regeln nicht für deutsche Werke angewendet werden. Diese Regel zur Großschreibung ist in der vorliegenden Arbeit nicht (komplett) umgesetzt.
 
+- NEG Bestandteile eines Eintrags im Literaturverzeichnis sollten *nicht durchweg in Großschreibung* gesetzt sein.
+
 
 #### Literaturverzeichnis -- Beispiele/Blaupausen von Zitaten nach Typen
 
@@ -2930,20 +2932,6 @@ Fehlinterpretationen:
 
 
 
-### Literaturreview xxreview
-
-`---`
-
-- NEG Eine (un)systematische *Review-Arbeit* setzt deutlich *höhere Ansprüche* an den Überblick der Literatur als eine empirische Arbeit. Diesem Anspruch wird die vorliegende Arbeit nicht ausreichend gerecht.
-
-- NEG Die Gliederung einer Review-Arbeit ähnelt der einer empirischen Arbeit in dem Sinne, dass es auch einen *Methoden-Teil gibt*, der das Vorgehen erklärt und einem Ergebnis-Teil, der die Ergebnisse der Recherche darlegt. 
-
-- NEG Die Recherche-Methodik ist nicht detailliert genug geschildert. So fehlen Hinweise zu den Suchthemen oder -termen.
-
-- Ich empfehle, dass Sie sich näher mit den methodischen Spezifika der (un)systematischen Literaturrecherche bzw. dem Review befassen.
-
-
-
 ## Software zur Datenanalyse/R/RMarkdown (xxrrr) {#rrring}
 
 ### Explikation der Software und des Vorgehens
@@ -3380,11 +3368,39 @@ Fehlinterpretationen:
 
 `---`
 
-- NEG Der *Umfang* an analysierten Primärquellen ist *nicht hoch*, $n=??$.
-- NEG Der *Umfang* an analysierten Primärquellen ist *gering*, $n=??$.
+- NEG Der *Umfang* an analysierten Primärquellen ist *nicht hoch*, n=??.
+- NEG Der *Umfang* an analysierten Primärquellen ist *gering*, n=??.
+
+- NEG Die Ein-/Ausschlusskriterien wurden nicht (ausreichend) berichtet.
 
 
-- NEG Der Methodenteil hätte von einer Untergliederung in *Teilkapitel* profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskritierien und Datenbanken), Mengengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).
+- NEG Der Methodenteil hätte von einer Untergliederung in *Teilkapitel* profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskriterien und Datenbanken), Mengengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).
+
+- NEG Wesentlich für einen Review ist die *Zusammenschau* der Ergebnisse über alle relevanten berücksichtigen Literaturquellen hinweg. Nicht im Sinne eines Reviews ist es, partikuläre Befunde einzelner Studien aneinanderreihend aufzuzählen. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+- NEG Ein Beispiel für ein Thema des *Ergebnisteils* eines systematischen Reviews ist die *vergleichende Darstellung* der empirischen Unterstützung  konkurrierender Konzepte. Ein anderes Beispiel ist der konzeptionelle Vergleich der inhaltlichen Bestimmungsstücke  konkurrierender Konzepte. Weiterhin können Theorien, etwa in ihren kausalen oder kontextuellen Randbedingungen verglichen werden. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+- NEG Ein typisches Beispiel für ein Thema des Ergebnisteils eines systematischen Reviews ist die *vergleichende Analyse der Definition* eines Konzepts von Interesse aufgeschlüsselt nach Häufigkeit der Nennung in den Literaturquellen, ihrer Zentralität und ihren Zusammenhang mit anderen Begriffen. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+- NEG Wesentlich für eine Thesis mit der methodischen Herangehensweise eines systematischen Reviews ist, dass *im Theorieteil nicht den Ergebnissen der Recherche vorgegriffen* wird. Stattdessen wird im Theorieteil nur der Grundstock für die Leserinnen und Leser gelegt, um die Ergebnisse verstehen zu können.  Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.
+
+
+
+`---`
+
+- NEG Eine (un)systematische *Review-Arbeit* setzt deutlich *höhere Ansprüche* an den Überblick der Literatur als eine empirische Arbeit. Diesem Anspruch wird die vorliegende Arbeit *nicht ausreichend gerecht*.
+
+- NEG Die *Gliederung* einer Review-Arbeit ähnelt der einer empirischen Arbeit in dem Sinne, dass es auch einen *Methoden-Teil gibt*, der das Vorgehen erklärt und einem Ergebnis-Teil, der die Ergebnisse der Recherche darlegt. Dieser Ergebnisteil ist ausführlich zu gestalten.
+
+- NEG Die *Recherche-Methodik* ist *nicht detailliert* genug geschildert. So fehlen Hinweise zu den Suchthemen oder -termen.
+
+- NEG Ein substanzieller Mangel dieser Arbeit ist die *kurze*, bruchstückhafte *Darstellung* der *Ergebnisse* des *systematischen Reviews*. Kern der Studie sollte die Darstellung der Ergebnisse des Reviews sein. Allerdings ist diese Darstellung sehr kurz; wesentliche Aspekte bleiben außen vor.
+
+
+`!!!`
+
+- TIP Ich empfehle, dass Sie sich näher mit den methodischen Spezifika der (un)systematischen Literaturrecherche bzw. dem Review befassen.
+
 
 
 

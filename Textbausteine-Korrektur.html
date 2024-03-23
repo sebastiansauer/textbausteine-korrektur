@@ -232,7 +232,7 @@ window.Quarto = {
   <li><a href="#tuning" id="toc-tuning" class="nav-link" data-scroll-target="#tuning"><span class="header-section-number">5.9.3</span> Tuning</a></li>
   <li><a href="#resampling" id="toc-resampling" class="nav-link" data-scroll-target="#resampling"><span class="header-section-number">5.9.4</span> Resampling</a></li>
   <li><a href="#interpretierbarkeit" id="toc-interpretierbarkeit" class="nav-link" data-scroll-target="#interpretierbarkeit"><span class="header-section-number">5.9.5</span> Interpretierbarkeit</a></li>
-  <li><a href="#literaturreview-xxreview" id="toc-literaturreview-xxreview" class="nav-link" data-scroll-target="#literaturreview-xxreview"><span class="header-section-number">5.9.6</span> Literaturreview xxreview</a></li>
+  <li><a href="#feature-engineering" id="toc-feature-engineering" class="nav-link" data-scroll-target="#feature-engineering"><span class="header-section-number">5.9.6</span> Feature Engineering</a></li>
   </ul></li>
   <li><a href="#rrring" id="toc-rrring" class="nav-link" data-scroll-target="#rrring"><span class="header-section-number">5.10</span> Software zur Datenanalyse/R/RMarkdown (xxrrr)</a>
   <ul class="collapse">
@@ -374,7 +374,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">19. Februar 2024</p>
+      <p class="date">23. März 2024</p>
     </div>
   </div>
   
@@ -637,7 +637,7 @@ q {
 <li><p>NEG Der Abstract ist recht <em>knapp</em> gehalten und hätte von ausführlicherer Darstellung profitiert.</p></li>
 <li><p>NEG Die erste Zeile des Abstracts ist <em>nicht einzurücken</em>; dies entspricht der Regel, dass der erste Absatz eines Abschnittes/Kapitels grundsätzlich nicht einzurücken ist.</p></li>
 <li><p>NEG Der Abstract soll <em>nicht in der Gliederung</em> erscheinen.</p></li>
-<li><p>NEG <em>“Meta-Aussagen”</em> folgender Art sind (im Abstract und auch andernorts) zu vermeiden: “Es wird das Design begründet”, “Es werden die Hypothesen vorgestellt” etc. Viel besser ist es, die Inhalte dieser Aussagen anzugeben, etwa “Die zentrale Hypothese lautet, dass X zu Y führt” oder “Es handelt sich um ein kontrolliertes, randomisiertes Experiment”, “Im Anschluss wurden die Daten analysiert”, “Die Literatur wurde anfangs gesichtet”. Zugespitzt formuliert: Aussagen der Art “Diese Studie hat eine Hypothese” sind <em>inhaltsarm</em> und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa “Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC”, “Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer”, “Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht”.</p></li>
+<li><p>NEG <em>“Meta-Aussagen”</em> folgender Art sind (im Abstract und auch andernorts) zu vermeiden: “Es wird das Design begründet”, “Es werden die Hypothesen vorgestellt”, “Implikationen werden diskutiert”, etc. Besser ist es, die Inhalte dieser Aussagen anzugeben, etwa “Die zentrale Hypothese lautet, dass X zu Y führt” oder “Es handelt sich um ein kontrolliertes, randomisiertes Experiment”, “Im Anschluss wurden die Daten analysiert”, “Eine Limitation dieser Studie ist X”. Zugespitzt formuliert: Aussagen der Art “Diese Studie hat eine Hypothese” sind <em>inhaltsarm</em> und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa: “Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC”, “Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer”, “Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht”.</p></li>
 <li><p>NEG Die <em>Forschungsfrage</em> geht aus dem Abstract nicht (klar) genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.</p></li>
 <li><p>NEG Der Abstract versäumt es, auf die <em>zugrundeliegende Theorie </em>(d.h. die Erklärung im Sinne von Ursachen und/oder Randbedingungen) der Forschungsfrage einzugehen. Forschungsfragen und/oder Hypothesen sollten aber nicht im “<em>luftleeren</em>” Raum stehen, sondern durch eine Theorie erklärt werden. Lautet zum Beispiel die Forschungsfrage “A führt zu B”, so sollte eine Theorie herangezogen werden, um zu erklären, warum A zu B führt, unter welchen Umständen (Randbedingungen) A zu B führt oder vermittelt über welche Prozesse A zu B führt. Die Theorie zu detaillieren (und mit empirischen Belegen glaubhaft zu machen) ist dann Aufgabe des Theorieteils. Dieser Punkt wurde in der vorliegenden Arbeit nicht (ausführlich genug) berücksichtigt.</p></li>
 <li><p>NEG Hinweise in der Diskussion oder im Abstract der Art <em>“weitere Forschung ist sinnvoll”</em>, “das Thema sollte weiter untersucht werden” etc. sind gering informativ; es gibt kaum eine Studie, bei der sich dieser Passus nicht anböte. Daher sollte dieser Hinweis unterbleiben bzw. (besser) durch eine <em>Präzisierung</em> der nun angeratenen Forschung ersetzt werden.</p></li>
@@ -1058,6 +1058,7 @@ q {
 <li><p>NEG <em>Zitiert man aus einem Kapitel einer Monografie</em>, so ist die ganze Monografie zu zitieren. Falsch ist die Zitation des Buchkapitels als wäre es Teil eines Herausgeberwerks.</p></li>
 <li><p>NEG Es ist anzumerken, dass <em>Verlagsnamen</em> in der von der APA (6. und 7. Auflage) vorgeschlagenen Form in Kurzform berichtet werden soll, also z.B. “Springer” und nicht “Springer Fachmedien Wiesbaden”. Dieser Punkt wurde in der vorliegenden Arbeit nicht konsequent umgesetzt.</p></li>
 <li><p>NEG Laut APA sind die Namen von Titeln von Werken (wie z.B. Namen von Zeitschriften) in <em>“Title Case”</em> zu setzen, d.h. <em>alle Wörter groß schreiben</em> bis auf auf kurze Konjunktionen, Artikel oder Präpositionen. Im <em>Literaturverzeichnis</em> hingegen gilt, dass der Titel eines Werks in “<em>Sentence Case</em>” zu setzen ist, d.h. nur Eigennamen werden groß geschrieben. Allerdings sollte diese Regeln nicht für deutsche Werke angewendet werden. Diese Regel zur Großschreibung ist in der vorliegenden Arbeit nicht (komplett) umgesetzt.</p></li>
+<li><p>NEG Bestandteile eines Eintrags im Literaturverzeichnis sollten <em>nicht durchweg in Großschreibung</em> gesetzt sein.</p></li>
 </ul>
 </section>
 <section id="literaturverzeichnis-beispieleblaupausen-von-zitaten-nach-typen" class="level4" data-number="4.9.2.4">
@@ -2250,14 +2251,11 @@ q {
 <li>NEG Mehr Interpretation des Vorgehens und der Interpretation der Ergebnisse würden die Analyse zugänglicher gestalten und mehr Nutzen beim Lesen generieren.</li>
 </ul>
 </section>
-<section id="literaturreview-xxreview" class="level3" data-number="5.9.6">
-<h3 data-number="5.9.6" class="anchored" data-anchor-id="literaturreview-xxreview"><span class="header-section-number">5.9.6</span> Literaturreview xxreview</h3>
+<section id="feature-engineering" class="level3" data-number="5.9.6">
+<h3 data-number="5.9.6" class="anchored" data-anchor-id="feature-engineering"><span class="header-section-number">5.9.6</span> Feature Engineering</h3>
 <p><code>---</code></p>
 <ul>
-<li><p>NEG Eine (un)systematische <em>Review-Arbeit</em> setzt deutlich <em>höhere Ansprüche</em> an den Überblick der Literatur als eine empirische Arbeit. Diesem Anspruch wird die vorliegende Arbeit nicht ausreichend gerecht.</p></li>
-<li><p>NEG Die Gliederung einer Review-Arbeit ähnelt der einer empirischen Arbeit in dem Sinne, dass es auch einen <em>Methoden-Teil gibt</em>, der das Vorgehen erklärt und einem Ergebnis-Teil, der die Ergebnisse der Recherche darlegt.</p></li>
-<li><p>NEG Die Recherche-Methodik ist nicht detailliert genug geschildert. So fehlen Hinweise zu den Suchthemen oder -termen.</p></li>
-<li><p>Ich empfehle, dass Sie sich näher mit den methodischen Spezifika der (un)systematischen Literaturrecherche bzw. dem Review befassen.</p></li>
+<li>NEG Die prädiktive Leistung von Shallow-Learner steht und fällt mit dem <em>Feature Engineering</em>. Oder zumindest ist Feature Engineering oft eine notwendige Voraussetzung für prädiktive Güte (wenn auch nicht immer hinreichende Voraussetzung). Mit mehr Investition in das Feature Engineering hätten vermutlich bessere prädiktive Gütekennzahlen erreicht werden können.</li>
 </ul>
 </section>
 </section>
@@ -2537,9 +2535,25 @@ q {
 </ul>
 <p><code>---</code></p>
 <ul>
-<li><p>NEG Der <em>Umfang</em> an analysierten Primärquellen ist <em>nicht hoch</em>, <span class="math inline">\(n=??\)</span>.</p></li>
-<li><p>NEG Der <em>Umfang</em> an analysierten Primärquellen ist <em>gering</em>, <span class="math inline">\(n=??\)</span>.</p></li>
-<li><p>NEG Der Methodenteil hätte von einer Untergliederung in <em>Teilkapitel</em> profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskritierien und Datenbanken), Mengengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).</p></li>
+<li><p>NEG Der <em>Umfang</em> an analysierten Primärquellen ist <em>nicht hoch</em>, n=??.</p></li>
+<li><p>NEG Der <em>Umfang</em> an analysierten Primärquellen ist <em>gering</em>, n=??.</p></li>
+<li><p>NEG Die Ein-/Ausschlusskriterien wurden nicht (ausreichend) berichtet.</p></li>
+<li><p>NEG Der Methodenteil hätte von einer Untergliederung in <em>Teilkapitel</em> profitiert, etwa in Ansatz, Suchstrategie (inkl. Ein-/Ausschlusskriterien und Datenbanken), Mengengerüst (Prisma-Standard), verwendete Software (inkl. Versionsnummern).</p></li>
+<li><p>NEG Wesentlich für einen Review ist die <em>Zusammenschau</em> der Ergebnisse über alle relevanten berücksichtigen Literaturquellen hinweg. Nicht im Sinne eines Reviews ist es, partikuläre Befunde einzelner Studien aneinanderreihend aufzuzählen. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.</p></li>
+<li><p>NEG Ein Beispiel für ein Thema des <em>Ergebnisteils</em> eines systematischen Reviews ist die <em>vergleichende Darstellung</em> der empirischen Unterstützung konkurrierender Konzepte. Ein anderes Beispiel ist der konzeptionelle Vergleich der inhaltlichen Bestimmungsstücke konkurrierender Konzepte. Weiterhin können Theorien, etwa in ihren kausalen oder kontextuellen Randbedingungen verglichen werden. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.</p></li>
+<li><p>NEG Ein typisches Beispiel für ein Thema des Ergebnisteils eines systematischen Reviews ist die <em>vergleichende Analyse der Definition</em> eines Konzepts von Interesse aufgeschlüsselt nach Häufigkeit der Nennung in den Literaturquellen, ihrer Zentralität und ihren Zusammenhang mit anderen Begriffen. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.</p></li>
+<li><p>NEG Wesentlich für eine Thesis mit der methodischen Herangehensweise eines systematischen Reviews ist, dass <em>im Theorieteil nicht den Ergebnissen der Recherche vorgegriffen</em> wird. Stattdessen wird im Theorieteil nur der Grundstock für die Leserinnen und Leser gelegt, um die Ergebnisse verstehen zu können. Dieser Punkt ist in der vorliegenden Arbeit nicht ausreichend berücksichtigt.</p></li>
+</ul>
+<p><code>---</code></p>
+<ul>
+<li><p>NEG Eine (un)systematische <em>Review-Arbeit</em> setzt deutlich <em>höhere Ansprüche</em> an den Überblick der Literatur als eine empirische Arbeit. Diesem Anspruch wird die vorliegende Arbeit <em>nicht ausreichend gerecht</em>.</p></li>
+<li><p>NEG Die <em>Gliederung</em> einer Review-Arbeit ähnelt der einer empirischen Arbeit in dem Sinne, dass es auch einen <em>Methoden-Teil gibt</em>, der das Vorgehen erklärt und einem Ergebnis-Teil, der die Ergebnisse der Recherche darlegt. Dieser Ergebnisteil ist ausführlich zu gestalten.</p></li>
+<li><p>NEG Die <em>Recherche-Methodik</em> ist <em>nicht detailliert</em> genug geschildert. So fehlen Hinweise zu den Suchthemen oder -termen.</p></li>
+<li><p>NEG Ein substanzieller Mangel dieser Arbeit ist die <em>kurze</em>, bruchstückhafte <em>Darstellung</em> der <em>Ergebnisse</em> des <em>systematischen Reviews</em>. Kern der Studie sollte die Darstellung der Ergebnisse des Reviews sein. Allerdings ist diese Darstellung sehr kurz; wesentliche Aspekte bleiben außen vor.</p></li>
+</ul>
+<p><code>!!!</code></p>
+<ul>
+<li>TIP Ich empfehle, dass Sie sich näher mit den methodischen Spezifika der (un)systematischen Literaturrecherche bzw. dem Review befassen.</li>
 </ul>
 </section>
 <section id="beurteilung-des-methoden-ergebnisteils-insgesamt-xxmethgesamt" class="level2" data-number="5.16">
@@ -3178,7 +3192,7 @@ q {
 <h3 data-number="6.13.2" class="anchored" data-anchor-id="klaresprache"><span class="header-section-number">6.13.2</span> Sprachlicher Ausdruck (Klarheit) – Kommentare</h3>
 <p><code>+++</code></p>
 <ul>
-<li><p>POS Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die <em>Prägnanz</em>: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, “Schwafeln”. <em>Schwafeln</em> ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers “Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge” fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.</p></li>
+<li><p>POS Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die <em>Prägnanz</em>: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, “Schwafeln”. Weitschweifigkeit ist bei wissenschaftlichen Schriften ein grober Fehler und zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers “Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge” fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies gut um.</p></li>
 <li><p>POS Ein <em>Zitat</em> oder mehrere Zitate wurden in gewinnbringender, <em>schmückender</em> Form verwendet.</p></li>
 <li><p>POS <em>Rhetorische</em> Fragen wurden in <em>sinnvoller</em> (eleganter) Art und Weise verwendet.</p></li>
 <li><p>POS Die Sprache in der vorliegenden Arbeit zeichnet sich durch eine angenehm <em>geringen Teil an Füllwörtern</em> (“nämlich”, “nun”, “gerade deshalb”, “letztlich”) und überflüssigen Adjektiven (“sehr stringent”, “besonders aufwändig”, “schwere Verwüstung”) aus.</p></li>
@@ -3193,7 +3207,7 @@ q {
 <li><p>NEG Zwar kann man es mit <em>politisch korrekter Sprache</em> auch übertreiben, aber nur von Männern zu reden, wenn es um Frauen und Männer geht, führt eine unnötige Verzerrung und Verengung des Blickwinkels an (z. B. “Hier muss man einen alleinstehenden Mann von einem Familienvater unterscheiden” - wenn man auch eine alleinstehende Frau von einer Mutter unterscheiden müsste).</p></li>
 <li><p>NEG <em>Abkürzungen</em> wurden verwendet, <em>ohne dass sie vorab definiert</em> wurden; Abkürzungen sollten zuerst definiert werden, bevor sie verwendet werden.</p></li>
 <li><p>NEG In einem Forschungsbericht sollten Handlungen, die in der Vergangenheit liegen, mit einer <em>Vergangenheitsform</em> (Präteritum oder Perfekt) beschrieben werden (“Die Versuchspersonen wurden aufgeklärt über …”). Aussagen hingegen, die zeitübergreifend oder aktuell gültig sind, sollten im Präsens formuliert werden (“Die Ergebnisse zeigen/implizieren/verdeutlichen …”). Die Wahl der Zeitform wurde in der vorliegenden Arbeit nicht immer korrekt gewählt.</p></li>
-<li><p>NEG Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die <em>Prägnanz</em>: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, “Schwafeln”. Schwafeln ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige (!) Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers “Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge” fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.</p></li>
+<li><p>NEG Wesentliches Merkmal wissenschaftlicher (und technischer) Sprache ist die <em>Prägnanz</em>: Viel Information soll auf wenig Raum wiedergegeben werden. Das Gegenteil wäre, vulgo, “Schwafeln”. Weitschweifigkeit ist bei wissenschaftlichen Schriften ein grober Fehler und immer zu vermeiden. Außerdem bemühe man sich, die Dinge so einfach wie möglich, ohne unnötige Komplexität darzulegen. Unnötige Fremdwörter sind also zu vermeiden. Das Wort Schopenhauers “Man gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge” fasst diese Idee schön in Worte. Die vorliegende Arbeit setzt dies nicht konsequent (genug) um.</p></li>
 <li><p>NEG Das Wort <em>“signifikant”</em> sollte nur in wohl abgewogenen Zusammenhängen angeführt werden. Die vorliegende Arbeit verwendet den Begriff nicht immer präzise genug.</p></li>
 <li><p>NEG <em>Füllwörter sollten vermieden</em> werden (“also”, “nun”, “etwas”, “genau”, “gerade”, “gewiss”, “im Prinzip”, “ja”, “letztlich” “sogar”, “streng”, “zudem”, usw.). In der vorliegenden Arbeit finden sich davon einige.</p></li>
 <li><p>NEG Die Sprache klingt in Teilen nach “<em>Amtsdeutsch</em>”: “Durch die Begehungsvorschriftinkraftretung wird ein Fortschritt erzielt”. Besser: “Die Maßnahme brachte Fortschritte in XXX”.</p></li>
