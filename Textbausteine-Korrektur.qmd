@@ -422,7 +422,10 @@ ausführlich genug vorgestellt?
 
 - NEG Der Abstract soll *nicht in der Gliederung* erscheinen.
 
-- NEG *"Meta-Aussagen"* folgender Art sind (im Abstract und auch andernorts) zu vermeiden: "Es wird das Design begründet", "Es werden die Hypothesen vorgestellt", "Implikationen werden diskutiert", etc. Besser ist es, die Inhalte dieser Aussagen anzugeben, etwa "Die zentrale Hypothese lautet, dass X zu Y führt" oder "Es handelt sich um ein kontrolliertes, randomisiertes Experiment", "Im Anschluss wurden die Daten analysiert", "Eine Limitation dieser Studie ist X". Zugespitzt formuliert: Aussagen der Art "Diese Studie hat eine Hypothese" sind *inhaltsarm* und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Etwa: "Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC", "Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer", "Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht".
+
+
+
+- NEG *"Meta-Aussagen"* sind (im Abstract und auch andernorts) zu vermeiden: Generische Beispiele für solche Meta-Aussagen, die zwar nicht unbedingt im gleichen Wortlaut in der vorliegenden Arbeit zu finden, aber dennoch in vergleichbarer Form in der vorliegenden Arbeit zu finden sind, sind im Folgenden aufgeführt. Diese Beispiele sollen helfen, den Wesenskern solcher Meta-Aussagen besser zu verstehen und auf dieser Basis künftig präziser zu formulieren. "Es wird das Design begründet", "Es werden die Hypothesen vorgestellt", "Implikationen werden diskutiert", etc. Besser ist es, die Inhalte dieser Aussagen anzugeben, etwa "Die zentrale Hypothese lautet, dass X zu Y führt" oder "Es handelt sich um ein kontrolliertes, randomisiertes Experiment", "Im Anschluss wurden die Daten analysiert", "Eine Limitation dieser Studie ist X". Zugespitzt formuliert: Aussagen der Art "Diese Studie hat eine Hypothese" sind *inhaltsarm* und daher in einer wissenschaftlichen Arbeit fehl am Platz. In einer wissenschaftlichen Arbeit sollten Sie stets auf präzise, inhaltsdichte Formulierungen achten. Beispiele für solche präziseren Aussagen sind: "Diese Arbeit beruft sich auf Theorie XYZ, die besagt ABC", "Frauen parkten im Schnitt 10 Sekunden schneller ein als Männer", "Die zentrale Hypothese besagt, dass Lernen die Klausurnote erhöht". *Ein konkretes Beispiel* für solche Meta-Aussagen in der vorliegenden Arbeit ist: "Basierend auf den Ergebnissen wurden Implikationen abgeleitet, anhand derer die Arbeitszufriedenheit weiterhin gesteigert werden kann" (Abstract). 
 
 - NEG Die *Forschungsfrage* geht aus dem Abstract nicht (klar) genug hervor. Da die Forschungsfrage vermutlich der wichtigste Teil des bzw. die wichtigste Information zum wissenschaftlichen Berichts darstellt, sollte die Forschungsfrage auf jeden Fall klar formuliert werden. Ein Fehler der Forschungsfrage in diesem Sinne ist ein klarer Fehler.
 
@@ -441,7 +444,7 @@ ausführlich genug vorgestellt?
 
 - NEG Der *Abstract* sollte kurz auf die zugrundeliegende *Theorie* der *Forschungsfrage* eingehen.
 
-
+- NEG Laut APA7 ist der *Abstract nach der Titelseite und vor der Gliederung* zu platzieren. Dieser Punkt wurde in der vorliegenden Arbeit nicht umgesetzt.
 
 
 
@@ -591,7 +594,7 @@ ausführlich genug vorgestellt?
 
 - NEG Die Seiten sind *nicht zwei- bzw. doppelseitig, sondern einseitig* gestaltet, was dem Lesefluss abträglich ist, zumindest in gedruckter Form. Zweiseitig formatierte (längere) Texte sind (den einseitig formatierten) typografisch überlegen und sollten daher bevorzugt werden.
 
-
+- NEG Alle Seiten einer entsprechenden Arbeit sollten nummeriert sein. Dieser Punkt ist in der vorliegenden Arbeit nicht komplett umgesetzt.
 
 
 
@@ -830,6 +833,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 
 
 `+++`
+
+- POS Es wurde korrekt gekoppelt, d.h. die Zusammenschreibung von Wörtern war korrekt (z.B. "Human-Robot-Interaktion").
+
 
 - POS Die unterschiedliche Verwendung von *Bindestrich* (- kurz) und *Gedankenstrich*(-- lang) wurde zumeist (oder immer) korrekt erkannt.
 
@@ -1118,6 +1124,9 @@ Der Gutachter beziffert seine Anforderung an das grobe *Mengengerüst* im Hinbli
 - NEG Laut APA sind die Namen von Titeln von Werken (wie z.B. Namen von Zeitschriften) in *"Title Case"* zu setzen, d.h. *alle Wörter groß schreiben* bis auf auf kurze Konjunktionen, Artikel oder Präpositionen. Im *Literaturverzeichnis* hingegen gilt, dass der Titel eines Werks in "*Sentence Case*" zu setzen ist, d.h. nur Eigennamen werden groß geschrieben. Allerdings sollte diese Regeln nicht für deutsche Werke angewendet werden. Diese Regel zur Großschreibung ist in der vorliegenden Arbeit nicht (komplett) umgesetzt.
 
 - NEG Bestandteile eines Eintrags im Literaturverzeichnis sollten *nicht durchweg in Großschreibung* gesetzt sein.
+
+- NEG Ein (technischer) Bericht sollte, laut APA (s. Kap. 10.4, APA7) die DOI oder die URL enthalten. In der vorliegenden Arbeit ist dies nicht durchgehend der Fall.
+
 
 
 #### Literaturverzeichnis -- Beispiele/Blaupausen von Zitaten nach Typen
@@ -4113,6 +4122,7 @@ Fehlinterpretationen:
 
 - NEG Der *Theorieteil beinhaltet Teile, die nicht Gegenstand der Forschungsfrage sind*. Im Gegensatz dazu sollte der Theorieteil "nur" die Forschungsfrage erläutern (und umgekehrt alle Aspekte der Forschungsfrage). Die vorliegende Arbeit setzt diesen Punkt nicht ausreichend um.
 
+- NEG Der *Theorieteil* einer entsprechenden Arbeit sollte *nah an der Forschungsfrage ausgerichtet* sein. Dies beinhaltet vor allem die Theorien, die den Forschungsfragen oder Hypothesen zugrunde liegen. Weiterhin bietet es sich an, relevante Konzepte zu definieren. Auf *andere Erläuterungen*, die weiter weg führen, sollte *verzichtet* werden oder zumindest nur kurz eingegangen werden.
 
 ### Drei Teile des Theorieteils (xxdreiteile)
 
