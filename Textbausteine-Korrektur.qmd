@@ -9,7 +9,6 @@ format:
     highlight: pygments
     #toc_float:
     #  collapsed: true
-
     toc: true
     toc-location: left
 
