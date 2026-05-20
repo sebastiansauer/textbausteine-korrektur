@@ -36,3 +36,8 @@ untitled*.*
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+*_files/
+*.html
+
+
